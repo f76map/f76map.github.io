@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<meta name="google-site-verification" content="T4HuCWbUCrPnDBR2mHvmOlPMB8ARZ_u76PFaMySW1bE" />
+    <title>[F76 Map][by Farget][for Players]</title>
+	<meta name="description" content="Интерактивная карта по игре Fallout 76. Есть локации, сокровища, места случайных встреч, месторождения, журналы, пупсы, а так же поиск точек по вашим введенным координатам.">
+	<meta name="keywords" content="Fallout 76 map, F76 map, Fallout 76 карта, Fallout 76 интерактивная карта, Fallout 76 локации, Fallout 76 ресурсы, Fallout 76 координаты, Fallout 76 сокровища, Fallout 76 случайные встречи, Fallout 76 журналы, Fallout 76 пупсы">
+	<link rel="canonical" href="https://f76map.topcen.org"/>
+	<link rel="stylesheet" href="css/leaflet.css" />
+    <script src="scripts/leaflet.js"></script>
+	<link rel="stylesheet" href="css/L.Control.MousePosition.css" />
+    <script src="scripts/L.Control.MousePosition.js"></script>
+	<link rel="stylesheet" href="css/switchbutton.css" />
+	<script src="scripts/jquery-3.4.0.min.js"></script>
+	<script src="scripts/leaflet-search.js"></script>
+	<link rel="stylesheet" href="css/leaflet-search.css" />
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138965528-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-138965528-1');
+	</script>
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	ym(53420197, "init", {
+		clickmap:true,
+		trackLinks:true,
+	accurateTrackBounce:true
+	});
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/53420197" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+    <style>
+		html, body
+		{
+			width: 100%;
+			height: 100%;
+			margin: 0;
+		}
+		#search
+		{
+			width: 404px;
+			height: 70px;
+			position: absolute;
+			bottom: 5px;
+			left: 10px;
+			z-index: 99999;
+			background-color: #FFFFFF;
+			padding: 5px 5px;
+			box-shadow: 0 0 5px #bbb;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			opacity: 0.85;
+		}
+		#searchX
+		{
+			position: absolute;
+			right: 240px;
+			font-size: 16pt;
+		}
+		#searchY
+		{
+			position: absolute;
+			top: 45px;
+			right: 240px;
+			font-size: 16pt;
+		}
+		#searchB1 {position: absolute; left: 180px;}
+		#searchB2 {position: absolute; top: 45px; left: 180px;}
+		#searchB3 {position: absolute; right: 4px;}
+		#lng, #lat
+		{
+			width: 120px;
+			height: 29px;
+			border:1px solid #3c3c3c;
+			border-radius: 5px;
+			padding: 0 10px;
+			font-size: 12pt;
+		}
+		#b1, #b2, #b3
+		{
+			height: 31px;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			cursor:pointer;
+			font-size: 10pt;
+			background-color:#FFFFFF;
+		}
+		#b1 {width: 89px;}
+		#b2 {width: 230px;}		
+		#b3 {width: 123px;}	
+        #map
+        {
+            background-color: #3c3c3c;
+            width: 100%;
+            height: 100%;
+        }
+		#changemap
+		{
+			position: absolute;
+			width: 257px;
+			height: 137px;
+			left: 10px;
+			bottom: 90px;
+			z-index: 99999;
+			background-color: #FFFFFF;
+			padding: 5px 5px;
+			box-shadow: 0 0 5px #bbb;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			opacity: 0.85;
+		}
+		#b4, #b5, #b6, #b7
+		{
+			position: absolute;
+			width: 28px;
+			height: 28px;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			font-weight: bolder;
+			font-size: 12pt;
+			cursor:pointer;
+		}
+		#b4 {top: 25px; background-color:#3c3c3c; color: #FFFFFF;}
+		#b5 {top: 55px; background-color:#FFFFFF;}
+		#b6 {top: 85px; background-color:#FFFFFF;}
+		#b7 {top: 115px; background-color:#FFFFFF;}
+		#changemaptext {position: absolute; left: 87px; }
+		#changemaptext1, #changemaptext2, #changemaptext3, #changemaptext4 {position: absolute; left: 40px;}
+		#changemaptext1 {top: 30px;}
+		#changemaptext2 {top: 60px;}
+		#changemaptext3 {top: 90px;}
+		#changemaptext4 {top: 120px;}
+		#sidebar
+		{
+			position: absolute;
+			bottom: 65px;
+			left: -433px;
+			width: 431px;
+			height: 555px;
+			background-color:#FFFFFF;
+			z-index: 800;
+			opacity: 0.85;
+			transition: all 0.5s ease-in-out;
+			-webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+			-moz-transition: all 0.5s ease-in-out; /** Firefox **/
+			-o-transition: all 0.5s ease-in-out; /** Opera **/
+			border-radius:0px 7px 7px 0px;
+			border:1px solid #3c3c3c;
+		}
+		#sidebarbutton
+		{
+			position: absolute;
+			left: 442px;
+			bottom: 90px;
+			z-index: 801;
+			transition: all 0.5s ease-in-out;
+			-webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+			-moz-transition: all 0.5s ease-in-out; /** Firefox **/
+			-o-transition: all 0.5s ease-in-out; /** Opera **/
+		}
+		#sb0
+		{
+			width: 30px;
+			height: 148px;
+			background-color:#FFFFFF;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			box-shadow: 0 0 5px #bbb;
+			padding: 0;
+			cursor:pointer;
+		}
+		.buttoninfo
+		{
+			position: absolute;
+			top: 59px;
+			left: 244px;
+			z-index: 2;
+		}
+		#discord_f76hub
+		{
+			position: absolute;
+			bottom: 86px;
+			left: 282px;
+		}
+		#f76hub
+		{
+			width: 95px;
+			height: 56px;
+			background-color:#FFFFFF;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			box-shadow: 0 0 5px #bbb;
+			padding: 7px 7px 3px 7px;
+			cursor:pointer;
+		}
+		.switch {z-index: 2;}
+		
+		#switch1 {top: 10px; left: 175px;}
+		#switch2 {top: 33px; left: 385px;}
+		#switch3 {top: 56px; left: 385px;}
+		#switch4 {top: 79px; left: 385px;}
+		#switch5 {top: 102px; left: 385px;}
+		#switch6 {top: 33px; left: 175px;}
+		#switch7 {top: 56px; left: 175px;}
+		
+		#switch8 {top: 158px; left: 71px;}
+		#switch9 {top: 181px; left: 71px;}
+		#switch10 {top: 204px; left: 71px;}
+		#switch11 {top: 227px; left: 71px;}
+		#switch12 {top: 250px; left: 71px;}
+		
+		#switch13 {top: 158px; left: 192px;}
+		#switch14 {top: 181px; left: 192px;}
+		#switch15 {top: 204px; left: 192px;}
+		#switch16 {top: 227px; left: 192px;}
+		#switch17 {top: 250px; left: 192px;}
+		
+		#switch18 {top: 158px; left: 385px;}
+		#switch19 {top: 181px; left: 385px;}
+		#switch20 {top: 204px; left: 385px;}
+		#switch21 {top: 227px; left: 385px;}
+		#switch22 {top: 250px; left: 385px;}
+		
+		#switch23 {top: 79px; left: 175px;}
+		
+		.text {position: absolute; z-index: 2;}
+		
+		#text1 {top: 10px; left: 20px;}
+		#text2 {top: 10px; left: 252px;}
+		#text3 {top: 33px; left: 300px;}
+		#text4 {top: 56px; left: 300px;}
+		#text5 {top: 79px; left: 300px;}
+		#text6 {top: 102px; left: 300px;}
+		#text7 {top: 33px; left: 20px;}
+		#text8 {top: 56px; left: 20px;}
+		
+		#text9 {top: 135px; left: 163px;}
+		
+		#text10 {top: 158px; left: 20px;}
+		#text11 {top: 181px; left: 20px;}
+		#text12 {top: 204px; left: 20px;}
+		#text13 {top: 227px; left: 20px;}
+		#text14 {top: 250px; left: 20px;}
+		
+		#text15 {top: 158px; left: 129px;}
+		#text16 {top: 181px; left: 129px;}
+		#text17 {top: 204px; left: 129px;}
+		#text18 {top: 227px; left: 129px;}
+		#text19 {top: 250px; left: 129px;}
+		
+		#text20 {top: 158px; left: 250px;}
+		#text21 {top: 181px; left: 250px;}
+		#text22 {top: 204px; left: 250px;}
+		#text23 {top: 227px; left: 250px;}
+		#text24 {top: 250px; left: 250px;}
+		
+		#text25 {top: 79px; left: 20px;}
+		
+		.box {position: absolute; border-radius:7px; border:1px solid #3c3c3c; box-shadow: 0 0 5px #bbb; z-index: 1;}
+		
+		#box1 {height: 97px; width: 204px; top: 5px; left:10px;}
+		#box2 {height: 120px; width: 204px; top: 5px; left:220px;}
+		#box3 {height: 143px; width: 414px; top: 130px; left:10px;}
+		
+		.allcheckbox{position: absolute; top:278px; left: 10px;}
+		#allcheckboxbut
+		{
+		height: 35px;
+		width: 416px;
+		background-color:#FFFFFF;
+		border-radius:7px;
+		border:1px solid #3c3c3c;
+		box-shadow: 0 0 5px #bbb;
+		font-family: Geneva;
+		font-size: 12pt;
+		cursor:pointer;
+		}
+		.mapinfo
+		{
+		position: absolute;
+		bottom:156px;
+		left: 282px;
+		}
+		#mapinfoid
+		{
+			width: 95px;
+			height: 63px;
+			background-color:#FFFFFF;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			box-shadow: 0 0 5px #bbb;
+			padding: 7px 7px 7px 7px;
+			cursor:pointer;
+		}
+		#zatemnenie {
+			background: rgba(102, 102, 102, 0.5);
+			width: 100%; height: 100%;
+			position: absolute;
+			top: 0; left: 0;
+			display: none;
+			z-index: 10000;
+		}
+		#okno {
+			width: 424px; height: 330px;
+			padding: 15px;
+			border:1px solid #3c3c3c;
+			border-radius: 7px;
+			position: absolute;
+			top: 0; right: 0; bottom: 0; left: 0;
+			margin: auto;
+			background: #FFFFFF;
+		}
+		.closebuttoninfo {position: relative; text-align: center; margin: 0 auto;}
+		.closebuttoninfo:hover {background-color: #3c3c3c; color: #FFFFFF;}
+		#closebuttoninfo
+		{
+			display: block;
+			width: 130px;
+			height: 30px;
+			border:1px solid #3c3c3c;
+			border-radius: 7px;
+			cursor:pointer;
+			font-size: 12pt;
+		}
+		p {text-indent: 20px; margin: 10px 0;}
+		h2 {font-size: 12pt; text-align: center; margin: 0;}
+    </style>
+</head>
+<body onload="initMap()">
+<div id="map"></div>
+<script type="application/javascript">
+	var bounds = [[-290730,-291730], [292230,291255]];
+    var map = new L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: -10,
+      maxZoom: -4,
+      maxBoundsViscosity: 0.5,
+      maxBounds: bounds
+    });
+    var image = L.imageOverlay('css/images/map1.jpg', bounds).addTo(map);
+    map.fitBounds(bounds);
+    map.setZoom(-9);
+    map.zoomControl.setPosition('topright');
+	var allmarkers = L.layerGroup().addTo(map);
+	var marker = null;
+	function but1() {
+		if (marker !== null) {
+		map.removeLayer(marker);
+		}
+		allmarkers.clearLayers();
+	var lat = document.getElementById("lat").value;
+	var lng = document.getElementById("lng").value;
+	marker = L.marker([lat, lng]).addTo(allmarkers);
+	marker.bindPopup("<b>Я тут!</b>" + "<br>X: " + lng + "<br>Y: " + lat).openPopup();
+	map.panTo([lat, lng]);
+	};
+	function but2() {
+	var lat = document.getElementById("lat").value;
+	var lng = document.getElementById("lng").value;
+	marker = new L.marker([lat, lng]).addTo(allmarkers);
+	marker.bindPopup("<b>Я тут!</b>" + "<br>X: " + lng + "<br>Y: " + lat).openPopup();
+	map.panTo([lat, lng]);
+	};
+	function but3() {
+	map.removeLayer(marker);
+	allmarkers.clearLayers();
+	};
+	function but4() {
+	map.removeLayer(image);
+	image = L.imageOverlay('css/images/map1.jpg', bounds).addTo(map);
+	b4.style.background = '#3c3c3c';
+	b5.style.background = '#FFFFFF';
+	b6.style.background = '#FFFFFF';
+	b7.style.background = '#FFFFFF';
+	b4.style.color = '#FFFFFF';
+	b5.style.color = '#000000';
+	b6.style.color = '#000000';
+	b7.style.color = '#000000';
+	};
+	function but5() {
+	map.removeLayer(image);
+	image = L.imageOverlay('css/images/map2.jpg', bounds).addTo(map);
+	b4.style.background = '#FFFFFF';
+	b5.style.background = '#3c3c3c';
+	b6.style.background = '#FFFFFF';
+	b7.style.background = '#FFFFFF';
+	b4.style.color = '#000000';
+	b5.style.color = '#FFFFFF';
+	b6.style.color = '#000000';
+	b7.style.color = '#000000';
+	};
+	function but6() {
+	map.removeLayer(image);
+	image = L.imageOverlay('css/images/map3.jpg', bounds).addTo(map);
+	b4.style.background = '#FFFFFF';
+	b5.style.background = '#FFFFFF';
+	b6.style.background = '#3c3c3c';
+	b7.style.background = '#FFFFFF';
+	b4.style.color = '#000000';
+	b5.style.color = '#000000';
+	b6.style.color = '#FFFFFF';
+	b7.style.color = '#000000';
+	};
+	function but7() {
+	map.removeLayer(image);
+	image = L.imageOverlay('css/images/map4.jpg', bounds).addTo(map);
+	b4.style.background = '#FFFFFF';
+	b5.style.background = '#FFFFFF';
+	b6.style.background = '#FFFFFF';
+	b7.style.background = '#3c3c3c';
+	b4.style.color = '#000000';
+	b5.style.color = '#000000';
+	b6.style.color = '#000000';
+	b7.style.color = '#FFFFFF';
+	};
+	var popup = L.popup();
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent("X: " + e.latlng.lng + ", Y: " + e.latlng.lat)
+			.addTo(map);
+	}
+	map.on('click', onMapClick);
+	map.on('contextmenu',function(e){
+		if (marker !== null) {
+				map.removeLayer(marker);
+			}
+				allmarkers.clearLayers();
+		marker = L.marker()
+		.setLatLng(e.latlng)
+		.addTo(allmarkers)
+	});
+	function f_sb0() {
+	var sidebarmove = document.getElementById('sidebar');
+	if (sidebarmove.style.left == '0px'){
+	sidebarmove.style.left = '-433px';
+	sidebarmove.style["box-shadow"] = 'none';
+	sidebarbutton.style.left = '442px';
+	sb0.value = '►';}
+	else {
+	sidebarmove.style.left = '0px';
+	sidebarmove.style["box-shadow"] = '0 0 5px #bbb';
+	sidebarbutton.style.left = '396px';
+	sb0.value = '◄';}
+	};
+	function AllCheckboxOff(){
+	$('input[type="checkbox"]:checked').prop('checked',false);
+	allicons.clearLayers();
+	reassaulticons.clearLayers();
+	retravelicons.clearLayers();
+	resceneicons.clearLayers();
+	reobjecticons.clearLayers();
+	aluminiyicons.clearLayers();
+	betonicons.clearLayers();
+	chorniytitanicons.clearLayers();
+	hlamicons.clearLayers();
+	jelezoicons.clearLayers();
+	kislotaicons.clearLayers();
+	kristalliicons.clearLayers();
+	masloicons.clearLayers();
+	medyicons.clearLayers();
+	serebroicons.clearLayers();
+	svinecicons.clearLayers();
+	udobrenieicons.clearLayers();
+	ugolyicons.clearLayers();
+	zolotoicons.clearLayers();
+	yaderniymaterialicons.clearLayers();
+	treasureicons.clearLayers();
+	magazineicons.clearLayers();
+	bobbleheadicons.clearLayers();
+	map.removeControl( controlSearch );
+	}
+	L.control.mousePosition().addTo(map);
+	
+	function openinfo() {
+	zatemnenie.style.display = "block";
+	}
+	function closeinfo() {
+	zatemnenie.style.display = "none";
+	}
+	
+</script>
+<script src="scripts/LocationsIcons.js"></script>
+<script src="scripts/LocationsButton.js"></script>
+<script src="scripts/RandomEncountersButton.js"></script>
+<script src="scripts/RandomEncountersAssaultButton.js"></script>
+<script src="scripts/RandomEncountersObjectButton.js"></script>
+<script src="scripts/RandomEncountersSceneButton.js"></script>
+<script src="scripts/RandomEncountersTravelButton.js"></script>
+<script src="scripts/Mestorojdeniya/AluminiyButton.js"></script>
+<script src="scripts/Mestorojdeniya/BetonButton.js"></script>
+<script src="scripts/Mestorojdeniya/JelezoButton.js"></script>
+<script src="scripts/Mestorojdeniya/ZolotoButton.js"></script>
+<script src="scripts/Mestorojdeniya/KislotaButton.js"></script>
+<script src="scripts/Mestorojdeniya/KristalliButton.js"></script>
+<script src="scripts/Mestorojdeniya/MasloButton.js"></script>
+<script src="scripts/Mestorojdeniya/MedyButton.js"></script>
+<script src="scripts/Mestorojdeniya/SvinecButton.js"></script>
+<script src="scripts/Mestorojdeniya/SerebroButton.js"></script>
+<script src="scripts/Mestorojdeniya/UgolyButton.js"></script>
+<script src="scripts/Mestorojdeniya/HlamButton.js"></script>
+<script src="scripts/Mestorojdeniya/ChorniyTitanButton.js"></script>
+<script src="scripts/Mestorojdeniya/UdobrenieButton.js"></script>
+<script src="scripts/Mestorojdeniya/YaderniyMaterialButton.js"></script>
+<script src="scripts/TreasureButton.js"></script>
+<script src="scripts/MagazineButton.js"></script>
+<script src="scripts/BobbleheadButton.js"></script>
+<script type="application/javascript">
+LocationsOnOff();
+</script>
+    <div id="zatemnenie">
+      <div id="okno">
+        <h2><b>Интерактивная карта по игре Fallout 76.</b></h2>
+		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогает с координатами - Гаруст.<br>
+		<p>Мы оба, а так же еще несколько тысяч игроков Fallout 76 сидим на дискорд сервере F76 HUB.
+		<p>Немного о карте: есть локации, сокровища, хурналы, пупсы, места случайных встреч, месторождения (на которые устанавливаются добытчики). При включении локаций включается строка поиска.
+		<p>Можно найти точки по введенным координатам или узнать координаты какого-либо места.
+		<p>На ЛКМ показывает координаты того места где вы кликнули, на ПКМ - ставит простой маркер.<br><br>
+        <input class="closebuttoninfo" type="button" id="closebuttoninfo" onclick="closeinfo()" value="Закрыть окно"/>
+      </div>
+    </div>
+<div id="sidebar">
+	<div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель"/></div>
+	<div id="changemap">
+		<div id="changemaptext"><u>Выбор карты:</u></div>
+		<div id="changemaptext1">Стандартная</div>
+		<div id="changemaptext2">Военная</div>
+		<div id="changemaptext3">Стандартная + линии координат</div>
+		<div id="changemaptext4">Ultimist's High Detailed Map</div>
+		<div class="map"><input type="button" id="b4" onclick="but4()" value="1" style="font-family: 'Arial'"/></div>
+		<div class="map"><input type="button" id="b5" onclick="but5()" value="2" style="font-family: 'Arial'"/></div>
+		<div class="map"><input type="button" id="b6" onclick="but6()" value="3" style="font-family: 'Arial'"/></div>
+		<div class="map"><input type="button" id="b7" onclick="but7()" value="4" style="font-family: 'Arial'"/></div>
+	</div>
+	<div id="search">
+		<div id="searchX" style="font-family: 'Arial'">X: <input type="text" maxlength="14" name="lng" id="lng"/></div>
+		<div id="searchY" style="font-family: 'Arial'">Y: <input type="text" maxlength="14" name="lat" id="lat"/></div>
+		<div id="searchB1" title="Найти точку и поставить маркер по введенным координатам.
+(Другие маркеры будут удалены)"><input type="button" id="b1" onclick="but1()" value="Найти точку"/></div>
+		<div id="searchB2" title="Найти точку и поставить маркер по введенным координатам.
+(Другие маркеры не будут удалены)"><input type="button" id="b2" onclick="but2()" value="Найти точку (без удаления старых)"/></div>
+		<div id="searchB3" title="Удалить все маркеры с карты."><input type="button" id="b3" onclick="but3()" value="Удалить маркеры"/></div>
+	</div>
+	<div id="discord_f76hub"><a href="https://discord.gg/jCbWbJQ" target="_blank" title="Русскоязычный сервер дискорд по игре Fallout 76
+(Откроется в новой вкладке)"><img type="button" src="css/images/discord_f76hub.png" id="f76hub" onclick="f_f76hub()"/></a></div>
+
+	<div class="mapinfo"><img type="button" src="css/images/mapinfo.png" id="mapinfoid" onclick="openinfo()"/></a></div>
+
+​	<label class="switch" id="switch1"><input type="checkbox" onchange="LocationsOnOff()" id="LocationsButton" checked="checked" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch2"><input type="checkbox" onchange="REAssaultOnOff()" id="REAssaultButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch3"><input type="checkbox" onchange="REObjectOnOff()" id="REObjectButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch4"><input type="checkbox" onchange="RESceneOnOff()" id="RESceneButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch5"><input type="checkbox" onchange="RETravelOnOff()" id="RETravelButton" autocomplete="off"><span class="slider"></span></label>
+	<label class="switch" id="switch6"><input type="checkbox" onchange="TreasureOnOff()" id="TreasureButton" autocomplete="off"><span class="slider"></span></label>
+	<label class="switch" id="switch7"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
+	​<label class="switch" id="switch8"><input type="checkbox" onchange="MedyOnOff()" id="MedyButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch9"><input type="checkbox" onchange="HlamOnOff()" id="HlamButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch10"><input type="checkbox" onchange="UgolyOnOff()" id="UgolyButton" autocomplete="off"><span class="slider"></span></label>
+	<label class="switch" id="switch11"><input type="checkbox" onchange="BetonOnOff()" id="BetonButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch12"><input type="checkbox" onchange="MasloOnOff()" id="MasloButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch13"><input type="checkbox" onchange="ZolotoOnOff()" id="ZolotoButton" autocomplete="off"><span class="slider"></span></label>
+	<label class="switch" id="switch14"><input type="checkbox" onchange="JelezoOnOff()" id="JelezoButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch15"><input type="checkbox" onchange="SvinecOnOff()" id="SvinecButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch16"><input type="checkbox" onchange="SerebroOnOff()" id="SerebroButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch17"><input type="checkbox" onchange="KislotaOnOff()" id="KislotaButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch18"><input type="checkbox" onchange="UdobrenieOnOff()" id="UdobrenieButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch19"><input type="checkbox" onchange="AluminiyOnOff()" id="AluminiyButton" autocomplete="off"><span class="slider"></span></label>
+​	<label class="switch" id="switch20"><input type="checkbox" onchange="KristalliOnOff()" id="KristalliButton" autocomplete="off"><span class="slider"></span></label>
+	<label class="switch" id="switch21"><input type="checkbox" onchange="ChorniyTitanOnOff()" id="ChorniyTitanButton" autocomplete="off"><span class="slider"></span></label>
+	<label class="switch" id="switch22"><input type="checkbox" onchange="YaderniyMaterialOnOff()" id="YaderniyMaterialButton" autocomplete="off"><span class="slider"></span></label>
+	<label class="switch" id="switch23"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
+	<div class="text" id="text1">Локации</div>
+	<div class="text" id="text2"><u>Случайные встречи</u></div>
+	<div class="text" id="text3">Assault</div>
+	<div class="text" id="text4">Object</div>
+	<div class="text" id="text5">Scene</div>
+	<div class="text" id="text6">Travel</div>
+	<div class="text" id="text7">Сокровища</div>
+	<div class="text" id="text8">Журналы</div>
+	<div class="text" id="text9"><u>Месторождения</u></div>
+	<div class="text" id="text10">Медь</div>
+	<div class="text" id="text11">Хлам</div>
+	<div class="text" id="text12">Уголь</div>
+	<div class="text" id="text13">Бетон</div>
+	<div class="text" id="text14">Масло</div>
+	<div class="text" id="text15">Золото</div>
+	<div class="text" id="text16">Железо</div>
+	<div class="text" id="text17">Свинец</div>
+	<div class="text" id="text18">Серебро</div>
+	<div class="text" id="text19">Кислота</div>
+	<div class="text" id="text20">Удобрение</div>
+	<div class="text" id="text21">Алюминий</div>
+	<div class="text" id="text22">Кристаллы</div>
+	<div class="text" id="text23">Черный титан</div>
+	<div class="text" id="text24">Ядерный материал</div>
+	<div class="text" id="text25">Пупсы</div>
+	<div class="box" id="box1"></div>
+	<div class="box" id="box2"></div>
+	<div class="box" id="box3"></div>
+	<div class="buttoninfo"><a href="http://f76map.topcen.org/random_encounters.png" target="_blank" title="Классификация случайных встреч
+(Откроется в новой вкладке)"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
+	</div>
+	<div class="allcheckbox"><input type="button" onclick="AllCheckboxOff()" id="allcheckboxbut" value="Отключить все"/></div>
+	</div>
+</body>
+</html>
