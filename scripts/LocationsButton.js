@@ -122,6 +122,7 @@
 	icons = new L.marker([-71432, 171107], {title: "Ферма Мака", icon: icon10}).addTo(allicons).bindPopup("Ферма Мака").bindTooltip("Ферма Мака", {direction: 'top'});
 	icons = new L.marker([-101569, 122641], {title: "Ферма с видом на закат", icon: icon10}).addTo(allicons).bindPopup("Ферма с видом на закат").bindTooltip("Ферма с видом на закат", {direction: 'top'});
 	icons = new L.marker([-162532, 153895], {title: "Рассветное поле", icon: icon10}).addTo(allicons).bindPopup("Рассветное поле").bindTooltip("Рассветное поле", {direction: 'top'});
+	icons = new L.marker([11699, 183758], {title: "Усадьба Дилейно", icon: icon10}).addTo(allicons).bindPopup("Усадьба Дилейно").bindTooltip("Усадьба Дилейно", {direction: 'top'});
 	icons = new L.marker([-46968, -49923], {title: "Хижина на скале", icon: icon11}).addTo(allicons).bindPopup("Хижина на скале").bindTooltip("Хижина на скале", {direction: 'top'});
 	icons = new L.marker([-30863, -153315], {title: "Лагерь Адамсов", icon: icon11}).addTo(allicons).bindPopup("Лагерь Адамсов").bindTooltip("Лагерь Адамсов", {direction: 'top'});
 	icons = new L.marker([12837, -81063], {title: "Курорт Ущелье Нью-ривер", icon: icon11}).addTo(allicons).bindPopup("Курорт &quotУщелье Нью-ривер&quot").bindTooltip("Курорт &quotУщелье Нью-ривер&quot", {direction: 'top'});
