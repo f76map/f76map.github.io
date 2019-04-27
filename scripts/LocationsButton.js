@@ -313,7 +313,7 @@
 	icons = new L.marker([149671, 31672], {title: "Памятник полковнику Келли", icon: icon40}).addTo(allicons).bindPopup("Памятник полковнику Келли").bindTooltip("Памятник полковнику Келли", {direction: 'top'});
 	icons = new L.marker([-44187, -70892], {title: "Доки Саммерсвилла", icon: icon41}).addTo(allicons).bindPopup("Доки Саммерсвилла").bindTooltip("Доки Саммерсвилла", {direction: 'top'});
 	icons = new L.marker([-32301, -187831], {title: "Приключения на реке Огайо", icon: icon41}).addTo(allicons).bindPopup("Приключения на реке Огайо").bindTooltip("Приключения на реке Огайо", {direction: 'top'});
-	icons = new L.marker([-53492, -162144], {title: "Завод &quotЯдер-колы&quot — Канова", icon: icon42}).addTo(allicons).bindPopup("Завод &quotЯдер-колы&quot — Канова").bindTooltip("Завод &quotЯдер-колы&quot — Канова", {direction: 'top'});
+	icons = new L.marker([-53492, -162144], {title: "Завод Ядер-колы — Канова", icon: icon42}).addTo(allicons).bindPopup("Завод &quotЯдер-колы&quot — Канова").bindTooltip("Завод &quotЯдер-колы&quot — Канова", {direction: 'top'});
 	icons = new L.marker([-14415, -124481], {title: "Кафе-мороженое Пятнистая корова", icon: icon43}).addTo(allicons).bindPopup("Кафе-мороженое &quotПятнистая корова&quot").bindTooltip("Кафе-мороженое &quotПятнистая корова&quot", {direction: 'top'});
 	icons = new L.marker([152995, -103993], {title: "Мягкое мороженое леди Дженет", icon: icon43}).addTo(allicons).bindPopup("Мягкое мороженое леди Дженет").bindTooltip("Мягкое мороженое леди Дженет", {direction: 'top'});
 	icons = new L.marker([-29819, -131984], {title: "Гигантский чайник", icon: icon44}).addTo(allicons).bindPopup("Гигантский чайник").bindTooltip("Гигантский чайник", {direction: 'top'});
