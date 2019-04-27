@@ -238,6 +238,7 @@
 		#switch22 {top: 250px; left: 385px;}
 		
 		#switch23 {top: 79px; left: 175px;}
+		#switch24 {top: 102px; left: 175px;}
 		
 		.text {position: absolute; z-index: 2; font-family: LemonMilkRus; font-size: 9pt;}
 		
@@ -271,10 +272,11 @@
 		#text24 {top: 252px; left: 252px;}
 		
 		#text25 {top: 81px; left: 20px;}
+		#text26 {top: 104px; left: 20px;}
 		
 		.box {position: absolute; border-radius:7px; border:1px solid #3c3c3c; box-shadow: 0 0 5px #bbb; z-index: 1;}
 		
-		#box1 {height: 97px; width: 204px; top: 5px; left:10px;}
+		#box1 {height: 120px; width: 204px; top: 5px; left:10px;}
 		#box2 {height: 120px; width: 204px; top: 5px; left:220px;}
 		#box3 {height: 143px; width: 414px; top: 130px; left:10px;}
 		
@@ -486,6 +488,7 @@
 	treasureicons.clearLayers();
 	magazineicons.clearLayers();
 	bobbleheadicons.clearLayers();
+	capstashicons.clearLayers();
 	map.removeControl( controlSearch );
 	}
 	L.control.mousePosition().addTo(map);
@@ -523,6 +526,7 @@
 <script src="scripts/TreasureButton.js"></script>
 <script src="scripts/MagazineButton.js"></script>
 <script src="scripts/BobbleheadButton.js"></script>
+<script src="scripts/CapStashButton.js"></script>
 <script type="application/javascript">
 LocationsOnOff();
 </script>
@@ -587,6 +591,7 @@ LocationsOnOff();
 	<label class="switch" id="switch21"><input type="checkbox" onchange="ChorniyTitanOnOff()" id="ChorniyTitanButton" autocomplete="off"><span class="slider"></span></label>
 	<label class="switch" id="switch22"><input type="checkbox" onchange="YaderniyMaterialOnOff()" id="YaderniyMaterialButton" autocomplete="off"><span class="slider"></span></label>
 	<label class="switch" id="switch23"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="switch24"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>	
 	<div class="text" id="text1">Локации</div>
 	<div class="text" id="text2"><u>Случайные встречи</u></div>
 	<div class="text" id="text3">Assault</div>
@@ -612,6 +617,7 @@ LocationsOnOff();
 	<div class="text" id="text23">Черный титан</div>
 	<div class="text" id="text24">Ядерный материал</div>
 	<div class="text" id="text25">Пупсы</div>
+	<div class="text" id="text26">Тайники с крышками</div>
 	<div class="box" id="box1"></div>
 	<div class="box" id="box2"></div>
 	<div class="box" id="box3"></div>
