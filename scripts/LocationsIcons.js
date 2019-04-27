@@ -101,4 +101,8 @@
 	var icon_bobblehead1 = L.icon({iconUrl: 'css/images/icon_bobblehead1.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	var icon_bobblehead2 = L.icon({iconUrl: 'css/images/icon_bobblehead2.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	var icon_bobblehead3 = L.icon({iconUrl: 'css/images/icon_bobblehead3.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+
+	var icon_capstash1 = L.icon({iconUrl: 'css/images/icon_capstash1.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+	var icon_capstash2 = L.icon({iconUrl: 'css/images/icon_capstash2.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+	var icon_capstash3 = L.icon({iconUrl: 'css/images/icon_capstash3.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	
