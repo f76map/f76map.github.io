@@ -143,8 +143,8 @@
 	icons = new L.marker([-14505, 80945], {icon: icon_capstash3}).addTo(capstashicons).bindPopup("Тайники с крышками - 3 шт.<br>[Внутри локации Точка &quotАльфа&quot]").bindTooltip("Тайники с крышками - 3 шт.<br>[Внутри локации Точка &quotАльфа&quot]", {direction: 'top'});
 	icons = new L.marker([-3956, 157951], {icon: icon_capstash3}).addTo(capstashicons).bindPopup("Тайники с крышками - 2 шт.<br>[Внутри локации Норы]").bindTooltip("Тайники с крышками - 2 шт.<br>[Внутри локации Норы]", {direction: 'top'});
 	icons = new L.marker([137056, 43038], {icon: icon_capstash3}).addTo(capstashicons).bindPopup("Тайники с крышками - 5 шт.<br>[Внутри локации Точка &quotБраво&quot]").bindTooltip("Тайники с крышками - 5 шт.<br>[Внутри локации Точка &quotБраво&quot]", {direction: 'top'});
-	icons = new L.marker([-146558, -96290], {icon: icon_capstash2}).addTo(capstashicons).bindPopup("Тайник с крышками<br>[Внутри локации Убежище 63]").bindTooltip("Тайник с крышками<br>[Внутри локации Убежище 63]", {direction: 'top'});
-	icons = new L.marker([137186, 145156], {icon: icon_capstash3}).addTo(capstashicons).bindPopup("Тайники с крышками - 7 шт.<br>[Внутри локации Убежище 94]").bindTooltip("Тайники с крышками - 7 шт.<br>[Внутри локации Убежище 94]", {direction: 'top'});
+	//icons = new L.marker([-146558, -96290], {icon: icon_capstash2}).addTo(capstashicons).bindPopup("Тайник с крышками<br>[Внутри локации Убежище 63]").bindTooltip("Тайник с крышками<br>[Внутри локации Убежище 63]", {direction: 'top'});
+	//icons = new L.marker([137186, 145156], {icon: icon_capstash3}).addTo(capstashicons).bindPopup("Тайники с крышками - 7 шт.<br>[Внутри локации Убежище 94]").bindTooltip("Тайники с крышками - 7 шт.<br>[Внутри локации Убежище 94]", {direction: 'top'});
 	}
 	else {
 		capstashicons.clearLayers();
