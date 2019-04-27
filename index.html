@@ -45,8 +45,13 @@
  <style>
 		@font-face
 		{
-		font-family: SerifBold;
-		src: url(fonts/SerifBold.ttf);
+		font-family: PTSerifRegular;
+		src: url(fonts/PTSerifRegular.ttf);
+		}
+		@font-face
+		{
+		font-family: PTSerifBold;
+		src: url(fonts/PTSerifBold.ttf);
 		}
 		html, body
 		{
@@ -101,7 +106,7 @@
 			border:1px solid #3c3c3c;
 			cursor:pointer;
 			background-color:#FFFFFF;
-			font-family: SerifBold, serif;
+			font-family: PTSerifBold, serif;
 			font-size: 9pt;
 		}
 		#b1 {width: 92px;}
@@ -127,7 +132,7 @@
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			opacity: 0.85;
-			font-family: SerifBold, serif;
+			font-family: PTSerifBold, serif;
 			font-size: 10pt;
 		}
 		#b4, #b5, #b6, #b7
@@ -243,7 +248,7 @@
 		
 		#switch23 {top: 79px; left: 175px;}
 		
-		.text {position: absolute; z-index: 2; font-family: SerifBold, serif; font-size: 10pt;}
+		.text {position: absolute; z-index: 2; font-family: PTSerifBold, serif; font-size: 10pt;}
 		
 		#text1 {top: 10px; left: 20px;}
 		#text2 {top: 10px; left: 252px;}
@@ -291,7 +296,7 @@
 		border-radius:7px;
 		border:1px solid #3c3c3c;
 		box-shadow: 0 0 5px #bbb;
-		font-family: SerifBold, serif;
+		font-family: PTSerifBold, serif;
 		font-size: 10pt;
 		cursor:pointer;
 		}
@@ -321,7 +326,7 @@
 			z-index: 10000;
 		}
 		#okno {
-			width: 424px; height: 330px;
+			width: 424px; height: 350px;
 			padding: 15px;
 			border:1px solid #3c3c3c;
 			border-radius: 7px;
@@ -329,6 +334,8 @@
 			top: 0; right: 0; bottom: 0; left: 0;
 			margin: auto;
 			background: #FFFFFF;
+			font-family: PTSerifRegular;
+			font-size: 11pt;
 		}
 		.closebuttoninfo {position: relative; text-align: center; margin: 0 auto;}
 		.closebuttoninfo:hover {background-color: #3c3c3c; color: #FFFFFF;}
@@ -337,14 +344,13 @@
 			display: block;
 			width: 130px;
 			height: 30px;
-			background-color:#FFFFFF;
 			border:1px solid #3c3c3c;
 			border-radius: 7px;
 			cursor:pointer;
 			font-size: 12pt;
 		}
 		p {text-indent: 20px; margin: 10px 0;}
-		h2 {font-size: 12pt; text-align: center; margin: 0;}
+		h1 {font-size: 12pt; text-align: center; margin: 0;}
     </style>
 </head>
 <body onload="initMap()">
@@ -531,7 +537,7 @@ LocationsOnOff();
 </script>
     <div id="zatemnenie">
       <div id="okno">
-        <h2><b>Интерактивная карта по игре Fallout 76.</b></h2>
+        <h1><b>Интерактивная карта по игре Fallout 76.</b></h1>
 		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогает с координатами - Гаруст.<br>
 		<p>Мы оба, а так же еще несколько тысяч игроков Fallout 76 сидим на дискорд сервере F76 HUB.
 		<p>Немного о карте: есть локации, сокровища, хурналы, пупсы, места случайных встреч, месторождения (на которые устанавливаются добытчики). При включении локаций включается строка поиска.
