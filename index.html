@@ -5,14 +5,14 @@
 	<meta name="google-site-verification" content="rAz6os48vxlwYdDyq6kSFFC9E775vsN1-9keVkCGB8g" />
     <title>[F76 Map][by Farget][for Players]</title>
 	<link rel="icon" type="image/png" sizes="64x64" href="css/images/favicon-64x64.png">
-	<meta name="description" content="Интерактивная карта по игре Fallout 76. Есть локации, сокровища, места случайных встреч, месторождения, журналы, пупсы, тайники с крышками, а так же поиск точек по вашим введенным координатам.">
+	<meta name="description" content="Интерактивная карта по игре Fallout 76. Есть локации, сокровища, места случайных встреч, месторождения, журналы, пупсы, тайники с крышками, растения, а так же поиск точек по вашим введенным координатам.">
 	<meta name="keywords" content="Fallout 76 map, F76 map, Fallout 76 карта, Fallout 76 интерактивная карта, Fallout 76 локации, Fallout 76 ресурсы, Fallout 76 координаты, Fallout 76 сокровища, Fallout 76 случайные встречи, Fallout 76 журналы, Fallout 76 пупсы">
 	<link rel="canonical" href="https://f76map.ru"/>
 	
 	<meta property="og:title" content="[F76 Map][by Farget][for Players]"/>
 	<meta property="og:image" content="https://f76map.ru/css/images/preview.jpg"/>
 	<meta property="og:url" content="https://f76map.ru"/>
-	<meta property="og:description" content="Интерактивная карта по игре Fallout 76. Есть локации, сокровища, места случайных встреч, месторождения, журналы, пупсы, тайники с крышками, а так же поиск точек по вашим введенным координатам."/>
+	<meta property="og:description" content="Интерактивная карта по игре Fallout 76. Есть локации, сокровища, места случайных встреч, месторождения, журналы, пупсы, тайники с крышками, растения, а так же поиск точек по вашим введенным координатам."/>
 	<meta property="og:type" content="website"/>
 	
 	<link rel="stylesheet" href="css/leaflet.css" />
@@ -160,7 +160,7 @@
 			bottom: 65px;
 			left: -433px;
 			width: 431px;
-			height: 555px;
+			height: 706px;
 			background-color:#FFFFFF;
 			z-index: 800;
 			opacity: 0.85;
@@ -288,7 +288,7 @@
 		#box2 {height: 120px; width: 204px; top: 5px; left:220px;}
 		#box3 {height: 143px; width: 414px; top: 130px; left:10px;}
 		
-		.allcheckbox{position: absolute; top:278px; left: 10px;}
+		.allcheckbox{position: absolute; bottom:242px; left: 10px;}
 		#allcheckboxbut
 		{
 		height: 35px;
@@ -327,7 +327,7 @@
 			z-index: 10000;
 		}
 		#okno {
-			width: 424px; height: 350px;
+			width: 424px; height: 370px;
 			padding: 15px;
 			border:1px solid #3c3c3c;
 			border-radius: 7px;
@@ -352,6 +352,91 @@
 		}
 		#closebuttoninfo:hover {background-color: #3c3c3c; color: #FFFFFF;}
 		p {text-indent: 20px; margin: 10px 0;}
+		
+		#box4 {height: 146px; width: 414px; top: 278px; left:10px;}
+		#box5 {position: relative; height: 125px; width: 408px; top: 0px; left:0px; overflow-y: auto;}
+		#plants_switch1 {top: 4px; left: 115px;}
+		#plants_switch2 {top: 27px; left: 115px;}
+		#plants_switch3 {top: 50px; left: 115px;}
+		#plants_switch4 {top: 73px; left: 115px;}
+		#plants_switch5 {top: 96px; left: 115px;}
+		#plants_switch6 {top: 119px; left: 115px;}
+		#plants_switch7 {top: 142px; left: 115px;}
+		#plants_switch8 {top: 165px; left: 115px;}
+		#plants_switch9 {top: 188px; left: 115px;}
+		#plants_switch10 {top: 211px; left: 115px;}
+		#plants_switch11 {top: 234px; left: 115px;}
+		#plants_switch12 {top: 257px; left: 115px;}
+		#plants_switch13 {top: 280px; left: 115px;}
+		#plants_switch14 {top: 303px; left: 115px;}
+		#plants_switch15 {top: 326px; left: 115px;}
+		#plants_switch16 {top: 349px; left: 115px;}
+		#plants_switch17 {top: 372px; left: 115px;}
+		#plants_switch18 {top: 395px; left: 115px;}
+		#plants_switch19 {top: 418px; left: 115px;}
+		
+		#plants_switch1_2 {top: 4px; left: 351px;}
+		#plants_switch2_2 {top: 27px; left: 351px;}
+		#plants_switch3_2 {top: 50px; left: 351px;}
+		#plants_switch4_2 {top: 73px; left: 351px;}
+		#plants_switch5_2 {top: 96px; left: 351px;}
+		#plants_switch6_2 {top: 119px; left: 351px;}
+		#plants_switch7_2 {top: 142px; left: 351px;}
+		#plants_switch8_2 {top: 165px; left: 351px;}
+		#plants_switch9_2 {top: 188px; left: 351px;}
+		#plants_switch10_2 {top: 211px; left: 351px;}
+		#plants_switch11_2 {top: 234px; left: 351px;}
+		#plants_switch12_2 {top: 257px; left: 351px;}
+		#plants_switch13_2 {top: 280px; left: 351px;}
+		#plants_switch14_2 {top: 303px; left: 351px;}
+		#plants_switch15_2 {top: 326px; left: 351px;}
+		#plants_switch16_2 {top: 349px; left: 351px;}
+		#plants_switch17_2 {top: 372px; left: 351px;}
+		#plants_switch18_2 {top: 395px; left: 351px;}
+		#plants_switch19_2 {top: 418px; left: 351px;}
+		
+		.plants_text {font-family: LemonMilkRus; font-size: 9pt;}
+		#plants_text1 {position: absolute; top: 6px; left: 10px;}
+		#plants_text2 {position: absolute; top: 29px; left: 10px;}
+		#plants_text3 {position: absolute; top: 52px; left: 10px;}
+		#plants_text4 {position: absolute; top: 75px; left: 10px;}
+		#plants_text5 {position: absolute; top: 98px; left: 10px;}
+		#plants_text6 {position: absolute; top: 121px; left: 10px;}
+		#plants_text7 {position: absolute; top: 144px; left: 10px;}
+		#plants_text8 {position: absolute; top: 167px; left: 10px;}
+		#plants_text9 {position: absolute; top: 190px; left: 10px;}
+		#plants_text10 {position: absolute; top: 213px; left: 10px;}
+		#plants_text11 {position: absolute; top: 236px; left: 10px;}
+		#plants_text12 {position: absolute; top: 259px; left: 10px;}
+		#plants_text13 {position: absolute; top: 282px; left: 10px;}
+		#plants_text14 {position: absolute; top: 305px; left: 10px;}
+		#plants_text15 {position: absolute; top: 328px; left: 10px;}
+		#plants_text16 {position: absolute; top: 351px; left: 10px;}
+		#plants_text17 {position: absolute; top: 374px; left: 10px;}
+		#plants_text18 {position: absolute; top: 397px; left: 10px;}
+		#plants_text19 {position: absolute; top: 420px; left: 10px;}
+		
+		#plants_text20 {position: absolute; top: 6px; left: 180px;}
+		#plants_text21 {position: absolute; top: 29px; left: 180px;}
+		#plants_text22 {position: absolute; top: 52px; left: 180px;}
+		#plants_text23 {position: absolute; top: 75px; left: 180px;}
+		#plants_text24 {position: absolute; top: 98px; left: 180px;}
+		#plants_text25 {position: absolute; top: 121px; left: 180px;}
+		#plants_text26 {position: absolute; top: 144px; left: 180px;}
+		#plants_text27 {position: absolute; top: 167px; left: 180px;}
+		#plants_text28 {position: absolute; top: 190px; left: 180px;}
+		#plants_text29 {position: absolute; top: 213px; left: 180px;}
+		#plants_text30 {position: absolute; top: 236px; left: 180px;}
+		#plants_text31 {position: absolute; top: 259px; left: 180px;}
+		#plants_text32 {position: absolute; top: 282px; left: 180px;}
+		#plants_text33 {position: absolute; top: 305px; left: 180px;}
+		#plants_text34 {position: absolute; top: 328px; left: 180px;}
+		#plants_text35 {position: absolute; top: 351px; left: 180px;}
+		#plants_text36 {position: absolute; top: 374px; left: 180px;}
+		#plants_text37 {position: absolute; top: 397px; left: 180px;}
+		#plants_text38 {position: absolute; top: 420px; left: 180px;}
+		
+		#line1 {position: absolute; top: 17px; left: 164px; width: 5px; height: 125px; background-color: #3c3c3c; opacity: 0.3; border-radius: 3px;}
     </style>
 </head>
 <body onload="initMap()">
@@ -441,13 +526,26 @@
 	b6.style.color = '#000000';
 	b7.style.color = '#FFFFFF';
 	};
+	
+	
+	<!-- var popup = L.popup(); -->
+	<!-- function onMapClick(e) { -->
+		<!-- popup -->
+			<!-- .setLatLng(e.latlng) -->
+			<!-- .setContent("X: " + e.latlng.lng + ", Y: " + e.latlng.lat) -->
+			<!-- .addTo(map); -->
+	<!-- } -->
+	
+	
 	var popup = L.popup();
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent("X: " + e.latlng.lng + ", Y: " + e.latlng.lat)
+			.setContent(e.latlng.lat + ", " + e.latlng.lng)
 			.addTo(map);
 	}
+	
+	
 	map.on('click', onMapClick);
 	map.on('contextmenu',function(e){
 		if (marker !== null) {
@@ -498,6 +596,45 @@
 	bobbleheadicons.clearLayers();
 	capstashicons.clearLayers();
 	map.removeControl( controlSearch );
+	
+	gribicons.clearLayers();
+	arbuzicons.clearLayers();
+	astraicons.clearLayers();
+	toshkaicons.clearLayers();
+	tyikvaicons.clearLayers();
+	klukvaicons.clearLayers();
+	morkovyicons.clearLayers();
+	ejevikaicons.clearLayers();
+	kukuruzaicons.clearLayers();
+	lihocveticons.clearLayers();
+	ilofasolyicons.clearLayers();
+	krovolisticons.clearLayers();
+	mozgogribicons.clearLayers();
+	mutafrukticons.clearLayers();
+	peplocveticons.clearLayers();
+	smolyanikaicons.clearLayers();
+	hvostolomicons.clearLayers();
+	britvozlakicons.clearLayers();
+	gryaznocveticons.clearLayers();
+	rododendronicons.clearLayers();
+	chertopolohicons.clearLayers();
+	nochnoypolzunicons.clearLayers();
+	nutryanoygribicons.clearLayers();
+	ognenniygribicons.clearLayers();
+	yaycomolerotaicons.clearLayers();
+	pepelynayarozaicons.clearLayers();
+	yagodahlopushkaicons.clearLayers();
+	korenyjenyshenyaicons.clearLayers();
+	svetgribicons.clearLayers();
+	cvetokdushitelyaicons.clearLayers();
+	svetsmolaicons.clearLayers();
+	zarajklukvaicons.clearLayers();
+	paporotnikicons.clearLayers();
+	kizilicons.clearLayers();
+	cvetoktoshkiicons.clearLayers();
+	cvetoktyikvyiicons.clearLayers();
+	cvetokarbuzaicons.clearLayers();
+	cvetokmorkoviicons.clearLayers();
 	}
 	L.control.mousePosition().addTo(map);
 	
@@ -535,6 +672,47 @@
 <script src="scripts/MagazineButton.js"></script>
 <script src="scripts/BobbleheadButton.js"></script>
 <script src="scripts/CapStashButton.js"></script>
+
+<script src="scripts/Rasteniya/Grib.js"></script>
+<script src="scripts/Rasteniya/Arbuz.js"></script>
+<script src="scripts/Rasteniya/Astra.js"></script>
+<script src="scripts/Rasteniya/Toshka.js"></script>
+<script src="scripts/Rasteniya/Tyikva.js"></script>
+<script src="scripts/Rasteniya/Klukva.js"></script>
+<script src="scripts/Rasteniya/Morkovy.js"></script>
+<script src="scripts/Rasteniya/Ejevika.js"></script>
+<script src="scripts/Rasteniya/Kukuruza.js"></script>
+<script src="scripts/Rasteniya/Lihocvet.js"></script>
+<script src="scripts/Rasteniya/Ilofasoly.js"></script>
+<script src="scripts/Rasteniya/Krovolist.js"></script>
+<script src="scripts/Rasteniya/Mozgogrib.js"></script>
+<script src="scripts/Rasteniya/Mutafrukt.js"></script>
+<script src="scripts/Rasteniya/Peplocvet.js"></script>
+<script src="scripts/Rasteniya/Smolyanika.js"></script>
+<script src="scripts/Rasteniya/Hvostolom.js"></script>
+<script src="scripts/Rasteniya/Britvozlak.js"></script>
+<script src="scripts/Rasteniya/Gryaznocvet.js"></script>
+
+<script src="scripts/Rasteniya/Rododendron.js"></script>
+<script src="scripts/Rasteniya/Chertopoloh.js"></script>
+<script src="scripts/Rasteniya/NochnoyPolzun.js"></script>
+<script src="scripts/Rasteniya/NutryanoyGrib.js"></script>
+<script src="scripts/Rasteniya/OgnenniyGrib.js"></script>
+<script src="scripts/Rasteniya/YaycoMolerota.js"></script>
+<script src="scripts/Rasteniya/PepelynayaRoza.js"></script>
+<script src="scripts/Rasteniya/YagodaHlopushka.js"></script>
+<script src="scripts/Rasteniya/KorenyJenyshenya.js"></script>
+<script src="scripts/Rasteniya/SvetGrib.js"></script>
+<script src="scripts/Rasteniya/CvetokDushitelya.js"></script>
+<script src="scripts/Rasteniya/SvetSmola.js"></script>
+<script src="scripts/Rasteniya/ZarajKlukva.js"></script>
+<script src="scripts/Rasteniya/Paporotnik.js"></script>
+<script src="scripts/Rasteniya/Kizil.js"></script>
+<script src="scripts/Rasteniya/CvetokToshki.js"></script>
+<script src="scripts/Rasteniya/CvetokTyikvyi.js"></script>
+<script src="scripts/Rasteniya/CvetokArbuza.js"></script>
+<script src="scripts/Rasteniya/CvetokMorkovi.js"></script>
+
 <script type="application/javascript">
 LocationsOnOff();
 </script>
@@ -543,7 +721,7 @@ LocationsOnOff();
         <div id="infohead" align="center"><b>Интерактивная карта по игре Fallout 76.</b></div>
 		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогает с координатами - Гаруст.<br>
 		<p>Мы оба, а так же еще несколько тысяч игроков Fallout 76 сидим на дискорд сервере F76 HUB.
-		<p>Немного о карте: есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (на которые устанавливаются добытчики). При включении локаций включается строка поиска.
+		<p>Немного о карте: есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (на которые устанавливаются добытчики), растения. При включении локаций включается строка поиска.
 		<p>Можно найти точки по введенным координатам или узнать координаты какого-либо места.
 		<p>На ЛКМ показывает координаты того места где вы кликнули, на ПКМ - ставит простой маркер.<br><br>
         <input class="closebuttoninfo" type="button" id="closebuttoninfo" onclick="closeinfo()" value="Закрыть окно"/>
@@ -600,6 +778,7 @@ LocationsOnOff();
 	<label class="switch" id="switch22"><input type="checkbox" onchange="YaderniyMaterialOnOff()" id="YaderniyMaterialButton" autocomplete="off"><span class="slider"></span></label>
 	<label class="switch" id="switch23"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
 	<label class="switch" id="switch24"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>	
+
 	<div class="text" id="text1">Локации</div>
 	<div class="text" id="text2"><u>Случайные встречи</u></div>
 	<div class="text" id="text3">Assault</div>
@@ -629,6 +808,89 @@ LocationsOnOff();
 	<div class="box" id="box1"></div>
 	<div class="box" id="box2"></div>
 	<div class="box" id="box3"></div>
+	<div class="box" id="box4">
+	<div class="plants_text" id="plants_text0" align="center"><u>Растения</u></div>
+	<div id="line1"></div>
+	<div class="box2" id="box5">
+	<div class="plants_text" id="plants_text1" align="center">Гриб</div>
+	<div class="plants_text" id="plants_text2" align="center">Арбуз</div>
+	<div class="plants_text" id="plants_text3" align="center">Астра</div>
+	<div class="plants_text" id="plants_text4" align="center">Тошка</div>
+	<div class="plants_text" id="plants_text5" align="center">Тыква</div>
+	<div class="plants_text" id="plants_text6" align="center">Клюква</div>
+	<div class="plants_text" id="plants_text7" align="center">Морковь</div>
+	<div class="plants_text" id="plants_text8" align="center">Ежевика</div>
+	<div class="plants_text" id="plants_text9" align="center">Кукуруза</div>
+	<div class="plants_text" id="plants_text10" align="center">Лихоцвет</div>
+	<div class="plants_text" id="plants_text11" align="center">Илофасоль</div>
+	<div class="plants_text" id="plants_text12" align="center">Кроволист</div>
+	<div class="plants_text" id="plants_text13" align="center">Мозгогриб</div>
+	<div class="plants_text" id="plants_text14" align="center">Мутафрукт</div>
+	<div class="plants_text" id="plants_text15" align="center">Пеплоцвет</div>
+	<div class="plants_text" id="plants_text16" align="center">Смоляника</div>
+	<div class="plants_text" id="plants_text17" align="center">Хвостолом</div>
+	<div class="plants_text" id="plants_text18" align="center">Бритвозлак</div>
+	<div class="plants_text" id="plants_text19" align="center">Грязноцвет</div>
+	<div class="plants_text" id="plants_text20" align="center">Рододендрон</div>
+	<div class="plants_text" id="plants_text21" align="center">Чертополох</div>
+	<div class="plants_text" id="plants_text22" align="center">Ночной ползун</div>
+	<div class="plants_text" id="plants_text23" align="center">Нутряной гриб</div>
+	<div class="plants_text" id="plants_text24" align="center">Огненный гриб</div>
+	<div class="plants_text" id="plants_text25" align="center">Яйцо молерота</div>
+	<div class="plants_text" id="plants_text26" align="center">Пепельная роза</div>
+	<div class="plants_text" id="plants_text27" align="center">Ягода-хлопушка</div>
+	<div class="plants_text" id="plants_text28" align="center">Корень женьшеня</div>
+	<div class="plants_text" id="plants_text29" align="center">Светящийся гриб</div>	
+	<div class="plants_text" id="plants_text30" align="center">Цветок душителя</div>
+	<div class="plants_text" id="plants_text31" align="center">Светящаяся смола</div>
+	<div class="plants_text" id="plants_text32" align="center">Зараженная клюква</div>
+	<div class="plants_text" id="plants_text33" align="center">Папоротник-мутант</div>
+	<div class="plants_text" id="plants_text34" align="center">Обесцвеченный кизил</div>	
+	<div class="plants_text" id="plants_text35" align="center">Цветок дикой тошки</div>
+	<div class="plants_text" id="plants_text36" align="center">Цветок дикой тыквы</div>
+	<div class="plants_text" id="plants_text37" align="center">Цветок дикого арбуза</div>
+	<div class="plants_text" id="plants_text38" align="center">Цветок дикой моркови</div>
+	<label class="switch" id="plants_switch1"><input type="checkbox" onchange="GribOnOff()" id="GribButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch2"><input type="checkbox" onchange="ArbuzOnOff()" id="ArbuzButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch3"><input type="checkbox" onchange="AstraOnOff()" id="AstraButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch4"><input type="checkbox" onchange="ToshkaOnOff()" id="ToshkaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch5"><input type="checkbox" onchange="TyikvaOnOff()" id="TyikvaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch6"><input type="checkbox" onchange="KlukvaOnOff()" id="KlukvaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch7"><input type="checkbox" onchange="MorkovyOnOff()" id="MorkovyButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch8"><input type="checkbox" onchange="EjevikaOnOff()" id="EjevikaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch9"><input type="checkbox" onchange="KukuruzaOnOff()" id="KukuruzaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch10"><input type="checkbox" onchange="LihocvetOnOff()" id="LihocvetButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch11"><input type="checkbox" onchange="IlofasolyOnOff()" id="IlofasolyButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch12"><input type="checkbox" onchange="KrovolistOnOff()" id="KrovolistButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch13"><input type="checkbox" onchange="MozgogribOnOff()" id="MozgogribButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch14"><input type="checkbox" onchange="MutafruktOnOff()" id="MutafruktButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch15"><input type="checkbox" onchange="PeplocvetOnOff()" id="PeplocvetButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch16"><input type="checkbox" onchange="SmolyanikaOnOff()" id="SmolyanikaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch17"><input type="checkbox" onchange="HvostolomOnOff()" id="HvostolomButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch18"><input type="checkbox" onchange="BritvozlakOnOff()" id="BritvozlakButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch19"><input type="checkbox" onchange="GryaznocvetOnOff()" id="GryaznocvetButton" autocomplete="off"><span class="slider"></span></label>	
+
+	<label class="switch" id="plants_switch1_2"><input type="checkbox" onchange="RododendronOnOff()" id="RododendronButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch2_2"><input type="checkbox" onchange="ChertopolohOnOff()" id="ChertopolohButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch3_2"><input type="checkbox" onchange="NochnoyPolzunOnOff()" id="NochnoyPolzunButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch4_2"><input type="checkbox" onchange="NutryanoyGribOnOff()" id="NutryanoyGribButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch5_2"><input type="checkbox" onchange="OgnenniyGribOnOff()" id="OgnenniyGribButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch6_2"><input type="checkbox" onchange="YaycoMolerotaOnOff()" id="YaycoMolerotaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch7_2"><input type="checkbox" onchange="PepelynayaRozaOnOff()" id="PepelynayaRozaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch8_2"><input type="checkbox" onchange="YagodaHlopushkaOnOff()" id="YagodaHlopushkaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch9_2"><input type="checkbox" onchange="KorenyJenyshenyaOnOff()" id="KorenyJenyshenyaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch10_2"><input type="checkbox" onchange="SvetGribOnOff()" id="SvetGribButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch11_2"><input type="checkbox" onchange="CvetokDushitelyaOnOff()" id="CvetokDushitelyaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch12_2"><input type="checkbox" onchange="SvetSmolaOnOff()" id="SvetSmolaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch13_2"><input type="checkbox" onchange="ZarajKlukvaOnOff()" id="ZarajKlukvaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch14_2"><input type="checkbox" onchange="PaporotnikOnOff()" id="PaporotnikButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch15_2"><input type="checkbox" onchange="KizilOnOff()" id="KizilButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch16_2"><input type="checkbox" onchange="CvetokToshkiOnOff()" id="CvetokToshkiButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch17_2"><input type="checkbox" onchange="CvetokTyikvyiOnOff()" id="CvetokTyikvyiButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch18_2"><input type="checkbox" onchange="CvetokArbuzaOnOff()" id="CvetokArbuzaButton" autocomplete="off"><span class="slider"></span></label>	
+	<label class="switch" id="plants_switch19_2"><input type="checkbox" onchange="CvetokMorkoviOnOff()" id="CvetokMorkoviButton" autocomplete="off"><span class="slider"></span></label>	
+	</div>
+	</div>
 	<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
 (Откроется в новой вкладке)"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
 	</div>
