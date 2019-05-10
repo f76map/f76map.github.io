@@ -536,22 +536,11 @@
 	b6.style.color = '#000000';
 	b7.style.color = '#FFFFFF';
 	};
-	
-	
-	<!-- var popup = L.popup(); -->
-	<!-- function onMapClick(e) { -->
-		<!-- popup -->
-			<!-- .setLatLng(e.latlng) -->
-			<!-- .setContent("X: " + e.latlng.lng + ", Y: " + e.latlng.lat) -->
-			<!-- .addTo(map); -->
-	<!-- } -->
-	
-	
 	var popup = L.popup();
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent(e.latlng.lat + ", " + e.latlng.lng)
+			.setContent("X: " + e.latlng.lng + ", Y: " + e.latlng.lat)
 			.addTo(map);
 	}
 	
