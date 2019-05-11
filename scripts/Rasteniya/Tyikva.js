@@ -357,8 +357,8 @@
 //Кювета
 	L.circleMarker([-57707, -47927], {color: "#D2691E"}).addTo(tyikvaicons).bindPopup("Тыква").bindTooltip("Тыква", {direction: 'top'});
 
-	L.circleMarker([94128, 2135], {color: "#D2691E"}).addTo(tyikvaicons).bindPopup("Тыква - 5 шт.<br>[Внутри здания Школа Моргантауна]").bindTooltip("Тыква - 5 шт.<br>[Внутри здания Школа Моргантауна]", {direction: 'top'});
-	L.circleMarker([-52810, 6663], {color: "#D2691E"}).addTo(tyikvaicons).bindPopup("Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]").bindTooltip("Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]", {direction: 'top'});
+	L.circleMarker([94128, 2135], {color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"}).addTo(tyikvaicons).bindPopup("Тыква - 5 шт.<br>[Внутри здания Школа Моргантауна]").bindTooltip("Тыква - 5 шт.<br>[Внутри здания Школа Моргантауна]", {direction: 'top'});
+	L.circleMarker([-52810, 6663], {color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"}).addTo(tyikvaicons).bindPopup("Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]").bindTooltip("Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]", {direction: 'top'});
 	}
 	else {
 		tyikvaicons.clearLayers();
