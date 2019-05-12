@@ -74,7 +74,7 @@
 			width: 404px;
 			height: 70px;
 			position: absolute;
-			top: 619px;
+			top: 652px;
 			left: 10px;
 			z-index: 99999;
 			background-color: #FFFFFF;
@@ -134,7 +134,7 @@
 			width: 260px;
 			height: 137px;
 			left: 10px;
-			top: 467px;
+			top: 500px;
 			z-index: 99999;
 			background-color: #FFFFFF;
 			padding: 5px 2px 5px 5px;
@@ -170,7 +170,7 @@
 			bottom: 65px;
 			left: -433px;
 			width: 431px;
-			height: 706px;
+			height: 739px;
 			background-color:#FFFFFF;
 			z-index: 800;
 			opacity: 0.85;
@@ -185,7 +185,7 @@
 		{
 			position: absolute;
 			left: 442px;
-			top:467px;
+			top:500px;
 			z-index: 801;
 			transition: all 0.5s ease-in-out;
 			-webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
@@ -213,7 +213,7 @@
 		#discord_f76hub
 		{
 			position: absolute;
-			top: 548px;
+			top: 581px;
 			left: 282px;
 		}
 		#f76hub
@@ -296,9 +296,9 @@
 		
 		#box1 {height: 120px; width: 204px; top: 5px; left:10px;}
 		#box2 {height: 120px; width: 204px; top: 5px; left:220px;}
-		#box3 {height: 143px; width: 414px; top: 130px; left:10px;}
+		#box3 {height: 143px; width: 414px; top: 163px; left:10px;}
 		
-		.allcheckbox{position: absolute; top:429px; left: 10px;}
+		.allcheckbox{position: absolute; top:462px; left: 10px;}
 		#allcheckboxbut
 		{
 		height: 35px;
@@ -314,7 +314,7 @@
 		.mapinfo
 		{
 		position: absolute;
-		top:467px;
+		top:500px;
 		left: 282px;
 		}
 		#mapinfoid
@@ -363,7 +363,7 @@
 		#closebuttoninfo:hover {background-color: #3c3c3c; color: #FFFFFF;}
 		p {text-indent: 20px; margin: 10px 0;}
 		
-		#box4 {height: 146px; width: 414px; top: 278px; left:10px;}
+		#box4 {height: 146px; width: 414px; top: 311px; left:10px;}
 		#box5 {position: relative; height: 125px; width: 408px; top: 0px; left:0px; overflow-y: auto;}
 		#plants_switch1 {top: 4px; left: 115px;}
 		#plants_switch2 {top: 27px; left: 115px;}
@@ -447,6 +447,10 @@
 		#plants_text38 {position: absolute; top: 420px; left: 180px;}
 		
 		#line1 {position: absolute; top: 17px; left: 164px; width: 5px; height: 125px; background-color: #3c3c3c; opacity: 0.3; border-radius: 3px;}
+
+		#box6 {height: 28px; width: 414px; top: 130px; left:10px;}
+		#strangemobs_text {position: absolute; top: 6px; left: 10px;}
+		#strangemobs_switch {top: 4px; right: 5px;}
 	</style>
 </head>
 <body onload="initMap()">
@@ -575,6 +579,7 @@
 	retravelicons.clearLayers();
 	resceneicons.clearLayers();
 	reobjecticons.clearLayers();
+	strangemobsicons.clearLayers();
 	aluminiyicons.clearLayers();
 	betonicons.clearLayers();
 	chorniytitanicons.clearLayers();
@@ -595,7 +600,6 @@
 	bobbleheadicons.clearLayers();
 	capstashicons.clearLayers();
 	map.removeControl( controlSearch );
-	
 	gribicons.clearLayers();
 	arbuzicons.clearLayers();
 	astraicons.clearLayers();
@@ -636,7 +640,6 @@
 	cvetokmorkoviicons.clearLayers();
 	}
 	L.control.mousePosition().addTo(map);
-	
 	function openinfo() {
 	zatemnenie.style.display = "block";
 	}
@@ -711,6 +714,8 @@
 <script src="scripts/Rasteniya/CvetokArbuza.js"></script>
 <script src="scripts/Rasteniya/CvetokMorkovi.js"></script>
 
+<script src="scripts/StrangeMobsButton.js"></script>
+
 <script type="application/javascript">
 LocationsOnOff();
 </script>
@@ -719,7 +724,7 @@ LocationsOnOff();
         <div id="infohead" align="center"><b>Интерактивная карта по игре Fallout 76.</b></div>
 		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогли с координатами - Гаруст и nokimaro.<br>
 		<p>Мы, а так же еще несколько тысяч игроков Fallout 76 сидим на дискорд сервере F76 HUB.
-		<p>Немного о карте: есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (на которые устанавливаются экстракторы), растения. При включении локаций включается строка поиска.
+		<p>Немного о карте: есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (на которые устанавливаются экстракторы), растения, места спавна флэтвудских монстров и молеротов. При включении локаций включается строка поиска.
 		<p>Можно найти точки по введенным координатам или узнать координаты какого-либо места.
 		<p>На ЛКМ показывает координаты того места где вы кликнули, на ПКМ - ставит простой маркер.<br><br>
         <input class="closebuttoninfo" type="button" id="closebuttoninfo" onclick="closeinfo()" value="Закрыть окно"/>
@@ -752,6 +757,10 @@ LocationsOnOff();
 		<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
 (Откроется в новой вкладке)"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
 		</div>
+	</div>
+	<div class="box" id="box6">
+		<div class="text" id="strangemobs_text">Места спавна флэтвудского монстра и молерота</div>
+		<label class="switch" id="strangemobs_switch"><input type="checkbox" onchange="StrangeMobsOnOff()" id="StrangeMobsButton" autocomplete="off"><span class="slider"></span></label>
 	</div>
 	<div class="box" id="box3">
 		<div class="text" id="text9"><u>Месторождения</u></div>
