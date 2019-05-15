@@ -474,7 +474,7 @@
     map.setZoom(-9);
     map.zoomControl.setPosition('topright');
 	
-	L.Permalink.setup(map);
+	
 	
 	var allmarkers = L.layerGroup().addTo(map);
 	var marker = null;
@@ -654,6 +654,9 @@
 	function closeinfo() {
 	zatemnenie.style.display = "none";
 	}
+	
+	L.Permalink.setup(map);
+	
 </script>
 <script src="scripts/LocationsIcons.js"></script>
 <script src="scripts/LocationsButton.js"></script>
