@@ -2,8 +2,8 @@ L.Permalink = {
     //gets the map center, zoom-level and rotation from the URL if present, else uses default values
     getMapLocation: function (zoom, center) {
         'use strict';
-        // zoom = (zoom || zoom === 0) ? zoom : 18;
-        // center = (center) ? center : [0, 0];
+        zoom = (zoom || zoom === 0) ? zoom : 18;
+        center = (center) ? center : [52.26869, -113.81034];
 
         if (window.location.hash !== '') {
             var hash = window.location.hash.replace('#', '');
@@ -14,8 +14,6 @@ L.Permalink = {
                     lng: parseFloat(parts[1])
                 };
                 zoom = parseInt(parts[2].slice(0, -1), 10);
-				document.location.hash = "";
-				history.pushState('', document.title, window.location.pathname);
             }
         }
         return {zoom: zoom, center: center};
@@ -40,7 +38,7 @@ L.Permalink = {
                 zoom: map.getZoom(),
                 center: center
             };
-            // window.history.pushState(state, 'map', hash);
+            window.history.pushState(state, 'map', hash);
         };
 
         map.on('moveend', updatePermalink);
