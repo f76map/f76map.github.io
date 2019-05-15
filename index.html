@@ -33,8 +33,6 @@
 	<script src="scripts/jquery-3.4.0.min.js"></script>
 	<script src="scripts/leaflet-search.js"></script>
 	<link rel="stylesheet" href="css/leaflet-search.css" />
-	
-	<script src="scripts/leaflet.permalink.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138965528-2"></script>
@@ -459,23 +457,17 @@
 <div id="map"></div>
 <script type="application/javascript">
 	var bounds = [[-290730,-291730], [292230,291255]];
-	var mappos = L.Permalink.getMapLocation();
     var map = new L.map('map', {
       crs: L.CRS.Simple,
       minZoom: -10,
       maxZoom: -4,
       maxBoundsViscosity: 0.5,
       maxBounds: bounds,
-	  center: mappos.center,
-	  zoom: mappos.zoom
     });
     var image = L.imageOverlay('css/images/map1.jpg', bounds).addTo(map);
     map.fitBounds(bounds);
     map.setZoom(-9);
     map.zoomControl.setPosition('topright');
-	
-	
-	
 	var allmarkers = L.layerGroup().addTo(map);
 	var marker = null;
 	function but1() {
@@ -654,9 +646,6 @@
 	function closeinfo() {
 	zatemnenie.style.display = "none";
 	}
-	
-	L.Permalink.setup(map);
-	
 </script>
 <script src="scripts/LocationsIcons.js"></script>
 <script src="scripts/LocationsButton.js"></script>
