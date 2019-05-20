@@ -25,6 +25,7 @@
 	icons = new L.marker([-46750, 20095], {title: "Станция Уайтспринг", icon: icon01}).addTo(allicons).bindPopup("Станция Уайтспринг").bindTooltip("Станция Льюисберг", {direction: 'top'});
 	icons = new L.marker([-132179, -148979], {title: "Станция Уэлч", icon: icon01}).addTo(allicons).bindPopup("Станция Уэлч").bindTooltip("Станция Уэлч", {direction: 'top'});
 	icons = new L.marker([-34818, -114761], {title: "Станция Чарлстон", icon: icon01}).addTo(allicons).bindPopup("Станция Чарлстон").bindTooltip("Станция Чарлстон", {direction: 'top'});
+	icons = new L.marker([15102, 136789], {title: "Станция Беркли-Спрингс", icon: icon01}).addTo(allicons).bindPopup("Станция Беркли-Спрингс").bindTooltip("Станция Беркли-Спрингс", {direction: 'top'});
 	icons = new L.marker([-150970, 58897], {title: "Разлом #1", icon: icon02}).addTo(allicons).bindPopup("Разлом").bindTooltip("Разлом", {direction: 'top'});
 	icons = new L.marker([-159284, 173252], {title: "Разлом #2", icon: icon02}).addTo(allicons).bindPopup("Разлом").bindTooltip("Разлом", {direction: 'top'});
 	icons = new L.marker([182385, 153700], {title: "Разлом #3", icon: icon02}).addTo(allicons).bindPopup("Разлом").bindTooltip("Разлом", {direction: 'top'});
