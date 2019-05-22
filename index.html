@@ -164,13 +164,17 @@
 		#changemaptext2 {top: 61px;}
 		#changemaptext3 {top: 91px;}
 		#changemaptext4 {top: 121px;}
+		#sidebar0 {position: absolute; top: 60px; bottom: 0px;}
 		#sidebar
 		{
 			position: absolute;
-			bottom: 65px;
-			left: -433px;
+			top: 0px;
+			bottom: 0px;
+			left: -453px;
 			width: 431px;
-			height: 739px;
+			height: auto;
+			max-height: 739px;
+			margin: auto 0px 60px 0px;
 			background-color:#FFFFFF;
 			z-index: 800;
 			opacity: 0.85;
@@ -184,8 +188,8 @@
 		#sidebarbutton
 		{
 			position: absolute;
-			left: 442px;
-			top:500px;
+			left: 10px;
+			bottom: 151px;
 			z-index: 801;
 			transition: all 0.5s ease-in-out;
 			-webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
@@ -196,7 +200,7 @@
 		{
 			width: 30px;
 			height: 149px;
-			background-color:#FFFFFF;
+			background-color: RGB(255, 255, 255);
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			box-shadow: 0 0 5px #bbb;
@@ -451,6 +455,12 @@
 		#box6 {height: 28px; width: 414px; top: 130px; left:10px;}
 		#strangemobs_text {position: absolute; top: 6px; left: 10px;}
 		#strangemobs_switch {top: 4px; right: 5px;}
+		
+		@media screen and (max-height: 855px) {
+		#sidebar {width: 446px; overflow-y: auto; overflow-x: hidden;}
+		}
+		
+		.emptybox {position: absolute; top: 735px; height: 5px; width: 100%;}
 	</style>
 </head>
 <body onload="initMap()">
@@ -547,8 +557,6 @@
 			.setContent("X: " + e.latlng.lng + ", Y: " + e.latlng.lat)
 			.addTo(map);
 	}
-	
-	
 	map.on('click', onMapClick);
 	map.on('contextmenu',function(e){
 		if (marker !== null) {
@@ -562,14 +570,22 @@
 	function f_sb0() {
 	var sidebarmove = document.getElementById('sidebar');
 	if (sidebarmove.style.left == '0px'){
-	sidebarmove.style.left = '-433px';
+	sidebarmove.style.left = '-448px';
 	sidebarmove.style["box-shadow"] = 'none';
-	sidebarbutton.style.left = '442px';
+	sidebarbutton.style.left = '10px';
+	sb0.style["background-color"] = 'RGBA(255, 255, 255, 0.85)';
 	sb0.value = '►';}
+	else if (window.matchMedia("(max-height: 855px)").matches){
+	sidebarmove.style.left = '0px';
+	sidebarmove.style["box-shadow"] = '0 0 5px #bbb';
+	sidebarbutton.style.left = '453px';
+	sb0.style["background-color"] = 'RGBA(255, 255, 255, 0.85)';
+	sb0.value = '◄';}
 	else {
 	sidebarmove.style.left = '0px';
 	sidebarmove.style["box-shadow"] = '0 0 5px #bbb';
-	sidebarbutton.style.left = '396px';
+	sidebarbutton.style.left = '397px';
+	setTimeout(function () {sb0.style["background-color"] = 'RGBA(255, 0, 0, 0)';}, 500)
 	sb0.value = '◄';}
 	};
 	function AllCheckboxOff(){
@@ -730,8 +746,9 @@ LocationsOnOff();
         <input class="closebuttoninfo" type="button" id="closebuttoninfo" onclick="closeinfo()" value="Закрыть окно"/>
       </div>
     </div>
+<div id="sidebar0">
+<div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель"/></div>
 <div id="sidebar">
-	<div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель"/></div>
 	<div class="box" id="box1">
 		<div class="text" id="text1">Локации</div>
 		<div class="text" id="text7">Сокровища</div>
@@ -901,7 +918,9 @@ LocationsOnOff();
 (Другие маркеры не будут удалены)"><input type="button" id="b2" onclick="but2()" value="Найти точку (без удаления других)"/></div>
 		<div id="searchB3" title="Удалить все маркеры с карты."><input type="button" id="b3" onclick="but3()" value="Удалить маркеры"/></div>
 	</div>
-
+	<div class="emptybox">
+	</div>
+</div>
 </div>
 </body>
 </html>
