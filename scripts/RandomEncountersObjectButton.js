@@ -81,6 +81,14 @@
 	icons = new L.marker([-37413, -178474], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
 	icons = new L.marker([1440, -30821], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
 	icons = new L.marker([-33857, -49622], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
+/* =7 */	
+	icons = new L.marker([-116480, 120371], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
+	icons = new L.marker([-163984, -33480], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
+	icons = new L.marker([-96024, 118192], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
+	icons = new L.marker([17461, 150351], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
+	icons = new L.marker([48136, -158045], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
+	icons = new L.marker([-32648, -138780], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
+	icons = new L.marker([-49903, -65835], {icon: icon_random4}).addTo(reobjecticons).bindPopup("Место случайной встречи (Object)").bindTooltip("Место случайной встречи (Object)", {direction: 'top'});
 	}
 	else {
 		reobjecticons.clearLayers();
