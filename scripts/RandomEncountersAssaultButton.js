@@ -39,6 +39,8 @@
 	icons = new L.marker([-12922, -35586], {icon: icon_random1}).addTo(reassaulticons).bindPopup("Место случайной встречи (Assault)").bindTooltip("Место случайной встречи (Assault)", {direction: 'top'});
 	icons = new L.marker([-80641, 159508], {icon: icon_random1}).addTo(reassaulticons).bindPopup("Место случайной встречи (Assault)").bindTooltip("Место случайной встречи (Assault)", {direction: 'top'});
 	icons = new L.marker([-172169, 184118], {icon: icon_random1}).addTo(reassaulticons).bindPopup("Место случайной встречи (Assault)").bindTooltip("Место случайной встречи (Assault)", {direction: 'top'});
+/* =1 */
+	icons = new L.marker([-82879, 198795], {icon: icon_random1}).addTo(reassaulticons).bindPopup("Место случайной встречи (Assault)").bindTooltip("Место случайной встречи (Assault)", {direction: 'top'});
 	}
 	else {
 		reassaulticons.clearLayers();
