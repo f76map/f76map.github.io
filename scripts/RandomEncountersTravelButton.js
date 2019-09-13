@@ -70,6 +70,9 @@
 /* ZW 1-2 =2 */
 	icons = new L.marker([-139638, -125873], {icon: icon_random2}).addTo(retravelicons).bindPopup("Место случайной встречи (Travel)").bindTooltip("Место случайной встречи (Travel)", {direction: 'top'});
 	icons = new L.marker([-130681, -92178], {icon: icon_random2}).addTo(retravelicons).bindPopup("Место случайной встречи (Travel)").bindTooltip("Место случайной встречи (Travel)", {direction: 'top'});
+/* =2 */
+	icons = new L.marker([74123, -26652], {icon: icon_random2}).addTo(retravelicons).bindPopup("Место случайной встречи (Travel)").bindTooltip("Место случайной встречи (Travel)", {direction: 'top'});
+	icons = new L.marker([152570, -109711], {icon: icon_random2}).addTo(retravelicons).bindPopup("Место случайной встречи (Travel)").bindTooltip("Место случайной встречи (Travel)", {direction: 'top'});
 	}
 	else {
 		retravelicons.clearLayers();
