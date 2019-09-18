@@ -34,6 +34,8 @@
 	<script src="scripts/leaflet-search.js"></script>
 	<link rel="stylesheet" href="css/leaflet-search.css" />
 
+	<script src="scripts/clipboard.min.js"></script>
+	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138965528-2"></script>
 	<script>
@@ -58,7 +60,7 @@
 	</script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/53445217" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
-
+	
  <style>
 		@font-face {font-family: LemonMilkRus; src: url(fonts/LemonMilkRus.otf);}
 		@font-face {font-family: PTSerifRegular; src: url(fonts/PTSerifRegular.ttf);}
@@ -244,17 +246,17 @@
 		#switch6 {top: 27px; right: 5px;} /*Сокровища*/
 		#switch7 {top: 50px; right: 5px;} /*Журналы*/
 														/*Месторождения*/
-		#switch8 {top: 27px; left: 61px;}
-		#switch9 {top: 50px; left: 61px;}
-		#switch10 {top: 73px; left: 61px;}
-		#switch11 {top: 96px; left: 61px;}
-		#switch12 {top: 119px; left: 61px;}
+		#switch8 {top: 27px; left: 66px;}
+		#switch9 {top: 50px; left: 66px;}
+		#switch10 {top: 73px; left: 66px;}
+		#switch11 {top: 96px; left: 66px;}
+		#switch12 {top: 119px; left: 66px;}
 		
-		#switch13 {top: 27px; left: 183px;}
-		#switch14 {top: 50px; left: 183px;}
-		#switch15 {top: 73px; left: 183px;}
-		#switch16 {top: 96px; left: 183px;}
-		#switch17 {top: 119px; left: 183px;}
+		#switch13 {top: 27px; left: 185px;}
+		#switch14 {top: 50px; left: 185px;}
+		#switch15 {top: 73px; left: 185px;}
+		#switch16 {top: 96px; left: 185px;}
+		#switch17 {top: 119px; left: 185px;}
 		
 		#switch18 {top: 27px; left: 374px;}
 		#switch19 {top: 50px; left: 374px;}
@@ -267,37 +269,37 @@
 		
 		.text {position: absolute; z-index: 2; font-family: LemonMilkRus; font-size: 9pt;}
 
-		#text1 {top: 6px; left: 10px;} /*Локации*/
+		#text1 {top: 6px; left: 17px;} /*Локации*/
 		#text2 {top: 6px; left: 36px;} /*Случайные встречи*/
-		#text3 {top: 29px; left: 80px;} /*Assault*/
-		#text4 {top: 52px; left: 80px;} /*Object*/
-		#text5 {top: 75px; left: 80px;} /*Scene*/
-		#text6 {top: 98px; left: 80px;} /*Travel*/
-		#text7 {top: 29px; left: 10px;} /*Сокровища*/
-		#text8 {top: 52px; left: 10px;} /*Журналы*/
+		#text3 {top: 29px; left: 85px;} /*Assault*/
+		#text4 {top: 52px; left: 85px;} /*Object*/
+		#text5 {top: 75px; left: 85px;} /*Scene*/
+		#text6 {top: 98px; left: 85px;} /*Travel*/
+		#text7 {top: 29px; left: 17px;} /*Сокровища*/
+		#text8 {top: 52px; left: 17px;} /*Журналы*/
 		
 		#text9 {top: 6px; left: 81px;} /*Месторождения*/
 		
-		#text10 {top: 29px; left: 10px;}
-		#text11 {top: 52px; left: 10px;}
-		#text12 {top: 75px; left: 10px;}
-		#text13 {top: 98px; left: 10px;}
-		#text14 {top: 121px; left: 10px;}
+		#text10 {top: 29px; left: 17px;}
+		#text11 {top: 52px; left: 17px;}
+		#text12 {top: 75px; left: 17px;}
+		#text13 {top: 98px; left: 17px;}
+		#text14 {top: 121px; left: 17px;}
 		
-		#text15 {top: 29px; left: 119px;}
-		#text16 {top: 52px; left: 119px;}
-		#text17 {top: 75px; left: 119px;}
-		#text18 {top: 98px; left: 119px;}
-		#text19 {top: 121px; left: 119px;}
+		#text15 {top: 29px; left: 123px;}
+		#text16 {top: 52px; left: 123px;}
+		#text17 {top: 75px; left: 123px;}
+		#text18 {top: 98px; left: 123px;}
+		#text19 {top: 121px; left: 123px;}
 		
-		#text20 {top: 29px; left: 242px;}
-		#text21 {top: 52px; left: 242px;}
-		#text22 {top: 75px; left: 242px;}
-		#text23 {top: 98px; left: 242px;}
-		#text24 {top: 121px; left: 242px;}
+		#text20 {top: 29px; left: 243px;}
+		#text21 {top: 52px; left: 243px;}
+		#text22 {top: 75px; left: 243px;}
+		#text23 {top: 98px; left: 243px;}
+		#text24 {top: 121px; left: 243px;}
 		
-		#text25 {top: 75px; left: 10px;} /*Пупсы*/
-		#text26 {top: 98px; left: 10px;} /*Тайники с крышками*/
+		#text25 {top: 75px; left: 17px;} /*Пупсы*/
+		#text26 {top: 98px; left: 17px;} /*Тайники с крышками*/
 		
 		.box {position: absolute; background-color: #FFFFFF; border-radius:7px; border:1px solid #3c3c3c; box-shadow: 0 0 5px #bbb; z-index: 1;}
 		
@@ -372,25 +374,25 @@
 		
 		#box4 {height: 146px; width: 414px; top: 311px; left:10px;}
 		#box5 {position: relative; height: 125px; width: 408px; top: 0px; left:0px; overflow-y: auto;}
-		#plants_switch1 {top: 4px; left: 115px;}
-		#plants_switch2 {top: 27px; left: 115px;}
-		#plants_switch3 {top: 50px; left: 115px;}
-		#plants_switch4 {top: 73px; left: 115px;}
-		#plants_switch5 {top: 96px; left: 115px;}
-		#plants_switch6 {top: 119px; left: 115px;}
-		#plants_switch7 {top: 142px; left: 115px;}
-		#plants_switch8 {top: 165px; left: 115px;}
-		#plants_switch9 {top: 188px; left: 115px;}
-		#plants_switch10 {top: 211px; left: 115px;}
-		#plants_switch11 {top: 234px; left: 115px;}
-		#plants_switch12 {top: 257px; left: 115px;}
-		#plants_switch13 {top: 280px; left: 115px;}
-		#plants_switch14 {top: 303px; left: 115px;}
-		#plants_switch15 {top: 326px; left: 115px;}
-		#plants_switch16 {top: 349px; left: 115px;}
-		#plants_switch17 {top: 372px; left: 115px;}
-		#plants_switch18 {top: 395px; left: 115px;}
-		#plants_switch19 {top: 418px; left: 115px;}
+		#plants_switch1 {top: 4px; left: 110px;}
+		#plants_switch2 {top: 27px; left: 110px;}
+		#plants_switch3 {top: 50px; left: 110px;}
+		#plants_switch4 {top: 73px; left: 110px;}
+		#plants_switch5 {top: 96px; left: 110px;}
+		#plants_switch6 {top: 119px; left: 110px;}
+		#plants_switch7 {top: 142px; left: 110px;}
+		#plants_switch8 {top: 165px; left: 110px;}
+		#plants_switch9 {top: 188px; left: 110px;}
+		#plants_switch10 {top: 211px; left: 110px;}
+		#plants_switch11 {top: 234px; left: 110px;}
+		#plants_switch12 {top: 257px; left: 110px;}
+		#plants_switch13 {top: 280px; left: 110px;}
+		#plants_switch14 {top: 303px; left: 110px;}
+		#plants_switch15 {top: 326px; left: 110px;}
+		#plants_switch16 {top: 349px; left: 110px;}
+		#plants_switch17 {top: 372px; left: 110px;}
+		#plants_switch18 {top: 395px; left: 110px;}
+		#plants_switch19 {top: 418px; left: 110px;}
 		
 		#plants_switch1_2 {top: 4px; left: 351px;}
 		#plants_switch2_2 {top: 27px; left: 351px;}
@@ -413,47 +415,47 @@
 		#plants_switch19_2 {top: 418px; left: 351px;}
 		
 		.plants_text {font-family: LemonMilkRus; font-size: 9pt;}
-		#plants_text1 {position: absolute; top: 6px; left: 10px;}
-		#plants_text2 {position: absolute; top: 29px; left: 10px;}
-		#plants_text3 {position: absolute; top: 52px; left: 10px;}
-		#plants_text4 {position: absolute; top: 75px; left: 10px;}
-		#plants_text5 {position: absolute; top: 98px; left: 10px;}
-		#plants_text6 {position: absolute; top: 121px; left: 10px;}
-		#plants_text7 {position: absolute; top: 144px; left: 10px;}
-		#plants_text8 {position: absolute; top: 167px; left: 10px;}
-		#plants_text9 {position: absolute; top: 190px; left: 10px;}
-		#plants_text10 {position: absolute; top: 213px; left: 10px;}
-		#plants_text11 {position: absolute; top: 236px; left: 10px;}
-		#plants_text12 {position: absolute; top: 259px; left: 10px;}
-		#plants_text13 {position: absolute; top: 282px; left: 10px;}
-		#plants_text14 {position: absolute; top: 305px; left: 10px;}
-		#plants_text15 {position: absolute; top: 328px; left: 10px;}
-		#plants_text16 {position: absolute; top: 351px; left: 10px;}
-		#plants_text17 {position: absolute; top: 374px; left: 10px;}
-		#plants_text18 {position: absolute; top: 397px; left: 10px;}
-		#plants_text19 {position: absolute; top: 420px; left: 10px;}
+		#plants_text1 {position: absolute; top: 6px; left: 17px;}
+		#plants_text2 {position: absolute; top: 29px; left: 17px;}
+		#plants_text3 {position: absolute; top: 52px; left: 17px;}
+		#plants_text4 {position: absolute; top: 75px; left: 17px;}
+		#plants_text5 {position: absolute; top: 98px; left: 17px;}
+		#plants_text6 {position: absolute; top: 121px; left: 17px;}
+		#plants_text7 {position: absolute; top: 144px; left: 17px;}
+		#plants_text8 {position: absolute; top: 167px; left: 17px;}
+		#plants_text9 {position: absolute; top: 190px; left: 17px;}
+		#plants_text10 {position: absolute; top: 213px; left: 17px;}
+		#plants_text11 {position: absolute; top: 236px; left: 17px;}
+		#plants_text12 {position: absolute; top: 259px; left: 17px;}
+		#plants_text13 {position: absolute; top: 282px; left: 17px;}
+		#plants_text14 {position: absolute; top: 305px; left: 17px;}
+		#plants_text15 {position: absolute; top: 328px; left: 17px;}
+		#plants_text16 {position: absolute; top: 351px; left: 17px;}
+		#plants_text17 {position: absolute; top: 374px; left: 17px;}
+		#plants_text18 {position: absolute; top: 397px; left: 17px;}
+		#plants_text19 {position: absolute; top: 420px; left: 17px;}
 		
-		#plants_text20 {position: absolute; top: 6px; left: 180px;}
-		#plants_text21 {position: absolute; top: 29px; left: 180px;}
-		#plants_text22 {position: absolute; top: 52px; left: 180px;}
-		#plants_text23 {position: absolute; top: 75px; left: 180px;}
-		#plants_text24 {position: absolute; top: 98px; left: 180px;}
-		#plants_text25 {position: absolute; top: 121px; left: 180px;}
-		#plants_text26 {position: absolute; top: 144px; left: 180px;}
-		#plants_text27 {position: absolute; top: 167px; left: 180px;}
-		#plants_text28 {position: absolute; top: 190px; left: 180px;}
-		#plants_text29 {position: absolute; top: 213px; left: 180px;}
-		#plants_text30 {position: absolute; top: 236px; left: 180px;}
-		#plants_text31 {position: absolute; top: 259px; left: 180px;}
-		#plants_text32 {position: absolute; top: 282px; left: 180px;}
-		#plants_text33 {position: absolute; top: 305px; left: 180px;}
-		#plants_text34 {position: absolute; top: 328px; left: 180px;}
-		#plants_text35 {position: absolute; top: 351px; left: 180px;}
-		#plants_text36 {position: absolute; top: 374px; left: 180px;}
-		#plants_text37 {position: absolute; top: 397px; left: 180px;}
-		#plants_text38 {position: absolute; top: 420px; left: 180px;}
+		#plants_text20 {position: absolute; top: 6px; left: 185px;}
+		#plants_text21 {position: absolute; top: 29px; left: 185px;}
+		#plants_text22 {position: absolute; top: 52px; left: 185px;}
+		#plants_text23 {position: absolute; top: 75px; left: 185px;}
+		#plants_text24 {position: absolute; top: 98px; left: 185px;}
+		#plants_text25 {position: absolute; top: 121px; left: 185px;}
+		#plants_text26 {position: absolute; top: 144px; left: 185px;}
+		#plants_text27 {position: absolute; top: 167px; left: 185px;}
+		#plants_text28 {position: absolute; top: 190px; left: 185px;}
+		#plants_text29 {position: absolute; top: 213px; left: 185px;}
+		#plants_text30 {position: absolute; top: 236px; left: 185px;}
+		#plants_text31 {position: absolute; top: 259px; left: 185px;}
+		#plants_text32 {position: absolute; top: 282px; left: 185px;}
+		#plants_text33 {position: absolute; top: 305px; left: 185px;}
+		#plants_text34 {position: absolute; top: 328px; left: 185px;}
+		#plants_text35 {position: absolute; top: 351px; left: 185px;}
+		#plants_text36 {position: absolute; top: 374px; left: 185px;}
+		#plants_text37 {position: absolute; top: 397px; left: 185px;}
+		#plants_text38 {position: absolute; top: 420px; left: 185px;}
 		
-		#line1 {position: absolute; top: 17px; left: 164px; width: 5px; height: 125px; background-color: #3c3c3c; opacity: 0.3; border-radius: 3px;}
+		#line1 {position: absolute; top: 17px; left: 156px; width: 5px; height: 125px; background-color: #3c3c3c; opacity: 0.3; border-radius: 3px;}
 
 		#box6 {height: 28px; width: 414px; top: 130px; left:10px;}
 		#strangemobs_text {position: absolute; top: 6px; left: 10px;}
@@ -464,6 +466,68 @@
 		}
 		
 		.emptybox {position: absolute; top: 735px; height: 5px; width: 100%;}
+		
+		#url1_1 {position: absolute; top: 31px; left: 3px;}
+		#url1_2 {position: absolute; top: 54px; left: 3px;}
+		#url1_3 {position: absolute; top: 77px; left: 3px;}
+		#url1_4 {position: absolute; top: 100px; left: 3px;}
+		#url2_1 {position: absolute; top: 31px; left: 70px;}
+		#url2_2 {position: absolute; top: 54px; left: 70px;}
+		#url2_3 {position: absolute; top: 77px; left: 70px;}
+		#url2_4 {position: absolute; top: 100px; left: 70px;}
+		#url3_1 {position: absolute; top: 31px; left: 3px;}
+		#url3_2 {position: absolute; top: 54px; left: 3px;}
+		#url3_3 {position: absolute; top: 77px; left: 3px;}
+		#url3_4 {position: absolute; top: 100px; left: 3px;}
+		#url3_5 {position: absolute; top: 123px; left: 3px;}
+		#url3_6 {position: absolute; top: 31px; left: 109px;}
+		#url3_7 {position: absolute; top: 54px; left: 109px;}
+		#url3_8 {position: absolute; top: 77px; left: 109px;}
+		#url3_9 {position: absolute; top: 100px; left: 109px;}
+		#url3_10 {position: absolute; top: 123px; left: 109px;}
+		#url3_11 {position: absolute; top: 31px; left: 229px;}
+		#url3_12 {position: absolute; top: 54px; left: 229px;}
+		#url3_13 {position: absolute; top: 77px; left: 229px;}
+		#url3_14 {position: absolute; top: 100px; left: 229px;}
+		#url3_15 {position: absolute; top: 123px; left: 229px;}
+		#url4_1 {position: absolute; top: 8px; left: 3px;}
+		#url4_2 {position: absolute; top: 31px; left: 3px;}
+		#url4_3 {position: absolute; top: 54px; left: 3px;}
+		#url4_4 {position: absolute; top: 77px; left: 3px;}
+		#url4_5 {position: absolute; top: 100px; left: 3px;}
+		#url4_6 {position: absolute; top: 123px; left: 3px;}
+		#url4_7 {position: absolute; top: 146px; left: 3px;}
+		#url4_8 {position: absolute; top: 169px; left: 3px;}
+		#url4_9 {position: absolute; top: 192px; left: 3px;}
+		#url4_10 {position: absolute; top: 215px; left: 3px;}
+		#url4_11 {position: absolute; top: 238px; left: 3px;}
+		#url4_12 {position: absolute; top: 261px; left: 3px;}
+		#url4_13 {position: absolute; top: 284px; left: 3px;}
+		#url4_14 {position: absolute; top: 307px; left: 3px;}
+		#url4_15 {position: absolute; top: 330px; left: 3px;}
+		#url4_16 {position: absolute; top: 353px; left: 3px;}
+		#url4_17 {position: absolute; top: 376px; left: 3px;}
+		#url4_18 {position: absolute; top: 399px; left: 3px;}
+		#url4_19 {position: absolute; top: 422px; left: 3px;}
+		#url4_2_1 {position: absolute; top: 8px; left: 170px;}
+		#url4_2_2 {position: absolute; top: 31px; left: 170px;}
+		#url4_2_3 {position: absolute; top: 54px; left: 170px;}
+		#url4_2_4 {position: absolute; top: 77px; left: 170px;}
+		#url4_2_5 {position: absolute; top: 100px; left: 170px;}
+		#url4_2_6 {position: absolute; top: 123px; left: 170px;}
+		#url4_2_7 {position: absolute; top: 146px; left: 170px;}
+		#url4_2_8 {position: absolute; top: 169px; left: 170px;}
+		#url4_2_9 {position: absolute; top: 192px; left: 170px;}
+		#url4_2_10 {position: absolute; top: 215px; left: 170px;}
+		#url4_2_11 {position: absolute; top: 238px; left: 170px;}
+		#url4_2_12 {position: absolute; top: 261px; left: 170px;}
+		#url4_2_13 {position: absolute; top: 284px; left: 170px;}
+		#url4_2_14 {position: absolute; top: 307px; left: 170px;}
+		#url4_2_15 {position: absolute; top: 330px; left: 170px;}
+		#url4_2_16 {position: absolute; top: 353px; left: 170px;}
+		#url4_2_17 {position: absolute; top: 376px; left: 170px;}
+		#url4_2_18 {position: absolute; top: 399px; left: 170px;}
+		#url4_2_19 {position: absolute; top: 422px; left: 170px;}
 	</style>
 </head>
 <body onload="initMap()">
@@ -665,6 +729,10 @@
 	function closeinfo() {
 	zatemnenie.style.display = "none";
 	}
+	var clipboard = new Clipboard('.buttonurl');
+	clipboard.on('success', function(e) {
+	var btn = $(e.trigger);
+	});
 </script>
 <script src="scripts/LocationsIcons.js"></script>
 <script src="scripts/LocationsButton.js"></script>
@@ -764,7 +832,11 @@ LocationsOnOff();
 ​		<label class="switch" id="switch6"><input type="checkbox" onchange="TreasureOnOff()" id="TreasureButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="switch7"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="switch23"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
-		<label class="switch" id="switch24"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>	
+		<label class="switch" id="switch24"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#treasure"><input type="image" src="css/images/url.png" alt="ОК" id="url1_1" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#magazine"><input type="image" src="css/images/url.png" alt="ОК" id="url1_2" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#bobblehead"><input type="image" src="css/images/url.png" alt="ОК" id="url1_3" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#capstash"><input type="image" src="css/images/url.png" alt="ОК" id="url1_4" width="12" height="12" title="Скопировать ссылку"></div>
 	</div>
 	<div class="box" id="box2">
 		<div class="text" id="text2"><u>Случайные встречи</u></div>
@@ -779,6 +851,10 @@ LocationsOnOff();
 		<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
 (Откроется в новой вкладке)"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
 		</div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="url2_1" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="url2_2" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="url2_3" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="url2_4" width="12" height="12" title="Скопировать ссылку"></div>
 	</div>
 	<div class="box" id="box6">
 		<div class="text" id="strangemobs_text">Места спавна флэтвудского монстра и молерота</div>
@@ -816,7 +892,22 @@ LocationsOnOff();
 ​		<label class="switch" id="switch20"><input type="checkbox" onchange="KristalliOnOff()" id="KristalliButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="switch21"><input type="checkbox" onchange="ChorniyTitanOnOff()" id="ChorniyTitanButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="switch22"><input type="checkbox" onchange="YaderniyMaterialOnOff()" id="YaderniyMaterialButton" autocomplete="off"><span class="slider"></span></label>
-	</div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#medy"><input type="image" src="css/images/url.png" alt="ОК" id="url3_1" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#hlam"><input type="image" src="css/images/url.png" alt="ОК" id="url3_2" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#ugoly"><input type="image" src="css/images/url.png" alt="ОК" id="url3_3" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#beton"><input type="image" src="css/images/url.png" alt="ОК" id="url3_4" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#maslo"><input type="image" src="css/images/url.png" alt="ОК" id="url3_5" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#zoloto"><input type="image" src="css/images/url.png" alt="ОК" id="url3_6" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#jelezo"><input type="image" src="css/images/url.png" alt="ОК" id="url3_7" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#svinec"><input type="image" src="css/images/url.png" alt="ОК" id="url3_8" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#serebro"><input type="image" src="css/images/url.png" alt="ОК" id="url3_9" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#kislota"><input type="image" src="css/images/url.png" alt="ОК" id="url3_10" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#udobrenie"><input type="image" src="css/images/url.png" alt="ОК" id="url3_11" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#aluminiy"><input type="image" src="css/images/url.png" alt="ОК" id="url3_12" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#kristalli"><input type="image" src="css/images/url.png" alt="ОК" id="url3_13" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#chorniytitan"><input type="image" src="css/images/url.png" alt="ОК" id="url3_14" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="buttonurl" data-clipboard-text="https://f76map.ru#yaderniymaterial"><input type="image" src="css/images/url.png" alt="ОК" id="url3_15" width="12" height="12" title="Скопировать ссылку"></div>
+		</div>
 	<div class="box" id="box4">
 		<div class="plants_text" id="plants_text0" align="center"><u>Растения</u></div>
 		<div id="line1"></div>
@@ -897,6 +988,44 @@ LocationsOnOff();
 			<label class="switch" id="plants_switch17_2"><input type="checkbox" onchange="CvetokTyikvyiOnOff()" id="CvetokTyikvyiButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch18_2"><input type="checkbox" onchange="CvetokArbuzaOnOff()" id="CvetokArbuzaButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch19_2"><input type="checkbox" onchange="CvetokMorkoviOnOff()" id="CvetokMorkoviButton" autocomplete="off"><span class="slider"></span></label>	
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#grib"><input type="image" src="css/images/url.png" alt="ОК" id="url4_1" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#arbuz"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#astra"><input type="image" src="css/images/url.png" alt="ОК" id="url4_3" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#toshka"><input type="image" src="css/images/url.png" alt="ОК" id="url4_4" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#tyikva"><input type="image" src="css/images/url.png" alt="ОК" id="url4_5" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#klukva"><input type="image" src="css/images/url.png" alt="ОК" id="url4_6" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#morkovy"><input type="image" src="css/images/url.png" alt="ОК" id="url4_7" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#ejevika"><input type="image" src="css/images/url.png" alt="ОК" id="url4_8" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#kukuruza"><input type="image" src="css/images/url.png" alt="ОК" id="url4_9" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#lihocvet"><input type="image" src="css/images/url.png" alt="ОК" id="url4_10" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#ilofasoly"><input type="image" src="css/images/url.png" alt="ОК" id="url4_11" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#krovolist"><input type="image" src="css/images/url.png" alt="ОК" id="url4_12" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#mozgogrib"><input type="image" src="css/images/url.png" alt="ОК" id="url4_13" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#mutafrukt"><input type="image" src="css/images/url.png" alt="ОК" id="url4_14" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#peplocvet"><input type="image" src="css/images/url.png" alt="ОК" id="url4_15" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#smolyanika"><input type="image" src="css/images/url.png" alt="ОК" id="url4_16" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#hvostolom"><input type="image" src="css/images/url.png" alt="ОК" id="url4_17" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#britvozlak"><input type="image" src="css/images/url.png" alt="ОК" id="url4_18" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#gryaznocvet"><input type="image" src="css/images/url.png" alt="ОК" id="url4_19" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#rododendron"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_1" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#chertopoloh"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_2" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#nochnoypolzun"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_3" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#nutryanoygrib"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_4" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#ognenniygrib"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_5" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#yaycomolerota"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_6" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#pepelynayaroza"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_7" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#yagodahlopushka"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_8" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#korenyjenyshenya"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_9" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#svetgrib"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_10" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru##cvetokdushitelya"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_11" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#svetsmola"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_12" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#zarajklukva"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_13" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#paporotnik"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_14" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#kizil"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_15" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetoktoshki"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_16" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetoktyikvyi"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_17" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetokarbuza"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_18" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetokmorkovi"><input type="image" src="css/images/url.png" alt="ОК" id="url4_2_19" width="12" height="12" title="Скопировать ссылку"></div>
 		</div>
 	</div>
 	<div class="allcheckbox"><input type="button" onclick="AllCheckboxOff()" id="allcheckboxbut" value="Отключить все"/></div>
