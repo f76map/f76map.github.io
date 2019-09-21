@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<meta name="google-site-verification" content="rAz6os48vxlwYdDyq6kSFFC9E775vsN1-9keVkCGB8g" />
+    <title>[F76 Map][by Farget][for Players] Рецепты ремонтного верстака</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="css/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="css/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="css/favicons/favicon-16x16.png">
+	<link rel="manifest" href="css/favicons/site.webmanifest">
+	<link rel="mask-icon" href="css/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="css/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="css/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta name="description" content="Рецепты ремонтного верстака в Fallout 76.">
+	<meta name="keywords" content="Fallout 76 map, F76 map, Fallout 76 карта, Fallout 76 интерактивная карта, Fallout 76 локации, Fallout 76 ресурсы, Fallout 76 координаты, Fallout 76 сокровища, Fallout 76 случайные встречи, Fallout 76 журналы, Fallout 76 пупсы, Fallout 76 растения">
+	<link rel="canonical" href="https://f76map.ru/chemistry_station"/>
+	
+	<meta property="og:title" content="[F76 Map][by Farget][for Players] Рецепты ремонтного верстака"/>
+	<meta property="og:image" content="https://f76map.ru/css/images/preview.jpg"/>
+	<meta property="og:url" content="https://f76map.ru/tinker's_workbench"/>
+	<meta property="og:description" content="Рецепты ремонтного верстака в Fallout 76."/>
+	<meta property="og:type" content="website"/>
+
+	<script src="scripts/jquery-3.4.0.min.js"></script>
+	<script type="text/javascript" src="scripts/tooltipster.bundle.js"></script>
+	<link rel="stylesheet" href="css/tooltipster.bundle.css"></link>
+	
+
+	
+<style type="text/css">
+	@font-face {font-family: LemonMilkRus; src: url(fonts/LemonMilkRus.otf);}
+	@font-face {font-family: PTSerifRegular; src: url(fonts/PTSerifRegular.ttf);}
+	@font-face {font-family: PTSerifBold; src: url(fonts/PTSerifBold.ttf);}
+	@font-face {font-family: RobotoCondensed-Regular; src: url(fonts/RobotoCondensed-Regular.ttf);}
+	html, body {width: 100%;height: 100%;margin: 0; min-width: 1263px;}
+	.head {
+	position: relative;
+	text-align: center;
+	font-family: LemonMilkRus;
+	font-size: 20pt;
+	background: #FFFFFF;
+	top: 10px;
+	margin: 0 10px;
+	border: 5px solid #3c3c3c;
+	border-radius:7px;
+	}
+	.tabs {position:absolute; top: 60px; width: 100%; padding: 0px; margin: 0 auto; min-width: 1263px;}
+	.tabs>input {display:none;}
+	.tabs>div {
+	position: relative;
+	top: 0px;
+	left: 180px;
+	display: none;
+	padding: 5px;
+	margin-right: 10px;
+	border: 1px solid #3c3c3c;
+	background: #E0E0E0;
+	max-width: calc(100% - 202px);
+	}
+	.tabs>label {
+	display: inline-block;
+	width: 150px;
+	padding: 5px;
+	text-align: center;
+	color: #3c3c3c;
+	border-radius:7px;
+	border:1px solid #3c3c3c;
+	background: #E0E0E0;
+	cursor: pointer;
+	font-family: LemonMilkRus;
+	font-size: 10pt;
+	}
+	.tabs>input:checked + label {
+	color: #FFFFFF;
+	border: 1px solid #C0C0C0;
+	background: #3c3c3c;
+	}
+	#tab_1:checked ~ #txt_1, #tab_2:checked ~ #txt_2, #tab_3:checked ~ #txt_3, #tab_4:checked ~ #txt_4, #tab_5:checked ~ #txt_5,
+	#tab_6:checked ~ #txt_6, #tab_7:checked ~ #txt_7, #tab_8:checked ~ #txt_8, #tab_9:checked ~ #txt_9, #tab_10:checked ~ #txt_10,
+	#tab_11:checked ~ #txt_11, #tab_12:checked ~ #txt_12, #tab_13:checked ~ #txt_13, #tab_14:checked ~ #txt_14, #tab_15:checked ~ #txt_15,
+	#tab_16:checked ~ #txt_16, #tab_17:checked ~ #txt_17, #tab_18:checked ~ #txt_18, #tab_19:checked ~ #txt_19, #tab_20:checked ~ #txt_20,
+	#tab_21:checked ~ #txt_21, #tab_22:checked ~ #txt_22, #tab_23:checked ~ #txt_23, #tab_24:checked ~ #txt_24
+	{display: inline-block;border-radius:7px;}
+	.tooltipster-sidetip .tooltipster-box {background: #FFFFFF;}
+	.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {border-top-color: #FFFFFF;}
+	.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {border-bottom-color: #FFFFFF;}
+	.tooltipster-sidetip .tooltipster-content {color: #3c3c3c;}
+	.tooltipster-sidetip .tooltipster-box {border-radius:7px;}
+	.tooltipster-sidetip .tooltipster-content {padding: 6px 8px;text-align: center;}
+	#txt_1>img,#txt_2>img,#txt_3>img,#txt_4>img,#txt_5>img,
+	#txt_6>img,#txt_7>img,#txt_8>img,#txt_9>img,#txt_10>img,
+	#txt_11>img,#txt_12>img,#txt_13>img,#txt_14>img,#txt_15>img,
+	#txt_16>img,#txt_17>img,#txt_18>img,#txt_19>img,#txt_20>img,
+	#txt_21>img,#txt_22>img,#txt_23>img,#txt_24>img{height:67px;width:67px;border-radius:7px;border:1px solid #3c3c3c; cursor: pointer;}
+	.qqq {border-radius:7px;border:1px solid #C0C0C0;padding: 5px 5px 0 5px;margin-bottom:5px;background:#FFFFFF;}
+	.qqq>img {border-radius:7px;border:1px solid #3c3c3c;cursor: pointer;}
+	.qqq2 {border-radius:7px;border:1px solid #C0C0C0;padding: 5px 5px 0 5px;background:#FFFFFF;}
+	.qqq2>img {border-radius:7px;border:1px solid #3c3c3c;cursor: pointer;}
+	#zzz {position: absolute;height: 10px;width: 162px;left: 10px;top: 457px;display: block;background: none;border: none;padding: 0; margin: 0;}
+	#zzz2 {position: relative;height: 10px;width: 1px;display: block;background: none;border: none;padding: 0; margin: 0;}
+	#map {
+	position: absolute;
+	height: 51px;
+	width: 162px;
+	left: 10px;
+	top: 406px;
+	display: block;
+	background: #dbb428;
+	border: none;
+	padding: 0;
+	margin: 0;
+	border-radius:7px;
+	border:1px solid #3c3c3c;
+	cursor: pointer;
+	font-family: LemonMilkRus;
+	font-size: 10pt;}
+	
+	table {font-family: RobotoCondensed-Regular; font-size: 12pt;}
+</style>
+</head>
+<body>
+	<div class="head">Ремонтный верстак
+		<img src="css/favicons/android-chrome-512x512.png" style="position: absolute;top: 2px;left: 59px;height: 34px;">
+		<img src="css/favicons/android-chrome-512x512.png" style="position: absolute;top: 2px;right: 59px;height: 34px;">
+	</div>
+	<div class="tabs">
+		<input type="radio" name="inset" value="" id="tab_1" checked><label for="tab_1"style="position: absolute;top: 0px;left: 10px;">Боеприпасы</label>
+		<input type="radio" name="inset" value="" id="tab_2"><label for="tab_2" style="position: absolute;top: 33px;left: 10px;">Взрывные боеприпасы</label>
+		<input type="radio" name="inset" value="" id="tab_3"><label for="tab_3" style="position: absolute;top: 85px;left: 10px;">Гранаты</label>
+		<input type="radio" name="inset" value="" id="tab_4"><label for="tab_4" style="position: absolute;top: 118px;left: 10px;">Камера</label>
+		<input type="radio" name="inset" value="" id="tab_5"><label for="tab_5" style="position: absolute;top: 151px;left: 10px;">Мины</label>
+		<input type="radio" name="inset" value="" id="tab_6"><label for="tab_6" style="position: absolute;top: 184px;left: 10px;">Предметы для задания</label>
+		<input type="radio" name="inset" value="" id="tab_7"><label for="tab_7" style="position: absolute;top: 236px;left: 10px;">Ультрацитовые боеприпасы</label>
+		<input type="radio" name="inset" value="" id="tab_8"><label for="tab_8" style="position: absolute;top: 288px;left: 10px;">Усилители</label>
+		<input type="radio" name="inset" value="" id="tab_9"><label for="tab_9" style="position: absolute;top: 321px;left: 10px;">Энергетические боеприпасы</label>
+		<input type="radio" name="inset" value="" id="tab_10"><label for="tab_10" style="position: absolute;top: 373px;left: 10px;">Ящик</label>
+		<input value="Открыть страницу карты (f76map.ru)" style="white-space: normal" type="button" id="map" onclick="location.href='https://f76map.ru'" />
+		<div id="zzz"></div>
+		
+	<div id="txt_1">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="220px">Название</th>
+		<th width="130px" colspan="2">Статистика</th>
+		<th width="200px">Описание</th>
+		<th width="160px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>10-мм патрон х24</td>
+		<td>Вес<br>Цена</td>
+		<td width="50px">0.005<br>1</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td width="40px">3<br>5<br>15</td>
+	</tr>
+	<tr align="center">
+		<td>5,56-мм патрон х20</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>2</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td>4<br>6<br>12</td>
+	</tr>
+	<tr align="center">
+		<td>5-мм патрон х100</td>
+		<td>Вес<br>Цена</td>
+		<td>0.001<br>1</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td>8<br>15<br>30</td>
+	</tr>
+	<tr align="center">
+		<td>Арбалетный болт х10</td>
+		<td>Вес<br>Цена</td>
+		<td>0.06<br>8</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Пластмасса<br>Сталь</td>
+		<td>1<br>2<br>3<br>5</td>
+	</tr>
+	<tr align="center">
+		<td>Веревка х50</td>
+		<td>Вес<br>Цена</td>
+		<td>0.01<br>1</td>
+		<td></td>
+		<td>Резина<br>Текстиль</td>
+		<td>5<br>25</td>
+	</tr>
+	<tr align="center">
+		<td>Гарпун х5</td>
+		<td>Вес<br>Цена</td>
+		<td>0.2<br>1</td>
+		<td></td>
+		<td>Дерево<br>Клей<br>Сталь</td>
+		<td>10<br>3<br>5</td>
+	</tr>
+	<tr align="center">
+		<td>Железнодорожный гвоздь х3</td>
+		<td>Вес<br>Цена</td>
+		<td>0.2<br>1</td>
+		<td></td>
+		<td>Сталь</td>
+		<td>7</td>
+	</tr>
+	<tr align="center">
+		<td>Заряды для инъектора х6</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>1</td>
+		<td></td>
+		<td>Пластмасса<br>Порох<br>Сталь</td>
+		<td>5<br>3<br>15</td>
+	</tr>
+	<tr align="center">
+		<td>Патрон дробовика х12</td>
+		<td>Вес<br>Цена</td>
+		<td>0.006<br>2</td>
+		<td></td>
+		<td>Пластмасса<br>Порох<br>Свинец<br>Сталь</td>
+		<td>10<br>4<br>4<br>6</td>
+	</tr>
+	<tr align="center">
+		<td>Патрон калибра .308 х12</td>
+		<td>Вес<br>Цена</td>
+		<td>0.006<br>2</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td>5<br>8<br>12</td>
+	</tr>
+	<tr align="center">
+		<td>Патрон калибра .38 х18</td>
+		<td>Вес<br>Цена</td>
+		<td>0.003<br>1</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td>3<br>6<br>12</td>
+	</tr>
+	<tr align="center">
+		<td>Патрон калибра .44 х15</td>
+		<td>Вес<br>Цена</td>
+		<td>0.004<br>3</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td>3<br>4<br>15</td>
+	</tr>
+	<tr align="center">
+		<td>Патрон калибра .45 х12</td>
+		<td>Вес<br>Цена</td>
+		<td>0.003<br>2</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td>3<br>4<br>10</td>
+	</tr>
+	<tr align="center">
+		<td>Патрон калибра .50 х100</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>5</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь</td>
+		<td>12<br>10<br>40</td>
+	</tr>
+	<tr align="center">
+		<td>Пушечное ядро х2</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>8</td>
+		<td></td>
+		<td>Свинец</td>
+		<td>10</td>
+	</tr>
+	<tr align="center">
+		<td>Сигнальная ракета х5</td>
+		<td>Вес<br>Цена</td>
+		<td>0.1<br>1</td>
+		<td></td>
+		<td>Алюминий<br>Кислота<br>Пластмасса<br>Сталь</td>
+		<td>1<br>2<br>5<br>5</td>
+	</tr>
+	<tr align="center">
+		<td>Шар калибра .50 х5</td>
+		<td>Вес<br>Цена</td>
+		<td>0.1<br>5</td>
+		<td></td>
+		<td>Свинец<br>Сталь</td>
+		<td>5<br>5</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_2">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="180px">Название</th>
+		<th width="100px" colspan="2">Статистика</th>
+		<th width="200px">Описание</th>
+		<th width="190px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>Граната 40 мм х5</td>
+		<td>Вес<br>Цена</td>
+		<td width="40px">0.2<br>25</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Масло<br>Пружина<br>Сталь<br>Удобрение</td>
+		<td width="30px">3<br>2<br>3<br>3<br>6<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Ракета х3</td>
+		<td>Вес<br>Цена</td>
+		<td>2<br>25</td>
+		<td></td>
+		<td>Болт<br>Клей<br>Пружина<br>Сталь</td>
+		<td>8<br>5<br>4<br>8</td>
+	</tr>
+	<tr align="center">
+		<td>Ядерный минизаряд х3</td>
+		<td>Вес<br>Цена</td>
+		<td>6<br>100</td>
+		<td></td>
+		<td>Болт<br>Клей<br>Поводка<br>Свинец<br>Сталь<br>Ядерный материал</td>
+		<td>10<br>5<br>4<br>3<br>10<br>5</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_3">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="230px">Название</th>
+		<th width="180px" colspan="2">Статистика</th>
+		<th width="270px">Описание</th>
+		<th width="360px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>Бутылка с коктейлем Молотова</td>
+		<td>Урон<br><br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td width="40px">110<br>8<br>0<br>94<br>0<br>0.5<br>20</td>
+		<td></td>
+		<td>Бутылка из под пива<br>Клей<br>Масло<br>Текстиль</td>
+		<td width="30px">1<br>1<br>2<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Маяк орбитального сканера</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>1<br>0<br>94<br>0<br>1<br>50</td>
+		<td>Отмечает цели на 60 секунд.</td>
+		<td>Необработанный алый флюс<br>Оптическое волокно<br>Сталь<br>Шестеренки</td>
+		<td>2<br>5<br>10<br>5</td>
+	</tr>
+	<tr align="center">
+		<td>Маяк орбитального удара</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>1<br>0<br>94<br>0<br>1<br>50</td>
+		<td>Вызывает орбитальный ракетный удар</td>
+		<td>Необработанный флюс уранового концентрата<br>Оптическое волокно<br>Сталь<br>Шестеренки</td>
+		<td>2<br>5<br>10<br>5</td>
+	</tr>
+	<tr align="center">
+		<td>Тыквенная граната</td>
+		<td>Урон<br><br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>177<br>40<br>0<br>94<br>0<br>0.5<br>20</td>
+		<td>Цель получает дополнительный урон и радиацию в течении 5 секунд.</td>
+		<td>Алюминий<br>Клей<br>Масло<br>Пружина<br>Радиоактивные семена тыквы</td>
+		<td>1<br>2<br>2<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Граната из бейсбольного мяча</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>276<br>0<br>94<br>0<br>1<br>20</td>
+		<td></td>
+		<td>Бейсбольный мяч<br>Клей<br>Масло<br>Сталь<br>Удобрение</td>
+		<td>1<br>1<br>1<br>3<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Осколочная граната</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>331<br>0<br>94<br>0<br>0.5<br>15</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Масло<br>Пружина<br>Удобрение</td>
+		<td>1<br>2<br>2<br>1<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Молотов-кола</td>
+		<td>Урон<br><br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>552<br>125<br>0<br>94<br>0<br>0.5<br>35</td>
+		<td></td>
+		<td>Алюминий<br>Осколочная граната<br>Ядер-кола</td>
+		<td>1<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Импульсная граната</td>
+		<td>Урон<br><br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>386<br>175<br>0<br>94<br>0<br>0.5<br>20</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Проводка<br>Пружина<br>Ядерный материал</td>
+		<td>2<br>2<br>1<br>1<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Криогенная граната</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>221<br>0<br>94<br>0<br>0.5<br>25</td>
+		<td></td>
+		<td>Алюминий<br>Кислота<br>Клей<br>Криогенный заряд<br>Пружина<br>Ядерный материал</td>
+		<td>2<br>2<br>2<br>1<br>1<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Разделяющаяся осколочная граната</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>221<br>0<br>94<br>0<br>1<br>50</td>
+		<td></td>
+		<td>Алюминий<br>Осколочная граната<br>Пружина<br>Шестеренки</td>
+		<td>1<br>1<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Граната с квантовой Ядер-колой</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>662<br>0<br>94<br>0<br>0.5<br>50</td>
+		<td></td>
+		<td>Алюминий<br>Квантовая Ядер-кола<br>Осколочная граната</td>
+		<td>1<br>1<br>1</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_4">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="210px">Название</th>
+		<th width="180px" colspan="2">Статистика</th>
+		<th width="300px">Описание</th>
+		<th width="320px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>Камера "Про-Щелк Делюкс"</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td width="50px">1<br>5<br>117<br>68<br>0.1<br>5</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Пружина<br>Серебро<br>Сломанная камера "Про-Щелк-Делюкс"<br>Стекло</td>
+		<td width="30px">5<br>3<br>3<br>5<br>1<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Пленка для камеры х12</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>1</td>
+		<td></td>
+		<td>Клей<br>Кристалл<br>Пластмасса<br>Серебро</td>
+		<td>3<br>5<br>5<br>5</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_5">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="170px">Название</th>
+		<th width="180px" colspan="2">Статистика</th>
+		<th width="300px">Описание</th>
+		<th width="200px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>Взрывная приманка</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td width="40px">1<br>0<br>94<br>0<br>1<br>10</td>
+		<td></td>
+		<td>Клей<br>Медь<br>Мясо рад-оленя<br>Осколочная мина</td>
+		<td width="30px">2<br>1<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Осколочная мина</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>331<br>0<br>94<br>0<br>0.5<br>20</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Масло<br>Пружина<br>Удобрение</td>
+		<td>1<br>2<br>2<br>1<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Импульсная мина</td>
+		<td>Урон<br><br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>386<br>175<br>0<br>94<br>0<br>0.5<br>25</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Проводка<br>Пружина<br>Ядерный материал</td>
+		<td>2<br>2<br>1<br>1<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Криомина</td>
+		<td>Урон<br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>386<br>0<br>94<br>0<br>0.5<br>30</td>
+		<td></td>
+		<td>Алюминий<br>Кислота<br>Клей<br>Криогенный заряд<br>Пружина<br>Ядерный материал</td>
+		<td>2<br>2<br>2<br>1<br>1<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Ядерная мина</td>
+		<td>Урон<br><br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td>552<br>125<br>0<br>94<br>0<br>0.5<br>40</td>
+		<td></td>
+		<td>Болт<br>Медь<br>Проводка<br>Свинец<br>Сталь<br>Ядерный материал</td>
+		<td>5<br>3<br>2<br>3<br>10<br>3</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_6">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="280px">Название</th>
+		<th width="180px" colspan="2">Статистика</th>
+		<th width="200px">Описание</th>
+		<th width="370px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>Взрывная мина</td>
+		<td>Урон<br><br>Скорострельность<br>Дальность<br>Меткость<br>Вес<br>Цена</td>
+		<td width="40px">497<br>10<br>0<br>94<br>0<br>0.5<br>40</td>
+		<td></td>
+		<td>Алюминий<br>Инертная бомба<br>Клей<br>Проводка<br>Пружина<br>Ядерный материал</td>
+		<td width="30px">2<br>1<br>2<br>1<br>1<br>3</td>
+	</tr>
+	<tr align="center">
+		<td>Карта запуска отзыва штурмотрона</td>
+		<td>Вес<br>Цена</td>
+		<td>0<br>0</td>
+		<td></td>
+		<td>Медь<br>Резина<br>Стабильный флуоресцентный флюс<br>Сталь<br>Электросхема карты запуска отзыва</td>
+		<td>3<br>1<br>1<br>2<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ретранслятор</td>
+		<td>Вес<br>Цена</td>
+		<td>0<br>0</td>
+		<td></td>
+		<td>Дуплексная антенна RCX01-A39<br>Передатчик SMU-97</td>
+		<td>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Удостоверение KidSecure - Фредди Вуд</td>
+		<td>Вес<br>Цена</td>
+		<td>0<br>0</td>
+		<td></td>
+		<td>KidSecure<br>Клей<br>Проводка<br>Ядерный материал</td>
+		<td>1<br>3<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ядро центрального компьютера</td>
+		<td>Вес<br>Цена</td>
+		<td>1.5<br>0</td>
+		<td></td>
+		<td>Поврежденное ядро центрального компьютера<br>Проводка<br>Сталь</td>
+		<td>1<br>2<br>3</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_7">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="390px">Название</th>
+		<th width="110px" colspan="2">Статистика</th>
+		<th width="200px">Описание</th>
+		<th width="300px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовая ядерная батарея х120</td>
+		<td>Вес<br>Цена</td>
+		<td width="50px">0.005<br>3</td>
+		<td></td>
+		<td>Медь<br>Пластмасса<br>Свинец<br>Ультрацит<br>Чистый алый флюс</td>
+		<td width="30px">6<br>6<br>12<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый 10-мм патрон х96</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>1</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый флюс уранового концентрата</td>
+		<td>5<br>8<br>22<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый 2-мм электромагнитный картридж х60</td>
+		<td>Вес<br>Цена</td>
+		<td>0.1<br>10</td>
+		<td></td>
+		<td>Свинец<br>Сталь<br>Ультрацит<br>Чистый алый флюс</td>
+		<td>8<br>22<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый 5-мм патрон х200</td>
+		<td>Вес<br>Цена</td>
+		<td>0.001<br>1</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый фиолетовый флюс</td>
+		<td>12<br>22<br>44<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый арбалетный болт х40</td>
+		<td>Вес<br>Цена</td>
+		<td>0.06<br>8</td>
+		<td></td>
+		<td>Алюминий<br>Клей<br>Пластмасса<br>Сталь<br>Ультрацит<br>Чистый флуоресцентный флюс</td>
+		<td>1<br>3<br>4<br>7<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый железнодорожный гвоздь х12</td>
+		<td>Вес<br>Цена</td>
+		<td>0.2<br>1</td>
+		<td></td>
+		<td>Сталь<br>Ультрацит<br>Чистый кобальтовый флюс</td>
+		<td>10<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый заряд плазмы х60</td>
+		<td>Вес<br>Цена</td>
+		<td>0.03<br>5</td>
+		<td></td>
+		<td>Медь<br>Пластмасса<br>Свинец<br>Ультрацит<br>Чистый кобальтовый флюс</td>
+		<td>9<br>9<br>18<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый патрон дробовика х48</td>
+		<td>Вес<br>Цена</td>
+		<td>0.006<br>2</td>
+		<td></td>
+		<td>Пластмасса<br>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый флуоресцентный флюс</td>
+		<td>15<br>6<br>6<br>9<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый патрон калибра .308 х72</td>
+		<td>Вес<br>Цена</td>
+		<td>0.003<br>1</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый флюс уранового концентрата</td>
+		<td>7<br>12<br>18<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый патрон калибра .308 х96</td>
+		<td>Вес<br>Цена</td>
+		<td>0.006<br>2</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый флуоресцентный флюс</td>
+		<td>7<br>12<br>18<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый патрон калибра .44 х60</td>
+		<td>Вес<br>Цена</td>
+		<td>0.004<br>3</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый алый флюс</td>
+		<td>4<br>6<br>22<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый патрон калибра .45 х48</td>
+		<td>Вес<br>Цена</td>
+		<td>0.003<br>2</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый кобальтовый флюс</td>
+		<td>4<br>6<br>15<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый патрон калибра .50 х200</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>5</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый фиолетовый флюс</td>
+		<td>18<br>15<br>60<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый патрон калибра 5,56 х80</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>2</td>
+		<td></td>
+		<td>Порох<br>Свинец<br>Сталь<br>Ультрацит<br>Чистый фиолетовый флюс</td>
+		<td>6<br>9<br>18<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый плазменный блок х2</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>162</td>
+		<td></td>
+		<td>Плазменный блок<br>Ультрацит<br>Чистый флюс уранового концентрата</td>
+		<td>2<br>1<br>1</td>
+	</tr>
+	<tr align="center">
+		<td>Ультрацитовый ядерный блок х2</td>
+		<td>Заряд<br>Вес<br>Цена</td>
+		<td>100<br>3<br>162</td>
+		<td></td>
+		<td>Ультрацит<br>Чистый фиолетовый флюс<br>Ядерный блок</td>
+		<td>1<br>1<br>2</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_8">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="150px">Название</th>
+		<th width="110px" colspan="2">Статистика</th>
+		<th width="400px">Описание</th>
+		<th width="260px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>"Фантом"</td>
+		<td>Вес<br>Цена</td>
+		<td width="40px">1<br>100</td>
+		<td>Приводит находящихся рядом уществ в ярость и делает вас почти полностью недимимым.</td>
+		<td>Емкость с газом "ГаллюциГен"<br>Клей<br>Медь<br>Стелс-бой</td>
+		<td width="30px">1<br>1<br>1<br>1</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_9">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="280px">Название</th>
+		<th width="110px" colspan="2">Статистика</th>
+		<th width="200px">Описание</th>
+		<th width="190px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>2-мм электромагнитный картридж х15</td>
+		<td>Вес<br>Цена</td>
+		<td width="50px">0.1<br>10</td>
+		<td></td>
+		<td>Свинец<br>Сталь</td>
+		<td width="30px">5<br>15</td>
+	</tr>
+	<tr align="center">
+		<td>Гамма-патрон х16</td>
+		<td>Вес<br>Цена</td>
+		<td>0.01<br>10</td>
+		<td></td>
+		<td>Медь<br>Пластмасса<br>Свинец</td>
+		<td>3<br>6<br>10</td>
+	</tr>
+	<tr align="center">
+		<td>Заряд плазмы х30</td>
+		<td>Вес<br>Цена</td>
+		<td>0.03<br>5</td>
+		<td></td>
+		<td>Медь<br>Пластмасса<br>Свинец</td>
+		<td>6<br>6<br>12</td>
+	</tr>
+	<tr align="center">
+		<td>Криогенный заряд х25</td>
+		<td>Вес<br>Цена</td>
+		<td>0.03<br>10</td>
+		<td></td>
+		<td>Кристалл<br>Свинец<br>Сталь</td>
+		<td>2<br>5<br>10</td>
+	</tr>
+	<tr align="center">
+		<td>Плазменный блок</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>162</td>
+		<td></td>
+		<td>Медь<br>Пластмасса<br>Свинец<br>Ядерный материал</td>
+		<td>7<br>5<br>10<br>3</td>
+	</tr>
+	<tr align="center">
+		<td>Топливо х20</td>
+		<td>Вес<br>Цена</td>
+		<td>0.01<br>1</td>
+		<td></td>
+		<td>Кислота<br>Масло<br>Сталь</td>
+		<td>10<br>5<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Ядерная батарея х30</td>
+		<td>Вес<br>Цена</td>
+		<td>0.005<br>3</td>
+		<td></td>
+		<td>Медь<br>Пластмасса<br>Свинец</td>
+		<td>4<br>4<br>8</td>
+	</tr>
+	</table>
+	</div>
+	<div id="txt_10">
+	<table style="background:black">
+	<colgroup>
+		<col span="6" style="background:#E0E0E0">
+	</colgroup>
+	<tr>
+		<th width="200px">Название</th>
+		<th width="110px" colspan="2">Статистика</th>
+		<th width="200px">Описание</th>
+		<th width="250px" colspan="2">Крафт</th>
+	</tr>
+	<tr align="center">
+		<td>Груз алюминия</td>
+		<td>Вес<br>Цена</td>
+		<td width="40px">0.05<br>82</td>
+		<td></td>
+		<td>Алюминиевый лом<br>Пластмасса</td>
+		<td width="30px">10<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз бетона</td>
+		<td>Вес<br>Цена</td>
+		<td>0.75<br>28</td>
+		<td></td>
+		<td>Обломки бетона<br>Пластмасса</td>
+		<td>15<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз древесины</td>
+		<td>Вес<br>Цена</td>
+		<td>1.5<br>32</td>
+		<td></td>
+		<td>Древесина<br>Пластмасса</td>
+		<td>30<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз керамики</td>
+		<td>Вес<br>Цена</td>
+		<td>0.75<br>46</td>
+		<td></td>
+		<td>Обломки керамики<br>Пластмасса</td>
+		<td>15<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз кислоты</td>
+		<td>Вес<br>Цена</td>
+		<td>0.75<br>64</td>
+		<td></td>
+		<td>Отработанная кислота<br>Пластмасса</td>
+		<td>15<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз клея</td>
+		<td>Вес<br>Цена</td>
+		<td>0.5<br>88</td>
+		<td></td>
+		<td>Избыточный клей<br>Пластмасса</td>
+		<td>10<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз кожи</td>
+		<td>Вес<br>Цена</td>
+		<td>0.75<br>60</td>
+		<td></td>
+		<td>Необработанная кожа<br>Пластмасса</td>
+		<td>15<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз масла</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>74</td>
+		<td></td>
+		<td>Отработанная нефть<br>Пластмасса</td>
+		<td>10<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз меди</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>84</td>
+		<td></td>
+		<td>Медный лом<br>Пластмасса</td>
+		<td>10<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз осколков кости</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>24</td>
+		<td></td>
+		<td>Осколки костей<br>Пластмасса</td>
+		<td>20<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз пластмассы</td>
+		<td>Вес<br>Цена</td>
+		<td>0.5<br>26</td>
+		<td></td>
+		<td>Формованная пластмасса</td>
+		<td>12</td>
+	</tr>
+	<tr align="center">
+		<td>Груз пробки</td>
+		<td>Вес<br>Цена</td>
+		<td>0.3<br>34</td>
+		<td></td>
+		<td>Куски пробки<br>Пластмасса</td>
+		<td>10<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз пружин</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>78</td>
+		<td></td>
+		<td>Пластмасса<br>Пружина</td>
+		<td>2<br>10</td>
+	</tr>
+	<tr align="center">
+		<td>Груз резины</td>
+		<td>Вес<br>Цена</td>
+		<td>0.5<br>42</td>
+		<td></td>
+		<td>Необработанная резина<br>Пластмасса</td>
+		<td>10<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз свинца</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>40</td>
+		<td></td>
+		<td>Пластмасса<br>Свинцовый лом</td>
+		<td>2<br>20</td>
+	</tr>
+	<tr align="center">
+		<td>Груз стали</td>
+		<td>Вес<br>Цена</td>
+		<td>1.5<br>36</td>
+		<td></td>
+		<td>Пластмасса<br>Стальной лом</td>
+		<td>2<br>30</td>
+	</tr>
+	<tr align="center">
+		<td>Груз стекла</td>
+		<td>Вес<br>Цена</td>
+		<td>0.75<br>44</td>
+		<td></td>
+		<td>Пластмасса<br>Стеклянные осколки</td>
+		<td>2<br>15</td>
+	</tr>
+	<tr align="center">
+		<td>Груз текстиля</td>
+		<td>Вес<br>Цена</td>
+		<td>1.5<br>38</td>
+		<td></td>
+		<td>Необработанный текстиль<br>Пластмасса</td>
+		<td>30<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз удобрения</td>
+		<td>Вес<br>Цена</td>
+		<td>2<br>58</td>
+		<td></td>
+		<td>Необработанное удобрение<br>Пластмасса</td>
+		<td>20<br>2</td>
+	</tr>
+	<tr align="center">
+		<td>Груз шестеренок</td>
+		<td>Вес<br>Цена</td>
+		<td>1<br>80</td>
+		<td></td>
+		<td>Пластмасса<br>Шестеренки</td>
+		<td>2<br>10</td>
+	</tr>
+	</table>
+	</div>
+	<div id="zzz2"></div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+	$('.tooltip').tooltipster();
+	});
+	$('.tooltip').tooltipster({
+	animation: 'fade',
+	delay: 200,
+	trigger: 'click',
+	maxWidth: 200,
+	side: 'bottom',
+	contentAsHTML: true
+	});
+</script>
+</body>
+</html>
