@@ -27,8 +27,6 @@
 	
 	<link rel="stylesheet" href="css/leaflet.css" />
     <script src="scripts/leaflet.js"></script>
-	<link rel="stylesheet" href="css/L.Control.MousePosition.css" />
-    <script src="scripts/L.Control.MousePosition.js"></script>
 	<link rel="stylesheet" href="css/switchbutton.css" />
 	<script src="scripts/jquery-3.4.0.min.js"></script>
 	<script src="scripts/leaflet-search.js"></script>
@@ -181,7 +179,7 @@
 			left: -453px;
 			width: 431px;
 			height: auto;
-			margin: auto 0px 60px 0px;
+			margin: auto 0px 5px 0px;
 			background-color:#FFFFFF;
 			z-index: 800;
 			opacity: 0.87;
@@ -710,7 +708,6 @@
 	cvetokarbuzaicons.clearLayers();
 	cvetokmorkoviicons.clearLayers();
 	}
-	var Position = L.control.mousePosition().addTo(map);
 	function openinfo() {
 	zatemnenie.style.display = "block";
 	}
@@ -929,7 +926,7 @@ LocationsOnOff();
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
-		<div style="height: 200px; width: 408px; position: relative; font-family: LemonMilkRus; font-size: 10pt; overflow-y: auto;">
+		<div style="height: 300px; width: 408px; position: relative; font-family: LemonMilkRus; font-size: 10pt; overflow-y: auto;">
 			<div class="plants_text" id="plants_text1">Гриб</div>
 			<div class="plants_text" id="plants_text2">Арбуз</div>
 			<div class="plants_text" id="plants_text3">Астра</div>
