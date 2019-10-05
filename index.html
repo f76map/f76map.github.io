@@ -37,6 +37,9 @@
 	<script src="scripts/menu.js"></script>
 	<link rel="stylesheet" href="css/menu-style.css">
 	
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138965528-2"></script>
 	<script>
@@ -340,7 +343,7 @@
 			z-index: 10000;
 		}
 		#okno {
-			width: 424px; height: 389px;
+			width: 520px; height: 330px;
 			padding: 15px;
 			border:1px solid #3c3c3c;
 			border-radius: 7px;
@@ -349,19 +352,21 @@
 			margin: auto;
 			background: #FFFFFF;
 			font-family: PTSerifRegular;
-			font-size: 11pt;
+			font-size: 12pt;
 		}
-		.closebuttoninfo {position: relative; text-align: center; margin: 0 auto; font-family: PTSerifRegular;}
 		#closebuttoninfo
 		{
-			display: block;
-			width: 130px;
+			position: absolute;
+			bottom: 20px;
+			left: 145px;
+			width: 260px;
 			height: 30px;
 			background-color:#FFFFFF;
 			border:1px solid #3c3c3c;
 			border-radius: 7px;
 			cursor:pointer;
 			font-size: 12pt;
+			font-family: PTSerifRegular;
 		}
 		#closebuttoninfo:hover {background-color: #3c3c3c; color: #FFFFFF;}
 		p {text-indent: 20px; margin: 10px 0;}
@@ -521,7 +526,19 @@
 		#url4_2_18 {position: absolute; top: 401px; left: 170px;}
 		#url4_2_19 {position: absolute; top: 424px; left: 170px;}
 		
-		#url5 {position: absolute; top: 17px; left: 25px;}
+		#url5 {position: absolute; top: 18px; left: 25px;}
+		
+		#box_v {position: absolute; width: 335px; height: 100%; top: 0px; left: 15px;}
+		#box_v_b {position: absolute; width: 36px; height: 100%; top: 0px; left: 172px;}
+		#box_v2 {position: absolute; width: 335px; height: 100%; top: 0px; left: 240px;}
+		#box_v2_b {position: absolute; width: 36px; height: 100%; top: 0px; left: 365px;}
+		.vein_text {position: relative; margin-top: 9.2px; font-size: 9pt;}
+		
+		#box_h {position: absolute; width: 335px; height: 100%; top: 2px; left: 55px;}
+		#box_h_b {position: absolute; width: 36px; height: 100%; top: 2px; left: 10px;}
+		.hlam_text {position: relative; margin-top: 9.2px; font-size: 9pt;}
+		.switch2 {position: relative; top: 3px; margin-top: 3px;}
+		.emptybox2 {position: relative; height: 10px; width: 100%;}
 	</style>
 </head>
 <body onload="initMap()">
@@ -707,6 +724,155 @@
 	cvetoktyikvyiicons.clearLayers();
 	cvetokarbuzaicons.clearLayers();
 	cvetokmorkoviicons.clearLayers();
+	hlam1icons.clearLayers(); hlam2icons.clearLayers(); hlam3icons.clearLayers(); hlam4icons.clearLayers(); hlam5icons.clearLayers();
+	hlam6icons.clearLayers(); hlam7icons.clearLayers(); hlam8icons.clearLayers(); hlam9icons.clearLayers(); hlam10icons.clearLayers();
+	hlam11icons.clearLayers(); hlam12icons.clearLayers(); hlam13icons.clearLayers(); hlam14icons.clearLayers(); hlam15icons.clearLayers();
+	hlam16icons.clearLayers(); hlam17icons.clearLayers(); hlam18icons.clearLayers(); hlam19icons.clearLayers(); hlam20icons.clearLayers();
+	hlam21icons.clearLayers(); hlam22icons.clearLayers(); hlam23icons.clearLayers(); hlam24icons.clearLayers(); hlam25icons.clearLayers();
+	hlam26icons.clearLayers(); hlam27icons.clearLayers(); hlam28icons.clearLayers(); hlam29icons.clearLayers(); hlam30icons.clearLayers();
+	hlam31icons.clearLayers(); hlam32icons.clearLayers(); hlam33icons.clearLayers(); hlam34icons.clearLayers(); hlam35icons.clearLayers();
+	hlam36icons.clearLayers(); hlam37icons.clearLayers(); hlam38icons.clearLayers(); hlam39icons.clearLayers(); hlam40icons.clearLayers();
+	hlam41icons.clearLayers(); hlam42icons.clearLayers(); hlam43icons.clearLayers(); hlam44icons.clearLayers(); hlam45icons.clearLayers();
+	hlam46icons.clearLayers(); hlam47icons.clearLayers(); hlam48icons.clearLayers(); hlam49icons.clearLayers(); hlam50icons.clearLayers();
+	hlam51icons.clearLayers(); hlam52icons.clearLayers(); hlam53icons.clearLayers(); hlam54icons.clearLayers(); hlam55icons.clearLayers();
+	hlam56icons.clearLayers(); hlam57icons.clearLayers(); hlam58icons.clearLayers(); hlam59icons.clearLayers(); hlam60icons.clearLayers();
+	hlam61icons.clearLayers(); hlam62icons.clearLayers(); hlam63icons.clearLayers(); hlam64icons.clearLayers(); hlam65icons.clearLayers();
+	hlam66icons.clearLayers(); hlam67icons.clearLayers(); hlam68icons.clearLayers(); hlam69icons.clearLayers(); hlam70icons.clearLayers();
+	hlam71icons.clearLayers(); hlam72icons.clearLayers(); hlam73icons.clearLayers(); hlam74icons.clearLayers(); hlam75icons.clearLayers();
+	hlam76icons.clearLayers(); hlam77icons.clearLayers(); hlam78icons.clearLayers(); hlam79icons.clearLayers(); hlam80icons.clearLayers();
+	hlam81icons.clearLayers(); hlam82icons.clearLayers(); hlam83icons.clearLayers(); hlam84icons.clearLayers(); hlam85icons.clearLayers();
+	hlam86icons.clearLayers(); hlam87icons.clearLayers(); hlam88icons.clearLayers(); hlam89icons.clearLayers(); hlam90icons.clearLayers();
+	hlam91icons.clearLayers(); hlam92icons.clearLayers(); hlam93icons.clearLayers(); hlam94icons.clearLayers(); hlam95icons.clearLayers();
+	hlam96icons.clearLayers(); hlam97icons.clearLayers(); hlam98icons.clearLayers(); hlam99icons.clearLayers(); hlam100icons.clearLayers();
+	
+	hlam101icons.clearLayers(); hlam102icons.clearLayers(); hlam103icons.clearLayers(); hlam104icons.clearLayers(); hlam105icons.clearLayers();
+	hlam106icons.clearLayers(); hlam107icons.clearLayers(); hlam108icons.clearLayers(); hlam109icons.clearLayers(); hlam110icons.clearLayers();
+	hlam111icons.clearLayers(); hlam112icons.clearLayers(); hlam113icons.clearLayers(); hlam114icons.clearLayers(); hlam115icons.clearLayers();
+	hlam116icons.clearLayers(); hlam117icons.clearLayers(); hlam118icons.clearLayers(); hlam119icons.clearLayers(); hlam120icons.clearLayers();
+	hlam121icons.clearLayers(); hlam122icons.clearLayers(); hlam123icons.clearLayers(); hlam124icons.clearLayers(); hlam125icons.clearLayers();
+	hlam126icons.clearLayers(); hlam127icons.clearLayers(); hlam128icons.clearLayers(); hlam129icons.clearLayers(); hlam130icons.clearLayers();
+	hlam131icons.clearLayers(); hlam132icons.clearLayers(); hlam133icons.clearLayers(); hlam134icons.clearLayers(); hlam135icons.clearLayers();
+	hlam136icons.clearLayers(); hlam137icons.clearLayers(); hlam138icons.clearLayers(); hlam139icons.clearLayers(); hlam140icons.clearLayers();
+	hlam141icons.clearLayers(); hlam142icons.clearLayers(); hlam143icons.clearLayers(); hlam144icons.clearLayers(); hlam145icons.clearLayers();
+	hlam146icons.clearLayers(); hlam147icons.clearLayers(); hlam148icons.clearLayers(); hlam149icons.clearLayers(); hlam150icons.clearLayers();
+	hlam151icons.clearLayers(); hlam152icons.clearLayers(); hlam153icons.clearLayers(); hlam154icons.clearLayers(); hlam155icons.clearLayers();
+	hlam156icons.clearLayers(); hlam157icons.clearLayers(); hlam158icons.clearLayers(); hlam159icons.clearLayers(); hlam160icons.clearLayers();
+	hlam161icons.clearLayers(); hlam162icons.clearLayers(); hlam163icons.clearLayers(); hlam164icons.clearLayers(); hlam165icons.clearLayers();
+	hlam166icons.clearLayers(); hlam167icons.clearLayers(); hlam168icons.clearLayers(); hlam169icons.clearLayers(); hlam170icons.clearLayers();
+	hlam171icons.clearLayers(); hlam172icons.clearLayers(); hlam173icons.clearLayers(); hlam174icons.clearLayers(); hlam175icons.clearLayers();
+	hlam176icons.clearLayers(); hlam177icons.clearLayers(); hlam178icons.clearLayers(); hlam179icons.clearLayers(); hlam180icons.clearLayers();
+	hlam181icons.clearLayers(); hlam182icons.clearLayers(); hlam183icons.clearLayers(); hlam184icons.clearLayers(); hlam185icons.clearLayers();
+	hlam186icons.clearLayers(); hlam187icons.clearLayers(); hlam188icons.clearLayers(); hlam189icons.clearLayers(); hlam190icons.clearLayers();
+	hlam191icons.clearLayers(); hlam192icons.clearLayers(); hlam193icons.clearLayers(); hlam194icons.clearLayers(); hlam195icons.clearLayers();
+	hlam196icons.clearLayers(); hlam197icons.clearLayers(); hlam198icons.clearLayers(); hlam199icons.clearLayers(); hlam200icons.clearLayers();
+	
+	hlam201icons.clearLayers(); hlam202icons.clearLayers(); hlam203icons.clearLayers(); hlam204icons.clearLayers(); hlam205icons.clearLayers();
+	hlam206icons.clearLayers(); hlam207icons.clearLayers(); hlam208icons.clearLayers(); hlam209icons.clearLayers(); hlam210icons.clearLayers();
+	hlam211icons.clearLayers(); hlam212icons.clearLayers(); hlam213icons.clearLayers(); hlam214icons.clearLayers(); hlam215icons.clearLayers();
+	hlam216icons.clearLayers(); hlam217icons.clearLayers(); hlam218icons.clearLayers(); hlam219icons.clearLayers(); hlam220icons.clearLayers();
+	hlam221icons.clearLayers(); hlam222icons.clearLayers(); hlam223icons.clearLayers(); hlam224icons.clearLayers(); hlam225icons.clearLayers();
+	hlam226icons.clearLayers(); hlam227icons.clearLayers(); hlam228icons.clearLayers(); hlam229icons.clearLayers(); hlam230icons.clearLayers();
+	hlam231icons.clearLayers(); hlam232icons.clearLayers(); hlam233icons.clearLayers(); hlam234icons.clearLayers(); hlam235icons.clearLayers();
+	hlam236icons.clearLayers(); hlam237icons.clearLayers(); hlam238icons.clearLayers(); hlam239icons.clearLayers(); hlam240icons.clearLayers();
+	hlam241icons.clearLayers(); hlam242icons.clearLayers(); hlam243icons.clearLayers(); hlam244icons.clearLayers(); hlam245icons.clearLayers();
+	hlam246icons.clearLayers(); hlam247icons.clearLayers(); hlam248icons.clearLayers(); hlam249icons.clearLayers(); hlam250icons.clearLayers();
+	hlam251icons.clearLayers(); hlam252icons.clearLayers(); hlam253icons.clearLayers(); hlam254icons.clearLayers(); hlam255icons.clearLayers();
+	hlam256icons.clearLayers(); hlam257icons.clearLayers(); hlam258icons.clearLayers(); hlam259icons.clearLayers(); hlam260icons.clearLayers();
+	hlam261icons.clearLayers(); hlam262icons.clearLayers(); hlam263icons.clearLayers(); hlam264icons.clearLayers(); hlam265icons.clearLayers();
+	hlam266icons.clearLayers(); hlam267icons.clearLayers(); hlam268icons.clearLayers(); hlam269icons.clearLayers(); hlam270icons.clearLayers();
+	hlam271icons.clearLayers(); hlam272icons.clearLayers(); hlam273icons.clearLayers(); hlam274icons.clearLayers(); hlam275icons.clearLayers();
+	hlam276icons.clearLayers(); hlam277icons.clearLayers(); hlam278icons.clearLayers(); hlam279icons.clearLayers(); hlam280icons.clearLayers();
+	hlam281icons.clearLayers(); hlam282icons.clearLayers(); hlam283icons.clearLayers(); hlam284icons.clearLayers(); hlam285icons.clearLayers();
+	hlam286icons.clearLayers(); hlam287icons.clearLayers(); hlam288icons.clearLayers(); hlam289icons.clearLayers(); hlam290icons.clearLayers();
+	hlam291icons.clearLayers(); hlam292icons.clearLayers(); hlam293icons.clearLayers(); hlam294icons.clearLayers(); hlam295icons.clearLayers();
+	hlam296icons.clearLayers(); hlam297icons.clearLayers(); hlam298icons.clearLayers(); hlam299icons.clearLayers(); hlam300icons.clearLayers();
+	
+	hlam301icons.clearLayers(); hlam302icons.clearLayers(); hlam303icons.clearLayers(); hlam304icons.clearLayers(); hlam305icons.clearLayers();
+	hlam306icons.clearLayers(); hlam307icons.clearLayers(); hlam308icons.clearLayers(); hlam309icons.clearLayers(); hlam310icons.clearLayers();
+	hlam311icons.clearLayers(); hlam312icons.clearLayers(); hlam313icons.clearLayers(); hlam314icons.clearLayers(); hlam315icons.clearLayers();
+	hlam316icons.clearLayers(); hlam317icons.clearLayers(); hlam318icons.clearLayers(); hlam319icons.clearLayers(); hlam320icons.clearLayers();
+	hlam321icons.clearLayers(); hlam322icons.clearLayers(); hlam323icons.clearLayers(); hlam324icons.clearLayers(); hlam325icons.clearLayers();
+	hlam326icons.clearLayers(); hlam327icons.clearLayers(); hlam328icons.clearLayers(); hlam329icons.clearLayers(); hlam330icons.clearLayers();
+	hlam331icons.clearLayers(); hlam332icons.clearLayers(); hlam333icons.clearLayers(); hlam334icons.clearLayers(); hlam335icons.clearLayers();
+	hlam336icons.clearLayers(); hlam337icons.clearLayers(); hlam338icons.clearLayers(); hlam339icons.clearLayers(); hlam340icons.clearLayers();
+	hlam341icons.clearLayers(); hlam342icons.clearLayers(); hlam343icons.clearLayers(); hlam344icons.clearLayers(); hlam345icons.clearLayers();
+	hlam346icons.clearLayers(); hlam347icons.clearLayers(); hlam348icons.clearLayers(); hlam349icons.clearLayers(); hlam350icons.clearLayers();
+	hlam351icons.clearLayers(); hlam352icons.clearLayers(); hlam353icons.clearLayers(); hlam354icons.clearLayers(); hlam355icons.clearLayers();
+	hlam356icons.clearLayers(); hlam357icons.clearLayers(); hlam358icons.clearLayers(); hlam359icons.clearLayers(); hlam360icons.clearLayers();
+	hlam361icons.clearLayers(); hlam362icons.clearLayers(); hlam363icons.clearLayers(); hlam364icons.clearLayers(); hlam365icons.clearLayers();
+	hlam366icons.clearLayers(); hlam367icons.clearLayers(); hlam368icons.clearLayers(); hlam369icons.clearLayers(); hlam370icons.clearLayers();
+	hlam371icons.clearLayers(); hlam372icons.clearLayers(); hlam373icons.clearLayers(); hlam374icons.clearLayers(); hlam375icons.clearLayers();
+	hlam376icons.clearLayers(); hlam377icons.clearLayers(); hlam378icons.clearLayers(); hlam379icons.clearLayers(); hlam380icons.clearLayers();
+	hlam381icons.clearLayers(); hlam382icons.clearLayers(); hlam383icons.clearLayers(); hlam384icons.clearLayers(); hlam385icons.clearLayers();
+	hlam386icons.clearLayers(); hlam387icons.clearLayers(); hlam388icons.clearLayers(); hlam389icons.clearLayers(); hlam390icons.clearLayers();
+	hlam391icons.clearLayers(); hlam392icons.clearLayers(); hlam393icons.clearLayers(); hlam394icons.clearLayers(); hlam395icons.clearLayers();
+	hlam396icons.clearLayers(); hlam397icons.clearLayers(); hlam398icons.clearLayers(); hlam399icons.clearLayers(); hlam400icons.clearLayers();
+	
+	hlam401icons.clearLayers(); hlam402icons.clearLayers(); hlam403icons.clearLayers(); hlam404icons.clearLayers(); hlam405icons.clearLayers();
+	hlam406icons.clearLayers(); hlam407icons.clearLayers(); hlam408icons.clearLayers(); hlam409icons.clearLayers(); hlam410icons.clearLayers();
+	hlam411icons.clearLayers(); hlam412icons.clearLayers(); hlam413icons.clearLayers(); hlam414icons.clearLayers(); hlam415icons.clearLayers();
+	hlam416icons.clearLayers(); hlam417icons.clearLayers(); hlam418icons.clearLayers(); hlam419icons.clearLayers(); hlam420icons.clearLayers();
+	hlam421icons.clearLayers(); hlam422icons.clearLayers(); hlam423icons.clearLayers(); hlam424icons.clearLayers(); hlam425icons.clearLayers();
+	hlam426icons.clearLayers(); hlam427icons.clearLayers(); hlam428icons.clearLayers(); hlam429icons.clearLayers(); hlam430icons.clearLayers();
+	hlam431icons.clearLayers(); hlam432icons.clearLayers(); hlam433icons.clearLayers(); hlam434icons.clearLayers(); hlam435icons.clearLayers();
+	hlam436icons.clearLayers(); hlam437icons.clearLayers(); hlam438icons.clearLayers(); hlam439icons.clearLayers(); hlam440icons.clearLayers();
+	hlam441icons.clearLayers(); hlam442icons.clearLayers(); hlam443icons.clearLayers(); hlam444icons.clearLayers(); hlam445icons.clearLayers();
+	hlam446icons.clearLayers(); hlam447icons.clearLayers(); hlam448icons.clearLayers(); hlam449icons.clearLayers(); hlam450icons.clearLayers();
+	hlam451icons.clearLayers(); hlam452icons.clearLayers(); hlam453icons.clearLayers(); hlam454icons.clearLayers(); hlam455icons.clearLayers();
+	hlam456icons.clearLayers(); hlam457icons.clearLayers(); hlam458icons.clearLayers(); hlam459icons.clearLayers(); hlam460icons.clearLayers();
+	hlam461icons.clearLayers(); hlam462icons.clearLayers(); hlam463icons.clearLayers(); hlam464icons.clearLayers(); hlam465icons.clearLayers();
+	hlam466icons.clearLayers(); hlam467icons.clearLayers(); hlam468icons.clearLayers(); hlam469icons.clearLayers(); hlam470icons.clearLayers();
+	hlam471icons.clearLayers(); hlam472icons.clearLayers(); hlam473icons.clearLayers(); hlam474icons.clearLayers(); hlam475icons.clearLayers();
+	hlam476icons.clearLayers(); hlam477icons.clearLayers(); hlam478icons.clearLayers(); hlam479icons.clearLayers(); hlam480icons.clearLayers();
+	hlam481icons.clearLayers(); hlam482icons.clearLayers(); hlam483icons.clearLayers(); hlam484icons.clearLayers(); hlam485icons.clearLayers();
+	hlam486icons.clearLayers(); hlam487icons.clearLayers(); hlam488icons.clearLayers(); hlam489icons.clearLayers(); hlam490icons.clearLayers();
+	hlam491icons.clearLayers(); hlam492icons.clearLayers(); hlam493icons.clearLayers(); hlam494icons.clearLayers(); hlam495icons.clearLayers();
+	hlam496icons.clearLayers(); hlam497icons.clearLayers(); hlam498icons.clearLayers(); hlam499icons.clearLayers(); hlam500icons.clearLayers();
+	
+	hlam501icons.clearLayers(); hlam502icons.clearLayers(); hlam503icons.clearLayers(); hlam504icons.clearLayers(); hlam505icons.clearLayers();
+	hlam506icons.clearLayers(); hlam507icons.clearLayers(); hlam508icons.clearLayers(); hlam509icons.clearLayers(); hlam510icons.clearLayers();
+	hlam511icons.clearLayers(); hlam512icons.clearLayers(); hlam513icons.clearLayers(); hlam514icons.clearLayers(); hlam515icons.clearLayers();
+	hlam516icons.clearLayers(); hlam517icons.clearLayers(); hlam518icons.clearLayers(); hlam519icons.clearLayers(); hlam520icons.clearLayers();
+	hlam521icons.clearLayers(); hlam522icons.clearLayers(); hlam523icons.clearLayers(); hlam524icons.clearLayers(); hlam525icons.clearLayers();
+	hlam526icons.clearLayers(); hlam527icons.clearLayers(); hlam528icons.clearLayers(); hlam529icons.clearLayers(); hlam530icons.clearLayers();
+	hlam531icons.clearLayers(); hlam532icons.clearLayers(); hlam533icons.clearLayers(); hlam534icons.clearLayers(); hlam535icons.clearLayers();
+	hlam536icons.clearLayers(); hlam537icons.clearLayers(); hlam538icons.clearLayers(); hlam539icons.clearLayers(); hlam540icons.clearLayers();
+	hlam541icons.clearLayers(); hlam542icons.clearLayers(); hlam543icons.clearLayers(); hlam544icons.clearLayers(); hlam545icons.clearLayers();
+	hlam546icons.clearLayers(); hlam547icons.clearLayers(); hlam548icons.clearLayers(); hlam549icons.clearLayers(); hlam550icons.clearLayers();
+	hlam551icons.clearLayers(); hlam552icons.clearLayers(); hlam553icons.clearLayers(); hlam554icons.clearLayers(); hlam555icons.clearLayers();
+	hlam556icons.clearLayers(); hlam557icons.clearLayers(); hlam558icons.clearLayers(); hlam559icons.clearLayers(); hlam560icons.clearLayers();
+	hlam561icons.clearLayers(); hlam562icons.clearLayers(); hlam563icons.clearLayers(); hlam564icons.clearLayers(); hlam565icons.clearLayers();
+	hlam566icons.clearLayers(); hlam567icons.clearLayers(); hlam568icons.clearLayers(); hlam569icons.clearLayers(); hlam570icons.clearLayers();
+	hlam571icons.clearLayers(); hlam572icons.clearLayers(); hlam573icons.clearLayers(); hlam574icons.clearLayers(); hlam575icons.clearLayers();
+	hlam576icons.clearLayers(); hlam577icons.clearLayers(); hlam578icons.clearLayers(); hlam579icons.clearLayers(); hlam580icons.clearLayers();
+	hlam581icons.clearLayers(); hlam582icons.clearLayers(); hlam583icons.clearLayers(); hlam584icons.clearLayers(); hlam585icons.clearLayers();
+	hlam586icons.clearLayers(); hlam587icons.clearLayers(); hlam588icons.clearLayers(); hlam589icons.clearLayers(); hlam590icons.clearLayers();
+	hlam591icons.clearLayers(); hlam592icons.clearLayers(); hlam593icons.clearLayers(); hlam594icons.clearLayers(); hlam595icons.clearLayers();
+	hlam596icons.clearLayers(); hlam597icons.clearLayers(); hlam598icons.clearLayers(); hlam599icons.clearLayers(); hlam600icons.clearLayers();
+	
+	hlam601icons.clearLayers(); hlam602icons.clearLayers(); hlam603icons.clearLayers(); hlam604icons.clearLayers(); hlam605icons.clearLayers();
+	hlam606icons.clearLayers(); hlam607icons.clearLayers(); hlam608icons.clearLayers(); hlam609icons.clearLayers(); hlam610icons.clearLayers();
+	hlam611icons.clearLayers(); hlam612icons.clearLayers(); hlam613icons.clearLayers(); hlam614icons.clearLayers(); hlam615icons.clearLayers();
+	hlam616icons.clearLayers(); hlam617icons.clearLayers(); hlam618icons.clearLayers(); hlam619icons.clearLayers(); hlam620icons.clearLayers();
+	hlam621icons.clearLayers(); hlam622icons.clearLayers(); hlam623icons.clearLayers(); hlam624icons.clearLayers(); hlam625icons.clearLayers();
+	hlam626icons.clearLayers(); hlam627icons.clearLayers(); hlam628icons.clearLayers(); hlam629icons.clearLayers(); hlam630icons.clearLayers();
+	hlam631icons.clearLayers(); hlam632icons.clearLayers(); hlam633icons.clearLayers(); hlam634icons.clearLayers(); hlam635icons.clearLayers();
+	hlam636icons.clearLayers(); hlam637icons.clearLayers(); hlam638icons.clearLayers(); hlam639icons.clearLayers(); hlam640icons.clearLayers();
+	hlam641icons.clearLayers(); hlam642icons.clearLayers(); hlam643icons.clearLayers(); hlam644icons.clearLayers(); hlam645icons.clearLayers();
+	hlam646icons.clearLayers(); hlam647icons.clearLayers(); hlam648icons.clearLayers(); hlam649icons.clearLayers(); hlam650icons.clearLayers();
+	hlam651icons.clearLayers(); hlam652icons.clearLayers(); hlam653icons.clearLayers(); hlam654icons.clearLayers(); hlam655icons.clearLayers();
+	hlam656icons.clearLayers(); hlam657icons.clearLayers(); hlam658icons.clearLayers(); hlam659icons.clearLayers(); hlam660icons.clearLayers();
+	hlam661icons.clearLayers(); hlam662icons.clearLayers(); hlam663icons.clearLayers(); hlam664icons.clearLayers(); hlam665icons.clearLayers();
+	hlam666icons.clearLayers(); hlam667icons.clearLayers(); hlam668icons.clearLayers(); hlam669icons.clearLayers(); hlam670icons.clearLayers();
+	hlam671icons.clearLayers(); hlam672icons.clearLayers(); hlam673icons.clearLayers(); hlam674icons.clearLayers(); hlam675icons.clearLayers();
+	hlam676icons.clearLayers(); hlam677icons.clearLayers(); hlam678icons.clearLayers(); hlam679icons.clearLayers(); hlam680icons.clearLayers();
+	hlam681icons.clearLayers(); hlam682icons.clearLayers(); hlam683icons.clearLayers(); hlam684icons.clearLayers(); hlam685icons.clearLayers();
+	hlam686icons.clearLayers(); hlam687icons.clearLayers(); hlam688icons.clearLayers(); hlam689icons.clearLayers(); hlam690icons.clearLayers();
+	hlam691icons.clearLayers(); hlam692icons.clearLayers();
+	
+	vein1icons.clearLayers(); vein2icons.clearLayers(); vein3icons.clearLayers(); vein4icons.clearLayers(); vein5icons.clearLayers();
+	vein6icons.clearLayers(); vein7icons.clearLayers(); vein8icons.clearLayers(); vein9icons.clearLayers(); vein10icons.clearLayers();
+	vein11icons.clearLayers();
 	}
 	function openinfo() {
 	zatemnenie.style.display = "block";
@@ -720,73 +886,82 @@
 	});
 </script>
 <script src="scripts/LocationsIcons.js"></script>
-<script src="scripts/LocationsButton.js"></script>
-<script src="scripts/RandomEncountersButton.js"></script>
-<script src="scripts/RandomEncountersAssaultButton.js"></script>
-<script src="scripts/RandomEncountersObjectButton.js"></script>
-<script src="scripts/RandomEncountersSceneButton.js"></script>
-<script src="scripts/RandomEncountersTravelButton.js"></script>
-<script src="scripts/Mestorojdeniya/AluminiyButton.js"></script>
-<script src="scripts/Mestorojdeniya/BetonButton.js"></script>
-<script src="scripts/Mestorojdeniya/JelezoButton.js"></script>
-<script src="scripts/Mestorojdeniya/ZolotoButton.js"></script>
-<script src="scripts/Mestorojdeniya/KislotaButton.js"></script>
-<script src="scripts/Mestorojdeniya/KristalliButton.js"></script>
-<script src="scripts/Mestorojdeniya/MasloButton.js"></script>
-<script src="scripts/Mestorojdeniya/MedyButton.js"></script>
-<script src="scripts/Mestorojdeniya/SvinecButton.js"></script>
-<script src="scripts/Mestorojdeniya/SerebroButton.js"></script>
-<script src="scripts/Mestorojdeniya/UgolyButton.js"></script>
-<script src="scripts/Mestorojdeniya/HlamButton.js"></script>
-<script src="scripts/Mestorojdeniya/ChorniyTitanButton.js"></script>
-<script src="scripts/Mestorojdeniya/UdobrenieButton.js"></script>
-<script src="scripts/Mestorojdeniya/YaderniyMaterialButton.js"></script>
-<script src="scripts/TreasureButton.js"></script>
-<script src="scripts/MagazineButton.js"></script>
-<script src="scripts/BobbleheadButton.js"></script>
-<script src="scripts/CapStashButton.js"></script>
+<script src="scripts/Objects/LocationsButton.js"></script>
+<script src="scripts/Objects/RandomEncountersButton.js"></script>
+<script src="scripts/Objects/RandomEncountersAssaultButton.js"></script>
+<script src="scripts/Objects/RandomEncountersObjectButton.js"></script>
+<script src="scripts/Objects/RandomEncountersSceneButton.js"></script>
+<script src="scripts/Objects/RandomEncountersTravelButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/AluminiyButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/BetonButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/JelezoButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/ZolotoButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/KislotaButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/KristalliButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/MasloButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/MedyButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/SvinecButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/SerebroButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/UgolyButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/HlamButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/ChorniyTitanButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/UdobrenieButton.js"></script>
+<script src="scripts/Objects/Mestorojdeniya/YaderniyMaterialButton.js"></script>
+<script src="scripts/Objects/TreasureButton.js"></script>
+<script src="scripts/Objects/MagazineButton.js"></script>
+<script src="scripts/Objects/BobbleheadButton.js"></script>
+<script src="scripts/Objects/CapStashButton.js"></script>
 
-<script src="scripts/Rasteniya/Grib.js"></script>
-<script src="scripts/Rasteniya/Arbuz.js"></script>
-<script src="scripts/Rasteniya/Astra.js"></script>
-<script src="scripts/Rasteniya/Toshka.js"></script>
-<script src="scripts/Rasteniya/Tyikva.js"></script>
-<script src="scripts/Rasteniya/Klukva.js"></script>
-<script src="scripts/Rasteniya/Morkovy.js"></script>
-<script src="scripts/Rasteniya/Ejevika.js"></script>
-<script src="scripts/Rasteniya/Kukuruza.js"></script>
-<script src="scripts/Rasteniya/Lihocvet.js"></script>
-<script src="scripts/Rasteniya/Ilofasoly.js"></script>
-<script src="scripts/Rasteniya/Krovolist.js"></script>
-<script src="scripts/Rasteniya/Mozgogrib.js"></script>
-<script src="scripts/Rasteniya/Mutafrukt.js"></script>
-<script src="scripts/Rasteniya/Peplocvet.js"></script>
-<script src="scripts/Rasteniya/Smolyanika.js"></script>
-<script src="scripts/Rasteniya/Hvostolom.js"></script>
-<script src="scripts/Rasteniya/Britvozlak.js"></script>
-<script src="scripts/Rasteniya/Gryaznocvet.js"></script>
+<script src="scripts/Objects/Rasteniya/Grib.js"></script>
+<script src="scripts/Objects/Rasteniya/Arbuz.js"></script>
+<script src="scripts/Objects/Rasteniya/Astra.js"></script>
+<script src="scripts/Objects/Rasteniya/Toshka.js"></script>
+<script src="scripts/Objects/Rasteniya/Tyikva.js"></script>
+<script src="scripts/Objects/Rasteniya/Klukva.js"></script>
+<script src="scripts/Objects/Rasteniya/Morkovy.js"></script>
+<script src="scripts/Objects/Rasteniya/Ejevika.js"></script>
+<script src="scripts/Objects/Rasteniya/Kukuruza.js"></script>
+<script src="scripts/Objects/Rasteniya/Lihocvet.js"></script>
+<script src="scripts/Objects/Rasteniya/Ilofasoly.js"></script>
+<script src="scripts/Objects/Rasteniya/Krovolist.js"></script>
+<script src="scripts/Objects/Rasteniya/Mozgogrib.js"></script>
+<script src="scripts/Objects/Rasteniya/Mutafrukt.js"></script>
+<script src="scripts/Objects/Rasteniya/Peplocvet.js"></script>
+<script src="scripts/Objects/Rasteniya/Smolyanika.js"></script>
+<script src="scripts/Objects/Rasteniya/Hvostolom.js"></script>
+<script src="scripts/Objects/Rasteniya/Britvozlak.js"></script>
+<script src="scripts/Objects/Rasteniya/Gryaznocvet.js"></script>
+<script src="scripts/Objects/Rasteniya/Rododendron.js"></script>
+<script src="scripts/Objects/Rasteniya/Chertopoloh.js"></script>
+<script src="scripts/Objects/Rasteniya/NochnoyPolzun.js"></script>
+<script src="scripts/Objects/Rasteniya/NutryanoyGrib.js"></script>
+<script src="scripts/Objects/Rasteniya/OgnenniyGrib.js"></script>
+<script src="scripts/Objects/Rasteniya/YaycoMolerota.js"></script>
+<script src="scripts/Objects/Rasteniya/PepelynayaRoza.js"></script>
+<script src="scripts/Objects/Rasteniya/YagodaHlopushka.js"></script>
+<script src="scripts/Objects/Rasteniya/KorenyJenyshenya.js"></script>
+<script src="scripts/Objects/Rasteniya/SvetGrib.js"></script>
+<script src="scripts/Objects/Rasteniya/CvetokDushitelya.js"></script>
+<script src="scripts/Objects/Rasteniya/SvetSmola.js"></script>
+<script src="scripts/Objects/Rasteniya/ZarajKlukva.js"></script>
+<script src="scripts/Objects/Rasteniya/Paporotnik.js"></script>
+<script src="scripts/Objects/Rasteniya/Kizil.js"></script>
+<script src="scripts/Objects/Rasteniya/CvetokToshki.js"></script>
+<script src="scripts/Objects/Rasteniya/CvetokTyikvyi.js"></script>
+<script src="scripts/Objects/Rasteniya/CvetokArbuza.js"></script>
+<script src="scripts/Objects/Rasteniya/CvetokMorkovi.js"></script>
 
-<script src="scripts/Rasteniya/Rododendron.js"></script>
-<script src="scripts/Rasteniya/Chertopoloh.js"></script>
-<script src="scripts/Rasteniya/NochnoyPolzun.js"></script>
-<script src="scripts/Rasteniya/NutryanoyGrib.js"></script>
-<script src="scripts/Rasteniya/OgnenniyGrib.js"></script>
-<script src="scripts/Rasteniya/YaycoMolerota.js"></script>
-<script src="scripts/Rasteniya/PepelynayaRoza.js"></script>
-<script src="scripts/Rasteniya/YagodaHlopushka.js"></script>
-<script src="scripts/Rasteniya/KorenyJenyshenya.js"></script>
-<script src="scripts/Rasteniya/SvetGrib.js"></script>
-<script src="scripts/Rasteniya/CvetokDushitelya.js"></script>
-<script src="scripts/Rasteniya/SvetSmola.js"></script>
-<script src="scripts/Rasteniya/ZarajKlukva.js"></script>
-<script src="scripts/Rasteniya/Paporotnik.js"></script>
-<script src="scripts/Rasteniya/Kizil.js"></script>
-<script src="scripts/Rasteniya/CvetokToshki.js"></script>
-<script src="scripts/Rasteniya/CvetokTyikvyi.js"></script>
-<script src="scripts/Rasteniya/CvetokArbuza.js"></script>
-<script src="scripts/Rasteniya/CvetokMorkovi.js"></script>
+<script src="scripts/Objects/StrangeMobsButton.js"></script>
 
-<script src="scripts/StrangeMobsButton.js"></script>
+<script src="scripts/Objects/Hlam/Hlam1.js"></script>
+<script src="scripts/Objects/Hlam/Hlam2.js"></script>
+<script src="scripts/Objects/Hlam/Hlam3.js"></script>
+<script src="scripts/Objects/Hlam/Hlam4.js"></script>
+<script src="scripts/Objects/Hlam/Hlam5.js"></script>
+<script src="scripts/Objects/Hlam/Hlam6.js"></script>
+<script src="scripts/Objects/Hlam/Hlam7.js"></script>
+
+<script src="scripts/Objects/Rudyi.js"></script>
 
 <script src="scripts/url-hash.js"></script>
 
@@ -795,12 +970,11 @@ LocationsOnOff();
 </script>
     <div id="zatemnenie">
       <div id="okno">
-        <div id="infohead" align="center"><b>Интерактивная карта по игре Fallout 76.</b></div>
-		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогли с координатами - Гаруст и nokimaro.<br>
+        <div id="infohead" align="center"><b>Интерактивная карта Fallout 76.</b></div>	
+		<p>Есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (для экстракторов), рудные жилы, растения, хлам, места спавна флэтвудских монстров и молеротов, а так же поиск точек по вашим введенным координатам. При включении локаций включается строка поиска. 
+		<p>На ЛКМ показывает координаты того места где вы кликнули, на ПКМ - ставит простой маркер.
+		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогли с координатами - Гаруст и nokimaro.
 		<p>Мы, а так же еще несколько тысяч игроков Fallout 76 сидим на самом крупном русскоязычном дискорд сервере по игре Fallout 76 - <a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank">F76 HUB</a>. 
-		<p>Немного о карте: есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (на которые устанавливаются экстракторы), растения, места спавна флэтвудских монстров и молеротов. При включении локаций включается строка поиска.
-		<p>Можно найти точки по введенным координатам или узнать координаты какого-либо места.
-		<p>На ЛКМ показывает координаты того места где вы кликнули, на ПКМ - ставит простой маркер.<br><br>
         <input class="closebuttoninfo" type="button" id="closebuttoninfo" onclick="closeinfo()" value="Закрыть окно"/>
       </div>
     </div>
@@ -861,18 +1035,18 @@ LocationsOnOff();
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
-	<div style="height: 50px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+	<div style="height: 48px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
 		<div class="text" id="strangemobs_text">Места спавна флэтвудского монстра<br>и молерота (спавнятся ночью)</div>
 		<label class="switch" id="strangemobs_switch"><input type="checkbox" onchange="StrangeMobsOnOff()" id="StrangeMobsButton" autocomplete="off"><span class="slider"></span></label>
 		<div class="buttonurl" data-clipboard-text="https://f76map.ru#strangemobs"><input type="image" src="css/images/url.png" alt="ОК" id="url5" width="12" height="12" title="Скопировать ссылку"></div>
 		</ul>
 </li>
 <li>
-    <div class="dropdownlink"><i class="fas fa-industry" aria-hidden="true"></i> Месторождения (для экстракторов)
+    <div class="dropdownlink"><i class="fa fa-industry" aria-hidden="true"></i> Месторождения (для экстракторов)
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
     </div>
     <ul class="submenuItems">
-		<div style="height: 195px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+		<div style="height: 197px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
 			<div class="text" id="text8">Медь</div>
 			<div class="text" id="text9">Хлам</div>
 			<div class="text" id="text10">Уголь</div>
@@ -922,11 +1096,50 @@ LocationsOnOff();
 	</ul>
 </li>
 <li>
+    <div class="dropdownlink"><i class="fas fa-gem" aria-hidden="true"></i> Рудные жилы
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </div>
+    <ul class="submenuItems">
+		<div style="position: relative; height: 147px; width: 408px; font-family: LemonMilkRus; font-size: 10pt;">
+			<div id="box_v">
+				<div class="vein_text">Алюминиевая жила</div>
+				<div class="vein_text">Железная жила</div>
+				<div class="vein_text">Жила кристаллов</div>
+				<div class="vein_text">Жила черного титана</div>
+				<div class="vein_text">Жила ультрацита</div>
+				<div class="vein_text">Золотая жила</div>
+			</div>
+			<div id="box_v_b">
+				<label class="switch switch2"><input type="checkbox" onchange="Vein1OnOff()" id="Vein1Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein2OnOff()" id="Vein2Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein3OnOff()" id="Vein3Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein4OnOff()" id="Vein4Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein5OnOff()" id="Vein5Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein6OnOff()" id="Vein6Button" autocomplete="off"><span class="slider"></span></label>	
+			</div>
+			<div id="box_v2">
+				<div class="vein_text">Медная жила</div>
+				<div class="vein_text">Свинцовая жила</div>
+				<div class="vein_text">Серебряная жила</div>
+				<div class="vein_text">Угольная жила</div>
+				<div class="vein_text">Урановая жила</div>
+			</div>
+			<div id="box_v2_b">
+				<label class="switch switch2"><input type="checkbox" onchange="Vein7OnOff()" id="Vein7Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein8OnOff()" id="Vein8Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein9OnOff()" id="Vein9Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein10OnOff()" id="Vein10Button" autocomplete="off"><span class="slider"></span></label>	
+				<label class="switch switch2"><input type="checkbox" onchange="Vein11OnOff()" id="Vein11Button" autocomplete="off"><span class="slider"></span></label>	
+			</div>
+		</div>
+	</ul>
+</li>
+<li>
 	<div class="dropdownlink"><i class="fas fa-seedling" aria-hidden="true"></i> Растения
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
-		<div style="height: 300px; width: 408px; position: relative; font-family: LemonMilkRus; font-size: 10pt; overflow-y: auto;">
+		<div style="position: relative; height: 250px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
 			<div class="plants_text" id="plants_text1">Гриб</div>
 			<div class="plants_text" id="plants_text2">Арбуз</div>
 			<div class="plants_text" id="plants_text3">Астра</div>
@@ -1045,6 +1258,1411 @@ LocationsOnOff();
 		</div>
 	</ul>
 </li>
+<li>
+	<div class="dropdownlink"><i class="fas fa-cog" aria-hidden="true"></i> Хлам (без загружаемых локаций)
+		<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	</div>
+	<ul class="submenuItems">
+		<div style="position: relative; height: 250px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
+			<div id="box_h">
+				<div class="hlam_text">1-й шар</div>
+				<div class="hlam_text">2-й шар</div>
+				<div class="hlam_text">3-й шар</div>
+				<div class="hlam_text">4-й шар</div>
+				<div class="hlam_text">5-й шар</div>
+				<div class="hlam_text">6-й шар</div>
+				<div class="hlam_text">7-й шар</div>
+				<div class="hlam_text">8-й шар</div>
+				<div class="hlam_text">9-й шар</div>
+				<div class="hlam_text">10-й шар</div>
+				<div class="hlam_text">11-й шар</div>
+				<div class="hlam_text">12-й шар</div>
+				<div class="hlam_text">13-й шар</div>
+				<div class="hlam_text">14-й шар</div>
+				<div class="hlam_text">15-й шар</div>
+				<div class="hlam_text">Аккордеон</div>
+				<div class="hlam_text">Акустическая гитара</div>
+				<div class="hlam_text">Алюминиевая банка</div>
+				<div class="hlam_text">Алюминиевая канистра</div>
+				<div class="hlam_text">Алюминиевая маслёнка</div>
+				<div class="hlam_text">Алюминиевый лом</div>
+				<div class="hlam_text">Алюминиевый поддон</div>
+				<div class="hlam_text">Антифриз «Супероттепель»</div>
+				<div class="hlam_text">Армейская сумка с боеприпасами</div>
+				<div class="hlam_text">Банджо</div>
+				<div class="hlam_text">Банка</div>
+				<div class="hlam_text">Банка для образцов</div>
+				<div class="hlam_text">Банка из-под кофе</div>
+				<div class="hlam_text">Банка меда</div>
+				<div class="hlam_text">Банка с краской</div>
+				<div class="hlam_text">Барабанная палочка</div>
+				<div class="hlam_text">Баскетбольный мяч</div>
+				<div class="hlam_text">Баскетбольный мяч "Все звезды"</div>
+				<div class="hlam_text">Бедренная кость</div>
+				<div class="hlam_text">Бейсбольная база</div>
+				<div class="hlam_text">Бейсбольная перчатка</div>
+				<div class="hlam_text">Бейсбольный мяч</div>
+				<div class="hlam_text">Белая бутылка</div>
+				<div class="hlam_text">Белая тарелка</div>
+				<div class="hlam_text">Белый плюшевый мишка</div>
+				<div class="hlam_text">Бестеневая лампа (1)</div>
+				<div class="hlam_text">Бестеневая лампа (2)</div>
+				<div class="hlam_text">Бильярдный шар</div>
+				<div class="hlam_text">Биометрический сканер</div>
+				<div class="hlam_text">Блестящая жестяная банка</div>
+				<div class="hlam_text">Блин 10 кг</div>
+				<div class="hlam_text">Блин 2,5 кг</div>
+				<div class="hlam_text">Блин 5 кг</div>
+				<div class="hlam_text">Блок сигарет</div>
+				<div class="hlam_text">Блюдо</div>
+				<div class="hlam_text">Блюдце</div>
+				<div class="hlam_text">Болты</div>
+				<div class="hlam_text">Большая берцовая кость</div>
+				<div class="hlam_text">Большая бутылка с соской</div>
+				<div class="hlam_text">Большая запечатанная стеклянная банка</div>
+				<div class="hlam_text">Большая мензурка</div>
+				<div class="hlam_text">Большая стеклянная банка</div>
+				<div class="hlam_text">Большой левый рог</div>
+				<div class="hlam_text">Большой правый рог</div>
+				<div class="hlam_text">Будильник</div>
+				<div class="hlam_text">Будильник "Будиломастер"</div>
+				<div class="hlam_text">Будильник "Волт-Тек"</div>
+				<div class="hlam_text">Бурбон</div>
+				<div class="hlam_text">Бутылка из-под "Старого опоссума"</div>
+				<div class="hlam_text">Бутылка из-под Ядер-колы</div>
+				<div class="hlam_text">Бутылка из-под бурбона</div>
+				<div class="hlam_text">Бутылка из-под бургундского</div>
+				<div class="hlam_text">Бутылка из-под вина</div>
+				<div class="hlam_text">Бутылка из-под виски</div>
+				<div class="hlam_text">Бутылка из-под водки</div>
+				<div class="hlam_text">Бутылка из-под красного эля "Нью-ривер"</div>
+				<div class="hlam_text">Бутылка из-под лагера "Оук-холлер"</div>
+				<div class="hlam_text">Бутылка из-под ликера</div>
+				<div class="hlam_text">Бутылка из-под молока</div>
+				<div class="hlam_text">Бутылка из-под пива</div>
+				<div class="hlam_text">Бутылка из-под пива "Блэкуотер"</div>
+				<div class="hlam_text">Бутылка из-под пилзнера "Секач"</div>
+				<div class="hlam_text">Бутылка из-под рома</div>
+				<div class="hlam_text">Бутылка из-под хладагента</div>
+				<div class="hlam_text">Бутылка с антифризом</div>
+				<div class="hlam_text">Ваза</div>
+				<div class="hlam_text">Ваза-бутон "Ива"</div>
+				<div class="hlam_text">Ваза-бутон "Цветы"</div>
+				<div class="hlam_text">Ваза-купол "Ива"</div>
+				<div class="hlam_text">Ваза-купол "Цветы"</div>
+				<div class="hlam_text">Вакуумная лампа</div>
+				<div class="hlam_text">Вантуз</div>
+				<div class="hlam_text">Верхняя часть большой стеклянной банки</div>
+				<div class="hlam_text">Верхняя часть маленькой стеклянной банки</div>
+				<div class="hlam_text">Верхняя часть черепа</div>
+				<div class="hlam_text">Вешалка</div>
+				<div class="hlam_text">Вилка</div>
+				<div class="hlam_text">Виски</div>
+				<div class="hlam_text">Водка</div>
+				<div class="hlam_text">Военная электросхема</div>
+				<div class="hlam_text">Высокая колба</div>
+				<div class="hlam_text">Высокий стакан</div>
+				<div class="hlam_text">Гаечный ключ</div>
+				<div class="hlam_text">Гантель 9 кг</div>
+				<div class="hlam_text">Глазница черепа</div>
+				<!--										100										-->
+				<div class="hlam_text">Глобус</div>
+				<div class="hlam_text">Глушитель радиосигналов</div>
+				<div class="hlam_text">Голова горелого в банке</div>
+				<div class="hlam_text">Голова куклы</div>
+				<div class="hlam_text">Голова робопони "Лютик"</div>
+				<div class="hlam_text">Горелка Бунзена</div>
+				<div class="hlam_text">Грудная клетка</div>
+				<div class="hlam_text">Грудная клетка и позвоночник</div>
+				<div class="hlam_text">Грязная пепельница</div>
+				<div class="hlam_text">Грязная подушка (1)</div>
+				<div class="hlam_text">Грязная подушка (2)</div>
+				<div class="hlam_text">Грязная фоторамка</div>
+				<div class="hlam_text">Губная гармошка</div>
+				<div class="hlam_text">Деревянная ложка</div>
+				<div class="hlam_text">Деревянная лыжа</div>
+				<div class="hlam_text">Деревянная пивная кружка с крышкой</div>
+				<div class="hlam_text">Деревянное ведро</div>
+				<div class="hlam_text">Деревянный кубик — B и Y</div>
+				<div class="hlam_text">Деревянный кубик — I и D</div>
+				<div class="hlam_text">Деревянный кубик — N и S</div>
+				<div class="hlam_text">Деревянный кубик — V и F</div>
+				<div class="hlam_text">Детонатор</div>
+				<div class="hlam_text">Детонатор ядерного минизаряда</div>
+				<div class="hlam_text">Дешевая сигара</div>
+				<div class="hlam_text">Дешевый чудо-клей</div>
+				<div class="hlam_text">Довоенная лампа</div>
+				<div class="hlam_text">Довоенные деньги</div>
+				<div class="hlam_text">Дом-чайник</div>
+				<div class="hlam_text">Древесина</div>
+				<div class="hlam_text">Древний глобус</div>
+				<div class="hlam_text">Дуршлаг</div>
+				<div class="hlam_text">Емкость с газом "ГаллюциГен"</div>
+				<div class="hlam_text">Емкость с жидким азотом</div>
+				<div class="hlam_text">Желтая канистра</div>
+				<div class="hlam_text">Желтая краска</div>
+				<div class="hlam_text">Желтая настольная лампа</div>
+				<div class="hlam_text">Желтая тарелка</div>
+				<div class="hlam_text">Жестяная банка</div>
+				<div class="hlam_text">Жестяной кувшин</div>
+				<div class="hlam_text">Жетоны</div>
+				<div class="hlam_text">Жуткий Мистер Пушистик</div>
+				<div class="hlam_text">Задняя нога робопони "Лютик"</div>
+				<div class="hlam_text">Зажигалка</div>
+				<div class="hlam_text">Зажигалка Артура Вуда</div>
+				<div class="hlam_text">Закрытый тюбик чудо-клея</div>
+				<div class="hlam_text">Запечатанная "Чарлстон геральд"</div>
+				<div class="hlam_text">Запечатанная банка с образцами</div>
+				<div class="hlam_text">Запечатанная стеклянная банка</div>
+				<div class="hlam_text">Золотая вилка</div>
+				<div class="hlam_text">Золотая столовая ложка</div>
+				<div class="hlam_text">Золотой лом</div>
+				<div class="hlam_text">Золотой столовый нож</div>
+				<div class="hlam_text">Золотые карманные часы</div>
+				<div class="hlam_text">Зонтик</div>
+				<div class="hlam_text">Зубная паста</div>
+				<div class="hlam_text">Зубная щетка</div>
+				<div class="hlam_text">Игрушечная машинка (1)</div>
+				<div class="hlam_text">Игрушечная машинка (2)</div>
+				<div class="hlam_text">Игрушечная ракета (1)</div>
+				<div class="hlam_text">Игрушечная ракета (2)</div>
+				<div class="hlam_text">Игрушечный грузовик</div>
+				<div class="hlam_text">Игрушечный инопланетянин (1)</div>
+				<div class="hlam_text">Игрушечный инопланетянин (2)</div>
+				<div class="hlam_text">Избыточный клей</div>
+				<div class="hlam_text">Изолента</div>
+				<div class="hlam_text">Изолента военного образца</div>
+				<div class="hlam_text">Импортная китайская панда</div>
+				<div class="hlam_text">Канистра</div>
+				<div class="hlam_text">Канистра с ацетоном</div>
+				<div class="hlam_text">Карандаш</div>
+				<div class="hlam_text">Кастрюля (1)</div>
+				<div class="hlam_text">Кастрюля (2)</div>
+				<div class="hlam_text">Катушка стекловолокна</div>
+				<div class="hlam_text">Квантовый мишка</div>
+				<div class="hlam_text">Кегля для боулинга (1)</div>
+				<div class="hlam_text">Кегля для боулинга (2)</div>
+				<div class="hlam_text">Керамическая миска</div>
+				<div class="hlam_text">Кинг</div>
+				<div class="hlam_text">Кисть</div>
+				<div class="hlam_text">Клейстер</div>
+				<div class="hlam_text">Клепа</div>
+				<div class="hlam_text">Клоун</div>
+				<div class="hlam_text">Ковшик (1)</div>
+				<div class="hlam_text">Ковшик (2)</div>
+				<div class="hlam_text">Ковшик с крышкой</div>
+				<div class="hlam_text">Колба</div>
+				<div class="hlam_text">Коллекционный бейсбольный мяч</div>
+				<div class="hlam_text">Колышек для гольфа</div>
+				<div class="hlam_text">Кольцо от большой стеклянной банки</div>
+				<div class="hlam_text">Кольцо от маленькой стеклянной банки</div>
+				<div class="hlam_text">Комбинированный ключ</div>
+				<div class="hlam_text">Композитные лыжи</div>
+				<div class="hlam_text">Конденсатор HH-3A</div>
+				<div class="hlam_text">Конец вала</div>
+				<div class="hlam_text">Корзина для продуктов</div>
+				<div class="hlam_text">Коричневая бутылка</div>
+				<div class="hlam_text">Коробка "Огней Сан-Франциско"</div>
+				<div class="hlam_text">Коробка из-под гамбургера</div>
+				<div class="hlam_text">Коробка из-под пиццы</div>
+				<div class="hlam_text">Коробка из-под хот-дога</div>
+				<!--										200										-->
+				<div class="hlam_text">Коробка с капсюлями</div>
+				<div class="hlam_text">Коробка с летучими веществами</div>
+				<div class="hlam_text">Коробка сигар</div>
+				<div class="hlam_text">Кости левой ноги</div>
+				<div class="hlam_text">Кости левой руки (1)</div>
+				<div class="hlam_text">Кости левой руки (2)</div>
+				<div class="hlam_text">Кости левой стопы</div>
+				<div class="hlam_text">Кости правой ноги</div>
+				<div class="hlam_text">Кости правой руки (1)</div>
+				<div class="hlam_text">Кости правой руки (2)</div>
+				<div class="hlam_text">Кости правой стопы</div>
+				<div class="hlam_text">Кости таза</div>
+				<div class="hlam_text">Косторез</div>
+				<div class="hlam_text">Кофейная кружка</div>
+				<div class="hlam_text">Кофейная кружка "Мемор-Из"</div>
+				<div class="hlam_text">Кофейная чашка УВТ</div>
+				<div class="hlam_text">Кофейник</div>
+				<div class="hlam_text">Кофейник "Кофелюкс"</div>
+				<div class="hlam_text">Кошачья миска</div>
+				<div class="hlam_text">Красивая белая ваза</div>
+				<div class="hlam_text">Красивая ваза</div>
+				<div class="hlam_text">Красивая китайская ваза</div>
+				<div class="hlam_text">Красная краска</div>
+				<div class="hlam_text">Красная тарелка</div>
+				<div class="hlam_text">Красный садовый гном</div>
+				<div class="hlam_text">Кроличья шкура</div>
+				<div class="hlam_text">Крысиный яд</div>
+				<div class="hlam_text">Крышка маслобойки</div>
+				<div class="hlam_text">Крышка на контуре хладагента</div>
+				<div class="hlam_text">Крышка от большой стеклянной банки</div>
+				<div class="hlam_text">Крышка от маленькой соусницы</div>
+				<div class="hlam_text">Крышка от маленькой стеклянной банки</div>
+				<div class="hlam_text">Крышка от металлического корыта</div>
+				<div class="hlam_text">Крышка от соусницы</div>
+				<div class="hlam_text">Кувшин самогона</div>
+				<div class="hlam_text">Кузнечный молот</div>
+				<div class="hlam_text">Кукла</div>
+				<div class="hlam_text">Куски пробки</div>
+				<div class="hlam_text">Кухонные весы</div>
+				<div class="hlam_text">Лабораторная емкость</div>
+				<div class="hlam_text">Лабораторная пробирка</div>
+				<div class="hlam_text">Ладья</div>
+				<div class="hlam_text">Лампочка</div>
+				<div class="hlam_text">Левая рука куклы</div>
+				<div class="hlam_text">Ледяные щипцы</div>
+				<div class="hlam_text">Линейка</div>
+				<div class="hlam_text">Липкая смола</div>
+				<div class="hlam_text">Лисья шкура</div>
+				<div class="hlam_text">Лицевой щиток из черепа</div>
+				<div class="hlam_text">Лопатка</div>
+				<div class="hlam_text">Лунная мартышка Дженглс (1)</div>
+				<div class="hlam_text">Лунная мартышка Дженглс (2)</div>
+				<div class="hlam_text">Лыжная палка</div>
+				<div class="hlam_text">Маленькая бутылочка с соской</div>
+				<div class="hlam_text">Маленькая запечатанная стеклянная банка</div>
+				<div class="hlam_text">Маленькая стеклянная банка</div>
+				<div class="hlam_text">Маленькая фоторамка (1)</div>
+				<div class="hlam_text">Маленькая фоторамка (2)</div>
+				<div class="hlam_text">Маленький ковшик</div>
+				<div class="hlam_text">Маленький ковшик с крышкой</div>
+				<div class="hlam_text">Маленький левый рог</div>
+				<div class="hlam_text">Маленький правый рог</div>
+				<div class="hlam_text">Маленький стакан</div>
+				<div class="hlam_text">Малый барабан</div>
+				<div class="hlam_text">Масленка (1)</div>
+				<div class="hlam_text">Масленка (2)</div>
+				<div class="hlam_text">Маточное молочко</div>
+				<div class="hlam_text">Медицинские ножницы</div>
+				<div class="hlam_text">Медный лом</div>
+				<div class="hlam_text">Медный фонарь шахтера</div>
+				<div class="hlam_text">Мел</div>
+				<div class="hlam_text">Мензурка</div>
+				<div class="hlam_text">Мерный цилиндр</div>
+				<div class="hlam_text">Металлическая пивная кружка с крышкой</div>
+				<div class="hlam_text">Металлическое ведро</div>
+				<div class="hlam_text">Металлическое корыто</div>
+				<div class="hlam_text">Металлическое корыто с крышкой</div>
+				<div class="hlam_text">Метелка для пыли</div>
+				<div class="hlam_text">Мешок с удобрением</div>
+				<div class="hlam_text">Мешок с хлором</div>
+				<div class="hlam_text">Мешок цемента</div>
+				<div class="hlam_text">Микроскоп</div>
+				<div class="hlam_text">Милый маленький медвежонок</div>
+				<div class="hlam_text">Миска</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — галстук-бабочка в клеточку</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — галстук-бабочка из карамелек</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — золотой галстук-бабочка</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — изумрудный галстук-бабочка</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — красный галстук-бабочка</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — лиловый галстук-бабочка</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — оранжевый галстук-бабочка</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — рубиновый галстук-бабочка</div>
+				<div class="hlam_text" style="font-size: 8.5pt; margin-top: 9.96px;">Мистер Пушистик — серебристый галстук-бабочка</div>
+				<div class="hlam_text">Мишка цвета жвачки</div>
+				<div class="hlam_text">Мишка-неуклюжка</div>
+				<div class="hlam_text">Модель "Мистер Помощник"</div>
+				<div class="hlam_text">Модель "Мистер Храбрец"</div>
+				<div class="hlam_text">Модель "Протектрон"</div>
+				<div class="hlam_text">Модель из деталей робота (1)</div>
+				<div class="hlam_text">Модель из деталей робота (2)</div>
+				<!--										300										-->
+				<div class="hlam_text">Модель из деталей робота (3)</div>
+				<div class="hlam_text">Модель робоглаза</div>
+				<div class="hlam_text">Модель робота-охранника</div>
+				<div class="hlam_text">Модная щетка для волос</div>
+				<div class="hlam_text">Молоток</div>
+				<div class="hlam_text">Молоток с шаровым бойком</div>
+				<div class="hlam_text">Мотыга</div>
+				<div class="hlam_text">Мощный магнит</div>
+				<div class="hlam_text">Мыло</div>
+				<div class="hlam_text">Мягкая подушка</div>
+				<div class="hlam_text">Мяч</div>
+				<div class="hlam_text">Мяч "Атомных гонок"</div>
+				<div class="hlam_text">Мяч для гольфа</div>
+				<div class="hlam_text">Набор стаканчиков для Ядер-колы</div>
+				<div class="hlam_text">Наручники</div>
+				<div class="hlam_text">Настольная игра "Вскрытие"</div>
+				<div class="hlam_text">Настольная игра "Несокрушимые!"</div>
+				<div class="hlam_text">Настольная игра "Поймай комми"</div>
+				<div class="hlam_text">Настольная игра "Рад-покер"</div>
+				<div class="hlam_text">Настольная игра "Радиус взрыва"</div>
+				<div class="hlam_text">Настольная фоторамка</div>
+				<div class="hlam_text">Настольный вентилятор</div>
+				<div class="hlam_text">Неиспользованная зажигалка</div>
+				<div class="hlam_text">Необожженная прихватка</div>
+				<div class="hlam_text">Необработанная кожа</div>
+				<div class="hlam_text">Необработанная резина</div>
+				<div class="hlam_text">Необработанное удобрение</div>
+				<div class="hlam_text">Необработанный асбест</div>
+				<div class="hlam_text">Необработанный кристалл</div>
+				<div class="hlam_text">Необработанный текстиль</div>
+				<div class="hlam_text">Неповрежденный плюшевый мишка</div>
+				<div class="hlam_text">Новая ваза-бутон "Ива" (1)</div>
+				<div class="hlam_text">Новая ваза-бутон "Ива" (2)</div>
+				<div class="hlam_text">Новая ваза-бутон "Цветы"</div>
+				<div class="hlam_text">Новая ваза-купол "Ива" (1)</div>
+				<div class="hlam_text">Новая ваза-купол "Ива" (2)</div>
+				<div class="hlam_text">Новая ваза-купол "Цветы" (1)</div>
+				<div class="hlam_text">Новая ваза-купол "Цветы" (2)</div>
+				<div class="hlam_text">Новая ваза-купол "Цветы" (3)</div>
+				<div class="hlam_text">Новая игрушечная машинка</div>
+				<div class="hlam_text">Новая округлая ваза "Ива" (1)</div>
+				<div class="hlam_text">Новая округлая ваза "Ива" (2)</div>
+				<div class="hlam_text">Новая округлая ваза "Ива" (3)</div>
+				<div class="hlam_text">Новая округлая ваза "Цветы" (1)</div>
+				<div class="hlam_text">Новая округлая ваза "Цветы" (2)</div>
+				<div class="hlam_text">Новая расширяющаяся ваза "Ива" (1)</div>
+				<div class="hlam_text">Новая расширяющаяся ваза "Ива" (2)</div>
+				<div class="hlam_text">Новая расширяющаяся ваза "Цветы" (1)</div>
+				<div class="hlam_text">Новая расширяющаяся ваза "Цветы" (2)</div>
+				<div class="hlam_text">Новая сине-зеленая ваза-бутон (1)</div>
+				<div class="hlam_text">Новая сине-зеленая ваза-бутон (2)</div>
+				<div class="hlam_text">Новая сине-зеленая ваза-купол (1)</div>
+				<div class="hlam_text">Новая сине-зеленая ваза-купол (2)</div>
+				<div class="hlam_text">Новая сине-зеленая округлая ваза</div>
+				<div class="hlam_text">Новая сине-зеленая расширяющаяся ваза (1)</div>
+				<div class="hlam_text">Новая сине-зеленая расширяющаяся ваза (2)</div>
+				<div class="hlam_text">Новая сине-зеленая цилиндрическая ваза (1)</div>
+				<div class="hlam_text">Новая сине-зеленая цилиндрическая ваза (2)</div>
+				<div class="hlam_text">Новая цилиндрическая ваза "Ива" (1)</div>
+				<div class="hlam_text">Новая цилиндрическая ваза "Ива" (2)</div>
+				<div class="hlam_text">Новая цилиндрическая ваза "Цветы" (1)</div>
+				<div class="hlam_text">Новая цилиндрическая ваза "Цветы" (2)</div>
+				<div class="hlam_text">Новое эмалированное ведро</div>
+				<div class="hlam_text">Новый игрушечный грузовик</div>
+				<div class="hlam_text">Нога горелого в банке</div>
+				<div class="hlam_text">Ножницы</div>
+				<div class="hlam_text">Обгорелая книга</div>
+				<div class="hlam_text">Обгорелый журнал мод</div>
+				<div class="hlam_text">Обгорелый комикс "Грогнак"</div>
+				<div class="hlam_text">Обгорелый комикс "Морской дьявол"</div>
+				<div class="hlam_text">Обгорелый комикс "Несокрушимые"</div>
+				<div class="hlam_text">Обгорелый популярный журнал</div>
+				<div class="hlam_text">Обгорелый рекламный журнал</div>
+				<div class="hlam_text">Обгорелый учебник</div>
+				<div class="hlam_text">Обеденная вилка</div>
+				<div class="hlam_text">Обломки бетона</div>
+				<div class="hlam_text">Обломки керамики</div>
+				<div class="hlam_text">Обломки ультрацита</div>
+				<div class="hlam_text">Обломки черного титана</div>
+				<div class="hlam_text">Обрывки защитных волокон</div>
+				<div class="hlam_text">Огнетушитель</div>
+				<div class="hlam_text">Округлая ваза "Ива"</div>
+				<div class="hlam_text">Округлая ваза "Цветы"</div>
+				<div class="hlam_text">Оптическое волокно</div>
+				<div class="hlam_text">Оранжевая канистра</div>
+				<div class="hlam_text">Оранжевая миска</div>
+				<div class="hlam_text">Оранжевая салфетка</div>
+				<div class="hlam_text">Оранжевый стакан</div>
+				<div class="hlam_text">Осколки костей</div>
+				<div class="hlam_text">Осколки кристалла</div>
+				<div class="hlam_text">Основная база</div>
+				<div class="hlam_text">Отвертка</div>
+				<div class="hlam_text">Отработанная кислота</div>
+				<div class="hlam_text">Отработанная нефть</div>
+				<div class="hlam_text">Отработанный антисептик</div>
+				<div class="hlam_text">Отремонтированный настольный вентилятор</div>
+				<div class="hlam_text">Офисный настольный вентилятор</div>
+				<div class="hlam_text">Пакет для внутривенного вливания</div>
+				<div class="hlam_text">Папка</div>
+				<div class="hlam_text">Папка с делом</div>
+				<!--										400										-->
+				<div class="hlam_text">Пачка сигарет</div>
+				<div class="hlam_text">Паяльная лампа</div>
+				<div class="hlam_text">Паяльная лампа "Фумигус"</div>
+				<div class="hlam_text">Пепельница</div>
+				<div class="hlam_text">Передняя нога робопони "Лютик"</div>
+				<div class="hlam_text">Перечница</div>
+				<div class="hlam_text">Пестик маслобойки</div>
+				<div class="hlam_text">Печатная машинка "Карлайл"</div>
+				<div class="hlam_text">Пешка</div>
+				<div class="hlam_text">Пивная бутылка из Кларксберга</div>
+				<div class="hlam_text">Пила (1)</div>
+				<div class="hlam_text">Пила (2)</div>
+				<div class="hlam_text">Пила (3)</div>
+				<div class="hlam_text">Пишущая машинка</div>
+				<div class="hlam_text">Планшет</div>
+				<div class="hlam_text">Пластиковая вилка (1)</div>
+				<div class="hlam_text">Пластиковая вилка (2)</div>
+				<div class="hlam_text">Пластиковая вилка (3)</div>
+				<div class="hlam_text">Пластиковая канистра для бензина</div>
+				<div class="hlam_text">Пластиковая ложка (1)</div>
+				<div class="hlam_text">Пластиковая ложка (2)</div>
+				<div class="hlam_text">Пластиковая ложка (3)</div>
+				<div class="hlam_text">Пластиковая миска</div>
+				<div class="hlam_text">Пластиковая тарелка (1)</div>
+				<div class="hlam_text">Пластиковая тарелка (2)</div>
+				<div class="hlam_text">Пластиковая тарелка (3)</div>
+				<div class="hlam_text">Пластиковая тарелка (4)</div>
+				<div class="hlam_text">Пластиковая тарелка (5)</div>
+				<div class="hlam_text">Пластиковая тыква</div>
+				<div class="hlam_text">Пластиковый нож (1)</div>
+				<div class="hlam_text">Пластиковый нож (2)</div>
+				<div class="hlam_text">Пластиковый нож (3)</div>
+				<div class="hlam_text">Плитка</div>
+				<div class="hlam_text">Плюшевый гризли</div>
+				<div class="hlam_text">Плюшевый мишка</div>
+				<div class="hlam_text">Погремушка</div>
+				<div class="hlam_text">Поднос (1)</div>
+				<div class="hlam_text">Поднос (2)</div>
+				<div class="hlam_text">Поднос для инструментов</div>
+				<div class="hlam_text">Подставка для зонтиков</div>
+				<div class="hlam_text">Подушка (1)</div>
+				<div class="hlam_text">Подушка (2)</div>
+				<div class="hlam_text">Подушка с соломой</div>
+				<div class="hlam_text">Подфарник</div>
+				<div class="hlam_text">Позвоночник</div>
+				<div class="hlam_text">Позолоченная зажигалка</div>
+				<div class="hlam_text">Позолоченное стекло</div>
+				<div class="hlam_text">Половник</div>
+				<div class="hlam_text">Портативный топливный бак</div>
+				<div class="hlam_text">Потрепанный планшет</div>
+				<div class="hlam_text">Правая рука куклы</div>
+				<div class="hlam_text">Предохранитель</div>
+				<div class="hlam_text">Прихватка</div>
+				<div class="hlam_text">Пробирка</div>
+				<div class="hlam_text">Пробитая канистра с газом "ГаллюциГен"</div>
+				<div class="hlam_text">Пром. чистящее средство "Абраксо"</div>
+				<div class="hlam_text">Промышленная масленка</div>
+				<div class="hlam_text">Промышленный очиститель</div>
+				<div class="hlam_text">Промышленный разрыхлитель</div>
+				<div class="hlam_text">Промышленный растворитель</div>
+				<div class="hlam_text">Пружина</div>
+				<div class="hlam_text">Пустая банка</div>
+				<div class="hlam_text">Пустая банка из-под краски</div>
+				<div class="hlam_text">Пустая ваза-бутон "Ива"</div>
+				<div class="hlam_text">Пустая ваза-бутон "Цветы"</div>
+				<div class="hlam_text">Пустая ваза-купол "Ива"</div>
+				<div class="hlam_text">Пустая ваза-купол "Цветы"</div>
+				<div class="hlam_text">Пустая масленка</div>
+				<div class="hlam_text">Пустая округлая ваза "Ива"</div>
+				<div class="hlam_text">Пустая округлая ваза "Цветы"</div>
+				<div class="hlam_text">Пустая расширяющаяся ваза "Ива"</div>
+				<div class="hlam_text">Пустая расширяющаяся ваза "Цветы"</div>
+				<div class="hlam_text">Пустая сине-зеленая ваза-бутон</div>
+				<div class="hlam_text">Пустая сине-зеленая ваза-купол</div>
+				<div class="hlam_text">Пустая сине-зеленая округлая ваза</div>
+				<div class="hlam_text">Пустая сине-зеленая расширяющаяся ваза</div>
+				<div class="hlam_text">Пустая сине-зеленая цилиндрическая ваза</div>
+				<div class="hlam_text">Пустая цилиндрическая ваза "Ива"</div>
+				<div class="hlam_text">Пустая цилиндрическая ваза "Цветы"</div>
+				<div class="hlam_text">Пустой пакет из-под крови</div>
+				<div class="hlam_text">Рад-мишка</div>
+				<div class="hlam_text">Разбитая желтая канистра</div>
+				<div class="hlam_text">Разбитая канистра с ацетоном</div>
+				<div class="hlam_text">Разбитая лампочка</div>
+				<div class="hlam_text">Разбитая оранжевая канистра</div>
+				<div class="hlam_text">Разбитая ржавая канистра</div>
+				<div class="hlam_text">Разбитое яйцо когтя смерти</div>
+				<div class="hlam_text">Разводной ключ</div>
+				<div class="hlam_text">Разделочная доска (1)</div>
+				<div class="hlam_text">Разделочная доска (2)</div>
+				<div class="hlam_text">Растительное масло</div>
+				<div class="hlam_text">Расширяющаяся ваза "Ива"</div>
+				<div class="hlam_text">Расширяющаяся ваза "Цветы"</div>
+				<div class="hlam_text">Ребра и таз</div>
+				<div class="hlam_text">Резак для бумаги (1)</div>
+				<div class="hlam_text">Резак для бумаги (2)</div>
+				<div class="hlam_text">Ржавая канистра</div>
+				<div class="hlam_text">Робопони "Лютик"</div>
+				<div class="hlam_text">Рука горелого в банке</div>
+				<div class="hlam_text">Ручка</div>
+				<!--										500										-->
+				<div class="hlam_text">Рыцарь</div>
+				<div class="hlam_text">Салфетка</div>
+				<div class="hlam_text">Самодельный аккумулятор</div>
+				<div class="hlam_text">Самодельный клей</div>
+				<div class="hlam_text">Свежая газета</div>
+				<div class="hlam_text">Свернутая "Чарлстон геральд"</div>
+				<div class="hlam_text">Сверток шкур</div>
+				<div class="hlam_text">Свинцовый лом</div>
+				<div class="hlam_text">Сгоревший комикс "Таинственная Госпожа" (1)</div>
+				<div class="hlam_text">Сгоревший комикс "Таинственная Госпожа" (2)</div>
+				<div class="hlam_text">Сгоревший комикс "Таинственная Госпожа" (3)</div>
+				<div class="hlam_text">Сдутый мяч</div>
+				<div class="hlam_text">Сенсорный модуль</div>
+				<div class="hlam_text">Серебряная вилка</div>
+				<div class="hlam_text">Серебряная миска</div>
+				<div class="hlam_text">Серебряная столовая ложка</div>
+				<div class="hlam_text">Серебряная тарелка</div>
+				<div class="hlam_text">Серебряные карманные часы</div>
+				<div class="hlam_text">Серебряный лом</div>
+				<div class="hlam_text">Серебряный медальон</div>
+				<div class="hlam_text">Серебряный столовый нож</div>
+				<div class="hlam_text">Сигара</div>
+				<div class="hlam_text">Сигарета</div>
+				<div class="hlam_text">Сине-зеленая ваза-бутон</div>
+				<div class="hlam_text">Сине-зеленая ваза-купол</div>
+				<div class="hlam_text">Сине-зеленая округлая ваза</div>
+				<div class="hlam_text">Сине-зеленая расширяющаяся ваза</div>
+				<div class="hlam_text">Сине-зеленая цилиндрическая ваза</div>
+				<div class="hlam_text">Синий садовый гном</div>
+				<div class="hlam_text">Синяя краска</div>
+				<div class="hlam_text">Синяя настольная лампа</div>
+				<div class="hlam_text">Скальпель (1)</div>
+				<div class="hlam_text">Скальпель (2)</div>
+				<div class="hlam_text">Скипидар</div>
+				<div class="hlam_text">Сковорода</div>
+				<div class="hlam_text">Скрипка</div>
+				<div class="hlam_text">Сложенный американский флаг</div>
+				<div class="hlam_text">Сломанная бедренная кость</div>
+				<div class="hlam_text">Сломанная берцовая кость</div>
+				<div class="hlam_text">Сломанная камера (1)</div>
+				<div class="hlam_text">Сломанная камера (2)</div>
+				<div class="hlam_text">Сломанная кукла (1)</div>
+				<div class="hlam_text">Сломанная кукла (2)</div>
+				<div class="hlam_text">Сломанная кукла (3)</div>
+				<div class="hlam_text">Сломанная лампа</div>
+				<div class="hlam_text">Сломанная фотокамера "Про-Щелк"</div>
+				<div class="hlam_text">Сломанный садовый гном</div>
+				<div class="hlam_text">Слон</div>
+				<div class="hlam_text">Смазочно-охлаждающая жидкость</div>
+				<div class="hlam_text">Смычок</div>
+				<div class="hlam_text">Собачья миска</div>
+				<div class="hlam_text">Соединительный прут</div>
+				<div class="hlam_text">Солонка</div>
+				<div class="hlam_text">Спасательный круг</div>
+				<div class="hlam_text">Спущенный мяч</div>
+				<div class="hlam_text">Стакан</div>
+				<div class="hlam_text">Стаканчик для Ядер-колы</div>
+				<div class="hlam_text">Стаканчик для Ядер-колы с соломинкой</div>
+				<div class="hlam_text">Стальной лом</div>
+				<div class="hlam_text">Старинный столовый нож</div>
+				<div class="hlam_text">Старый грязный плюшевый мишка</div>
+				<div class="hlam_text">Стеклянная банка</div>
+				<div class="hlam_text">Стеклянная миска</div>
+				<div class="hlam_text">Стеклянные осколки</div>
+				<div class="hlam_text">Стеклянный кувшин</div>
+				<div class="hlam_text">Стил-гитара</div>
+				<div class="hlam_text">Столовая ложка</div>
+				<div class="hlam_text">Столовый нож</div>
+				<div class="hlam_text">Столярный молоток (1)</div>
+				<div class="hlam_text">Столярный молоток (2)</div>
+				<div class="hlam_text">Стопка</div>
+				<div class="hlam_text">Страхомишка</div>
+				<div class="hlam_text">Строительный молоток</div>
+				<div class="hlam_text">Сувенир с маяка</div>
+				<div class="hlam_text">Сувенирная кофейная кружка</div>
+				<div class="hlam_text">Сувенирная машинка</div>
+				<div class="hlam_text">Сувенирная пластмассовая миска</div>
+				<div class="hlam_text">Сувенирный ленивец</div>
+				<div class="hlam_text">Сувенирный магнит в виде коровы</div>
+				<div class="hlam_text">Сувенирный медвежонок (1)</div>
+				<div class="hlam_text">Сувенирный медвежонок (2)</div>
+				<div class="hlam_text">Сувенирный стакан</div>
+				<div class="hlam_text">Сушилка для пищи</div>
+				<div class="hlam_text">Схемы</div>
+				<div class="hlam_text">Тарелка</div>
+				<div class="hlam_text">Тарелка с желтой каемкой</div>
+				<div class="hlam_text">Телефон</div>
+				<div class="hlam_text">Тело робопони "Лютик"</div>
+				<div class="hlam_text">Теменная кость</div>
+				<div class="hlam_text">Товарищ Михаил</div>
+				<div class="hlam_text">Тонкая мензурка</div>
+				<div class="hlam_text">Топливный бак</div>
+				<div class="hlam_text">Топливо для Мистера Помощника (1)</div>
+				<div class="hlam_text">Топливо для Мистера Помощника (2)</div>
+				<div class="hlam_text">Тостер (1)</div>
+				<div class="hlam_text">Тостер (2)</div>
+				<div class="hlam_text">Треснутая стеклянная миска</div>
+				<div class="hlam_text">Треугольник (1)</div>
+				<div class="hlam_text">Треугольник (2)</div>
+				<div class="hlam_text">Труба</div>
+				<!--										600										-->
+				<div class="hlam_text">Тряпка</div>
+				<div class="hlam_text">Туалетная бумага</div>
+				<div class="hlam_text">Увеличительное стекло</div>
+				<div class="hlam_text">Уголь</div>
+				<div class="hlam_text">Удочка</div>
+				<div class="hlam_text">Узор с птицами</div>
+				<div class="hlam_text">Улучшенная карта наведения</div>
+				<div class="hlam_text">Упаковка изоленты</div>
+				<div class="hlam_text">Утюг</div>
+				<div class="hlam_text">Фарфоровая пивная кружка</div>
+				<div class="hlam_text">Фланец карданной трубы</div>
+				<div class="hlam_text">Флейта</div>
+				<div class="hlam_text">Фонарь (1)</div>
+				<div class="hlam_text">Фонарь (2)</div>
+				<div class="hlam_text">Фонарь шахтера (1)</div>
+				<div class="hlam_text">Фонарь шахтера (2)</div>
+				<div class="hlam_text">Форма для кекса</div>
+				<div class="hlam_text">Формованная пластмасса</div>
+				<div class="hlam_text">Фотография маяка в изящной рамке</div>
+				<div class="hlam_text">Фотография маяка в рамке</div>
+				<div class="hlam_text">Фрагмент черепа</div>
+				<div class="hlam_text">Химическая колба</div>
+				<div class="hlam_text">Хирургическая пила</div>
+				<div class="hlam_text">Хладагент</div>
+				<div class="hlam_text">Хлебница</div>
+				<div class="hlam_text">Хлопковая пряжа</div>
+				<div class="hlam_text">Хрустальный графин</div>
+				<div class="hlam_text">Цветочный горшок</div>
+				<div class="hlam_text">Целая бейсбольная перчатка</div>
+				<div class="hlam_text">Целая пачка сигарет</div>
+				<div class="hlam_text">Целое чистящее средство "Абраксо"</div>
+				<div class="hlam_text">Целый американский флаг</div>
+				<div class="hlam_text">Целый блок сигарет</div>
+				<div class="hlam_text">Цилиндрическая ваза "Ива"</div>
+				<div class="hlam_text">Цилиндрическая ваза "Цветы"</div>
+				<div class="hlam_text">Чайник (1)</div>
+				<div class="hlam_text">Чайник (2)</div>
+				<div class="hlam_text">Чайник из злославки</div>
+				<div class="hlam_text">Чарлстон геральд</div>
+				<div class="hlam_text">Чашка</div>
+				<div class="hlam_text">Человеческая челюсть</div>
+				<div class="hlam_text">Череп</div>
+				<div class="hlam_text">Череп без теменной кости</div>
+				<div class="hlam_text">Череп брамина</div>
+				<div class="hlam_text">Череп брамина без челюсти</div>
+				<div class="hlam_text">Черная миска</div>
+				<div class="hlam_text">Черная салфетка</div>
+				<div class="hlam_text">Черный стакан</div>
+				<div class="hlam_text">Чистая банка из-под кофе</div>
+				<div class="hlam_text">Чистая белая тарелка</div>
+				<div class="hlam_text">Чистая кофейная кружка</div>
+				<div class="hlam_text">Чистая красная тарелка</div>
+				<div class="hlam_text">Чистая миска</div>
+				<div class="hlam_text">Чистая пепельница</div>
+				<div class="hlam_text">Чистая перечница</div>
+				<div class="hlam_text">Чистая подставка для зонтиков</div>
+				<div class="hlam_text">Чистая собачья миска</div>
+				<div class="hlam_text">Чистая солонка</div>
+				<div class="hlam_text">Чистая швабра</div>
+				<div class="hlam_text">Чистое металлическое ведро</div>
+				<div class="hlam_text">Чистый глобус</div>
+				<div class="hlam_text">Чистый зонтик</div>
+				<div class="hlam_text">Чистый кофейник</div>
+				<div class="hlam_text">Чистый противень</div>
+				<div class="hlam_text">Чистый стакан</div>
+				<div class="hlam_text">Чистый чайник</div>
+				<div class="hlam_text">Чистящее средство "Абраксо"</div>
+				<div class="hlam_text">Чудо-клей</div>
+				<div class="hlam_text">Шар для боулинга</div>
+				<div class="hlam_text">Шахматная доска</div>
+				<div class="hlam_text">Швабра (1)</div>
+				<div class="hlam_text">Швабра (2)</div>
+				<div class="hlam_text">Шестеренка</div>
+				<div class="hlam_text">Шестеренки</div>
+				<div class="hlam_text">Шкура брамина</div>
+				<div class="hlam_text">Шкура кротокрыса</div>
+				<div class="hlam_text">Шкура рад-оленя</div>
+				<div class="hlam_text">Шкура сверхленивца</div>
+				<div class="hlam_text">Шкура яо-гая</div>
+				<div class="hlam_text">Штанга 20 кг</div>
+				<div class="hlam_text">Штанга 35 кг</div>
+				<div class="hlam_text">Штанга 70 кг</div>
+				<div class="hlam_text">Штанга с изогнутым грифом 35 кг</div>
+				<div class="hlam_text">Штатив</div>
+				<div class="hlam_text">Штатив для мензурок</div>
+				<div class="hlam_text">Штатив для пробирок</div>
+				<div class="hlam_text">Щербатая миска</div>
+				<div class="hlam_text">Щетка для волос</div>
+				<div class="hlam_text">Щипцы</div>
+				<div class="hlam_text">Электросхема штурмотрона</div>
+				<div class="hlam_text">Эмалированное ведро</div>
+				<div class="hlam_text">Ядерные отходы</div>
+				<div class="emptybox2"></div>
+				<!--										692										-->
+			</div>
+			<div id="box_h_b">
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam1OnOff()" id="Hlam1Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam2OnOff()" id="Hlam2Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam3OnOff()" id="Hlam3Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam4OnOff()" id="Hlam4Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam5OnOff()" id="Hlam5Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam6OnOff()" id="Hlam6Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam7OnOff()" id="Hlam7Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam8OnOff()" id="Hlam8Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam9OnOff()" id="Hlam9Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam10OnOff()" id="Hlam10Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam11OnOff()" id="Hlam11Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam12OnOff()" id="Hlam12Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam13OnOff()" id="Hlam13Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam14OnOff()" id="Hlam14Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam15OnOff()" id="Hlam15Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam16OnOff()" id="Hlam16Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam17OnOff()" id="Hlam17Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam18OnOff()" id="Hlam18Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam19OnOff()" id="Hlam19Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam20OnOff()" id="Hlam20Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam21OnOff()" id="Hlam21Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam22OnOff()" id="Hlam22Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam23OnOff()" id="Hlam23Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam24OnOff()" id="Hlam24Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam25OnOff()" id="Hlam25Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam26OnOff()" id="Hlam26Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam27OnOff()" id="Hlam27Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam28OnOff()" id="Hlam28Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam29OnOff()" id="Hlam29Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam30OnOff()" id="Hlam30Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam31OnOff()" id="Hlam31Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam32OnOff()" id="Hlam32Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam33OnOff()" id="Hlam33Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam34OnOff()" id="Hlam34Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam35OnOff()" id="Hlam35Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam36OnOff()" id="Hlam36Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam37OnOff()" id="Hlam37Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam38OnOff()" id="Hlam38Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam39OnOff()" id="Hlam39Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam40OnOff()" id="Hlam40Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam41OnOff()" id="Hlam41Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam42OnOff()" id="Hlam42Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam43OnOff()" id="Hlam43Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam44OnOff()" id="Hlam44Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam45OnOff()" id="Hlam45Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam46OnOff()" id="Hlam46Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam47OnOff()" id="Hlam47Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam48OnOff()" id="Hlam48Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam49OnOff()" id="Hlam49Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam50OnOff()" id="Hlam50Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam51OnOff()" id="Hlam51Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam52OnOff()" id="Hlam52Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam53OnOff()" id="Hlam53Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam54OnOff()" id="Hlam54Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam55OnOff()" id="Hlam55Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam56OnOff()" id="Hlam56Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam57OnOff()" id="Hlam57Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam58OnOff()" id="Hlam58Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam59OnOff()" id="Hlam59Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam60OnOff()" id="Hlam60Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam61OnOff()" id="Hlam61Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam62OnOff()" id="Hlam62Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam63OnOff()" id="Hlam63Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam64OnOff()" id="Hlam64Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam65OnOff()" id="Hlam65Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam66OnOff()" id="Hlam66Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam67OnOff()" id="Hlam67Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam68OnOff()" id="Hlam68Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam69OnOff()" id="Hlam69Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam70OnOff()" id="Hlam70Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam71OnOff()" id="Hlam71Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam72OnOff()" id="Hlam72Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam73OnOff()" id="Hlam73Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam74OnOff()" id="Hlam74Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam75OnOff()" id="Hlam75Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam76OnOff()" id="Hlam76Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam77OnOff()" id="Hlam77Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam78OnOff()" id="Hlam78Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam79OnOff()" id="Hlam79Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam80OnOff()" id="Hlam80Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam81OnOff()" id="Hlam81Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam82OnOff()" id="Hlam82Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam83OnOff()" id="Hlam83Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam84OnOff()" id="Hlam84Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam85OnOff()" id="Hlam85Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam86OnOff()" id="Hlam86Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam87OnOff()" id="Hlam87Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam88OnOff()" id="Hlam88Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam89OnOff()" id="Hlam89Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam90OnOff()" id="Hlam90Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam91OnOff()" id="Hlam91Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam92OnOff()" id="Hlam92Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam93OnOff()" id="Hlam93Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam94OnOff()" id="Hlam94Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam95OnOff()" id="Hlam95Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam96OnOff()" id="Hlam96Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam97OnOff()" id="Hlam97Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam98OnOff()" id="Hlam98Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam99OnOff()" id="Hlam99Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam100OnOff()" id="Hlam100Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam101OnOff()" id="Hlam101Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam102OnOff()" id="Hlam102Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam103OnOff()" id="Hlam103Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam104OnOff()" id="Hlam104Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam105OnOff()" id="Hlam105Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam106OnOff()" id="Hlam106Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam107OnOff()" id="Hlam107Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam108OnOff()" id="Hlam108Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam109OnOff()" id="Hlam109Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam110OnOff()" id="Hlam110Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam111OnOff()" id="Hlam111Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam112OnOff()" id="Hlam112Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam113OnOff()" id="Hlam113Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam114OnOff()" id="Hlam114Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam115OnOff()" id="Hlam115Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam116OnOff()" id="Hlam116Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam117OnOff()" id="Hlam117Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam118OnOff()" id="Hlam118Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam119OnOff()" id="Hlam119Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam120OnOff()" id="Hlam120Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam121OnOff()" id="Hlam121Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam122OnOff()" id="Hlam122Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam123OnOff()" id="Hlam123Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam124OnOff()" id="Hlam124Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam125OnOff()" id="Hlam125Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam126OnOff()" id="Hlam126Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam127OnOff()" id="Hlam127Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam128OnOff()" id="Hlam128Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam129OnOff()" id="Hlam129Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam130OnOff()" id="Hlam130Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam131OnOff()" id="Hlam131Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam132OnOff()" id="Hlam132Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam133OnOff()" id="Hlam133Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam134OnOff()" id="Hlam134Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam135OnOff()" id="Hlam135Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam136OnOff()" id="Hlam136Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam137OnOff()" id="Hlam137Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam138OnOff()" id="Hlam138Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam139OnOff()" id="Hlam139Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam140OnOff()" id="Hlam140Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam141OnOff()" id="Hlam141Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam142OnOff()" id="Hlam142Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam143OnOff()" id="Hlam143Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam144OnOff()" id="Hlam144Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam145OnOff()" id="Hlam145Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam146OnOff()" id="Hlam146Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam147OnOff()" id="Hlam147Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam148OnOff()" id="Hlam148Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam149OnOff()" id="Hlam149Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam150OnOff()" id="Hlam150Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam151OnOff()" id="Hlam151Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam152OnOff()" id="Hlam152Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam153OnOff()" id="Hlam153Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam154OnOff()" id="Hlam154Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam155OnOff()" id="Hlam155Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam156OnOff()" id="Hlam156Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam157OnOff()" id="Hlam157Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam158OnOff()" id="Hlam158Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam159OnOff()" id="Hlam159Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam160OnOff()" id="Hlam160Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam161OnOff()" id="Hlam161Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam162OnOff()" id="Hlam162Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam163OnOff()" id="Hlam163Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam164OnOff()" id="Hlam164Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam165OnOff()" id="Hlam165Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam166OnOff()" id="Hlam166Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam167OnOff()" id="Hlam167Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam168OnOff()" id="Hlam168Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam169OnOff()" id="Hlam169Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam170OnOff()" id="Hlam170Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam171OnOff()" id="Hlam171Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam172OnOff()" id="Hlam172Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam173OnOff()" id="Hlam173Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam174OnOff()" id="Hlam174Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam175OnOff()" id="Hlam175Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam176OnOff()" id="Hlam176Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam177OnOff()" id="Hlam177Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam178OnOff()" id="Hlam178Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam179OnOff()" id="Hlam179Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam180OnOff()" id="Hlam180Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam181OnOff()" id="Hlam181Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam182OnOff()" id="Hlam182Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam183OnOff()" id="Hlam183Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam184OnOff()" id="Hlam184Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam185OnOff()" id="Hlam185Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam186OnOff()" id="Hlam186Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam187OnOff()" id="Hlam187Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam188OnOff()" id="Hlam188Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam189OnOff()" id="Hlam189Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam190OnOff()" id="Hlam190Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam191OnOff()" id="Hlam191Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam192OnOff()" id="Hlam192Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam193OnOff()" id="Hlam193Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam194OnOff()" id="Hlam194Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam195OnOff()" id="Hlam195Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam196OnOff()" id="Hlam196Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam197OnOff()" id="Hlam197Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam198OnOff()" id="Hlam198Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam199OnOff()" id="Hlam199Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam200OnOff()" id="Hlam200Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam201OnOff()" id="Hlam201Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam202OnOff()" id="Hlam202Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam203OnOff()" id="Hlam203Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam204OnOff()" id="Hlam204Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam205OnOff()" id="Hlam205Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam206OnOff()" id="Hlam206Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam207OnOff()" id="Hlam207Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam208OnOff()" id="Hlam208Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam209OnOff()" id="Hlam209Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam210OnOff()" id="Hlam210Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam211OnOff()" id="Hlam211Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam212OnOff()" id="Hlam212Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam213OnOff()" id="Hlam213Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam214OnOff()" id="Hlam214Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam215OnOff()" id="Hlam215Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam216OnOff()" id="Hlam216Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam217OnOff()" id="Hlam217Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam218OnOff()" id="Hlam218Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam219OnOff()" id="Hlam219Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam220OnOff()" id="Hlam220Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam221OnOff()" id="Hlam221Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam222OnOff()" id="Hlam222Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam223OnOff()" id="Hlam223Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam224OnOff()" id="Hlam224Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam225OnOff()" id="Hlam225Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam226OnOff()" id="Hlam226Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam227OnOff()" id="Hlam227Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam228OnOff()" id="Hlam228Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam229OnOff()" id="Hlam229Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam230OnOff()" id="Hlam230Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam231OnOff()" id="Hlam231Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam232OnOff()" id="Hlam232Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam233OnOff()" id="Hlam233Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam234OnOff()" id="Hlam234Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam235OnOff()" id="Hlam235Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam236OnOff()" id="Hlam236Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam237OnOff()" id="Hlam237Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam238OnOff()" id="Hlam238Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam239OnOff()" id="Hlam239Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam240OnOff()" id="Hlam240Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam241OnOff()" id="Hlam241Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam242OnOff()" id="Hlam242Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam243OnOff()" id="Hlam243Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam244OnOff()" id="Hlam244Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam245OnOff()" id="Hlam245Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam246OnOff()" id="Hlam246Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam247OnOff()" id="Hlam247Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam248OnOff()" id="Hlam248Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam249OnOff()" id="Hlam249Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam250OnOff()" id="Hlam250Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam251OnOff()" id="Hlam251Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam252OnOff()" id="Hlam252Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam253OnOff()" id="Hlam253Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam254OnOff()" id="Hlam254Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam255OnOff()" id="Hlam255Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam256OnOff()" id="Hlam256Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam257OnOff()" id="Hlam257Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam258OnOff()" id="Hlam258Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam259OnOff()" id="Hlam259Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam260OnOff()" id="Hlam260Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam261OnOff()" id="Hlam261Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam262OnOff()" id="Hlam262Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam263OnOff()" id="Hlam263Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam264OnOff()" id="Hlam264Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam265OnOff()" id="Hlam265Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam266OnOff()" id="Hlam266Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam267OnOff()" id="Hlam267Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam268OnOff()" id="Hlam268Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam269OnOff()" id="Hlam269Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam270OnOff()" id="Hlam270Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam271OnOff()" id="Hlam271Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam272OnOff()" id="Hlam272Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam273OnOff()" id="Hlam273Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam274OnOff()" id="Hlam274Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam275OnOff()" id="Hlam275Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam276OnOff()" id="Hlam276Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam277OnOff()" id="Hlam277Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam278OnOff()" id="Hlam278Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam279OnOff()" id="Hlam279Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam280OnOff()" id="Hlam280Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam281OnOff()" id="Hlam281Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam282OnOff()" id="Hlam282Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam283OnOff()" id="Hlam283Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam284OnOff()" id="Hlam284Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam285OnOff()" id="Hlam285Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam286OnOff()" id="Hlam286Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam287OnOff()" id="Hlam287Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam288OnOff()" id="Hlam288Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam289OnOff()" id="Hlam289Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam290OnOff()" id="Hlam290Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam291OnOff()" id="Hlam291Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam292OnOff()" id="Hlam292Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam293OnOff()" id="Hlam293Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam294OnOff()" id="Hlam294Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam295OnOff()" id="Hlam295Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam296OnOff()" id="Hlam296Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam297OnOff()" id="Hlam297Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam298OnOff()" id="Hlam298Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam299OnOff()" id="Hlam299Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam300OnOff()" id="Hlam300Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam301OnOff()" id="Hlam301Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam302OnOff()" id="Hlam302Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam303OnOff()" id="Hlam303Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam304OnOff()" id="Hlam304Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam305OnOff()" id="Hlam305Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam306OnOff()" id="Hlam306Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam307OnOff()" id="Hlam307Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam308OnOff()" id="Hlam308Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam309OnOff()" id="Hlam309Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam310OnOff()" id="Hlam310Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam311OnOff()" id="Hlam311Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam312OnOff()" id="Hlam312Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam313OnOff()" id="Hlam313Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam314OnOff()" id="Hlam314Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam315OnOff()" id="Hlam315Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam316OnOff()" id="Hlam316Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam317OnOff()" id="Hlam317Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam318OnOff()" id="Hlam318Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam319OnOff()" id="Hlam319Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam320OnOff()" id="Hlam320Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam321OnOff()" id="Hlam321Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam322OnOff()" id="Hlam322Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam323OnOff()" id="Hlam323Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam324OnOff()" id="Hlam324Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam325OnOff()" id="Hlam325Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam326OnOff()" id="Hlam326Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam327OnOff()" id="Hlam327Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam328OnOff()" id="Hlam328Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam329OnOff()" id="Hlam329Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam330OnOff()" id="Hlam330Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam331OnOff()" id="Hlam331Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam332OnOff()" id="Hlam332Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam333OnOff()" id="Hlam333Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam334OnOff()" id="Hlam334Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam335OnOff()" id="Hlam335Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam336OnOff()" id="Hlam336Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam337OnOff()" id="Hlam337Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam338OnOff()" id="Hlam338Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam339OnOff()" id="Hlam339Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam340OnOff()" id="Hlam340Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam341OnOff()" id="Hlam341Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam342OnOff()" id="Hlam342Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam343OnOff()" id="Hlam343Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam344OnOff()" id="Hlam344Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam345OnOff()" id="Hlam345Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam346OnOff()" id="Hlam346Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam347OnOff()" id="Hlam347Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam348OnOff()" id="Hlam348Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam349OnOff()" id="Hlam349Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam350OnOff()" id="Hlam350Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam351OnOff()" id="Hlam351Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam352OnOff()" id="Hlam352Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam353OnOff()" id="Hlam353Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam354OnOff()" id="Hlam354Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam355OnOff()" id="Hlam355Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam356OnOff()" id="Hlam356Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam357OnOff()" id="Hlam357Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam358OnOff()" id="Hlam358Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam359OnOff()" id="Hlam359Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam360OnOff()" id="Hlam360Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam361OnOff()" id="Hlam361Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam362OnOff()" id="Hlam362Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam363OnOff()" id="Hlam363Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam364OnOff()" id="Hlam364Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam365OnOff()" id="Hlam365Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam366OnOff()" id="Hlam366Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam367OnOff()" id="Hlam367Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam368OnOff()" id="Hlam368Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam369OnOff()" id="Hlam369Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam370OnOff()" id="Hlam370Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam371OnOff()" id="Hlam371Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam372OnOff()" id="Hlam372Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam373OnOff()" id="Hlam373Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam374OnOff()" id="Hlam374Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam375OnOff()" id="Hlam375Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam376OnOff()" id="Hlam376Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam377OnOff()" id="Hlam377Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam378OnOff()" id="Hlam378Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam379OnOff()" id="Hlam379Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam380OnOff()" id="Hlam380Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam381OnOff()" id="Hlam381Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam382OnOff()" id="Hlam382Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam383OnOff()" id="Hlam383Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam384OnOff()" id="Hlam384Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam385OnOff()" id="Hlam385Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam386OnOff()" id="Hlam386Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam387OnOff()" id="Hlam387Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam388OnOff()" id="Hlam388Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam389OnOff()" id="Hlam389Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam390OnOff()" id="Hlam390Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam391OnOff()" id="Hlam391Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam392OnOff()" id="Hlam392Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam393OnOff()" id="Hlam393Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam394OnOff()" id="Hlam394Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam395OnOff()" id="Hlam395Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam396OnOff()" id="Hlam396Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam397OnOff()" id="Hlam397Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam398OnOff()" id="Hlam398Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam399OnOff()" id="Hlam399Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam400OnOff()" id="Hlam400Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam401OnOff()" id="Hlam401Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam402OnOff()" id="Hlam402Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam403OnOff()" id="Hlam403Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam404OnOff()" id="Hlam404Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam405OnOff()" id="Hlam405Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam406OnOff()" id="Hlam406Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam407OnOff()" id="Hlam407Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam408OnOff()" id="Hlam408Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam409OnOff()" id="Hlam409Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam410OnOff()" id="Hlam410Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam411OnOff()" id="Hlam411Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam412OnOff()" id="Hlam412Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam413OnOff()" id="Hlam413Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam414OnOff()" id="Hlam414Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam415OnOff()" id="Hlam415Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam416OnOff()" id="Hlam416Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam417OnOff()" id="Hlam417Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam418OnOff()" id="Hlam418Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam419OnOff()" id="Hlam419Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam420OnOff()" id="Hlam420Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam421OnOff()" id="Hlam421Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam422OnOff()" id="Hlam422Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam423OnOff()" id="Hlam423Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam424OnOff()" id="Hlam424Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam425OnOff()" id="Hlam425Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam426OnOff()" id="Hlam426Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam427OnOff()" id="Hlam427Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam428OnOff()" id="Hlam428Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam429OnOff()" id="Hlam429Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam430OnOff()" id="Hlam430Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam431OnOff()" id="Hlam431Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam432OnOff()" id="Hlam432Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam433OnOff()" id="Hlam433Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam434OnOff()" id="Hlam434Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam435OnOff()" id="Hlam435Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam436OnOff()" id="Hlam436Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam437OnOff()" id="Hlam437Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam438OnOff()" id="Hlam438Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam439OnOff()" id="Hlam439Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam440OnOff()" id="Hlam440Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam441OnOff()" id="Hlam441Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam442OnOff()" id="Hlam442Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam443OnOff()" id="Hlam443Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam444OnOff()" id="Hlam444Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam445OnOff()" id="Hlam445Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam446OnOff()" id="Hlam446Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam447OnOff()" id="Hlam447Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam448OnOff()" id="Hlam448Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam449OnOff()" id="Hlam449Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam450OnOff()" id="Hlam450Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam451OnOff()" id="Hlam451Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam452OnOff()" id="Hlam452Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam453OnOff()" id="Hlam453Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam454OnOff()" id="Hlam454Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam455OnOff()" id="Hlam455Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam456OnOff()" id="Hlam456Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam457OnOff()" id="Hlam457Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam458OnOff()" id="Hlam458Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam459OnOff()" id="Hlam459Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam460OnOff()" id="Hlam460Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam461OnOff()" id="Hlam461Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam462OnOff()" id="Hlam462Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam463OnOff()" id="Hlam463Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam464OnOff()" id="Hlam464Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam465OnOff()" id="Hlam465Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam466OnOff()" id="Hlam466Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam467OnOff()" id="Hlam467Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam468OnOff()" id="Hlam468Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam469OnOff()" id="Hlam469Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam470OnOff()" id="Hlam470Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam471OnOff()" id="Hlam471Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam472OnOff()" id="Hlam472Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam473OnOff()" id="Hlam473Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam474OnOff()" id="Hlam474Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam475OnOff()" id="Hlam475Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam476OnOff()" id="Hlam476Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam477OnOff()" id="Hlam477Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam478OnOff()" id="Hlam478Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam479OnOff()" id="Hlam479Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam480OnOff()" id="Hlam480Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam481OnOff()" id="Hlam481Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam482OnOff()" id="Hlam482Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam483OnOff()" id="Hlam483Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam484OnOff()" id="Hlam484Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam485OnOff()" id="Hlam485Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam486OnOff()" id="Hlam486Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam487OnOff()" id="Hlam487Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam488OnOff()" id="Hlam488Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam489OnOff()" id="Hlam489Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam490OnOff()" id="Hlam490Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam491OnOff()" id="Hlam491Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam492OnOff()" id="Hlam492Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam493OnOff()" id="Hlam493Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam494OnOff()" id="Hlam494Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam495OnOff()" id="Hlam495Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam496OnOff()" id="Hlam496Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam497OnOff()" id="Hlam497Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam498OnOff()" id="Hlam498Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam499OnOff()" id="Hlam499Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam500OnOff()" id="Hlam500Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam501OnOff()" id="Hlam501Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam502OnOff()" id="Hlam502Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam503OnOff()" id="Hlam503Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam504OnOff()" id="Hlam504Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam505OnOff()" id="Hlam505Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam506OnOff()" id="Hlam506Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam507OnOff()" id="Hlam507Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam508OnOff()" id="Hlam508Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam509OnOff()" id="Hlam509Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam510OnOff()" id="Hlam510Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam511OnOff()" id="Hlam511Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam512OnOff()" id="Hlam512Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam513OnOff()" id="Hlam513Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam514OnOff()" id="Hlam514Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam515OnOff()" id="Hlam515Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam516OnOff()" id="Hlam516Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam517OnOff()" id="Hlam517Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam518OnOff()" id="Hlam518Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam519OnOff()" id="Hlam519Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam520OnOff()" id="Hlam520Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam521OnOff()" id="Hlam521Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam522OnOff()" id="Hlam522Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam523OnOff()" id="Hlam523Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam524OnOff()" id="Hlam524Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam525OnOff()" id="Hlam525Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam526OnOff()" id="Hlam526Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam527OnOff()" id="Hlam527Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam528OnOff()" id="Hlam528Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam529OnOff()" id="Hlam529Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam530OnOff()" id="Hlam530Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam531OnOff()" id="Hlam531Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam532OnOff()" id="Hlam532Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam533OnOff()" id="Hlam533Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam534OnOff()" id="Hlam534Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam535OnOff()" id="Hlam535Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam536OnOff()" id="Hlam536Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam537OnOff()" id="Hlam537Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam538OnOff()" id="Hlam538Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam539OnOff()" id="Hlam539Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam540OnOff()" id="Hlam540Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam541OnOff()" id="Hlam541Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam542OnOff()" id="Hlam542Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam543OnOff()" id="Hlam543Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam544OnOff()" id="Hlam544Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam545OnOff()" id="Hlam545Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam546OnOff()" id="Hlam546Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam547OnOff()" id="Hlam547Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam548OnOff()" id="Hlam548Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam549OnOff()" id="Hlam549Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam550OnOff()" id="Hlam550Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam551OnOff()" id="Hlam551Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam552OnOff()" id="Hlam552Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam553OnOff()" id="Hlam553Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam554OnOff()" id="Hlam554Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam555OnOff()" id="Hlam555Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam556OnOff()" id="Hlam556Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam557OnOff()" id="Hlam557Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam558OnOff()" id="Hlam558Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam559OnOff()" id="Hlam559Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam560OnOff()" id="Hlam560Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam561OnOff()" id="Hlam561Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam562OnOff()" id="Hlam562Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam563OnOff()" id="Hlam563Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam564OnOff()" id="Hlam564Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam565OnOff()" id="Hlam565Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam566OnOff()" id="Hlam566Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam567OnOff()" id="Hlam567Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam568OnOff()" id="Hlam568Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam569OnOff()" id="Hlam569Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam570OnOff()" id="Hlam570Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam571OnOff()" id="Hlam571Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam572OnOff()" id="Hlam572Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam573OnOff()" id="Hlam573Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam574OnOff()" id="Hlam574Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam575OnOff()" id="Hlam575Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam576OnOff()" id="Hlam576Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam577OnOff()" id="Hlam577Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam578OnOff()" id="Hlam578Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam579OnOff()" id="Hlam579Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam580OnOff()" id="Hlam580Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam581OnOff()" id="Hlam581Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam582OnOff()" id="Hlam582Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam583OnOff()" id="Hlam583Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam584OnOff()" id="Hlam584Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam585OnOff()" id="Hlam585Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam586OnOff()" id="Hlam586Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam587OnOff()" id="Hlam587Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam588OnOff()" id="Hlam588Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam589OnOff()" id="Hlam589Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam590OnOff()" id="Hlam590Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam591OnOff()" id="Hlam591Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam592OnOff()" id="Hlam592Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam593OnOff()" id="Hlam593Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam594OnOff()" id="Hlam594Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam595OnOff()" id="Hlam595Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam596OnOff()" id="Hlam596Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam597OnOff()" id="Hlam597Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam598OnOff()" id="Hlam598Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam599OnOff()" id="Hlam599Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam600OnOff()" id="Hlam600Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam601OnOff()" id="Hlam601Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam602OnOff()" id="Hlam602Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam603OnOff()" id="Hlam603Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam604OnOff()" id="Hlam604Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam605OnOff()" id="Hlam605Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam606OnOff()" id="Hlam606Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam607OnOff()" id="Hlam607Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam608OnOff()" id="Hlam608Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam609OnOff()" id="Hlam609Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam610OnOff()" id="Hlam610Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam611OnOff()" id="Hlam611Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam612OnOff()" id="Hlam612Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam613OnOff()" id="Hlam613Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam614OnOff()" id="Hlam614Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam615OnOff()" id="Hlam615Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam616OnOff()" id="Hlam616Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam617OnOff()" id="Hlam617Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam618OnOff()" id="Hlam618Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam619OnOff()" id="Hlam619Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam620OnOff()" id="Hlam620Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam621OnOff()" id="Hlam621Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam622OnOff()" id="Hlam622Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam623OnOff()" id="Hlam623Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam624OnOff()" id="Hlam624Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam625OnOff()" id="Hlam625Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam626OnOff()" id="Hlam626Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam627OnOff()" id="Hlam627Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam628OnOff()" id="Hlam628Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam629OnOff()" id="Hlam629Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam630OnOff()" id="Hlam630Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam631OnOff()" id="Hlam631Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam632OnOff()" id="Hlam632Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam633OnOff()" id="Hlam633Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam634OnOff()" id="Hlam634Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam635OnOff()" id="Hlam635Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam636OnOff()" id="Hlam636Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam637OnOff()" id="Hlam637Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam638OnOff()" id="Hlam638Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam639OnOff()" id="Hlam639Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam640OnOff()" id="Hlam640Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam641OnOff()" id="Hlam641Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam642OnOff()" id="Hlam642Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam643OnOff()" id="Hlam643Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam644OnOff()" id="Hlam644Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam645OnOff()" id="Hlam645Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam646OnOff()" id="Hlam646Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam647OnOff()" id="Hlam647Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam648OnOff()" id="Hlam648Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam649OnOff()" id="Hlam649Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam650OnOff()" id="Hlam650Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam651OnOff()" id="Hlam651Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam652OnOff()" id="Hlam652Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam653OnOff()" id="Hlam653Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam654OnOff()" id="Hlam654Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam655OnOff()" id="Hlam655Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam656OnOff()" id="Hlam656Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam657OnOff()" id="Hlam657Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam658OnOff()" id="Hlam658Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam659OnOff()" id="Hlam659Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam660OnOff()" id="Hlam660Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam661OnOff()" id="Hlam661Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam662OnOff()" id="Hlam662Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam663OnOff()" id="Hlam663Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam664OnOff()" id="Hlam664Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam665OnOff()" id="Hlam665Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam666OnOff()" id="Hlam666Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam667OnOff()" id="Hlam667Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam668OnOff()" id="Hlam668Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam669OnOff()" id="Hlam669Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam670OnOff()" id="Hlam670Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam671OnOff()" id="Hlam671Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam672OnOff()" id="Hlam672Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam673OnOff()" id="Hlam673Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam674OnOff()" id="Hlam674Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam675OnOff()" id="Hlam675Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam676OnOff()" id="Hlam676Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam677OnOff()" id="Hlam677Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam678OnOff()" id="Hlam678Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam679OnOff()" id="Hlam679Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam680OnOff()" id="Hlam680Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam681OnOff()" id="Hlam681Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam682OnOff()" id="Hlam682Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam683OnOff()" id="Hlam683Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam684OnOff()" id="Hlam684Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam685OnOff()" id="Hlam685Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam686OnOff()" id="Hlam686Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam687OnOff()" id="Hlam687Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam688OnOff()" id="Hlam688Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam689OnOff()" id="Hlam689Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam690OnOff()" id="Hlam690Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam691OnOff()" id="Hlam691Button" autocomplete="off"><span class="slider"></span></label>
+				<label class="switch switch2"><input type="checkbox" onchange="Hlam692OnOff()" id="Hlam692Button" autocomplete="off"><span class="slider"></span></label>
+				</div>
+		</div>
+	</ul>
+</li>
 </ul>
 </div>
 	<div class="allcheckbox"><input type="button" onclick="AllCheckboxOff()" id="allcheckboxbut" value="Отключить все"/></div>
@@ -1076,7 +2694,5 @@ LocationsOnOff();
 <script type="application/javascript">
 urlhash();
 </script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css'>
 </body>
 </html>
