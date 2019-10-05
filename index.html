@@ -39,6 +39,9 @@
 	
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<script type="text/javascript" src="scripts/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css"/>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138965528-2"></script>
@@ -539,6 +542,8 @@
 		.hlam_text {position: relative; height: 13px; margin-top: 10px; font-size: 9pt;}
 		.switch2 {position: relative; top: 3px; margin-top: 3px;}
 		.emptybox2 {position: relative; height: 10px; width: 100%;}
+		
+		.fancybox-custom .fancybox-skin {box-shadow: 0 0 50px #222;}
 	</style>
 </head>
 <body onload="initMap()">
@@ -883,6 +888,46 @@
 	var clipboard = new Clipboard('.buttonurl');
 	clipboard.on('success', function(e) {
 	var btn = $(e.trigger);
+	});	
+	
+	map.on('popupopen', function(e) {
+		$(document).ready(function() {
+		$("#single_1").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_2").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_3").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_4").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_5").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_6").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_7").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_8").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_9").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_10").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_11").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_12").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_13").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_14").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_15").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_16").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_17").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_18").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_19").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_20").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_21").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_22").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_23").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_24").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_25").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_26").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_27").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_28").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_29").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_30").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_31").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_32").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_33").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_34").fancybox({helpers: {title : {type : 'float'}}});
+		$("#single_35").fancybox({helpers: {title : {type : 'float'}}});
+		});
 	});
 </script>
 <script src="scripts/LocationsIcons.js"></script>
