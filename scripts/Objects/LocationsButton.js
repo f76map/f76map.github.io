@@ -5,7 +5,7 @@
 		position:'topleft',		
 		layer: allicons,
 		initial: false,
-		zoom: -5,
+		zoom: -6,
 		marker: false
 	});
 	function LocationsOnOff() {
@@ -387,3 +387,6 @@
 		allicons.clearLayers();
 	}
 }
+controlSearch.on('search:locationfound', function(event) {
+    event.layer.openPopup();
+});
