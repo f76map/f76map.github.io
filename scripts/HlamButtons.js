@@ -16,3 +16,9 @@ function HlamButtons() {
 		mot.appendChild(btn);
 	}
 };
+function HlamOff() {
+	for (i=1; i < 693; i++) {
+		var Func = new Function("hlam"+i+"icons.clearLayers()");
+		Func();
+	}
+};
