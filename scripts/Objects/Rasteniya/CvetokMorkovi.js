@@ -1,2075 +1,2090 @@
-	var cvetokmorkoviicons = L.layerGroup().addTo(map);
-	function CvetokMorkoviOnOff() {
+var cvetokmorkoviicons = L.layerGroup().addTo(map);
+function CvetokMorkoviOnOff() {
 	var chbox;
 	chbox=document.getElementById('CvetokMorkoviButton');
 	if (chbox.checked) {
-	L.circleMarker([-23310, -18007], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31458, -13869], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-17472, -13367], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29776, -12154], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10335, -11300], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10524, -11437], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62286, -21734], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62242, -21618], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-57809, -22711], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-57893, -22180], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55871, -22213], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-43074, -13836], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-44183, -14110], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-44692, -15876], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64946, -10290], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64863, -11166], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59077, -9937], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-37738, -8449], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-63726, -5928], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64055, -5630], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-61317, -7381], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60041, -7416], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58921, -7417], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-53292, -4824], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-52955, -6326], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-43781, -6224], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-43658, -6014], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-53360, -3838], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-53292, -2284], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-47819, -3125], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-47547, -2941], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-47918, -2633], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34486, -143], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73121, -21688], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73386, -21931], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-68730, -20940], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79525, -12714], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79189, -14439], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-70653, -13590], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71776, -14840], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-77017, -10053], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73432, -10522], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-68578, -4841], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69109, -7083], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-124799, -28325], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-124894, -28183], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-124856, -28095], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125057, -27759], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128534, -18873], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128506, -19132], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128753, -18919], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120912, -20123], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120779, -19867], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120953, -19893], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120766, -20037], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123269, -11234], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123400, -11178], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123218, -11117], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123138, -11315], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129739, -1010], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129574, -998], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129412, -912], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129559, -896], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-88676, -50270], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-88744, -49584], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-86000, -44328], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85646, -44015], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-83788, -44755], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130802, -62799], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130701, -62557], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-117233, -61548], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128715, -60149], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128191, -59246], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128126, -59264], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-124136, -58174], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111727, -61396], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111728, -61297], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127600, -54614], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127538, -54432], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121294, -53502], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121001, -53589], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120931, -53644], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-103863, -55855], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100909, -55053], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101558, -55143], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100812, -56297], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100639, -56100], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100469, -55736], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101445, -55163], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108922, -50457], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109039, -50178], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-110269, -50553], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-110278, -50186], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129383, -33478], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129187, -33557], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129177, -33627], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129790, -33063], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120588, -34936], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120515, -34931], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120544, -34867], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125522, -79463], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125544, -79360], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125640, -79673], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128539, -75974], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128382, -76009], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128412, -75882], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33758, -114807], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-82376, -111412], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-82634, -111262], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-161959, -26801], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162196, -26788], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162090, -26905], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162054, -26663], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-158891, -28004], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-158869, -28298], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-158875, -28117], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-158722, -28143], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150716, -27217], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150681, -26817], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150431, -26788], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150729, -27053], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139327, -26867], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139569, -27079], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139408, -27286], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139375, -27026], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132467, -26112], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132061, -25570], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131971, -25577], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132299, -25539], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132121, -25403], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132464, -25359], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153988, -18090], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153957, -18324], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153881, -18210], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153735, -18214], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145137, -19721], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145230, -19768], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145192, -19591], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137776, -17866], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137919, -17984], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137916, -17884], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-157038, -8965], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-157063, -9066], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156941, -8925], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156989, -8520], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147878, -11426], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147994, -11400], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147791, -11265], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147868, -11616], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142327, -9787], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142432, -9585], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142279, -9612], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132445, -10573], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132601, -10741], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132472, -10889], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132436, -10676], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132752, -10758], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153392, -4504], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153352, -4560], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160167, -8], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160247, -96], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146303, -3017], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146411, -2855], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146284, -2852], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137708, -1628], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137439, -1346], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137597, -1501], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137716, -1419], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178557, -27208], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178504, -27348], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178393, -27314], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178341, -27427], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171563, -28539], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171489, -28408], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171450, -28505], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173582, -17839], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173692, -17734], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173542, -17681], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164195, -19278], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164283, -19079], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164305, -19172], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164174, -19130], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-179291, -9274], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-179218, -9247], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-179194, -9361], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169415, -11937], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169322, -12093], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169284, -11923], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169185, -12022], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165295, -11351], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165209, -11171], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164990, -11284], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164788, -11163], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-179033, -3364], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178859, -3748], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178750, -3880], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178877, -3867], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169311, -458], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169401, -540], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169316, -547], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150301, -61976], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150220, -62261], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150218, -62037], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-134660, -61976], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150724, -56033], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156653, -36701], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-154803, -35885], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-155413, -35179], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-155400, -34815], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-155221, -35573], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145424, -34887], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145407, -34676], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145284, -34750], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144602, -35361], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144770, -35210], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137646, -34999], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137103, -35246], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137219, -35290], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137000, -35267], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-136239, -35870], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137032, -35471], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172200, -34156], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172109, -34119], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172125, -34243], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172080, -34051], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165662, -35497], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165740, -35863], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165566, -35707], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159420, -94964], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150942, -95169], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-158064, -91926], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146243, -92355], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-157249, -84317], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146711, -83098], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142263, -79869], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138248, -68344], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138064, -68520], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138376, -68664], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138016, -68616], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173805, -92188], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173923, -92060], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171641, -90771], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171285, -93725], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169446, -83935], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167285, -84686], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149884, -129507], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146016, -130974], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144554, -126063], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-152181, -120381], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159082, -113750], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159133, -108805], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139843, -107900], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162716, -104809], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145911, -105747], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145734, -104734], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173461, -127970], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165216, -128853], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169097, -115406], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165255, -110813], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178905, -102905], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-179268, -102622], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178944, -102827], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-179403, -103098], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-168919, -105740], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153712, -31639], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153735, -31783], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153711, -31701], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153690, -31860], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153713, -31942], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([199341, -62496], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([204611, -61946], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([197459, -59236], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([199194, -75610], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([207763, -75746], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([204912, -65913], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([189272, -83893], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([192473, -74632], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([194644, -75347], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([192723, -67740], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([159705, -93086], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([151111, -88224], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153955, -75855], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153955, -75701], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([153849, -75739], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([102381, -29444], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([106632, -23903], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([106497, -23781], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82634, -19154], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82566, -16570], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82106, -17388], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82567, -17615], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88690, -17752], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([89070, -18217], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88534, -19656], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80076, -11669], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80154, -11716], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80443, -11721], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80229, -11110], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78971, -11166], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78055, -9602], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78664, -10512], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([90318, -9964], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([81552, -5267], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([81475, -5335], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([81371, -8067], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([83206, -5473], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82355, -4819], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82532, -7273], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82766, -7187], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([34400, -19419], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25348, -160744], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28776, -158253], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25087, -157868], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-26614, -152832], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23726, -153719], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-32270, -148961], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25137, -149404], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27580, -148724], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33464, -163270], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-32994, -163705], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-38545, -159410], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-41948, -155442], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-39012, -155080], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36283, -153696], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36761, -147491], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34662, -150175], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-38189, -172758], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-37275, -169385], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48701, -164320], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-41750, -164202], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108248, -190600], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108294, -191399], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108951, -190319], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108255, -189125], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108225, -189218], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119528, -184480], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-116662, -185604], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119576, -183842], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-118282, -184290], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153853, -156933], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147886, -154887], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-140940, -153124], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156938, -137624], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141387, -133449], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142784, -134678], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137456, -132600], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133681, -133521], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171041, -156954], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166282, -159151], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174237, -145514], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173665, -133883], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([67221, -160052], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([74687, -162814], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([75309, -156795], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78419, -157251], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([68821, -154841], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([70837, -155147], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([68663, -150989], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([74336, -149282], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80377, -149434], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([82364, -148403], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([83209, -150721], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([83151, -150700], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80766, -145108], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([63248, -155488], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([65033, -149917], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-78889, 197562], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-78869, 197496], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-78812, 197513], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-104470, 197395], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59498, 166245], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59461, 166187], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59547, 166245], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58297, 169542], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-50027, 169068], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-50071, 169149], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55665, 176231], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55713, 176212], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-61858, 184978], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60476, 186249], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59743, 185116], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62924, 191201], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-93857, 166937], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-93841, 166982], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-93892, 167001], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-77266, 166367], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-77314, 166426], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67078, 166109], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67154, 166169], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67079, 166184], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-86723, 174984], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-86825, 175055], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-86762, 175104], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-97078, 179845], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-97097, 179941], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-97120, 179893], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79733, 179637], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79783, 179708], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79828, 179685], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69429, 177395], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-90979, 180805], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-90970, 180739], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87012, 183944], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87055, 183883], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87107, 183847], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87313, 181477], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87390, 181477], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85637, 183789], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85582, 183823], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85569, 183733], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75469, 184106], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76479, 183400], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-65923, 184903], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85317, 191638], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85231, 191617], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85235, 191683], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-80539, 189364], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-80475, 189438], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-80466, 189368], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125028, 169393], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125046, 169312], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129891, 177775], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-112662, 183297], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-112620, 183292], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100280, 188738], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100318, 188782], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31539, 133965], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31523, 134071], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31588, 134011], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55536, 131357], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55431, 131370], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55551, 131320], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-45386, 131245], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-45414, 131313], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-40160, 132454], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-40234, 132430], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-40217, 132517], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49384, 136720], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49371, 136634], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48652, 136613], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48630, 136751], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48694, 136713], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-38089, 137997], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-38123, 137950], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-38064, 137949], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59748, 154630], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59741, 154577], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59743, 154522], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-56219, 151990], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-56215, 151937], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-56274, 151994], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-83134, 131893], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-83123, 131961], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-82547, 141178], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-82600, 141155], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-82560, 141117], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-78529, 142747], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-78571, 142792], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-97257, 150585], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-97314, 150578], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-97321, 150600], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87818, 147849], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87778, 147835], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71290, 150075], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71343, 149912], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71239, 149765], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71405, 149836], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71239, 149930], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66825, 150834], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66786, 150825], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66822, 150765], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-84983, 158546], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-84953, 158502], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-104283, 131315], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99093, 136031], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99023, 136034], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119599, 147704], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-118271, 153967], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-118317, 153905], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-118226, 153899], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-118253, 153854], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99057, 155823], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99070, 155723], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-98978, 155756], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125182, 161249], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125107, 161285], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132231, 200506], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132332, 200908], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169544, 197819], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-168358, 200478], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156204, 168676], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156259, 168631], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-148215, 171143], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156488, 181481], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145563, 185962], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141726, 191796], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141773, 191758], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-134421, 191602], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-134425, 191514], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149804, 195865], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149864, 195860], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173661, 178550], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173731, 178551], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169679, 177180], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164394, 178379], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166230, 181469], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166873, 182319], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174850, 191342], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165406, 190977], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178360, 194078], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177314, 195086], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156346, 132445], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150944, 133745], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150874, 133485], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159148, 140420], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138364, 140547], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138455, 140585], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-152769, 146915], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-152099, 148547], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-151861, 148405], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-152072, 148306], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-161867, 154625], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162623, 156940], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149865, 156677], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149415, 162215], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149331, 162220], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139867, 162298], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-136154, 162020], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-136301, 162303], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-136209, 161989], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172778, 134023], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172569, 131455], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-175069, 137210], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173007, 142741], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172977, 144110], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173449, 149868], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-175480, 149590], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-175927, 147660], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171297, 147695], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171173, 149193], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169868, 149254], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-171256, 147461], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-176982, 153677], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177433, 153783], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177459, 153773], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166147, 153915], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167338, 159399], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167376, 156035], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165539, 158100], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167257, 162081], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([199111, 174061], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([177621, 152459], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([177705, 152183], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([190982, 151592], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([191044, 151654], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([191083, 151588], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([141559, 152204], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([72132, 131597], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93190, 134282], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10111, 101636], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10459, 102193], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10349, 101774], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-8253, 106096], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-8261, 106259], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-8406, 106310], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21803, 110360], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21596, 110335], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20977, 110333], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28871, 112124], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28544, 112312], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25511, 117723], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25695, 118035], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9040, 118423], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10569, 116855], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9921, 120324], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-32175, 125945], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-32258, 125961], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64424, 99437], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64462, 99419], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58345, 100761], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58293, 100780], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59114, 104565], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59051, 104607], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59172, 104635], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49557, 109704], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49308, 110446], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48449, 110564], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-61274, 111111], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-61194, 111097], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-61201, 111190], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-43417, 115572], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-43579, 115772], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55805, 126084], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55780, 126178], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-55672, 126133], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-56718, 129288], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-56693, 129312], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-45863, 130205], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-45820, 130132], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-45923, 130153], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35935, 130157], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35851, 130067], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35818, 130168], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75645, 101424], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75692, 101371], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75705, 101434], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96564, 104609], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96568, 104560], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96516, 104608], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-77830, 105483], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-77780, 105551], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-77728, 105498], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66464, 106106], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66517, 106110], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79168, 110020], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79572, 109862], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-79478, 110085], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76856, 108227], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76866, 108337], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76946, 108271], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-95618, 114135], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-95795, 114097], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-95693, 114043], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85886, 116398], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85761, 116427], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85840, 116170], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85762, 116285], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75811, 115142], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75863, 115213], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75722, 115091], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75696, 115026], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-68999, 115046], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69056, 115037], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-89184, 122402], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-89219, 122309], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-89332, 122469], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-74339, 119799], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-74438, 119600], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-74339, 119664], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69052, 119517], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69104, 119559], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69045, 119466], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96343, 128367], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96333, 128319], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-92842, 128088], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-92882, 128093], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87720, 129548], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87679, 129588], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130053, 99313], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130705, 102304], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123795, 100050], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127790, 102565], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125414, 104349], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125004, 104212], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-126851, 104301], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121830, 102557], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101820, 105898], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129940, 106534], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120239, 108903], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119568, 107754], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-115900, 109569], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108423, 107522], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-106997, 106794], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-104925, 110309], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99036, 107451], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127788, 113493], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129260, 114048], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127123, 112001], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119001, 111726], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121665, 113957], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-110876, 113668], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108073, 113102], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-98747, 113479], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-102079, 114029], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99861, 111517], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130007, 117310], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123934, 115329], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125765, 115939], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111969, 115077], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-103254, 118035], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-103165, 117133], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-126445, 119793], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119440, 121911], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119338, 121351], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-114167, 120552], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-113910, 121306], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-110335, 121063], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107781, 121639], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99433, 119416], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99728, 119058], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123227, 124935], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121287, 126340], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119455, 125381], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-114098, 124544], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-113587, 125556], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108759, 123663], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-106361, 126774], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100709, 125658], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129865, 128535], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-114824, 129320], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-116938, 127176], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107779, 130691], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99769, 129418], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27145, 66441], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27469, 66363], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20802, 65622], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20885, 65865], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20458, 65744], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20062, 66911], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20139, 66797], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-13027, 65672], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10094, 67569], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10146, 67051], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10011, 66975], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-7233, 68814], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-7360, 69286], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-3636, 68705], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-3717, 68935], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-863, 69275], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-12470, 71913], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-12729, 71976], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-7683, 73681], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-6210, 72068], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-6281, 71657], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27989, 77810], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28486, 77178], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28320, 76882], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-12509, 77130], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-14393, 77452], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28354, 79415], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28027, 79156], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27991, 77978], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25945, 80639], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22207, 79891], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22289, 79606], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-14669, 78345], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-13129, 80940], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-864, 80968], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-2456, 78080], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-2418, 78755], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31943, 85575], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31968, 85404], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-15188, 82070], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-14508, 81999], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10153, 82403], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10582, 83929], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10531, 84086], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29504, 87554], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29621, 87025], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29635, 87228], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-6463, 93009], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-6617, 93388], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24614, 97651], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24589, 97891], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24388, 97569], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64953, 68318], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58061, 66733], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-57928, 67333], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-50227, 68845], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-39589, 69601], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-52396, 69783], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-52597, 69940], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-45573, 73545], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-45768, 73517], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-39891, 69666], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36140, 70254], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36266, 70493], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49590, 75676], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49405, 75581], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48696, 78068], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48777, 77996], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-41242, 80057], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36367, 81006], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35430, 81329], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33484, 78401], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33640, 78678], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34209, 80208], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34525, 80491], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34071, 80603], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34904, 83119], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34856, 83400], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62258, 94002], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62194, 93954], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48560, 92534], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48306, 92363], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-48790, 92442], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-51401, 96705], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-51296, 96640], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-51384, 96211], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-85164, 68695], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-84174, 68246], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66309, 68293], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66230, 70842], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96483, 74414], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96204, 74329], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76418, 77070], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-90935, 80277], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-90583, 80156], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-89318, 81771], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-90483, 81926], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-72048, 89579], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71976, 89601], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87829, 92477], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-88299, 92200], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-88106, 92303], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67555, 91108], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67469, 91052], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67425, 91086], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-86750, 96333], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-86450, 96170], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-86932, 96212], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76542, 97306], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76490, 97319], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73186, 96779], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73156, 96725], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128326, 66777], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127244, 68882], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127397, 68305], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121142, 66151], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-104578, 68406], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127481, 72283], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127464, 72559], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129288, 70833], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128959, 71687], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120556, 70649], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120666, 70818], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-116767, 72790], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-116868, 72647], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128477, 81888], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127378, 81774], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-102989, 78318], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127298, 83717], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127076, 84422], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-126918, 85512], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-124840, 85676], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125989, 82492], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-126173, 82648], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-103941, 83732], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-104372, 84655], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-126040, 88266], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121725, 86487], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127392, 91603], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127446, 91326], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121942, 92625], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-122102, 91213], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-115281, 93528], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129897, 94309], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-126591, 97356], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119685, 97786], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120489, 94596], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31306, 33381], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31679, 34732], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31699, 34997], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28713, 33941], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29040, 34615], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29815, 35445], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25726, 34511], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25635, 34247], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-26393, 36295], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27954, 35153], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24465, 33532], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23010, 35873], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-19538, 33962], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-17110, 34400], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-6070, 34546], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-3476, 33945], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-30942, 39880], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-32718, 40690], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27077, 40040], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25948, 38306], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-26459, 38953], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22691, 37045], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-8402, 39039], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31705, 41693], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-31979, 44848], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-30261, 43019], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25943, 42976], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25743, 41185], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-15303, 43905], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9611, 44172], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-7590, 43852], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-5638, 42622], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-2401, 44851], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27099, 46404], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25051, 46120], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21465, 46505], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21160, 46371], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-14545, 46429], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-13461, 45317], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9892, 46567], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10442, 48738], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-6290, 46221], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-5148, 46248], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-5152, 45919], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23874, 52143], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23021, 51533], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-13807, 50207], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-13977, 50497], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-12154, 51596], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-11831, 51887], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-1352, 51508], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24791, 54065], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24622, 53952], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23545, 56757], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22708, 56083], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22533, 55463], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-11921, 53906], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-11191, 55370], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-11417, 55492], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-30661, 58798], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-30946, 58812], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-19834, 59713], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-19294, 59907], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-19138, 59546], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-15879, 59208], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-14754, 60400], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-14536, 60694], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9148, 59987], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9064, 60455], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-4340, 61207], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-3162, 59451], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-2735, 59626], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22176, 63733], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21978, 63775], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20609, 64837], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-13188, 65284], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-11000, 64074], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10400, 63027], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-8033, 64060], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-65283, 35462], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64472, 36785], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59344, 33289], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60909, 34994], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-42198, 33702], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-41448, 34151], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36380, 35990], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33686, 34778], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64401, 37028], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64894, 39095], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64679, 40776], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62783, 39262], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-65526, 39232], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60433, 39050], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58444, 37975], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-40950, 39759], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-40738, 39044], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-65404, 41773], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-44111, 42109], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-39928, 44969], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33087, 43788], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-47722, 47658], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-46180, 47070], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-37081, 47521], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-37414, 47796], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-39966, 45671], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36861, 45393], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34930, 45588], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35414, 51264], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34652, 50635], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34774, 50423], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-39418, 56882], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-39523, 56785], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35947, 56428], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-63329, 59476], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62866, 59098], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-50385, 57536], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35209, 58384], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34785, 57574], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33511, 65128], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33733, 65208], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33119, 62644], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-74924, 35416], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71590, 35622], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71257, 37774], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67813, 37581], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67330, 37963], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87293, 48239], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-87614, 47839], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-68384, 47337], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-68657, 47160], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76600, 50061], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75914, 50293], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-72591, 55526], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73122, 56026], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-83672, 60313], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-83565, 60399], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-94592, 63111], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127237, 36100], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-127392, 36028], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130650, 35029], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-112774, 33562], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-112781, 33346], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130148, 39242], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-113264, 38518], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-113058, 38818], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101774, 37712], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101985, 37476], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128943, 42474], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129772, 42314], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130124, 42610], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130358, 43142], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121584, 42692], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-121568, 42368], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-102918, 43425], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-102890, 43480], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100653, 43463], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100550, 43283], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128382, 47337], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123791, 48335], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123534, 48355], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111965, 48702], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111874, 48440], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128600, 49748], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123792, 51585], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-124853, 51233], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125631, 50500], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-115350, 53234], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99425, 52373], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-99552, 52329], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128809, 53966], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129406, 53962], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-125432, 57231], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123096, 56671], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-122802, 54729], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-114070, 56426], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130837, 58891], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130140, 58523], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128385, 57669], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123999, 58258], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123933, 58224], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-122660, 57647], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119467, 57436], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119715, 57424], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-114339, 58545], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-114456, 58820], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24534, 4087], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24495, 4038], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-16861, 3870], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-16306, 3599], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-7813, 2816], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28969, 6515], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29873, 6339], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-30156, 6349], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-30599, 5452], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-26681, 7943], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24357, 4840], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-16486, 4841], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9001, 7403], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-7593, 4565], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-30504, 8774], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21438, 9578], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20927, 9549], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22358, 10105], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23467, 9538], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-19543, 10482], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-10127, 9107], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-13274, 12866], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-2300, 15015], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29320, 18544], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29532, 19259], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28124, 18597], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-25916, 18517], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-28495, 19596], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-24160, 18479], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23432, 16960], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-23796, 20220], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-17499, 17029], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-17604, 17917], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20162, 20031], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-15726, 18041], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-11662, 18286], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-7286, 19087], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-723, 16965], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138, 19937], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-32398, 20945], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-27476, 21539], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-26876, 21994], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22625, 21397], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-22053, 22731], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-18042, 20582], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-16663, 24190], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-20227, 21230], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-18600, 21038], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9522, 20722], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-9693, 24366], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-6039, 21039], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-3837, 23209], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-17951, 27332], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-4439, 27258], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-1858, 26456], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-29191, 31935], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21923, 31988], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-21050, 31855], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-17091, 31342], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-17722, 29309], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-8648, 29427], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-5759, 28904], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-2661, 29455], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-57576, 3542], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36649, 267], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33421, 5281], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33089, 8033], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58441, 8783], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-57801, 11768], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60424, 10384], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60354, 11069], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-43167, 12096], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-42230, 10738], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-41120, 9165], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-38841, 11950], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-40685, 8267], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34135, 9832], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-63546, 15720], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58696, 15777], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35759, 13182], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-34116, 12403], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33008, 13280], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33232, 13970], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-63676, 18515], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62529, 20268], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60246, 17835], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49478, 18884], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-38814, 19172], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35647, 17127], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35612, 17677], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62822, 21985], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59359, 23126], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59551, 22233], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-50374, 23354], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-49802, 22831], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-33020, 22221], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-36175, 21474], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-64310, 26975], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-63272, 25527], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-35100, 25876], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-62014, 30803], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-61560, 28963], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-63836, 30853], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-58300, 29254], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-59690, 32225], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-60879, 30588], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-77550, 7007], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-72689, 7765], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73235, 4600], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-91797, 10271], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-92370, 9310], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-88156, 10104], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-88626, 9703], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-82823, 13448], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-84665, 12581], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-84676, 13020], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76212, 14079], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-74130, 12709], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71478, 14482], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69568, 14465], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69392, 13597], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-92872, 19880], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-93320, 19640], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69789, 17552], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73451, 17671], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66035, 18043], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-65808, 20267], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66220, 17848], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-70524, 23714], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-72245, 22918], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-67087, 23118], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69163, 22977], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-68749, 21398], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-92356, 27486], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-92136, 27464], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69816, 28145], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-70909, 28369], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-72793, 27467], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-71714, 25810], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-66439, 25240], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-68629, 26203], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-94876, 30394], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-95651, 30911], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-94618, 28963], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-95326, 30259], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-96885, 30650], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-76219, 31981], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75538, 29162], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-75820, 30720], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-73379, 31926], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-69535, 29372], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120294, 686], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120182, 386], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119922, 309], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120022, 491], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-120357, 425], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-113459, 3584], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128909, 7124], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-128980, 6341], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129100, 5905], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-115697, 6967], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-115577, 7169], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107201, 4200], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-106837, 4312], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129604, 9843], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-129722, 9115], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130124, 9038], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123747, 9308], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123711, 11553], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123724, 10910], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111134, 9313], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111125, 9770], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109428, 10788], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109778, 10703], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101780, 8959], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101837, 8854], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101336, 8726], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130508, 12619], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-130930, 14977], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109709, 15461], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109282, 14462], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109395, 14197], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-124924, 17750], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123485, 17510], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-123516, 17428], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-119419, 16439], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-118865, 16773], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-116940, 17066], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-115131, 18507], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-115179, 18718], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109225, 18387], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109589, 18509], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108333, 17894], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-116384, 22527], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-116384, 22786], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-110720, 22556], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-112001, 24506], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-110869, 24348], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109803, 21829], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-109970, 21777], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107850, 23608], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107771, 24133], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107790, 24339], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101786, 21376], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101520, 21200], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101052, 22915], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-122121, 26886], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-122755, 27516], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-122796, 27660], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111092, 24606], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-111968, 24932], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107652, 27993], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107882, 27078], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-107898, 26751], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-108378, 26704], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101311, 27425], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101231, 27009], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-106034, 29450], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-106196, 29634], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101299, 32090], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-101030, 32464], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-100462, 30979], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137880, 102107], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141786, 103785], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-135328, 103847], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137727, 105420], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137566, 105638], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138033, 105687], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137919, 105864], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137530, 106332], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131237, 105854], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133908, 106176], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162363, 119560], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159454, 119776], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160154, 126551], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-157318, 126486], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159113, 123191], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-163219, 130595], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162834, 128204], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162448, 128760], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-181381, 100984], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165720, 101940], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166387, 102292], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-181527, 107301], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172683, 112328], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174505, 111249], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-176969, 129184], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174670, 130753], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173558, 128303], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173624, 129312], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-168958, 129378], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-168636, 127552], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170152, 129190], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170445, 128776], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166158, 127059], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167866, 128435], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165576, 128740], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-154621, 68475], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-154235, 67939], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-154470, 67717], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145558, 69481], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146533, 69285], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142578, 69372], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132075, 68857], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-134376, 68122], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-134723, 68538], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132261, 68975], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-148433, 70939], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-148102, 70766], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-143574, 72632], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144622, 73556], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146456, 73168], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141529, 72280], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-161170, 77058], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-161218, 77222], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149307, 76942], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147789, 77526], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150034, 77431], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141130, 76265], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142613, 77068], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137134, 76632], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137474, 76657], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-136725, 74233], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156795, 80954], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156842, 80110], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156608, 80105], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-158450, 78122], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149832, 80260], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150362, 81381], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150316, 81653], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150926, 80350], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145345, 78333], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146443, 78045], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144256, 81181], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-143843, 81332], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145919, 78796], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141267, 80173], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141650, 80432], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156201, 84772], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153561, 83982], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153845, 85354], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142185, 85021], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142404, 85270], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-140015, 85619], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-148860, 88156], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144119, 87957], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137902, 87481], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132580, 86459], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132250, 86317], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160665, 92465], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-161852, 93630], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150847, 93640], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132421, 93236], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132431, 93471], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150060, 97773], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144843, 95717], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178060, 66675], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178436, 69265], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166221, 68491], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166347, 69279], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164942, 66773], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177928, 69892], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178301, 70020], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-175701, 73285], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174763, 73549], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174205, 71850], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170332, 71512], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174251, 73822], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172504, 74555], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-168478, 77177], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167809, 76834], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166027, 76223], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165744, 76043], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174835, 78888], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174792, 79155], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-178342, 87991], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-180022, 87547], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-180035, 89802], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-180022, 89645], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166453, 92779], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172334, 95952], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173616, 96215], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164850, 95563], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165313, 95398], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-154015, 34883], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153702, 35112], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132471, 33643], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132044, 33952], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131153, 34935], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142785, 37872], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142627, 38014], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-142413, 39677], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-140808, 37603], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141173, 42056], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-140991, 41968], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145376, 45912], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138461, 47984], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138178, 48293], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137480, 46984], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132511, 45921], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-136418, 51753], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137540, 49555], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-134263, 53100], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-162966, 55836], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-161173, 57200], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160890, 57070], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147714, 54759], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147116, 54915], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-147100, 54793], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141446, 54998], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133716, 55717], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133791, 55616], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131877, 55025], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-141341, 58950], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-143066, 61182], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132270, 60587], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132273, 60716], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-163262, 61585], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159990, 63967], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159939, 63714], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-150427, 63911], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-143377, 64476], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-140997, 62372], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-140972, 62679], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133895, 64119], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132287, 62517], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-132153, 62769], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174731, 38560], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174653, 38688], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174468, 38619], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166730, 40349], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166772, 40255], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-166514, 39896], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164892, 47161], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-165030, 47345], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167111, 46198], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167269, 46162], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172593, 52507], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-172577, 52383], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170602, 51482], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170928, 50959], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173183, 55057], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173291, 56172], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-173071, 55855], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-176438, 59107], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-176400, 58719], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-176878, 64813], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160328, 30], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160208, 114], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-157038, 6214], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156536, 5365], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149428, 6387], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-148757, 5801], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-135825, 5201], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133420, 5138], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133092, 5506], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156205, 9077], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-156303, 9467], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138702, 11932], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138247, 12032], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131189, 11173], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131772, 11405], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-134062, 11716], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133576, 12204], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-158989, 15225], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159699, 15396], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159460, 15392], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-159385, 15098], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149844, 14486], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139838, 14966], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-139435, 15370], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-137215, 15332], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-136882, 15478], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133940, 12728], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133139, 14265], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-133406, 14336], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131614, 18205], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-131301, 18288], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-152369, 22353], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-153030, 22572], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149873, 27382], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-149769, 28236], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-140222, 25674], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138539, 25878], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-138737, 26174], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160809, 30039], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160550, 30122], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160592, 30017], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-160723, 29805], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-144789, 31628], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-145739, 31113], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-146514, 31106], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174536, 7099], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174991, 7127], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-174862, 7177], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167086, 4888], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167172, 4907], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-167122, 4787], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177358, 13988], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177349, 13895], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177253, 13958], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169705, 12807], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169789, 12907], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169455, 12858], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-169724, 12738], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-175917, 24232], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-175762, 24259], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-175698, 24142], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164704, 21237], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164564, 21018], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164555, 21155], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-164427, 21098], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177191, 30080], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177320, 30069], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-177225, 29857], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170327, 31964], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170265, 31753], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170136, 31704], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([-170207, 31624], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([197719, 101515], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([201435, 108888], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([218618, 107766], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([218873, 107695], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([221143, 110005], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([220986, 110050], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([199527, 113517], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([200100, 117949], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([201697, 115604], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([200220, 121773], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([207268, 122087], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([193092, 99766], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166495, 110293], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166398, 110567], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166392, 110812], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166206, 110625], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([174900, 112943], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([175543, 113672], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([175713, 112871], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([175269, 113142], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([175230, 113214], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([175731, 113322], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([192098, 116355], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([193155, 118691], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([147822, 99740], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([147765, 99525], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148021, 99936], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148079, 99799], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([147894, 99638], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([134529, 104177], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([134045, 103810], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([134276, 103852], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([150046, 108321], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([150433, 108379], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([199383, 66646], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([204219, 77214], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([198403, 80684], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([198710, 80464], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([198267, 79719], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([197669, 80997], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([203769, 89256], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([172885, 71238], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([174418, 71464], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([174170, 72631], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([173557, 72423], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([178062, 72437], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([178286, 70891], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([179160, 70970], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([178868, 72698], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([179857, 72708], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([180215, 71742], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([181150, 71449], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([180438, 70605], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([180349, 70506], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([180571, 71474], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([181666, 73127], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([180658, 72332], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([175850, 80071], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([176525, 80508], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([176567, 80215], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([191627, 78078], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([195892, 80363], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([196291, 79807], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([190077, 84897], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([190762, 84814], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([196306, 84516], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([194686, 82596], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([195615, 83108], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([164876, 92732], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([165710, 93196], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([165905, 93290], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([165634, 92995], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([165818, 93147], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([196461, 91562], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166664, 95779], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166768, 95821], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167239, 96032], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([138429, 68075], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([137774, 66850], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([137824, 67247], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([140602, 66615], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([140345, 67151], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([140702, 67193], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([140243, 66449], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([140336, 67785], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([159229, 66072], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([157802, 67030], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([158108, 66722], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([162078, 69345], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([161542, 68811], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([161209, 69235], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([140733, 73195], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([142032, 72890], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([143211, 71481], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([142396, 72332], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([142669, 72186], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148760, 72058], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([149336, 72816], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([149440, 70974], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([152956, 72107], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([152139, 73117], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([151990, 72815], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([137812, 76418], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([138288, 76023], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([141821, 75041], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([141334, 73882], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([141134, 74051], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([141062, 74122], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([140712, 73753], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([149737, 83726], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([152803, 84394], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148542, 95014], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148597, 95005], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148222, 95213], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([197516, 57691], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([197625, 57572], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([199103, 60045], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([199086, 60244], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([204523, 59625], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([201264, 61252], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([202087, 60297], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([201234, 58098], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([201519, 57904], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([181425, 43408], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166339, 55014], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([164939, 54574], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([164106, 54501], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([164133, 54246], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167643, 55323], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167301, 56246], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167136, 55976], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167060, 55878], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([166968, 55733], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167000, 55329], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167490, 55449], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167923, 56265], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167933, 56182], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167608, 55834], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167587, 56000], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167685, 55933], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167517, 55892], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167248, 56804], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167811, 56655], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([167348, 56417], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169419, 57065], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169357, 57201], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169949, 57135], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169835, 57108], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169900, 56989], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([170021, 57021], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169877, 56329], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([170046, 56370], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169609, 56258], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([168390, 56617], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([168433, 56229], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([170039, 59233], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([170221, 59169], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169260, 59198], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([168772, 58844], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169408, 59254], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169188, 59194], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([169411, 59372], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([150174, 53545], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([149382, 53847], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([162675, 54187], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148757, 59372], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([148627, 59787], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([156486, 59766], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([157260, 60663], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([157114, 60935], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([160199, 57680], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([160034, 57784], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([157457, 63064], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([156390, 62863], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([156709, 63128], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([174516, 7322], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([174524, 7255], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([174583, 7138], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([113875, 104753], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([113470, 104832], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([114157, 104230], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([113755, 104816], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125127, 108866], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([124982, 109046], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([122412, 117431], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([121002, 115285], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([121160, 115288], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([87468, 110822], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([67995, 129193], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([73714, 127286], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([72422, 130182], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([71082, 128157], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([73860, 127188], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35378, 101116], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35946, 100069], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([34961, 99110], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([34921, 99147], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([42653, 98950], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([42763, 98930], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([42897, 99024], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([42637, 98829], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([51188, 100411], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([51792, 99586], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([51010, 102051], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([50972, 102034], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([37943, 108138], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([38195, 108002], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([50199, 108474], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([51607, 109256], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([50064, 110315], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([49279, 108410], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([64798, 107888], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([64845, 108147], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([63910, 107735], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([63870, 107796], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35649, 115921], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35370, 115700], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35123, 115698], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35255, 115713], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([65271, 116110], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([65098, 116228], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([65119, 116461], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([65467, 127282], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([221, 101376], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([60, 101218], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([332, 101494], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([24331, 101076], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([24211, 101164], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([24295, 101146], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([20984, 105117], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([21205, 105040], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([21116, 105123], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([7091, 107470], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([7148, 107802], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([6959, 107738], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([26026, 107350], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([25985, 107461], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([26055, 107437], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([26194, 107285], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([25877, 107817], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([963, 112536], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([965, 112812], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1267, 112838], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1376, 112962], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([9529, 116300], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([10011, 117710], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([9586, 118754], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([9194, 117217], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1803, 120143], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1903, 119864], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1632, 120177], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([99951, 67054], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([105988, 65916], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([105706, 66870], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([106819, 69427], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([107478, 67012], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([107485, 68644], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([110972, 69083], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125330, 66253], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125266, 66171], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125791, 66274], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125909, 66374], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([127617, 68497], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([103369, 70628], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([116257, 70390], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([116106, 70441], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([117004, 72900], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([117127, 73588], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([120352, 72298], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([120572, 72397], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([99357, 75484], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([101550, 75607], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([104522, 76981], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([107134, 76428], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([116373, 75954], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([117657, 76526], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([117528, 76402], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([117083, 73781], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([120524, 74960], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([120756, 74382], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125714, 79527], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125101, 79543], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125157, 79509], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([124555, 79446], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125044, 79442], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([129541, 79603], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([129593, 79291], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([128975, 78765], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([128863, 78975], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([128449, 78335], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([119989, 90764], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([124991, 91441], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([124807, 91404], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([108952, 96779], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([108786, 96353], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([108676, 96717], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([114501, 94966], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([114316, 95451], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([114373, 95662], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([120877, 96395], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([120691, 96535], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78215, 65892], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78111, 65947], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78116, 65835], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88721, 66910], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([91374, 67573], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([96900, 67523], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([90447, 70484], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([96314, 70315], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([94872, 72079], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([75459, 76228], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([75566, 76299], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([75454, 76333], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([83560, 75106], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([91046, 76722], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93678, 74482], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([66075, 80782], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([66166, 80796], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([66090, 80873], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([66150, 80896], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([83060, 81827], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([83191, 81715], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([92720, 80309], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([73192, 85618], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([73220, 85552], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([73258, 85626], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([75255, 86536], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([75287, 87773], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([34029, 69084], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([34037, 69201], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33962, 69137], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46996, 68554], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46812, 68648], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46952, 68628], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([41601, 75912], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([41508, 75885], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([41552, 75877], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([61018, 77211], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([59759, 75451], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([59473, 75248], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33309, 80433], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33296, 80330], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33363, 80392], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35697, 80692], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35663, 80743], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46075, 78742], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46684, 79483], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46675, 79339], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([57042, 80588], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([57070, 80513], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([63478, 84501], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([64618, 83600], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([64093, 83346], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46988, 87410], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([47430, 87422], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([47291, 87819], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([32854, 92425], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([36099, 92255], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([35808, 92709], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([53478, 94105], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([58822, 93101], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([59238, 92774], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([58993, 92737], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([55294, 95107], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([55354, 95033], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([12965, 66979], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([12895, 66989], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([17812, 67556], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([17794, 67592], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([12954, 74957], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([20132, 77204], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([20127, 77214], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([920, 79624], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([557, 79573], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2092, 83109], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2118, 83401], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([27942, 90109], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([28151, 90101], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1954, 92363], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2435, 92114], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2784, 92341], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2587, 92223], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([19888, 90660], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([19784, 90596], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([19812, 90448], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([27667, 91983], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([27603, 92021], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([103094, 33866], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([103272, 34031], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([100627, 37602], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([100806, 37689], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([102878, 37742], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([102538, 39389], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([107804, 37772], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([101496, 44275], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([101679, 42882], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([101496, 43228], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([103866, 41704], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([104347, 43006], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([103987, 48224], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([108169, 45434], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([120318, 47719], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([107260, 50299], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([98677, 53513], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([98602, 55819], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([110366, 55033], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([109336, 54710], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([101011, 59257], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([104704, 59206], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([103325, 58810], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([107985, 60047], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([108355, 58451], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([114268, 59054], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([109598, 65244], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([109717, 63923], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([113864, 65124], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([114134, 64000], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([114015, 63944], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([113984, 63870], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([113949, 63938], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([115173, 62846], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([115070, 62886], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([115130, 62900], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([115585, 65044], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([115544, 65064], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([123274, 62844], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([123500, 64848], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([125414, 64575], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88319, 36227], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([67764, 39344], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([90861, 40786], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([95185, 36962], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([95300, 39999], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([67467, 42059], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([87545, 42056], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([92966, 43837], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([95805, 43915], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80647, 46024], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80827, 45968], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([80602, 45876], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88645, 48039], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93120, 48650], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([91506, 47808], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93291, 47918], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88191, 51332], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93616, 50524], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93422, 49267], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([97570, 51400], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93143, 56426], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([93898, 53944], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([70177, 60034], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([70312, 59998], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([70380, 59859], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([97362, 57658], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([91473, 64429], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([37603, 33246], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([37794, 33259], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([47122, 32768], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([64755, 41728], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([64874, 41683], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33272, 47658], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33297, 47626], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33334, 47601], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([49422, 47328], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([49671, 47299], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([49500, 47519], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([60105, 49134], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46832, 52246], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46676, 52030], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([46956, 52357], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([60073, 49226], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([60007, 49160], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([58708, 51343], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([58803, 51525], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([38229, 54001], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([38218, 54046], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([62541, 53847], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([62605, 53756], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([55907, 61296], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([55968, 61431], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33133, 62571], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33183, 62614], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([33234, 62634], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([38140, 62915], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([38117, 62970], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([63859, 63785], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([63705, 63743], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([28991, 39791], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29069, 39758], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29045, 39824], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2668, 46164], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1392, 45943], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29360, 45331], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29407, 45394], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29408, 45319], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([13032, 50459], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([13006, 50505], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2476, 54491], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2042, 56294], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([3880, 55877], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29175, 56232], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29174, 56298], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29225, 56241], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([21870, 60334], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([21918, 60357], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29782, 60226], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29880, 60214], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29796, 60171], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([7384, 64614], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([7436, 64662], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([26880, 62438], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([26834, 62463], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29282, 63567], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([29287, 63615], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([28946, 62428], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([100936, 18846], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([101091, 27072], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([99468, 25184], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([100361, 31444], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([83196, 15197], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([85294, 20217], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([86845, 17459], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([90764, 20262], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([86731, 22488], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([86833, 22575], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([97248, 22370], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([78456, 26111], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88783, 27334], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([89085, 27446], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([84584, 30017], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([88462, 31879], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([90507, 30424], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([96139, 29682], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([95007, 32354], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([43148, 26941], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([43062, 26828], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([47438, 26492], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([47472, 26534], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([47142, 32646], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1346, 16247], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([1252, 16037], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([2762, 15558], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([18228, 17135], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([10219, 21365], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([10246, 21398], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([4975, 30060], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-	L.circleMarker([4927, 30057], {color: "#FBCEB1"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови").bindTooltip("Цветок дикой моркови", {direction: 'top'});
-
-	L.circleMarker([-12605, 196567], {color: "#FBCEB1", fillColor: "#000000", fillOpacity: "0.8"}).addTo(cvetokmorkoviicons).bindPopup("Цветок дикой моркови - 2 шт.<br>[Внутри здания Галерея в долине]").bindTooltip("Цветок дикой моркови - 2 шт.<br>[Внутри здания Галерея в долине]", {direction: 'top'});
-//8 в Убежище 94
-//5 в лаборатории
+		var cvetokmorkovi1 = [
+			[-23310, -18007],
+			[-31458, -13869],
+			[-17472, -13367],
+			[-29776, -12154],
+			[-10335, -11300],
+			[-10524, -11437],
+			[-62286, -21734],
+			[-62242, -21618],
+			[-57809, -22711],
+			[-57893, -22180],
+			[-55871, -22213],
+			[-43074, -13836],
+			[-44183, -14110],
+			[-44692, -15876],
+			[-64946, -10290],
+			[-64863, -11166],
+			[-59077, -9937],
+			[-37738, -8449],
+			[-63726, -5928],
+			[-64055, -5630],
+			[-61317, -7381],
+			[-60041, -7416],
+			[-58921, -7417],
+			[-53292, -4824],
+			[-52955, -6326],
+			[-43781, -6224],
+			[-43658, -6014],
+			[-53360, -3838],
+			[-53292, -2284],
+			[-47819, -3125],
+			[-47547, -2941],
+			[-47918, -2633],
+			[-34486, -143],
+			[-73121, -21688],
+			[-73386, -21931],
+			[-68730, -20940],
+			[-79525, -12714],
+			[-79189, -14439],
+			[-70653, -13590],
+			[-71776, -14840],
+			[-77017, -10053],
+			[-73432, -10522],
+			[-68578, -4841],
+			[-69109, -7083],
+			[-124799, -28325],
+			[-124894, -28183],
+			[-124856, -28095],
+			[-125057, -27759],
+			[-128534, -18873],
+			[-128506, -19132],
+			[-128753, -18919],
+			[-120912, -20123],
+			[-120779, -19867],
+			[-120953, -19893],
+			[-120766, -20037],
+			[-123269, -11234],
+			[-123400, -11178],
+			[-123218, -11117],
+			[-123138, -11315],
+			[-129739, -1010],
+			[-129574, -998],
+			[-129412, -912],
+			[-129559, -896],
+			[-88676, -50270],
+			[-88744, -49584],
+			[-86000, -44328],
+			[-85646, -44015],
+			[-83788, -44755],
+			[-130802, -62799],
+			[-130701, -62557],
+			[-117233, -61548],
+			[-128715, -60149],
+			[-128191, -59246],
+			[-128126, -59264],
+			[-124136, -58174],
+			[-111727, -61396],
+			[-111728, -61297],
+			[-127600, -54614],
+			[-127538, -54432],
+			[-121294, -53502],
+			[-121001, -53589],
+			[-120931, -53644],
+			[-103863, -55855],
+			[-100909, -55053],
+			[-101558, -55143],
+			[-100812, -56297],
+			[-100639, -56100],
+			[-100469, -55736],
+			[-101445, -55163],
+			[-108922, -50457],
+			[-109039, -50178],
+			[-110269, -50553],
+			[-110278, -50186],
+			[-129383, -33478],
+			[-129187, -33557],
+			[-129177, -33627],
+			[-129790, -33063],
+			[-120588, -34936],
+			[-120515, -34931],
+			[-120544, -34867],
+			[-125522, -79463],
+			[-125544, -79360],
+			[-125640, -79673],
+			[-128539, -75974],
+			[-128382, -76009],
+			[-128412, -75882],
+			[-33758, -114807],
+			[-82376, -111412],
+			[-82634, -111262],
+			[-161959, -26801],
+			[-162196, -26788],
+			[-162090, -26905],
+			[-162054, -26663],
+			[-158891, -28004],
+			[-158869, -28298],
+			[-158875, -28117],
+			[-158722, -28143],
+			[-150716, -27217],
+			[-150681, -26817],
+			[-150431, -26788],
+			[-150729, -27053],
+			[-139327, -26867],
+			[-139569, -27079],
+			[-139408, -27286],
+			[-139375, -27026],
+			[-132467, -26112],
+			[-132061, -25570],
+			[-131971, -25577],
+			[-132299, -25539],
+			[-132121, -25403],
+			[-132464, -25359],
+			[-153988, -18090],
+			[-153957, -18324],
+			[-153881, -18210],
+			[-153735, -18214],
+			[-145137, -19721],
+			[-145230, -19768],
+			[-145192, -19591],
+			[-137776, -17866],
+			[-137919, -17984],
+			[-137916, -17884],
+			[-157038, -8965],
+			[-157063, -9066],
+			[-156941, -8925],
+			[-156989, -8520],
+			[-147878, -11426],
+			[-147994, -11400],
+			[-147791, -11265],
+			[-147868, -11616],
+			[-142327, -9787],
+			[-142432, -9585],
+			[-142279, -9612],
+			[-132445, -10573],
+			[-132601, -10741],
+			[-132472, -10889],
+			[-132436, -10676],
+			[-132752, -10758],
+			[-153392, -4504],
+			[-153352, -4560],
+			[-160167, -8],
+			[-160247, -96],
+			[-146303, -3017],
+			[-146411, -2855],
+			[-146284, -2852],
+			[-137708, -1628],
+			[-137439, -1346],
+			[-137597, -1501],
+			[-137716, -1419],
+			[-178557, -27208],
+			[-178504, -27348],
+			[-178393, -27314],
+			[-178341, -27427],
+			[-171563, -28539],
+			[-171489, -28408],
+			[-171450, -28505],
+			[-173582, -17839],
+			[-173692, -17734],
+			[-173542, -17681],
+			[-164195, -19278],
+			[-164283, -19079],
+			[-164305, -19172],
+			[-164174, -19130],
+			[-179291, -9274],
+			[-179218, -9247],
+			[-179194, -9361],
+			[-169415, -11937],
+			[-169322, -12093],
+			[-169284, -11923],
+			[-169185, -12022],
+			[-165295, -11351],
+			[-165209, -11171],
+			[-164990, -11284],
+			[-164788, -11163],
+			[-179033, -3364],
+			[-178859, -3748],
+			[-178750, -3880],
+			[-178877, -3867],
+			[-169311, -458],
+			[-169401, -540],
+			[-169316, -547],
+			[-150301, -61976],
+			[-150220, -62261],
+			[-150218, -62037],
+			[-134660, -61976],
+			[-150724, -56033],
+			[-156653, -36701],
+			[-154803, -35885],
+			[-155413, -35179],
+			[-155400, -34815],
+			[-155221, -35573],
+			[-145424, -34887],
+			[-145407, -34676],
+			[-145284, -34750],
+			[-144602, -35361],
+			[-144770, -35210],
+			[-137646, -34999],
+			[-137103, -35246],
+			[-137219, -35290],
+			[-137000, -35267],
+			[-136239, -35870],
+			[-137032, -35471],
+			[-172200, -34156],
+			[-172109, -34119],
+			[-172125, -34243],
+			[-172080, -34051],
+			[-165662, -35497],
+			[-165740, -35863],
+			[-165566, -35707],
+			[-159420, -94964],
+			[-150942, -95169],
+			[-158064, -91926],
+			[-146243, -92355],
+			[-157249, -84317],
+			[-146711, -83098],
+			[-142263, -79869],
+			[-138248, -68344],
+			[-138064, -68520],
+			[-138376, -68664],
+			[-138016, -68616],
+			[-173805, -92188],
+			[-173923, -92060],
+			[-171641, -90771],
+			[-171285, -93725],
+			[-169446, -83935],
+			[-167285, -84686],
+			[-149884, -129507],
+			[-146016, -130974],
+			[-144554, -126063],
+			[-152181, -120381],
+			[-159082, -113750],
+			[-159133, -108805],
+			[-139843, -107900],
+			[-162716, -104809],
+			[-145911, -105747],
+			[-145734, -104734],
+			[-173461, -127970],
+			[-165216, -128853],
+			[-169097, -115406],
+			[-165255, -110813],
+			[-178905, -102905],
+			[-179268, -102622],
+			[-178944, -102827],
+			[-179403, -103098],
+			[-168919, -105740],
+			[153712, -31639],
+			[153735, -31783],
+			[153711, -31701],
+			[153690, -31860],
+			[153713, -31942],
+			[199341, -62496],
+			[204611, -61946],
+			[197459, -59236],
+			[199194, -75610],
+			[207763, -75746],
+			[204912, -65913],
+			[189272, -83893],
+			[192473, -74632],
+			[194644, -75347],
+			[192723, -67740],
+			[159705, -93086],
+			[151111, -88224],
+			[153955, -75855],
+			[153955, -75701],
+			[153849, -75739],
+			[102381, -29444],
+			[106632, -23903],
+			[106497, -23781],
+			[82634, -19154],
+			[82566, -16570],
+			[82106, -17388],
+			[82567, -17615],
+			[88690, -17752],
+			[89070, -18217],
+			[88534, -19656],
+			[80076, -11669],
+			[80154, -11716],
+			[80443, -11721],
+			[80229, -11110],
+			[78971, -11166],
+			[78055, -9602],
+			[78664, -10512],
+			[90318, -9964],
+			[81552, -5267],
+			[81475, -5335],
+			[81371, -8067],
+			[83206, -5473],
+			[82355, -4819],
+			[82532, -7273],
+			[82766, -7187],
+			[34400, -19419],
+			[-25348, -160744],
+			[-28776, -158253],
+			[-25087, -157868],
+			[-26614, -152832],
+			[-23726, -153719],
+			[-32270, -148961],
+			[-25137, -149404],
+			[-27580, -148724],
+			[-33464, -163270],
+			[-32994, -163705],
+			[-38545, -159410],
+			[-41948, -155442],
+			[-39012, -155080],
+			[-36283, -153696],
+			[-36761, -147491],
+			[-34662, -150175],
+			[-38189, -172758],
+			[-37275, -169385],
+			[-48701, -164320],
+			[-41750, -164202],
+			[-108248, -190600],
+			[-108294, -191399],
+			[-108951, -190319],
+			[-108255, -189125],
+			[-108225, -189218],
+			[-119528, -184480],
+			[-116662, -185604],
+			[-119576, -183842],
+			[-118282, -184290],
+			[-153853, -156933],
+			[-147886, -154887],
+			[-140940, -153124],
+			[-156938, -137624],
+			[-141387, -133449],
+			[-142784, -134678],
+			[-137456, -132600],
+			[-133681, -133521],
+			[-171041, -156954],
+			[-166282, -159151],
+			[-174237, -145514],
+			[-173665, -133883],
+			[67221, -160052],
+			[74687, -162814],
+			[75309, -156795],
+			[78419, -157251],
+			[68821, -154841],
+			[70837, -155147],
+			[68663, -150989],
+			[74336, -149282],
+			[80377, -149434],
+			[82364, -148403],
+			[83209, -150721],
+			[83151, -150700],
+			[80766, -145108],
+			[63248, -155488],
+			[65033, -149917],
+			[-78889, 197562],
+			[-78869, 197496],
+			[-78812, 197513],
+			[-104470, 197395],
+			[-59498, 166245],
+			[-59461, 166187],
+			[-59547, 166245],
+			[-58297, 169542],
+			[-50027, 169068],
+			[-50071, 169149],
+			[-55665, 176231],
+			[-55713, 176212],
+			[-61858, 184978],
+			[-60476, 186249],
+			[-59743, 185116],
+			[-62924, 191201],
+			[-93857, 166937],
+			[-93841, 166982],
+			[-93892, 167001],
+			[-77266, 166367],
+			[-77314, 166426],
+			[-67078, 166109],
+			[-67154, 166169],
+			[-67079, 166184],
+			[-86723, 174984],
+			[-86825, 175055],
+			[-86762, 175104],
+			[-97078, 179845],
+			[-97097, 179941],
+			[-97120, 179893],
+			[-79733, 179637],
+			[-79783, 179708],
+			[-79828, 179685],
+			[-69429, 177395],
+			[-90979, 180805],
+			[-90970, 180739],
+			[-87012, 183944],
+			[-87055, 183883],
+			[-87107, 183847],
+			[-87313, 181477],
+			[-87390, 181477],
+			[-85637, 183789],
+			[-85582, 183823],
+			[-85569, 183733],
+			[-75469, 184106],
+			[-76479, 183400],
+			[-65923, 184903],
+			[-85317, 191638],
+			[-85231, 191617],
+			[-85235, 191683],
+			[-80539, 189364],
+			[-80475, 189438],
+			[-80466, 189368],
+			[-125028, 169393],
+			[-125046, 169312],
+			[-129891, 177775],
+			[-112662, 183297],
+			[-112620, 183292],
+			[-100280, 188738],
+			[-100318, 188782],
+			[-31539, 133965],
+			[-31523, 134071],
+			[-31588, 134011],
+			[-55536, 131357],
+			[-55431, 131370],
+			[-55551, 131320],
+			[-45386, 131245],
+			[-45414, 131313],
+			[-40160, 132454],
+			[-40234, 132430],
+			[-40217, 132517],
+			[-49384, 136720],
+			[-49371, 136634],
+			[-48652, 136613],
+			[-48630, 136751],
+			[-48694, 136713],
+			[-38089, 137997],
+			[-38123, 137950],
+			[-38064, 137949],
+			[-59748, 154630],
+			[-59741, 154577],
+			[-59743, 154522],
+			[-56219, 151990],
+			[-56215, 151937],
+			[-56274, 151994],
+			[-83134, 131893],
+			[-83123, 131961],
+			[-82547, 141178],
+			[-82600, 141155],
+			[-82560, 141117],
+			[-78529, 142747],
+			[-78571, 142792],
+			[-97257, 150585],
+			[-97314, 150578],
+			[-97321, 150600],
+			[-87818, 147849],
+			[-87778, 147835],
+			[-71290, 150075],
+			[-71343, 149912],
+			[-71239, 149765],
+			[-71405, 149836],
+			[-71239, 149930],
+			[-66825, 150834],
+			[-66786, 150825],
+			[-66822, 150765],
+			[-84983, 158546],
+			[-84953, 158502],
+			[-104283, 131315],
+			[-99093, 136031],
+			[-99023, 136034],
+			[-119599, 147704],
+			[-118271, 153967],
+			[-118317, 153905],
+			[-118226, 153899],
+			[-118253, 153854],
+			[-99057, 155823],
+			[-99070, 155723],
+			[-98978, 155756],
+			[-125182, 161249],
+			[-125107, 161285],
+			[-132231, 200506],
+			[-132332, 200908],
+			[-169544, 197819],
+			[-168358, 200478],
+			[-156204, 168676],
+			[-156259, 168631],
+			[-148215, 171143],
+			[-156488, 181481],
+			[-145563, 185962],
+			[-141726, 191796],
+			[-141773, 191758],
+			[-134421, 191602],
+			[-134425, 191514],
+			[-149804, 195865],
+			[-149864, 195860],
+			[-173661, 178550],
+			[-173731, 178551],
+			[-169679, 177180],
+			[-164394, 178379],
+			[-166230, 181469],
+			[-166873, 182319],
+			[-174850, 191342],
+			[-165406, 190977],
+			[-178360, 194078],
+			[-177314, 195086],
+			[-156346, 132445],
+			[-150944, 133745],
+			[-150874, 133485],
+			[-159148, 140420],
+			[-138364, 140547],
+			[-138455, 140585],
+			[-152769, 146915],
+			[-152099, 148547],
+			[-151861, 148405],
+			[-152072, 148306],
+			[-161867, 154625],
+			[-162623, 156940],
+			[-149865, 156677],
+			[-149415, 162215],
+			[-149331, 162220],
+			[-139867, 162298],
+			[-136154, 162020],
+			[-136301, 162303],
+			[-136209, 161989],
+			[-172778, 134023],
+			[-172569, 131455],
+			[-175069, 137210],
+			[-173007, 142741],
+			[-172977, 144110],
+			[-173449, 149868],
+			[-175480, 149590],
+			[-175927, 147660],
+			[-171297, 147695],
+			[-171173, 149193],
+			[-169868, 149254],
+			[-171256, 147461],
+			[-176982, 153677],
+			[-177433, 153783],
+			[-177459, 153773],
+			[-166147, 153915],
+			[-167338, 159399],
+			[-167376, 156035],
+			[-165539, 158100],
+			[-167257, 162081],
+			[199111, 174061],
+			[177621, 152459],
+			[177705, 152183],
+			[190982, 151592],
+			[191044, 151654],
+			[191083, 151588],
+			[141559, 152204],
+			[72132, 131597],
+			[93190, 134282],
+			[-10111, 101636],
+			[-10459, 102193],
+			[-10349, 101774],
+			[-8253, 106096],
+			[-8261, 106259],
+			[-8406, 106310],
+			[-21803, 110360],
+			[-21596, 110335],
+			[-20977, 110333],
+			[-28871, 112124],
+			[-28544, 112312],
+			[-25511, 117723],
+			[-25695, 118035],
+			[-9040, 118423],
+			[-10569, 116855],
+			[-9921, 120324],
+			[-32175, 125945],
+			[-32258, 125961],
+			[-64424, 99437],
+			[-64462, 99419],
+			[-58345, 100761],
+			[-58293, 100780],
+			[-59114, 104565],
+			[-59051, 104607],
+			[-59172, 104635],
+			[-49557, 109704],
+			[-49308, 110446],
+			[-48449, 110564],
+			[-61274, 111111],
+			[-61194, 111097],
+			[-61201, 111190],
+			[-43417, 115572],
+			[-43579, 115772],
+			[-55805, 126084],
+			[-55780, 126178],
+			[-55672, 126133],
+			[-56718, 129288],
+			[-56693, 129312],
+			[-45863, 130205],
+			[-45820, 130132],
+			[-45923, 130153],
+			[-35935, 130157],
+			[-35851, 130067],
+			[-35818, 130168],
+			[-75645, 101424],
+			[-75692, 101371],
+			[-75705, 101434],
+			[-96564, 104609],
+			[-96568, 104560],
+			[-96516, 104608],
+			[-77830, 105483],
+			[-77780, 105551],
+			[-77728, 105498],
+			[-66464, 106106],
+			[-66517, 106110],
+			[-79168, 110020],
+			[-79572, 109862],
+			[-79478, 110085],
+			[-76856, 108227],
+			[-76866, 108337],
+			[-76946, 108271],
+			[-95618, 114135],
+			[-95795, 114097],
+			[-95693, 114043],
+			[-85886, 116398],
+			[-85761, 116427],
+			[-85840, 116170],
+			[-85762, 116285],
+			[-75811, 115142],
+			[-75863, 115213],
+			[-75722, 115091],
+			[-75696, 115026],
+			[-68999, 115046],
+			[-69056, 115037],
+			[-89184, 122402],
+			[-89219, 122309],
+			[-89332, 122469],
+			[-74339, 119799],
+			[-74438, 119600],
+			[-74339, 119664],
+			[-69052, 119517],
+			[-69104, 119559],
+			[-69045, 119466],
+			[-96343, 128367],
+			[-96333, 128319],
+			[-92842, 128088],
+			[-92882, 128093],
+			[-87720, 129548],
+			[-87679, 129588],
+			[-130053, 99313],
+			[-130705, 102304],
+			[-123795, 100050],
+			[-127790, 102565],
+			[-125414, 104349],
+			[-125004, 104212],
+			[-126851, 104301],
+			[-121830, 102557],
+			[-101820, 105898],
+			[-129940, 106534],
+			[-120239, 108903],
+			[-119568, 107754],
+			[-115900, 109569],
+			[-108423, 107522],
+			[-106997, 106794],
+			[-104925, 110309],
+			[-99036, 107451],
+			[-127788, 113493],
+			[-129260, 114048],
+			[-127123, 112001],
+			[-119001, 111726],
+			[-121665, 113957],
+			[-110876, 113668],
+			[-108073, 113102],
+			[-98747, 113479],
+			[-102079, 114029],
+			[-99861, 111517],
+			[-130007, 117310],
+			[-123934, 115329],
+			[-125765, 115939],
+			[-111969, 115077],
+			[-103254, 118035],
+			[-103165, 117133],
+			[-126445, 119793],
+			[-119440, 121911],
+			[-119338, 121351],
+			[-114167, 120552],
+			[-113910, 121306],
+			[-110335, 121063],
+			[-107781, 121639],
+			[-99433, 119416],
+			[-99728, 119058],
+			[-123227, 124935],
+			[-121287, 126340],
+			[-119455, 125381],
+			[-114098, 124544],
+			[-113587, 125556],
+			[-108759, 123663],
+			[-106361, 126774],
+			[-100709, 125658],
+			[-129865, 128535],
+			[-114824, 129320],
+			[-116938, 127176],
+			[-107779, 130691],
+			[-99769, 129418],
+			[-27145, 66441],
+			[-27469, 66363],
+			[-20802, 65622],
+			[-20885, 65865],
+			[-20458, 65744],
+			[-20062, 66911],
+			[-20139, 66797],
+			[-13027, 65672],
+			[-10094, 67569],
+			[-10146, 67051],
+			[-10011, 66975],
+			[-7233, 68814],
+			[-7360, 69286],
+			[-3636, 68705],
+			[-3717, 68935],
+			[-863, 69275],
+			[-12470, 71913],
+			[-12729, 71976],
+			[-7683, 73681],
+			[-6210, 72068],
+			[-6281, 71657],
+			[-27989, 77810],
+			[-28486, 77178],
+			[-28320, 76882],
+			[-12509, 77130],
+			[-14393, 77452],
+			[-28354, 79415],
+			[-28027, 79156],
+			[-27991, 77978],
+			[-25945, 80639],
+			[-22207, 79891],
+			[-22289, 79606],
+			[-14669, 78345],
+			[-13129, 80940],
+			[-864, 80968],
+			[-2456, 78080],
+			[-2418, 78755],
+			[-31943, 85575],
+			[-31968, 85404],
+			[-15188, 82070],
+			[-14508, 81999],
+			[-10153, 82403],
+			[-10582, 83929],
+			[-10531, 84086],
+			[-29504, 87554],
+			[-29621, 87025],
+			[-29635, 87228],
+			[-6463, 93009],
+			[-6617, 93388],
+			[-24614, 97651],
+			[-24589, 97891],
+			[-24388, 97569],
+			[-64953, 68318],
+			[-58061, 66733],
+			[-57928, 67333],
+			[-50227, 68845],
+			[-39589, 69601],
+			[-52396, 69783],
+			[-52597, 69940],
+			[-45573, 73545],
+			[-45768, 73517],
+			[-39891, 69666],
+			[-36140, 70254],
+			[-36266, 70493],
+			[-49590, 75676],
+			[-49405, 75581],
+			[-48696, 78068],
+			[-48777, 77996],
+			[-41242, 80057],
+			[-36367, 81006],
+			[-35430, 81329],
+			[-33484, 78401],
+			[-33640, 78678],
+			[-34209, 80208],
+			[-34525, 80491],
+			[-34071, 80603],
+			[-34904, 83119],
+			[-34856, 83400],
+			[-62258, 94002],
+			[-62194, 93954],
+			[-48560, 92534],
+			[-48306, 92363],
+			[-48790, 92442],
+			[-51401, 96705],
+			[-51296, 96640],
+			[-51384, 96211],
+			[-85164, 68695],
+			[-84174, 68246],
+			[-66309, 68293],
+			[-66230, 70842],
+			[-96483, 74414],
+			[-96204, 74329],
+			[-76418, 77070],
+			[-90935, 80277],
+			[-90583, 80156],
+			[-89318, 81771],
+			[-90483, 81926],
+			[-72048, 89579],
+			[-71976, 89601],
+			[-87829, 92477],
+			[-88299, 92200],
+			[-88106, 92303],
+			[-67555, 91108],
+			[-67469, 91052],
+			[-67425, 91086],
+			[-86750, 96333],
+			[-86450, 96170],
+			[-86932, 96212],
+			[-76542, 97306],
+			[-76490, 97319],
+			[-73186, 96779],
+			[-73156, 96725],
+			[-128326, 66777],
+			[-127244, 68882],
+			[-127397, 68305],
+			[-121142, 66151],
+			[-104578, 68406],
+			[-127481, 72283],
+			[-127464, 72559],
+			[-129288, 70833],
+			[-128959, 71687],
+			[-120556, 70649],
+			[-120666, 70818],
+			[-116767, 72790],
+			[-116868, 72647],
+			[-128477, 81888],
+			[-127378, 81774],
+			[-102989, 78318],
+			[-127298, 83717],
+			[-127076, 84422],
+			[-126918, 85512],
+			[-124840, 85676],
+			[-125989, 82492],
+			[-126173, 82648],
+			[-103941, 83732],
+			[-104372, 84655],
+			[-126040, 88266],
+			[-121725, 86487],
+			[-127392, 91603],
+			[-127446, 91326],
+			[-121942, 92625],
+			[-122102, 91213],
+			[-115281, 93528],
+			[-129897, 94309],
+			[-126591, 97356],
+			[-119685, 97786],
+			[-120489, 94596],
+			[-31306, 33381],
+			[-31679, 34732],
+			[-31699, 34997],
+			[-28713, 33941],
+			[-29040, 34615],
+			[-29815, 35445],
+			[-25726, 34511],
+			[-25635, 34247],
+			[-26393, 36295],
+			[-27954, 35153],
+			[-24465, 33532],
+			[-23010, 35873],
+			[-19538, 33962],
+			[-17110, 34400],
+			[-6070, 34546],
+			[-3476, 33945],
+			[-30942, 39880],
+			[-32718, 40690],
+			[-27077, 40040],
+			[-25948, 38306],
+			[-26459, 38953],
+			[-22691, 37045],
+			[-8402, 39039],
+			[-31705, 41693],
+			[-31979, 44848],
+			[-30261, 43019],
+			[-25943, 42976],
+			[-25743, 41185],
+			[-15303, 43905],
+			[-9611, 44172],
+			[-7590, 43852],
+			[-5638, 42622],
+			[-2401, 44851],
+			[-27099, 46404],
+			[-25051, 46120],
+			[-21465, 46505],
+			[-21160, 46371],
+			[-14545, 46429],
+			[-13461, 45317],
+			[-9892, 46567],
+			[-10442, 48738],
+			[-6290, 46221],
+			[-5148, 46248],
+			[-5152, 45919],
+			[-23874, 52143],
+			[-23021, 51533],
+			[-13807, 50207],
+			[-13977, 50497],
+			[-12154, 51596],
+			[-11831, 51887],
+			[-1352, 51508],
+			[-24791, 54065],
+			[-24622, 53952],
+			[-23545, 56757],
+			[-22708, 56083],
+			[-22533, 55463],
+			[-11921, 53906],
+			[-11191, 55370],
+			[-11417, 55492],
+			[-30661, 58798],
+			[-30946, 58812],
+			[-19834, 59713],
+			[-19294, 59907],
+			[-19138, 59546],
+			[-15879, 59208],
+			[-14754, 60400],
+			[-14536, 60694],
+			[-9148, 59987],
+			[-9064, 60455],
+			[-4340, 61207],
+			[-3162, 59451],
+			[-2735, 59626],
+			[-22176, 63733],
+			[-21978, 63775],
+			[-20609, 64837],
+			[-13188, 65284],
+			[-11000, 64074],
+			[-10400, 63027],
+			[-8033, 64060],
+			[-65283, 35462],
+			[-64472, 36785],
+			[-59344, 33289],
+			[-60909, 34994],
+			[-42198, 33702],
+			[-41448, 34151],
+			[-36380, 35990],
+			[-33686, 34778],
+			[-64401, 37028],
+			[-64894, 39095],
+			[-64679, 40776],
+			[-62783, 39262],
+			[-65526, 39232],
+			[-60433, 39050],
+			[-58444, 37975],
+			[-40950, 39759],
+			[-40738, 39044],
+			[-65404, 41773],
+			[-44111, 42109],
+			[-39928, 44969],
+			[-33087, 43788],
+			[-47722, 47658],
+			[-46180, 47070],
+			[-37081, 47521],
+			[-37414, 47796],
+			[-39966, 45671],
+			[-36861, 45393],
+			[-34930, 45588],
+			[-35414, 51264],
+			[-34652, 50635],
+			[-34774, 50423],
+			[-39418, 56882],
+			[-39523, 56785],
+			[-35947, 56428],
+			[-63329, 59476],
+			[-62866, 59098],
+			[-50385, 57536],
+			[-35209, 58384],
+			[-34785, 57574],
+			[-33511, 65128],
+			[-33733, 65208],
+			[-33119, 62644],
+			[-74924, 35416],
+			[-71590, 35622],
+			[-71257, 37774],
+			[-67813, 37581],
+			[-67330, 37963],
+			[-87293, 48239],
+			[-87614, 47839],
+			[-68384, 47337],
+			[-68657, 47160],
+			[-76600, 50061],
+			[-75914, 50293],
+			[-72591, 55526],
+			[-73122, 56026],
+			[-83672, 60313],
+			[-83565, 60399],
+			[-94592, 63111],
+			[-127237, 36100],
+			[-127392, 36028],
+			[-130650, 35029],
+			[-112774, 33562],
+			[-112781, 33346],
+			[-130148, 39242],
+			[-113264, 38518],
+			[-113058, 38818],
+			[-101774, 37712],
+			[-101985, 37476],
+			[-128943, 42474],
+			[-129772, 42314],
+			[-130124, 42610],
+			[-130358, 43142],
+			[-121584, 42692],
+			[-121568, 42368],
+			[-102918, 43425],
+			[-102890, 43480],
+			[-100653, 43463],
+			[-100550, 43283],
+			[-128382, 47337],
+			[-123791, 48335],
+			[-123534, 48355],
+			[-111965, 48702],
+			[-111874, 48440],
+			[-128600, 49748],
+			[-123792, 51585],
+			[-124853, 51233],
+			[-125631, 50500],
+			[-115350, 53234],
+			[-99425, 52373],
+			[-99552, 52329],
+			[-128809, 53966],
+			[-129406, 53962],
+			[-125432, 57231],
+			[-123096, 56671],
+			[-122802, 54729],
+			[-114070, 56426],
+			[-130837, 58891],
+			[-130140, 58523],
+			[-128385, 57669],
+			[-123999, 58258],
+			[-123933, 58224],
+			[-122660, 57647],
+			[-119467, 57436],
+			[-119715, 57424],
+			[-114339, 58545],
+			[-114456, 58820],
+			[-24534, 4087],
+			[-24495, 4038],
+			[-16861, 3870],
+			[-16306, 3599],
+			[-7813, 2816],
+			[-28969, 6515],
+			[-29873, 6339],
+			[-30156, 6349],
+			[-30599, 5452],
+			[-26681, 7943],
+			[-24357, 4840],
+			[-16486, 4841],
+			[-9001, 7403],
+			[-7593, 4565],
+			[-30504, 8774],
+			[-21438, 9578],
+			[-20927, 9549],
+			[-22358, 10105],
+			[-23467, 9538],
+			[-19543, 10482],
+			[-10127, 9107],
+			[-13274, 12866],
+			[-2300, 15015],
+			[-29320, 18544],
+			[-29532, 19259],
+			[-28124, 18597],
+			[-25916, 18517],
+			[-28495, 19596],
+			[-24160, 18479],
+			[-23432, 16960],
+			[-23796, 20220],
+			[-17499, 17029],
+			[-17604, 17917],
+			[-20162, 20031],
+			[-15726, 18041],
+			[-11662, 18286],
+			[-7286, 19087],
+			[-723, 16965],
+			[-138, 19937],
+			[-32398, 20945],
+			[-27476, 21539],
+			[-26876, 21994],
+			[-22625, 21397],
+			[-22053, 22731],
+			[-18042, 20582],
+			[-16663, 24190],
+			[-20227, 21230],
+			[-18600, 21038],
+			[-9522, 20722],
+			[-9693, 24366],
+			[-6039, 21039],
+			[-3837, 23209],
+			[-17951, 27332],
+			[-4439, 27258],
+			[-1858, 26456],
+			[-29191, 31935],
+			[-21923, 31988],
+			[-21050, 31855],
+			[-17091, 31342],
+			[-17722, 29309],
+			[-8648, 29427],
+			[-5759, 28904],
+			[-2661, 29455],
+			[-57576, 3542],
+			[-36649, 267],
+			[-33421, 5281],
+			[-33089, 8033],
+			[-58441, 8783],
+			[-57801, 11768],
+			[-60424, 10384],
+			[-60354, 11069],
+			[-43167, 12096],
+			[-42230, 10738],
+			[-41120, 9165],
+			[-38841, 11950],
+			[-40685, 8267],
+			[-34135, 9832],
+			[-63546, 15720],
+			[-58696, 15777],
+			[-35759, 13182],
+			[-34116, 12403],
+			[-33008, 13280],
+			[-33232, 13970],
+			[-63676, 18515],
+			[-62529, 20268],
+			[-60246, 17835],
+			[-49478, 18884],
+			[-38814, 19172],
+			[-35647, 17127],
+			[-35612, 17677],
+			[-62822, 21985],
+			[-59359, 23126],
+			[-59551, 22233],
+			[-50374, 23354],
+			[-49802, 22831],
+			[-33020, 22221],
+			[-36175, 21474],
+			[-64310, 26975],
+			[-63272, 25527],
+			[-35100, 25876],
+			[-62014, 30803],
+			[-61560, 28963],
+			[-63836, 30853],
+			[-58300, 29254],
+			[-59690, 32225],
+			[-60879, 30588],
+			[-77550, 7007],
+			[-72689, 7765],
+			[-73235, 4600],
+			[-91797, 10271],
+			[-92370, 9310],
+			[-88156, 10104],
+			[-88626, 9703],
+			[-82823, 13448],
+			[-84665, 12581],
+			[-84676, 13020],
+			[-76212, 14079],
+			[-74130, 12709],
+			[-71478, 14482],
+			[-69568, 14465],
+			[-69392, 13597],
+			[-92872, 19880],
+			[-93320, 19640],
+			[-69789, 17552],
+			[-73451, 17671],
+			[-66035, 18043],
+			[-65808, 20267],
+			[-66220, 17848],
+			[-70524, 23714],
+			[-72245, 22918],
+			[-67087, 23118],
+			[-69163, 22977],
+			[-68749, 21398],
+			[-92356, 27486],
+			[-92136, 27464],
+			[-69816, 28145],
+			[-70909, 28369],
+			[-72793, 27467],
+			[-71714, 25810],
+			[-66439, 25240],
+			[-68629, 26203],
+			[-94876, 30394],
+			[-95651, 30911],
+			[-94618, 28963],
+			[-95326, 30259],
+			[-96885, 30650],
+			[-76219, 31981],
+			[-75538, 29162],
+			[-75820, 30720],
+			[-73379, 31926],
+			[-69535, 29372],
+			[-120294, 686],
+			[-120182, 386],
+			[-119922, 309],
+			[-120022, 491],
+			[-120357, 425],
+			[-113459, 3584],
+			[-128909, 7124],
+			[-128980, 6341],
+			[-129100, 5905],
+			[-115697, 6967],
+			[-115577, 7169],
+			[-107201, 4200],
+			[-106837, 4312],
+			[-129604, 9843],
+			[-129722, 9115],
+			[-130124, 9038],
+			[-123747, 9308],
+			[-123711, 11553],
+			[-123724, 10910],
+			[-111134, 9313],
+			[-111125, 9770],
+			[-109428, 10788],
+			[-109778, 10703],
+			[-101780, 8959],
+			[-101837, 8854],
+			[-101336, 8726],
+			[-130508, 12619],
+			[-130930, 14977],
+			[-109709, 15461],
+			[-109282, 14462],
+			[-109395, 14197],
+			[-124924, 17750],
+			[-123485, 17510],
+			[-123516, 17428],
+			[-119419, 16439],
+			[-118865, 16773],
+			[-116940, 17066],
+			[-115131, 18507],
+			[-115179, 18718],
+			[-109225, 18387],
+			[-109589, 18509],
+			[-108333, 17894],
+			[-116384, 22527],
+			[-116384, 22786],
+			[-110720, 22556],
+			[-112001, 24506],
+			[-110869, 24348],
+			[-109803, 21829],
+			[-109970, 21777],
+			[-107850, 23608],
+			[-107771, 24133],
+			[-107790, 24339],
+			[-101786, 21376],
+			[-101520, 21200],
+			[-101052, 22915],
+			[-122121, 26886],
+			[-122755, 27516],
+			[-122796, 27660],
+			[-111092, 24606],
+			[-111968, 24932],
+			[-107652, 27993],
+			[-107882, 27078],
+			[-107898, 26751],
+			[-108378, 26704],
+			[-101311, 27425],
+			[-101231, 27009],
+			[-106034, 29450],
+			[-106196, 29634],
+			[-101299, 32090],
+			[-101030, 32464],
+			[-100462, 30979],
+			[-137880, 102107],
+			[-141786, 103785],
+			[-135328, 103847],
+			[-137727, 105420],
+			[-137566, 105638],
+			[-138033, 105687],
+			[-137919, 105864],
+			[-137530, 106332],
+			[-131237, 105854],
+			[-133908, 106176],
+			[-162363, 119560],
+			[-159454, 119776],
+			[-160154, 126551],
+			[-157318, 126486],
+			[-159113, 123191],
+			[-163219, 130595],
+			[-162834, 128204],
+			[-162448, 128760],
+			[-181381, 100984],
+			[-165720, 101940],
+			[-166387, 102292],
+			[-181527, 107301],
+			[-172683, 112328],
+			[-174505, 111249],
+			[-176969, 129184],
+			[-174670, 130753],
+			[-173558, 128303],
+			[-173624, 129312],
+			[-168958, 129378],
+			[-168636, 127552],
+			[-170152, 129190],
+			[-170445, 128776],
+			[-166158, 127059],
+			[-167866, 128435],
+			[-165576, 128740],
+			[-154621, 68475],
+			[-154235, 67939],
+			[-154470, 67717],
+			[-145558, 69481],
+			[-146533, 69285],
+			[-142578, 69372],
+			[-132075, 68857],
+			[-134376, 68122],
+			[-134723, 68538],
+			[-132261, 68975],
+			[-148433, 70939],
+			[-148102, 70766],
+			[-143574, 72632],
+			[-144622, 73556],
+			[-146456, 73168],
+			[-141529, 72280],
+			[-161170, 77058],
+			[-161218, 77222],
+			[-149307, 76942],
+			[-147789, 77526],
+			[-150034, 77431],
+			[-141130, 76265],
+			[-142613, 77068],
+			[-137134, 76632],
+			[-137474, 76657],
+			[-136725, 74233],
+			[-156795, 80954],
+			[-156842, 80110],
+			[-156608, 80105],
+			[-158450, 78122],
+			[-149832, 80260],
+			[-150362, 81381],
+			[-150316, 81653],
+			[-150926, 80350],
+			[-145345, 78333],
+			[-146443, 78045],
+			[-144256, 81181],
+			[-143843, 81332],
+			[-145919, 78796],
+			[-141267, 80173],
+			[-141650, 80432],
+			[-156201, 84772],
+			[-153561, 83982],
+			[-153845, 85354],
+			[-142185, 85021],
+			[-142404, 85270],
+			[-140015, 85619],
+			[-148860, 88156],
+			[-144119, 87957],
+			[-137902, 87481],
+			[-132580, 86459],
+			[-132250, 86317],
+			[-160665, 92465],
+			[-161852, 93630],
+			[-150847, 93640],
+			[-132421, 93236],
+			[-132431, 93471],
+			[-150060, 97773],
+			[-144843, 95717],
+			[-178060, 66675],
+			[-178436, 69265],
+			[-166221, 68491],
+			[-166347, 69279],
+			[-164942, 66773],
+			[-177928, 69892],
+			[-178301, 70020],
+			[-175701, 73285],
+			[-174763, 73549],
+			[-174205, 71850],
+			[-170332, 71512],
+			[-174251, 73822],
+			[-172504, 74555],
+			[-168478, 77177],
+			[-167809, 76834],
+			[-166027, 76223],
+			[-165744, 76043],
+			[-174835, 78888],
+			[-174792, 79155],
+			[-178342, 87991],
+			[-180022, 87547],
+			[-180035, 89802],
+			[-180022, 89645],
+			[-166453, 92779],
+			[-172334, 95952],
+			[-173616, 96215],
+			[-164850, 95563],
+			[-165313, 95398],
+			[-154015, 34883],
+			[-153702, 35112],
+			[-132471, 33643],
+			[-132044, 33952],
+			[-131153, 34935],
+			[-142785, 37872],
+			[-142627, 38014],
+			[-142413, 39677],
+			[-140808, 37603],
+			[-141173, 42056],
+			[-140991, 41968],
+			[-145376, 45912],
+			[-138461, 47984],
+			[-138178, 48293],
+			[-137480, 46984],
+			[-132511, 45921],
+			[-136418, 51753],
+			[-137540, 49555],
+			[-134263, 53100],
+			[-162966, 55836],
+			[-161173, 57200],
+			[-160890, 57070],
+			[-147714, 54759],
+			[-147116, 54915],
+			[-147100, 54793],
+			[-141446, 54998],
+			[-133716, 55717],
+			[-133791, 55616],
+			[-131877, 55025],
+			[-141341, 58950],
+			[-143066, 61182],
+			[-132270, 60587],
+			[-132273, 60716],
+			[-163262, 61585],
+			[-159990, 63967],
+			[-159939, 63714],
+			[-150427, 63911],
+			[-143377, 64476],
+			[-140997, 62372],
+			[-140972, 62679],
+			[-133895, 64119],
+			[-132287, 62517],
+			[-132153, 62769],
+			[-174731, 38560],
+			[-174653, 38688],
+			[-174468, 38619],
+			[-166730, 40349],
+			[-166772, 40255],
+			[-166514, 39896],
+			[-164892, 47161],
+			[-165030, 47345],
+			[-167111, 46198],
+			[-167269, 46162],
+			[-172593, 52507],
+			[-172577, 52383],
+			[-170602, 51482],
+			[-170928, 50959],
+			[-173183, 55057],
+			[-173291, 56172],
+			[-173071, 55855],
+			[-176438, 59107],
+			[-176400, 58719],
+			[-176878, 64813],
+			[-160328, 30],
+			[-160208, 114],
+			[-157038, 6214],
+			[-156536, 5365],
+			[-149428, 6387],
+			[-148757, 5801],
+			[-135825, 5201],
+			[-133420, 5138],
+			[-133092, 5506],
+			[-156205, 9077],
+			[-156303, 9467],
+			[-138702, 11932],
+			[-138247, 12032],
+			[-131189, 11173],
+			[-131772, 11405],
+			[-134062, 11716],
+			[-133576, 12204],
+			[-158989, 15225],
+			[-159699, 15396],
+			[-159460, 15392],
+			[-159385, 15098],
+			[-149844, 14486],
+			[-139838, 14966],
+			[-139435, 15370],
+			[-137215, 15332],
+			[-136882, 15478],
+			[-133940, 12728],
+			[-133139, 14265],
+			[-133406, 14336],
+			[-131614, 18205],
+			[-131301, 18288],
+			[-152369, 22353],
+			[-153030, 22572],
+			[-149873, 27382],
+			[-149769, 28236],
+			[-140222, 25674],
+			[-138539, 25878],
+			[-138737, 26174],
+			[-160809, 30039],
+			[-160550, 30122],
+			[-160592, 30017],
+			[-160723, 29805],
+			[-144789, 31628],
+			[-145739, 31113],
+			[-146514, 31106],
+			[-174536, 7099],
+			[-174991, 7127],
+			[-174862, 7177],
+			[-167086, 4888],
+			[-167172, 4907],
+			[-167122, 4787],
+			[-177358, 13988],
+			[-177349, 13895],
+			[-177253, 13958],
+			[-169705, 12807],
+			[-169789, 12907],
+			[-169455, 12858],
+			[-169724, 12738],
+			[-175917, 24232],
+			[-175762, 24259],
+			[-175698, 24142],
+			[-164704, 21237],
+			[-164564, 21018],
+			[-164555, 21155],
+			[-164427, 21098],
+			[-177191, 30080],
+			[-177320, 30069],
+			[-177225, 29857],
+			[-170327, 31964],
+			[-170265, 31753],
+			[-170136, 31704],
+			[-170207, 31624],
+			[197719, 101515],
+			[201435, 108888],
+			[218618, 107766],
+			[218873, 107695],
+			[221143, 110005],
+			[220986, 110050],
+			[199527, 113517],
+			[200100, 117949],
+			[201697, 115604],
+			[200220, 121773],
+			[207268, 122087],
+			[193092, 99766],
+			[166495, 110293],
+			[166398, 110567],
+			[166392, 110812],
+			[166206, 110625],
+			[174900, 112943],
+			[175543, 113672],
+			[175713, 112871],
+			[175269, 113142],
+			[175230, 113214],
+			[175731, 113322],
+			[192098, 116355],
+			[193155, 118691],
+			[147822, 99740],
+			[147765, 99525],
+			[148021, 99936],
+			[148079, 99799],
+			[147894, 99638],
+			[134529, 104177],
+			[134045, 103810],
+			[134276, 103852],
+			[150046, 108321],
+			[150433, 108379],
+			[199383, 66646],
+			[204219, 77214],
+			[198403, 80684],
+			[198710, 80464],
+			[198267, 79719],
+			[197669, 80997],
+			[203769, 89256],
+			[172885, 71238],
+			[174418, 71464],
+			[174170, 72631],
+			[173557, 72423],
+			[178062, 72437],
+			[178286, 70891],
+			[179160, 70970],
+			[178868, 72698],
+			[179857, 72708],
+			[180215, 71742],
+			[181150, 71449],
+			[180438, 70605],
+			[180349, 70506],
+			[180571, 71474],
+			[181666, 73127],
+			[180658, 72332],
+			[175850, 80071],
+			[176525, 80508],
+			[176567, 80215],
+			[191627, 78078],
+			[195892, 80363],
+			[196291, 79807],
+			[190077, 84897],
+			[190762, 84814],
+			[196306, 84516],
+			[194686, 82596],
+			[195615, 83108],
+			[164876, 92732],
+			[165710, 93196],
+			[165905, 93290],
+			[165634, 92995],
+			[165818, 93147],
+			[196461, 91562],
+			[166664, 95779],
+			[166768, 95821],
+			[167239, 96032],
+			[138429, 68075],
+			[137774, 66850],
+			[137824, 67247],
+			[140602, 66615],
+			[140345, 67151],
+			[140702, 67193],
+			[140243, 66449],
+			[140336, 67785],
+			[159229, 66072],
+			[157802, 67030],
+			[158108, 66722],
+			[162078, 69345],
+			[161542, 68811],
+			[161209, 69235],
+			[140733, 73195],
+			[142032, 72890],
+			[143211, 71481],
+			[142396, 72332],
+			[142669, 72186],
+			[148760, 72058],
+			[149336, 72816],
+			[149440, 70974],
+			[152956, 72107],
+			[152139, 73117],
+			[151990, 72815],
+			[137812, 76418],
+			[138288, 76023],
+			[141821, 75041],
+			[141334, 73882],
+			[141134, 74051],
+			[141062, 74122],
+			[140712, 73753],
+			[149737, 83726],
+			[152803, 84394],
+			[148542, 95014],
+			[148597, 95005],
+			[148222, 95213],
+			[197516, 57691],
+			[197625, 57572],
+			[199103, 60045],
+			[199086, 60244],
+			[204523, 59625],
+			[201264, 61252],
+			[202087, 60297],
+			[201234, 58098],
+			[201519, 57904],
+			[181425, 43408],
+			[166339, 55014],
+			[164939, 54574],
+			[164106, 54501],
+			[164133, 54246],
+			[167643, 55323],
+			[167301, 56246],
+			[167136, 55976],
+			[167060, 55878],
+			[166968, 55733],
+			[167000, 55329],
+			[167490, 55449],
+			[167923, 56265],
+			[167933, 56182],
+			[167608, 55834],
+			[167587, 56000],
+			[167685, 55933],
+			[167517, 55892],
+			[167248, 56804],
+			[167811, 56655],
+			[167348, 56417],
+			[169419, 57065],
+			[169357, 57201],
+			[169949, 57135],
+			[169835, 57108],
+			[169900, 56989],
+			[170021, 57021],
+			[169877, 56329],
+			[170046, 56370],
+			[169609, 56258],
+			[168390, 56617],
+			[168433, 56229],
+			[170039, 59233],
+			[170221, 59169],
+			[169260, 59198],
+			[168772, 58844],
+			[169408, 59254],
+			[169188, 59194],
+			[169411, 59372],
+			[150174, 53545],
+			[149382, 53847],
+			[162675, 54187],
+			[148757, 59372],
+			[148627, 59787],
+			[156486, 59766],
+			[157260, 60663],
+			[157114, 60935],
+			[160199, 57680],
+			[160034, 57784],
+			[157457, 63064],
+			[156390, 62863],
+			[156709, 63128],
+			[174516, 7322],
+			[174524, 7255],
+			[174583, 7138],
+			[113875, 104753],
+			[113470, 104832],
+			[114157, 104230],
+			[113755, 104816],
+			[125127, 108866],
+			[124982, 109046],
+			[122412, 117431],
+			[121002, 115285],
+			[121160, 115288],
+			[87468, 110822],
+			[67995, 129193],
+			[73714, 127286],
+			[72422, 130182],
+			[71082, 128157],
+			[73860, 127188],
+			[35378, 101116],
+			[35946, 100069],
+			[34961, 99110],
+			[34921, 99147],
+			[42653, 98950],
+			[42763, 98930],
+			[42897, 99024],
+			[42637, 98829],
+			[51188, 100411],
+			[51792, 99586],
+			[51010, 102051],
+			[50972, 102034],
+			[37943, 108138],
+			[38195, 108002],
+			[50199, 108474],
+			[51607, 109256],
+			[50064, 110315],
+			[49279, 108410],
+			[64798, 107888],
+			[64845, 108147],
+			[63910, 107735],
+			[63870, 107796],
+			[35649, 115921],
+			[35370, 115700],
+			[35123, 115698],
+			[35255, 115713],
+			[65271, 116110],
+			[65098, 116228],
+			[65119, 116461],
+			[65467, 127282],
+			[221, 101376],
+			[60, 101218],
+			[332, 101494],
+			[24331, 101076],
+			[24211, 101164],
+			[24295, 101146],
+			[20984, 105117],
+			[21205, 105040],
+			[21116, 105123],
+			[7091, 107470],
+			[7148, 107802],
+			[6959, 107738],
+			[26026, 107350],
+			[25985, 107461],
+			[26055, 107437],
+			[26194, 107285],
+			[25877, 107817],
+			[963, 112536],
+			[965, 112812],
+			[1267, 112838],
+			[1376, 112962],
+			[9529, 116300],
+			[10011, 117710],
+			[9586, 118754],
+			[9194, 117217],
+			[1803, 120143],
+			[1903, 119864],
+			[1632, 120177],
+			[99951, 67054],
+			[105988, 65916],
+			[105706, 66870],
+			[106819, 69427],
+			[107478, 67012],
+			[107485, 68644],
+			[110972, 69083],
+			[125330, 66253],
+			[125266, 66171],
+			[125791, 66274],
+			[125909, 66374],
+			[127617, 68497],
+			[103369, 70628],
+			[116257, 70390],
+			[116106, 70441],
+			[117004, 72900],
+			[117127, 73588],
+			[120352, 72298],
+			[120572, 72397],
+			[99357, 75484],
+			[101550, 75607],
+			[104522, 76981],
+			[107134, 76428],
+			[116373, 75954],
+			[117657, 76526],
+			[117528, 76402],
+			[117083, 73781],
+			[120524, 74960],
+			[120756, 74382],
+			[125714, 79527],
+			[125101, 79543],
+			[125157, 79509],
+			[124555, 79446],
+			[125044, 79442],
+			[129541, 79603],
+			[129593, 79291],
+			[128975, 78765],
+			[128863, 78975],
+			[128449, 78335],
+			[119989, 90764],
+			[124991, 91441],
+			[124807, 91404],
+			[108952, 96779],
+			[108786, 96353],
+			[108676, 96717],
+			[114501, 94966],
+			[114316, 95451],
+			[114373, 95662],
+			[120877, 96395],
+			[120691, 96535],
+			[78215, 65892],
+			[78111, 65947],
+			[78116, 65835],
+			[88721, 66910],
+			[91374, 67573],
+			[96900, 67523],
+			[90447, 70484],
+			[96314, 70315],
+			[94872, 72079],
+			[75459, 76228],
+			[75566, 76299],
+			[75454, 76333],
+			[83560, 75106],
+			[91046, 76722],
+			[93678, 74482],
+			[66075, 80782],
+			[66166, 80796],
+			[66090, 80873],
+			[66150, 80896],
+			[83060, 81827],
+			[83191, 81715],
+			[92720, 80309],
+			[73192, 85618],
+			[73220, 85552],
+			[73258, 85626],
+			[75255, 86536],
+			[75287, 87773],
+			[34029, 69084],
+			[34037, 69201],
+			[33962, 69137],
+			[46996, 68554],
+			[46812, 68648],
+			[46952, 68628],
+			[41601, 75912],
+			[41508, 75885],
+			[41552, 75877],
+			[61018, 77211],
+			[59759, 75451],
+			[59473, 75248],
+			[33309, 80433],
+			[33296, 80330],
+			[33363, 80392],
+			[35697, 80692],
+			[35663, 80743],
+			[46075, 78742],
+			[46684, 79483],
+			[46675, 79339],
+			[57042, 80588],
+			[57070, 80513],
+			[63478, 84501],
+			[64618, 83600],
+			[64093, 83346],
+			[46988, 87410],
+			[47430, 87422],
+			[47291, 87819],
+			[32854, 92425],
+			[36099, 92255],
+			[35808, 92709],
+			[53478, 94105],
+			[58822, 93101],
+			[59238, 92774],
+			[58993, 92737],
+			[55294, 95107],
+			[55354, 95033],
+			[12965, 66979],
+			[12895, 66989],
+			[17812, 67556],
+			[17794, 67592],
+			[12954, 74957],
+			[20132, 77204],
+			[20127, 77214],
+			[920, 79624],
+			[557, 79573],
+			[2092, 83109],
+			[2118, 83401],
+			[27942, 90109],
+			[28151, 90101],
+			[1954, 92363],
+			[2435, 92114],
+			[2784, 92341],
+			[2587, 92223],
+			[19888, 90660],
+			[19784, 90596],
+			[19812, 90448],
+			[27667, 91983],
+			[27603, 92021],
+			[103094, 33866],
+			[103272, 34031],
+			[100627, 37602],
+			[100806, 37689],
+			[102878, 37742],
+			[102538, 39389],
+			[107804, 37772],
+			[101496, 44275],
+			[101679, 42882],
+			[101496, 43228],
+			[103866, 41704],
+			[104347, 43006],
+			[103987, 48224],
+			[108169, 45434],
+			[120318, 47719],
+			[107260, 50299],
+			[98677, 53513],
+			[98602, 55819],
+			[110366, 55033],
+			[109336, 54710],
+			[101011, 59257],
+			[104704, 59206],
+			[103325, 58810],
+			[107985, 60047],
+			[108355, 58451],
+			[114268, 59054],
+			[109598, 65244],
+			[109717, 63923],
+			[113864, 65124],
+			[114134, 64000],
+			[114015, 63944],
+			[113984, 63870],
+			[113949, 63938],
+			[115173, 62846],
+			[115070, 62886],
+			[115130, 62900],
+			[115585, 65044],
+			[115544, 65064],
+			[123274, 62844],
+			[123500, 64848],
+			[125414, 64575],
+			[88319, 36227],
+			[67764, 39344],
+			[90861, 40786],
+			[95185, 36962],
+			[95300, 39999],
+			[67467, 42059],
+			[87545, 42056],
+			[92966, 43837],
+			[95805, 43915],
+			[80647, 46024],
+			[80827, 45968],
+			[80602, 45876],
+			[88645, 48039],
+			[93120, 48650],
+			[91506, 47808],
+			[93291, 47918],
+			[88191, 51332],
+			[93616, 50524],
+			[93422, 49267],
+			[97570, 51400],
+			[93143, 56426],
+			[93898, 53944],
+			[70177, 60034],
+			[70312, 59998],
+			[70380, 59859],
+			[97362, 57658],
+			[91473, 64429],
+			[37603, 33246],
+			[37794, 33259],
+			[47122, 32768],
+			[64755, 41728],
+			[64874, 41683],
+			[33272, 47658],
+			[33297, 47626],
+			[33334, 47601],
+			[49422, 47328],
+			[49671, 47299],
+			[49500, 47519],
+			[60105, 49134],
+			[46832, 52246],
+			[46676, 52030],
+			[46956, 52357],
+			[60073, 49226],
+			[60007, 49160],
+			[58708, 51343],
+			[58803, 51525],
+			[38229, 54001],
+			[38218, 54046],
+			[62541, 53847],
+			[62605, 53756],
+			[55907, 61296],
+			[55968, 61431],
+			[33133, 62571],
+			[33183, 62614],
+			[33234, 62634],
+			[38140, 62915],
+			[38117, 62970],
+			[63859, 63785],
+			[63705, 63743],
+			[28991, 39791],
+			[29069, 39758],
+			[29045, 39824],
+			[2668, 46164],
+			[1392, 45943],
+			[29360, 45331],
+			[29407, 45394],
+			[29408, 45319],
+			[13032, 50459],
+			[13006, 50505],
+			[2476, 54491],
+			[2042, 56294],
+			[3880, 55877],
+			[29175, 56232],
+			[29174, 56298],
+			[29225, 56241],
+			[21870, 60334],
+			[21918, 60357],
+			[29782, 60226],
+			[29880, 60214],
+			[29796, 60171],
+			[7384, 64614],
+			[7436, 64662],
+			[26880, 62438],
+			[26834, 62463],
+			[29282, 63567],
+			[29287, 63615],
+			[28946, 62428],
+			[100936, 18846],
+			[101091, 27072],
+			[99468, 25184],
+			[100361, 31444],
+			[83196, 15197],
+			[85294, 20217],
+			[86845, 17459],
+			[90764, 20262],
+			[86731, 22488],
+			[86833, 22575],
+			[97248, 22370],
+			[78456, 26111],
+			[88783, 27334],
+			[89085, 27446],
+			[84584, 30017],
+			[88462, 31879],
+			[90507, 30424],
+			[96139, 29682],
+			[95007, 32354],
+			[43148, 26941],
+			[43062, 26828],
+			[47438, 26492],
+			[47472, 26534],
+			[47142, 32646],
+			[1346, 16247],
+			[1252, 16037],
+			[2762, 15558],
+			[18228, 17135],
+			[10219, 21365],
+			[10246, 21398],
+			[4975, 30060],
+			[4927, 30057]
+		];
+		var cvetokmorkovi2 = [
+			["Цветок дикой моркови - 2 шт.<br>[Внутри здания Галерея в долине]", -12605, 196567]
+		];
+		for (var i = 0; i < cvetokmorkovi1.length; i++) {
+			cvetokmorkovi1_1 = new L.circleMarker([cvetokmorkovi1[i][0],cvetokmorkovi1[i][1]], {color: "#FBCEB1"})
+			.bindPopup("Цветок дикой моркови")
+			.bindTooltip("Цветок дикой моркови", {direction: 'top'})
+			.addTo(cvetokmorkoviicons);
+		}
+		for (var i = 0; i < cvetokmorkovi2.length; i++) {
+			cvetokmorkovi2_1 = new L.circleMarker([cvetokmorkovi2[i][1],cvetokmorkovi2[i][2]], {color: "#FBCEB1", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(cvetokmorkovi2[i][0])
+			.bindTooltip(cvetokmorkovi2[i][0], {direction: 'top'})
+			.addTo(cvetokmorkoviicons);
+		}
 	}
 	else {
 		cvetokmorkoviicons.clearLayers();
 	}
 }
+//8 в Убежище 94
+//5 в лаборатории
