@@ -1,328 +1,336 @@
-	var gribicons = L.layerGroup().addTo(map);
-	function GribOnOff() {
+var gribicons = L.layerGroup().addTo(map);
+function GribOnOff() {
 	var chbox;
 	chbox=document.getElementById('GribButton');
 	if (chbox.checked) {
-	L.circleMarker([-115716, -57742], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-118917, -55174], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-120506, -55685], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-113710, -53336], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-113088, -53436], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-113149, -53413], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-128221, -51185], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-128292, -51216], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-116436, -51281], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-116622, -51096], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-116714, -52582], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-112506, -50605], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-119213, -48387], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-113999, -48497], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-113956, -48499], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-113227, -47602], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-118412, -33343], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-118412, -33343], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-118479, -33384], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-118479, -33384], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-87742, -96614], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-87615, -96631], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-83705, -95698], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-66290, -111690], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-78529, -103038], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134508, -63175], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134458, -63206], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134689, -60955], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134657, -60923], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134466, -61430], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134674, -51945], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134118, -51927], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-133975, -51991], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154670, -94822], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155219, -92878], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154771, -94194], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145432, -91170], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-146124, -92146], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-161967, -87386], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156683, -87468], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158440, -88954], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-153278, -89334], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-152803, -88274], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155074, -89907], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-146234, -86444], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-163565, -82954], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162042, -85268], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162685, -85800], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156762, -82266], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158418, -83787], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154691, -83082], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-153162, -85834], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-151382, -82312], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-147548, -84997], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145900, -82062], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141621, -85240], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142022, -85424], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142055, -85355], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140150, -82716], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162820, -79427], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157272, -80927], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157284, -77870], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154310, -80963], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141402, -79816], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141603, -79238], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150312, -71924], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150301, -71869], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-133009, -67737], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-132981, -67701], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-170023, -84028], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-164773, -85744], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-164047, -85519], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-160891, -129961], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156305, -129869], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158676, -127948], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157285, -127304], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155992, -128140], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154481, -126998], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-152989, -127806], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-152320, -130675], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-153009, -129465], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-151073, -127604], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149644, -129881], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150198, -130323], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150220, -130336], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145738, -130714], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143676, -127017], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145263, -128041], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142931, -128097], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140436, -129537], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141352, -128567], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-132009, -130879], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-132380, -130392], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-163456, -125829], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157359, -124381], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157738, -126487], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154364, -123297], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-151710, -125284], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154368, -125074], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143952, -123480], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-137743, -123299], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-160946, -122174], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157099, -120811], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155913, -120188], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156453, -122599], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-147909, -119245], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149485, -121345], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150107, -121902], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150088, -119095], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145575, -119044], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144864, -121829], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144443, -120869], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141849, -122372], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140327, -120759], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142317, -121162], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162036, -116340], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157060, -115485], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-153440, -116005], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-153436, -116010], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150838, -118066], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-151141, -117514], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150659, -117125], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149194, -117345], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145370, -117218], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141351, -116307], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142733, -115211], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-160422, -111403], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162520, -113373], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158718, -113128], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154272, -113855], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-152216, -111497], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-152243, -111491], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149506, -112758], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150261, -113148], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149267, -111520], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149284, -111472], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144943, -112698], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-146473, -114158], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144125, -114126], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144109, -114103], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144921, -112714], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140983, -112272], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140787, -112307], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142600, -113179], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156444, -107772], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157686, -106982], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150006, -109099], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-146384, -108529], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144948, -106696], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145888, -109587], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140612, -108791], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142350, -109403], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142009, -109594], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150157, -103019], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-147620, -104742], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-148956, -105456], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141242, -105371], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142947, -104536], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157521, -100731], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-157812, -101282], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155464, -100676], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-151812, -102349], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149475, -102224], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143945, -99888], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143931, -99909], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-177391, -127131], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-176089, -129771], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-173625, -128871], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-164689, -130027], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-179721, -124084], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-178364, -124373], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-170623, -124968], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-169467, -125117], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-167329, -125435], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-165149, -125326], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-179461, -121132], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-178222, -119960], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-176687, -120828], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-170407, -121720], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-170262, -119199], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-178814, -116721], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-178343, -116684], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-178347, -116669], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-175441, -116513], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-164376, -116552], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-166124, -117661], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-167144, -116618], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-167110, -116640], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-179088, -112326], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-178715, -112207], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-178367, -111329], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-174732, -111262], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-172966, -110962], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-173006, -110940], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-171033, -112529], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-170974, -112523], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-171434, -110613], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-171440, -110465], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-60929, -148524], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-60939, -148568], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-60952, -148516], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-66320, -151276], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-66298, -151320], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-66196, -151438], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-69255, -133373], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-69277, -133390], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-69318, -133383], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-67704, -132591], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-68023, -132577], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-127559, -147990], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-125131, -148541], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-125127, -148557], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-125372, -148879], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-120908, -146399], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-130437, -136050], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-128355, -136485], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-109008, -183730], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-108979, -183717], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-108957, -183846], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-102473, -182307], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-102553, -182345], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-115131, -179989], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-110798, -178409], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-103298, -177229], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-103329, -177100], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150250, -163503], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150218, -163393], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-159623, -155970], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156713, -157259], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156743, -157385], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143983, -156021], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144086, -155964], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140773, -157092], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-142134, -157083], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-139165, -155991], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-163386, -155019], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162150, -152335], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158132, -153070], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-159263, -153135], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154359, -152036], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154066, -154146], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155268, -151946], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155268, -151701], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162133, -147999], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-161425, -149813], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-159481, -148267], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158725, -150728], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-152385, -149060], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-148391, -147982], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156805, -145728], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158113, -146093], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-159580, -145250], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-152306, -145927], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-151789, -144107], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-148042, -147008], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141567, -144533], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140406, -143962], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-163170, -142080], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-161196, -141042], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162401, -140325], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150481, -141308], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-140748, -143087], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162882, -136237], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162168, -137142], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-160370, -136124], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158287, -135563], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-155147, -136249], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-153594, -135304], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154650, -136740], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-147298, -138147], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145951, -135962], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145004, -137461], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-161819, -131486], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-162491, -133068], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156942, -132024], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156029, -134577], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-156750, -133653], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-158544, -131660], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154202, -132164], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-153135, -133656], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-154952, -134263], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150927, -132710], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-149561, -132671], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-150768, -133983], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-145289, -135062], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143733, -131923], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143371, -132149], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144768, -132999], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-144746, -134147], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-143494, -134481], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141837, -133090], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-141362, -131667], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-139227, -132082], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-137774, -132548], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-171725, -156823], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-171550, -157224], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-164614, -156377], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-172360, -154712], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-174662, -154149], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-172592, -153305], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-167988, -153974], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-164420, -155079], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-174822, -150561], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-172684, -150845], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-170133, -150515], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-166065, -144331], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-166810, -146170], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-166007, -141724], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-166614, -142873], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-166556, -137724], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-164880, -136453], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-174036, -132411], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-173247, -133456], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-169649, -133396], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-131883, -187394], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-133319, -184383], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-133259, -184251], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-148996, -164408], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([-134716, -165013], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
-	L.circleMarker([114477, -164984], {color: "#B8860B"}).addTo(gribicons).bindPopup("Гриб").bindTooltip("Гриб", {direction: 'top'});
+		var grib = [
+			[-115716, -57742],
+			[-118917, -55174],
+			[-120506, -55685],
+			[-113710, -53336],
+			[-113088, -53436],
+			[-113149, -53413],
+			[-128221, -51185],
+			[-128292, -51216],
+			[-116436, -51281],
+			[-116622, -51096],
+			[-116714, -52582],
+			[-112506, -50605],
+			[-119213, -48387],
+			[-113999, -48497],
+			[-113956, -48499],
+			[-113227, -47602],
+			[-118412, -33343],
+			[-118412, -33343],
+			[-118479, -33384],
+			[-118479, -33384],
+			[-87742, -96614],
+			[-87615, -96631],
+			[-83705, -95698],
+			[-66290, -111690],
+			[-78529, -103038],
+			[-134508, -63175],
+			[-134458, -63206],
+			[-134689, -60955],
+			[-134657, -60923],
+			[-134466, -61430],
+			[-134674, -51945],
+			[-134118, -51927],
+			[-133975, -51991],
+			[-154670, -94822],
+			[-155219, -92878],
+			[-154771, -94194],
+			[-145432, -91170],
+			[-146124, -92146],
+			[-161967, -87386],
+			[-156683, -87468],
+			[-158440, -88954],
+			[-153278, -89334],
+			[-152803, -88274],
+			[-155074, -89907],
+			[-146234, -86444],
+			[-163565, -82954],
+			[-162042, -85268],
+			[-162685, -85800],
+			[-156762, -82266],
+			[-158418, -83787],
+			[-154691, -83082],
+			[-153162, -85834],
+			[-151382, -82312],
+			[-147548, -84997],
+			[-145900, -82062],
+			[-141621, -85240],
+			[-142022, -85424],
+			[-142055, -85355],
+			[-140150, -82716],
+			[-162820, -79427],
+			[-157272, -80927],
+			[-157284, -77870],
+			[-154310, -80963],
+			[-141402, -79816],
+			[-141603, -79238],
+			[-150312, -71924],
+			[-150301, -71869],
+			[-133009, -67737],
+			[-132981, -67701],
+			[-170023, -84028],
+			[-164773, -85744],
+			[-164047, -85519],
+			[-160891, -129961],
+			[-156305, -129869],
+			[-158676, -127948],
+			[-157285, -127304],
+			[-155992, -128140],
+			[-154481, -126998],
+			[-152989, -127806],
+			[-152320, -130675],
+			[-153009, -129465],
+			[-151073, -127604],
+			[-149644, -129881],
+			[-150198, -130323],
+			[-150220, -130336],
+			[-145738, -130714],
+			[-143676, -127017],
+			[-145263, -128041],
+			[-142931, -128097],
+			[-140436, -129537],
+			[-141352, -128567],
+			[-132009, -130879],
+			[-132380, -130392],
+			[-163456, -125829],
+			[-157359, -124381],
+			[-157738, -126487],
+			[-154364, -123297],
+			[-151710, -125284],
+			[-154368, -125074],
+			[-143952, -123480],
+			[-137743, -123299],
+			[-160946, -122174],
+			[-157099, -120811],
+			[-155913, -120188],
+			[-156453, -122599],
+			[-147909, -119245],
+			[-149485, -121345],
+			[-150107, -121902],
+			[-150088, -119095],
+			[-145575, -119044],
+			[-144864, -121829],
+			[-144443, -120869],
+			[-141849, -122372],
+			[-140327, -120759],
+			[-142317, -121162],
+			[-162036, -116340],
+			[-157060, -115485],
+			[-153440, -116005],
+			[-153436, -116010],
+			[-150838, -118066],
+			[-151141, -117514],
+			[-150659, -117125],
+			[-149194, -117345],
+			[-145370, -117218],
+			[-141351, -116307],
+			[-142733, -115211],
+			[-160422, -111403],
+			[-162520, -113373],
+			[-158718, -113128],
+			[-154272, -113855],
+			[-152216, -111497],
+			[-152243, -111491],
+			[-149506, -112758],
+			[-150261, -113148],
+			[-149267, -111520],
+			[-149284, -111472],
+			[-144943, -112698],
+			[-146473, -114158],
+			[-144125, -114126],
+			[-144109, -114103],
+			[-144921, -112714],
+			[-140983, -112272],
+			[-140787, -112307],
+			[-142600, -113179],
+			[-156444, -107772],
+			[-157686, -106982],
+			[-150006, -109099],
+			[-146384, -108529],
+			[-144948, -106696],
+			[-145888, -109587],
+			[-140612, -108791],
+			[-142350, -109403],
+			[-142009, -109594],
+			[-150157, -103019],
+			[-147620, -104742],
+			[-148956, -105456],
+			[-141242, -105371],
+			[-142947, -104536],
+			[-157521, -100731],
+			[-157812, -101282],
+			[-155464, -100676],
+			[-151812, -102349],
+			[-149475, -102224],
+			[-143945, -99888],
+			[-143931, -99909],
+			[-177391, -127131],
+			[-176089, -129771],
+			[-173625, -128871],
+			[-164689, -130027],
+			[-179721, -124084],
+			[-178364, -124373],
+			[-170623, -124968],
+			[-169467, -125117],
+			[-167329, -125435],
+			[-165149, -125326],
+			[-179461, -121132],
+			[-178222, -119960],
+			[-176687, -120828],
+			[-170407, -121720],
+			[-170262, -119199],
+			[-178814, -116721],
+			[-178343, -116684],
+			[-178347, -116669],
+			[-175441, -116513],
+			[-164376, -116552],
+			[-166124, -117661],
+			[-167144, -116618],
+			[-167110, -116640],
+			[-179088, -112326],
+			[-178715, -112207],
+			[-178367, -111329],
+			[-174732, -111262],
+			[-172966, -110962],
+			[-173006, -110940],
+			[-171033, -112529],
+			[-170974, -112523],
+			[-171434, -110613],
+			[-171440, -110465],
+			[-60929, -148524],
+			[-60939, -148568],
+			[-60952, -148516],
+			[-66320, -151276],
+			[-66298, -151320],
+			[-66196, -151438],
+			[-69255, -133373],
+			[-69277, -133390],
+			[-69318, -133383],
+			[-67704, -132591],
+			[-68023, -132577],
+			[-127559, -147990],
+			[-125131, -148541],
+			[-125127, -148557],
+			[-125372, -148879],
+			[-120908, -146399],
+			[-130437, -136050],
+			[-128355, -136485],
+			[-109008, -183730],
+			[-108979, -183717],
+			[-108957, -183846],
+			[-102473, -182307],
+			[-102553, -182345],
+			[-115131, -179989],
+			[-110798, -178409],
+			[-103298, -177229],
+			[-103329, -177100],
+			[-150250, -163503],
+			[-150218, -163393],
+			[-159623, -155970],
+			[-156713, -157259],
+			[-156743, -157385],
+			[-143983, -156021],
+			[-144086, -155964],
+			[-140773, -157092],
+			[-142134, -157083],
+			[-139165, -155991],
+			[-163386, -155019],
+			[-162150, -152335],
+			[-158132, -153070],
+			[-159263, -153135],
+			[-154359, -152036],
+			[-154066, -154146],
+			[-155268, -151946],
+			[-155268, -151701],
+			[-162133, -147999],
+			[-161425, -149813],
+			[-159481, -148267],
+			[-158725, -150728],
+			[-152385, -149060],
+			[-148391, -147982],
+			[-156805, -145728],
+			[-158113, -146093],
+			[-159580, -145250],
+			[-152306, -145927],
+			[-151789, -144107],
+			[-148042, -147008],
+			[-141567, -144533],
+			[-140406, -143962],
+			[-163170, -142080],
+			[-161196, -141042],
+			[-162401, -140325],
+			[-150481, -141308],
+			[-140748, -143087],
+			[-162882, -136237],
+			[-162168, -137142],
+			[-160370, -136124],
+			[-158287, -135563],
+			[-155147, -136249],
+			[-153594, -135304],
+			[-154650, -136740],
+			[-147298, -138147],
+			[-145951, -135962],
+			[-145004, -137461],
+			[-161819, -131486],
+			[-162491, -133068],
+			[-156942, -132024],
+			[-156029, -134577],
+			[-156750, -133653],
+			[-158544, -131660],
+			[-154202, -132164],
+			[-153135, -133656],
+			[-154952, -134263],
+			[-150927, -132710],
+			[-149561, -132671],
+			[-150768, -133983],
+			[-145289, -135062],
+			[-143733, -131923],
+			[-143371, -132149],
+			[-144768, -132999],
+			[-144746, -134147],
+			[-143494, -134481],
+			[-141837, -133090],
+			[-141362, -131667],
+			[-139227, -132082],
+			[-137774, -132548],
+			[-171725, -156823],
+			[-171550, -157224],
+			[-164614, -156377],
+			[-172360, -154712],
+			[-174662, -154149],
+			[-172592, -153305],
+			[-167988, -153974],
+			[-164420, -155079],
+			[-174822, -150561],
+			[-172684, -150845],
+			[-170133, -150515],
+			[-166065, -144331],
+			[-166810, -146170],
+			[-166007, -141724],
+			[-166614, -142873],
+			[-166556, -137724],
+			[-164880, -136453],
+			[-174036, -132411],
+			[-173247, -133456],
+			[-169649, -133396],
+			[-131883, -187394],
+			[-133319, -184383],
+			[-133259, -184251],
+			[-148996, -164408],
+			[-134716, -165013],
+			[114477, -164984]
+		];
+		for (var i = 0; i < grib.length; i++) {
+			grib_1 = new L.circleMarker([grib[i][0],grib[i][1]], {color: "#B8860B"})
+			.bindPopup("Гриб")
+			.bindTooltip("Гриб", {direction: 'top'})
+			.addTo(gribicons);
+		}
 	}
 	else {
 		gribicons.clearLayers();
