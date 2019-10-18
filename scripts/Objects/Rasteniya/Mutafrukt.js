@@ -1,1184 +1,1198 @@
-	var mutafrukticons = L.layerGroup().addTo(map);
-	function MutafruktOnOff() {
+var mutafrukticons = L.layerGroup().addTo(map);
+function MutafruktOnOff() {
 	var chbox;
 	chbox=document.getElementById('MutafruktButton');
 	if (chbox.checked) {
-	L.circleMarker([194216, -148117], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([416, 138882], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([879, 138669], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([879, 138669], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([707, 138748], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([161911, -91483], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([162070, -91382], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([162181, -91310], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([162341, -91209], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193552, -144397], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([194042, -143966], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-
+		var mutafrukt1 = [
+			[194216, -148117],
+			[416, 138882],
+			[879, 138669],
+			[879, 138669],
+			[707, 138748],
+			[161911, -91483],
+			[162070, -91382],
+			[162181, -91310],
+			[162341, -91209],
+			[193552, -144397],
+			[194042, -143966],
 //Дикий
-	L.circleMarker([-17411, -29427], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8815, -27884], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-9181, -27805], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1478, -25523], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1721, -25517], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26751, -23547], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6258, -16805], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-27670, -63132], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-27823, -62867], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26258, -64717], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-24732, -65080], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-20751, -65127], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-23084, -65015], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-19675, -63002], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-18005, -64912], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11816, -63262], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2524, -63902], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2403, -64732], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1550, -64296], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-907, -63542], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3036, -61962], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-24658, -58030], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22008, -60200], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-18422, -61335], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-19548, -59582], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-17104, -59719], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14622, -60988], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14105, -60175], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15388, -61006], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11556, -60030], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11250, -59688], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6260, -58851], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3447, -60667], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2926, -60010], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-17335, -55027], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-19033, -53428], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-18545, -54079], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-9100, -56177], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6598, -53829], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-7759, -55528], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5064, -57170], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2773, -56941], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3474, -56536], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3078, -53843], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-17426, -49661], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6090, -52485], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3073, -51002], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2010, -52859], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-313, -51978], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22384, -45995], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-19065, -45539], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-32658, -42899], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26216, -42023], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22769, -43440], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-23281, -41580], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-17443, -41049], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16890, -40974], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16205, -41233], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12735, -41723], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11955, -41906], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-30436, -37434], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-30602, -39952], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22821, -40094], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14340, -39951], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14832, -37717], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12545, -37540], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8672, -39622], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11225, -37451], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-63362, -62731], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-65353, -62694], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-58577, -62234], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-60254, -64208], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-63616, -54785], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-64346, -56424], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-35252, -45463], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-64579, -44194], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-45804, -41292], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-43897, -41264], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-42104, -42168], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-40549, -43545], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-38771, -41330], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-34026, -42659], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-56716, -40409], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-53900, -39049], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-51968, -38368], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-48514, -40134], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-45899, -38507], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-39461, -40051], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-35836, -39156], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-75430, -64861], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-74400, -62074], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-71963, -57448], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-83328, -55672], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-83328, -56231], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-82941, -55803], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-66916, -49926], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-66447, -48648], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-75145, -43451], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-73276, -42913], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-66545, -43590], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16479, -95428], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-19497, -96404], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12705, -95916], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12970, -96057], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11276, -96762], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11543, -96649], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8951, -95577], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14767, -92232], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15145, -91892], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15010, -91737], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15752, -93297], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5375, -89430], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5182, -89368], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2450, -86898], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1679, -87263], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1101, -87331], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-870, -87439], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-10075, -82239], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-10190, -82484], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5682, -84228], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5390, -83861], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5414, -83674], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8050, -83987], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-7916, -83550], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-565, -85103], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-398, -84940], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-632, -84278], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16036, -79163], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15971, -79954], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14746, -78295], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14887, -79128], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14629, -78779], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26305, -74038], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26581, -74122], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26520, -73928], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-24849, -76894], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-20952, -74821], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22859, -74719], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-21435, -77329], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-24202, -76864], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-18059, -77147], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-19328, -77222], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-18932, -75194], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-18601, -74317], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-4896, -74912], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5491, -77553], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1816, -74998], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-28899, -71866], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-23867, -72343], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22373, -72519], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-21188, -70283], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16484, -72866], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-18057, -70066], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6537, -70530], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6286, -69881], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-30727, -65870], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-29822, -68419], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-27688, -66076], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-25606, -65986], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-25703, -68269], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16971, -68109], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-10052, -65895], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8276, -66965], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8815, -67853], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-60391, -97402], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-60685, -97122], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-56878, -95675], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-63799, -93218], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-54580, -91962], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-65124, -88532], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-62501, -89510], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-54296, -87513], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-52146, -89836], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-55124, -76827], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-54875, -76022], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-49853, -76447], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-45667, -76886], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-45318, -74050], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-44262, -76738], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-42289, -76808], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-43543, -76010], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-37099, -74129], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-38440, -75399], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-37739, -77700], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-35877, -76512], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-46494, -72976], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-41296, -72196], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-38232, -72202], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-39502, -73136], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-34933, -70527], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-33422, -72784], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-32976, -68950], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-74622, -97208], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-75864, -97752], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-72509, -95864], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-69228, -94943], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-80688, -93963], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-75478, -92381], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-71404, -91725], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-67130, -93064], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-69134, -91525], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-78998, -89435], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-76208, -87452], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-76438, -88978], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-71189, -86619], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-70806, -89447], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-68169, -87023], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-65883, -86861], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-68371, -88856], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-66013, -86815], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-70820, -85578], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-68622, -85688], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-66449, -74351], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-76735, -67021], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-25063, -128893], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-24905, -128869], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-24510, -128755], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-24278, -128650], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-13736, -127879], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15106, -128237], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8450, -128780], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6579, -128925], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5619, -128788], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1941, -128520], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15602, -125682], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15818, -123376], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12498, -125631], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6219, -123908], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5207, -121470], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-4342, -121270], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6371, -121742], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-7441, -120599], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3600, -121332], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2336, -120056], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1887, -119485], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-20801, -115606], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-20743, -117330], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8474, -115050], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5149, -116221], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2849, -118412], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3062, -117540], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22664, -114618], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-7362, -112671], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3759, -112321], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2748, -111686], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1076, -113136], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-28054, -107025], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14433, -107192], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14217, -107041], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14511, -108188], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-10564, -108188], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8985, -109591], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-2095, -106798], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1921, -106845], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-27191, -102621], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26311, -105861], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22136, -105492], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-17741, -103105], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-20044, -103954], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-9134, -104085], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-9088, -104299], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-9429, -103190], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15479, -102074], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15312, -102065], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12152, -99769], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12013, -99769], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-57327, -111105], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-64369, -106663], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-63727, -109554], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-64234, -106731], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-65248, -110009], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-58727, -108675], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-59158, -108199], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-64313, -103566], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-62186, -105873], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-59754, -102767], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-59176, -105884], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-59744, -102888], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-55966, -106117], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-63068, -99020], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-43328, -101877], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-43911, -101831], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-43671, -101881], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-67161, -113473], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-67074, -112954], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-70898, -107726], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-73468, -110193], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-71130, -110154], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-75999, -105274], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-72937, -106451], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-77185, -99980], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-73047, -102246], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-73037, -102377], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-72000, -100961], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-65885, -101993], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-68262, -101414], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-65874, -102209], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-67103, -98713], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([197190, -88390], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([168912, -95454], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([168993, -95339], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([188200, -95330], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([191713, -79809], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([147767, -96752], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([157652, -95098], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([157334, -94538], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([157466, -94681], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([153272, -91191], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([153396, -91340], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([138807, -79801], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([137856, -79002], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([137007, -81056], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([137037, -80686], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([136416, -81775], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([136732, -81277], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([132896, -76451], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([134278, -76157], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([133977, -75439], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([202509, -114996], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([201907, -109116], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([196608, -103374], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([202963, -99315], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([178200, -130369], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([168854, -125448], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193181, -125500], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([171877, -118944], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([179330, -113274], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([184792, -104796], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([181264, -98602], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([139186, -127396], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([140318, -128105], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([149228, -124569], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([161375, -123975], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([132449, -120597], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([157254, -117807], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([161148, -118636], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([145564, -108666], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([159613, -104536], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([150358, -100564], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([75920, -30694], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([75708, -29676], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87893, -29114], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88112, -31349], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([95592, -31223], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([69663, -25674], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([70236, -27478], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([74195, -25336], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([78277, -26569], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83414, -26890], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83672, -25016], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83691, -27590], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83447, -28348], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82227, -26136], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82211, -26460], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88954, -24754], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91017, -25385], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91498, -24631], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([95437, -27165], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97917, -25994], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97723, -25024], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96894, -25297], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([95918, -25012], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([66479, -22278], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([73191, -22654], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([76486, -22725], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([74886, -22722], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([81588, -22021], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([80153, -20945], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([80245, -23295], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([81563, -22122], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([79252, -20676], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([80519, -21003], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85331, -20640], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82150, -22278], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83883, -21635], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83316, -23816], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([84992, -23188], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82709, -21028], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([84133, -21475], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85367, -24135], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([84274, -21679], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([84583, -23480], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82286, -23580], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82322, -22455], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82784, -21513], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85521, -20912], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([89947, -24470], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88419, -22871], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([86946, -22322], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87279, -24304], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88000, -24236], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([89239, -22822], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([89847, -21956], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87537, -22957], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([90084, -21465], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([89867, -22243], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91607, -24429], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92816, -22185], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91821, -24025], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91503, -24427], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92839, -22990], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92828, -22269], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([93877, -20953], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([93128, -23722], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94797, -23673], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([95350, -21313], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94341, -23932], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94419, -24138], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([67832, -18439], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([69539, -16725], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([76642, -17052], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([81157, -17516], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([81327, -18659], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([81278, -20114], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([78006, -17708], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85175, -19012], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82589, -19026], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82702, -19921], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85263, -19520], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82618, -17970], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83076, -17852], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([81930, -17564], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88863, -17273], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87620, -17223], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92283, -19585], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92368, -19267], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92657, -16505], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([90155, -17771], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([71209, -13026], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85548, -14657], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([84284, -14246], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82453, -15483], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82008, -15990], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85487, -14530], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82475, -15669], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83189, -15719], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([86058, -14814], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94980, -14772], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94796, -14907], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96699, -15143], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96061, -16034], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([69556, -10363], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([85141, -11988], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([90535, -10182], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([66804, -828], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39860, -25856], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39973, -25764], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43472, -27279], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37472, -22420], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([64094, -21652], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([61697, -9061], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([42658, -5397], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([44408, -7664], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([50508, -6127], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([60384, -7626], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([65488, -7688], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([63956, -7046], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([52588, -1609], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31340, -32051], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31148, -30239], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26729, -28135], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3085, -23380], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3401, -22924], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([23772, -12708], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1677, -11826], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1556, -11889], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5983, -9896], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5840, -9939], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([103325, -64038], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([105314, -64333], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([104893, -64109], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([115840, -60811], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([129071, -58209], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([128910, -58296], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([129086, -58004], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([100490, -55665], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([130769, -51231], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([130548, -51221], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([130441, -50955], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([106183, -48607], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([106289, -48857], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([112111, -46437], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([120428, -47945], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([102182, -37672], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88616, -65234], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96798, -63844], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97069, -63746], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91608, -56692], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88103, -45648], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94601, -45476], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94484, -45328], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96716, -39004], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96905, -38997], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92254, -33533], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91218, -35326], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([40058, -62033], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38354, -63540], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38441, -63867], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37375, -58338], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37163, -58432], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35560, -53775], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43803, -54408], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([41520, -55742], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([42461, -55296], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([36268, -52004], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([36528, -49799], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([36235, -50155], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37321, -52448], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38826, -51477], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([41200, -51052], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([41918, -50063], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35938, -48731], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([33473, -47301], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([42206, -35222], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1886, -64367], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8452, -62901], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8838, -64479], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([9545, -63126], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10717, -62691], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10311, -63764], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16018, -64307], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15826, -61616], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([13184, -63722], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18744, -64062], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18531, -64048], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([30793, -61725], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32413, -62115], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3720, -58983], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([2731, -60398], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31099, -60899], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5212, -56069], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5342, -55596], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([13131, -55125], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([12478, -53981], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([17212, -54952], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18294, -53585], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16930, -56515], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22926, -53871], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([28021, -56380], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([2105, -50624], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1541, -49980], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3262, -50378], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22088, -51119], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([23044, -52001], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27598, -50404], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32032, -49831], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29314, -51931], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31958, -52057], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([2149, -48318], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([2423, -47796], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3677, -48686], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10909, -46854], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([17854, -46408], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19322, -47215], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29280, -45558], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29264, -47655], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32339, -46284], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7869, -43855], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([12040, -41829], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([13766, -42455], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15983, -41948], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18686, -43058], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19448, -41856], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([21595, -42380], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27524, -43793], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27013, -43393], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([30193, -44282], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29471, -41449], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7734, -40808], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([17312, -37105], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19279, -40003], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22670, -37214], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([23520, -38533], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25819, -39760], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26004, -38720], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([28737, -39489], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29320, -40414], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27914, -36068], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([101489, -96962], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([101657, -97059], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([105379, -97395], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([99397, -87985], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([105502, -81553], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([105929, -78124], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([105183, -78998], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([105269, -79034], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([99054, -71601], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([112246, -72355], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([118663, -72035], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87546, -96747], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([90688, -95260], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91226, -95243], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96058, -95974], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([72017, -92674], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([72375, -92748], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([80295, -93187], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([80325, -93393], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92184, -87712], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([66228, -84258], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([66174, -84517], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([75791, -84366], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83919, -83766], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([84055, -83881], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88276, -78170], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87413, -78311], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([95350, -81020], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([96803, -79314], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92614, -74213], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([93563, -73864], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([46836, -96242], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([48908, -95799], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([46769, -96045], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([49089, -95766], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([40010, -93820], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([40242, -93744], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([57153, -91914], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([57054, -92344], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([56204, -91207], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39124, -90060], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39229, -89800], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([49885, -88922], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([49677, -88863], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35145, -82208], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35211, -82474], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([34609, -82650], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([54624, -83881], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([54506, -84089], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35612, -78023], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39399, -79276], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39116, -79466], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39125, -79288], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43441, -79680], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43314, -79732], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43763, -79091], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35480, -77768], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35968, -77437], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([36092, -77659], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39191, -76654], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39357, -76866], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([42006, -75635], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38516, -71921], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38333, -71885], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38428, -72025], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([44049, -70345], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39042, -67255], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37352, -68966], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([44083, -65826], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([9845, -97922], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10217, -97846], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10163, -98062], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8440, -94962], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8673, -94989], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18467, -97687], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18093, -97800], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18440, -97922], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7520, -91783], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7378, -91610], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7703, -91368], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15139, -91153], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15341, -91224], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15564, -90869], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31614, -90350], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31635, -90542], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31163, -90403], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10983, -89319], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([11098, -89678], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10981, -88618], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([11641, -89007], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32428, -86139], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32305, -86359], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32103, -86333], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29965, -86183], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29906, -86478], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6052, -85109], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5808, -84756], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6027, -85432], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8924, -83051], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8446, -84567], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8644, -84385], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([17276, -82713], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([17127, -82923], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([21590, -84989], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22409, -85269], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22369, -84767], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22494, -85080], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25316, -84346], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25496, -84559], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25415, -84880], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26369, -84307], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8916, -81692], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8917, -81361], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16890, -80686], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16819, -79205], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([17748, -79876], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([17576, -79704], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6749, -76835], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1918, -71853], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([2555, -70840], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3233, -70075], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5889, -70025], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22586, -72449], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22718, -71426], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26824, -71435], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27008, -71282], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26822, -71214], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29346, -71877], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29265, -71766], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29364, -71666], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6943, -67305], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([9584, -66057], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([11163, -67203], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8359, -66547], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26292, -67019], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26081, -67080], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25922, -66987], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([101886, -129252], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([98831, -129892], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([100959, -128447], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([103812, -130477], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([106664, -127393], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([110096, -129751], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([112607, -128254], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([119076, -128274], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([122764, -130279], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([125193, -130555], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([128598, -130509], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([99786, -126516], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([100871, -123792], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([109960, -125503], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([109667, -123835], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([115618, -124043], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([116876, -126811], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([119933, -126499], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([121556, -123590], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([124215, -126561], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([125557, -126590], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([99644, -118963], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([109951, -121342], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([109940, -119301], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([113709, -119263], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([115081, -121517], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([122041, -120179], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([125014, -122178], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([98454, -113925], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([98536, -114072], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([99989, -112008], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([105236, -104561], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88873, -128386], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([86776, -129460], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94389, -130490], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([86784, -124382], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97464, -123256], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97152, -123446], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88350, -121082], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([90511, -119163], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([98082, -119859], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97994, -120418], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([65804, -117498], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([75868, -116550], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([76120, -116553], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83508, -116816], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83818, -116782], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([89741, -111826], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([89731, -111963], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([89907, -111857], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([70449, -108826], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([79267, -107811], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([79534, -107762], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87612, -104392], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87577, -104636], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97826, -105486], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([98036, -105424], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([67236, -100257], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([74373, -100641], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([82803, -99193], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([83433, -99003], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([40680, -127585], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([40199, -128849], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([64333, -129591], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([64323, -129415], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([33422, -123495], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([34007, -123887], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([40362, -124991], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37036, -124171], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([41260, -125502], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([44425, -125235], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([44464, -125080], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([44636, -123497], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([60018, -123867], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([36661, -121222], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([39966, -120605], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37676, -121051], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37800, -122302], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38014, -122301], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38553, -122601], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43825, -119374], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43484, -119048], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([44935, -121501], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43557, -120089], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([47380, -118945], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([57791, -118951], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([62462, -120752], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([62208, -119454], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([63383, -119368], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([36554, -118756], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([37296, -117455], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([42306, -116658], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([51427, -117442], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([51895, -117827], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([54197, -116279], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([54052, -116119], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35816, -114076], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35818, -114301], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([45870, -113401], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([45293, -112707], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([45505, -110884], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([50547, -112619], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([50978, -113260], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([55262, -113971], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([55421, -114029], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([65166, -112318], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([42294, -108898], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([46567, -107906], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([45292, -108027], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([55894, -108833], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([56150, -109197], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([56435, -109223], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([60831, -108870], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([60178, -106926], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([64805, -109889], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([57115, -103549], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([57275, -104022], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([59468, -106455], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43818, -99982], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([43814, -100168], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3468, -128314], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([889, -130538], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7090, -127150], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10394, -129167], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([13637, -130997], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([12955, -129278], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([12485, -127252], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([21042, -130689], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([21252, -130759], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([28509, -128815], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27838, -129311], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32089, -129152], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31899, -129466], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32178, -129647], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3771, -125385], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([3048, -124257], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8945, -124467], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([12729, -124289], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([20263, -126141], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19260, -125215], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([23158, -124341], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([28109, -124185], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([28253, -124511], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27270, -126050], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31786, -123006], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31488, -124274], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([2159, -121128], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7307, -121870], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26781, -122694], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26302, -120727], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6196, -117129], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([24409, -115256], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([24370, -114886], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26875, -117827], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26829, -117983], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([14073, -112838], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([30542, -112601], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([30720, -112496], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([4917, -106509], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10242, -109031], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10455, -108928], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16007, -108448], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16302, -108557], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16278, -108454], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19953, -108865], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([9691, -102421], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([13336, -105236], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19711, -104919], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19887, -105140], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1834, -98728], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1012, -99485], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([747, -100780], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([9552, -102227], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8842, -101737], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22624, -161640], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14374, -163645], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14690, -154732], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14553, -154413], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15189, -152578], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16150, -149146], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6077, -145408], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5927, -145541], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6424, -144215], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-7931, -143631], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-885, -145284], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14281, -141101], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14848, -141753], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-12897, -142092], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8731, -141487], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-9851, -141934], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6757, -141609], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6674, -141766], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6406, -139535], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-6377, -139304], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1344, -141343], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1808, -140967], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-594, -140250], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-414, -140948], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-14633, -136555], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15184, -137905], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-8439, -136040], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11625, -137034], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5248, -136846], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-5940, -135511], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3897, -137988], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3174, -135921], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1748, -135992], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3869, -136061], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1483, -135622], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11179, -131420], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-1142, -131203], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-714, -132641], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-3025, -132630], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-26097, -189291], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-22734, -190791], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11182, -189669], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-13692, -188394], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-31745, -182720], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-23475, -182963], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-11227, -183798], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15560, -178065], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15097, -175693], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-31051, -171282], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-29196, -169413], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-23207, -170017], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-16211, -170411], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-31974, -164116], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-29481, -165612], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-23935, -165228], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-15101, -166449], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-33630, -185560], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-35950, -186958], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-39596, -180743], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-35851, -183085], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-38395, -178325], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-34617, -175767], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-42556, -171575], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-39127, -167872], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([197870, -152636], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([197688, -149721], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([197573, -149758], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([198191, -140163], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([201208, -141077], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([187828, -159319], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([192969, -156830], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193750, -154070], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193710, -153959], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([176951, -149379], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([177283, -149675], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([180720, -148590], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([181116, -148812], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193743, -150526], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([173961, -146277], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([174270, -144868], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([178368, -145944], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([177929, -145790], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([177392, -146600], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([176884, -145439], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193484, -145803], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([173928, -140988], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([173790, -140988], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([174602, -140971], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([174470, -140930], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([182439, -141305], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193972, -142237], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([193996, -142121], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([181761, -139010], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([192882, -134247], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([136951, -161957], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([142229, -159892], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([143283, -154123], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([149935, -154114], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([134425, -148466], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([137219, -150409], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([133687, -145030], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([149484, -144041], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([153593, -135631], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([136614, -166113], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([130533, -160028], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([117890, -139698], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([128697, -140576], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([101130, -136961], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([99635, -139126], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([106155, -138813], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([106011, -136171], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([107582, -137694], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([113873, -138190], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([112968, -135820], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([116886, -136188], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([117282, -138662], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([120942, -138264], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([122077, -135581], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([123102, -138436], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([125159, -139044], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([99834, -134724], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([102759, -132616], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([102781, -133568], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([106334, -132796], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([108207, -132251], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([113025, -134019], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([113496, -132091], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([116872, -134976], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([118030, -131799], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([119787, -133954], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([121732, -131680], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([124863, -133269], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([125623, -134857], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88281, -138253], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([93325, -138627], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97240, -136596], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([88894, -131862], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([91529, -134865], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([92752, -131882], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([94493, -133442], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([97238, -134207], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([46329, -153353], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([46136, -153118], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([55802, -148018], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([55985, -148297], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([55009, -147686], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([62979, -147639], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([63051, -147859], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([58183, -146033], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([57881, -145829], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([50461, -140890], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([50457, -140617], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([53950, -139832], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([54144, -140084], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([61253, -142199], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([60958, -142704], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([34933, -136381], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([35192, -135246], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([36685, -137046], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38752, -136105], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([45661, -136476], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15680, -152229], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18749, -152342], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([16487, -151716], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([20945, -151610], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([21005, -151748], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([20557, -151743], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6214, -149386], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8113, -148084], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([4761, -149838], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([4644, -148783], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10237, -150242], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([11884, -151221], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8972, -151189], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10107, -148295], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15563, -150075], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([18772, -147798], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5477, -145077], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6870, -144807], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8545, -146052], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([10762, -142180], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([14454, -142007], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15807, -141510], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15105, -139696], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31668, -141556], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31437, -141475], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([30667, -141888], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([714, -136795], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([800, -138458], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([4250, -136703], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6722, -137385], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6117, -137856], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([8558, -137637], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([14859, -136944], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([22926, -138382], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([23481, -138072], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25964, -135517], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27162, -138327], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([31083, -135565], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29856, -135353], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([1155, -132469], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([4526, -134218], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([5194, -133385], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7485, -133902], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([7315, -132913], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([6606, -133795], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([11246, -133203], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([15352, -134392], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([14405, -133891], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([19656, -133089], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([20124, -131258], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([20210, -133305], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25731, -134347], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25863, -132588], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26198, -133660], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([25225, -133795], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([32402, -132571], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([30658, -134938], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29269, -134783], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([124004, -164084], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([127976, -164058], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([87670, -164203], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([113247, 119563], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([69855, 1083], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([72268, 6978], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([71424, 11075], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([71939, 15707], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([70275, 13834], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([65734, 17103], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([34958, 3659], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([58117, 3333], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([41144, 4604], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([46790, 6091], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([50986, 7228], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([52052, 7833], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([60566, 4369], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([61239, 6412], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38549, 10006], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([38662, 9869], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([46198, 15640], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([64783, 16329], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([34549, 18697], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([34461, 18601], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([56754, 17262], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([62386, 16711], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([33473, 22520], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([33379, 22518], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([59723, 24362], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([47721, 26451], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([49898, 25677], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([55827, 27269], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([59619, 27932], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([58909, 27773], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([14659, 2900], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([14657, 3089], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([9120, 5487], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([27764, 8093], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([29574, 6852], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([20730, 11503], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([20833, 11645], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26888, 17692], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([26996, 17747], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([24833, 20818], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([24899, 20940], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
+			[-17411, -29427],
+			[-8815, -27884],
+			[-9181, -27805],
+			[-1478, -25523],
+			[-1721, -25517],
+			[-26751, -23547],
+			[-6258, -16805],
+			[-27670, -63132],
+			[-27823, -62867],
+			[-26258, -64717],
+			[-24732, -65080],
+			[-20751, -65127],
+			[-23084, -65015],
+			[-19675, -63002],
+			[-18005, -64912],
+			[-11816, -63262],
+			[-2524, -63902],
+			[-2403, -64732],
+			[-1550, -64296],
+			[-907, -63542],
+			[-3036, -61962],
+			[-24658, -58030],
+			[-22008, -60200],
+			[-18422, -61335],
+			[-19548, -59582],
+			[-17104, -59719],
+			[-14622, -60988],
+			[-14105, -60175],
+			[-15388, -61006],
+			[-11556, -60030],
+			[-11250, -59688],
+			[-6260, -58851],
+			[-3447, -60667],
+			[-2926, -60010],
+			[-17335, -55027],
+			[-19033, -53428],
+			[-18545, -54079],
+			[-9100, -56177],
+			[-6598, -53829],
+			[-7759, -55528],
+			[-5064, -57170],
+			[-2773, -56941],
+			[-3474, -56536],
+			[-3078, -53843],
+			[-17426, -49661],
+			[-6090, -52485],
+			[-3073, -51002],
+			[-2010, -52859],
+			[-313, -51978],
+			[-22384, -45995],
+			[-19065, -45539],
+			[-32658, -42899],
+			[-26216, -42023],
+			[-22769, -43440],
+			[-23281, -41580],
+			[-17443, -41049],
+			[-16890, -40974],
+			[-16205, -41233],
+			[-12735, -41723],
+			[-11955, -41906],
+			[-30436, -37434],
+			[-30602, -39952],
+			[-22821, -40094],
+			[-14340, -39951],
+			[-14832, -37717],
+			[-12545, -37540],
+			[-8672, -39622],
+			[-11225, -37451],
+			[-63362, -62731],
+			[-65353, -62694],
+			[-58577, -62234],
+			[-60254, -64208],
+			[-63616, -54785],
+			[-64346, -56424],
+			[-35252, -45463],
+			[-64579, -44194],
+			[-45804, -41292],
+			[-43897, -41264],
+			[-42104, -42168],
+			[-40549, -43545],
+			[-38771, -41330],
+			[-34026, -42659],
+			[-56716, -40409],
+			[-53900, -39049],
+			[-51968, -38368],
+			[-48514, -40134],
+			[-45899, -38507],
+			[-39461, -40051],
+			[-35836, -39156],
+			[-75430, -64861],
+			[-74400, -62074],
+			[-71963, -57448],
+			[-83328, -55672],
+			[-83328, -56231],
+			[-82941, -55803],
+			[-66916, -49926],
+			[-66447, -48648],
+			[-75145, -43451],
+			[-73276, -42913],
+			[-66545, -43590],
+			[-16479, -95428],
+			[-19497, -96404],
+			[-12705, -95916],
+			[-12970, -96057],
+			[-11276, -96762],
+			[-11543, -96649],
+			[-8951, -95577],
+			[-14767, -92232],
+			[-15145, -91892],
+			[-15010, -91737],
+			[-15752, -93297],
+			[-5375, -89430],
+			[-5182, -89368],
+			[-2450, -86898],
+			[-1679, -87263],
+			[-1101, -87331],
+			[-870, -87439],
+			[-10075, -82239],
+			[-10190, -82484],
+			[-5682, -84228],
+			[-5390, -83861],
+			[-5414, -83674],
+			[-8050, -83987],
+			[-7916, -83550],
+			[-565, -85103],
+			[-398, -84940],
+			[-632, -84278],
+			[-16036, -79163],
+			[-15971, -79954],
+			[-14746, -78295],
+			[-14887, -79128],
+			[-14629, -78779],
+			[-26305, -74038],
+			[-26581, -74122],
+			[-26520, -73928],
+			[-24849, -76894],
+			[-20952, -74821],
+			[-22859, -74719],
+			[-21435, -77329],
+			[-24202, -76864],
+			[-18059, -77147],
+			[-19328, -77222],
+			[-18932, -75194],
+			[-18601, -74317],
+			[-4896, -74912],
+			[-5491, -77553],
+			[-1816, -74998],
+			[-28899, -71866],
+			[-23867, -72343],
+			[-22373, -72519],
+			[-21188, -70283],
+			[-16484, -72866],
+			[-18057, -70066],
+			[-6537, -70530],
+			[-6286, -69881],
+			[-30727, -65870],
+			[-29822, -68419],
+			[-27688, -66076],
+			[-25606, -65986],
+			[-25703, -68269],
+			[-16971, -68109],
+			[-10052, -65895],
+			[-8276, -66965],
+			[-8815, -67853],
+			[-60391, -97402],
+			[-60685, -97122],
+			[-56878, -95675],
+			[-63799, -93218],
+			[-54580, -91962],
+			[-65124, -88532],
+			[-62501, -89510],
+			[-54296, -87513],
+			[-52146, -89836],
+			[-55124, -76827],
+			[-54875, -76022],
+			[-49853, -76447],
+			[-45667, -76886],
+			[-45318, -74050],
+			[-44262, -76738],
+			[-42289, -76808],
+			[-43543, -76010],
+			[-37099, -74129],
+			[-38440, -75399],
+			[-37739, -77700],
+			[-35877, -76512],
+			[-46494, -72976],
+			[-41296, -72196],
+			[-38232, -72202],
+			[-39502, -73136],
+			[-34933, -70527],
+			[-33422, -72784],
+			[-32976, -68950],
+			[-74622, -97208],
+			[-75864, -97752],
+			[-72509, -95864],
+			[-69228, -94943],
+			[-80688, -93963],
+			[-75478, -92381],
+			[-71404, -91725],
+			[-67130, -93064],
+			[-69134, -91525],
+			[-78998, -89435],
+			[-76208, -87452],
+			[-76438, -88978],
+			[-71189, -86619],
+			[-70806, -89447],
+			[-68169, -87023],
+			[-65883, -86861],
+			[-68371, -88856],
+			[-66013, -86815],
+			[-70820, -85578],
+			[-68622, -85688],
+			[-66449, -74351],
+			[-76735, -67021],
+			[-25063, -128893],
+			[-24905, -128869],
+			[-24510, -128755],
+			[-24278, -128650],
+			[-13736, -127879],
+			[-15106, -128237],
+			[-8450, -128780],
+			[-6579, -128925],
+			[-5619, -128788],
+			[-1941, -128520],
+			[-15602, -125682],
+			[-15818, -123376],
+			[-12498, -125631],
+			[-6219, -123908],
+			[-5207, -121470],
+			[-4342, -121270],
+			[-6371, -121742],
+			[-7441, -120599],
+			[-3600, -121332],
+			[-2336, -120056],
+			[-1887, -119485],
+			[-20801, -115606],
+			[-20743, -117330],
+			[-8474, -115050],
+			[-5149, -116221],
+			[-2849, -118412],
+			[-3062, -117540],
+			[-22664, -114618],
+			[-7362, -112671],
+			[-3759, -112321],
+			[-2748, -111686],
+			[-1076, -113136],
+			[-28054, -107025],
+			[-14433, -107192],
+			[-14217, -107041],
+			[-14511, -108188],
+			[-10564, -108188],
+			[-8985, -109591],
+			[-2095, -106798],
+			[-1921, -106845],
+			[-27191, -102621],
+			[-26311, -105861],
+			[-22136, -105492],
+			[-17741, -103105],
+			[-20044, -103954],
+			[-9134, -104085],
+			[-9088, -104299],
+			[-9429, -103190],
+			[-15479, -102074],
+			[-15312, -102065],
+			[-12152, -99769],
+			[-12013, -99769],
+			[-57327, -111105],
+			[-64369, -106663],
+			[-63727, -109554],
+			[-64234, -106731],
+			[-65248, -110009],
+			[-58727, -108675],
+			[-59158, -108199],
+			[-64313, -103566],
+			[-62186, -105873],
+			[-59754, -102767],
+			[-59176, -105884],
+			[-59744, -102888],
+			[-55966, -106117],
+			[-63068, -99020],
+			[-43328, -101877],
+			[-43911, -101831],
+			[-43671, -101881],
+			[-67161, -113473],
+			[-67074, -112954],
+			[-70898, -107726],
+			[-73468, -110193],
+			[-71130, -110154],
+			[-75999, -105274],
+			[-72937, -106451],
+			[-77185, -99980],
+			[-73047, -102246],
+			[-73037, -102377],
+			[-72000, -100961],
+			[-65885, -101993],
+			[-68262, -101414],
+			[-65874, -102209],
+			[-67103, -98713],
+			[197190, -88390],
+			[168912, -95454],
+			[168993, -95339],
+			[188200, -95330],
+			[191713, -79809],
+			[147767, -96752],
+			[157652, -95098],
+			[157334, -94538],
+			[157466, -94681],
+			[153272, -91191],
+			[153396, -91340],
+			[138807, -79801],
+			[137856, -79002],
+			[137007, -81056],
+			[137037, -80686],
+			[136416, -81775],
+			[136732, -81277],
+			[132896, -76451],
+			[134278, -76157],
+			[133977, -75439],
+			[202509, -114996],
+			[201907, -109116],
+			[196608, -103374],
+			[202963, -99315],
+			[178200, -130369],
+			[168854, -125448],
+			[193181, -125500],
+			[171877, -118944],
+			[179330, -113274],
+			[184792, -104796],
+			[181264, -98602],
+			[139186, -127396],
+			[140318, -128105],
+			[149228, -124569],
+			[161375, -123975],
+			[132449, -120597],
+			[157254, -117807],
+			[161148, -118636],
+			[145564, -108666],
+			[159613, -104536],
+			[150358, -100564],
+			[75920, -30694],
+			[75708, -29676],
+			[87893, -29114],
+			[88112, -31349],
+			[95592, -31223],
+			[69663, -25674],
+			[70236, -27478],
+			[74195, -25336],
+			[78277, -26569],
+			[83414, -26890],
+			[83672, -25016],
+			[83691, -27590],
+			[83447, -28348],
+			[82227, -26136],
+			[82211, -26460],
+			[88954, -24754],
+			[91017, -25385],
+			[91498, -24631],
+			[95437, -27165],
+			[97917, -25994],
+			[97723, -25024],
+			[96894, -25297],
+			[95918, -25012],
+			[66479, -22278],
+			[73191, -22654],
+			[76486, -22725],
+			[74886, -22722],
+			[81588, -22021],
+			[80153, -20945],
+			[80245, -23295],
+			[81563, -22122],
+			[79252, -20676],
+			[80519, -21003],
+			[85331, -20640],
+			[82150, -22278],
+			[83883, -21635],
+			[83316, -23816],
+			[84992, -23188],
+			[82709, -21028],
+			[84133, -21475],
+			[85367, -24135],
+			[84274, -21679],
+			[84583, -23480],
+			[82286, -23580],
+			[82322, -22455],
+			[82784, -21513],
+			[85521, -20912],
+			[89947, -24470],
+			[88419, -22871],
+			[86946, -22322],
+			[87279, -24304],
+			[88000, -24236],
+			[89239, -22822],
+			[89847, -21956],
+			[87537, -22957],
+			[90084, -21465],
+			[89867, -22243],
+			[91607, -24429],
+			[92816, -22185],
+			[91821, -24025],
+			[91503, -24427],
+			[92839, -22990],
+			[92828, -22269],
+			[93877, -20953],
+			[93128, -23722],
+			[94797, -23673],
+			[95350, -21313],
+			[94341, -23932],
+			[94419, -24138],
+			[67832, -18439],
+			[69539, -16725],
+			[76642, -17052],
+			[81157, -17516],
+			[81327, -18659],
+			[81278, -20114],
+			[78006, -17708],
+			[85175, -19012],
+			[82589, -19026],
+			[82702, -19921],
+			[85263, -19520],
+			[82618, -17970],
+			[83076, -17852],
+			[81930, -17564],
+			[88863, -17273],
+			[87620, -17223],
+			[92283, -19585],
+			[92368, -19267],
+			[92657, -16505],
+			[90155, -17771],
+			[71209, -13026],
+			[85548, -14657],
+			[84284, -14246],
+			[82453, -15483],
+			[82008, -15990],
+			[85487, -14530],
+			[82475, -15669],
+			[83189, -15719],
+			[86058, -14814],
+			[94980, -14772],
+			[94796, -14907],
+			[96699, -15143],
+			[96061, -16034],
+			[69556, -10363],
+			[85141, -11988],
+			[90535, -10182],
+			[66804, -828],
+			[39860, -25856],
+			[39973, -25764],
+			[43472, -27279],
+			[37472, -22420],
+			[64094, -21652],
+			[61697, -9061],
+			[42658, -5397],
+			[44408, -7664],
+			[50508, -6127],
+			[60384, -7626],
+			[65488, -7688],
+			[63956, -7046],
+			[52588, -1609],
+			[31340, -32051],
+			[31148, -30239],
+			[26729, -28135],
+			[3085, -23380],
+			[3401, -22924],
+			[23772, -12708],
+			[1677, -11826],
+			[1556, -11889],
+			[5983, -9896],
+			[5840, -9939],
+			[103325, -64038],
+			[105314, -64333],
+			[104893, -64109],
+			[115840, -60811],
+			[129071, -58209],
+			[128910, -58296],
+			[129086, -58004],
+			[100490, -55665],
+			[130769, -51231],
+			[130548, -51221],
+			[130441, -50955],
+			[106183, -48607],
+			[106289, -48857],
+			[112111, -46437],
+			[120428, -47945],
+			[102182, -37672],
+			[88616, -65234],
+			[96798, -63844],
+			[97069, -63746],
+			[91608, -56692],
+			[88103, -45648],
+			[94601, -45476],
+			[94484, -45328],
+			[96716, -39004],
+			[96905, -38997],
+			[92254, -33533],
+			[91218, -35326],
+			[40058, -62033],
+			[38354, -63540],
+			[38441, -63867],
+			[37375, -58338],
+			[37163, -58432],
+			[35560, -53775],
+			[43803, -54408],
+			[41520, -55742],
+			[42461, -55296],
+			[36268, -52004],
+			[36528, -49799],
+			[36235, -50155],
+			[37321, -52448],
+			[38826, -51477],
+			[41200, -51052],
+			[41918, -50063],
+			[35938, -48731],
+			[33473, -47301],
+			[42206, -35222],
+			[1886, -64367],
+			[8452, -62901],
+			[8838, -64479],
+			[9545, -63126],
+			[10717, -62691],
+			[10311, -63764],
+			[16018, -64307],
+			[15826, -61616],
+			[13184, -63722],
+			[18744, -64062],
+			[18531, -64048],
+			[30793, -61725],
+			[32413, -62115],
+			[3720, -58983],
+			[2731, -60398],
+			[31099, -60899],
+			[5212, -56069],
+			[5342, -55596],
+			[13131, -55125],
+			[12478, -53981],
+			[17212, -54952],
+			[18294, -53585],
+			[16930, -56515],
+			[22926, -53871],
+			[28021, -56380],
+			[2105, -50624],
+			[1541, -49980],
+			[3262, -50378],
+			[22088, -51119],
+			[23044, -52001],
+			[27598, -50404],
+			[32032, -49831],
+			[29314, -51931],
+			[31958, -52057],
+			[2149, -48318],
+			[2423, -47796],
+			[3677, -48686],
+			[10909, -46854],
+			[17854, -46408],
+			[19322, -47215],
+			[29280, -45558],
+			[29264, -47655],
+			[32339, -46284],
+			[7869, -43855],
+			[12040, -41829],
+			[13766, -42455],
+			[15983, -41948],
+			[18686, -43058],
+			[19448, -41856],
+			[21595, -42380],
+			[27524, -43793],
+			[27013, -43393],
+			[30193, -44282],
+			[29471, -41449],
+			[7734, -40808],
+			[17312, -37105],
+			[19279, -40003],
+			[22670, -37214],
+			[23520, -38533],
+			[25819, -39760],
+			[26004, -38720],
+			[28737, -39489],
+			[29320, -40414],
+			[27914, -36068],
+			[101489, -96962],
+			[101657, -97059],
+			[105379, -97395],
+			[99397, -87985],
+			[105502, -81553],
+			[105929, -78124],
+			[105183, -78998],
+			[105269, -79034],
+			[99054, -71601],
+			[112246, -72355],
+			[118663, -72035],
+			[87546, -96747],
+			[90688, -95260],
+			[91226, -95243],
+			[96058, -95974],
+			[72017, -92674],
+			[72375, -92748],
+			[80295, -93187],
+			[80325, -93393],
+			[92184, -87712],
+			[66228, -84258],
+			[66174, -84517],
+			[75791, -84366],
+			[83919, -83766],
+			[84055, -83881],
+			[88276, -78170],
+			[87413, -78311],
+			[95350, -81020],
+			[96803, -79314],
+			[92614, -74213],
+			[93563, -73864],
+			[46836, -96242],
+			[48908, -95799],
+			[46769, -96045],
+			[49089, -95766],
+			[40010, -93820],
+			[40242, -93744],
+			[57153, -91914],
+			[57054, -92344],
+			[56204, -91207],
+			[39124, -90060],
+			[39229, -89800],
+			[49885, -88922],
+			[49677, -88863],
+			[35145, -82208],
+			[35211, -82474],
+			[34609, -82650],
+			[54624, -83881],
+			[54506, -84089],
+			[35612, -78023],
+			[39399, -79276],
+			[39116, -79466],
+			[39125, -79288],
+			[43441, -79680],
+			[43314, -79732],
+			[43763, -79091],
+			[35480, -77768],
+			[35968, -77437],
+			[36092, -77659],
+			[39191, -76654],
+			[39357, -76866],
+			[42006, -75635],
+			[38516, -71921],
+			[38333, -71885],
+			[38428, -72025],
+			[44049, -70345],
+			[39042, -67255],
+			[37352, -68966],
+			[44083, -65826],
+			[9845, -97922],
+			[10217, -97846],
+			[10163, -98062],
+			[8440, -94962],
+			[8673, -94989],
+			[18467, -97687],
+			[18093, -97800],
+			[18440, -97922],
+			[7520, -91783],
+			[7378, -91610],
+			[7703, -91368],
+			[15139, -91153],
+			[15341, -91224],
+			[15564, -90869],
+			[31614, -90350],
+			[31635, -90542],
+			[31163, -90403],
+			[10983, -89319],
+			[11098, -89678],
+			[10981, -88618],
+			[11641, -89007],
+			[32428, -86139],
+			[32305, -86359],
+			[32103, -86333],
+			[29965, -86183],
+			[29906, -86478],
+			[6052, -85109],
+			[5808, -84756],
+			[6027, -85432],
+			[8924, -83051],
+			[8446, -84567],
+			[8644, -84385],
+			[17276, -82713],
+			[17127, -82923],
+			[21590, -84989],
+			[22409, -85269],
+			[22369, -84767],
+			[22494, -85080],
+			[25316, -84346],
+			[25496, -84559],
+			[25415, -84880],
+			[26369, -84307],
+			[8916, -81692],
+			[8917, -81361],
+			[16890, -80686],
+			[16819, -79205],
+			[17748, -79876],
+			[17576, -79704],
+			[6749, -76835],
+			[1918, -71853],
+			[2555, -70840],
+			[3233, -70075],
+			[5889, -70025],
+			[22586, -72449],
+			[22718, -71426],
+			[26824, -71435],
+			[27008, -71282],
+			[26822, -71214],
+			[29346, -71877],
+			[29265, -71766],
+			[29364, -71666],
+			[6943, -67305],
+			[9584, -66057],
+			[11163, -67203],
+			[8359, -66547],
+			[26292, -67019],
+			[26081, -67080],
+			[25922, -66987],
+			[101886, -129252],
+			[98831, -129892],
+			[100959, -128447],
+			[103812, -130477],
+			[106664, -127393],
+			[110096, -129751],
+			[112607, -128254],
+			[119076, -128274],
+			[122764, -130279],
+			[125193, -130555],
+			[128598, -130509],
+			[99786, -126516],
+			[100871, -123792],
+			[109960, -125503],
+			[109667, -123835],
+			[115618, -124043],
+			[116876, -126811],
+			[119933, -126499],
+			[121556, -123590],
+			[124215, -126561],
+			[125557, -126590],
+			[99644, -118963],
+			[109951, -121342],
+			[109940, -119301],
+			[113709, -119263],
+			[115081, -121517],
+			[122041, -120179],
+			[125014, -122178],
+			[98454, -113925],
+			[98536, -114072],
+			[99989, -112008],
+			[105236, -104561],
+			[88873, -128386],
+			[86776, -129460],
+			[94389, -130490],
+			[86784, -124382],
+			[97464, -123256],
+			[97152, -123446],
+			[88350, -121082],
+			[90511, -119163],
+			[98082, -119859],
+			[97994, -120418],
+			[65804, -117498],
+			[75868, -116550],
+			[76120, -116553],
+			[83508, -116816],
+			[83818, -116782],
+			[89741, -111826],
+			[89731, -111963],
+			[89907, -111857],
+			[70449, -108826],
+			[79267, -107811],
+			[79534, -107762],
+			[87612, -104392],
+			[87577, -104636],
+			[97826, -105486],
+			[98036, -105424],
+			[67236, -100257],
+			[74373, -100641],
+			[82803, -99193],
+			[83433, -99003],
+			[40680, -127585],
+			[40199, -128849],
+			[64333, -129591],
+			[64323, -129415],
+			[33422, -123495],
+			[34007, -123887],
+			[40362, -124991],
+			[37036, -124171],
+			[41260, -125502],
+			[44425, -125235],
+			[44464, -125080],
+			[44636, -123497],
+			[60018, -123867],
+			[36661, -121222],
+			[39966, -120605],
+			[37676, -121051],
+			[37800, -122302],
+			[38014, -122301],
+			[38553, -122601],
+			[43825, -119374],
+			[43484, -119048],
+			[44935, -121501],
+			[43557, -120089],
+			[47380, -118945],
+			[57791, -118951],
+			[62462, -120752],
+			[62208, -119454],
+			[63383, -119368],
+			[36554, -118756],
+			[37296, -117455],
+			[42306, -116658],
+			[51427, -117442],
+			[51895, -117827],
+			[54197, -116279],
+			[54052, -116119],
+			[35816, -114076],
+			[35818, -114301],
+			[45870, -113401],
+			[45293, -112707],
+			[45505, -110884],
+			[50547, -112619],
+			[50978, -113260],
+			[55262, -113971],
+			[55421, -114029],
+			[65166, -112318],
+			[42294, -108898],
+			[46567, -107906],
+			[45292, -108027],
+			[55894, -108833],
+			[56150, -109197],
+			[56435, -109223],
+			[60831, -108870],
+			[60178, -106926],
+			[64805, -109889],
+			[57115, -103549],
+			[57275, -104022],
+			[59468, -106455],
+			[43818, -99982],
+			[43814, -100168],
+			[3468, -128314],
+			[889, -130538],
+			[7090, -127150],
+			[10394, -129167],
+			[13637, -130997],
+			[12955, -129278],
+			[12485, -127252],
+			[21042, -130689],
+			[21252, -130759],
+			[28509, -128815],
+			[27838, -129311],
+			[32089, -129152],
+			[31899, -129466],
+			[32178, -129647],
+			[3771, -125385],
+			[3048, -124257],
+			[8945, -124467],
+			[12729, -124289],
+			[20263, -126141],
+			[19260, -125215],
+			[23158, -124341],
+			[28109, -124185],
+			[28253, -124511],
+			[27270, -126050],
+			[31786, -123006],
+			[31488, -124274],
+			[2159, -121128],
+			[7307, -121870],
+			[26781, -122694],
+			[26302, -120727],
+			[6196, -117129],
+			[24409, -115256],
+			[24370, -114886],
+			[26875, -117827],
+			[26829, -117983],
+			[14073, -112838],
+			[30542, -112601],
+			[30720, -112496],
+			[4917, -106509],
+			[10242, -109031],
+			[10455, -108928],
+			[16007, -108448],
+			[16302, -108557],
+			[16278, -108454],
+			[19953, -108865],
+			[9691, -102421],
+			[13336, -105236],
+			[19711, -104919],
+			[19887, -105140],
+			[1834, -98728],
+			[1012, -99485],
+			[747, -100780],
+			[9552, -102227],
+			[8842, -101737],
+			[-22624, -161640],
+			[-14374, -163645],
+			[-14690, -154732],
+			[-14553, -154413],
+			[-15189, -152578],
+			[-16150, -149146],
+			[-6077, -145408],
+			[-5927, -145541],
+			[-6424, -144215],
+			[-7931, -143631],
+			[-885, -145284],
+			[-14281, -141101],
+			[-14848, -141753],
+			[-12897, -142092],
+			[-8731, -141487],
+			[-9851, -141934],
+			[-6757, -141609],
+			[-6674, -141766],
+			[-6406, -139535],
+			[-6377, -139304],
+			[-1344, -141343],
+			[-1808, -140967],
+			[-594, -140250],
+			[-414, -140948],
+			[-14633, -136555],
+			[-15184, -137905],
+			[-8439, -136040],
+			[-11625, -137034],
+			[-5248, -136846],
+			[-5940, -135511],
+			[-3897, -137988],
+			[-3174, -135921],
+			[-1748, -135992],
+			[-3869, -136061],
+			[-1483, -135622],
+			[-11179, -131420],
+			[-1142, -131203],
+			[-714, -132641],
+			[-3025, -132630],
+			[-26097, -189291],
+			[-22734, -190791],
+			[-11182, -189669],
+			[-13692, -188394],
+			[-31745, -182720],
+			[-23475, -182963],
+			[-11227, -183798],
+			[-15560, -178065],
+			[-15097, -175693],
+			[-31051, -171282],
+			[-29196, -169413],
+			[-23207, -170017],
+			[-16211, -170411],
+			[-31974, -164116],
+			[-29481, -165612],
+			[-23935, -165228],
+			[-15101, -166449],
+			[-33630, -185560],
+			[-35950, -186958],
+			[-39596, -180743],
+			[-35851, -183085],
+			[-38395, -178325],
+			[-34617, -175767],
+			[-42556, -171575],
+			[-39127, -167872],
+			[197870, -152636],
+			[197688, -149721],
+			[197573, -149758],
+			[198191, -140163],
+			[201208, -141077],
+			[187828, -159319],
+			[192969, -156830],
+			[193750, -154070],
+			[193710, -153959],
+			[176951, -149379],
+			[177283, -149675],
+			[180720, -148590],
+			[181116, -148812],
+			[193743, -150526],
+			[173961, -146277],
+			[174270, -144868],
+			[178368, -145944],
+			[177929, -145790],
+			[177392, -146600],
+			[176884, -145439],
+			[193484, -145803],
+			[173928, -140988],
+			[173790, -140988],
+			[174602, -140971],
+			[174470, -140930],
+			[182439, -141305],
+			[193972, -142237],
+			[193996, -142121],
+			[181761, -139010],
+			[192882, -134247],
+			[136951, -161957],
+			[142229, -159892],
+			[143283, -154123],
+			[149935, -154114],
+			[134425, -148466],
+			[137219, -150409],
+			[133687, -145030],
+			[149484, -144041],
+			[153593, -135631],
+			[136614, -166113],
+			[130533, -160028],
+			[117890, -139698],
+			[128697, -140576],
+			[101130, -136961],
+			[99635, -139126],
+			[106155, -138813],
+			[106011, -136171],
+			[107582, -137694],
+			[113873, -138190],
+			[112968, -135820],
+			[116886, -136188],
+			[117282, -138662],
+			[120942, -138264],
+			[122077, -135581],
+			[123102, -138436],
+			[125159, -139044],
+			[99834, -134724],
+			[102759, -132616],
+			[102781, -133568],
+			[106334, -132796],
+			[108207, -132251],
+			[113025, -134019],
+			[113496, -132091],
+			[116872, -134976],
+			[118030, -131799],
+			[119787, -133954],
+			[121732, -131680],
+			[124863, -133269],
+			[125623, -134857],
+			[88281, -138253],
+			[93325, -138627],
+			[97240, -136596],
+			[88894, -131862],
+			[91529, -134865],
+			[92752, -131882],
+			[94493, -133442],
+			[97238, -134207],
+			[46329, -153353],
+			[46136, -153118],
+			[55802, -148018],
+			[55985, -148297],
+			[55009, -147686],
+			[62979, -147639],
+			[63051, -147859],
+			[58183, -146033],
+			[57881, -145829],
+			[50461, -140890],
+			[50457, -140617],
+			[53950, -139832],
+			[54144, -140084],
+			[61253, -142199],
+			[60958, -142704],
+			[34933, -136381],
+			[35192, -135246],
+			[36685, -137046],
+			[38752, -136105],
+			[45661, -136476],
+			[15680, -152229],
+			[18749, -152342],
+			[16487, -151716],
+			[20945, -151610],
+			[21005, -151748],
+			[20557, -151743],
+			[6214, -149386],
+			[8113, -148084],
+			[4761, -149838],
+			[4644, -148783],
+			[10237, -150242],
+			[11884, -151221],
+			[8972, -151189],
+			[10107, -148295],
+			[15563, -150075],
+			[18772, -147798],
+			[5477, -145077],
+			[6870, -144807],
+			[8545, -146052],
+			[10762, -142180],
+			[14454, -142007],
+			[15807, -141510],
+			[15105, -139696],
+			[31668, -141556],
+			[31437, -141475],
+			[30667, -141888],
+			[714, -136795],
+			[800, -138458],
+			[4250, -136703],
+			[6722, -137385],
+			[6117, -137856],
+			[8558, -137637],
+			[14859, -136944],
+			[22926, -138382],
+			[23481, -138072],
+			[25964, -135517],
+			[27162, -138327],
+			[31083, -135565],
+			[29856, -135353],
+			[1155, -132469],
+			[4526, -134218],
+			[5194, -133385],
+			[7485, -133902],
+			[7315, -132913],
+			[6606, -133795],
+			[11246, -133203],
+			[15352, -134392],
+			[14405, -133891],
+			[19656, -133089],
+			[20124, -131258],
+			[20210, -133305],
+			[25731, -134347],
+			[25863, -132588],
+			[26198, -133660],
+			[25225, -133795],
+			[32402, -132571],
+			[30658, -134938],
+			[29269, -134783],
+			[124004, -164084],
+			[127976, -164058],
+			[87670, -164203],
+			[113247, 119563],
+			[69855, 1083],
+			[72268, 6978],
+			[71424, 11075],
+			[71939, 15707],
+			[70275, 13834],
+			[65734, 17103],
+			[34958, 3659],
+			[58117, 3333],
+			[41144, 4604],
+			[46790, 6091],
+			[50986, 7228],
+			[52052, 7833],
+			[60566, 4369],
+			[61239, 6412],
+			[38549, 10006],
+			[38662, 9869],
+			[46198, 15640],
+			[64783, 16329],
+			[34549, 18697],
+			[34461, 18601],
+			[56754, 17262],
+			[62386, 16711],
+			[33473, 22520],
+			[33379, 22518],
+			[59723, 24362],
+			[47721, 26451],
+			[49898, 25677],
+			[55827, 27269],
+			[59619, 27932],
+			[58909, 27773],
+			[14659, 2900],
+			[14657, 3089],
+			[9120, 5487],
+			[27764, 8093],
+			[29574, 6852],
+			[20730, 11503],
+			[20833, 11645],
+			[26888, 17692],
+			[26996, 17747],
+			[24833, 20818],
+			[24899, 20940],
 //Кювета
-	L.circleMarker([-162415, -53956], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-162480, -53788], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-	L.circleMarker([-162672, -54000], {color: "#800080"}).addTo(mutafrukticons).bindPopup("Мутафрукт").bindTooltip("Мутафрукт", {direction: 'top'});
-
-	L.circleMarker([-60624, 88526], {color: "#800080", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mutafrukticons).bindPopup("Мутафрукт - 11 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]").bindTooltip("Мутафрукт - 11 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", {direction: 'top'});
-	L.circleMarker([59527, 185466], {color: "#800080", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mutafrukticons).bindPopup("Мутафрукт<br>[Внутри локации Бункер Рейли Клэя]").bindTooltip("Мутафрукт<br>[Внутри локации Бункер Рейли Клэя]", {direction: 'top'});
-//4 в лаборатории
+			[-162415, -53956],
+			[-162480, -53788],
+			[-162672, -54000]
+		];
+		var mutafrukt2 = [
+			["Мутафрукт - 11 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526],
+			["Мутафрукт<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466]
+		];
+		for (var i = 0; i < mutafrukt1.length; i++) {
+			mutafrukt1_1 = new L.circleMarker([mutafrukt1[i][0],mutafrukt1[i][1]], {color: "#800080"})
+			.bindPopup("Мутафрукт")
+			.bindTooltip("Мутафрукт", {direction: 'top'})
+			.addTo(mutafrukticons);
+		}
+		for (var i = 0; i < mutafrukt2.length; i++) {
+			mutafrukt2_1 = new L.circleMarker([mutafrukt2[i][1],mutafrukt2[i][2]], {color: "#800080", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(mutafrukt2[i][0])
+			.bindTooltip(mutafrukt2[i][0], {direction: 'top'})
+			.addTo(mutafrukticons);
+		}
 	}
 	else {
 		mutafrukticons.clearLayers();
 	}
 }
+//4 в лаборатории
