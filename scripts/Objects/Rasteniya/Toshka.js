@@ -3,168 +3,183 @@
 	var chbox;
 	chbox=document.getElementById('ToshkaButton');
 	if (chbox.checked) {
-	L.circleMarker([-127934, -823], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-127851, -740], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-168243, -10818], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-168936, -10820], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-169926, -10993], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-169092, -11473], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-169315, -11441], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-168698, -11653], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-168454, -11644], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-168243, -11229], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-168754, -11229], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-156923, -43295], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-157228, -42797], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-157154, -42854], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-156936, -43193], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154223, -31738], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154217, -31865], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154253, -31638], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154282, -31997], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154282, -31997], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154078, -31612], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([153963, -31702], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154096, -31855], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154086, -31718], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([148761, -80602], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([148753, -80794], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([148908, -80627], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([148658, -80697], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154259, -75024], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154374, -75129], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154146, -75035], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154259, -74855], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154255, -75214], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154259, -74855], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154255, -75214], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([172184, -125678], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173442, -122148], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([174214, -121330], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173600, -120709], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([175015, -121832], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173144, -121519], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([172981, -120595], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173901, -120542], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173735, -120618], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173770, -122442], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([174294, -121768], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([167749, -112939], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([170591, -113716], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([107652, -23180], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([107540, -23062], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([107416, -22917], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([107313, -22803], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([107228, -22698], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([119919, -1988], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([90337, -10055], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([90382, -10038], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([90280, -10078], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([29613, -21237], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([29832, -21395], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([29885, -21345], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([82457, -95973], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([118255, -120689], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([121620, -121555], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([120035, -122002], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([83983, -110086], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([13574, -108176], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([13648, -108229], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([13502, -108235], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([13284, -108041], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([13415, -108047], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([13349, -108097], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-30371, -174001], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-14648, -174643], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([195719, -160816], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([194674, -160657], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([194484, -160876], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([194758, -160904], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([195255, -161000], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([195950, -161077], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([137662, -163014], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([137535, -163204], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([137824, -163360], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([137663, -163201], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([137804, -163004], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154219, -156774], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([154031, -156707], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([97920, -135282], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([95131, -133424], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59031, 178552], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59018, 178697], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59068, 177521], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59056, 178108], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58889, 177830], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58878, 177980], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59034, 178258], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58887, 177523], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58861, 178694], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58885, 178564], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59006, 178402], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58873, 178281], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58886, 178122], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59061, 177827], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-58913, 177690], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59068, 177674], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([27067, 134071], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([27008, 134110], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([27094, 134162], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-13894, 107540], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-13955, 107477], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-49453, 86303], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-49450, 86207], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-49447, 86262], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([174575, 59526], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([174295, 59474], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([174029, 59448], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173749, 59401], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173514, 59373], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([174932, 8825], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([174997, 8755], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([175066, 8866], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([175059, 8759], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([175059, 8759], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173557, 8499], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([173628, 8489], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([35018, 121422], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([34959, 121253], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([35039, 121322], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([64893, 76836], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([64985, 76854], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([64920, 76902], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([64951, 76801], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([32969, 92186], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([33000, 92344], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([33047, 92178], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([33080, 92332], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([32992, 92270], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([70009, 7753], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([72252, 11247], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([71728, 11445], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([72246, 11480], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([72557, 11259], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([71763, 11208], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([83897, -110041], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
+		var toshka1 = [
+			[-127934, -823],
+			[-127851, -740],
+			[-168243, -10818],
+			[-168936, -10820],
+			[-169926, -10993],
+			[-169092, -11473],
+			[-169315, -11441],
+			[-168698, -11653],
+			[-168454, -11644],
+			[-168243, -11229],
+			[-168754, -11229],
+			[-156923, -43295],
+			[-157228, -42797],
+			[-157154, -42854],
+			[-156936, -43193],
+			[154223, -31738],
+			[154217, -31865],
+			[154253, -31638],
+			[154282, -31997],
+			[154282, -31997],
+			[154078, -31612],
+			[153963, -31702],
+			[154096, -31855],
+			[154086, -31718],
+			[148761, -80602],
+			[148753, -80794],
+			[148908, -80627],
+			[148658, -80697],
+			[154259, -75024],
+			[154374, -75129],
+			[154146, -75035],
+			[154259, -74855],
+			[154255, -75214],
+			[154259, -74855],
+			[154255, -75214],
+			[172184, -125678],
+			[173442, -122148],
+			[174214, -121330],
+			[173600, -120709],
+			[175015, -121832],
+			[173144, -121519],
+			[172981, -120595],
+			[173901, -120542],
+			[173735, -120618],
+			[173770, -122442],
+			[174294, -121768],
+			[167749, -112939],
+			[170591, -113716],
+			[107652, -23180],
+			[107540, -23062],
+			[107416, -22917],
+			[107313, -22803],
+			[107228, -22698],
+			[119919, -1988],
+			[90337, -10055],
+			[90382, -10038],
+			[90280, -10078],
+			[29613, -21237],
+			[29832, -21395],
+			[29885, -21345],
+			[82457, -95973],
+			[118255, -120689],
+			[121620, -121555],
+			[120035, -122002],
+			[83983, -110086],
+			[13574, -108176],
+			[13648, -108229],
+			[13502, -108235],
+			[13284, -108041],
+			[13415, -108047],
+			[13349, -108097],
+			[-30371, -174001],
+			[-14648, -174643],
+			[195719, -160816],
+			[194674, -160657],
+			[194484, -160876],
+			[194758, -160904],
+			[195255, -161000],
+			[195950, -161077],
+			[137662, -163014],
+			[137535, -163204],
+			[137824, -163360],
+			[137663, -163201],
+			[137804, -163004],
+			[154219, -156774],
+			[154031, -156707],
+			[97920, -135282],
+			[95131, -133424],
+			[-59031, 178552],
+			[-59018, 178697],
+			[-59068, 177521],
+			[-59056, 178108],
+			[-58889, 177830],
+			[-58878, 177980],
+			[-59034, 178258],
+			[-58887, 177523],
+			[-58861, 178694],
+			[-58885, 178564],
+			[-59006, 178402],
+			[-58873, 178281],
+			[-58886, 178122],
+			[-59061, 177827],
+			[-58913, 177690],
+			[-59068, 177674],
+			[27067, 134071],
+			[27008, 134110],
+			[27094, 134162],
+			[-13894, 107540],
+			[-13955, 107477],
+			[-49453, 86303],
+			[-49450, 86207],
+			[-49447, 86262],
+			[174575, 59526],
+			[174295, 59474],
+			[174029, 59448],
+			[173749, 59401],
+			[173514, 59373],
+			[174932, 8825],
+			[174997, 8755],
+			[175066, 8866],
+			[175059, 8759],
+			[175059, 8759],
+			[173557, 8499],
+			[173628, 8489],
+			[35018, 121422],
+			[34959, 121253],
+			[35039, 121322],
+			[64893, 76836],
+			[64985, 76854],
+			[64920, 76902],
+			[64951, 76801],
+			[32969, 92186],
+			[33000, 92344],
+			[33047, 92178],
+			[33080, 92332],
+			[32992, 92270],
+			[70009, 7753],
+			[72252, 11247],
+			[71728, 11445],
+			[72246, 11480],
+			[72557, 11259],
+			[71763, 11208],
+			[83897, -110041],
 //+SFS01_Brew_Tato
-	L.circleMarker([575, 139179], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([721, 139104], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([865, 139042], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([988, 138988], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([161866, -91078], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([161996, -90991], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([162108, -90916], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([161724, -91161], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([161788, -91083], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([161918, -90996], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([162030, -90921], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59993, 117114], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-59969, 117091], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-	L.circleMarker([-60019, 117159], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
+			[575, 139179],
+			[721, 139104],
+			[865, 139042],
+			[988, 138988],
+			[161866, -91078],
+			[161996, -90991],
+			[162108, -90916],
+			[161724, -91161],
+			[161788, -91083],
+			[161918, -90996],
+			[162030, -90921],
+			[-59993, 117114],
+			[-59969, 117091],
+			[-60019, 117159],
 //Кювета
-	L.circleMarker([-1112, -163008], {color: "#A52A2A"}).addTo(toshkaicons).bindPopup("Тошка").bindTooltip("Тошка", {direction: 'top'});
-
-	L.circleMarker([-60624, 88526], {color: "#A52A2A", fillColor: "#000000", fillOpacity: "0.8"}).addTo(toshkaicons).bindPopup("Тошка - 13 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]").bindTooltip("Тошка - 13 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", {direction: 'top'});
+			[-1112, -163008]
+		];
+		var toshka2 = [
+			["Тошка - 13 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526]
+		];
+		for (var i = 0; i < toshka1.length; i++) {
+			toshka1_1 = new L.circleMarker([toshka1[i][0],toshka1[i][1]], {color: "#A52A2A"})
+			.bindPopup("Тошка")
+			.bindTooltip("Тошка", {direction: 'top'})
+			.addTo(toshkaicons);
+		}
+		for (var i = 0; i < toshka2.length; i++) {
+			toshka2_1 = new L.circleMarker([toshka2[i][1],toshka2[i][2]], {color: "#A52A2A", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(toshka2[i][0])
+			.bindTooltip(toshka2[i][0], {direction: 'top'})
+			.addTo(toshkaicons);
+		}
 	}
 	else {
 		toshkaicons.clearLayers();
