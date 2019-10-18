@@ -1,388 +1,396 @@
-	var nochnoypolzunicons = L.layerGroup().addTo(map);
-	function NochnoyPolzunOnOff() {
+var nochnoypolzunicons = L.layerGroup().addTo(map);
+function NochnoyPolzunOnOff() {
 	var chbox;
 	chbox=document.getElementById('NochnoyPolzunButton');
 	if (chbox.checked) {
-	L.circleMarker([-30863, -26468], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-30946, -26158], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-13029, -20909], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-11443, -23370], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-70790, -57368], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-22927, -97213], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-16501, -95369], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-9057, -95227], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-10632, -97015], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-60532, -97279], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-56916, -95615], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-44526, -97722], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-44314, -97357], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-44348, -97543], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-44498, -97711], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-55168, -90994], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-56133, -90719], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-63950, -87157], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54045, -86675], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-72557, -95456], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-71032, -95535], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-75455, -91494], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-69997, -92559], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-71259, -92795], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-67434, -91262], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-74765, -89244], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-71137, -86735], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-71020, -88451], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-70484, -87313], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-71049, -88346], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-66161, -89876], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-69189, -86162], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-65941, -86932], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-68082, -87755], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-66476, -89988], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-29495, -125318], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-29451, -121036], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-29440, -121328], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-29364, -121310], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26412, -120624], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26121, -120604], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26146, -120529], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-19312, -109318], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-12780, -109733], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-14706, -108239], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-11241, -106844], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-11182, -110049], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-28036, -102941], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-25436, -102687], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-27591, -105572], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-22176, -102488], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-22220, -105463], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-18213, -105915], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-17582, -105459], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-19289, -103806], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-9105, -104249], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-13510, -100947], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-8667, -99258], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-51003, -119343], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-50863, -119266], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-50873, -119237], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-49814, -115482], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-49924, -115601], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-49899, -115621], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-59941, -112968], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54247, -111968], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-64863, -109176], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-64448, -106843], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-60970, -102584], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-59258, -105700], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-59810, -103322], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-56643, -105151], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-63186, -98904], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-65407, -99556], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-44448, -100819], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-44276, -101181], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-44447, -100649], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-67056, -113387], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-71236, -109850], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-71092, -110033], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-65959, -102651], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-70122, -100698], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-72973, -102138], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-67209, -98373], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-67415, -98738], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-67323, -98764], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([132980, -39947], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([132813, -39871], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([164638, -89444], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([144005, -87651], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([144005, -87651], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([144177, -87731], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([138936, -83398], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([139040, -83411], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([139752, -79737], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([139883, -79741], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([140223, -79970], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73455, -30671], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73559, -30782], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73380, -30634], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([74214, -25569], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([75835, -26877], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([74315, -25905], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([74299, -26012], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77636, -27046], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78030, -27589], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77834, -27150], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([66100, -23729], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76467, -22804], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76082, -22513], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([80738, -21223], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68165, -15987], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([69501, -15591], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([71227, -13260], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([70961, -10912], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([33594, -28871], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([41668, -29903], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([44157, -30111], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([43013, -29534], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([35113, -24891], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([33787, -28325], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([33117, -22873], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([58180, -17573], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([61089, -17467], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([58512, -17621], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([62285, -9308], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([59107, -352], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([3757, -27612], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([5724, -17160], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([1567, -12642], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([559, -13821], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([130462, -56660], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([130398, -56488], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([130357, -56314], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([128721, -46518], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([128933, -46643], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([128910, -46668], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68059, -65080], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68604, -65117], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([69173, -64835], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([72457, -64067], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([75338, -62620], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([69219, -61108], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68766, -58554], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([70352, -61101], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([70585, -58529], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76190, -57501], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([75653, -59724], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73682, -56450], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73702, -56168], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([71919, -57184], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77565, -53860], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([75004, -56402], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([74672, -54199], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73850, -51789], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([74493, -50482], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78024, -50848], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77889, -51761], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78155, -50548], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([81026, -51159], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([81758, -52370], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([80348, -50480], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([85160, -49291], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([71891, -45896], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73400, -47100], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73482, -46038], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([75946, -45568], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76746, -46922], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77336, -48197], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78251, -48161], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([82575, -45061], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73343, -44638], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73272, -44111], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77218, -44621], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77892, -43206], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([79280, -42059], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76572, -40248], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76438, -40227], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([41725, -63013], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([47754, -61663], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([46471, -63577], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([49526, -64446], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([56148, -62590], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([56300, -65344], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([55289, -64999], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([59396, -63405], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([59431, -63538], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([47838, -57394], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([45791, -57573], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([46486, -59388], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([47848, -60363], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([48110, -61417], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([58973, -57735], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([60037, -60136], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([55671, -55440], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([55950, -55007], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([45006, -51201], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([46652, -52403], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([50585, -52664], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([50985, -52442], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([58707, -51603], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([34564, -36622], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([36124, -35267], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([30369, -33202], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([67795, -88119], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68056, -88850], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68170, -67742], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([67240, -67560], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([66573, -66208], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([44033, -80160], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([41971, -77831], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([47189, -72942], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([49848, -72674], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([49827, -70429], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([55790, -72682], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([44863, -65711], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([44894, -68481], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([46567, -67620], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([47320, -66044], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([51098, -66095], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([52272, -68814], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([50956, -67034], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([54515, -67356], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([108245, -127772], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([109983, -130077], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([110833, -128318], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([119343, -127459], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([106261, -124771], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([108838, -123525], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([110293, -123158], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([115857, -125633], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([119830, -126078], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([121622, -121017], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([101482, -100488], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([101446, -99925], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78993, -130259], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([80515, -119921], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([80635, -121320], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([67134, -102745], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([67227, -103395], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68557, -102010], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([68264, -101916], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([67457, -101514], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78824, -99941], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26770, -139534], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26742, -139756], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26745, -139738], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26078, -135655], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-25924, -135569], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-25994, -135606], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-41943, -162014], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-41951, -161899], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-42273, -162175], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54483, -151572], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54102, -152519], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54196, -152250], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54218, -152256], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54222, -148587], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54288, -148310], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-54311, -148314], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-60768, -143106], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-60799, -142803], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-60838, -142799], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-50959, -140696], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-50969, -140536], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-51000, -140532], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-34316, -142480], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-34390, -142622], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-34365, -142641], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-59534, -136672], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-59513, -136965], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-59483, -136974], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-43157, -138945], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-43231, -139087], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-43206, -139106], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-56772, -131102], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-56755, -131251], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-56731, -131246], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26235, -181142], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-31956, -176759], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-28876, -176191], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-20524, -179211], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-17740, -177812], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-30657, -175706], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-29387, -175474], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-31388, -170252], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-29115, -167947], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-26339, -171279], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-37385, -175183], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([-37755, -171360], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([202670, -162801], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([202461, -162942], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([197552, -156810], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([197572, -156697], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([206700, -145018], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([199371, -140419], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([199823, -139641], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([199836, -139367], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([204753, -140363], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([204679, -140319], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([206209, -141994], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([194975, -149525], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([194066, -140230], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([193906, -140195], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([139607, -161843], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([141047, -158978], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([142309, -157883], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([142296, -153674], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([142112, -153003], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([139105, -148418], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([146996, -149836], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([138049, -166056], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([137777, -166059], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([109101, -160505], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([107912, -160348], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([99137, -159484], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([108836, -156662], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([109170, -157092], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([109629, -158425], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([109673, -157879], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([109934, -157032], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([111088, -158176], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([110908, -157844], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([110885, -157091], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([111120, -157897], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([111231, -152241], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([112233, -154376], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([98506, -135819], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([98999, -138706], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([115870, -135305], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([117558, -135940], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([125788, -135430], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([113789, -134009], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([110725, -131649], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([122300, -131818], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([71528, -162338], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([88956, -163623], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([79148, -159063], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([81632, -153992], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76459, -141937], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([76738, -136007], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78474, -138055], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([80935, -135260], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([89291, -136994], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([96074, -135567], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([98260, -136904], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([98143, -136866], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([95047, -137639], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([82964, -132756], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([98204, -134209], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([116095, -165835], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([116379, -165977], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([65700, -169205], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([80740, -170181], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([81234, -170619], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([78493, -170139], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([79707, -169377], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([83215, -168664], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([77272, -164310], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([85732, -165867], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([64729, -167304], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([72494, 7395], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([73620, 7593], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([57629, 5834], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([41109, 11061], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([61992, 10729], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([34636, 14785], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([35009, 14631], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([41943, 15996], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([48192, 15486], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([48159, 15549], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([53571, 16952], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([58460, 18886], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([39588, 22839], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([40065, 23007], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([56822, 20553], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([58864, 24139], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([5874, 2240], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([29625, 5213], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
-	L.circleMarker([26574, 13564], {color: "#CD5C5C"}).addTo(nochnoypolzunicons).bindPopup("Ночной ползун").bindTooltip("Ночной ползун", {direction: 'top'});
+		var nochnoypolzun = [
+			[-30863, -26468],
+			[-30946, -26158],
+			[-13029, -20909],
+			[-11443, -23370],
+			[-70790, -57368],
+			[-22927, -97213],
+			[-16501, -95369],
+			[-9057, -95227],
+			[-10632, -97015],
+			[-60532, -97279],
+			[-56916, -95615],
+			[-44526, -97722],
+			[-44314, -97357],
+			[-44348, -97543],
+			[-44498, -97711],
+			[-55168, -90994],
+			[-56133, -90719],
+			[-63950, -87157],
+			[-54045, -86675],
+			[-72557, -95456],
+			[-71032, -95535],
+			[-75455, -91494],
+			[-69997, -92559],
+			[-71259, -92795],
+			[-67434, -91262],
+			[-74765, -89244],
+			[-71137, -86735],
+			[-71020, -88451],
+			[-70484, -87313],
+			[-71049, -88346],
+			[-66161, -89876],
+			[-69189, -86162],
+			[-65941, -86932],
+			[-68082, -87755],
+			[-66476, -89988],
+			[-29495, -125318],
+			[-29451, -121036],
+			[-29440, -121328],
+			[-29364, -121310],
+			[-26412, -120624],
+			[-26121, -120604],
+			[-26146, -120529],
+			[-19312, -109318],
+			[-12780, -109733],
+			[-14706, -108239],
+			[-11241, -106844],
+			[-11182, -110049],
+			[-28036, -102941],
+			[-25436, -102687],
+			[-27591, -105572],
+			[-22176, -102488],
+			[-22220, -105463],
+			[-18213, -105915],
+			[-17582, -105459],
+			[-19289, -103806],
+			[-9105, -104249],
+			[-13510, -100947],
+			[-8667, -99258],
+			[-51003, -119343],
+			[-50863, -119266],
+			[-50873, -119237],
+			[-49814, -115482],
+			[-49924, -115601],
+			[-49899, -115621],
+			[-59941, -112968],
+			[-54247, -111968],
+			[-64863, -109176],
+			[-64448, -106843],
+			[-60970, -102584],
+			[-59258, -105700],
+			[-59810, -103322],
+			[-56643, -105151],
+			[-63186, -98904],
+			[-65407, -99556],
+			[-44448, -100819],
+			[-44276, -101181],
+			[-44447, -100649],
+			[-67056, -113387],
+			[-71236, -109850],
+			[-71092, -110033],
+			[-65959, -102651],
+			[-70122, -100698],
+			[-72973, -102138],
+			[-67209, -98373],
+			[-67415, -98738],
+			[-67323, -98764],
+			[132980, -39947],
+			[132813, -39871],
+			[164638, -89444],
+			[144005, -87651],
+			[144005, -87651],
+			[144177, -87731],
+			[138936, -83398],
+			[139040, -83411],
+			[139752, -79737],
+			[139883, -79741],
+			[140223, -79970],
+			[73455, -30671],
+			[73559, -30782],
+			[73380, -30634],
+			[74214, -25569],
+			[75835, -26877],
+			[74315, -25905],
+			[74299, -26012],
+			[77636, -27046],
+			[78030, -27589],
+			[77834, -27150],
+			[66100, -23729],
+			[76467, -22804],
+			[76082, -22513],
+			[80738, -21223],
+			[68165, -15987],
+			[69501, -15591],
+			[71227, -13260],
+			[70961, -10912],
+			[33594, -28871],
+			[41668, -29903],
+			[44157, -30111],
+			[43013, -29534],
+			[35113, -24891],
+			[33787, -28325],
+			[33117, -22873],
+			[58180, -17573],
+			[61089, -17467],
+			[58512, -17621],
+			[62285, -9308],
+			[59107, -352],
+			[3757, -27612],
+			[5724, -17160],
+			[1567, -12642],
+			[559, -13821],
+			[130462, -56660],
+			[130398, -56488],
+			[130357, -56314],
+			[128721, -46518],
+			[128933, -46643],
+			[128910, -46668],
+			[68059, -65080],
+			[68604, -65117],
+			[69173, -64835],
+			[72457, -64067],
+			[75338, -62620],
+			[69219, -61108],
+			[68766, -58554],
+			[70352, -61101],
+			[70585, -58529],
+			[76190, -57501],
+			[75653, -59724],
+			[73682, -56450],
+			[73702, -56168],
+			[71919, -57184],
+			[77565, -53860],
+			[75004, -56402],
+			[74672, -54199],
+			[73850, -51789],
+			[74493, -50482],
+			[78024, -50848],
+			[77889, -51761],
+			[78155, -50548],
+			[81026, -51159],
+			[81758, -52370],
+			[80348, -50480],
+			[85160, -49291],
+			[71891, -45896],
+			[73400, -47100],
+			[73482, -46038],
+			[75946, -45568],
+			[76746, -46922],
+			[77336, -48197],
+			[78251, -48161],
+			[82575, -45061],
+			[73343, -44638],
+			[73272, -44111],
+			[77218, -44621],
+			[77892, -43206],
+			[79280, -42059],
+			[76572, -40248],
+			[76438, -40227],
+			[41725, -63013],
+			[47754, -61663],
+			[46471, -63577],
+			[49526, -64446],
+			[56148, -62590],
+			[56300, -65344],
+			[55289, -64999],
+			[59396, -63405],
+			[59431, -63538],
+			[47838, -57394],
+			[45791, -57573],
+			[46486, -59388],
+			[47848, -60363],
+			[48110, -61417],
+			[58973, -57735],
+			[60037, -60136],
+			[55671, -55440],
+			[55950, -55007],
+			[45006, -51201],
+			[46652, -52403],
+			[50585, -52664],
+			[50985, -52442],
+			[58707, -51603],
+			[34564, -36622],
+			[36124, -35267],
+			[30369, -33202],
+			[67795, -88119],
+			[68056, -88850],
+			[68170, -67742],
+			[67240, -67560],
+			[66573, -66208],
+			[44033, -80160],
+			[41971, -77831],
+			[47189, -72942],
+			[49848, -72674],
+			[49827, -70429],
+			[55790, -72682],
+			[44863, -65711],
+			[44894, -68481],
+			[46567, -67620],
+			[47320, -66044],
+			[51098, -66095],
+			[52272, -68814],
+			[50956, -67034],
+			[54515, -67356],
+			[108245, -127772],
+			[109983, -130077],
+			[110833, -128318],
+			[119343, -127459],
+			[106261, -124771],
+			[108838, -123525],
+			[110293, -123158],
+			[115857, -125633],
+			[119830, -126078],
+			[121622, -121017],
+			[101482, -100488],
+			[101446, -99925],
+			[78993, -130259],
+			[80515, -119921],
+			[80635, -121320],
+			[67134, -102745],
+			[67227, -103395],
+			[68557, -102010],
+			[68264, -101916],
+			[67457, -101514],
+			[78824, -99941],
+			[-26770, -139534],
+			[-26742, -139756],
+			[-26745, -139738],
+			[-26078, -135655],
+			[-25924, -135569],
+			[-25994, -135606],
+			[-41943, -162014],
+			[-41951, -161899],
+			[-42273, -162175],
+			[-54483, -151572],
+			[-54102, -152519],
+			[-54196, -152250],
+			[-54218, -152256],
+			[-54222, -148587],
+			[-54288, -148310],
+			[-54311, -148314],
+			[-60768, -143106],
+			[-60799, -142803],
+			[-60838, -142799],
+			[-50959, -140696],
+			[-50969, -140536],
+			[-51000, -140532],
+			[-34316, -142480],
+			[-34390, -142622],
+			[-34365, -142641],
+			[-59534, -136672],
+			[-59513, -136965],
+			[-59483, -136974],
+			[-43157, -138945],
+			[-43231, -139087],
+			[-43206, -139106],
+			[-56772, -131102],
+			[-56755, -131251],
+			[-56731, -131246],
+			[-26235, -181142],
+			[-31956, -176759],
+			[-28876, -176191],
+			[-20524, -179211],
+			[-17740, -177812],
+			[-30657, -175706],
+			[-29387, -175474],
+			[-31388, -170252],
+			[-29115, -167947],
+			[-26339, -171279],
+			[-37385, -175183],
+			[-37755, -171360],
+			[202670, -162801],
+			[202461, -162942],
+			[197552, -156810],
+			[197572, -156697],
+			[206700, -145018],
+			[199371, -140419],
+			[199823, -139641],
+			[199836, -139367],
+			[204753, -140363],
+			[204679, -140319],
+			[206209, -141994],
+			[194975, -149525],
+			[194066, -140230],
+			[193906, -140195],
+			[139607, -161843],
+			[141047, -158978],
+			[142309, -157883],
+			[142296, -153674],
+			[142112, -153003],
+			[139105, -148418],
+			[146996, -149836],
+			[138049, -166056],
+			[137777, -166059],
+			[109101, -160505],
+			[107912, -160348],
+			[99137, -159484],
+			[108836, -156662],
+			[109170, -157092],
+			[109629, -158425],
+			[109673, -157879],
+			[109934, -157032],
+			[111088, -158176],
+			[110908, -157844],
+			[110885, -157091],
+			[111120, -157897],
+			[111231, -152241],
+			[112233, -154376],
+			[98506, -135819],
+			[98999, -138706],
+			[115870, -135305],
+			[117558, -135940],
+			[125788, -135430],
+			[113789, -134009],
+			[110725, -131649],
+			[122300, -131818],
+			[71528, -162338],
+			[88956, -163623],
+			[79148, -159063],
+			[81632, -153992],
+			[76459, -141937],
+			[76738, -136007],
+			[78474, -138055],
+			[80935, -135260],
+			[89291, -136994],
+			[96074, -135567],
+			[98260, -136904],
+			[98143, -136866],
+			[95047, -137639],
+			[82964, -132756],
+			[98204, -134209],
+			[116095, -165835],
+			[116379, -165977],
+			[65700, -169205],
+			[80740, -170181],
+			[81234, -170619],
+			[78493, -170139],
+			[79707, -169377],
+			[83215, -168664],
+			[77272, -164310],
+			[85732, -165867],
+			[64729, -167304],
+			[72494, 7395],
+			[73620, 7593],
+			[57629, 5834],
+			[41109, 11061],
+			[61992, 10729],
+			[34636, 14785],
+			[35009, 14631],
+			[41943, 15996],
+			[48192, 15486],
+			[48159, 15549],
+			[53571, 16952],
+			[58460, 18886],
+			[39588, 22839],
+			[40065, 23007],
+			[56822, 20553],
+			[58864, 24139],
+			[5874, 2240],
+			[29625, 5213],
+			[26574, 13564]
+		];
+		for (var i = 0; i < nochnoypolzun.length; i++) {
+			nochnoypolzun_1 = new L.circleMarker([nochnoypolzun[i][0],nochnoypolzun[i][1]], {color: "#CD5C5C"})
+			.bindPopup("Ночной ползун")
+			.bindTooltip("Ночной ползун", {direction: 'top'})
+			.addTo(nochnoypolzunicons);
+		}
 	}
 	else {
 		nochnoypolzunicons.clearLayers();
