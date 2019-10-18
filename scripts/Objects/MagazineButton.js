@@ -3,305 +3,320 @@
 	var chbox;
 	chbox=document.getElementById('MagazineButton');
 	if (chbox.checked) {
-	icons = new L.marker([29047, -58150], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([141378, 8636], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([135976, -1061], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-47182, -50601], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-46953, -50728], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-146542, 65548], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([51569, -150995], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([149497, -75855], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-154690, 164805], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-95836, 197043], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-160363, 152369], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-87856, 115793], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-103099, 109346], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([142712, -145552], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([145528, -149754], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([139223, -145456], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-141086, 137117], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-167284, -114534], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-169112, -116879], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([92650, 114765], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([91789, 115201], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([204948, -93423], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([204934, -92313], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([124875, 170716], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([124699, 168887], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-6997, -161561], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-1786, -159695], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-43812, -131509], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-37691, -125365], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-39738, -129455], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-38926, -132600], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-53193, -12641], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-51388, -12572], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-51992, -13348], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-91195, -43373], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-88588, -41415], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-99513, 8208], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-99267, 8117], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-99489, 8063], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-99047, 7196], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([183658, 2146], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-33597, 92436], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-42431, 87320], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-160672, 77914], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([34692, -6227], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([88109, 105494], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-72261, -132144], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([196865, -31277], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([79912, 182187], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([79938, 184480], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-52446, 56913], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([130445, -30869], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([129872, -30662], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([127835, -31586], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([13776, 38836], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([50336, -42846], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([99822, -16461], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-41010, 88185], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-126080, 120400], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-129148, 119197], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-83410, 166023], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-83663, 165595], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([51328, -43894], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-38886, 158619], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-38166, 159647], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-31118, -153023], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-39243, 3472], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([171546, -121974], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([180786, -123247], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([26060, 130994], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([33977, 127811], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-111183, -61097], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([4811, -31303], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-120411, -189773], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-112682, -58824], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([50793, -22939], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-46969, -117157], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([44788, 176940], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([86958, 158951], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([86242, 151708], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-11460, -68768], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-81901, -177878], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-76141, -176489], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-79680, -179558], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([16501, 46039], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([13733, 45851], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([15707, 47347], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([27676, 50321], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([27840, 47195], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([24703, 45734], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([23585, 49192], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([20566, 45711], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([25039, 69550], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([23478, 71115], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([39498, 115193], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([41279, 115307], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([49442, 84810], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([45769, 101158], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([36083, 39147], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([100122, 26344], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([100618, 26776], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([70873, 137828], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([72200, 137693], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([72264, 135905], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([179356, -10037], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([179546, -11183], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([188969, -19093], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([200083, 46314], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-27759, 162847], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-94527, 190403], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-94003, 190479], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([94167, 103072], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([98435, 100662], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([95429, 98817], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([1623, 137648], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-59554, 183280], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-131455, -113804], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-84541, -80246], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-67049, 23209], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-66160, 36123], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-101530, -55237], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([133452, -172805], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([165028, -150963], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-61178, 179953], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-123972, -132265], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-121882, -136640], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-124505, -131917], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([172416, 38979], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([89193, 59819], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([90490, -32847], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([90598, -29949], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-105496, -138269], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-19515, 17049], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-23186, 14074], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-14628, 16508], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-90434, 150535], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-104827, 41768], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-119461, 40472], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-65774, 74593], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-34821, 13287], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([20591, 91042], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-9008, -2687], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([75683, -76942], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([79341, -75029], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-45387, -72518], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-46588, -69488], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-47207, -69700], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-144563, 140901], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-142967, 140529], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-143061, 138386], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-137087, 153579], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-143294, 153042], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-143194, 149742], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([25793, -59091], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([7060, 41759], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([7578, 44182], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([32972, -20442], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([30505, -21479], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-7879, 20956], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-144770, 154399], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([187655, -165254], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([189601, -169549], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-30009, -132537], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-109146, -21916], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-179795, 73980], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-164200, 123352], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-165694, 122072], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-169057, 201456], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-169758, 202279], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-31655, -130238], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-107644, -18957], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-180899, 73944], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-55705, 166296], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([43672, 161983], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([45685, 162700], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([47506, 161436], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([14739, 191159], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([15173, 191297], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([14887, 193366], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([172631, 58613], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-90613, 65375], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-91211, 63254], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-118358, 1778], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-122229, 2990], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([52109, -127944], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([48988, -127401], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([120525, 5352], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-121582, 196347], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-32751, -187604], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-69259, 171101], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-105299, 195118], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-108719, 141100], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-109692, 157191], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([128966, 86474], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([132921, 84810], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([131148, 85231], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([131572, 87592], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([143657, 98667], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([143901, 98912], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-79942, 46124], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([68524, 202572], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([88530, -21098], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-17198, 162936], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-117204, -96359], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-135572, -183314], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-149150, -125895], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([183692, -93799], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-41049, -175175], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-42281, -173268], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-43581, -173508], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-40702, 50774], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-38834, 48119], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([113692, 115995], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([59972, 178677], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([66128, 175484], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([62930, 172044], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-148427, -58861], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-6725, -117556], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([58126, 9997], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([58287, 10607], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([57417, 12677], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([153810, -104121], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([161205, -92221], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([174795, -140468], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([126063, -153622], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([179022, 134005], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([60571, -96293], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([201128, -28088], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-29510, -173251], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-137619, 153503], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([20952, 42951], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-59273, 98817], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-58622, 98996], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-121648, -184045], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-116517, -189072], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-54707, -48387], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-52055, -45937], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-56139, -60319], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-55677, -60213], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-61703, -57405], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-60583, -56648], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([79363, -153867], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([114259, -74291], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-31153, -151692], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	icons = new L.marker([-145779, 172406], {icon: icon_magazine1}).addTo(magazineicons).bindPopup("Журнал").bindTooltip("Журнал", {direction: 'top'});
-	
-	icons = new L.marker([82071, -8020], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри здания Университет &quotВолт-Тек&quot]").bindTooltip("Журналы - 3 шт.<br>[Внутри здания Университет &quotВолт-Тек&quot]", {direction: 'top'});
-	icons = new L.marker([-40971, -132032], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри здания Электростанция &quotПосейдон Энерджи&quot WV-06]").bindTooltip("Внутри здания Электростанция &quotПосейдон Энерджи&quot WV-06", {direction: 'top'});
-	icons = new L.marker([-118164, 1654], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации Точка &quotЧарли&quot]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации Точка &quotЧарли&quot]", {direction: 'top'});
-	icons = new L.marker([-55735, -114894], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри здания Медцентр AVR]").bindTooltip("Журналы - 3 шт.<br>[Внутри здания Медцентр AVR]", {direction: 'top'});
-	icons = new L.marker([94128, 2135], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри здания Школа Моргантауна]").bindTooltip("Журналы - 3 шт.<br>[Внутри здания Школа Моргантауна]", {direction: 'top'});
-	icons = new L.marker([-43120, 112631], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания Национальный исследовательский центр радиоастрономии]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания Национальный исследовательский центр радиоастрономии]", {direction: 'top'});
-	icons = new L.marker([-14505, 80945], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри локации Точка &quotАльфа&quot]").bindTooltip("Журналы - 3 шт.<br>[Внутри локации Точка &quotАльфа&quot]", {direction: 'top'});
-	icons = new L.marker([-141320, 143840], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания Муниципальный центр Ватоги]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания Муниципальный центр Ватоги]", {direction: 'top'});
-	icons = new L.marker([-141320, 143840], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри локации Шахта &quotГоули&quot]").bindTooltip("Журналы - 2 шт.<br>[Внутри локации Шахта &quotГоули&quot]", {direction: 'top'});
-	icons = new L.marker([-12605, 196567], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания Галерея в долине]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания Галерея в долине]", {direction: 'top'});
-	icons = new L.marker([-136952, 138432], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри здания Общественный центр Ватоги]").bindTooltip("Журналы - 3 шт.<br>[Внутри здания Общественный центр Ватоги]", {direction: 'top'});
-	icons = new L.marker([-51807, 56146], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри локации Место захоронения на горе Эммет]").bindTooltip("Журнал<br>[Внутри локации Место захоронения на горе Эммет]", {direction: 'top'});
-	icons = new L.marker([127398, -29105], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри здания Восточная региональная тюрьма]").bindTooltip("Журналы - 4 шт.<br>[Внутри здания Восточная региональная тюрьма]", {direction: 'top'});
-	icons = new L.marker([-70220, -70715], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри здания Особняк Риверсайд]").bindTooltip("Журналы - 4 шт.<br>[Внутри здания Особняк Риверсайд]", {direction: 'top'});
-	icons = new L.marker([-46520, 28168], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]", {direction: 'top'});
-	icons = new L.marker([-102236, -84358], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации Горящая шахта]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации Горящая шахта]", {direction: 'top'});
-	icons = new L.marker([-53492, -162144], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]").bindTooltip("Журналы - 3 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]", {direction: 'top'});
-	icons = new L.marker([-15204, 118972], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 6 шт.<br>[Внутри здания Шугар гроув]").bindTooltip("Журналы - 6 шт.<br>[Внутри здания Шугар гроув]", {direction: 'top'});
-	icons = new L.marker([-160896, -73687], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Штаб-квартира &quotГаррахан майнинг&quot]").bindTooltip("Журнал<br>[Внутри здания Штаб-квартира &quotГаррахан майнинг&quot]", {direction: 'top'});
-	icons = new L.marker([-57828, -91983], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Капитолий Чарлстона]").bindTooltip("Журнал<br>[Внутри здания Капитолий Чарлстона]", {direction: 'top'});
-	// icons = new L.marker([-146558, -96290], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри локации Убежище 63]").bindTooltip("Журнал<br>[Внутри локации Убежище 63]", {direction: 'top'});
-	icons = new L.marker([-149488, 112944], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри локации Тоннель &quotБольшой излом&quot]").bindTooltip("Журнал<br>[Внутри локации Тоннель &quotБольшой излом&quot]", {direction: 'top'});
-	icons = new L.marker([-120808, -44088], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри локации Тоннель &quotБольшой излом&quot]").bindTooltip("Журнал<br>[Внутри локации Тоннель &quotБольшой излом&quot]", {direction: 'top'});
-	icons = new L.marker([-64897, 200091], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри здания Исследовательский центр &quotРобКо&quot]").bindTooltip("Журналы - 3 шт.<br>[Внутри здания Исследовательский центр &quotРобКо&quot]", {direction: 'top'});
-	icons = new L.marker([-46784, -108174], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри здания Штаб-квартира &quotХорнрайт индастриал&quot]").bindTooltip("Журналы - 3 шт.<br>[Внутри здания Штаб-квартира &quotХорнрайт индастриал&quot]", {direction: 'top'});
-	icons = new L.marker([19445, -117195], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри здания Центр аграрных исследований &quotВолт-Тек&quot]").bindTooltip("Журналы - 4 шт.<br>[Внутри здания Центр аграрных исследований &quotВолт-Тек&quot]", {direction: 'top'});
-	icons = new L.marker([-64741, 130050], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации Шахта &quotКервуд&quot]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации Шахта &quotКервуд&quot]", {direction: 'top'});
-	icons = new L.marker([-89947, -41527], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри локации Необыкновенные пещеры]").bindTooltip("Журналы - 2 шт.<br>[Внутри локации Необыкновенные пещеры]", {direction: 'top'});
-	icons = new L.marker([-146584, 153175], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри здания Школа Ватоги]").bindTooltip("Журналы - 4 шт.<br>[Внутри здания Школа Ватоги]", {direction: 'top'});
-	icons = new L.marker([84461, -15851], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри здания Переработка пищевых продуктов &quotМама Дольче&quot]").bindTooltip("Журналы - 4 шт.<br>[Внутри здания Переработка пищевых продуктов &quotМама Дольче&quot]", {direction: 'top'});
-	icons = new L.marker([43120, 87360], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации Пещера вендиго]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации Пещера вендиго]", {direction: 'top'});	
-	icons = new L.marker([-60624, 88526], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]").bindTooltip("Журнал<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", {direction: 'top'});
-	// icons = new L.marker([137186, 145156], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри локации Убежище 94]").bindTooltip("Журналы - 2 шт.<br>[Внутри локации Убежище 94]", {direction: 'top'});
-	icons = new L.marker([73912, 79507], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Обсерватория АТЛАС]").bindTooltip("Журнал<br>[Внутри здания Обсерватория АТЛАС]", {direction: 'top'});
-	icons = new L.marker([-82471, -118114], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации &quotОтрыжка Бетти&quot]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации &quotОтрыжка Бетти&quot]", {direction: 'top'});
-	icons = new L.marker([7828, 119103], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри локации Убежище Хоука]").bindTooltip("Журналы - 2 шт.<br>[Внутри локации Убежище Хоука]", {direction: 'top'});
-	icons = new L.marker([-138108, 88917], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри локации Шахта &quotСчастливая дыра&quot]").bindTooltip("Журнал<br>[Внутри локации Шахта &quotСчастливая дыра&quot]", {direction: 'top'});
-	icons = new L.marker([-141039, 141012], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания Экстренные службы Ватоги]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания Экстренные службы Ватоги]", {direction: 'top'});
-	icons = new L.marker([-74719, -113348], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания &quotРжавая кирка&quot]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания &quotРжавая кирка&quot]", {direction: 'top'});
-	icons = new L.marker([98395, 192590], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 6 шт.<br>[Внутри здания Электростанция &quotГрозовая гора&quot]").bindTooltip("Журналы - 6 шт.<br>[Внутри здания Электростанция &quotГрозовая гора&quot]", {direction: 'top'});
-	icons = new L.marker([-3956, 157951], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации Норы]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации Норы]", {direction: 'top'});
-	icons = new L.marker([14430, 39100], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри локации Вершина мира, этаж Мезонин]").bindTooltip("Журналы - 3 шт.<br>[Внутри локации Вершина мира, этаж Мезонин]", {direction: 'top'});
-	icons = new L.marker([137056, 43038], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 4 шт.<br>[Внутри локации Точка &quotБраво&quot]").bindTooltip("Журналы - 4 шт.<br>[Внутри локации Точка &quotБраво&quot]", {direction: 'top'});
-	icons = new L.marker([-112937, -62704], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Ван Лоу, таксидермист]").bindTooltip("Журнал<br>[Внутри здания Ван Лоу, таксидермист]", {direction: 'top'});
-	icons = new L.marker([89394, -875], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания Дом &quotПи&quot]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания Дом &quotПи&quot]", {direction: 'top'});
-	icons = new L.marker([85875, 5283], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания Дом &quotЭта Пси&quot]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания Дом &quotЭта Пси&quot]", {direction: 'top'});
-	// icons = new L.marker([-160240, 31361], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 3 шт.<br>[Внутри локации Убежище 96]").bindTooltip("Журналы - 3 шт.<br>[Внутри локации Убежище 96]", {direction: 'top'});
-	icons = new L.marker([76623, -6504], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 2 шт.<br>[Внутри здания Тату-салон &quotБольшая Эл&quot]").bindTooltip("Журналы - 2 шт.<br>[Внутри здания Тату-салон &quotБольшая Эл&quot]", {direction: 'top'});
-	// icons = new L.marker([50783, -40504], {icon: icon_magazine3}).addTo(magazineicons).bindPopup("Журналы - 5 шт.<br>[Внутри здания Лаборатория биомов &quotАрктос фарма&quot]").bindTooltip("Журналы - 5 шт.<br>[Внутри здания Лаборатория биомов &quotАрктос фарма&quot]", {direction: 'top'});
-	icons = new L.marker([102094, -23035], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Терминал аэропорта Моргантауна]").bindTooltip("Журнал<br>[Внутри здания Терминал аэропорта Моргантауна]", {direction: 'top'});
-	icons = new L.marker([-131600, 107048], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Форт Дефайанс]").bindTooltip("Журнал<br>[Внутри здания Форт Дефайанс]", {direction: 'top'});
-	icons = new L.marker([-104306, -119563], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Складской подвал]").bindTooltip("Журнал<br>[Внутри здания Складской подвал]", {direction: 'top'});
-	icons = new L.marker([-139096, 148632], {icon: icon_magazine2}).addTo(magazineicons).bindPopup("Журнал<br>[Внутри здания Штаб-квартира АМС]").bindTooltip("Журнал<br>[Внутри здания Штаб-квартира АМС]", {direction: 'top'});
+		var magazine1 = [
+			[29047, -58150],
+			[141378, 8636],
+			[135976, -1061],
+			[-47182, -50601],
+			[-46953, -50728],
+			[-146542, 65548],
+			[51569, -150995],
+			[149497, -75855],
+			[-154690, 164805],
+			[-95836, 197043],
+			[-160363, 152369],
+			[-87856, 115793],
+			[-103099, 109346],
+			[142712, -145552],
+			[145528, -149754],
+			[139223, -145456],
+			[-141086, 137117],
+			[-167284, -114534],
+			[-169112, -116879],
+			[92650, 114765],
+			[91789, 115201],
+			[204948, -93423],
+			[204934, -92313],
+			[124875, 170716],
+			[124699, 168887],
+			[-6997, -161561],
+			[-1786, -159695],
+			[-43812, -131509],
+			[-37691, -125365],
+			[-39738, -129455],
+			[-38926, -132600],
+			[-53193, -12641],
+			[-51388, -12572],
+			[-51992, -13348],
+			[-91195, -43373],
+			[-88588, -41415],
+			[-99513, 8208],
+			[-99267, 8117],
+			[-99489, 8063],
+			[-99047, 7196],
+			[183658, 2146],
+			[-33597, 92436],
+			[-42431, 87320],
+			[-160672, 77914],
+			[34692, -6227],
+			[88109, 105494],
+			[-72261, -132144],
+			[196865, -31277],
+			[79912, 182187],
+			[79938, 184480],
+			[-52446, 56913],
+			[130445, -30869],
+			[129872, -30662],
+			[127835, -31586],
+			[13776, 38836],
+			[50336, -42846],
+			[99822, -16461],
+			[-41010, 88185],
+			[-126080, 120400],
+			[-129148, 119197],
+			[-83410, 166023],
+			[-83663, 165595],
+			[51328, -43894],
+			[-38886, 158619],
+			[-38166, 159647],
+			[-31118, -153023],
+			[-39243, 3472],
+			[171546, -121974],
+			[180786, -123247],
+			[26060, 130994],
+			[33977, 127811],
+			[-111183, -61097],
+			[4811, -31303],
+			[-120411, -189773],
+			[-112682, -58824],
+			[50793, -22939],
+			[-46969, -117157],
+			[44788, 176940],
+			[86958, 158951],
+			[86242, 151708],
+			[-11460, -68768],
+			[-81901, -177878],
+			[-76141, -176489],
+			[-79680, -179558],
+			[16501, 46039],
+			[13733, 45851],
+			[15707, 47347],
+			[27676, 50321],
+			[27840, 47195],
+			[24703, 45734],
+			[23585, 49192],
+			[20566, 45711],
+			[25039, 69550],
+			[23478, 71115],
+			[39498, 115193],
+			[41279, 115307],
+			[49442, 84810],
+			[45769, 101158],
+			[36083, 39147],
+			[100122, 26344],
+			[100618, 26776],
+			[70873, 137828],
+			[72200, 137693],
+			[72264, 135905],
+			[179356, -10037],
+			[179546, -11183],
+			[188969, -19093],
+			[200083, 46314],
+			[-27759, 162847],
+			[-94527, 190403],
+			[-94003, 190479],
+			[94167, 103072],
+			[98435, 100662],
+			[95429, 98817],
+			[1623, 137648],
+			[-59554, 183280],
+			[-131455, -113804],
+			[-84541, -80246],
+			[-67049, 23209],
+			[-66160, 36123],
+			[-101530, -55237],
+			[133452, -172805],
+			[165028, -150963],
+			[-61178, 179953],
+			[-123972, -132265],
+			[-121882, -136640],
+			[-124505, -131917],
+			[172416, 38979],
+			[89193, 59819],
+			[90490, -32847],
+			[90598, -29949],
+			[-105496, -138269],
+			[-19515, 17049],
+			[-23186, 14074],
+			[-14628, 16508],
+			[-90434, 150535],
+			[-104827, 41768],
+			[-119461, 40472],
+			[-65774, 74593],
+			[-34821, 13287],
+			[20591, 91042],
+			[-9008, -2687],
+			[75683, -76942],
+			[79341, -75029],
+			[-45387, -72518],
+			[-46588, -69488],
+			[-47207, -69700],
+			[-144563, 140901],
+			[-142967, 140529],
+			[-143061, 138386],
+			[-137087, 153579],
+			[-143294, 153042],
+			[-143194, 149742],
+			[25793, -59091],
+			[7060, 41759],
+			[7578, 44182],
+			[32972, -20442],
+			[30505, -21479],
+			[-7879, 20956],
+			[-144770, 154399],
+			[187655, -165254],
+			[189601, -169549],
+			[-30009, -132537],
+			[-109146, -21916],
+			[-179795, 73980],
+			[-164200, 123352],
+			[-165694, 122072],
+			[-169057, 201456],
+			[-169758, 202279],
+			[-31655, -130238],
+			[-107644, -18957],
+			[-180899, 73944],
+			[-55705, 166296],
+			[43672, 161983],
+			[45685, 162700],
+			[47506, 161436],
+			[14739, 191159],
+			[15173, 191297],
+			[14887, 193366],
+			[172631, 58613],
+			[-90613, 65375],
+			[-91211, 63254],
+			[-118358, 1778],
+			[-122229, 2990],
+			[52109, -127944],
+			[48988, -127401],
+			[120525, 5352],
+			[-121582, 196347],
+			[-32751, -187604],
+			[-69259, 171101],
+			[-105299, 195118],
+			[-108719, 141100],
+			[-109692, 157191],
+			[128966, 86474],
+			[132921, 84810],
+			[131148, 85231],
+			[131572, 87592],
+			[143657, 98667],
+			[143901, 98912],
+			[-79942, 46124],
+			[68524, 202572],
+			[88530, -21098],
+			[-17198, 162936],
+			[-117204, -96359],
+			[-135572, -183314],
+			[-149150, -125895],
+			[183692, -93799],
+			[-41049, -175175],
+			[-42281, -173268],
+			[-43581, -173508],
+			[-40702, 50774],
+			[-38834, 48119],
+			[113692, 115995],
+			[59972, 178677],
+			[66128, 175484],
+			[62930, 172044],
+			[-148427, -58861],
+			[-6725, -117556],
+			[58126, 9997],
+			[58287, 10607],
+			[57417, 12677],
+			[153810, -104121],
+			[161205, -92221],
+			[174795, -140468],
+			[126063, -153622],
+			[179022, 134005],
+			[60571, -96293],
+			[201128, -28088],
+			[-29510, -173251],
+			[-137619, 153503],
+			[20952, 42951],
+			[-59273, 98817],
+			[-58622, 98996],
+			[-121648, -184045],
+			[-116517, -189072],
+			[-54707, -48387],
+			[-52055, -45937],
+			[-56139, -60319],
+			[-55677, -60213],
+			[-61703, -57405],
+			[-60583, -56648],
+			[79363, -153867],
+			[114259, -74291],
+			[-31153, -151692],
+			[-145779, 172406]
+		];
+		var magazine2 = [
+			["Журналы - 3 шт.<br>[Внутри здания Университет &quotВолт-Тек&quot]", 82071, -8020, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри здания Электростанция &quotПосейдон Энерджи&quot WV-06]", -40971, -132032, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри локации Точка &quotЧарли&quot]", -118164, 1654, icon_magazine3],
+			["Журналы - 3 шт.<br>[Внутри здания Медцентр AVR]", -55735, -114894, icon_magazine3],
+			["Журналы - 3 шт.<br>[Внутри здания Школа Моргантауна]", 94128, 2135, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри здания Национальный исследовательский центр радиоастрономии]", -43120, 112631, icon_magazine3],
+			["Журналы - 3 шт.<br>[Внутри локации Точка &quotАльфа&quot]", -14505, 80945, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри здания Муниципальный центр Ватоги]", -141320, 143840, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри локации Шахта &quotГоули&quot]", -141320, 143840, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри здания Галерея в долине]", -12605, 196567, icon_magazine3],
+			["Журналы - 3 шт.<br>[Внутри здания Общественный центр Ватоги]", -136952, 138432, icon_magazine3],
+			["Журнал<br>[Внутри локации Место захоронения на горе Эммет]", -51807, 56146, icon_magazine2],
+			["Журналы - 4 шт.<br>[Внутри здания Восточная региональная тюрьма]", 127398, -29105, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри здания Особняк Риверсайд]", -70220, -70715, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]", -46520, 28168, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри локации Горящая шахта]", -102236, -84358, icon_magazine3],
+			["Журналы - 3 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]", -53492, -162144, icon_magazine3],
+			["Журналы - 6 шт.<br>[Внутри здания Шугар гроув]", -15204, 118972, icon_magazine3],
+			["Журнал<br>[Внутри здания Штаб-квартира &quotГаррахан майнинг&quot]", -160896, -73687, icon_magazine2],
+			["Журнал<br>[Внутри здания Капитолий Чарлстона]", -57828, -91983, icon_magazine2],
+			// ["Журнал<br>[Внутри локации Убежище 63]", -146558, -96290, icon_magazine2],
+			["Журнал<br>[Внутри локации Тоннель &quotБольшой излом&quot]", -149488, 112944, icon_magazine2],
+			["Журнал<br>[Внутри локации Тоннель &quotБольшой излом&quot]", -120808, -44088, icon_magazine2],
+			["Журналы - 3 шт.<br>[Внутри здания Исследовательский центр &quotРобКо&quot]", -64897, 200091, icon_magazine3],
+			["Журналы - 3 шт.<br>[Внутри здания Штаб-квартира &quotХорнрайт индастриал&quot]", -46784, -108174, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри здания Центр аграрных исследований &quotВолт-Тек&quot]", 19445, -117195, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри локации Шахта &quotКервуд&quot]", -64741, 130050, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри локации Необыкновенные пещеры]", -89947, -41527, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри здания Школа Ватоги]", -146584, 153175, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри здания Переработка пищевых продуктов &quotМама Дольче&quot]", 84461, -15851, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри локации Пещера вендиго]", 43120, 87360, icon_magazine3],
+			["Журнал<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526, icon_magazine2],
+			// ["Журналы - 2 шт.<br>[Внутри локации Убежище 94]", 137186, 145156, icon_magazine3],
+			["Журнал<br>[Внутри здания Обсерватория АТЛАС]", 73912, 79507, icon_magazine2],
+			["Журналы - 4 шт.<br>[Внутри локации &quotОтрыжка Бетти&quot]", -82471, -118114, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри локации Убежище Хоука]", 7828, 119103, icon_magazine3],
+			["Журнал<br>[Внутри локации Шахта &quotСчастливая дыра&quot]", -138108, 88917, icon_magazine2],
+			["Журналы - 2 шт.<br>[Внутри здания Экстренные службы Ватоги]", -141039, 141012, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри здания &quotРжавая кирка&quot]", -74719, -113348, icon_magazine3],
+			["Журналы - 6 шт.<br>[Внутри здания Электростанция &quotГрозовая гора&quot]", 98395, 192590, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри локации Норы]", -3956, 157951, icon_magazine3],
+			["Журналы - 3 шт.<br>[Внутри локации Вершина мира, этаж Мезонин]", 14430, 39100, icon_magazine3],
+			["Журналы - 4 шт.<br>[Внутри локации Точка &quotБраво&quot]", 137056, 43038, icon_magazine3],
+			["Журнал<br>[Внутри здания Ван Лоу, таксидермист]", -112937, -62704, icon_magazine2],
+			["Журналы - 2 шт.<br>[Внутри здания Дом &quotПи&quot]", 89394, -875, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри здания Дом &quotЭта Пси&quot]", 85875, 5283, icon_magazine3],
+			// ["Журналы - 3 шт.<br>[Внутри локации Убежище 96]", -160240, 31361, icon_magazine3],
+			["Журналы - 2 шт.<br>[Внутри здания Тату-салон &quotБольшая Эл&quot]", 76623, -6504, icon_magazine3],
+			["Журналы - 5 шт.<br>[Внутри здания Лаборатория биомов &quotАрктос фарма&quot]", 50783, -40504, icon_magazine3],
+			["Журнал<br>[Внутри здания Терминал аэропорта Моргантауна]", 102094, -23035, icon_magazine2],
+			["Журнал<br>[Внутри здания Форт Дефайанс]", -131600, 107048, icon_magazine2],
+			["Журнал<br>[Внутри здания Складской подвал]", -104306, -119563, icon_magazine2],
+			["Журнал<br>[Внутри здания Штаб-квартира АМС]", -139096, 148632, icon_magazine2]
+		];
+	for (var i = 0; i < magazine1.length; i++) {
+				magazine1_1 = new L.Marker([magazine1[i][0],magazine1[i][1]], {icon: icon_magazine1})
+					.bindPopup("Журнал")
+					.bindTooltip("Журнал", {direction: 'top'})
+					.addTo(magazineicons);
+			}
+	for (var i = 0; i < magazine2.length; i++) {
+				magazine2_1 = new L.Marker([magazine2[i][1],magazine2[i][2]], {icon: magazine2[i][3]})
+					.bindPopup(magazine2[i][0])
+					.bindTooltip(magazine2[i][0], {direction: 'top'})
+					.addTo(magazineicons);
+			}
 	}
 	else {
 		magazineicons.clearLayers();
