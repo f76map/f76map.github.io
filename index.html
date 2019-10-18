@@ -154,29 +154,28 @@
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			font-family: LemonMilkRus;
-			font-size: 8.7pt;
+			font-size: 10pt;
 		}
-		#b4, #b5, #b6, #b7
+		#b4, #b5, #b6
 		{
 			position: absolute;
 			width: 28px;
 			height: 28px;
+			left: 10px;
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			font-weight: bolder;
 			font-size: 12pt;
 			cursor:pointer;
 		}
-		#b4 {top: 25px; background-color:#3c3c3c; color: #FFFFFF;}
-		#b5 {top: 55px; background-color:#FFFFFF;}
-		#b6 {top: 85px; background-color:#FFFFFF;}
-		#b7 {top: 115px; background-color:#FFFFFF;}
-		#changemaptext {position: relative; top: 2px;}
-		#changemaptext1, #changemaptext2, #changemaptext3, #changemaptext4 {position: absolute; left: 38px;}
-		#changemaptext1 {top: 33px;}
-		#changemaptext2 {top: 63px;}
-		#changemaptext3 {top: 93px;}
-		#changemaptext4 {top: 123px;}
+		#b4 {top: 40px; background-color:#3c3c3c; color: #FFFFFF;}
+		#b5 {top: 70px; background-color:#FFFFFF;}
+		#b6 {top: 100px; background-color:#FFFFFF;}
+		#changemaptext {position: relative; top: 5px;}
+		#changemaptext1, #changemaptext2, #changemaptext3{position: absolute; left: 45px;}
+		#changemaptext1 {top: 48px;}
+		#changemaptext2 {top: 78px;}
+		#changemaptext3 {top: 108px;}
 		#sidebar
 		{
 			position: absolute;
@@ -316,7 +315,7 @@
 		border:1px solid #3c3c3c;
 		box-shadow: 0 0 5px #bbb;
 		font-family: LemonMilkRus;
-		font-size: 9pt;
+		font-size: 10pt;
 		cursor:pointer;
 		}
 		.mapinfo
@@ -593,11 +592,9 @@
 	b4.style.background = '#3c3c3c';
 	b5.style.background = '#FFFFFF';
 	b6.style.background = '#FFFFFF';
-	b7.style.background = '#FFFFFF';
 	b4.style.color = '#FFFFFF';
 	b5.style.color = '#000000';
 	b6.style.color = '#000000';
-	b7.style.color = '#000000';
 	};
 	function but5() {
 	map.removeLayer(image);
@@ -605,11 +602,9 @@
 	b4.style.background = '#FFFFFF';
 	b5.style.background = '#3c3c3c';
 	b6.style.background = '#FFFFFF';
-	b7.style.background = '#FFFFFF';
 	b4.style.color = '#000000';
 	b5.style.color = '#FFFFFF';
 	b6.style.color = '#000000';
-	b7.style.color = '#000000';
 	};
 	function but6() {
 	map.removeLayer(image);
@@ -617,23 +612,9 @@
 	b4.style.background = '#FFFFFF';
 	b5.style.background = '#FFFFFF';
 	b6.style.background = '#3c3c3c';
-	b7.style.background = '#FFFFFF';
 	b4.style.color = '#000000';
 	b5.style.color = '#000000';
 	b6.style.color = '#FFFFFF';
-	b7.style.color = '#000000';
-	};
-	function but7() {
-	map.removeLayer(image);
-	image = L.imageOverlay('css/images/map4.jpg', bounds).addTo(map);
-	b4.style.background = '#FFFFFF';
-	b5.style.background = '#FFFFFF';
-	b6.style.background = '#FFFFFF';
-	b7.style.background = '#3c3c3c';
-	b4.style.color = '#000000';
-	b5.style.color = '#000000';
-	b6.style.color = '#000000';
-	b7.style.color = '#FFFFFF';
 	};
 	var popup = L.popup();
 	function onMapClick(e) {
@@ -1883,12 +1864,10 @@ LocationsOnOff();
 		<div id="changemaptext" align="center"><u>Выбор карты:</u></div>
 		<div id="changemaptext1">Стандартная</div>
 		<div id="changemaptext2">Военная</div>
-		<div id="changemaptext3">Стандартная + линии координат</div>
-		<div id="changemaptext4">Ultimist's High Detailed Map</div>
+		<div id="changemaptext3">Стандартная + регионы</div>
 		<div class="map"><input type="button" id="b4" onclick="but4()" value="1" style="font-family: 'Arial'"/></div>
 		<div class="map"><input type="button" id="b5" onclick="but5()" value="2" style="font-family: 'Arial'"/></div>
 		<div class="map"><input type="button" id="b6" onclick="but6()" value="3" style="font-family: 'Arial'"/></div>
-		<div class="map"><input type="button" id="b7" onclick="but7()" value="4" style="font-family: 'Arial'"/></div>
 	</div>
 	<div class="mapinfo"><img type="button" src="css/images/mapinfo.png" id="mapinfoid" onclick="openinfo()"/></a></div>
 	<div id="discord_f76hub"><a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank" title="Русскоязычный сервер дискорд по игре Fallout 76
