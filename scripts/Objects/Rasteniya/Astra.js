@@ -1,1949 +1,1964 @@
-	var astraicons = L.layerGroup().addTo(map);
-	function AstraOnOff() {
+var astraicons = L.layerGroup().addTo(map);
+function AstraOnOff() {
 	var chbox;
 	chbox=document.getElementById('AstraButton');
 	if (chbox.checked) {
-	L.circleMarker([-26485, -16905], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23199, -10185], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34839, -25616], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60502, -18234], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-58270, -18201], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44927, -16669], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-43449, -17396], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59916, -9470], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-35284, -4697], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-37842, -2306], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-96379, -26574], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-96484, -26489], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-88098, -26187], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79231, -25680], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79351, -25575], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-77475, -21694], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-90534, -18679], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-90637, -18630], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84399, -17850], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71199, -14958], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66212, -15544], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66861, -14602], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-97070, -9291], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89904, -9234], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89546, -8639], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70341, -10794], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66351, -8530], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72402, -6954], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68452, -5180], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92307, -1938], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-85847, -411], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111726, -32249], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111771, -32160], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-99508, -30176], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124064, -26749], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124355, -26741], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124447, -26677], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117822, -28280], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117805, -28069], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108576, -26840], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108726, -26926], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108549, -26899], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-129920, -16434], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120838, -17387], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120745, -17329], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121683, -17569], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121530, -20287], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-110918, -18348], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111002, -18262], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-102574, -20159], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125200, -9676], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124341, -10639], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124286, -10527], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-115949, -10718], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116369, -10651], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-106932, -8572], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-100564, -11303], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130251, -3820], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130146, -3928], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130253, -3665], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-112458, -715], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-102779, -1806], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-102477, -1763], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80272, -62600], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-78573, -59385], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-78768, -59496], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79032, -60216], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79109, -61282], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84129, -45703], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91721, -34694], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91610, -34681], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91728, -34601], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-85144, -34889], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128447, -36891], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128096, -37031], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128093, -36867], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120903, -36965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121612, -39453], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121438, -39606], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121559, -39483], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121359, -35813], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121412, -35723], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-103551, -34016], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-103676, -34006], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26343, -95505], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24360, -97222], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17407, -95358], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-9129, -95507], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-11041, -96650], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121831, -66733], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121891, -65853], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26165, -112022], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23607, -111508], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-14120, -111089], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20303, -107784], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-18251, -109123], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-28267, -106376], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26382, -105780], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-27366, -102631], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17184, -105396], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19591, -103775], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19353, -103173], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-15774, -102601], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20214, -98679], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-13894, -100594], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-163657, -28512], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-159128, -25364], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-158990, -25364], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148267, -26986], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148115, -27192], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-142430, -24968], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-142368, -24896], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131586, -24708], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131804, -24631], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132699, -27414], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-151872, -19414], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-151925, -20007], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146059, -16807], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146005, -16934], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146003, -16761], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138967, -17616], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138443, -17588], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-157134, -9851], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-155987, -11332], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150457, -10180], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139633, -10444], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139330, -11146], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131767, -11025], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131733, -10914], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131643, -10982], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-161931, -2563], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150253, -3631], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145874, -299], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145752, -322], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136688, -1221], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136813, -1297], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137655, -1408], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179583, -24767], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179430, -24782], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-167764, -28426], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-172410, -20202], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-172384, -20318], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166510, -17839], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166131, -12371], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-170671, -11153], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-180006, -4167], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179907, -7923], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-171228, -3419], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-151622, -51232], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-151475, -51164], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-151531, -51321], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-163355, -48329], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-163630, -47833], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-155905, -41271], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-155462, -41234], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152670, -33951], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152610, -34100], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144873, -35254], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140174, -35125], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-141078, -35207], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-135598, -33542], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136271, -33706], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136128, -33729], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138651, -36132], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166623, -42806], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-195083, -34936], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-194453, -34698], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-194564, -34860], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-194612, -35076], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-193479, -35080], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-193852, -35035], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-194228, -35359], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-174722, -36463], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-165113, -36257], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166998, -92152], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-169496, -88113], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-162943, -101732], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-171914, -128376], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-176605, -113724], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-175051, -99674], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([149470, -13957], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([204926, -62306], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([197583, -57834], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([204038, -56990], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([201348, -56398], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([205034, -52903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([190621, -59832], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([192262, -56507], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([204358, -73937], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([207039, -73853], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([204518, -67342], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([185105, -87361], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([188645, -88994], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([191743, -84557], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([188633, -83077], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([192141, -74966], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([194506, -76101], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([191363, -66892], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([161231, -90502], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([148208, -88212], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163542, -86697], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([100233, -28650], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([41380, -12951], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([39930, -10136], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34129, -1187], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34212, -817], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([28123, -10757], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([27983, -10664], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([66242, -53225], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71383, -50258], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([67107, -44645], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69405, -44111], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71475, -44163], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([66788, -40162], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([58926, -50795], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([61273, -51186], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([60266, -52012], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([60388, -49987], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63373, -51723], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62924, -51264], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62080, -51713], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62084, -49917], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62852, -49251], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([61276, -48116], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63185, -47432], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62465, -48415], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62570, -47484], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64644, -45504], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([56669, -43368], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([56396, -44922], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([58012, -44630], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([58358, -43717], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([67421, -79976], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([66668, -74908], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72432, -74177], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70854, -75491], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([78949, -76947], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([66760, -73172], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([68332, -70890], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([66663, -70119], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81696, -71805], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80581, -71371], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70828, -67313], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72780, -66185], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64879, -78722], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-31121, -160571], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17176, -162393], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26685, -155767], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-18528, -157946], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20921, -155289], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19282, -148146], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-33367, -163576], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-41316, -157402], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32915, -156074], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-35315, -159048], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38623, -155326], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32842, -153302], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-67143, -131168], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-175949, -141014], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69157, -161235], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([68169, -160801], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72405, -162813], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81141, -159986], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([76508, -156408], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([76403, -156281], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80905, -156341], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84879, -155996], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([76307, -152005], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([82595, -153282], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70805, -149912], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70812, -149467], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81241, -148488], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([79445, -150352], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81155, -148511], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84105, -148977], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84946, -147962], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64042, -160516], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64101, -154648], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63091, -148438], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64325, -149875], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26422, 132510], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26391, 132593], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44876, 136236], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44911, 136170], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([199259, 173951], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([199494, 187779], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([176039, 164046], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([197570, 134699], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([200394, 136788], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([204372, 136596], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([204309, 136692], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([190791, 132039], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([165833, 137997], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([187462, 139029], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([195093, 146095], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174873, 148809], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([180469, 149627], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169311, 154033], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([190217, 152128], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([183011, 160979], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([147173, 132779], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([154659, 142549], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([161024, 146424], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([151669, 151021], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([151703, 150456], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([140775, 152562], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([89127, 133901], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([96357, 135954], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32469, 101362], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10917, 98373], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10310, 98414], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-31949, 102917], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32708, 102410], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-31995, 102746], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3616, 104863], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3318, 104947], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3542, 105434], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-30923, 107334], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-31125, 107122], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-7147, 117986], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-7387, 117879], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20910, 125013], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24469, 126104], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5260, 123971], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-4961, 124305], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5807, 124326], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23840, 127751], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23850, 127696], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23811, 127709], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-37762, 102241], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-37327, 102175], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-37782, 102039], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56828, 102720], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56703, 102553], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56829, 102535], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64709, 108779], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64781, 108812], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-58953, 106828], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59064, 106842], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59001, 106899], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64994, 112005], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64967, 111943], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-65045, 111949], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54509, 113972], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54585, 114493], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54788, 114593], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60721, 116602], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60647, 116564], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60683, 116515], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44117, 120433], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44061, 120697], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-43765, 120689], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34266, 119717], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34266, 119570], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34459, 119836], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64477, 125311], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64465, 125205], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64412, 125239], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-61174, 129517], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50611, 129288], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50735, 129240], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50674, 129218], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-96385, 99070], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-96719, 99276], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-96270, 99350], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68983, 99315], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69044, 99315], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69005, 99372], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71477, 103933], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71538, 103889], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71552, 103943], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68993, 104561], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69022, 104518], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68963, 104501], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74147, 107046], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74102, 106963], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74096, 107099], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80019, 110964], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79797, 110848], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80137, 110739], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75747, 112792], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75822, 112787], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75834, 112724], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130084, 100145], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125026, 98505], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124381, 100519], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-123865, 99809], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122567, 99182], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128314, 104173], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128260, 104933], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-129697, 105233], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124460, 103120], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122371, 102908], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130032, 106582], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-28760, 66811], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-15961, 66837], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-15322, 66681], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-16016, 65757], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-6157, 66334], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5767, 66037], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-4926, 66164], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-4705, 66523], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-27866, 71557], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-27652, 71670], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-15859, 71807], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-16113, 71599], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1751, 72409], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1845, 72304], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24344, 73968], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24463, 73845], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-27521, 80663], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-27824, 80298], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10300, 79326], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10367, 79051], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-22389, 83035], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-22819, 82899], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19484, 85788], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19446, 85416], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-18460, 82085], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-18673, 81990], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5962, 85146], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5927, 85599], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3012, 83003], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-2968, 82600], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20731, 87447], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20863, 87465], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5940, 89477], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-6035, 89484], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10410, 98244], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10097, 98187], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-11116, 98303], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59535, 67934], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-57021, 68221], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56565, 68121], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-48253, 68173], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-35586, 66610], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62774, 71534], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62695, 71416], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59013, 72866], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59265, 72907], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54452, 71585], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54584, 71389], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-33972, 72991], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34117, 73307], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59838, 74208], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59925, 73849], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-51911, 74598], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50222, 80017], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50118, 80136], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42300, 78388], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42722, 78435], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59619, 85280], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59208, 85548], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54187, 83874], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46148, 83919], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46206, 84965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-40559, 85348], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-36784, 85051], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-36612, 85577], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-61623, 92408], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-61664, 92400], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-58559, 93621], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-58638, 93649], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-51976, 93218], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50923, 93601], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50993, 93521], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62020, 94876], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-61967, 94849], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54134, 97622], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-53998, 97329], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54617, 97519], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89309, 68959], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-82418, 67341], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-82317, 67508], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79611, 68022], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79788, 68222], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75604, 65610], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80667, 69957], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80343, 69822], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66859, 73010], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-67060, 73048], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66613, 73559], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-93388, 75501], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-93238, 75530], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91549, 75983], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89703, 76066], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89533, 75858], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70470, 74248], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70235, 74128], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91828, 81255], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91568, 81449], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91499, 81391], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-90030, 80478], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89355, 80502], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89337, 80334], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-73847, 78428], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74076, 78201], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74349, 79872], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72338, 78944], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72462, 78996], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72198, 79223], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-95501, 84057], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-95610, 84069], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-95139, 85035], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-82995, 85736], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-83194, 85568], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-82054, 84719], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-81771, 84716], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72864, 83769], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-73099, 83701], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-95359, 87449], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-94610, 87611], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-94935, 87550], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68705, 87858], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68770, 87841], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-78573, 93244], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-77840, 93538], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-78246, 93306], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74808, 92717], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74787, 92814], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74843, 92756], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70334, 94058], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70371, 93996], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70380, 94069], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130857, 68952], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130386, 68910], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121457, 69376], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120897, 69576], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124504, 72283], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116415, 70319], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116230, 70277], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108116, 72959], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108362, 72878], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-104223, 70166], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-104226, 70521], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-127079, 73817], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111801, 75617], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111731, 75521], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-102791, 76472], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124018, 78732], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124913, 81558], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-124698, 81692], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120429, 81151], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120610, 77992], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117336, 81815], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117353, 81743], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117458, 81493], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120169, 84788], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119135, 84750], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-101582, 84087], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-101710, 83972], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-98953, 83699], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-99248, 83734], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-129407, 89191], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-126720, 87177], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125483, 87248], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-127347, 90692], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119365, 91014], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128000, 97347], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125973, 95881], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119779, 97516], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120098, 96151], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122638, 95259], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120015, 97873], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32285, 35759], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26696, 35309], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24227, 33134], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20245, 34442], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-12165, 35285], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-9717, 34868], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3831, 33952], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3798, 34087], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-31103, 40024], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23875, 36953], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17905, 36976], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-8928, 40848], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5779, 40175], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-93, 38996], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-22699, 44116], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20250, 44895], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-18837, 41598], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-11626, 42064], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5560, 43509], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-7491, 42376], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19467, 46629], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19810, 46847], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-6383, 45538], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-6457, 45521], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-6970, 45432], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-2513, 48577], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1269, 47235], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-2327, 48373], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1427, 45995], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3860, 48377], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3863, 48860], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-31328, 49665], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-30949, 49300], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26456, 50352], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26513, 50135], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10087, 51813], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10120, 51527], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-5991, 52523], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-6263, 52693], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1796, 49586], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-2082, 49789], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-30061, 53825], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-29501, 55105], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-29395, 54988], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24907, 56416], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24649, 56435], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19329, 55639], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19412, 55475], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-13423, 56352], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-15615, 53310], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1451, 55166], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-973, 55641], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17063, 60793], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17355, 58180], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17241, 58066], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-7351, 58024], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-7420, 57961], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24901, 63212], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24951, 62988], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-18940, 65144], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-19052, 64890], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-11686, 64706], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-11488, 64720], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3663, 62142], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3602, 61852], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64673, 36190], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64656, 36575], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59625, 33158], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-61120, 35888], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-53779, 33706], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-55929, 35680], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-45575, 34722], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-37033, 35584], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-40827, 35180], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-65168, 40140], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-57597, 37440], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-58969, 37742], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60669, 38348], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-57658, 38059], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60857, 38892], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-45481, 39003], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47608, 40346], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34636, 40554], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32930, 40868], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60914, 43208], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-53605, 41232], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-55624, 43092], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-53843, 43063], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-49632, 41049], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-49326, 43865], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-48310, 44698], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44496, 41896], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44913, 42831], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-40707, 41521], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38891, 43736], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-36470, 44482], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64519, 47939], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64648, 47912], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38462, 47348], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-39914, 47388], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56619, 50520], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56564, 50418], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-55540, 49947], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54447, 52903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54097, 52673], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-54315, 53047], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-49617, 52800], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-49496, 52562], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-40879, 49740], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-39502, 50019], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-39303, 50135], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38557, 53086], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38820, 53167], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-35777, 51723], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-36193, 52151], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60796, 55868], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60923, 56049], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-49267, 54412], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38730, 54622], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38822, 54392], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34357, 56246], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-33959, 55623], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62017, 58087], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62042, 58188], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50226, 59771], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50329, 59539], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42241, 59564], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42256, 58888], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60991, 63830], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60936, 64257], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44959, 64371], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-39638, 63237], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-39548, 63447], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-40190, 62561], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-94074, 35025], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-93957, 35060], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-86459, 35318], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87197, 35300], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87409, 34929], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87436, 35067], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84162, 33513], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-81243, 34471], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80573, 35481], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80529, 35544], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80130, 35730], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74675, 35091], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75995, 35954], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66065, 35267], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-65590, 34569], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-94466, 36878], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-78062, 39723], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-78420, 39275], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80071, 39038], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92972, 43467], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92858, 43438], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92946, 43962], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-86381, 42352], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-86659, 41333], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-82960, 42243], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-83450, 42376], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79569, 43192], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80004, 44178], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80069, 44063], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-67932, 43115], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-96724, 45277], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-96944, 45160], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-98231, 47676], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-94728, 45852], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-94685, 45975], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-85083, 47058], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84802, 47392], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84638, 48854], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-81033, 48222], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-80521, 47643], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-81066, 47462], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-77390, 45208], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71651, 48283], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71391, 48442], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-95244, 51238], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-94723, 51203], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79286, 52562], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79482, 52595], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72678, 51347], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72330, 51037], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87703, 54412], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87530, 54266], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84185, 54361], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84023, 54174], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84880, 54198], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-85175, 53930], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75094, 56333], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74371, 54695], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74363, 54905], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69096, 55209], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69162, 55146], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92335, 60512], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-90445, 60525], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-91734, 60929], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-88650, 59562], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-88467, 59392], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-97739, 63594], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-97618, 63415], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-90355, 62231], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-90498, 62274], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-88916, 63827], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87186, 62746], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-83858, 62166], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84282, 62020], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79039, 63894], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79332, 63639], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75299, 65290], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71139, 63630], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71498, 63623], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69734, 62434], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69610, 62452], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117827, 36583], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117478, 36576], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-109801, 36664], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-110257, 36755], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105155, 34839], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105303, 35841], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105066, 35619], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-101032, 36623], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120185, 40398], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120267, 39687], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-118248, 37629], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-118166, 38106], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107619, 40526], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107238, 40649], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111189, 42731], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-114378, 41341], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107146, 43499], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-109258, 42137], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105447, 44453], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105689, 44632], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-104756, 46283], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105145, 46047], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105084, 45734], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125848, 50200], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125574, 49605], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122580, 51509], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122389, 51574], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-118325, 50635], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-118151, 50639], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111521, 49619], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111600, 49465], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107137, 51596], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107321, 51439], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-99515, 50466], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-99333, 50375], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125415, 56421], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125027, 56341], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-126277, 55117], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-106972, 54241], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-106829, 54160], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-104199, 56556], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-104324, 56289], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128979, 57412], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116579, 60912], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116495, 61119], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-118546, 61132], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-118187, 61145], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-98737, 57688], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-98525, 57774], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-98717, 57394], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130217, 63413], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119514, 62035], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119834, 61747], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119075, 64849], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108422, 61695], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108444, 61542], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105775, 63256], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105966, 63238], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32284, 5070], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-25196, 4608], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24706, 4214], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-20555, 7395], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23017, 5990], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-4654, 5250], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-31512, 10968], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26732, 8723], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-110, 10070], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-26818, 14578], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-21079, 12392], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-15154, 14185], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-12495, 15714], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-12868, 12707], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1648, 14417], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-28098, 18718], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17743, 17745], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-14953, 18162], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-11806, 18521], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-8212, 17988], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-27725, 23751], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-24786, 22625], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-22581, 23315], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-15373, 22775], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-8662, 21498], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-9607, 22597], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10879, 20663], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-28615, 26590], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-22115, 25136], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17326, 26505], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-9843, 28063], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-9383, 24759], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-4329, 27463], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-30240, 29599], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-32640, 32440], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-28373, 32151], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-23752, 29647], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-17400, 30376], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10404, 32404], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-8727, 30247], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-10097, 31981], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-3232, 31524], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-1720, 29310], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-37529, 326], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50560, 4802], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50119, 5275], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50215, 5631], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50176, 5284], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50538, 5492], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50133, 5609], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-50275, 5684], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47520, 7939], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-41424, 4415], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42932, 7369], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-63441, 8598], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-63268, 12169], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62788, 9086], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60233, 10839], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-52135, 9530], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-51916, 9635], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46255, 9973], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-48178, 11081], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-45457, 10717], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-48019, 10137], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47790, 10061], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47423, 9046], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47272, 8994], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47203, 9184], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-48187, 10276], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47293, 9312], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47638, 9977], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47452, 9811], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46818, 10771], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47095, 10731], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47331, 10799], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47668, 10823], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46380, 9800], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46549, 9481], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46715, 9123], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46760, 8970], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46950, 8536], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-45027, 10726], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42899, 11492], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44147, 11742], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44243, 11139], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-33347, 8390], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34661, 11642], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62526, 14010], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-52660, 14218], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-45301, 13013], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-45786, 13174], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44832, 14784], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-43184, 15837], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44563, 12760], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-35063, 12384], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-33224, 13170], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60913, 19200], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56297, 17816], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-51044, 17675], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47459, 16551], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42091, 17746], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44329, 17668], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-34263, 19143], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-56135, 20583], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-52508, 21518], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-47870, 21639], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-43403, 21299], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-33328, 22935], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-35452, 22686], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-65042, 25388], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-63120, 26796], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-64011, 26241], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62506, 27459], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-65010, 26882], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-55486, 26747], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-48194, 25904], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-44223, 24866], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-39730, 25614], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38897, 28462], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-33433, 26833], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62520, 28881], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-62552, 28932], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59879, 29390], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-60770, 31071], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59897, 31754], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-59651, 29342], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-49425, 31843], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-51089, 31135], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-46421, 30921], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-42212, 29922], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-43913, 32551], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-39122, 32664], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-38217, 31267], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-36294, 30971], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-67874, 7472], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92536, 9218], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-93142, 10099], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-93063, 10424], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75561, 11990], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69385, 11424], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89735, 16372], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84004, 15112], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-83980, 14741], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-84794, 13135], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-77150, 14139], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75848, 16089], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71604, 13071], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87456, 19683], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87413, 19424], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87284, 19557], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-89687, 16426], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79299, 17833], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-79132, 17890], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74623, 20149], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-74049, 18182], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-76975, 17297], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-73526, 19947], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-97117, 22142], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-97182, 22235], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92882, 23070], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92930, 22825], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-92569, 22827], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-86969, 23713], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-86291, 23766], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-87393, 23579], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70281, 24258], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70943, 23920], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-71070, 21881], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68895, 24160], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66832, 24342], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-68950, 23327], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69098, 20901], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-69797, 26906], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-72498, 26504], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-66503, 26137], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-83935, 30610], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-81484, 31239], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-76107, 29905], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75282, 31929], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-75625, 30090], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-73957, 31923], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70868, 32094], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70777, 31877], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70528, 30212], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-70658, 31028], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-65637, 32637], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122582, 909], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122792, 928], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122817, 1040], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120197, 6960], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-120520, 6836], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-113801, 4584], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107907, 7884], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-101202, 5441], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-101015, 5471], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122549, 11607], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122449, 11651], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-104807, 12129], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-103801, 12084], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-128251, 12521], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-127851, 13129], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121873, 14285], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-121757, 14303], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116337, 15945], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116570, 15763], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-116384, 15680], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-108058, 15760], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107947, 15661], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-102602, 14192], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111107, 16772], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111491, 16877], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-109701, 17544], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-99357, 17308], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-100690, 18172], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130776, 21613], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-130589, 21636], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122356, 21472], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122056, 21228], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122171, 24423], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122103, 24284], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107186, 22052], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125316, 26520], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-125529, 26792], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-117639, 27131], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-118083, 27738], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111291, 26183], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-111388, 26553], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105427, 26542], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-105544, 26328], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-98931, 26372], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-98800, 26710], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-122726, 29788], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119058, 30084], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-119231, 30056], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-112754, 32235], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-112507, 32410], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-107498, 30479], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-102712, 30552], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-102863, 30293], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-163286, 102034], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-160127, 101137], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144352, 101802], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-135579, 99326], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136678, 99272], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-133594, 100738], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132382, 100309], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-142907, 104165], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140993, 103137], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-141083, 105343], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140689, 105884], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139411, 105955], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139046, 103436], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136738, 104580], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-134323, 102692], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-133184, 106106], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-134100, 103115], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-134729, 105592], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132963, 104035], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-134332, 103245], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138064, 106551], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138024, 106754], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137896, 106790], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137976, 106903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138153, 106652], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-170236, 98774], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-162464, 69429], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-159432, 69100], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-159644, 69311], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-149870, 69128], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150567, 68543], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145321, 68034], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145767, 68804], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140365, 68581], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139859, 65939], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131342, 66282], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-153985, 73091], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152096, 71108], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150436, 70334], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-143659, 71252], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144869, 71380], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-142910, 71617], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138809, 69893], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138844, 70126], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-158656, 76426], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-158676, 76938], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148220, 77225], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146299, 73854], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145648, 74029], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146692, 74385], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144288, 77522], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139955, 75897], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-142330, 77184], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139772, 77553], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-133809, 74558], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-159375, 80112], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-159624, 79812], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-153054, 81107], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-154045, 81762], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-149919, 80384], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150745, 78549], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-143862, 79987], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144272, 80633], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146799, 80927], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144643, 80806], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-142476, 80231], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139581, 77975], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-153348, 83232], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-154159, 82061], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146117, 83493], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140584, 85581], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-141354, 85539], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132124, 83990], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-149989, 87068], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145815, 88393], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-142516, 87435], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137608, 89329], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132412, 86439], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-143912, 93166], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-160179, 96045], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144534, 97077], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-139880, 97918], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140146, 95834], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-133380, 97940], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132627, 95430], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-180309, 65670], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-180056, 65998], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-165420, 69380], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-164923, 68606], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179736, 73263], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-180179, 71965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179750, 72468], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-168605, 71819], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-168786, 71744], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-164805, 71530], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-165113, 71722], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-178930, 75332], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-176484, 76809], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-174827, 75039], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-174749, 76040], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-167447, 78758], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166739, 78349], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-164755, 89595], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-165606, 91599], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-167673, 91207], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-172255, 96842], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-164295, 97827], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148745, 33157], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148474, 32855], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146209, 35936], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145604, 36478], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145566, 36692], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-141060, 36413], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-141695, 36755], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137562, 36736], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137893, 35345], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-138128, 35620], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-144602, 39815], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-133443, 40685], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-133368, 40210], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-157404, 43762], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-157234, 43920], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-154458, 41384], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148110, 43280], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148006, 43304], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137348, 44792], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150174, 46317], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150584, 46462], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-147056, 48248], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131864, 48039], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131500, 47664], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-163811, 51588], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-161357, 49631], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-155849, 51048], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-151873, 51432], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-153508, 52965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-155588, 51111], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-147247, 52813], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146269, 52318], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146479, 52300], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152719, 54652], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152450, 54852], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136173, 55545], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-153819, 58664], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-149355, 60876], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-149548, 60698], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-135963, 61028], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136293, 61132], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-156284, 61757], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-143451, 63305], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-143566, 63040], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137027, 63336], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137199, 63485], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131168, 63802], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-131756, 61616], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-175762, 36479], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166701, 40939], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166673, 40870], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-168379, 56550], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-168464, 57079], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-164510, 57003], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-164941, 57093], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179973, 59319], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-166400, 63657], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-167043, 63645], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-148309, 4859], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-147731, 8000], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137522, 7011], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-137699, 7534], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-157386, 11786], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-143498, 9792], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-143799, 9840], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-145971, 9795], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140377, 10376], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140663, 10422], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132096, 12088], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-161847, 14201], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-161995, 14249], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-156961, 16019], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-155885, 16162], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-147896, 13027], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-141898, 12903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-141534, 12842], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-157101, 17247], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-156333, 17268], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-154915, 16438], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-155332, 16527], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-149887, 17594], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-150249, 17858], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136421, 17853], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-136137, 17625], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132922, 18735], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-132730, 18959], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152081, 20593], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152350, 20556], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-134624, 22629], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-134651, 22752], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-134411, 22147], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-154137, 28629], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152528, 26502], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-152534, 26293], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146492, 28078], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146680, 28241], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-161918, 30128], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-162090, 30087], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-153768, 28880], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-146383, 32238], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140613, 30698], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-140302, 30399], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-175003, 5412], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-165647, 5154], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-165782, 4995], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179801, 14667], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179907, 14903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-171467, 12947], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-171493, 12734], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-165194, 19262], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-176051, 21093], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-176002, 21035], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-167642, 22308], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-179980, 28791], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-170623, 29988], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-170335, 32219], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([-167322, 30093], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([208614, 100261], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([196749, 104372], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([208340, 102826], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([198736, 109936], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([197730, 110467], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([201359, 111374], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([206385, 113143], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([202184, 117325], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([167530, 99652], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([167468, 99611], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([171831, 98961], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([171969, 98959], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([168872, 102997], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169159, 103369], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169250, 103339], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169464, 103436], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169494, 103347], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([185604, 102956], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([189917, 104903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([194852, 102861], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170474, 108234], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170622, 108189], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([189974, 110090], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([191668, 111816], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170834, 116203], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170622, 116202], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170645, 116299], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([193861, 117769], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([195571, 121292], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([195148, 126659], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([134334, 100290], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([134497, 100338], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([134491, 100894], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([133757, 100311], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([134230, 100494], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([146937, 129474], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([158618, 127738], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([202905, 84674], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([203002, 83555], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([201970, 89133], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([205115, 89207], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([201879, 91003], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([198450, 95962], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([201273, 95431], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([208275, 97219], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174093, 67483], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173925, 67502], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([183100, 66873], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([183104, 66989], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170178, 76730], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169084, 80742], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169215, 80596], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([181414, 84802], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([181366, 84551], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163873, 92012], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([164177, 92280], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([164124, 92317], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([164353, 92079], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([194642, 91144], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([176515, 95744], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([176565, 95302], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([176443, 95354], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([190919, 95599], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([132086, 65625], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([132019, 65585], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([150995, 67592], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([154563, 67869], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([154633, 68077], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([152299, 68112], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([135390, 71363], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([135452, 71098], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([138115, 70998], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([139223, 71188], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([140062, 71392], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([144425, 71010], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([144172, 71302], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([144160, 71397], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([148923, 71395], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([157034, 75121], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([136712, 78818], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([136807, 78598], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([140368, 79100], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([140506, 79143], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([141978, 78649], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([156423, 80364], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([156376, 77886], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([156248, 77943], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([160809, 79220], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([161923, 79905], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([162731, 81335], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163750, 84965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163223, 85119], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163296, 85074], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([162465, 87213], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163585, 91924], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([198695, 46882], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([198969, 46174], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([198328, 51857], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([197108, 53150], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([196664, 53609], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([200298, 54246], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([200239, 53885], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([203603, 56384], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([171789, 36720], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([178307, 34780], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([178026, 34891], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([177954, 34951], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169332, 38434], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169576, 38656], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169640, 38688], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170374, 38377], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170888, 38672], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170745, 38919], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174792, 37288], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([171301, 44115], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173535, 41918], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173430, 41881], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([172752, 42975], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([172625, 42975], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([178201, 42633], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([178135, 42570], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([187483, 47969], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([188820, 49861], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([165976, 55183], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([166196, 54967], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([166531, 55039], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([184204, 54568], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([185734, 55635], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186105, 56380], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([187452, 56198], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([193929, 53427], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([194402, 55776], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([194286, 55838], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([166290, 60634], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([166266, 60776], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([165629, 59823], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([165560, 59632], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170967, 60554], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169866, 60852], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169173, 60633], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174587, 58667], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174437, 58626], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174216, 58583], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173922, 58531], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173797, 58696], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173938, 58713], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174274, 58807], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174467, 58849], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174581, 59084], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173831, 58963], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([173561, 59194], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([180832, 57573], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([167430, 62646], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([167394, 62748], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([165974, 65185], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([165904, 65274], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([165938, 65105], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([164126, 64956], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170324, 62894], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([170383, 62862], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169145, 65029], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([169073, 64987], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([168170, 63658], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174792, 65361], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([174672, 65323], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([178768, 65470], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([178843, 65406], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([182712, 63828], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([182585, 63564], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([141762, 45084], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([136792, 53171], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([136881, 53076], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([136879, 53290], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([141492, 55298], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([141288, 55294], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([158532, 57194], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([158620, 57164], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([142439, 59790], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([142464, 59942], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([160249, 57650], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([160087, 57769], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([162333, 59529], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([154736, 64750], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([154676, 64897], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([155276, 64568], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([153517, 64559], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([153567, 64465], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163597, 64999], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([163523, 65083], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([162263, 64553], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186493, 24887], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186830, 27494], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186440, 26980], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186342, 26955], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186873, 31435], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186802, 31412], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([186431, 30925], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([190522, 30822], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104496, 102526], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104697, 102649], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104329, 103128], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104329, 103128], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104481, 102630], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119953, 107168], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([123014, 107349], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([103003, 129829], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69428, 100148], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([75166, 99746], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80282, 99918], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80073, 100229], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([82292, 101597], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([82264, 101684], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69713, 104910], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([74790, 104018], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([74899, 104136], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([79232, 102495], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([79425, 102474], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([78572, 109741], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([83810, 112774], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([82052, 117141], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([82150, 117003], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84090, 122589], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([91268, 128867], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([65442, 101247], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62941, 100174], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63106, 100158], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62938, 99991], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([56462, 104519], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54233, 103349], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54216, 103317], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([53565, 104572], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34007, 107598], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34267, 107123], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([33802, 107026], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([33722, 107050], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([43165, 109861], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([58009, 108427], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([57946, 108365], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([57909, 108136], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62894, 112548], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63053, 112644], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62953, 112480], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([56269, 117062], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54040, 115393], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([53800, 116685], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54006, 117378], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34058, 118866], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([33941, 118792], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([33963, 118852], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([1147, 99201], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([906, 99254], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([641, 99192], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10661, 100359], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10620, 100465], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10441, 100385], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([14525, 106762], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([14903, 106797], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([12602, 108799], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([12847, 109343], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([18931, 117918], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([18258, 117427], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([19888, 116672], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([28848, 114993], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([28872, 115089], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([28780, 114973], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([101594, 68888], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([99874, 66986], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([108085, 67061], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([114903, 68635], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([116507, 67719], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119996, 67600], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([120152, 67514], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([120070, 67549], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([99334, 72857], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105706, 70046], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104266, 73017], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104648, 76965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([106959, 74969], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([130971, 75448], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([129575, 73877], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([101837, 78837], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105093, 78802], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119224, 80976], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119779, 80765], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119719, 81040], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119542, 81067], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119979, 80978], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([120068, 80911], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105972, 84147], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105891, 84078], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104887, 84079], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104669, 83894], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105007, 83632], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([126154, 84206], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([106608, 90238], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([107740, 90727], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([106954, 90920], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([107341, 90609], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([110204, 95249], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([110216, 95968], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([110757, 95433], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([85724, 68155], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([87695, 68906], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72735, 71551], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([73124, 72056], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72852, 71879], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([92167, 70453], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72154, 75678], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71980, 75589], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84736, 74900], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([93606, 74583], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([94516, 76417], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([98142, 76285], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69062, 78049], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([68926, 78110], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69006, 78144], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([77880, 81892], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([89740, 78361], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([77947, 81947], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([77851, 81937], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80541, 85359], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80488, 85304], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80512, 85286], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84926, 86065], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84772, 86158], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([83286, 93988], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([83630, 93440], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([68687, 97404], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([68127, 95196], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([67885, 96977], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72162, 97923], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([82993, 97719], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([36112, 73301], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([35959, 73306], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([36050, 73278], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([40757, 71116], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([40788, 71197], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([40818, 71099], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44349, 72214], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44294, 72245], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44386, 72261], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([49694, 72651], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([50020, 73225], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([49640, 71242], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([50575, 71482], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([52109, 77588], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([51979, 77601], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([52085, 77730], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([65008, 76982], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([59500, 80888], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([59464, 80998], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63675, 81430], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64356, 80970], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([37508, 82300], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([37603, 82310], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([37578, 82399], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44559, 83195], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44676, 83251], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44663, 83160], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44588, 83266], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([56192, 85418], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([56224, 85200], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([61178, 83707], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([59492, 83119], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([35458, 89886], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([35917, 87933], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([35996, 88080], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([60462, 89105], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([60284, 89086], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([60470, 89243], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([60076, 86682], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([59689, 86192], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([32847, 92191], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54788, 93334], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54853, 93321], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54750, 93267], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63262, 90148], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63107, 90172], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([43862, 97013], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([44264, 95599], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([42930, 95929], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64127, 94665], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64005, 95243], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64436, 95302], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([7435, 66863], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([7502, 66881], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([8743, 65887], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([27351, 65578], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([27369, 65641], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([27292, 65640], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([953, 70079], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([9363, 70593], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([9325, 70557], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([14393, 70946], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([14257, 70971], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([14346, 71022], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([15132, 71420], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([15095, 71512], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([2572, 75438], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([2169, 75447], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([7339, 74637], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([7241, 74628], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([8654, 74692], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([8599, 74665], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([22678, 76413], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([29050, 74613], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([28998, 74712], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([31547, 78704], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([31452, 78753], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([31529, 78812], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10041, 83295], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([9954, 83282], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([21803, 83512], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([21813, 83553], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([21044, 90070], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([21272, 90040], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([9932, 90136], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10098, 90191], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([9962, 90279], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([21392, 90393], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([494, 95064], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([401, 95487], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([532, 95358], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([30572, 97139], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([32728, 97343], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([31363, 98138], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([100198, 35009], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([120166, 34833], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([99878, 38239], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([100616, 37894], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([101167, 41450], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([101275, 44237], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([101931, 42596], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([100348, 42145], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104940, 41689], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105059, 43609], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([118641, 44448], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([118390, 44242], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([98434, 46256], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([98459, 47450], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([106248, 48702], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105273, 45994], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104239, 48506], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([129845, 48151], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([103667, 49549], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([103026, 49836], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([107505, 52405], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([107519, 52322], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([107804, 52257], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([99408, 57231], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([99788, 54383], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([98687, 55992], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104655, 53960], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([105754, 56048], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104644, 53854], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([109449, 55200], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([125354, 55078], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([125263, 55052], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([100247, 60071], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([102707, 58667], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([106105, 59945], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([103379, 58965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([109308, 60771], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([113725, 61164], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([113763, 61084], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([100427, 64675], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([104958, 62724], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([103837, 63698], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([109516, 63866], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([113146, 62323], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([114026, 63890], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([113925, 64004], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([115058, 62828], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([115151, 62813], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([115169, 62957], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([115066, 62953], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80756, 34540], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([90630, 36344], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([86883, 37955], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([91936, 38303], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([96052, 37359], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([95977, 37407], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([87274, 42173], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([92921, 43846], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([95642, 44206], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([66217, 48197], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([66253, 48001], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([65880, 48203], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([65781, 48051], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([65651, 48102], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69044, 47684], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([69234, 47832], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70551, 48673], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70398, 48672], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70406, 48711], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71600, 48807], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71242, 48756], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([77556, 47808], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([77345, 47479], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81102, 48385], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([80998, 48512], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81233, 48502], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81254, 48363], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([85591, 45457], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([85444, 45289], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84791, 46719], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([84853, 46472], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([89226, 46855], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([91746, 47811], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([91624, 47795], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([93087, 47177], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70407, 51323], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70510, 51402], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70418, 51436], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([73570, 50964], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([73898, 52028], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([73934, 51968], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([73848, 51976], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([97524, 52193], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70665, 55904], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([70728, 55870], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([72796, 56900], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([88785, 55659], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([92283, 53934], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([68368, 59167], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([77138, 58793], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([76893, 60830], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([95019, 58897], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([67407, 65100], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([67518, 65232], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71806, 61925], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71727, 61901], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([82401, 65313], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([83332, 62915], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([83792, 63132], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([87475, 63147], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([92231, 63704], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([37488, 34976], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([37523, 34903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([43179, 38294], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([33117, 44220], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([33117, 44151], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([43498, 41318], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([38244, 49058], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([38257, 48992], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([41297, 48993], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([41228, 49037], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([65152, 47707], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([65132, 47612], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64975, 47738], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([36670, 51588], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([36671, 51719], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([36651, 51669], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54376, 57023], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54367, 57103], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54272, 57032], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([54456, 57040], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62674, 53902], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62600, 53800], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62525, 53788], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34232, 59903], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34140, 59964], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([34186, 59965], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([49552, 60668], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([51372, 60789], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([51144, 60757], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([55770, 61140], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64685, 59670], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64563, 59640], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([63257, 60386], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([64364, 61351], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([42588, 64718], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([42520, 64731], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62342, 64984], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([62256, 64920], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([1976, 33669], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([310, 35076], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([29552, 33811], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([29372, 33770], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([1961, 38513], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([2121, 46774], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([2366, 46996], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10297, 45162], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10226, 45175], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10275, 45234], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([22296, 53079], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([11723, 53420], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([11694, 53381], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([14208, 54689], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([14168, 54776], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([23223, 57177], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([23157, 57213], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([5662, 60156], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([5641, 60061], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([19767, 58081], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10519, 61490], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([10458, 61490], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([15673, 65189], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([15674, 65126], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([100190, 1976], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([102129, 32400], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([120687, 30904], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119755, 32066], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([119741, 32194], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([71605, 15547], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([89917, 19253], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([74195, 21731], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([78093, 21890], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([81148, 21795], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([86767, 21776], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([92027, 22493], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([77466, 26887], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([85031, 27175], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([88692, 27642], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([93376, 27259], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([86542, 29851], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([95218, 31699], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([39395, 28109], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([35779, 29717], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([35834, 29774], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([46626, 30137], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([46645, 30184], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([9515, 10374], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([1471, 15612], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([3033, 15052], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([6215, 14002], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([20845, 19024], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([20834, 18970], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([20901, 19012], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([6417, 20795], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([6452, 20680], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([13178, 24714], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([24727, 27878], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([24754, 27829], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([11604, 32207], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([11464, 29760], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([26911, 32490], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([26919, 32371], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	L.circleMarker([26874, 32412], {color: "#4343fa"}).addTo(astraicons).bindPopup("Астра").bindTooltip("Астра", {direction: 'top'});
-	
-	L.circleMarker([-102236, -84358], {color: "#4343fa", fillColor: "#000000", fillOpacity: "0.8"}).addTo(astraicons).bindPopup("Астра<br>[Внутри локации Горящая шахта]").bindTooltip("Астра<br>[Внутри локации Горящая шахта]", {direction: 'top'});
+		var astra1 = [
+			[-26485, -16905],
+			[-23199, -10185],
+			[-34839, -25616],
+			[-60502, -18234],
+			[-58270, -18201],
+			[-44927, -16669],
+			[-43449, -17396],
+			[-59916, -9470],
+			[-35284, -4697],
+			[-37842, -2306],
+			[-96379, -26574],
+			[-96484, -26489],
+			[-88098, -26187],
+			[-79231, -25680],
+			[-79351, -25575],
+			[-77475, -21694],
+			[-90534, -18679],
+			[-90637, -18630],
+			[-84399, -17850],
+			[-71199, -14958],
+			[-66212, -15544],
+			[-66861, -14602],
+			[-97070, -9291],
+			[-89904, -9234],
+			[-89546, -8639],
+			[-70341, -10794],
+			[-66351, -8530],
+			[-72402, -6954],
+			[-68452, -5180],
+			[-92307, -1938],
+			[-85847, -411],
+			[-111726, -32249],
+			[-111771, -32160],
+			[-99508, -30176],
+			[-124064, -26749],
+			[-124355, -26741],
+			[-124447, -26677],
+			[-117822, -28280],
+			[-117805, -28069],
+			[-108576, -26840],
+			[-108726, -26926],
+			[-108549, -26899],
+			[-129920, -16434],
+			[-120838, -17387],
+			[-120745, -17329],
+			[-121683, -17569],
+			[-121530, -20287],
+			[-110918, -18348],
+			[-111002, -18262],
+			[-102574, -20159],
+			[-125200, -9676],
+			[-124341, -10639],
+			[-124286, -10527],
+			[-115949, -10718],
+			[-116369, -10651],
+			[-106932, -8572],
+			[-100564, -11303],
+			[-130251, -3820],
+			[-130146, -3928],
+			[-130253, -3665],
+			[-112458, -715],
+			[-102779, -1806],
+			[-102477, -1763],
+			[-80272, -62600],
+			[-78573, -59385],
+			[-78768, -59496],
+			[-79032, -60216],
+			[-79109, -61282],
+			[-84129, -45703],
+			[-91721, -34694],
+			[-91610, -34681],
+			[-91728, -34601],
+			[-85144, -34889],
+			[-128447, -36891],
+			[-128096, -37031],
+			[-128093, -36867],
+			[-120903, -36965],
+			[-121612, -39453],
+			[-121438, -39606],
+			[-121559, -39483],
+			[-121359, -35813],
+			[-121412, -35723],
+			[-103551, -34016],
+			[-103676, -34006],
+			[-26343, -95505],
+			[-24360, -97222],
+			[-17407, -95358],
+			[-9129, -95507],
+			[-11041, -96650],
+			[-121831, -66733],
+			[-121891, -65853],
+			[-26165, -112022],
+			[-23607, -111508],
+			[-14120, -111089],
+			[-20303, -107784],
+			[-18251, -109123],
+			[-28267, -106376],
+			[-26382, -105780],
+			[-27366, -102631],
+			[-17184, -105396],
+			[-19591, -103775],
+			[-19353, -103173],
+			[-15774, -102601],
+			[-20214, -98679],
+			[-13894, -100594],
+			[-163657, -28512],
+			[-159128, -25364],
+			[-158990, -25364],
+			[-148267, -26986],
+			[-148115, -27192],
+			[-142430, -24968],
+			[-142368, -24896],
+			[-131586, -24708],
+			[-131804, -24631],
+			[-132699, -27414],
+			[-151872, -19414],
+			[-151925, -20007],
+			[-146059, -16807],
+			[-146005, -16934],
+			[-146003, -16761],
+			[-138967, -17616],
+			[-138443, -17588],
+			[-157134, -9851],
+			[-155987, -11332],
+			[-150457, -10180],
+			[-139633, -10444],
+			[-139330, -11146],
+			[-131767, -11025],
+			[-131733, -10914],
+			[-131643, -10982],
+			[-161931, -2563],
+			[-150253, -3631],
+			[-145874, -299],
+			[-145752, -322],
+			[-136688, -1221],
+			[-136813, -1297],
+			[-137655, -1408],
+			[-179583, -24767],
+			[-179430, -24782],
+			[-167764, -28426],
+			[-172410, -20202],
+			[-172384, -20318],
+			[-166510, -17839],
+			[-166131, -12371],
+			[-170671, -11153],
+			[-180006, -4167],
+			[-179907, -7923],
+			[-171228, -3419],
+			[-151622, -51232],
+			[-151475, -51164],
+			[-151531, -51321],
+			[-163355, -48329],
+			[-163630, -47833],
+			[-155905, -41271],
+			[-155462, -41234],
+			[-152670, -33951],
+			[-152610, -34100],
+			[-144873, -35254],
+			[-140174, -35125],
+			[-141078, -35207],
+			[-135598, -33542],
+			[-136271, -33706],
+			[-136128, -33729],
+			[-138651, -36132],
+			[-166623, -42806],
+			[-195083, -34936],
+			[-194453, -34698],
+			[-194564, -34860],
+			[-194612, -35076],
+			[-193479, -35080],
+			[-193852, -35035],
+			[-194228, -35359],
+			[-174722, -36463],
+			[-165113, -36257],
+			[-166998, -92152],
+			[-169496, -88113],
+			[-162943, -101732],
+			[-171914, -128376],
+			[-176605, -113724],
+			[-175051, -99674],
+			[149470, -13957],
+			[204926, -62306],
+			[197583, -57834],
+			[204038, -56990],
+			[201348, -56398],
+			[205034, -52903],
+			[190621, -59832],
+			[192262, -56507],
+			[204358, -73937],
+			[207039, -73853],
+			[204518, -67342],
+			[185105, -87361],
+			[188645, -88994],
+			[191743, -84557],
+			[188633, -83077],
+			[192141, -74966],
+			[194506, -76101],
+			[191363, -66892],
+			[161231, -90502],
+			[148208, -88212],
+			[163542, -86697],
+			[100233, -28650],
+			[41380, -12951],
+			[39930, -10136],
+			[34129, -1187],
+			[34212, -817],
+			[28123, -10757],
+			[27983, -10664],
+			[66242, -53225],
+			[71383, -50258],
+			[67107, -44645],
+			[69405, -44111],
+			[71475, -44163],
+			[66788, -40162],
+			[58926, -50795],
+			[61273, -51186],
+			[60266, -52012],
+			[60388, -49987],
+			[63373, -51723],
+			[62924, -51264],
+			[62080, -51713],
+			[62084, -49917],
+			[62852, -49251],
+			[61276, -48116],
+			[63185, -47432],
+			[62465, -48415],
+			[62570, -47484],
+			[64644, -45504],
+			[56669, -43368],
+			[56396, -44922],
+			[58012, -44630],
+			[58358, -43717],
+			[67421, -79976],
+			[66668, -74908],
+			[72432, -74177],
+			[70854, -75491],
+			[78949, -76947],
+			[66760, -73172],
+			[68332, -70890],
+			[66663, -70119],
+			[81696, -71805],
+			[80581, -71371],
+			[70828, -67313],
+			[72780, -66185],
+			[64879, -78722],
+			[-31121, -160571],
+			[-17176, -162393],
+			[-26685, -155767],
+			[-18528, -157946],
+			[-20921, -155289],
+			[-19282, -148146],
+			[-33367, -163576],
+			[-41316, -157402],
+			[-32915, -156074],
+			[-35315, -159048],
+			[-38623, -155326],
+			[-32842, -153302],
+			[-67143, -131168],
+			[-175949, -141014],
+			[69157, -161235],
+			[68169, -160801],
+			[72405, -162813],
+			[81141, -159986],
+			[76508, -156408],
+			[76403, -156281],
+			[80905, -156341],
+			[84879, -155996],
+			[76307, -152005],
+			[82595, -153282],
+			[70805, -149912],
+			[70812, -149467],
+			[81241, -148488],
+			[79445, -150352],
+			[81155, -148511],
+			[84105, -148977],
+			[84946, -147962],
+			[64042, -160516],
+			[64101, -154648],
+			[63091, -148438],
+			[64325, -149875],
+			[-26422, 132510],
+			[-26391, 132593],
+			[-44876, 136236],
+			[-44911, 136170],
+			[199259, 173951],
+			[199494, 187779],
+			[176039, 164046],
+			[197570, 134699],
+			[200394, 136788],
+			[204372, 136596],
+			[204309, 136692],
+			[190791, 132039],
+			[165833, 137997],
+			[187462, 139029],
+			[195093, 146095],
+			[174873, 148809],
+			[180469, 149627],
+			[169311, 154033],
+			[190217, 152128],
+			[183011, 160979],
+			[147173, 132779],
+			[154659, 142549],
+			[161024, 146424],
+			[151669, 151021],
+			[151703, 150456],
+			[140775, 152562],
+			[89127, 133901],
+			[96357, 135954],
+			[-32469, 101362],
+			[-10917, 98373],
+			[-10310, 98414],
+			[-31949, 102917],
+			[-32708, 102410],
+			[-31995, 102746],
+			[-3616, 104863],
+			[-3318, 104947],
+			[-3542, 105434],
+			[-30923, 107334],
+			[-31125, 107122],
+			[-7147, 117986],
+			[-7387, 117879],
+			[-20910, 125013],
+			[-24469, 126104],
+			[-5260, 123971],
+			[-4961, 124305],
+			[-5807, 124326],
+			[-23840, 127751],
+			[-23850, 127696],
+			[-23811, 127709],
+			[-37762, 102241],
+			[-37327, 102175],
+			[-37782, 102039],
+			[-56828, 102720],
+			[-56703, 102553],
+			[-56829, 102535],
+			[-64709, 108779],
+			[-64781, 108812],
+			[-58953, 106828],
+			[-59064, 106842],
+			[-59001, 106899],
+			[-64994, 112005],
+			[-64967, 111943],
+			[-65045, 111949],
+			[-54509, 113972],
+			[-54585, 114493],
+			[-54788, 114593],
+			[-60721, 116602],
+			[-60647, 116564],
+			[-60683, 116515],
+			[-44117, 120433],
+			[-44061, 120697],
+			[-43765, 120689],
+			[-34266, 119717],
+			[-34266, 119570],
+			[-34459, 119836],
+			[-64477, 125311],
+			[-64465, 125205],
+			[-64412, 125239],
+			[-61174, 129517],
+			[-50611, 129288],
+			[-50735, 129240],
+			[-50674, 129218],
+			[-96385, 99070],
+			[-96719, 99276],
+			[-96270, 99350],
+			[-68983, 99315],
+			[-69044, 99315],
+			[-69005, 99372],
+			[-71477, 103933],
+			[-71538, 103889],
+			[-71552, 103943],
+			[-68993, 104561],
+			[-69022, 104518],
+			[-68963, 104501],
+			[-74147, 107046],
+			[-74102, 106963],
+			[-74096, 107099],
+			[-80019, 110964],
+			[-79797, 110848],
+			[-80137, 110739],
+			[-75747, 112792],
+			[-75822, 112787],
+			[-75834, 112724],
+			[-130084, 100145],
+			[-125026, 98505],
+			[-124381, 100519],
+			[-123865, 99809],
+			[-122567, 99182],
+			[-128314, 104173],
+			[-128260, 104933],
+			[-129697, 105233],
+			[-124460, 103120],
+			[-122371, 102908],
+			[-130032, 106582],
+			[-28760, 66811],
+			[-15961, 66837],
+			[-15322, 66681],
+			[-16016, 65757],
+			[-6157, 66334],
+			[-5767, 66037],
+			[-4926, 66164],
+			[-4705, 66523],
+			[-27866, 71557],
+			[-27652, 71670],
+			[-15859, 71807],
+			[-16113, 71599],
+			[-1751, 72409],
+			[-1845, 72304],
+			[-24344, 73968],
+			[-24463, 73845],
+			[-27521, 80663],
+			[-27824, 80298],
+			[-10300, 79326],
+			[-10367, 79051],
+			[-22389, 83035],
+			[-22819, 82899],
+			[-19484, 85788],
+			[-19446, 85416],
+			[-18460, 82085],
+			[-18673, 81990],
+			[-5962, 85146],
+			[-5927, 85599],
+			[-3012, 83003],
+			[-2968, 82600],
+			[-20731, 87447],
+			[-20863, 87465],
+			[-5940, 89477],
+			[-6035, 89484],
+			[-10410, 98244],
+			[-10097, 98187],
+			[-11116, 98303],
+			[-59535, 67934],
+			[-57021, 68221],
+			[-56565, 68121],
+			[-48253, 68173],
+			[-35586, 66610],
+			[-62774, 71534],
+			[-62695, 71416],
+			[-59013, 72866],
+			[-59265, 72907],
+			[-54452, 71585],
+			[-54584, 71389],
+			[-33972, 72991],
+			[-34117, 73307],
+			[-59838, 74208],
+			[-59925, 73849],
+			[-51911, 74598],
+			[-50222, 80017],
+			[-50118, 80136],
+			[-42300, 78388],
+			[-42722, 78435],
+			[-59619, 85280],
+			[-59208, 85548],
+			[-54187, 83874],
+			[-46148, 83919],
+			[-46206, 84965],
+			[-40559, 85348],
+			[-36784, 85051],
+			[-36612, 85577],
+			[-61623, 92408],
+			[-61664, 92400],
+			[-58559, 93621],
+			[-58638, 93649],
+			[-51976, 93218],
+			[-50923, 93601],
+			[-50993, 93521],
+			[-62020, 94876],
+			[-61967, 94849],
+			[-54134, 97622],
+			[-53998, 97329],
+			[-54617, 97519],
+			[-89309, 68959],
+			[-82418, 67341],
+			[-82317, 67508],
+			[-79611, 68022],
+			[-79788, 68222],
+			[-75604, 65610],
+			[-80667, 69957],
+			[-80343, 69822],
+			[-66859, 73010],
+			[-67060, 73048],
+			[-66613, 73559],
+			[-93388, 75501],
+			[-93238, 75530],
+			[-91549, 75983],
+			[-89703, 76066],
+			[-89533, 75858],
+			[-70470, 74248],
+			[-70235, 74128],
+			[-91828, 81255],
+			[-91568, 81449],
+			[-91499, 81391],
+			[-90030, 80478],
+			[-89355, 80502],
+			[-89337, 80334],
+			[-73847, 78428],
+			[-74076, 78201],
+			[-74349, 79872],
+			[-72338, 78944],
+			[-72462, 78996],
+			[-72198, 79223],
+			[-95501, 84057],
+			[-95610, 84069],
+			[-95139, 85035],
+			[-82995, 85736],
+			[-83194, 85568],
+			[-82054, 84719],
+			[-81771, 84716],
+			[-72864, 83769],
+			[-73099, 83701],
+			[-95359, 87449],
+			[-94610, 87611],
+			[-94935, 87550],
+			[-68705, 87858],
+			[-68770, 87841],
+			[-78573, 93244],
+			[-77840, 93538],
+			[-78246, 93306],
+			[-74808, 92717],
+			[-74787, 92814],
+			[-74843, 92756],
+			[-70334, 94058],
+			[-70371, 93996],
+			[-70380, 94069],
+			[-130857, 68952],
+			[-130386, 68910],
+			[-121457, 69376],
+			[-120897, 69576],
+			[-124504, 72283],
+			[-116415, 70319],
+			[-116230, 70277],
+			[-108116, 72959],
+			[-108362, 72878],
+			[-104223, 70166],
+			[-104226, 70521],
+			[-127079, 73817],
+			[-111801, 75617],
+			[-111731, 75521],
+			[-102791, 76472],
+			[-124018, 78732],
+			[-124913, 81558],
+			[-124698, 81692],
+			[-120429, 81151],
+			[-120610, 77992],
+			[-117336, 81815],
+			[-117353, 81743],
+			[-117458, 81493],
+			[-120169, 84788],
+			[-119135, 84750],
+			[-101582, 84087],
+			[-101710, 83972],
+			[-98953, 83699],
+			[-99248, 83734],
+			[-129407, 89191],
+			[-126720, 87177],
+			[-125483, 87248],
+			[-127347, 90692],
+			[-119365, 91014],
+			[-128000, 97347],
+			[-125973, 95881],
+			[-119779, 97516],
+			[-120098, 96151],
+			[-122638, 95259],
+			[-120015, 97873],
+			[-32285, 35759],
+			[-26696, 35309],
+			[-24227, 33134],
+			[-20245, 34442],
+			[-12165, 35285],
+			[-9717, 34868],
+			[-3831, 33952],
+			[-3798, 34087],
+			[-31103, 40024],
+			[-23875, 36953],
+			[-17905, 36976],
+			[-8928, 40848],
+			[-5779, 40175],
+			[-93, 38996],
+			[-22699, 44116],
+			[-20250, 44895],
+			[-18837, 41598],
+			[-11626, 42064],
+			[-5560, 43509],
+			[-7491, 42376],
+			[-19467, 46629],
+			[-19810, 46847],
+			[-6383, 45538],
+			[-6457, 45521],
+			[-6970, 45432],
+			[-2513, 48577],
+			[-1269, 47235],
+			[-2327, 48373],
+			[-1427, 45995],
+			[-3860, 48377],
+			[-3863, 48860],
+			[-31328, 49665],
+			[-30949, 49300],
+			[-26456, 50352],
+			[-26513, 50135],
+			[-10087, 51813],
+			[-10120, 51527],
+			[-5991, 52523],
+			[-6263, 52693],
+			[-1796, 49586],
+			[-2082, 49789],
+			[-30061, 53825],
+			[-29501, 55105],
+			[-29395, 54988],
+			[-24907, 56416],
+			[-24649, 56435],
+			[-19329, 55639],
+			[-19412, 55475],
+			[-13423, 56352],
+			[-15615, 53310],
+			[-1451, 55166],
+			[-973, 55641],
+			[-17063, 60793],
+			[-17355, 58180],
+			[-17241, 58066],
+			[-7351, 58024],
+			[-7420, 57961],
+			[-24901, 63212],
+			[-24951, 62988],
+			[-18940, 65144],
+			[-19052, 64890],
+			[-11686, 64706],
+			[-11488, 64720],
+			[-3663, 62142],
+			[-3602, 61852],
+			[-64673, 36190],
+			[-64656, 36575],
+			[-59625, 33158],
+			[-61120, 35888],
+			[-53779, 33706],
+			[-55929, 35680],
+			[-45575, 34722],
+			[-37033, 35584],
+			[-40827, 35180],
+			[-65168, 40140],
+			[-57597, 37440],
+			[-58969, 37742],
+			[-60669, 38348],
+			[-57658, 38059],
+			[-60857, 38892],
+			[-45481, 39003],
+			[-47608, 40346],
+			[-34636, 40554],
+			[-32930, 40868],
+			[-60914, 43208],
+			[-53605, 41232],
+			[-55624, 43092],
+			[-53843, 43063],
+			[-49632, 41049],
+			[-49326, 43865],
+			[-48310, 44698],
+			[-44496, 41896],
+			[-44913, 42831],
+			[-40707, 41521],
+			[-38891, 43736],
+			[-36470, 44482],
+			[-64519, 47939],
+			[-64648, 47912],
+			[-38462, 47348],
+			[-39914, 47388],
+			[-56619, 50520],
+			[-56564, 50418],
+			[-55540, 49947],
+			[-54447, 52903],
+			[-54097, 52673],
+			[-54315, 53047],
+			[-49617, 52800],
+			[-49496, 52562],
+			[-40879, 49740],
+			[-39502, 50019],
+			[-39303, 50135],
+			[-38557, 53086],
+			[-38820, 53167],
+			[-35777, 51723],
+			[-36193, 52151],
+			[-60796, 55868],
+			[-60923, 56049],
+			[-49267, 54412],
+			[-38730, 54622],
+			[-38822, 54392],
+			[-34357, 56246],
+			[-33959, 55623],
+			[-62017, 58087],
+			[-62042, 58188],
+			[-50226, 59771],
+			[-50329, 59539],
+			[-42241, 59564],
+			[-42256, 58888],
+			[-60991, 63830],
+			[-60936, 64257],
+			[-44959, 64371],
+			[-39638, 63237],
+			[-39548, 63447],
+			[-40190, 62561],
+			[-94074, 35025],
+			[-93957, 35060],
+			[-86459, 35318],
+			[-87197, 35300],
+			[-87409, 34929],
+			[-87436, 35067],
+			[-84162, 33513],
+			[-81243, 34471],
+			[-80573, 35481],
+			[-80529, 35544],
+			[-80130, 35730],
+			[-74675, 35091],
+			[-75995, 35954],
+			[-66065, 35267],
+			[-65590, 34569],
+			[-94466, 36878],
+			[-78062, 39723],
+			[-78420, 39275],
+			[-80071, 39038],
+			[-92972, 43467],
+			[-92858, 43438],
+			[-92946, 43962],
+			[-86381, 42352],
+			[-86659, 41333],
+			[-82960, 42243],
+			[-83450, 42376],
+			[-79569, 43192],
+			[-80004, 44178],
+			[-80069, 44063],
+			[-67932, 43115],
+			[-96724, 45277],
+			[-96944, 45160],
+			[-98231, 47676],
+			[-94728, 45852],
+			[-94685, 45975],
+			[-85083, 47058],
+			[-84802, 47392],
+			[-84638, 48854],
+			[-81033, 48222],
+			[-80521, 47643],
+			[-81066, 47462],
+			[-77390, 45208],
+			[-71651, 48283],
+			[-71391, 48442],
+			[-95244, 51238],
+			[-94723, 51203],
+			[-79286, 52562],
+			[-79482, 52595],
+			[-72678, 51347],
+			[-72330, 51037],
+			[-87703, 54412],
+			[-87530, 54266],
+			[-84185, 54361],
+			[-84023, 54174],
+			[-84880, 54198],
+			[-85175, 53930],
+			[-75094, 56333],
+			[-74371, 54695],
+			[-74363, 54905],
+			[-69096, 55209],
+			[-69162, 55146],
+			[-92335, 60512],
+			[-90445, 60525],
+			[-91734, 60929],
+			[-88650, 59562],
+			[-88467, 59392],
+			[-97739, 63594],
+			[-97618, 63415],
+			[-90355, 62231],
+			[-90498, 62274],
+			[-88916, 63827],
+			[-87186, 62746],
+			[-83858, 62166],
+			[-84282, 62020],
+			[-79039, 63894],
+			[-79332, 63639],
+			[-75299, 65290],
+			[-71139, 63630],
+			[-71498, 63623],
+			[-69734, 62434],
+			[-69610, 62452],
+			[-117827, 36583],
+			[-117478, 36576],
+			[-109801, 36664],
+			[-110257, 36755],
+			[-105155, 34839],
+			[-105303, 35841],
+			[-105066, 35619],
+			[-101032, 36623],
+			[-120185, 40398],
+			[-120267, 39687],
+			[-118248, 37629],
+			[-118166, 38106],
+			[-107619, 40526],
+			[-107238, 40649],
+			[-111189, 42731],
+			[-114378, 41341],
+			[-107146, 43499],
+			[-109258, 42137],
+			[-105447, 44453],
+			[-105689, 44632],
+			[-104756, 46283],
+			[-105145, 46047],
+			[-105084, 45734],
+			[-125848, 50200],
+			[-125574, 49605],
+			[-122580, 51509],
+			[-122389, 51574],
+			[-118325, 50635],
+			[-118151, 50639],
+			[-111521, 49619],
+			[-111600, 49465],
+			[-107137, 51596],
+			[-107321, 51439],
+			[-99515, 50466],
+			[-99333, 50375],
+			[-125415, 56421],
+			[-125027, 56341],
+			[-126277, 55117],
+			[-106972, 54241],
+			[-106829, 54160],
+			[-104199, 56556],
+			[-104324, 56289],
+			[-128979, 57412],
+			[-116579, 60912],
+			[-116495, 61119],
+			[-118546, 61132],
+			[-118187, 61145],
+			[-98737, 57688],
+			[-98525, 57774],
+			[-98717, 57394],
+			[-130217, 63413],
+			[-119514, 62035],
+			[-119834, 61747],
+			[-119075, 64849],
+			[-108422, 61695],
+			[-108444, 61542],
+			[-105775, 63256],
+			[-105966, 63238],
+			[-32284, 5070],
+			[-25196, 4608],
+			[-24706, 4214],
+			[-20555, 7395],
+			[-23017, 5990],
+			[-4654, 5250],
+			[-31512, 10968],
+			[-26732, 8723],
+			[-110, 10070],
+			[-26818, 14578],
+			[-21079, 12392],
+			[-15154, 14185],
+			[-12495, 15714],
+			[-12868, 12707],
+			[-1648, 14417],
+			[-28098, 18718],
+			[-17743, 17745],
+			[-14953, 18162],
+			[-11806, 18521],
+			[-8212, 17988],
+			[-27725, 23751],
+			[-24786, 22625],
+			[-22581, 23315],
+			[-15373, 22775],
+			[-8662, 21498],
+			[-9607, 22597],
+			[-10879, 20663],
+			[-28615, 26590],
+			[-22115, 25136],
+			[-17326, 26505],
+			[-9843, 28063],
+			[-9383, 24759],
+			[-4329, 27463],
+			[-30240, 29599],
+			[-32640, 32440],
+			[-28373, 32151],
+			[-23752, 29647],
+			[-17400, 30376],
+			[-10404, 32404],
+			[-8727, 30247],
+			[-10097, 31981],
+			[-3232, 31524],
+			[-1720, 29310],
+			[-37529, 326],
+			[-50560, 4802],
+			[-50119, 5275],
+			[-50215, 5631],
+			[-50176, 5284],
+			[-50538, 5492],
+			[-50133, 5609],
+			[-50275, 5684],
+			[-47520, 7939],
+			[-41424, 4415],
+			[-42932, 7369],
+			[-63441, 8598],
+			[-63268, 12169],
+			[-62788, 9086],
+			[-60233, 10839],
+			[-52135, 9530],
+			[-51916, 9635],
+			[-46255, 9973],
+			[-48178, 11081],
+			[-45457, 10717],
+			[-48019, 10137],
+			[-47790, 10061],
+			[-47423, 9046],
+			[-47272, 8994],
+			[-47203, 9184],
+			[-48187, 10276],
+			[-47293, 9312],
+			[-47638, 9977],
+			[-47452, 9811],
+			[-46818, 10771],
+			[-47095, 10731],
+			[-47331, 10799],
+			[-47668, 10823],
+			[-46380, 9800],
+			[-46549, 9481],
+			[-46715, 9123],
+			[-46760, 8970],
+			[-46950, 8536],
+			[-45027, 10726],
+			[-42899, 11492],
+			[-44147, 11742],
+			[-44243, 11139],
+			[-33347, 8390],
+			[-34661, 11642],
+			[-62526, 14010],
+			[-52660, 14218],
+			[-45301, 13013],
+			[-45786, 13174],
+			[-44832, 14784],
+			[-43184, 15837],
+			[-44563, 12760],
+			[-35063, 12384],
+			[-33224, 13170],
+			[-60913, 19200],
+			[-56297, 17816],
+			[-51044, 17675],
+			[-47459, 16551],
+			[-42091, 17746],
+			[-44329, 17668],
+			[-34263, 19143],
+			[-56135, 20583],
+			[-52508, 21518],
+			[-47870, 21639],
+			[-43403, 21299],
+			[-33328, 22935],
+			[-35452, 22686],
+			[-65042, 25388],
+			[-63120, 26796],
+			[-64011, 26241],
+			[-62506, 27459],
+			[-65010, 26882],
+			[-55486, 26747],
+			[-48194, 25904],
+			[-44223, 24866],
+			[-39730, 25614],
+			[-38897, 28462],
+			[-33433, 26833],
+			[-62520, 28881],
+			[-62552, 28932],
+			[-59879, 29390],
+			[-60770, 31071],
+			[-59897, 31754],
+			[-59651, 29342],
+			[-49425, 31843],
+			[-51089, 31135],
+			[-46421, 30921],
+			[-42212, 29922],
+			[-43913, 32551],
+			[-39122, 32664],
+			[-38217, 31267],
+			[-36294, 30971],
+			[-67874, 7472],
+			[-92536, 9218],
+			[-93142, 10099],
+			[-93063, 10424],
+			[-75561, 11990],
+			[-69385, 11424],
+			[-89735, 16372],
+			[-84004, 15112],
+			[-83980, 14741],
+			[-84794, 13135],
+			[-77150, 14139],
+			[-75848, 16089],
+			[-71604, 13071],
+			[-87456, 19683],
+			[-87413, 19424],
+			[-87284, 19557],
+			[-89687, 16426],
+			[-79299, 17833],
+			[-79132, 17890],
+			[-74623, 20149],
+			[-74049, 18182],
+			[-76975, 17297],
+			[-73526, 19947],
+			[-97117, 22142],
+			[-97182, 22235],
+			[-92882, 23070],
+			[-92930, 22825],
+			[-92569, 22827],
+			[-86969, 23713],
+			[-86291, 23766],
+			[-87393, 23579],
+			[-70281, 24258],
+			[-70943, 23920],
+			[-71070, 21881],
+			[-68895, 24160],
+			[-66832, 24342],
+			[-68950, 23327],
+			[-69098, 20901],
+			[-69797, 26906],
+			[-72498, 26504],
+			[-66503, 26137],
+			[-83935, 30610],
+			[-81484, 31239],
+			[-76107, 29905],
+			[-75282, 31929],
+			[-75625, 30090],
+			[-73957, 31923],
+			[-70868, 32094],
+			[-70777, 31877],
+			[-70528, 30212],
+			[-70658, 31028],
+			[-65637, 32637],
+			[-122582, 909],
+			[-122792, 928],
+			[-122817, 1040],
+			[-120197, 6960],
+			[-120520, 6836],
+			[-113801, 4584],
+			[-107907, 7884],
+			[-101202, 5441],
+			[-101015, 5471],
+			[-122549, 11607],
+			[-122449, 11651],
+			[-104807, 12129],
+			[-103801, 12084],
+			[-128251, 12521],
+			[-127851, 13129],
+			[-121873, 14285],
+			[-121757, 14303],
+			[-116337, 15945],
+			[-116570, 15763],
+			[-116384, 15680],
+			[-108058, 15760],
+			[-107947, 15661],
+			[-102602, 14192],
+			[-111107, 16772],
+			[-111491, 16877],
+			[-109701, 17544],
+			[-99357, 17308],
+			[-100690, 18172],
+			[-130776, 21613],
+			[-130589, 21636],
+			[-122356, 21472],
+			[-122056, 21228],
+			[-122171, 24423],
+			[-122103, 24284],
+			[-107186, 22052],
+			[-125316, 26520],
+			[-125529, 26792],
+			[-117639, 27131],
+			[-118083, 27738],
+			[-111291, 26183],
+			[-111388, 26553],
+			[-105427, 26542],
+			[-105544, 26328],
+			[-98931, 26372],
+			[-98800, 26710],
+			[-122726, 29788],
+			[-119058, 30084],
+			[-119231, 30056],
+			[-112754, 32235],
+			[-112507, 32410],
+			[-107498, 30479],
+			[-102712, 30552],
+			[-102863, 30293],
+			[-163286, 102034],
+			[-160127, 101137],
+			[-144352, 101802],
+			[-135579, 99326],
+			[-136678, 99272],
+			[-133594, 100738],
+			[-132382, 100309],
+			[-142907, 104165],
+			[-140993, 103137],
+			[-141083, 105343],
+			[-140689, 105884],
+			[-139411, 105955],
+			[-139046, 103436],
+			[-136738, 104580],
+			[-134323, 102692],
+			[-133184, 106106],
+			[-134100, 103115],
+			[-134729, 105592],
+			[-132963, 104035],
+			[-134332, 103245],
+			[-138064, 106551],
+			[-138024, 106754],
+			[-137896, 106790],
+			[-137976, 106903],
+			[-138153, 106652],
+			[-170236, 98774],
+			[-162464, 69429],
+			[-159432, 69100],
+			[-159644, 69311],
+			[-149870, 69128],
+			[-150567, 68543],
+			[-145321, 68034],
+			[-145767, 68804],
+			[-140365, 68581],
+			[-139859, 65939],
+			[-131342, 66282],
+			[-153985, 73091],
+			[-152096, 71108],
+			[-150436, 70334],
+			[-143659, 71252],
+			[-144869, 71380],
+			[-142910, 71617],
+			[-138809, 69893],
+			[-138844, 70126],
+			[-158656, 76426],
+			[-158676, 76938],
+			[-148220, 77225],
+			[-146299, 73854],
+			[-145648, 74029],
+			[-146692, 74385],
+			[-144288, 77522],
+			[-139955, 75897],
+			[-142330, 77184],
+			[-139772, 77553],
+			[-133809, 74558],
+			[-159375, 80112],
+			[-159624, 79812],
+			[-153054, 81107],
+			[-154045, 81762],
+			[-149919, 80384],
+			[-150745, 78549],
+			[-143862, 79987],
+			[-144272, 80633],
+			[-146799, 80927],
+			[-144643, 80806],
+			[-142476, 80231],
+			[-139581, 77975],
+			[-153348, 83232],
+			[-154159, 82061],
+			[-146117, 83493],
+			[-140584, 85581],
+			[-141354, 85539],
+			[-132124, 83990],
+			[-149989, 87068],
+			[-145815, 88393],
+			[-142516, 87435],
+			[-137608, 89329],
+			[-132412, 86439],
+			[-143912, 93166],
+			[-160179, 96045],
+			[-144534, 97077],
+			[-139880, 97918],
+			[-140146, 95834],
+			[-133380, 97940],
+			[-132627, 95430],
+			[-180309, 65670],
+			[-180056, 65998],
+			[-165420, 69380],
+			[-164923, 68606],
+			[-179736, 73263],
+			[-180179, 71965],
+			[-179750, 72468],
+			[-168605, 71819],
+			[-168786, 71744],
+			[-164805, 71530],
+			[-165113, 71722],
+			[-178930, 75332],
+			[-176484, 76809],
+			[-174827, 75039],
+			[-174749, 76040],
+			[-167447, 78758],
+			[-166739, 78349],
+			[-164755, 89595],
+			[-165606, 91599],
+			[-167673, 91207],
+			[-172255, 96842],
+			[-164295, 97827],
+			[-148745, 33157],
+			[-148474, 32855],
+			[-146209, 35936],
+			[-145604, 36478],
+			[-145566, 36692],
+			[-141060, 36413],
+			[-141695, 36755],
+			[-137562, 36736],
+			[-137893, 35345],
+			[-138128, 35620],
+			[-144602, 39815],
+			[-133443, 40685],
+			[-133368, 40210],
+			[-157404, 43762],
+			[-157234, 43920],
+			[-154458, 41384],
+			[-148110, 43280],
+			[-148006, 43304],
+			[-137348, 44792],
+			[-150174, 46317],
+			[-150584, 46462],
+			[-147056, 48248],
+			[-131864, 48039],
+			[-131500, 47664],
+			[-163811, 51588],
+			[-161357, 49631],
+			[-155849, 51048],
+			[-151873, 51432],
+			[-153508, 52965],
+			[-155588, 51111],
+			[-147247, 52813],
+			[-146269, 52318],
+			[-146479, 52300],
+			[-152719, 54652],
+			[-152450, 54852],
+			[-136173, 55545],
+			[-153819, 58664],
+			[-149355, 60876],
+			[-149548, 60698],
+			[-135963, 61028],
+			[-136293, 61132],
+			[-156284, 61757],
+			[-143451, 63305],
+			[-143566, 63040],
+			[-137027, 63336],
+			[-137199, 63485],
+			[-131168, 63802],
+			[-131756, 61616],
+			[-175762, 36479],
+			[-166701, 40939],
+			[-166673, 40870],
+			[-168379, 56550],
+			[-168464, 57079],
+			[-164510, 57003],
+			[-164941, 57093],
+			[-179973, 59319],
+			[-166400, 63657],
+			[-167043, 63645],
+			[-148309, 4859],
+			[-147731, 8000],
+			[-137522, 7011],
+			[-137699, 7534],
+			[-157386, 11786],
+			[-143498, 9792],
+			[-143799, 9840],
+			[-145971, 9795],
+			[-140377, 10376],
+			[-140663, 10422],
+			[-132096, 12088],
+			[-161847, 14201],
+			[-161995, 14249],
+			[-156961, 16019],
+			[-155885, 16162],
+			[-147896, 13027],
+			[-141898, 12903],
+			[-141534, 12842],
+			[-157101, 17247],
+			[-156333, 17268],
+			[-154915, 16438],
+			[-155332, 16527],
+			[-149887, 17594],
+			[-150249, 17858],
+			[-136421, 17853],
+			[-136137, 17625],
+			[-132922, 18735],
+			[-132730, 18959],
+			[-152081, 20593],
+			[-152350, 20556],
+			[-134624, 22629],
+			[-134651, 22752],
+			[-134411, 22147],
+			[-154137, 28629],
+			[-152528, 26502],
+			[-152534, 26293],
+			[-146492, 28078],
+			[-146680, 28241],
+			[-161918, 30128],
+			[-162090, 30087],
+			[-153768, 28880],
+			[-146383, 32238],
+			[-140613, 30698],
+			[-140302, 30399],
+			[-175003, 5412],
+			[-165647, 5154],
+			[-165782, 4995],
+			[-179801, 14667],
+			[-179907, 14903],
+			[-171467, 12947],
+			[-171493, 12734],
+			[-165194, 19262],
+			[-176051, 21093],
+			[-176002, 21035],
+			[-167642, 22308],
+			[-179980, 28791],
+			[-170623, 29988],
+			[-170335, 32219],
+			[-167322, 30093],
+			[208614, 100261],
+			[196749, 104372],
+			[208340, 102826],
+			[198736, 109936],
+			[197730, 110467],
+			[201359, 111374],
+			[206385, 113143],
+			[202184, 117325],
+			[167530, 99652],
+			[167468, 99611],
+			[171831, 98961],
+			[171969, 98959],
+			[168872, 102997],
+			[169159, 103369],
+			[169250, 103339],
+			[169464, 103436],
+			[169494, 103347],
+			[185604, 102956],
+			[189917, 104903],
+			[194852, 102861],
+			[170474, 108234],
+			[170622, 108189],
+			[189974, 110090],
+			[191668, 111816],
+			[170834, 116203],
+			[170622, 116202],
+			[170645, 116299],
+			[193861, 117769],
+			[195571, 121292],
+			[195148, 126659],
+			[134334, 100290],
+			[134497, 100338],
+			[134491, 100894],
+			[133757, 100311],
+			[134230, 100494],
+			[146937, 129474],
+			[158618, 127738],
+			[202905, 84674],
+			[203002, 83555],
+			[201970, 89133],
+			[205115, 89207],
+			[201879, 91003],
+			[198450, 95962],
+			[201273, 95431],
+			[208275, 97219],
+			[174093, 67483],
+			[173925, 67502],
+			[183100, 66873],
+			[183104, 66989],
+			[170178, 76730],
+			[169084, 80742],
+			[169215, 80596],
+			[181414, 84802],
+			[181366, 84551],
+			[163873, 92012],
+			[164177, 92280],
+			[164124, 92317],
+			[164353, 92079],
+			[194642, 91144],
+			[176515, 95744],
+			[176565, 95302],
+			[176443, 95354],
+			[190919, 95599],
+			[132086, 65625],
+			[132019, 65585],
+			[150995, 67592],
+			[154563, 67869],
+			[154633, 68077],
+			[152299, 68112],
+			[135390, 71363],
+			[135452, 71098],
+			[138115, 70998],
+			[139223, 71188],
+			[140062, 71392],
+			[144425, 71010],
+			[144172, 71302],
+			[144160, 71397],
+			[148923, 71395],
+			[157034, 75121],
+			[136712, 78818],
+			[136807, 78598],
+			[140368, 79100],
+			[140506, 79143],
+			[141978, 78649],
+			[156423, 80364],
+			[156376, 77886],
+			[156248, 77943],
+			[160809, 79220],
+			[161923, 79905],
+			[162731, 81335],
+			[163750, 84965],
+			[163223, 85119],
+			[163296, 85074],
+			[162465, 87213],
+			[163585, 91924],
+			[198695, 46882],
+			[198969, 46174],
+			[198328, 51857],
+			[197108, 53150],
+			[196664, 53609],
+			[200298, 54246],
+			[200239, 53885],
+			[203603, 56384],
+			[171789, 36720],
+			[178307, 34780],
+			[178026, 34891],
+			[177954, 34951],
+			[169332, 38434],
+			[169576, 38656],
+			[169640, 38688],
+			[170374, 38377],
+			[170888, 38672],
+			[170745, 38919],
+			[174792, 37288],
+			[171301, 44115],
+			[173535, 41918],
+			[173430, 41881],
+			[172752, 42975],
+			[172625, 42975],
+			[178201, 42633],
+			[178135, 42570],
+			[187483, 47969],
+			[188820, 49861],
+			[165976, 55183],
+			[166196, 54967],
+			[166531, 55039],
+			[184204, 54568],
+			[185734, 55635],
+			[186105, 56380],
+			[187452, 56198],
+			[193929, 53427],
+			[194402, 55776],
+			[194286, 55838],
+			[166290, 60634],
+			[166266, 60776],
+			[165629, 59823],
+			[165560, 59632],
+			[170967, 60554],
+			[169866, 60852],
+			[169173, 60633],
+			[174587, 58667],
+			[174437, 58626],
+			[174216, 58583],
+			[173922, 58531],
+			[173797, 58696],
+			[173938, 58713],
+			[174274, 58807],
+			[174467, 58849],
+			[174581, 59084],
+			[173831, 58963],
+			[173561, 59194],
+			[180832, 57573],
+			[167430, 62646],
+			[167394, 62748],
+			[165974, 65185],
+			[165904, 65274],
+			[165938, 65105],
+			[164126, 64956],
+			[170324, 62894],
+			[170383, 62862],
+			[169145, 65029],
+			[169073, 64987],
+			[168170, 63658],
+			[174792, 65361],
+			[174672, 65323],
+			[178768, 65470],
+			[178843, 65406],
+			[182712, 63828],
+			[182585, 63564],
+			[141762, 45084],
+			[136792, 53171],
+			[136881, 53076],
+			[136879, 53290],
+			[141492, 55298],
+			[141288, 55294],
+			[158532, 57194],
+			[158620, 57164],
+			[142439, 59790],
+			[142464, 59942],
+			[160249, 57650],
+			[160087, 57769],
+			[162333, 59529],
+			[154736, 64750],
+			[154676, 64897],
+			[155276, 64568],
+			[153517, 64559],
+			[153567, 64465],
+			[163597, 64999],
+			[163523, 65083],
+			[162263, 64553],
+			[186493, 24887],
+			[186830, 27494],
+			[186440, 26980],
+			[186342, 26955],
+			[186873, 31435],
+			[186802, 31412],
+			[186431, 30925],
+			[190522, 30822],
+			[104496, 102526],
+			[104697, 102649],
+			[104329, 103128],
+			[104329, 103128],
+			[104481, 102630],
+			[119953, 107168],
+			[123014, 107349],
+			[103003, 129829],
+			[69428, 100148],
+			[75166, 99746],
+			[80282, 99918],
+			[80073, 100229],
+			[82292, 101597],
+			[82264, 101684],
+			[69713, 104910],
+			[74790, 104018],
+			[74899, 104136],
+			[79232, 102495],
+			[79425, 102474],
+			[78572, 109741],
+			[83810, 112774],
+			[82052, 117141],
+			[82150, 117003],
+			[84090, 122589],
+			[91268, 128867],
+			[65442, 101247],
+			[62941, 100174],
+			[63106, 100158],
+			[62938, 99991],
+			[56462, 104519],
+			[54233, 103349],
+			[54216, 103317],
+			[53565, 104572],
+			[34007, 107598],
+			[34267, 107123],
+			[33802, 107026],
+			[33722, 107050],
+			[43165, 109861],
+			[58009, 108427],
+			[57946, 108365],
+			[57909, 108136],
+			[62894, 112548],
+			[63053, 112644],
+			[62953, 112480],
+			[56269, 117062],
+			[54040, 115393],
+			[53800, 116685],
+			[54006, 117378],
+			[34058, 118866],
+			[33941, 118792],
+			[33963, 118852],
+			[1147, 99201],
+			[906, 99254],
+			[641, 99192],
+			[10661, 100359],
+			[10620, 100465],
+			[10441, 100385],
+			[14525, 106762],
+			[14903, 106797],
+			[12602, 108799],
+			[12847, 109343],
+			[18931, 117918],
+			[18258, 117427],
+			[19888, 116672],
+			[28848, 114993],
+			[28872, 115089],
+			[28780, 114973],
+			[101594, 68888],
+			[99874, 66986],
+			[108085, 67061],
+			[114903, 68635],
+			[116507, 67719],
+			[119996, 67600],
+			[120152, 67514],
+			[120070, 67549],
+			[99334, 72857],
+			[105706, 70046],
+			[104266, 73017],
+			[104648, 76965],
+			[106959, 74969],
+			[130971, 75448],
+			[129575, 73877],
+			[101837, 78837],
+			[105093, 78802],
+			[119224, 80976],
+			[119779, 80765],
+			[119719, 81040],
+			[119542, 81067],
+			[119979, 80978],
+			[120068, 80911],
+			[105972, 84147],
+			[105891, 84078],
+			[104887, 84079],
+			[104669, 83894],
+			[105007, 83632],
+			[126154, 84206],
+			[106608, 90238],
+			[107740, 90727],
+			[106954, 90920],
+			[107341, 90609],
+			[110204, 95249],
+			[110216, 95968],
+			[110757, 95433],
+			[85724, 68155],
+			[87695, 68906],
+			[72735, 71551],
+			[73124, 72056],
+			[72852, 71879],
+			[92167, 70453],
+			[72154, 75678],
+			[71980, 75589],
+			[84736, 74900],
+			[93606, 74583],
+			[94516, 76417],
+			[98142, 76285],
+			[69062, 78049],
+			[68926, 78110],
+			[69006, 78144],
+			[77880, 81892],
+			[89740, 78361],
+			[77947, 81947],
+			[77851, 81937],
+			[80541, 85359],
+			[80488, 85304],
+			[80512, 85286],
+			[84926, 86065],
+			[84772, 86158],
+			[83286, 93988],
+			[83630, 93440],
+			[68687, 97404],
+			[68127, 95196],
+			[67885, 96977],
+			[72162, 97923],
+			[82993, 97719],
+			[36112, 73301],
+			[35959, 73306],
+			[36050, 73278],
+			[40757, 71116],
+			[40788, 71197],
+			[40818, 71099],
+			[44349, 72214],
+			[44294, 72245],
+			[44386, 72261],
+			[49694, 72651],
+			[50020, 73225],
+			[49640, 71242],
+			[50575, 71482],
+			[52109, 77588],
+			[51979, 77601],
+			[52085, 77730],
+			[65008, 76982],
+			[59500, 80888],
+			[59464, 80998],
+			[63675, 81430],
+			[64356, 80970],
+			[37508, 82300],
+			[37603, 82310],
+			[37578, 82399],
+			[44559, 83195],
+			[44676, 83251],
+			[44663, 83160],
+			[44588, 83266],
+			[56192, 85418],
+			[56224, 85200],
+			[61178, 83707],
+			[59492, 83119],
+			[35458, 89886],
+			[35917, 87933],
+			[35996, 88080],
+			[60462, 89105],
+			[60284, 89086],
+			[60470, 89243],
+			[60076, 86682],
+			[59689, 86192],
+			[32847, 92191],
+			[54788, 93334],
+			[54853, 93321],
+			[54750, 93267],
+			[63262, 90148],
+			[63107, 90172],
+			[43862, 97013],
+			[44264, 95599],
+			[42930, 95929],
+			[64127, 94665],
+			[64005, 95243],
+			[64436, 95302],
+			[7435, 66863],
+			[7502, 66881],
+			[8743, 65887],
+			[27351, 65578],
+			[27369, 65641],
+			[27292, 65640],
+			[953, 70079],
+			[9363, 70593],
+			[9325, 70557],
+			[14393, 70946],
+			[14257, 70971],
+			[14346, 71022],
+			[15132, 71420],
+			[15095, 71512],
+			[2572, 75438],
+			[2169, 75447],
+			[7339, 74637],
+			[7241, 74628],
+			[8654, 74692],
+			[8599, 74665],
+			[22678, 76413],
+			[29050, 74613],
+			[28998, 74712],
+			[31547, 78704],
+			[31452, 78753],
+			[31529, 78812],
+			[10041, 83295],
+			[9954, 83282],
+			[21803, 83512],
+			[21813, 83553],
+			[21044, 90070],
+			[21272, 90040],
+			[9932, 90136],
+			[10098, 90191],
+			[9962, 90279],
+			[21392, 90393],
+			[494, 95064],
+			[401, 95487],
+			[532, 95358],
+			[30572, 97139],
+			[32728, 97343],
+			[31363, 98138],
+			[100198, 35009],
+			[120166, 34833],
+			[99878, 38239],
+			[100616, 37894],
+			[101167, 41450],
+			[101275, 44237],
+			[101931, 42596],
+			[100348, 42145],
+			[104940, 41689],
+			[105059, 43609],
+			[118641, 44448],
+			[118390, 44242],
+			[98434, 46256],
+			[98459, 47450],
+			[106248, 48702],
+			[105273, 45994],
+			[104239, 48506],
+			[129845, 48151],
+			[103667, 49549],
+			[103026, 49836],
+			[107505, 52405],
+			[107519, 52322],
+			[107804, 52257],
+			[99408, 57231],
+			[99788, 54383],
+			[98687, 55992],
+			[104655, 53960],
+			[105754, 56048],
+			[104644, 53854],
+			[109449, 55200],
+			[125354, 55078],
+			[125263, 55052],
+			[100247, 60071],
+			[102707, 58667],
+			[106105, 59945],
+			[103379, 58965],
+			[109308, 60771],
+			[113725, 61164],
+			[113763, 61084],
+			[100427, 64675],
+			[104958, 62724],
+			[103837, 63698],
+			[109516, 63866],
+			[113146, 62323],
+			[114026, 63890],
+			[113925, 64004],
+			[115058, 62828],
+			[115151, 62813],
+			[115169, 62957],
+			[115066, 62953],
+			[80756, 34540],
+			[90630, 36344],
+			[86883, 37955],
+			[91936, 38303],
+			[96052, 37359],
+			[95977, 37407],
+			[87274, 42173],
+			[92921, 43846],
+			[95642, 44206],
+			[66217, 48197],
+			[66253, 48001],
+			[65880, 48203],
+			[65781, 48051],
+			[65651, 48102],
+			[69044, 47684],
+			[69234, 47832],
+			[70551, 48673],
+			[70398, 48672],
+			[70406, 48711],
+			[71600, 48807],
+			[71242, 48756],
+			[77556, 47808],
+			[77345, 47479],
+			[81102, 48385],
+			[80998, 48512],
+			[81233, 48502],
+			[81254, 48363],
+			[85591, 45457],
+			[85444, 45289],
+			[84791, 46719],
+			[84853, 46472],
+			[89226, 46855],
+			[91746, 47811],
+			[91624, 47795],
+			[93087, 47177],
+			[70407, 51323],
+			[70510, 51402],
+			[70418, 51436],
+			[73570, 50964],
+			[73898, 52028],
+			[73934, 51968],
+			[73848, 51976],
+			[97524, 52193],
+			[70665, 55904],
+			[70728, 55870],
+			[72796, 56900],
+			[88785, 55659],
+			[92283, 53934],
+			[68368, 59167],
+			[77138, 58793],
+			[76893, 60830],
+			[95019, 58897],
+			[67407, 65100],
+			[67518, 65232],
+			[71806, 61925],
+			[71727, 61901],
+			[82401, 65313],
+			[83332, 62915],
+			[83792, 63132],
+			[87475, 63147],
+			[92231, 63704],
+			[37488, 34976],
+			[37523, 34903],
+			[43179, 38294],
+			[33117, 44220],
+			[33117, 44151],
+			[43498, 41318],
+			[38244, 49058],
+			[38257, 48992],
+			[41297, 48993],
+			[41228, 49037],
+			[65152, 47707],
+			[65132, 47612],
+			[64975, 47738],
+			[36670, 51588],
+			[36671, 51719],
+			[36651, 51669],
+			[54376, 57023],
+			[54367, 57103],
+			[54272, 57032],
+			[54456, 57040],
+			[62674, 53902],
+			[62600, 53800],
+			[62525, 53788],
+			[34232, 59903],
+			[34140, 59964],
+			[34186, 59965],
+			[49552, 60668],
+			[51372, 60789],
+			[51144, 60757],
+			[55770, 61140],
+			[64685, 59670],
+			[64563, 59640],
+			[63257, 60386],
+			[64364, 61351],
+			[42588, 64718],
+			[42520, 64731],
+			[62342, 64984],
+			[62256, 64920],
+			[1976, 33669],
+			[310, 35076],
+			[29552, 33811],
+			[29372, 33770],
+			[1961, 38513],
+			[2121, 46774],
+			[2366, 46996],
+			[10297, 45162],
+			[10226, 45175],
+			[10275, 45234],
+			[22296, 53079],
+			[11723, 53420],
+			[11694, 53381],
+			[14208, 54689],
+			[14168, 54776],
+			[23223, 57177],
+			[23157, 57213],
+			[5662, 60156],
+			[5641, 60061],
+			[19767, 58081],
+			[10519, 61490],
+			[10458, 61490],
+			[15673, 65189],
+			[15674, 65126],
+			[100190, 1976],
+			[102129, 32400],
+			[120687, 30904],
+			[119755, 32066],
+			[119741, 32194],
+			[71605, 15547],
+			[89917, 19253],
+			[74195, 21731],
+			[78093, 21890],
+			[81148, 21795],
+			[86767, 21776],
+			[92027, 22493],
+			[77466, 26887],
+			[85031, 27175],
+			[88692, 27642],
+			[93376, 27259],
+			[86542, 29851],
+			[95218, 31699],
+			[39395, 28109],
+			[35779, 29717],
+			[35834, 29774],
+			[46626, 30137],
+			[46645, 30184],
+			[9515, 10374],
+			[1471, 15612],
+			[3033, 15052],
+			[6215, 14002],
+			[20845, 19024],
+			[20834, 18970],
+			[20901, 19012],
+			[6417, 20795],
+			[6452, 20680],
+			[13178, 24714],
+			[24727, 27878],
+			[24754, 27829],
+			[11604, 32207],
+			[11464, 29760],
+			[26911, 32490],
+			[26919, 32371],
+			[26874, 32412]
+		];
+		var astra2 = [
+			["Астра<br>[Внутри локации Горящая шахта]", -102236, -84358]
+		];
+		for (var i = 0; i < astra1.length; i++) {
+			astra1_1 = new L.circleMarker([astra1[i][0],astra1[i][1]], {color: "#4343fa"})
+			.bindPopup("Астра")
+			.bindTooltip("Астра", {direction: 'top'})
+			.addTo(astraicons);
+		}
+		for (var i = 0; i < astra2.length; i++) {
+			astra2_1 = new L.circleMarker([astra2[i][1],astra2[i][2]], {color: "#4343fa", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(astra2[i][0])
+			.bindTooltip(astra2[i][0], {direction: 'top'})
+			.addTo(astraicons);
+		}
 	}
 	else {
 		astraicons.clearLayers();
