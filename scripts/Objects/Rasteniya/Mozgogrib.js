@@ -1,1222 +1,1237 @@
-	var mozgogribicons = L.layerGroup().addTo(map);
-	function MozgogribOnOff() {
+var mozgogribicons = L.layerGroup().addTo(map);
+function MozgogribOnOff() {
 	var chbox;
 	chbox=document.getElementById('MozgogribButton');
 	if (chbox.checked) {
-	L.circleMarker([-52373, -12575], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52325, -12579], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48089, -10302], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48073, -10284], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-55560, -61517], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56043, -61286], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-55708, -60439], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46666, -51565], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46523, -51590], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54744, -48006], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101490, -55346], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47085, -101479], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-146020, -93709], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-146275, -93270], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([198830, -32211], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([153723, -104002], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([73285, -7409], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([88174, -6450], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([95992, -6844], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32232, -19778], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37674, -42296], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([24702, -60454], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11794, -78032], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11728, -78089], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11757, -78041], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14517, -75303], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14021, -74780], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14242, -74774], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14271, -74727], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14308, -74717], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37019, -119071], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([36938, -119103], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([16870, -127675], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([21316, -125479], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13794, -107483], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13422, -106880], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-120314, -189843], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-103433, -181776], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([174798, -140083], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([189824, -169875], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([109789, -157867], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([109764, -157835], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-1502, 200661], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-1315, 200626], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-718, 199495], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-6208, 203475], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-5785, 203238], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-5404, 203047], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-4217, 204326], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-4093, 204248], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-63098, 199358], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-43417, 199132], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-43491, 199123], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-43509, 199047], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-43393, 199063], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-92356, 200476], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-92284, 200417], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-92326, 200423], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88219, 199544], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88167, 199509], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88111, 199489], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88048, 199476], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-84099, 199511], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-84114, 199484], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-84168, 199432], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93670, 204540], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93557, 204457], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93613, 204474], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-89026, 202373], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-89054, 202325], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-69429, 204187], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68394, 204060], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-129835, 201991], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-120699, 204036], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-122607, 203131], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-112383, 204622], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-112137, 204651], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-114158, 202398], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-114190, 202339], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-108638, 202883], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-108625, 202813], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102519, 204226], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102587, 204144], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105175, 203672], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25803, 166329], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-26001, 166082], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25873, 166013], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25360, 165626], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25256, 165584], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25269, 165770], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-24299, 166867], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-24389, 166710], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-31076, 171446], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-29563, 170113], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-29357, 170442], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-16948, 168392], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-16897, 168237], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-17062, 168406], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-20037, 180900], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19509, 181122], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-18255, 181670], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-18451, 181917], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-18091, 181893], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-17618, 182485], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-17257, 182605], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-17273, 182769], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7927, 182588], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7901, 182437], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-8119, 182535], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-731, 191594], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-352, 191381], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-544, 191360], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7997, 194634], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7939, 195300], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7997, 194958], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-2569, 192829], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-2407, 193085], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-1940, 192665], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58741, 165851], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58763, 165797], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54530, 165325], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54518, 165268], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54494, 165218], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-36674, 165557], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-36755, 165535], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-36736, 165600], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-57526, 169742], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58752, 170726], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53923, 169498], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53907, 169570], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53806, 169657], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53863, 169631], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51806, 169884], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51742, 169887], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51728, 169815], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51781, 169810], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47392, 171702], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47360, 171635], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47340, 171683], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47298, 171621], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50521, 175888], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50505, 175819], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50529, 175555], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50520, 175607], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50512, 175676], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46607, 172916], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46529, 172913], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46561, 172979], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46618, 172998], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48511, 172789], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48525, 172850], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48566, 172792], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-34818, 172178], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-34899, 172211], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56036, 177538], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56113, 177521], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56150, 177498], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52282, 178534], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52427, 178705], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52360, 178622], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48550, 179548], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48625, 179513], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48669, 179503], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-48599, 179618], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-42520, 178901], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-42462, 178957], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-42444, 178846], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-42384, 178899], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-40380, 178009], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-40399, 177930], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-40451, 177950], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-40473, 177997], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-40419, 177976], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53528, 184134], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53510, 184062], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53552, 183987], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-53570, 184050], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-33418, 184001], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52386, 186025], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52310, 185994], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52241, 185954], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-52174, 185906], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47311, 186659], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47266, 186681], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47334, 186729], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-43392, 186700], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-43347, 186731], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-43419, 186750], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-33357, 184371], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-62473, 189973], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-63679, 190666], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58478, 189911], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58366, 189773], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54678, 190315], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54679, 190377], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54627, 190400], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54614, 190339], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50717, 191027], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50781, 191061], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50843, 191092], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50908, 191151], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47455, 196330], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47568, 196266], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47490, 196271], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78436, 166284], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78408, 166226], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96772, 168610], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96658, 168640], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96787, 168717], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78845, 169202], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78790, 169153], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78761, 169107], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-69036, 171354], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96860, 173101], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96819, 173122], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96464, 172837], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-91580, 174624], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-91632, 174581], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-91649, 174637], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-72832, 174175], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-72761, 174215], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-71543, 174109], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-76754, 185710], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-75984, 186088], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-95859, 191335], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-95979, 191238], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-95935, 191296], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88236, 190793], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88300, 190753], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88332, 190656], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-71062, 190279], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-70632, 190197], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-71019, 190659], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-66432, 188651], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-66527, 190248], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-84395, 195451], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-84439, 195457], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-84398, 195411], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-75339, 194096], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-75358, 194166], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-72526, 194166], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-117682, 164105], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-115736, 166889], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-116554, 165172], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-115515, 166523], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-115430, 166583], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-114072, 168447], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-113554, 169054], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-112760, 170998], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-112576, 170991], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-112311, 171098], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-111242, 173899], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-111242, 173973], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-128586, 177956], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107247, 179017], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-106551, 179950], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-109666, 176325], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107913, 178563], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105173, 177191], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-106484, 180024], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101604, 176956], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-98600, 176647], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-98500, 176612], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-98450, 178331], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105627, 181184], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-104203, 182068], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-103701, 181590], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-129524, 184957], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-129553, 185032], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7478, 134419], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7383, 134077], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7778, 134253], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-26830, 138979], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-26891, 138899], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-26833, 138838], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25496, 141110], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25551, 141176], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25484, 141034], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19746, 141139], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19658, 141088], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19677, 141163], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19609, 141142], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-30799, 143967], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-30852, 144017], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-30890, 144067], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-30801, 144057], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25171, 144424], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25167, 144493], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25284, 144528], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25291, 144437], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-20123, 144625], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-20187, 144678], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-20110, 144710], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-3351, 145804], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-2898, 146037], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-3195, 145940], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-29657, 150265], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-29645, 150323], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-29714, 150308], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25728, 150675], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25687, 150610], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-25659, 150664], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19948, 148385], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19924, 148436], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-19899, 148338], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-22109, 155917], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-22157, 155846], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-22121, 155782], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-22068, 155850], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-17575, 157438], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-17495, 157504], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-17504, 157434], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-6706, 156356], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-6871, 156488], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-7004, 156368], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-23919, 162620], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-23824, 162623], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-23875, 162687], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-15032, 160285], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-14891, 160206], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-15026, 160436], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56457, 136563], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56392, 136593], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56351, 136557], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58922, 142871], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58881, 142828], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-58824, 142808], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51727, 141050], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51869, 141169], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51812, 141122], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46215, 142241], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46242, 142314], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-46178, 142315], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54905, 146095], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54374, 145855], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54795, 145956], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54810, 146069], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54775, 146012], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54862, 146040], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54298, 145812], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54519, 148902], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54532, 148982], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-54588, 148971], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50589, 148767], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50593, 148675], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-50638, 148698], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-60171, 154344], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-60215, 154451], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-60206, 154386], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56704, 152943], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56743, 153069], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56709, 153017], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-39141, 152687], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-39250, 152682], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-39202, 152622], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-34340, 154938], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-34256, 154909], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-34291, 154974], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-34200, 154964], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-55275, 162478], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-55325, 162586], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-55330, 162528], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-55396, 162584], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51244, 159907], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51381, 159974], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-51317, 159927], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47256, 162631], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47197, 162662], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-47251, 162708], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-41505, 161138], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-41484, 161628], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-40836, 161226], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-94182, 133899], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-86463, 132507], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-86450, 132432], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88482, 134331], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88430, 134356], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-81429, 134376], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-81473, 134443], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96913, 138423], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-96916, 138352], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-83816, 137776], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-83820, 137702], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-79891, 135780], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-79848, 135825], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-92462, 142172], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-92468, 142101], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-92497, 144675], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-92464, 144643], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-87305, 145309], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-87239, 145490], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-71812, 144795], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-71872, 144809], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-71832, 144738], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-79913, 148676], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-79884, 148735], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-67417, 150233], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-67376, 150192], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-67304, 150118], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68988, 150095], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-69005, 149982], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68998, 150028], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-95521, 153904], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-95454, 153909], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93796, 153308], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93833, 153243], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93827, 153172], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-87575, 153717], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-87541, 153656], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68472, 152179], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68444, 152234], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68013, 153763], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-67911, 153801], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-98207, 158087], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-98199, 158011], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-94094, 156932], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-94054, 157026], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88077, 157713], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-88091, 157786], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-79327, 159355], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-79315, 159288], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78859, 163220], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78857, 163167], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-78833, 163144], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-124924, 134244], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-124906, 134338], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-124688, 134136], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-121296, 134611], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-119078, 131856], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-117284, 131772], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-117259, 131824], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-118419, 132230], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-111273, 138568], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-111204, 138564], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-111148, 138586], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105784, 137120], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105727, 137088], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105658, 137066], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102280, 136187], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102247, 136221], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102308, 136251], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102257, 136293], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-100271, 141559], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-100213, 141584], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-100130, 141605], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99379, 145575], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99400, 145653], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99434, 145639], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99443, 145684], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99436, 145683], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-104104, 150702], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-104103, 150692], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-104826, 150933], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-104816, 150923], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-98756, 148448], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-98747, 148402], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101850, 149691], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101880, 149597], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101940, 149590], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101916, 149647], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-124012, 154830], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-124400, 154053], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-124838, 153800], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-103716, 155065], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-103760, 155073], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-100978, 153899], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101036, 153833], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101033, 153768], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-100976, 153838], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-100975, 153765], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-123086, 157010], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-123032, 157105], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-123814, 155690], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-121149, 159209], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-122461, 157806], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107403, 159354], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107338, 159224], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107362, 159290], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107362, 159329], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105480, 157460], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105412, 157378], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105434, 157410], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-125977, 159794], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-125467, 161513], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-119252, 161672], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-120897, 160112], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-117495, 163834], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102924, 161737], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102978, 161691], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102941, 161692], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-102969, 161653], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99440, 163079], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99415, 163065], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99457, 163109], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161368, 197497], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161302, 197503], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-159429, 199325], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-157591, 200373], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-157550, 200436], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-157474, 200485], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-155298, 198754], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-155236, 198692], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-155343, 198921], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156335, 201908], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156932, 202574], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156845, 202604], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154027, 201142], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154126, 201147], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154209, 203755], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-145025, 203467], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-145014, 203524], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140378, 203610], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140409, 203532], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-133575, 204276], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-132579, 203893], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-132406, 203935], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149519, 207609], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-178646, 198464], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-178614, 198387], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-178133, 201748], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-178119, 201662], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169124, 200948], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169089, 201070], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168093, 201847], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168047, 201845], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169054, 203227], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169014, 203139], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166396, 201096], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166395, 201000], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166297, 200923], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154547, 164618], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154340, 164603], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154662, 165263], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154722, 165342], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154692, 165335], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154533, 164625], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154347, 164669], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-142542, 166204], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-142522, 166110], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-153286, 170712], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-153384, 170863], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-153377, 170783], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-134910, 171207], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-132562, 170177], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-132632, 170149], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-131183, 170725], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156578, 174923], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156357, 173905], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156188, 173914], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-152125, 173973], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-152282, 173209], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-138980, 175687], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-135954, 175339], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-133839, 175009], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-134509, 174171], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-160965, 176694], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161718, 178304], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161677, 178241], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156484, 177566], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156718, 177660], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156422, 177078], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-155411, 176770], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-155351, 176839], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-153712, 178456], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-153679, 178402], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140299, 177349], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140284, 177474], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-136997, 177853], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-136205, 177491], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140658, 182602], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140607, 182646], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140663, 182669], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-136880, 181245], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-136365, 182414], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-133161, 184549], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-159368, 193623], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-159419, 193676], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-159466, 193748], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173266, 167992], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173370, 167990], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173444, 168038], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-171508, 168880], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-171533, 168933], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168320, 183809], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168381, 183854], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166199, 183976], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-167398, 184008], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-167265, 183898], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-162014, 132580], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161613, 131393], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149672, 131825], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149681, 131693], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140265, 131567], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-160148, 136627], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163021, 137027], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-158451, 142258], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-158412, 142355], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149587, 143150], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149599, 143051], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-152897, 147337], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-152983, 146305], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-157139, 149331], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156750, 147930], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154399, 149156], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154646, 150328], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-154124, 148180], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-160367, 155599], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-153154, 156621], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-153193, 156539], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-136363, 155713], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-136391, 156472], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-182472, 133235], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-177991, 133352], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-177945, 134629], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175518, 131760], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174559, 134814], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174975, 132435], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164482, 133645], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-181845, 136412], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174741, 135576], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-167565, 138249], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-180441, 140516], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173266, 143010], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-177319, 147215], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-177670, 145817], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175705, 143491], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175919, 144926], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-171963, 146490], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-171575, 147225], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169796, 145784], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-178663, 149481], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172310, 150980], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175723, 147469], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172607, 148218], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-171951, 149578], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-176685, 153604], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175500, 153379], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173316, 152951], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169377, 151622], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-170667, 152164], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-171611, 152006], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166882, 154955], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168826, 156743], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168360, 155775], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-167015, 157664], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166853, 156614], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([183262, 180146], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([183274, 180292], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([183184, 180252], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([172312, 191403], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([172403, 191309], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([172288, 191295], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([173318, 190051], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([173391, 190136], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([173409, 190053], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182329, 189216], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182214, 189370], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182353, 189013], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182203, 189164], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182191, 189133], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([181002, 193079], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([181506, 193054], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([181425, 193126], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([181093, 193110], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([187289, 193646], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([187394, 193642], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([187264, 193575], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([187349, 193563], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([150500, 192434], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([150445, 192503], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([150569, 192459], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([144769, 196140], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([144909, 195937], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([144973, 194868], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([144888, 194992], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([144936, 194928], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([180897, 155331], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([181980, 155330], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182110, 154938], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182721, 151795], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([182036, 153259], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14851, 206272], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33444, 164596], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([35844, 176915], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([35990, 176789], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32403, 165592], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32411, 165401], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32413, 165523], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32335, 165450], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([1160, 174839], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([1260, 174433], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([1507, 174596], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([1313, 174592], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([3460, 179244], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([3201, 179296], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([3405, 179447], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13734, 192138], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13426, 192257], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14612, 192433], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13758, 191466], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([12964, 192126], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13890, 191590], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([16613, 192295], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([16613, 192445], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([3846, 196447], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([4397, 196239], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([4790, 196433], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13776, 192706], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([15406, 193273], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14383, 193717], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14395, 193749], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14671, 193017], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([15435, 193483], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([15462, 193463], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([15292, 193640], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([16786, 192905], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([99617, 150620], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([99649, 150723], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([99744, 150549], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([99210, 150724], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([99222, 150674], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([130378, 151831], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([108280, 158832], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([108247, 158986], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([108015, 158724], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([108262, 158772], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([107703, 161914], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([107379, 161812], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([107321, 161973], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([107322, 161852], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([107753, 161931], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([106969, 161900], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([84744, 141880], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([84773, 141861], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([84634, 147845], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([84612, 147786], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([84580, 147838], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([97993, 158003], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([97888, 158085], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([98002, 158213], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([85852, 163512], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([85825, 163439], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38004, 138214], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38250, 138578], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38272, 138531], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38195, 138602], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38091, 138531], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([34736, 140754], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([34666, 140836], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([34650, 141082], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([34465, 142586], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([34517, 142414], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([34650, 142513], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([36276, 140635], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([36307, 140709], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([36622, 140948], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38110, 142652], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38183, 142747], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38277, 142991], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38375, 142865], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([36927, 142230], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37648, 141932], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37692, 141517], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37672, 141401], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38284, 141092], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38162, 141092], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38150, 141180], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38263, 139994], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38209, 140109], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38324, 140102], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38413, 140407], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38640, 140422], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([44505, 142868], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([44597, 142707], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([44502, 142669], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([44405, 142757], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43201, 146921], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43142, 146969], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43153, 146830], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43389, 145933], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([42509, 144807], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([42676, 144688], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([42500, 144628], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43433, 144888], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43436, 144810], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([44554, 143632], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([44521, 143745], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([44592, 143724], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43329, 145823], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43396, 145709], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43358, 145632], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([42770, 146198], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45187, 146340], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45141, 146196], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45113, 146012], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45225, 146715], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45178, 146835], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45266, 146852], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45566, 146575], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45803, 146367], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45878, 146310], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([45841, 146207], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38684, 151052], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37502, 150754], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37399, 150836], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37019, 149495], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37189, 149517], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37173, 149430], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([37145, 149342], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38200, 149706], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38371, 149727], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([39683, 149088], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([39631, 149040], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([39793, 149029], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38847, 150935], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38803, 150845], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38878, 150840], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38491, 151135], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([38383, 151100], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([41197, 149435], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([41233, 149348], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([41086, 149409], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([42632, 149751], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([42707, 149878], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([42825, 149900], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43166, 150061], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43204, 149994], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([43081, 150027], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([57369, 150944], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([57422, 151013], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([57451, 150931], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([59877, 150016], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([59805, 150022], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([59795, 149950], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33554, 155247], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33988, 154856], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33912, 155083], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33869, 155171], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([40620, 152117], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([40711, 151791], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([40590, 151859], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32930, 156746], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32772, 157462], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32811, 157360], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33703, 157967], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33650, 158028], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([33606, 157969], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14973, 133978], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([15062, 133957], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([15176, 133977], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([12628, 134120], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([12675, 134293], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([12732, 134121], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([24681, 138915], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([24760, 138984], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([25333, 138039], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([25442, 137991], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([25359, 137910], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([9678, 141524], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([10504, 139491], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([10155, 139434], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([9703, 140835], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([9833, 140977], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([9857, 141061], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([25521, 143280], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([25519, 143147], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([25435, 143262], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26985, 143293], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([29935, 142677], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([29823, 142494], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([30772, 143096], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([30820, 142975], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([30732, 142916], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6178, 147398], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6323, 147169], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6175, 146967], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6385, 146348], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5585, 146167], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5265, 146021], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5358, 146115], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5413, 146053], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11043, 145495], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([10510, 145638], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11385, 144658], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11342, 144775], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11784, 145776], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([12078, 145339], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([12074, 145458], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([11581, 145849], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([17061, 145146], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([16982, 145239], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([19185, 144840], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([19292, 144847], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([19135, 144932], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([19100, 145098], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18366, 144722], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18253, 144600], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18290, 144606], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18278, 144872], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26761, 143488], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26679, 143454], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([29500, 143463], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([29533, 143537], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([29600, 143494], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([29701, 143423], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([31157, 143918], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([31385, 144647], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([31387, 144813], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([31832, 144998], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([31818, 144902], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([31601, 144952], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5247, 148877], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5302, 148816], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5368, 148723], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5012, 149144], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5092, 149202], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5182, 149701], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5194, 149640], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5095, 149725], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([4567, 150192], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([4589, 149872], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([4736, 149925], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([4589, 149264], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([4522, 149324], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([5998, 148931], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6008, 149022], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6356, 149860], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6207, 149819], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6188, 149892], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6997, 150734], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([7046, 150665], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([6995, 150593], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([9256, 149053], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([9152, 149039], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13624, 154480], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13776, 154551], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13868, 154651], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([13969, 154688], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([14248, 153755], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32275, 155171], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32218, 155231], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32139, 155354], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32721, 157258], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([32597, 157261], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26453, 159830], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([27007, 160152], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26503, 160231], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26399, 160050], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26560, 159933], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26653, 160061], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26667, 159985], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([26638, 159871], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([28135, 160378], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([28315, 160764], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([28063, 160531], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([28120, 160783], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([27988, 160702], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([27897, 160646], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-91493, 118361], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-91655, 117945], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-91404, 118174], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-80136, 117359], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-80298, 117310], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93178, 122335], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93998, 122256], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93779, 122140], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-93566, 122261], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-85224, 120978], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-85430, 120760], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-85115, 120768], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-74907, 124751], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-74938, 124689], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-74859, 124717], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-72621, 124656], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-72656, 124581], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-72690, 124644], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68182, 125368], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68207, 125324], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-68134, 125375], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-125478, 110203], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-112157, 109297], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-126242, 112922], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-118934, 113806], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-119566, 114218], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-119676, 114640], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-112497, 112110], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107373, 111295], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-109970, 110772], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-127268, 117108], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-120781, 115121], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-120220, 116238], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-118992, 115419], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-118166, 118632], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-116972, 116103], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-115820, 117815], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-117921, 117293], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-113673, 117677], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-110292, 116364], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-104282, 117767], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-106114, 118410], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-116247, 119475], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-115304, 121531], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-118469, 121940], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-109334, 120002], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-100877, 120914], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-118824, 125765], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-118846, 126613], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-116555, 126211], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-111311, 123532], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-107634, 126903], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-106834, 124385], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-105345, 126955], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-99142, 123467], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-128390, 129384], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-128333, 129364], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-116651, 128831], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-113785, 128849], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-113733, 128831], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-108714, 127283], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-108646, 127397], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-108679, 127333], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101760, 129172], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101733, 129225], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-101705, 129131], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-33246, 67], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56571, 8881], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56419, 9029], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56310, 9052], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56251, 9140], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56295, 9081], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56616, 8644], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56885, 8436], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56770, 8485], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56739, 8433], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56111, 8923], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56555, 8982], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56675, 8868], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56460, 8724], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56568, 8930], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-56676, 8469], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163791, 110059], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163824, 108472], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163715, 108376], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163803, 114404], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163274, 112137], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161364, 113441], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163111, 111957], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161286, 113650], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-162430, 114821], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-162677, 116995], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-162568, 117162], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163577, 118325], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163127, 118700], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-160856, 121417], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-156411, 122100], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161173, 126493], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161641, 126659], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-162222, 124375], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-162104, 124372], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-155985, 123502], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-155855, 123544], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-152655, 123982], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161352, 127793], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-162148, 130992], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-161317, 128900], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-150023, 128270], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-150037, 128159], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-141398, 129823], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-140577, 127835], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-131674, 128768], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-132087, 129240], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172546, 106762], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172665, 107180], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-170276, 107471], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168518, 107632], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-170491, 109593], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-170612, 109506], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169509, 109849], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169435, 109587], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169561, 108681], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164846, 108411], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-163923, 110214], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165731, 108816], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165835, 108416], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174137, 114025], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174411, 113999], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174304, 112827], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174201, 112470], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166538, 113091], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166981, 114418], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-167159, 114104], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166426, 112875], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165633, 110806], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165614, 110909], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165549, 111556], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165671, 112498], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-176705, 117441], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-176242, 118183], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174636, 116226], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174668, 115972], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173908, 116181], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175714, 115932], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175523, 115882], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164293, 117400], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164336, 117090], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165458, 116741], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165548, 116261], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172609, 120579], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172631, 119658], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173977, 121758], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174334, 121661], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169725, 121431], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169052, 120440], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169024, 120581], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169764, 120123], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165619, 121454], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165251, 119824], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164257, 120480], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164053, 120697], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165337, 122761], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164908, 122666], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-164946, 122384], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-173982, 124906], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174839, 124149], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174725, 124149], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174367, 123753], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174417, 123925], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175406, 125042], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175882, 124432], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169552, 125893], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169546, 126066], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-168000, 125941], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-167738, 123401], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165940, 124879], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165991, 125114], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-182448, 130668], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-177873, 130865], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-177425, 129378], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-178426, 127088], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-179986, 130576], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-178160, 129796], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-174988, 127991], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172281, 128999], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175916, 127843], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175873, 128954], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-175199, 129282], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172494, 127238], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-172941, 127297], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-169202, 128345], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-166600, 130742], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-167206, 128390], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-165374, 127849], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-148876, 40308], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-148905, 40002], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149225, 39288], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149648, 39069], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149924, 38783], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149375, 57064], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149533, 57043], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-151767, 58788], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-150719, 59928], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-150201, 59621], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([-149486, 58530], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([153161, 57836], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([113420, 114241], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([113651, 114318], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([126015, 110892], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([125253, 112982], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([124047, 114308], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([123179, 113567], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([113802, 115493], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([112789, 115274], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([113625, 114874], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([113422, 114726], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([113126, 114866], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([112719, 116379], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([113148, 116990], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([114185, 116218], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([73813, 129738], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([74124, 128511], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([76671, 129382], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([76880, 130640], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18000, 128861], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18025, 128810], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18030, 128747], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18346, 128248], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([18055, 128855], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([17892, 127609], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([58111, 54168], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-	L.circleMarker([90034, 5959], {color: "#F5DEB3"}).addTo(mozgogribicons).bindPopup("Мозгогриб").bindTooltip("Мозгогриб", {direction: 'top'});
-
-	L.circleMarker([-89947, -41527], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 34 шт.<br>[Внутри локации Необыкновенные пещеры]").bindTooltip("Мозгогриб - 34 шт.<br>[Внутри локации Необыкновенные пещеры]", {direction: 'top'});
-	L.circleMarker([-64741, 130050], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 24 шт.<br>[Внутри локации Шахта &quotКервуд&quot]").bindTooltip("Мозгогриб - 24 шт.<br>[Внутри локации Шахта &quotКервуд&quot]", {direction: 'top'});
-	L.circleMarker([26723, 185034], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 29 шт.<br>[Внутри локации Заброшенная свалка]").bindTooltip("Мозгогриб - 29 шт.<br>[Внутри локации Заброшенная свалка]", {direction: 'top'});
-	L.circleMarker([43120, 87360], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 100 шт.<br>[Внутри локации Пещера вендиго]").bindTooltip("Мозгогриб - 100 шт.<br>[Внутри локации Пещера вендиго]", {direction: 'top'});
-	L.circleMarker([69079, 159043], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 7 шт.<br>[Внутри локации Бункер семьи Карсон]").bindTooltip("Мозгогриб - 7 шт.<br>[Внутри локации Бункер семьи Карсон]", {direction: 'top'});
-	L.circleMarker([7828, 119103], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 5 шт.<br>[Внутри локации Убежище Хоука]").bindTooltip("Мозгогриб - 5 шт.<br>[Внутри локации Убежище Хоука]", {direction: 'top'});
-	L.circleMarker([-51807, 56146], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 15 шт.<br>[Внутри локации Место захоронения на горе Эммет]").bindTooltip("Мозгогриб - 15 шт.<br>[Внутри локации Место захоронения на горе Эммет]", {direction: 'top'});
-	L.circleMarker([-74719, -113348], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 4 шт.<br>[Внутри локации &quotРжавая кирка&quot]").bindTooltip("Мозгогриб - 4 шт.<br>[Внутри локации &quotРжавая кирка&quot]", {direction: 'top'});
-	L.circleMarker([-53492, -162144], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 4 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]").bindTooltip("Мозгогриб - 4 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]", {direction: 'top'});
-	L.circleMarker([-131600, 107048], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 28 шт.<br>[Внутри здания Форт Дефайанс]").bindTooltip("Мозгогриб - 28 шт.<br>[Внутри здания Форт Дефайанс]", {direction: 'top'});
-	L.circleMarker([-161792, 200480], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 38 шт.<br>[Внутри локации Стеклянная пещера]").bindTooltip("Мозгогриб - 38 шт.<br>[Внутри локации Стеклянная пещера]", {direction: 'top'});
-	L.circleMarker([62688, -58605], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 15 шт.<br>[Внутри локации Шахта &quotГоули&quot]").bindTooltip("Мозгогриб - 15 шт.<br>[Внутри локации Шахта &quotГоули&quot]", {direction: 'top'});
-	L.circleMarker([-149488, 112944], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 45 шт.<br>[Внутри локации Тоннель &quotБольшой излом&quot]").bindTooltip("Мозгогриб - 45 шт.<br>[Внутри локации Тоннель &quotБольшой излом&quot]", {direction: 'top'});
-	L.circleMarker([-120808, -44088], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 45 шт.<br>[Внутри локации Тоннель &quotБольшой излом&quot]").bindTooltip("Мозгогриб - 45 шт.<br>[Внутри локации Тоннель &quotБольшой излом&quot]", {direction: 'top'});
-	L.circleMarker([-3956, 157951], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 4 шт.<br>[Внутри локации Норы]").bindTooltip("Мозгогриб - 4 шт.<br>[Внутри локации Норы]", {direction: 'top'});
-	L.circleMarker([138117, 185219], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 3 шт.<br>[Внутри локации Бункер Эбби]").bindTooltip("Мозгогриб - 3 шт.<br>[Внутри локации Бункер Эбби]", {direction: 'top'});
-	L.circleMarker([102922, 165802], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 5 шт.<br>[Внутри локации Бункер Эллы Эймс]").bindTooltip("Мозгогриб - 5 шт.<br>[Внутри локации Бункер Эллы Эймс]", {direction: 'top'});
-	L.circleMarker([59527, 185466], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 3 шт.<br>[Внутри локации Бункер Рейли Клэя]").bindTooltip("Мозгогриб - 3 шт.<br>[Внутри локации Бункер Рейли Клэя]", {direction: 'top'});
-	L.circleMarker([-46520, 28168], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 7 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]").bindTooltip("Мозгогриб - 7 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]", {direction: 'top'});
-	L.circleMarker([-12605, 196567], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 2 шт.<br>[Внутри здания Галерея в долине]").bindTooltip("Мозгогриб - 2 шт.<br>[Внутри здания Галерея в долине]", {direction: 'top'});
-	L.circleMarker([98395, 192590], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб<br>[Внутри здания Электростанция &quotГрозовая гора&quot]").bindTooltip("Мозгогриб<br>[Внутри здания Электростанция &quotГрозовая гора&quot]", {direction: 'top'});
-	L.circleMarker([95594,-6512], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб - 3 шт.<br>[Внутри здания Жилой комплекс Шедоубриз]").bindTooltip("Мозгогриб - 3 шт.<br>[Внутри здания Жилой комплекс Шедоубриз]", {direction: 'top'});
-	L.circleMarker([127372, 154881], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"}).addTo(mozgogribicons).bindPopup("Мозгогриб<br>[Внутри локации Заброшенный бункер]").bindTooltip("Мозгогриб<br>[Внутри локации Заброшенный бункер]", {direction: 'top'});
+		var mozgogrib1 = [
+			[-52373, -12575],
+			[-52325, -12579],
+			[-48089, -10302],
+			[-48073, -10284],
+			[-55560, -61517],
+			[-56043, -61286],
+			[-55708, -60439],
+			[-46666, -51565],
+			[-46523, -51590],
+			[-54744, -48006],
+			[-101490, -55346],
+			[-47085, -101479],
+			[-146020, -93709],
+			[-146275, -93270],
+			[198830, -32211],
+			[153723, -104002],
+			[73285, -7409],
+			[88174, -6450],
+			[95992, -6844],
+			[32232, -19778],
+			[37674, -42296],
+			[24702, -60454],
+			[11794, -78032],
+			[11728, -78089],
+			[11757, -78041],
+			[14517, -75303],
+			[14021, -74780],
+			[14242, -74774],
+			[14271, -74727],
+			[14308, -74717],
+			[37019, -119071],
+			[36938, -119103],
+			[16870, -127675],
+			[21316, -125479],
+			[13794, -107483],
+			[13422, -106880],
+			[-120314, -189843],
+			[-103433, -181776],
+			[174798, -140083],
+			[189824, -169875],
+			[109789, -157867],
+			[109764, -157835],
+			[-1502, 200661],
+			[-1315, 200626],
+			[-718, 199495],
+			[-6208, 203475],
+			[-5785, 203238],
+			[-5404, 203047],
+			[-4217, 204326],
+			[-4093, 204248],
+			[-63098, 199358],
+			[-43417, 199132],
+			[-43491, 199123],
+			[-43509, 199047],
+			[-43393, 199063],
+			[-92356, 200476],
+			[-92284, 200417],
+			[-92326, 200423],
+			[-88219, 199544],
+			[-88167, 199509],
+			[-88111, 199489],
+			[-88048, 199476],
+			[-84099, 199511],
+			[-84114, 199484],
+			[-84168, 199432],
+			[-93670, 204540],
+			[-93557, 204457],
+			[-93613, 204474],
+			[-89026, 202373],
+			[-89054, 202325],
+			[-69429, 204187],
+			[-68394, 204060],
+			[-129835, 201991],
+			[-120699, 204036],
+			[-122607, 203131],
+			[-112383, 204622],
+			[-112137, 204651],
+			[-114158, 202398],
+			[-114190, 202339],
+			[-108638, 202883],
+			[-108625, 202813],
+			[-102519, 204226],
+			[-102587, 204144],
+			[-105175, 203672],
+			[-25803, 166329],
+			[-26001, 166082],
+			[-25873, 166013],
+			[-25360, 165626],
+			[-25256, 165584],
+			[-25269, 165770],
+			[-24299, 166867],
+			[-24389, 166710],
+			[-31076, 171446],
+			[-29563, 170113],
+			[-29357, 170442],
+			[-16948, 168392],
+			[-16897, 168237],
+			[-17062, 168406],
+			[-20037, 180900],
+			[-19509, 181122],
+			[-18255, 181670],
+			[-18451, 181917],
+			[-18091, 181893],
+			[-17618, 182485],
+			[-17257, 182605],
+			[-17273, 182769],
+			[-7927, 182588],
+			[-7901, 182437],
+			[-8119, 182535],
+			[-731, 191594],
+			[-352, 191381],
+			[-544, 191360],
+			[-7997, 194634],
+			[-7939, 195300],
+			[-7997, 194958],
+			[-2569, 192829],
+			[-2407, 193085],
+			[-1940, 192665],
+			[-58741, 165851],
+			[-58763, 165797],
+			[-54530, 165325],
+			[-54518, 165268],
+			[-54494, 165218],
+			[-36674, 165557],
+			[-36755, 165535],
+			[-36736, 165600],
+			[-57526, 169742],
+			[-58752, 170726],
+			[-53923, 169498],
+			[-53907, 169570],
+			[-53806, 169657],
+			[-53863, 169631],
+			[-51806, 169884],
+			[-51742, 169887],
+			[-51728, 169815],
+			[-51781, 169810],
+			[-47392, 171702],
+			[-47360, 171635],
+			[-47340, 171683],
+			[-47298, 171621],
+			[-50521, 175888],
+			[-50505, 175819],
+			[-50529, 175555],
+			[-50520, 175607],
+			[-50512, 175676],
+			[-46607, 172916],
+			[-46529, 172913],
+			[-46561, 172979],
+			[-46618, 172998],
+			[-48511, 172789],
+			[-48525, 172850],
+			[-48566, 172792],
+			[-34818, 172178],
+			[-34899, 172211],
+			[-56036, 177538],
+			[-56113, 177521],
+			[-56150, 177498],
+			[-52282, 178534],
+			[-52427, 178705],
+			[-52360, 178622],
+			[-48550, 179548],
+			[-48625, 179513],
+			[-48669, 179503],
+			[-48599, 179618],
+			[-42520, 178901],
+			[-42462, 178957],
+			[-42444, 178846],
+			[-42384, 178899],
+			[-40380, 178009],
+			[-40399, 177930],
+			[-40451, 177950],
+			[-40473, 177997],
+			[-40419, 177976],
+			[-53528, 184134],
+			[-53510, 184062],
+			[-53552, 183987],
+			[-53570, 184050],
+			[-33418, 184001],
+			[-52386, 186025],
+			[-52310, 185994],
+			[-52241, 185954],
+			[-52174, 185906],
+			[-47311, 186659],
+			[-47266, 186681],
+			[-47334, 186729],
+			[-43392, 186700],
+			[-43347, 186731],
+			[-43419, 186750],
+			[-33357, 184371],
+			[-62473, 189973],
+			[-63679, 190666],
+			[-58478, 189911],
+			[-58366, 189773],
+			[-54678, 190315],
+			[-54679, 190377],
+			[-54627, 190400],
+			[-54614, 190339],
+			[-50717, 191027],
+			[-50781, 191061],
+			[-50843, 191092],
+			[-50908, 191151],
+			[-47455, 196330],
+			[-47568, 196266],
+			[-47490, 196271],
+			[-78436, 166284],
+			[-78408, 166226],
+			[-96772, 168610],
+			[-96658, 168640],
+			[-96787, 168717],
+			[-78845, 169202],
+			[-78790, 169153],
+			[-78761, 169107],
+			[-69036, 171354],
+			[-96860, 173101],
+			[-96819, 173122],
+			[-96464, 172837],
+			[-91580, 174624],
+			[-91632, 174581],
+			[-91649, 174637],
+			[-72832, 174175],
+			[-72761, 174215],
+			[-71543, 174109],
+			[-76754, 185710],
+			[-75984, 186088],
+			[-95859, 191335],
+			[-95979, 191238],
+			[-95935, 191296],
+			[-88236, 190793],
+			[-88300, 190753],
+			[-88332, 190656],
+			[-71062, 190279],
+			[-70632, 190197],
+			[-71019, 190659],
+			[-66432, 188651],
+			[-66527, 190248],
+			[-84395, 195451],
+			[-84439, 195457],
+			[-84398, 195411],
+			[-75339, 194096],
+			[-75358, 194166],
+			[-72526, 194166],
+			[-117682, 164105],
+			[-115736, 166889],
+			[-116554, 165172],
+			[-115515, 166523],
+			[-115430, 166583],
+			[-114072, 168447],
+			[-113554, 169054],
+			[-112760, 170998],
+			[-112576, 170991],
+			[-112311, 171098],
+			[-111242, 173899],
+			[-111242, 173973],
+			[-128586, 177956],
+			[-107247, 179017],
+			[-106551, 179950],
+			[-109666, 176325],
+			[-107913, 178563],
+			[-105173, 177191],
+			[-106484, 180024],
+			[-101604, 176956],
+			[-98600, 176647],
+			[-98500, 176612],
+			[-98450, 178331],
+			[-105627, 181184],
+			[-104203, 182068],
+			[-103701, 181590],
+			[-129524, 184957],
+			[-129553, 185032],
+			[-7478, 134419],
+			[-7383, 134077],
+			[-7778, 134253],
+			[-26830, 138979],
+			[-26891, 138899],
+			[-26833, 138838],
+			[-25496, 141110],
+			[-25551, 141176],
+			[-25484, 141034],
+			[-19746, 141139],
+			[-19658, 141088],
+			[-19677, 141163],
+			[-19609, 141142],
+			[-30799, 143967],
+			[-30852, 144017],
+			[-30890, 144067],
+			[-30801, 144057],
+			[-25171, 144424],
+			[-25167, 144493],
+			[-25284, 144528],
+			[-25291, 144437],
+			[-20123, 144625],
+			[-20187, 144678],
+			[-20110, 144710],
+			[-3351, 145804],
+			[-2898, 146037],
+			[-3195, 145940],
+			[-29657, 150265],
+			[-29645, 150323],
+			[-29714, 150308],
+			[-25728, 150675],
+			[-25687, 150610],
+			[-25659, 150664],
+			[-19948, 148385],
+			[-19924, 148436],
+			[-19899, 148338],
+			[-22109, 155917],
+			[-22157, 155846],
+			[-22121, 155782],
+			[-22068, 155850],
+			[-17575, 157438],
+			[-17495, 157504],
+			[-17504, 157434],
+			[-6706, 156356],
+			[-6871, 156488],
+			[-7004, 156368],
+			[-23919, 162620],
+			[-23824, 162623],
+			[-23875, 162687],
+			[-15032, 160285],
+			[-14891, 160206],
+			[-15026, 160436],
+			[-56457, 136563],
+			[-56392, 136593],
+			[-56351, 136557],
+			[-58922, 142871],
+			[-58881, 142828],
+			[-58824, 142808],
+			[-51727, 141050],
+			[-51869, 141169],
+			[-51812, 141122],
+			[-46215, 142241],
+			[-46242, 142314],
+			[-46178, 142315],
+			[-54905, 146095],
+			[-54374, 145855],
+			[-54795, 145956],
+			[-54810, 146069],
+			[-54775, 146012],
+			[-54862, 146040],
+			[-54298, 145812],
+			[-54519, 148902],
+			[-54532, 148982],
+			[-54588, 148971],
+			[-50589, 148767],
+			[-50593, 148675],
+			[-50638, 148698],
+			[-60171, 154344],
+			[-60215, 154451],
+			[-60206, 154386],
+			[-56704, 152943],
+			[-56743, 153069],
+			[-56709, 153017],
+			[-39141, 152687],
+			[-39250, 152682],
+			[-39202, 152622],
+			[-34340, 154938],
+			[-34256, 154909],
+			[-34291, 154974],
+			[-34200, 154964],
+			[-55275, 162478],
+			[-55325, 162586],
+			[-55330, 162528],
+			[-55396, 162584],
+			[-51244, 159907],
+			[-51381, 159974],
+			[-51317, 159927],
+			[-47256, 162631],
+			[-47197, 162662],
+			[-47251, 162708],
+			[-41505, 161138],
+			[-41484, 161628],
+			[-40836, 161226],
+			[-94182, 133899],
+			[-86463, 132507],
+			[-86450, 132432],
+			[-88482, 134331],
+			[-88430, 134356],
+			[-81429, 134376],
+			[-81473, 134443],
+			[-96913, 138423],
+			[-96916, 138352],
+			[-83816, 137776],
+			[-83820, 137702],
+			[-79891, 135780],
+			[-79848, 135825],
+			[-92462, 142172],
+			[-92468, 142101],
+			[-92497, 144675],
+			[-92464, 144643],
+			[-87305, 145309],
+			[-87239, 145490],
+			[-71812, 144795],
+			[-71872, 144809],
+			[-71832, 144738],
+			[-79913, 148676],
+			[-79884, 148735],
+			[-67417, 150233],
+			[-67376, 150192],
+			[-67304, 150118],
+			[-68988, 150095],
+			[-69005, 149982],
+			[-68998, 150028],
+			[-95521, 153904],
+			[-95454, 153909],
+			[-93796, 153308],
+			[-93833, 153243],
+			[-93827, 153172],
+			[-87575, 153717],
+			[-87541, 153656],
+			[-68472, 152179],
+			[-68444, 152234],
+			[-68013, 153763],
+			[-67911, 153801],
+			[-98207, 158087],
+			[-98199, 158011],
+			[-94094, 156932],
+			[-94054, 157026],
+			[-88077, 157713],
+			[-88091, 157786],
+			[-79327, 159355],
+			[-79315, 159288],
+			[-78859, 163220],
+			[-78857, 163167],
+			[-78833, 163144],
+			[-124924, 134244],
+			[-124906, 134338],
+			[-124688, 134136],
+			[-121296, 134611],
+			[-119078, 131856],
+			[-117284, 131772],
+			[-117259, 131824],
+			[-118419, 132230],
+			[-111273, 138568],
+			[-111204, 138564],
+			[-111148, 138586],
+			[-105784, 137120],
+			[-105727, 137088],
+			[-105658, 137066],
+			[-102280, 136187],
+			[-102247, 136221],
+			[-102308, 136251],
+			[-102257, 136293],
+			[-100271, 141559],
+			[-100213, 141584],
+			[-100130, 141605],
+			[-99379, 145575],
+			[-99400, 145653],
+			[-99434, 145639],
+			[-99443, 145684],
+			[-99436, 145683],
+			[-104104, 150702],
+			[-104103, 150692],
+			[-104826, 150933],
+			[-104816, 150923],
+			[-98756, 148448],
+			[-98747, 148402],
+			[-101850, 149691],
+			[-101880, 149597],
+			[-101940, 149590],
+			[-101916, 149647],
+			[-124012, 154830],
+			[-124400, 154053],
+			[-124838, 153800],
+			[-103716, 155065],
+			[-103760, 155073],
+			[-100978, 153899],
+			[-101036, 153833],
+			[-101033, 153768],
+			[-100976, 153838],
+			[-100975, 153765],
+			[-123086, 157010],
+			[-123032, 157105],
+			[-123814, 155690],
+			[-121149, 159209],
+			[-122461, 157806],
+			[-107403, 159354],
+			[-107338, 159224],
+			[-107362, 159290],
+			[-107362, 159329],
+			[-105480, 157460],
+			[-105412, 157378],
+			[-105434, 157410],
+			[-125977, 159794],
+			[-125467, 161513],
+			[-119252, 161672],
+			[-120897, 160112],
+			[-117495, 163834],
+			[-102924, 161737],
+			[-102978, 161691],
+			[-102941, 161692],
+			[-102969, 161653],
+			[-99440, 163079],
+			[-99415, 163065],
+			[-99457, 163109],
+			[-161368, 197497],
+			[-161302, 197503],
+			[-159429, 199325],
+			[-157591, 200373],
+			[-157550, 200436],
+			[-157474, 200485],
+			[-155298, 198754],
+			[-155236, 198692],
+			[-155343, 198921],
+			[-156335, 201908],
+			[-156932, 202574],
+			[-156845, 202604],
+			[-154027, 201142],
+			[-154126, 201147],
+			[-154209, 203755],
+			[-145025, 203467],
+			[-145014, 203524],
+			[-140378, 203610],
+			[-140409, 203532],
+			[-133575, 204276],
+			[-132579, 203893],
+			[-132406, 203935],
+			[-149519, 207609],
+			[-178646, 198464],
+			[-178614, 198387],
+			[-178133, 201748],
+			[-178119, 201662],
+			[-169124, 200948],
+			[-169089, 201070],
+			[-168093, 201847],
+			[-168047, 201845],
+			[-169054, 203227],
+			[-169014, 203139],
+			[-166396, 201096],
+			[-166395, 201000],
+			[-166297, 200923],
+			[-154547, 164618],
+			[-154340, 164603],
+			[-154662, 165263],
+			[-154722, 165342],
+			[-154692, 165335],
+			[-154533, 164625],
+			[-154347, 164669],
+			[-142542, 166204],
+			[-142522, 166110],
+			[-153286, 170712],
+			[-153384, 170863],
+			[-153377, 170783],
+			[-134910, 171207],
+			[-132562, 170177],
+			[-132632, 170149],
+			[-131183, 170725],
+			[-156578, 174923],
+			[-156357, 173905],
+			[-156188, 173914],
+			[-152125, 173973],
+			[-152282, 173209],
+			[-138980, 175687],
+			[-135954, 175339],
+			[-133839, 175009],
+			[-134509, 174171],
+			[-160965, 176694],
+			[-161718, 178304],
+			[-161677, 178241],
+			[-156484, 177566],
+			[-156718, 177660],
+			[-156422, 177078],
+			[-155411, 176770],
+			[-155351, 176839],
+			[-153712, 178456],
+			[-153679, 178402],
+			[-140299, 177349],
+			[-140284, 177474],
+			[-136997, 177853],
+			[-136205, 177491],
+			[-140658, 182602],
+			[-140607, 182646],
+			[-140663, 182669],
+			[-136880, 181245],
+			[-136365, 182414],
+			[-133161, 184549],
+			[-159368, 193623],
+			[-159419, 193676],
+			[-159466, 193748],
+			[-173266, 167992],
+			[-173370, 167990],
+			[-173444, 168038],
+			[-171508, 168880],
+			[-171533, 168933],
+			[-168320, 183809],
+			[-168381, 183854],
+			[-166199, 183976],
+			[-167398, 184008],
+			[-167265, 183898],
+			[-162014, 132580],
+			[-161613, 131393],
+			[-149672, 131825],
+			[-149681, 131693],
+			[-140265, 131567],
+			[-160148, 136627],
+			[-163021, 137027],
+			[-158451, 142258],
+			[-158412, 142355],
+			[-149587, 143150],
+			[-149599, 143051],
+			[-152897, 147337],
+			[-152983, 146305],
+			[-157139, 149331],
+			[-156750, 147930],
+			[-154399, 149156],
+			[-154646, 150328],
+			[-154124, 148180],
+			[-160367, 155599],
+			[-153154, 156621],
+			[-153193, 156539],
+			[-136363, 155713],
+			[-136391, 156472],
+			[-182472, 133235],
+			[-177991, 133352],
+			[-177945, 134629],
+			[-175518, 131760],
+			[-174559, 134814],
+			[-174975, 132435],
+			[-164482, 133645],
+			[-181845, 136412],
+			[-174741, 135576],
+			[-167565, 138249],
+			[-180441, 140516],
+			[-173266, 143010],
+			[-177319, 147215],
+			[-177670, 145817],
+			[-175705, 143491],
+			[-175919, 144926],
+			[-171963, 146490],
+			[-171575, 147225],
+			[-169796, 145784],
+			[-178663, 149481],
+			[-172310, 150980],
+			[-175723, 147469],
+			[-172607, 148218],
+			[-171951, 149578],
+			[-176685, 153604],
+			[-175500, 153379],
+			[-173316, 152951],
+			[-169377, 151622],
+			[-170667, 152164],
+			[-171611, 152006],
+			[-166882, 154955],
+			[-168826, 156743],
+			[-168360, 155775],
+			[-167015, 157664],
+			[-166853, 156614],
+			[183262, 180146],
+			[183274, 180292],
+			[183184, 180252],
+			[172312, 191403],
+			[172403, 191309],
+			[172288, 191295],
+			[173318, 190051],
+			[173391, 190136],
+			[173409, 190053],
+			[182329, 189216],
+			[182214, 189370],
+			[182353, 189013],
+			[182203, 189164],
+			[182191, 189133],
+			[181002, 193079],
+			[181506, 193054],
+			[181425, 193126],
+			[181093, 193110],
+			[187289, 193646],
+			[187394, 193642],
+			[187264, 193575],
+			[187349, 193563],
+			[150500, 192434],
+			[150445, 192503],
+			[150569, 192459],
+			[144769, 196140],
+			[144909, 195937],
+			[144973, 194868],
+			[144888, 194992],
+			[144936, 194928],
+			[180897, 155331],
+			[181980, 155330],
+			[182110, 154938],
+			[182721, 151795],
+			[182036, 153259],
+			[14851, 206272],
+			[33444, 164596],
+			[35844, 176915],
+			[35990, 176789],
+			[32403, 165592],
+			[32411, 165401],
+			[32413, 165523],
+			[32335, 165450],
+			[1160, 174839],
+			[1260, 174433],
+			[1507, 174596],
+			[1313, 174592],
+			[3460, 179244],
+			[3201, 179296],
+			[3405, 179447],
+			[13734, 192138],
+			[13426, 192257],
+			[14612, 192433],
+			[13758, 191466],
+			[12964, 192126],
+			[13890, 191590],
+			[16613, 192295],
+			[16613, 192445],
+			[3846, 196447],
+			[4397, 196239],
+			[4790, 196433],
+			[13776, 192706],
+			[15406, 193273],
+			[14383, 193717],
+			[14395, 193749],
+			[14671, 193017],
+			[15435, 193483],
+			[15462, 193463],
+			[15292, 193640],
+			[16786, 192905],
+			[99617, 150620],
+			[99649, 150723],
+			[99744, 150549],
+			[99210, 150724],
+			[99222, 150674],
+			[130378, 151831],
+			[108280, 158832],
+			[108247, 158986],
+			[108015, 158724],
+			[108262, 158772],
+			[107703, 161914],
+			[107379, 161812],
+			[107321, 161973],
+			[107322, 161852],
+			[107753, 161931],
+			[106969, 161900],
+			[84744, 141880],
+			[84773, 141861],
+			[84634, 147845],
+			[84612, 147786],
+			[84580, 147838],
+			[97993, 158003],
+			[97888, 158085],
+			[98002, 158213],
+			[85852, 163512],
+			[85825, 163439],
+			[38004, 138214],
+			[38250, 138578],
+			[38272, 138531],
+			[38195, 138602],
+			[38091, 138531],
+			[34736, 140754],
+			[34666, 140836],
+			[34650, 141082],
+			[34465, 142586],
+			[34517, 142414],
+			[34650, 142513],
+			[36276, 140635],
+			[36307, 140709],
+			[36622, 140948],
+			[38110, 142652],
+			[38183, 142747],
+			[38277, 142991],
+			[38375, 142865],
+			[36927, 142230],
+			[37648, 141932],
+			[37692, 141517],
+			[37672, 141401],
+			[38284, 141092],
+			[38162, 141092],
+			[38150, 141180],
+			[38263, 139994],
+			[38209, 140109],
+			[38324, 140102],
+			[38413, 140407],
+			[38640, 140422],
+			[44505, 142868],
+			[44597, 142707],
+			[44502, 142669],
+			[44405, 142757],
+			[43201, 146921],
+			[43142, 146969],
+			[43153, 146830],
+			[43389, 145933],
+			[42509, 144807],
+			[42676, 144688],
+			[42500, 144628],
+			[43433, 144888],
+			[43436, 144810],
+			[44554, 143632],
+			[44521, 143745],
+			[44592, 143724],
+			[43329, 145823],
+			[43396, 145709],
+			[43358, 145632],
+			[42770, 146198],
+			[45187, 146340],
+			[45141, 146196],
+			[45113, 146012],
+			[45225, 146715],
+			[45178, 146835],
+			[45266, 146852],
+			[45566, 146575],
+			[45803, 146367],
+			[45878, 146310],
+			[45841, 146207],
+			[38684, 151052],
+			[37502, 150754],
+			[37399, 150836],
+			[37019, 149495],
+			[37189, 149517],
+			[37173, 149430],
+			[37145, 149342],
+			[38200, 149706],
+			[38371, 149727],
+			[39683, 149088],
+			[39631, 149040],
+			[39793, 149029],
+			[38847, 150935],
+			[38803, 150845],
+			[38878, 150840],
+			[38491, 151135],
+			[38383, 151100],
+			[41197, 149435],
+			[41233, 149348],
+			[41086, 149409],
+			[42632, 149751],
+			[42707, 149878],
+			[42825, 149900],
+			[43166, 150061],
+			[43204, 149994],
+			[43081, 150027],
+			[57369, 150944],
+			[57422, 151013],
+			[57451, 150931],
+			[59877, 150016],
+			[59805, 150022],
+			[59795, 149950],
+			[33554, 155247],
+			[33988, 154856],
+			[33912, 155083],
+			[33869, 155171],
+			[40620, 152117],
+			[40711, 151791],
+			[40590, 151859],
+			[32930, 156746],
+			[32772, 157462],
+			[32811, 157360],
+			[33703, 157967],
+			[33650, 158028],
+			[33606, 157969],
+			[14973, 133978],
+			[15062, 133957],
+			[15176, 133977],
+			[12628, 134120],
+			[12675, 134293],
+			[12732, 134121],
+			[24681, 138915],
+			[24760, 138984],
+			[25333, 138039],
+			[25442, 137991],
+			[25359, 137910],
+			[9678, 141524],
+			[10504, 139491],
+			[10155, 139434],
+			[9703, 140835],
+			[9833, 140977],
+			[9857, 141061],
+			[25521, 143280],
+			[25519, 143147],
+			[25435, 143262],
+			[26985, 143293],
+			[29935, 142677],
+			[29823, 142494],
+			[30772, 143096],
+			[30820, 142975],
+			[30732, 142916],
+			[6178, 147398],
+			[6323, 147169],
+			[6175, 146967],
+			[6385, 146348],
+			[5585, 146167],
+			[5265, 146021],
+			[5358, 146115],
+			[5413, 146053],
+			[11043, 145495],
+			[10510, 145638],
+			[11385, 144658],
+			[11342, 144775],
+			[11784, 145776],
+			[12078, 145339],
+			[12074, 145458],
+			[11581, 145849],
+			[17061, 145146],
+			[16982, 145239],
+			[19185, 144840],
+			[19292, 144847],
+			[19135, 144932],
+			[19100, 145098],
+			[18366, 144722],
+			[18253, 144600],
+			[18290, 144606],
+			[18278, 144872],
+			[26761, 143488],
+			[26679, 143454],
+			[29500, 143463],
+			[29533, 143537],
+			[29600, 143494],
+			[29701, 143423],
+			[31157, 143918],
+			[31385, 144647],
+			[31387, 144813],
+			[31832, 144998],
+			[31818, 144902],
+			[31601, 144952],
+			[5247, 148877],
+			[5302, 148816],
+			[5368, 148723],
+			[5012, 149144],
+			[5092, 149202],
+			[5182, 149701],
+			[5194, 149640],
+			[5095, 149725],
+			[4567, 150192],
+			[4589, 149872],
+			[4736, 149925],
+			[4589, 149264],
+			[4522, 149324],
+			[5998, 148931],
+			[6008, 149022],
+			[6356, 149860],
+			[6207, 149819],
+			[6188, 149892],
+			[6997, 150734],
+			[7046, 150665],
+			[6995, 150593],
+			[9256, 149053],
+			[9152, 149039],
+			[13624, 154480],
+			[13776, 154551],
+			[13868, 154651],
+			[13969, 154688],
+			[14248, 153755],
+			[32275, 155171],
+			[32218, 155231],
+			[32139, 155354],
+			[32721, 157258],
+			[32597, 157261],
+			[26453, 159830],
+			[27007, 160152],
+			[26503, 160231],
+			[26399, 160050],
+			[26560, 159933],
+			[26653, 160061],
+			[26667, 159985],
+			[26638, 159871],
+			[28135, 160378],
+			[28315, 160764],
+			[28063, 160531],
+			[28120, 160783],
+			[27988, 160702],
+			[27897, 160646],
+			[-91493, 118361],
+			[-91655, 117945],
+			[-91404, 118174],
+			[-80136, 117359],
+			[-80298, 117310],
+			[-93178, 122335],
+			[-93998, 122256],
+			[-93779, 122140],
+			[-93566, 122261],
+			[-85224, 120978],
+			[-85430, 120760],
+			[-85115, 120768],
+			[-74907, 124751],
+			[-74938, 124689],
+			[-74859, 124717],
+			[-72621, 124656],
+			[-72656, 124581],
+			[-72690, 124644],
+			[-68182, 125368],
+			[-68207, 125324],
+			[-68134, 125375],
+			[-125478, 110203],
+			[-112157, 109297],
+			[-126242, 112922],
+			[-118934, 113806],
+			[-119566, 114218],
+			[-119676, 114640],
+			[-112497, 112110],
+			[-107373, 111295],
+			[-109970, 110772],
+			[-127268, 117108],
+			[-120781, 115121],
+			[-120220, 116238],
+			[-118992, 115419],
+			[-118166, 118632],
+			[-116972, 116103],
+			[-115820, 117815],
+			[-117921, 117293],
+			[-113673, 117677],
+			[-110292, 116364],
+			[-104282, 117767],
+			[-106114, 118410],
+			[-116247, 119475],
+			[-115304, 121531],
+			[-118469, 121940],
+			[-109334, 120002],
+			[-100877, 120914],
+			[-118824, 125765],
+			[-118846, 126613],
+			[-116555, 126211],
+			[-111311, 123532],
+			[-107634, 126903],
+			[-106834, 124385],
+			[-105345, 126955],
+			[-99142, 123467],
+			[-128390, 129384],
+			[-128333, 129364],
+			[-116651, 128831],
+			[-113785, 128849],
+			[-113733, 128831],
+			[-108714, 127283],
+			[-108646, 127397],
+			[-108679, 127333],
+			[-101760, 129172],
+			[-101733, 129225],
+			[-101705, 129131],
+			[-33246, 67],
+			[-56571, 8881],
+			[-56419, 9029],
+			[-56310, 9052],
+			[-56251, 9140],
+			[-56295, 9081],
+			[-56616, 8644],
+			[-56885, 8436],
+			[-56770, 8485],
+			[-56739, 8433],
+			[-56111, 8923],
+			[-56555, 8982],
+			[-56675, 8868],
+			[-56460, 8724],
+			[-56568, 8930],
+			[-56676, 8469],
+			[-163791, 110059],
+			[-163824, 108472],
+			[-163715, 108376],
+			[-163803, 114404],
+			[-163274, 112137],
+			[-161364, 113441],
+			[-163111, 111957],
+			[-161286, 113650],
+			[-162430, 114821],
+			[-162677, 116995],
+			[-162568, 117162],
+			[-163577, 118325],
+			[-163127, 118700],
+			[-160856, 121417],
+			[-156411, 122100],
+			[-161173, 126493],
+			[-161641, 126659],
+			[-162222, 124375],
+			[-162104, 124372],
+			[-155985, 123502],
+			[-155855, 123544],
+			[-152655, 123982],
+			[-161352, 127793],
+			[-162148, 130992],
+			[-161317, 128900],
+			[-150023, 128270],
+			[-150037, 128159],
+			[-141398, 129823],
+			[-140577, 127835],
+			[-131674, 128768],
+			[-132087, 129240],
+			[-172546, 106762],
+			[-172665, 107180],
+			[-170276, 107471],
+			[-168518, 107632],
+			[-170491, 109593],
+			[-170612, 109506],
+			[-169509, 109849],
+			[-169435, 109587],
+			[-169561, 108681],
+			[-164846, 108411],
+			[-163923, 110214],
+			[-165731, 108816],
+			[-165835, 108416],
+			[-174137, 114025],
+			[-174411, 113999],
+			[-174304, 112827],
+			[-174201, 112470],
+			[-166538, 113091],
+			[-166981, 114418],
+			[-167159, 114104],
+			[-166426, 112875],
+			[-165633, 110806],
+			[-165614, 110909],
+			[-165549, 111556],
+			[-165671, 112498],
+			[-176705, 117441],
+			[-176242, 118183],
+			[-174636, 116226],
+			[-174668, 115972],
+			[-173908, 116181],
+			[-175714, 115932],
+			[-175523, 115882],
+			[-164293, 117400],
+			[-164336, 117090],
+			[-165458, 116741],
+			[-165548, 116261],
+			[-172609, 120579],
+			[-172631, 119658],
+			[-173977, 121758],
+			[-174334, 121661],
+			[-169725, 121431],
+			[-169052, 120440],
+			[-169024, 120581],
+			[-169764, 120123],
+			[-165619, 121454],
+			[-165251, 119824],
+			[-164257, 120480],
+			[-164053, 120697],
+			[-165337, 122761],
+			[-164908, 122666],
+			[-164946, 122384],
+			[-173982, 124906],
+			[-174839, 124149],
+			[-174725, 124149],
+			[-174367, 123753],
+			[-174417, 123925],
+			[-175406, 125042],
+			[-175882, 124432],
+			[-169552, 125893],
+			[-169546, 126066],
+			[-168000, 125941],
+			[-167738, 123401],
+			[-165940, 124879],
+			[-165991, 125114],
+			[-182448, 130668],
+			[-177873, 130865],
+			[-177425, 129378],
+			[-178426, 127088],
+			[-179986, 130576],
+			[-178160, 129796],
+			[-174988, 127991],
+			[-172281, 128999],
+			[-175916, 127843],
+			[-175873, 128954],
+			[-175199, 129282],
+			[-172494, 127238],
+			[-172941, 127297],
+			[-169202, 128345],
+			[-166600, 130742],
+			[-167206, 128390],
+			[-165374, 127849],
+			[-148876, 40308],
+			[-148905, 40002],
+			[-149225, 39288],
+			[-149648, 39069],
+			[-149924, 38783],
+			[-149375, 57064],
+			[-149533, 57043],
+			[-151767, 58788],
+			[-150719, 59928],
+			[-150201, 59621],
+			[-149486, 58530],
+			[153161, 57836],
+			[113420, 114241],
+			[113651, 114318],
+			[126015, 110892],
+			[125253, 112982],
+			[124047, 114308],
+			[123179, 113567],
+			[113802, 115493],
+			[112789, 115274],
+			[113625, 114874],
+			[113422, 114726],
+			[113126, 114866],
+			[112719, 116379],
+			[113148, 116990],
+			[114185, 116218],
+			[73813, 129738],
+			[74124, 128511],
+			[76671, 129382],
+			[76880, 130640],
+			[18000, 128861],
+			[18025, 128810],
+			[18030, 128747],
+			[18346, 128248],
+			[18055, 128855],
+			[17892, 127609],
+			[58111, 54168],
+			[90034, 5959]
+		];
+		var mozgogrib2 = [
+			["Мозгогриб - 34 шт.<br>[Внутри локации Необыкновенные пещеры]", -89947, -41527],
+			["Мозгогриб - 24 шт.<br>[Внутри локации Шахта &quotКервуд&quot]", -64741, 130050],
+			["Мозгогриб - 29 шт.<br>[Внутри локации Заброшенная свалка]", 26723, 185034],
+			["Мозгогриб - 100 шт.<br>[Внутри локации Пещера вендиго]", 43120, 87360],
+			["Мозгогриб - 7 шт.<br>[Внутри локации Бункер семьи Карсон]", 69079, 159043],
+			["Мозгогриб - 5 шт.<br>[Внутри локации Убежище Хоука]", 7828, 119103],
+			["Мозгогриб - 15 шт.<br>[Внутри локации Место захоронения на горе Эммет]", -51807, 56146],
+			["Мозгогриб - 4 шт.<br>[Внутри локации &quotРжавая кирка&quot]", -74719, -113348],
+			["Мозгогриб - 4 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]", -53492, -162144],
+			["Мозгогриб - 28 шт.<br>[Внутри здания Форт Дефайанс]", -131600, 107048],
+			["Мозгогриб - 38 шт.<br>[Внутри локации Стеклянная пещера]", -161792, 200480],
+			["Мозгогриб - 15 шт.<br>[Внутри локации Шахта &quotГоули&quot]", 62688, -58605],
+			["Мозгогриб - 45 шт.<br>[Внутри локации Тоннель &quotБольшой излом&quot]", -149488, 112944],
+			["Мозгогриб - 45 шт.<br>[Внутри локации Тоннель &quotБольшой излом&quot]", -120808, -44088],
+			["Мозгогриб - 4 шт.<br>[Внутри локации Норы]", -3956, 157951],
+			["Мозгогриб - 3 шт.<br>[Внутри локации Бункер Эбби]", 138117, 185219],
+			["Мозгогриб - 5 шт.<br>[Внутри локации Бункер Эллы Эймс]", 102922, 165802],
+			["Мозгогриб - 3 шт.<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466],
+			["Мозгогриб - 7 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]", -46520, 28168],
+			["Мозгогриб - 2 шт.<br>[Внутри здания Галерея в долине]", -12605, 196567],
+			["Мозгогриб<br>[Внутри здания Электростанция &quotГрозовая гора&quot]", 98395, 192590],
+			["Мозгогриб - 3 шт.<br>[Внутри здания Жилой комплекс Шедоубриз]", 95594,-6512],
+			["Мозгогриб<br>[Внутри локации Заброшенный бункер]", 127372, 154881]
+		];
+		for (var i = 0; i < mozgogrib1.length; i++) {
+			mozgogrib1_1 = new L.circleMarker([mozgogrib1[i][0],mozgogrib1[i][1]], {color: "#F5DEB3"})
+			.bindPopup("Мозгогриб")
+			.bindTooltip("Мозгогриб", {direction: 'top'})
+			.addTo(mozgogribicons);
+		}
+		for (var i = 0; i < mozgogrib2.length; i++) {
+			mozgogrib2_1 = new L.circleMarker([mozgogrib2[i][1],mozgogrib2[i][2]], {color: "#F5DEB3", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(mozgogrib2[i][0])
+			.bindTooltip(mozgogrib2[i][0], {direction: 'top'})
+			.addTo(mozgogribicons);
+		}
 	}
 	else {
 		mozgogribicons.clearLayers();
