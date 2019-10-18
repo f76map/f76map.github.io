@@ -1,311 +1,325 @@
-	var kukuruzaicons = L.layerGroup().addTo(map);
-	function KukuruzaOnOff() {
+var kukuruzaicons = L.layerGroup().addTo(map);
+function KukuruzaOnOff() {
 	var chbox;
 	chbox=document.getElementById('KukuruzaButton');
 	if (chbox.checked) {
-	L.circleMarker([-57637, -48123], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-57647, -48108], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-98932, -42558], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-166180, -11646], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-166180, -10799], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-167009, -10799], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-166377, -11204], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-167328, -11470], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156407, -43694], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156340, -43331], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([172276, -124755], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([173947, -123885], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([172938, -124821], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([172738, -125518], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([174284, -124661], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([174067, -124842], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([175922, -123819], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([175519, -124083], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([175377, -122646], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4857, -155546], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4823, -155597], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59404, 178288], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([175344, 41332], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([175346, 41328], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130145, 107469], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129653, 108060], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129437, 107815], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129764, 107788], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129338, 108027], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129051, 108776], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129578, 108920], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129835, 108867], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129009, 108444], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([128831, 108296], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129118, 108201], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130732, 110285], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130517, 110196], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130323, 110048], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130540, 111174], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([21179, 125640], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([21162, 125569], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([100083, 92035], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([100136, 92010], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([100170, 92054], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([100191, 91977], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([100150, 91929], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-//+Planter01Corn02
-	L.circleMarker([-57937, -47868], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59735, 117424], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59689, 117379], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-//14 в Убежище 94
-//3 в лаборатории
-
-//Дикая
-	L.circleMarker([-98992, -42342], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-99313, -42232], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-99016, -42386], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-166959, -11470], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-166638, -11240], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156249, -43535], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156667, -43991], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156662, -43663], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156680, -43695], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156802, -43514], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156021, -43241], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156907, -43649], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156772, -44126], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156302, -43565], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156297, -43237], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156767, -43798], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-156854, -43918], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([150522, -32046], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([150529, -31968], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([150459, -31888], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162363, -91490], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162171, -91652], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162126, -91590], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162273, -91503], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162196, -91549], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162439, -91444], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162055, -91619], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162472, -91517], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162405, -91552], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162305, -91576], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162239, -91612], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([162094, -91688], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([152115, -74667], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([152074, -74790], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([152160, -74544], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([152234, -74309], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([151943, -74607], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([151988, -74483], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([152029, -74361], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([152234, -74309], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([151943, -74607], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([151988, -74483], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([152029, -74361], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146234, -68697], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146711, -69062], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([145484, -68889], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([145885, -69170], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146197, -69032], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146025, -69176], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146440, -69047], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146106, -68667], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146309, -69029], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([146142, -69171], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([175719, -123944], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([174176, -123729], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([175211, -123009], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([173167, -124665], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([174418, -124327], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([107716, -22620], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([107624, -22481], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([107815, -22735], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([107903, -22830], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([108036, -22962], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([71576, -15181], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([71747, -13522], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([70447, -13127], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([70837, -13742], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([71365, -13907], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([71779, -14393], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([71408, -14684], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([70983, -14995], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([71116, -16121], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([70612, -16307], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4158, -158001], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4200, -157463], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4289, -157536], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4298, -157309], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2616, -158741], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2522, -158674], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2904, -158396], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1515, -157927], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1680, -157820], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1897, -157649], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3706, -157611], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1866, -156818], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3064, -156556], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3544, -156965], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2068, -157257], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1543, -156891], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1863, -157378], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3670, -157305], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2390, -155776], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-422, -156038], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2987, -157071], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3231, -158644], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2535, -157069], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2728, -158265], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2808, -158617], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3600, -158650], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3193, -157496], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2558, -158413], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2268, -156239], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3982, -157573], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1040, -156787], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2978, -158469], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3481, -158848], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1716, -156198], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1783, -156755], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2541, -156795], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1682, -158068], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3193, -159194], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3272, -159250], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2857, -158944], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2472, -158367], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3176, -158328], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3591, -158374], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2384, -158305], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1880, -157953], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1635, -157473], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3954, -157267], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-647, -156521], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1098, -156853], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-821, -156377], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-336, -155984], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-751, -156291], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1795, -157079], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1590, -157218], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-3100, -156879], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2685, -156572], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2182, -156193], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2614, -157126], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-1695, -156441], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2421, -156716], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4863, -155624], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4826, -155586], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-4790, -155540], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-425, -154433], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-546, -155380], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-390, -154959], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-546, -155620], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-210, -155130], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-476, -155031], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-781, -154691], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-320, -154382], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-2145, -155579], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([195075, -161193], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([195299, -161238], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([196194, -161347], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([193843, -145410], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([193921, -144458], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([193987, -143832], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([194459, -144284], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([194301, -145692], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([194326, -145589], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([193993, -145374], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([194525, -144375], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([193889, -144566], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([194435, -145616], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([194058, -145904], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([193960, -145472], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([137141, -164375], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([137161, -164670], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([137464, -164018], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([137635, -164319], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([40, -154660], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59207, 178561], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59402, 178537], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59206, 178419], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59221, 178285], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59397, 178159], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59220, 178158], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59409, 178029], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59399, 177906], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59227, 177916], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59403, 177773], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59237, 177770], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59401, 177648], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59225, 177660], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-59223, 177527], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([111164, 139227], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([111290, 139236], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([431, 138608], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([503, 138571], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([723, 138424], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([643, 138463], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([404, 138537], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([583, 138532], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([368, 138653], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([679, 138357], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([613, 138394], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([539, 138465], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([474, 138501], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([331, 138583], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([173732, 9125], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([173859, 9103], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([173973, 9090], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([173931, 9160], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([173931, 9160], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129188, 107838], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129025, 108098], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130223, 108234], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([128529, 108609], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129096, 109095], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130299, 110538], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129212, 108596], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129753, 108795], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129291, 108685], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129049, 107697], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129215, 108285], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129176, 109184], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130001, 108670], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129856, 108212], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129909, 107506], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([128687, 108435], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130395, 108086], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130317, 110176], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([128922, 108350], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130310, 108326], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130330, 107684], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130567, 107975], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129263, 108934], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130444, 107847], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([128992, 109017], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130527, 110057], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130511, 110555], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129230, 107563], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129666, 108711], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129935, 108300], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129669, 109002], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([129669, 107713], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([128794, 108527], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130525, 110324], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130962, 110898], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130726, 110779], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130726, 110666], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130317, 110666], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130511, 110686], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130534, 111065], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130317, 110917], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([130740, 111163], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([21232, 125689], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([21180, 125629], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([21197, 125640], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([100232, 92028], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-//Кювета
-	L.circleMarker([-41096, -175603], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-	L.circleMarker([-41458, -175890], {color: "#F0E68C"}).addTo(kukuruzaicons).bindPopup("Кукуруза").bindTooltip("Кукуруза", {direction: 'top'});
-
-	L.circleMarker([59527, 185466], {color: "#F0E68C", fillColor: "#000000", fillOpacity: "0.8"}).addTo(kukuruzaicons).bindPopup("Кукуруза - 2 шт.<br>[Внутри локации Бункер Рейли Клэя]").bindTooltip("Кукуруза - 2 шт.<br>[Внутри локации Бункер Рейли Клэя]", {direction: 'top'});
+		var kukuruza1 = [
+			[-57637, -48123],
+			[-57647, -48108],
+			[-98932, -42558],
+			[-166180, -11646],
+			[-166180, -10799],
+			[-167009, -10799],
+			[-166377, -11204],
+			[-167328, -11470],
+			[-156407, -43694],
+			[-156340, -43331],
+			[172276, -124755],
+			[173947, -123885],
+			[172938, -124821],
+			[172738, -125518],
+			[174284, -124661],
+			[174067, -124842],
+			[175922, -123819],
+			[175519, -124083],
+			[175377, -122646],
+			[-4857, -155546],
+			[-4823, -155597],
+			[-59404, 178288],
+			[175344, 41332],
+			[175346, 41328],
+			[130145, 107469],
+			[129653, 108060],
+			[129437, 107815],
+			[129764, 107788],
+			[129338, 108027],
+			[129051, 108776],
+			[129578, 108920],
+			[129835, 108867],
+			[129009, 108444],
+			[128831, 108296],
+			[129118, 108201],
+			[130732, 110285],
+			[130517, 110196],
+			[130323, 110048],
+			[130540, 111174],
+			[21179, 125640],
+			[21162, 125569],
+			[100083, 92035],
+			[100136, 92010],
+			[100170, 92054],
+			[100191, 91977],
+			[100150, 91929],
+		//+Planter01Corn02
+			[-57937, -47868],
+			[-59735, 117424],
+			[-59689, 117379],
+		//14 в Убежище 94
+		//3 в лаборатории
+		//Дикая
+			[-98992, -42342],
+			[-99313, -42232],
+			[-99016, -42386],
+			[-166959, -11470],
+			[-166638, -11240],
+			[-156249, -43535],
+			[-156667, -43991],
+			[-156662, -43663],
+			[-156680, -43695],
+			[-156802, -43514],
+			[-156021, -43241],
+			[-156907, -43649],
+			[-156772, -44126],
+			[-156302, -43565],
+			[-156297, -43237],
+			[-156767, -43798],
+			[-156854, -43918],
+			[150522, -32046],
+			[150529, -31968],
+			[150459, -31888],
+			[162363, -91490],
+			[162171, -91652],
+			[162126, -91590],
+			[162273, -91503],
+			[162196, -91549],
+			[162439, -91444],
+			[162055, -91619],
+			[162472, -91517],
+			[162405, -91552],
+			[162305, -91576],
+			[162239, -91612],
+			[162094, -91688],
+			[152115, -74667],
+			[152074, -74790],
+			[152160, -74544],
+			[152234, -74309],
+			[151943, -74607],
+			[151988, -74483],
+			[152029, -74361],
+			[152234, -74309],
+			[151943, -74607],
+			[151988, -74483],
+			[152029, -74361],
+			[146234, -68697],
+			[146711, -69062],
+			[145484, -68889],
+			[145885, -69170],
+			[146197, -69032],
+			[146025, -69176],
+			[146440, -69047],
+			[146106, -68667],
+			[146309, -69029],
+			[146142, -69171],
+			[175719, -123944],
+			[174176, -123729],
+			[175211, -123009],
+			[173167, -124665],
+			[174418, -124327],
+			[107716, -22620],
+			[107624, -22481],
+			[107815, -22735],
+			[107903, -22830],
+			[108036, -22962],
+			[71576, -15181],
+			[71747, -13522],
+			[70447, -13127],
+			[70837, -13742],
+			[71365, -13907],
+			[71779, -14393],
+			[71408, -14684],
+			[70983, -14995],
+			[71116, -16121],
+			[70612, -16307],
+			[-4158, -158001],
+			[-4200, -157463],
+			[-4289, -157536],
+			[-4298, -157309],
+			[-2616, -158741],
+			[-2522, -158674],
+			[-2904, -158396],
+			[-1515, -157927],
+			[-1680, -157820],
+			[-1897, -157649],
+			[-3706, -157611],
+			[-1866, -156818],
+			[-3064, -156556],
+			[-3544, -156965],
+			[-2068, -157257],
+			[-1543, -156891],
+			[-1863, -157378],
+			[-3670, -157305],
+			[-2390, -155776],
+			[-422, -156038],
+			[-2987, -157071],
+			[-3231, -158644],
+			[-2535, -157069],
+			[-2728, -158265],
+			[-2808, -158617],
+			[-3600, -158650],
+			[-3193, -157496],
+			[-2558, -158413],
+			[-2268, -156239],
+			[-3982, -157573],
+			[-1040, -156787],
+			[-2978, -158469],
+			[-3481, -158848],
+			[-1716, -156198],
+			[-1783, -156755],
+			[-2541, -156795],
+			[-1682, -158068],
+			[-3193, -159194],
+			[-3272, -159250],
+			[-2857, -158944],
+			[-2472, -158367],
+			[-3176, -158328],
+			[-3591, -158374],
+			[-2384, -158305],
+			[-1880, -157953],
+			[-1635, -157473],
+			[-3954, -157267],
+			[-647, -156521],
+			[-1098, -156853],
+			[-821, -156377],
+			[-336, -155984],
+			[-751, -156291],
+			[-1795, -157079],
+			[-1590, -157218],
+			[-3100, -156879],
+			[-2685, -156572],
+			[-2182, -156193],
+			[-2614, -157126],
+			[-1695, -156441],
+			[-2421, -156716],
+			[-4863, -155624],
+			[-4826, -155586],
+			[-4790, -155540],
+			[-425, -154433],
+			[-546, -155380],
+			[-390, -154959],
+			[-546, -155620],
+			[-210, -155130],
+			[-476, -155031],
+			[-781, -154691],
+			[-320, -154382],
+			[-2145, -155579],
+			[195075, -161193],
+			[195299, -161238],
+			[196194, -161347],
+			[193843, -145410],
+			[193921, -144458],
+			[193987, -143832],
+			[194459, -144284],
+			[194301, -145692],
+			[194326, -145589],
+			[193993, -145374],
+			[194525, -144375],
+			[193889, -144566],
+			[194435, -145616],
+			[194058, -145904],
+			[193960, -145472],
+			[137141, -164375],
+			[137161, -164670],
+			[137464, -164018],
+			[137635, -164319],
+			[40, -154660],
+			[-59207, 178561],
+			[-59402, 178537],
+			[-59206, 178419],
+			[-59221, 178285],
+			[-59397, 178159],
+			[-59220, 178158],
+			[-59409, 178029],
+			[-59399, 177906],
+			[-59227, 177916],
+			[-59403, 177773],
+			[-59237, 177770],
+			[-59401, 177648],
+			[-59225, 177660],
+			[-59223, 177527],
+			[111164, 139227],
+			[111290, 139236],
+			[431, 138608],
+			[503, 138571],
+			[723, 138424],
+			[643, 138463],
+			[404, 138537],
+			[583, 138532],
+			[368, 138653],
+			[679, 138357],
+			[613, 138394],
+			[539, 138465],
+			[474, 138501],
+			[331, 138583],
+			[173732, 9125],
+			[173859, 9103],
+			[173973, 9090],
+			[173931, 9160],
+			[173931, 9160],
+			[129188, 107838],
+			[129025, 108098],
+			[130223, 108234],
+			[128529, 108609],
+			[129096, 109095],
+			[130299, 110538],
+			[129212, 108596],
+			[129753, 108795],
+			[129291, 108685],
+			[129049, 107697],
+			[129215, 108285],
+			[129176, 109184],
+			[130001, 108670],
+			[129856, 108212],
+			[129909, 107506],
+			[128687, 108435],
+			[130395, 108086],
+			[130317, 110176],
+			[128922, 108350],
+			[130310, 108326],
+			[130330, 107684],
+			[130567, 107975],
+			[129263, 108934],
+			[130444, 107847],
+			[128992, 109017],
+			[130527, 110057],
+			[130511, 110555],
+			[129230, 107563],
+			[129666, 108711],
+			[129935, 108300],
+			[129669, 109002],
+			[129669, 107713],
+			[128794, 108527],
+			[130525, 110324],
+			[130962, 110898],
+			[130726, 110779],
+			[130726, 110666],
+			[130317, 110666],
+			[130511, 110686],
+			[130534, 111065],
+			[130317, 110917],
+			[130740, 111163],
+			[21232, 125689],
+			[21180, 125629],
+			[21197, 125640],
+			[100232, 92028],
+		//Кювета
+			[-41096, -175603],
+			[-41458, -175890]
+		];
+		var kukuruza2 = [
+			["Кукуруза - 2 шт.<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466]
+		];
+		for (var i = 0; i < kukuruza1.length; i++) {
+			kukuruza1_1 = new L.circleMarker([kukuruza1[i][0],kukuruza1[i][1]], {color: "#F0E68C"})
+			.bindPopup("Кукуруза")
+			.bindTooltip("Кукуруза", {direction: 'top'})
+			.addTo(kukuruzaicons);
+		}
+		for (var i = 0; i < kukuruza2.length; i++) {
+			kukuruza2_1 = new L.circleMarker([kukuruza2[i][1],kukuruza2[i][2]], {color: "#F0E68C", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(kukuruza2[i][0])
+			.bindTooltip(kukuruza2[i][0], {direction: 'top'})
+			.addTo(kukuruzaicons);
+		}
 	}
 	else {
 		kukuruzaicons.clearLayers();
