@@ -1,173 +1,181 @@
-	var smolyanikaicons = L.layerGroup().addTo(map);
-	function SmolyanikaOnOff() {
+var smolyanikaicons = L.layerGroup().addTo(map);
+function SmolyanikaOnOff() {
 	var chbox;
 	chbox=document.getElementById('SmolyanikaButton');
 	if (chbox.checked) {
-	L.circleMarker([16918, -119363], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([18152, -120123], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([17908, -120186], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([17652, -120265], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-95288, 197396], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-95280, 197533], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-95125, 197361], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-95031, 201964], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-95143, 201968], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-94929, 201957], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-90583, 202872], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-90641, 203041], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-90674, 202932], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-128405, 203598], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-128390, 203729], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-126213, 202872], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-126231, 202061], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-122774, 201647], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-99885, 204574], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-98883, 204178], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-99030, 204063], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-130122, 206181], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-121611, 206840], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-58963, 169699], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-58900, 169138], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-60670, 191241], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-60204, 190496], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-88421, 166737], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-88477, 166724], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-88582, 166757], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-88250, 166692], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-83037, 170655], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-82789, 170785], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-83041, 170889], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-83111, 171119], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-74276, 173409], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-73998, 173144], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-67722, 189230], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-68670, 188648], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-75162, 192883], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-73067, 193317], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-72381, 193374], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-95045, 161652], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-94931, 161797], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-95023, 161517], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-94800, 161877], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-92689, 161159], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-92673, 161236], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-90401, 162938], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-89592, 163298], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-90044, 163093], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-78884, 159908], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-78687, 159958], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-78243, 160760], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-78723, 159757], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-78549, 160093], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-130260, 131135], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-109713, 132782], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-109382, 132800], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-128524, 138201], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-123886, 138625], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-121973, 135956], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-130840, 148452], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-100811, 155208], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-100902, 155156], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-100544, 154976], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-154069, 203285], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-154719, 203334], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-154645, 203519], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-179385, 200053], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-178163, 202404], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-177974, 202288], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-152545, 165797], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-152496, 165513], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-152585, 165069], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-150275, 167726], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-150289, 167469], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-150470, 166590], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-140052, 165228], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-139855, 165137], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-140951, 166628], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-138059, 166813], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-138050, 166602], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-149386, 169301], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-149133, 169161], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-152419, 174019], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-148995, 174677], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-148876, 174543], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-148156, 175698], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-160683, 195835], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-161145, 195724], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-161294, 195735], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-160960, 195402], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-177663, 174673], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-177639, 174342], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-177814, 174345], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-178907, 192160], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-179064, 192151], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-180073, 190976], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-179964, 191189], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-161967, 135514], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-132946, 137203], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-132190, 137702], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-132039, 135325], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-132678, 148527], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-132866, 148586], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-132325, 151126], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-132334, 150924], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-156269, 152737], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-156050, 152861], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-155088, 154481], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-154204, 154633], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-152003, 158859], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-137999, 159173], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-137889, 159345], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-134520, 157875], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-134539, 158244], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-134740, 158211], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-151798, 159854], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-152664, 161265], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-152650, 162270], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-139406, 160045], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-141223, 159892], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-141882, 159775], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-136549, 161395], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-139192, 159991], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-94797, 110160], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-94601, 109988], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-96768, 110228], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-96980, 109790], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-91879, 118085], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-92058, 116408], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-79853, 118722], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-81483, 117935], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-85063, 122687], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-85780, 120050], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-88065, 124836], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-88905, 125516], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-86392, 126360], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-110720, 115550], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-109527, 118247], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-107707, 122796], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-108153, 119334], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-109475, 120036], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-98793, 122769], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-102151, 121196], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-99249, 121841], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-101862, 121065], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-107813, 127167], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-144159, 125491], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-144759, 125642], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-145433, 124230], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-144647, 124211], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-144753, 125252], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-144578, 125193], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-139617, 129089], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-170418, 125188], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([-170678, 125025], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([165088, 56321], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([164790, 55441], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([165788, 57392], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([165310, 57359], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([160042, 55914], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([162657, 58464], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
-	L.circleMarker([163669, 57482], {color: "#9400D3"}).addTo(smolyanikaicons).bindPopup("Смоляника").bindTooltip("Смоляника", {direction: 'top'});
+		var smolyanika = [
+			[16918, -119363],
+			[18152, -120123],
+			[17908, -120186],
+			[17652, -120265],
+			[-95288, 197396],
+			[-95280, 197533],
+			[-95125, 197361],
+			[-95031, 201964],
+			[-95143, 201968],
+			[-94929, 201957],
+			[-90583, 202872],
+			[-90641, 203041],
+			[-90674, 202932],
+			[-128405, 203598],
+			[-128390, 203729],
+			[-126213, 202872],
+			[-126231, 202061],
+			[-122774, 201647],
+			[-99885, 204574],
+			[-98883, 204178],
+			[-99030, 204063],
+			[-130122, 206181],
+			[-121611, 206840],
+			[-58963, 169699],
+			[-58900, 169138],
+			[-60670, 191241],
+			[-60204, 190496],
+			[-88421, 166737],
+			[-88477, 166724],
+			[-88582, 166757],
+			[-88250, 166692],
+			[-83037, 170655],
+			[-82789, 170785],
+			[-83041, 170889],
+			[-83111, 171119],
+			[-74276, 173409],
+			[-73998, 173144],
+			[-67722, 189230],
+			[-68670, 188648],
+			[-75162, 192883],
+			[-73067, 193317],
+			[-72381, 193374],
+			[-95045, 161652],
+			[-94931, 161797],
+			[-95023, 161517],
+			[-94800, 161877],
+			[-92689, 161159],
+			[-92673, 161236],
+			[-90401, 162938],
+			[-89592, 163298],
+			[-90044, 163093],
+			[-78884, 159908],
+			[-78687, 159958],
+			[-78243, 160760],
+			[-78723, 159757],
+			[-78549, 160093],
+			[-130260, 131135],
+			[-109713, 132782],
+			[-109382, 132800],
+			[-128524, 138201],
+			[-123886, 138625],
+			[-121973, 135956],
+			[-130840, 148452],
+			[-100811, 155208],
+			[-100902, 155156],
+			[-100544, 154976],
+			[-154069, 203285],
+			[-154719, 203334],
+			[-154645, 203519],
+			[-179385, 200053],
+			[-178163, 202404],
+			[-177974, 202288],
+			[-152545, 165797],
+			[-152496, 165513],
+			[-152585, 165069],
+			[-150275, 167726],
+			[-150289, 167469],
+			[-150470, 166590],
+			[-140052, 165228],
+			[-139855, 165137],
+			[-140951, 166628],
+			[-138059, 166813],
+			[-138050, 166602],
+			[-149386, 169301],
+			[-149133, 169161],
+			[-152419, 174019],
+			[-148995, 174677],
+			[-148876, 174543],
+			[-148156, 175698],
+			[-160683, 195835],
+			[-161145, 195724],
+			[-161294, 195735],
+			[-160960, 195402],
+			[-177663, 174673],
+			[-177639, 174342],
+			[-177814, 174345],
+			[-178907, 192160],
+			[-179064, 192151],
+			[-180073, 190976],
+			[-179964, 191189],
+			[-161967, 135514],
+			[-132946, 137203],
+			[-132190, 137702],
+			[-132039, 135325],
+			[-132678, 148527],
+			[-132866, 148586],
+			[-132325, 151126],
+			[-132334, 150924],
+			[-156269, 152737],
+			[-156050, 152861],
+			[-155088, 154481],
+			[-154204, 154633],
+			[-152003, 158859],
+			[-137999, 159173],
+			[-137889, 159345],
+			[-134520, 157875],
+			[-134539, 158244],
+			[-134740, 158211],
+			[-151798, 159854],
+			[-152664, 161265],
+			[-152650, 162270],
+			[-139406, 160045],
+			[-141223, 159892],
+			[-141882, 159775],
+			[-136549, 161395],
+			[-139192, 159991],
+			[-94797, 110160],
+			[-94601, 109988],
+			[-96768, 110228],
+			[-96980, 109790],
+			[-91879, 118085],
+			[-92058, 116408],
+			[-79853, 118722],
+			[-81483, 117935],
+			[-85063, 122687],
+			[-85780, 120050],
+			[-88065, 124836],
+			[-88905, 125516],
+			[-86392, 126360],
+			[-110720, 115550],
+			[-109527, 118247],
+			[-107707, 122796],
+			[-108153, 119334],
+			[-109475, 120036],
+			[-98793, 122769],
+			[-102151, 121196],
+			[-99249, 121841],
+			[-101862, 121065],
+			[-107813, 127167],
+			[-144159, 125491],
+			[-144759, 125642],
+			[-145433, 124230],
+			[-144647, 124211],
+			[-144753, 125252],
+			[-144578, 125193],
+			[-139617, 129089],
+			[-170418, 125188],
+			[-170678, 125025],
+			[165088, 56321],
+			[164790, 55441],
+			[165788, 57392],
+			[165310, 57359],
+			[160042, 55914],
+			[162657, 58464],
+			[163669, 57482]
+		];
+		for (var i = 0; i < smolyanika.length; i++) {
+			smolyanika_1 = new L.circleMarker([smolyanika[i][0],smolyanika[i][1]], {color: "#9400D3"})
+			.bindPopup("Смоляника")
+			.bindTooltip("Смоляника", {direction: 'top'})
+			.addTo(smolyanikaicons);
+		}
 	}
 	else {
 		smolyanikaicons.clearLayers();
