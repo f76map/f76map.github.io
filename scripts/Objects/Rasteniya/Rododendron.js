@@ -1,4508 +1,4516 @@
-	var rododendronicons = L.layerGroup().addTo(map);
-	function RododendronOnOff() {
+var rododendronicons = L.layerGroup().addTo(map);
+function RododendronOnOff() {
 	var chbox;
 	chbox=document.getElementById('RododendronButton');
 	if (chbox.checked) {
-	L.circleMarker([-28889, -29910], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25477, -31439], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20851, -29211], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21784, -30141], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19215, -32096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15724, -28862], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14823, -32078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13695, -32377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10097, -30386], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11454, -29187], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11798, -31937], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5758, -31365], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5162, -30021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5493, -29018], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1091, -31900], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2665, -30224], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2987, -28963], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3550, -31713], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28940, -28074], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29211, -27915], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25595, -26355], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27571, -25146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28339, -25003], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22089, -24828], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23266, -24826], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19073, -27962], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17679, -25714], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12935, -25773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15484, -27757], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14528, -27489], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10897, -25900], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11058, -27489], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8564, -24817], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7244, -26429], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7601, -25309], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1369, -26820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30937, -24357], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25422, -23455], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21034, -24423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22936, -22940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21381, -20830], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19637, -23565], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17126, -24090], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20305, -20591], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14504, -21007], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13647, -22139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10056, -24230], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9917, -22987], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12116, -20873], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6566, -21019], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5577, -22141], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7745, -22816], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7843, -24037], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5816, -23149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3392, -21815], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25791, -19947], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19613, -19389], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12943, -19533], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13883, -18679], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8782, -19532], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8588, -18930], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11656, -19779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5307, -19912], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1426, -18553], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-883, -17820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1509, -16534], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9543, -15072], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9035, -13074], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6217, -12720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7924, -15021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3931, -13602], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2219, -13640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3538, -14846], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2231, -9811], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3035, -9525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2970, -8638], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-921, -11381], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2507, -12139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3009, -11130], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34088, -31970], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35549, -31493], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33700, -30499], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35235, -28931], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58047, -22164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55415, -22026], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55946, -22152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62094, -19754], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62133, -19774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62111, -19690], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-61026, -17916], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-60964, -17838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-60017, -15733], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53889, -15009], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56686, -13204], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55556, -12618], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55482, -12672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55403, -12730], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55816, -12402], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53290, -14015], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53395, -14023], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53408, -13778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53404, -13592], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53408, -13411], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53399, -13221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53393, -13087], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53389, -12918], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53388, -12738], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49158, -15137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49802, -15178], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50083, -15199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51887, -15142], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51212, -15193], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52417, -15238], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50017, -13939], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49890, -13832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49835, -13741], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49788, -13647], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48421, -12940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47410, -15056], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47942, -15152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48350, -15175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48960, -15143], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-44193, -14712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-44106, -14715], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-44174, -14571], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-43357, -13455], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-43403, -13482], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41826, -12718], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41855, -12817], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41761, -12790], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58623, -12160], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55697, -12177], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53923, -8979], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53984, -8908], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55108, -9116], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54904, -9250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54908, -9311], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54076, -9896], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54104, -9805], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54303, -9622], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54687, -11657], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54612, -11580], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54551, -11471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54508, -11415], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54450, -11331], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54484, -11816], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54471, -11921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54559, -12001], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54205, -11286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54167, -11389], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54243, -11455], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52018, -8202], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51720, -8617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51357, -8613], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51027, -8647], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50716, -8661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50513, -8660], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51938, -11833], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52068, -11893], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51875, -11960], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51523, -11958], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51316, -11946], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51060, -11960], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50907, -11963], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50660, -11954], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50530, -11958], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50229, -11934], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50245, -11797], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52183, -8498], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52284, -8509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52279, -8609], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53113, -8586], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53026, -8603], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53096, -8657], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50390, -8337], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50260, -8348], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50332, -8353], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47080, -10525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47274, -12158], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40309, -11198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40375, -11187], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40379, -11274], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38919, -9739], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38844, -9776], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38887, -9845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57734, -5499], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57807, -5288], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58075, -6150], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58017, -6149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53984, -6523], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54019, -6340], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54031, -6253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54070, -6112], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54095, -6009], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54292, -5129], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54301, -5058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54239, -5342], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54207, -5540], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54821, -4991], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54907, -4801], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54720, -5548], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54685, -5651], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54707, -5470], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56205, -5336], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51876, -8131], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49229, -5927], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49301, -5892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52285, -8102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52279, -8175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51832, -8183], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51931, -8136], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47840, -5310], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47790, -5181], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47731, -5058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47564, -5459], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47527, -5383], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47476, -5250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48843, -6059], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48924, -6021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48476, -6241], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48429, -6338], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48088, -6468], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48092, -6496], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42217, -6281], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41849, -5920], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-43151, -5341], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42793, -4986], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37815, -7986], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37823, -8058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36039, -6537], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36067, -6583], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36320, -6981], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36392, -6916], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54367, -2471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54386, -2610], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54387, -2733], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54426, -3587], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54404, -3706], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54432, -3810], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45966, -649], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45877, -560], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45517, -604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45519, -727], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46000, -1221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45973, -1115], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45961, -1028], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45599, -1060], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45656, -1214], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45674, -1295], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46300, -2798], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46256, -2696], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46199, -2603], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46576, -2667], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46545, -2535], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46477, -2485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48527, -2170], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48589, -2125], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48523, -2093], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42487, -508], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42417, -428], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42318, -375], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42214, -364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42216, -1042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42075, -996], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41954, -893], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41886, -784], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41860, -653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40326, -936], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40408, -1011], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40487, -1114], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40032, -224], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40077, -150], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40151, -201], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36840, -51], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34409, -874], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34566, -3642], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34602, -3724], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34396, -3286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34428, -3338], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87726, -31024], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87555, -31843], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-89101, -31137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-89047, -30601], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-89279, -30807], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84949, -31740], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-83358, -30915], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84167, -31042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84775, -29736], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84786, -29537], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-90902, -24795], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87423, -27619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-86902, -28341], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85089, -27974], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85618, -27358], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85865, -27369], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85059, -25598], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-83207, -27112], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79591, -26604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-80143, -25272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78833, -28197], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87906, -20640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-86239, -24560], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87083, -22276], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-82273, -24061], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-83950, -23788], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-89321, -17977], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87001, -19638], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-83766, -18381], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87625, -16207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84175, -14432], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84133, -12761], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85497, -15679], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85102, -8297], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84015, -9517], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84127, -8789], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85014, -10848], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76583, -11381], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76580, -11478], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76613, -11594], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-83017, -6401], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84737, -7193], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-81529, -4878], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78597, -5577], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-81419, -7273], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79477, -250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79742, -142], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78608, -2821], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79519, -2632], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78443, -427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27493, -63270], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-24819, -63224], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22706, -64276], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23071, -62340], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19272, -63800], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18503, -63651], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12961, -64110], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13853, -64507], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9245, -62343], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10944, -62824], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11970, -63659], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6410, -64125], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3550, -63226], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22188, -58396], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20775, -57511], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19323, -60618], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11142, -57579], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10107, -60148], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4964, -60951], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-515, -59584], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1618, -58385], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1429, -59745], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1193, -57717], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18398, -54917], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13954, -53504], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12520, -56338], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15862, -54206], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11146, -56416], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11439, -53851], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5060, -56666], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5666, -53548], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5471, -55581], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2420, -54200], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2878, -56319], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16749, -52382], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13910, -52599], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9724, -50338], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6747, -52833], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3287, -51712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21193, -48953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17937, -46197], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20349, -48622], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17406, -47108], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7475, -49048], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2954, -46766], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3366, -45624], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1178, -47356], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31778, -41721], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30691, -42924], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25620, -44628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-24197, -41952], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17670, -42902], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14921, -43816], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11409, -43316], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10200, -41672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4134, -43999], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4320, -42023], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6310, -43697], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32278, -38699], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32575, -40392], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21166, -39723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22101, -38766], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17652, -37122], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17364, -39324], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18291, -40207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12450, -38088], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13644, -40272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9532, -40420], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6484, -38033], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-118, -39830], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1633, -38971], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1725, -40474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30786, -33829], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20760, -36582], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22447, -34321], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22849, -34106], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17060, -34784], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19407, -34165], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18606, -35745], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14257, -35314], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12683, -33769], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14751, -33942], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16064, -33826], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10850, -36156], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5965, -34379], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1627, -35719], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2956, -34369], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3585, -33321], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64261, -62570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58035, -64517], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58011, -65042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57176, -64092], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56147, -64722], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-63677, -57852], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62041, -60855], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58837, -59843], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58762, -60334], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55973, -58889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54645, -59799], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53888, -60557], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54692, -57644], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62818, -53644], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64442, -55155], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58656, -56088], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-59748, -54872], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-61065, -53994], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54066, -56072], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54290, -56034], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56637, -57141], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56333, -55237], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56252, -54251], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52755, -53552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52456, -56164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49832, -54936], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49998, -54271], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50663, -53975], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64255, -51302], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-61970, -50209], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58081, -50475], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-60025, -51821], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-59296, -51181], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53757, -52843], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56822, -50272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55743, -52924], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54632, -50037], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51317, -51250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48947, -49367], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45573, -50760], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64649, -48144], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62810, -45721], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62614, -45204], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-60758, -47766], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57958, -47682], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57723, -46495], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57757, -48449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53690, -47880], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55614, -47863], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56575, -47647], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56868, -46877], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56493, -46238], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57269, -47205], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52348, -49004], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50077, -48479], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-52438, -46355], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50176, -48256], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48402, -47123], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46567, -48028], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42190, -45428], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41617, -47964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40059, -45597], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40265, -46901], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40357, -45705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64794, -43691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62928, -42598], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64008, -44610], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-60274, -42316], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-59317, -41403], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53768, -44432], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56284, -44559], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55847, -41849], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51634, -42713], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51461, -42660], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48495, -42206], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45275, -41522], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-46724, -44287], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42058, -43253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36978, -41659], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37263, -44982], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37129, -42592], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36358, -41854], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62435, -38388], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64512, -37899], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64862, -40602], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-63051, -39731], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-61650, -40778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-60951, -40287], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-59902, -39502], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-60498, -38558], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58513, -38774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-58816, -37663], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56695, -37297], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49486, -39298], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49635, -39239], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47097, -40082], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48080, -37665], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-44006, -39410], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42512, -38889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41956, -40387], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42331, -40577], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39268, -39975], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34400, -40628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35148, -40767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35213, -36592], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34797, -36581], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35309, -33652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34655, -35497], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76864, -64811], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-75273, -63452], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71587, -61664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70355, -61971], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70171, -62163], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67527, -65303], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67167, -62143], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68356, -61921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76934, -60695], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76128, -58782], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72997, -59587], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66817, -60427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-77144, -56406], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72038, -56865], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71774, -55022], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71063, -55433], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70503, -54465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67810, -55915], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-69284, -56340], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-65722, -53809], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67495, -52043], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66135, -52952], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68887, -48552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68109, -45293], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67299, -45691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66177, -45554], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76612, -44276], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-74126, -42420], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-74505, -41935], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-77270, -43427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71729, -42328], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-73109, -41975], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67949, -43099], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66925, -44097], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-75788, -37461], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-75491, -38418], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-73173, -37035], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70280, -39145], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70616, -37659], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68611, -40152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66638, -37171], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-65849, -38218], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-89337, -32931], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-89029, -33878], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-88416, -33273], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87233, -34507], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-86153, -34552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-86844, -35778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84319, -36691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-84947, -35691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85717, -34455], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85260, -33465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-85274, -33230], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-82508, -34993], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-83352, -35184], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-82537, -36226], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-82678, -35609], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-81032, -35283], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-81768, -34180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-80337, -33051], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-80035, -34147], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-80763, -36647], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79765, -35981], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78162, -34610], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78062, -33205], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-77688, -34413], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-109970, -61972], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-112743, -58451], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-111802, -57989], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-102262, -57418], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-101347, -56921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31415, -96897], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29659, -98135], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31576, -97117], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25234, -98149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26071, -97928], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20847, -94617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22167, -97416], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16632, -94585], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14538, -96508], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10644, -94574], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10023, -95253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8490, -94626], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9070, -97166], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9349, -97473], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7353, -94724], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7208, -94333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2824, -95894], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2006, -96175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1871, -96304], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1204, -96867], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10652, -92632], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10480, -92548], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10261, -92702], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11327, -90629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7973, -93118], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5161, -93336], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5158, -93486], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4851, -93882], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3430, -92539], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3548, -93711], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3510, -93576], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3767, -94184], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13880, -88282], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14218, -88960], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15712, -86229], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12122, -90034], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10664, -89087], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10465, -89788], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10567, -89531], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6734, -89213], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6584, -89593], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5153, -88175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5189, -88032], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3817, -87180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15213, -85871], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12942, -81944], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12406, -85758], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14657, -85892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14418, -85830], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9503, -84116], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10915, -85185], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11089, -85190], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6326, -85308], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6677, -85493], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4999, -82188], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5160, -82531], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3508, -84394], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-755, -83457], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8753, -79759], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10277, -78793], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10925, -80466], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11145, -80536], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4215, -78215], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5194, -80550], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7109, -79273], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7194, -79042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5290, -78852], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3620, -80731], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-668, -79116], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1063, -79700], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1185, -79678], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3306, -79409], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3575, -79696], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2234, -77890], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2133, -78152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2032, -78089], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3967, -78081], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29033, -74398], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28000, -75847], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25688, -75357], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27663, -77653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19499, -76972], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19316, -75741], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16118, -74904], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12368, -73966], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9691, -75855], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9115, -73996], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6749, -73892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1177, -77076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1486, -75354], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3627, -75726], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32247, -71590], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28244, -70939], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23243, -70008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21912, -71902], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17557, -70666], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16857, -73128], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16749, -71720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19806, -70895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12817, -70698], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16084, -72238], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10012, -70569], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10899, -71484], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4358, -71027], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7971, -72920], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8125, -71607], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4796, -72553], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29092, -66122], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29456, -66506], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27179, -69460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21142, -66552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16483, -67788], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17743, -69498], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14285, -68320], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9714, -68374], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11418, -66362], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-950, -67735], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55862, -97566], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32830, -96023], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-57220, -92235], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49060, -92286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50290, -87726], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47361, -89450], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64678, -83767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64892, -81967], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49665, -84639], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-65248, -79856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-54960, -81311], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53598, -76664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-53919, -74935], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-51566, -76110], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45397, -75836], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40383, -75368], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64952, -70983], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40363, -71960], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37890, -71272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33977, -70815], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35836, -72137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36279, -73194], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62979, -69475], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-63005, -66439], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64170, -67652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55557, -66342], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34208, -67101], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-74467, -97266], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-75603, -97677], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-69984, -94960], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66401, -94516], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72665, -92995], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71495, -90989], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-69710, -91037], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67140, -92527], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66758, -92608], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-81848, -89988], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-80492, -87997], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71359, -86781], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71114, -88353], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70846, -89568], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72274, -88387], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68829, -89557], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66444, -89768], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66110, -86518], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68728, -88577], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68154, -88719], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79460, -85841], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72491, -84074], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-73109, -84155], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72765, -82958], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71252, -82672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-69957, -83628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67421, -83885], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-65670, -82112], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66264, -83618], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70148, -78882], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70703, -79014], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67788, -80269], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78026, -76980], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-77505, -74675], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-73969, -74910], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70822, -74456], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68680, -74480], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67076, -74157], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-75286, -72267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-77360, -72299], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-74203, -71449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-74740, -70383], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72496, -70189], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71256, -72610], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70888, -72469], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-74095, -68017], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70492, -67147], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71388, -66354], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-69122, -68102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68271, -69244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-65837, -66225], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-65963, -69631], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14525, -128711], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13548, -127610], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13644, -127241], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8444, -127146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8543, -127139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5385, -128858], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4851, -128221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6114, -129552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2364, -130479], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3076, -128674], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2870, -128482], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2504, -128038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16686, -123434], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16592, -123167], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14855, -125878], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12473, -124848], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11441, -126764], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11681, -123848], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8358, -125052], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6898, -126271], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6338, -126579], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6862, -125944], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-160, -126040], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2730, -125789], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15187, -121636], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12899, -121543], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16019, -119928], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8884, -120569], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8830, -120683], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9103, -120748], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10644, -119460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10480, -119358], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11629, -121452], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1128, -120560], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22212, -115857], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14184, -116212], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14274, -116160], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14998, -118597], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14975, -118473], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13334, -116364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13204, -116626], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15220, -116655], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14665, -116375], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14385, -116324], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15144, -116196], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14809, -116664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15144, -116196], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14809, -116664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10111, -117233], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11165, -115813], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10962, -115852], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10053, -116705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9789, -116617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10054, -114883], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8076, -114868], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7903, -115576], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8074, -115430], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6439, -115250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6484, -115096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6558, -115263], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7606, -117051], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7480, -117125], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5532, -117195], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5650, -117189], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5595, -116919], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2530, -117710], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32032, -113833], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32469, -111991], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29562, -111080], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29572, -110940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29069, -110911], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29788, -114389], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26172, -111864], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25031, -114560], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20970, -111462], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15794, -112369], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15862, -112098], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14006, -113817], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14795, -114356], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11122, -112327], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10951, -112129], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10919, -112333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9359, -113782], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8532, -111932], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10593, -113030], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7494, -110725], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6719, -110925], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1885, -112749], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1408, -112390], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30301, -108226], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-24781, -110120], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21388, -109280], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20432, -108291], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16738, -106809], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16685, -106649], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18389, -109847], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17276, -108072], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18174, -109850], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13411, -110224], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13388, -109948], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14583, -108034], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9088, -109291], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8475, -108705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8199, -108619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8832, -107235], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8781, -106959], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4435, -109322], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6845, -107442], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6793, -107571], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-593, -107201], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3937, -107014], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3686, -106892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29842, -102889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30345, -102770], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25059, -103283], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-24993, -103367], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26498, -105671], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27180, -105828], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27096, -105750], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25431, -102513], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27834, -102611], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26150, -105572], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28378, -106085], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18538, -105242], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18579, -105373], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17793, -102692], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18322, -106255], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17354, -103834], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20265, -104274], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17288, -102995], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17157, -105901], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18074, -103233], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15338, -105818], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14246, -102703], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14145, -102636], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10095, -105721], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9466, -105796], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5198, -103751], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7171, -103369], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7015, -103506], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2453, -103132], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-907, -103628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32290, -99377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27281, -102300], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26498, -101164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25859, -101831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22880, -100189], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22795, -100111], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21997, -99526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17893, -100856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17864, -101019], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16645, -99078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16634, -98885], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19057, -99298], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19142, -99376], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17409, -102104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17442, -100921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15476, -99976], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15700, -99798], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15063, -99233], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13533, -100798], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12254, -101007], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12152, -102169], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11082, -98729], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10859, -98814], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8743, -98708], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9162, -98919], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7607, -99733], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5905, -101192], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4398, -98486], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3959, -100213], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2224, -99618], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-541, -99192], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-56888, -110983], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38066, -112438], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38612, -111094], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36637, -113545], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37494, -107155], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34126, -109273], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34566, -109521], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64558, -102535], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62003, -103782], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-61166, -103727], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-55340, -101172], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33231, -102153], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33765, -101490], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-76416, -115036], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72300, -113930], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67263, -111315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-73173, -108723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-70701, -107731], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-72829, -102611], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-67635, -98347], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-69029, -100569], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-163466, -84693], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-161217, -85753], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-150541, -84315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-163519, -81599], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-158601, -107778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-151181, -102341], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-147116, -100196], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-175080, -122051], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-169886, -115954], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-170188, -115608], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-170941, -115568], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-178656, -110807], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-168785, -114284], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([210576, -6768], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([195194, -20688], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([195457, -20852], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198434, -42158], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198684, -42398], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198288, -95889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([200314, -96518], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([197492, -92581], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([200688, -91080], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([169163, -96012], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([172888, -95389], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([178753, -94565], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([185827, -96030], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([190723, -94792], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([187749, -91389], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([189291, -94161], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([191187, -93411], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([191234, -93524], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([195424, -82329], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([138029, -97794], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([137749, -97754], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([146163, -95726], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([146405, -97557], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([139233, -86263], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([138807, -86668], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([140677, -89510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([138020, -79364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([136932, -80891], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([132917, -77083], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([132366, -76650], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([132630, -76605], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([133532, -75609], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([133637, -75850], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([132449, -74850], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([134455, -77198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([133731, -77372], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([135431, -75149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([135619, -74934], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198682, -128136], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198545, -128785], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203023, -130864], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203066, -130679], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([206709, -128557], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198586, -124759], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203324, -125873], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203494, -126196], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([206771, -125614], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([204371, -114985], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([206892, -112748], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([199804, -107540], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([205960, -108088], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([197927, -98725], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203147, -100676], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([175989, -131061], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([175749, -127758], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([164900, -123458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([170905, -123994], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([185702, -125424], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([196247, -125754], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([171128, -119395], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([173797, -122180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([176417, -119449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([181173, -121417], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([164598, -118680], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([174442, -115307], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([178114, -117291], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([177975, -117324], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([183585, -116142], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([189453, -115012], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([195759, -115811], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([163975, -114164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([165950, -111330], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([165834, -111406], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([164453, -111653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([164741, -111742], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([164665, -111544], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([165264, -113015], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([165371, -113083], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([165248, -113162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([164063, -111894], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([190137, -111682], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([192755, -112688], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([167562, -107029], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([176640, -110446], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([186902, -108954], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([186931, -108856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188778, -110237], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([192046, -108079], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([196053, -107663], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([187052, -103431], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([170673, -101339], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([179694, -99533], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([191165, -100679], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([192565, -98617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([132851, -129121], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([137782, -128614], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([143199, -131066], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([131281, -126324], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([138546, -125477], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([143065, -123313], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148002, -124137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148031, -124225], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([159030, -125638], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([160780, -124868], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([160694, -124509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([134570, -119730], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([133046, -119190], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([132496, -121419], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([137132, -121845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([143585, -119213], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153921, -122463], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([159140, -121691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([159210, -121843], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([162408, -121753], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([135608, -116678], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([137875, -117390], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([138357, -115309], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([141912, -117628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([140495, -117190], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([145023, -118076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148828, -116916], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([158641, -115963], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([137909, -111022], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([137231, -112442], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([147890, -113954], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([158808, -112050], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([163800, -111739], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([163804, -111847], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([134402, -110078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([142638, -110427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([141990, -108206], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([150104, -108085], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([149943, -108212], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([154515, -107135], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([158561, -108512], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([158542, -108648], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([134974, -103199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([136696, -105661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([142191, -103056], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([142232, -102520], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([147624, -104056], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([155607, -102754], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([155451, -102803], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([163498, -104847], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([162779, -103460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([139337, -99202], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([141623, -99432], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([159848, -101856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108033, -29267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109122, -30127], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109510, -29251], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109713, -29657], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110014, -30166], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109676, -31401], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109818, -31291], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110485, -31394], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112156, -32635], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114530, -31555], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113427, -32701], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113452, -32411], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113776, -31137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113319, -31133], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113189, -31021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113246, -30856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111429, -28923], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111504, -28824], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117049, -30735], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116697, -29210], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116754, -28942], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117781, -32167], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118773, -31563], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120735, -29511], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120497, -28819], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125211, -30223], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125525, -30264], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107169, -25551], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110138, -24930], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109496, -25877], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109506, -25965], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107867, -25970], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107813, -25838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107494, -27065], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110145, -27308], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110015, -27198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110195, -27138], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109578, -28040], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108138, -27703], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108237, -27841], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112151, -27647], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111391, -28518], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112537, -27911], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112501, -28012], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111990, -25908], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117728, -25731], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117854, -25965], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117151, -27030], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119658, -26993], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121947, -26572], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120377, -24655], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125247, -25423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124285, -25910], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123179, -28128], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110536, -22819], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109261, -23233], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111146, -21031], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111169, -21230], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113138, -21307], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113196, -21162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118435, -21079], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117182, -22217], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117100, -23303], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119548, -22895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118931, -21425], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121413, -24219], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121231, -23953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121238, -23352], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121602, -23833], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121854, -21467], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122187, -21108], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123532, -23893], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123447, -24155], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126021, -22465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124735, -24511], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99196, -16615], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110563, -16606], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108451, -17175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108508, -17210], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108892, -17525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109216, -17283], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109985, -17562], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110132, -17635], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109763, -18352], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110560, -19654], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109627, -20091], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109616, -19686], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110327, -20362], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111192, -18992], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110827, -18627], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110915, -18741], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111173, -17856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112247, -19899], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112405, -19848], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112633, -19933], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110995, -17145], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112768, -17896], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116347, -17074], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116444, -17127], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118504, -17303], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117679, -17938], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116973, -18438], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116051, -19949], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116067, -20234], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116149, -20207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118735, -16640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118605, -16744], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122275, -18117], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121419, -16877], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121511, -16698], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125659, -17263], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125229, -17675], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125510, -19736], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126869, -19261], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109107, -12449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109881, -12917], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109920, -13264], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110045, -13411], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109710, -14002], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109918, -13988], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107831, -14266], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108466, -15267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108365, -15977], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108332, -15814], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111105, -13101], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111126, -13189], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111564, -16343], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111739, -16264], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111928, -15901], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110685, -14596], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111055, -14880], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111438, -13944], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112452, -13701], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116221, -13654], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116401, -15759], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116479, -15620], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121506, -16333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120454, -15453], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120535, -15658], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120548, -15537], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122062, -14258], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121790, -13908], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121248, -12845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119838, -13370], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120021, -12315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125974, -12289], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124643, -15255], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126907, -14619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107666, -8212], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107598, -8354], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107237, -8441], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107493, -9336], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107343, -9306], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109107, -8517], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109230, -8520], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109630, -9887], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109740, -9934], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109442, -10547], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110476, -11884], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110785, -9288], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110640, -12275], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110773, -10823], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110864, -10625], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111663, -9831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111093, -10167], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113074, -8629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113364, -8849], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112104, -11074], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113703, -11475], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112977, -10267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112862, -10389], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111584, -8622], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114930, -10014], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114949, -9891], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114905, -10147], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115090, -10069], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115086, -9930], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116071, -9061], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116553, -9344], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118395, -10345], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118083, -9021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117980, -9602], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117229, -10695], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117422, -10396], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116731, -12213], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119195, -11398], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119497, -11492], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119605, -11142], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119731, -8327], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123567, -8570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124309, -8669], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124420, -8601], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123188, -10394], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123198, -11023], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123754, -11459], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125352, -11269], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125345, -11434], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125507, -12037], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107555, -6596], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107511, -6382], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107640, -5356], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107614, -5456], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107974, -4179], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107991, -4355], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109133, -4191], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109210, -4101], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109231, -5335], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109190, -5497], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109998, -7076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108779, -6298], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107863, -6469], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107628, -7489], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107744, -7492], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108589, -7705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108324, -7990], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108373, -7883], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113782, -6489], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112048, -7944], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111727, -7302], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110916, -6772], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111100, -6723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111493, -6544], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111335, -6375], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110761, -5374], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110993, -5295], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111458, -5066], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111368, -5263], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111399, -5366], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112884, -5282], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116940, -4962], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115959, -5937], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117157, -7138], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119065, -7830], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120812, -6776], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119086, -6596], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119983, -4793], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126395, -4723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126200, -5567], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126288, -5513], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124094, -5004], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124205, -4694], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123266, -6064], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123388, -6222], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123246, -7531], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123251, -7648], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124335, -7971], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98726, -2927], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108048, -154], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107830, -580], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109422, -1234], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109554, -1168], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109338, -1337], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110245, -377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110424, -420], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109533, -2285], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109461, -2468], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108642, -3353], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108732, -3364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109059, -4003], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113096, -3782], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111499, -3789], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111601, -3680], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111963, -2895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112427, -1651], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111989, -1629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113870, -2729], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113963, -3244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114089, -2818], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114552, -1238], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113583, -895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113897, -1757], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114057, -1486], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114020, -1651], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115587, -1486], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116957, -3856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118316, -3358], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121168, -1682], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119166, -1804], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119274, -1959], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122582, -3508], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123276, -1010], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123367, -1063], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123531, -3626], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123409, -3541], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([75658, -30980], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79900, -29789], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69427, -25862], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69974, -27763], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70001, -27665], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77386, -25715], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83887, -27784], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84349, -25247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87984, -27438], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88055, -27624], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89596, -24929], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65820, -23781], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71561, -22615], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72778, -24570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72954, -22840], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74650, -22910], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81315, -22054], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81477, -22170], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81420, -20787], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78990, -20961], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79016, -20863], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80341, -21143], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81360, -20772], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84377, -22057], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84008, -23831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84075, -24018], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85279, -20862], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87504, -22582], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88959, -23139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90663, -20708], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90731, -20895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93160, -22459], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95613, -20547], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95080, -20807], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96097, -23564], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67594, -18628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69303, -16910], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81771, -18135], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81330, -20054], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78193, -17876], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81328, -18901], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83965, -18828], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87380, -17628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87409, -18538], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86366, -18689], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89909, -17433], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90022, -17597], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89439, -17909], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89479, -19021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90920, -18377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90294, -18767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96102, -18838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96170, -19025], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95025, -19452], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95098, -19605], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71006, -15653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97131, -14456], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69294, -10649], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69320, -10551], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96894, -9547], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84546, -5915], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85194, -6094], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74612, -2172], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77439, -683], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81752, -466], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89179, -1130], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97562, -216], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36375, -29595], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33647, -31498], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40074, -32117], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40735, -29538], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37183, -29226], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42017, -31712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44607, -29549], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60846, -31292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36394, -27835], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36134, -28247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33051, -24761], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35977, -25841], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40680, -25082], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42145, -25479], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44057, -26493], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34331, -22199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38780, -21479], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40321, -23415], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41494, -21458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41716, -22963], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41590, -23676], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44222, -22308], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64787, -22978], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63706, -21657], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62239, -22800], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44379, -19917], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56842, -17102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56867, -16999], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58340, -19615], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63137, -18334], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63163, -18237], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62009, -17498], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62869, -19475], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40620, -15130], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43889, -13557], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44191, -14607], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44610, -14569], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60236, -14200], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42871, -10000], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44177, -10254], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54742, -10530], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61434, -9347], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58884, -8781], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60273, -9735], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61741, -12076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63770, -9523], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40400, -6885], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42829, -5844], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42473, -4515], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42611, -7198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59482, -5242], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59604, -5249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58061, -5506], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62629, -5162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62377, -6617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43476, -2542], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53847, -3504], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54223, -924], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54665, -3289], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54788, -3296], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57763, -650], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4803, -29149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11946, -28940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13500, -31458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13034, -29977], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19043, -31181], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20892, -31470], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26254, -32560], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1226, -25418], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([997, -27088], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2635, -25147], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4988, -27329], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7168, -28281], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9322, -27464], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10722, -27366], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10771, -27193], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14719, -24962], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15401, -27130], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17861, -25707], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22928, -25499], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23148, -25378], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22377, -27883], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26314, -25805], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25367, -27873], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29428, -25900], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31075, -25471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31557, -26761], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1040, -21083], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([377, -21292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1188, -20837], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4949, -23273], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4464, -21199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7771, -23752], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8424, -22902], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10328, -20693], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10277, -21070], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11082, -23684], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12671, -20954], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14437, -23672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30496, -22696], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28866, -20676], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([281, -20083], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([556, -16753], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7275, -18839], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10896, -19586], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9993, -18504], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12415, -17497], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13603, -19573], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15556, -16711], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17134, -17073], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18624, -17180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19966, -20206], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22064, -19097], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27367, -18244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25049, -17420], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30319, -19026], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29128, -19153], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28931, -17693], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3616, -12392], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3924, -13664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4605, -15499], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6755, -13807], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9770, -14850], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8715, -14771], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8852, -13526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10236, -13211], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13126, -13119], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13252, -13365], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18675, -13452], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17508, -14008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17460, -14970], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18880, -16078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22810, -15574], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23000, -13286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26931, -16219], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25401, -16120], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24742, -14771], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3711, -9321], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2629, -9028], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7108, -8408], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5404, -8995], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9217, -10720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15903, -9285], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16162, -9333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15175, -10035], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12956, -11525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13218, -11509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18455, -11376], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17929, -9286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17794, -9112], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22122, -8550], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23353, -10938], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3675, -4485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2014, -4373], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4581, -4905], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11804, -7390], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9889, -7616], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11719, -5442], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10894, -4727], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9859, -5667], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15040, -7843], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17939, -4729], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16527, -6884], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19050, -7267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19324, -5799], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23615, -6156], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23777, -6366], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24084, -4636], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22549, -4307], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1206, -3390], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1303, -2446], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6805, -1578], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4763, -469], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10256, -3691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9756, -2720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11976, -1624], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10748, -1174], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16233, -2837], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14224, -1147], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17418, -3166], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24035, -3874], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23946, -1984], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22332, -1573], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28292, -919], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29618, -1349], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105813, -64438], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106009, -62149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108202, -62899], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121080, -63789], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125857, -64656], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([129305, -64847], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100809, -60528], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105220, -59465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105391, -59256], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103841, -59416], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106079, -59467], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120900, -58594], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126343, -58509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102058, -53988], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98901, -54617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98628, -53784], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99358, -53739], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100296, -53490], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103036, -53496], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102911, -54523], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102621, -54305], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104426, -54267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105749, -53533], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105914, -53700], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104415, -56503], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104821, -57123], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105734, -56582], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119839, -54927], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101342, -52819], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101369, -52640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101566, -52178], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102302, -50718], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99825, -50463], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99721, -51090], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103133, -49597], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105470, -49669], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105919, -49640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106150, -50249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104897, -51774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103856, -51477], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103278, -51664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103050, -52222], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110804, -50058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126301, -49798], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100125, -48377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100086, -48839], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99549, -47829], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100481, -47260], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100733, -45758], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100256, -45104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106265, -45706], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105592, -46454], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105971, -45154], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104396, -47141], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103126, -48132], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103598, -48124], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117261, -46755], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126452, -48991], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99920, -44186], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103024, -42932], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105656, -41517], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105470, -42128], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104263, -42110], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105722, -44474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104022, -44552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104399, -43838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104510, -44262], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104270, -44146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105964, -44957], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106890, -43347], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98424, -39779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101973, -39364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99297, -39115], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100887, -38686], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100891, -38986], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101398, -39003], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102391, -36981], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103005, -37407], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104111, -37650], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105924, -37192], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106241, -38478], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105678, -38118], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105613, -38608], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106266, -39335], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105602, -39470], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104946, -40474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105203, -39969], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102547, -39598], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112867, -38999], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123657, -38911], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109593, -33361], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109815, -35794], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109930, -35606], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110685, -33209], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110801, -33101], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110871, -33250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110957, -33062], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112326, -35104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112426, -35005], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112473, -34799], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112457, -34891], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112561, -34959], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112539, -34800], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112574, -33625], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112635, -33588], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112591, -33457], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114400, -33961], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113307, -33913], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113413, -33895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113794, -35223], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113812, -34953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113925, -34990], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118828, -34460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119779, -34240], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119678, -34190], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120636, -36418], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120970, -35578], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121443, -34010], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121547, -34221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122188, -33675], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122109, -33399], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120935, -33649], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120541, -33377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126790, -32818], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88340, -65171], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92816, -62652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90740, -64362], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95853, -65474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95624, -65255], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94446, -62122], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97840, -62035], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97723, -62075], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86308, -59528], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87772, -60447], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87923, -60528], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92108, -58605], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90547, -58501], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90802, -60294], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92410, -60283], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94184, -59521], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97853, -61162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97831, -61300], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85706, -53869], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83257, -54553], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84080, -53712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88885, -54651], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86380, -55757], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86176, -55776], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86424, -53703], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96494, -53289], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96399, -56444], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96596, -56500], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79623, -49700], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81682, -51938], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82045, -49710], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85823, -49858], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84146, -51336], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82107, -49681], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89086, -49202], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87531, -51327], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87394, -52270], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93654, -52672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97936, -49234], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98138, -50758], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94792, -50165], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95974, -51469], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95008, -51249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97197, -51762], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95498, -52319], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96671, -52455], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76696, -46152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78095, -47305], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78345, -48346], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82552, -49144], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88620, -45279], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90433, -47677], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90544, -48448], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91929, -48385], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91242, -46063], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91461, -46323], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94075, -47402], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93092, -47118], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93750, -46013], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95980, -45138], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94270, -45139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94416, -45099], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95889, -46491], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94893, -47736], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94817, -48180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97127, -46975], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96314, -48750], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96806, -48417], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97224, -49103], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98019, -48131], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69812, -41433], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72213, -41619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77341, -41526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85657, -44334], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87125, -44863], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86205, -43214], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86884, -42866], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86615, -42522], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93285, -43008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92951, -44039], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91251, -41899], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96363, -41626], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95821, -41295], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95289, -41684], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94951, -42213], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95281, -43169], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96015, -44821], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68573, -37478], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74988, -38467], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81017, -39059], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86129, -39893], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88897, -40844], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92415, -37590], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93386, -37423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96136, -37768], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96002, -37604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94491, -40333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97470, -38683], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97686, -37483], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98274, -39862], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66145, -34555], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68340, -34255], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73035, -32971], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38048, -62841], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38296, -62075], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37243, -63844], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41912, -63685], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44175, -62240], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42084, -62767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45217, -65462], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56667, -62432], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55591, -65392], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57378, -65025], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34753, -57945], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39142, -59711], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39432, -60506], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42360, -60637], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41252, -60001], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46844, -59137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57026, -58020], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61149, -60285], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35883, -54033], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39866, -54544], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38963, -54970], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44390, -55808], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43485, -56531], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38834, -49832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39369, -50435], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43194, -50271], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47010, -52139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59064, -51356], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36296, -45634], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34771, -49123], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37396, -45408], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41124, -41284], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44781, -42377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34237, -39606], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33855, -37002], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33101, -39721], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43683, -38239], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35158, -34835], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37404, -35476], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39741, -36730], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39495, -35978], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43263, -33755], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61597, -33638], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62532, -35831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([730, -63969], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2814, -62939], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4596, -62298], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5241, -63468], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10741, -64433], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14688, -64570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17664, -64896], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19527, -62967], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17003, -61900], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1507, -60087], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([797, -61198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1788, -57691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7982, -57458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10076, -57857], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12710, -57625], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1486, -53494], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1424, -55021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2651, -54629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4177, -53529], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7442, -54079], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15584, -53603], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14979, -57138], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14607, -56030], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21061, -54549], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22945, -55510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23281, -56344], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21064, -55898], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32689, -55666], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32351, -54670], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29448, -53526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([524, -51769], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1090, -52376], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10860, -52942], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10620, -50763], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8806, -52478], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13013, -50268], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15671, -52623], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14027, -51795], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12975, -52058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14101, -52569], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19275, -50524], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22864, -52765], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21416, -49453], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27670, -49831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26497, -49871], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30931, -49975], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31614, -51150], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2302, -45388], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([701, -48471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5022, -45609], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8555, -48666], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9636, -48258], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14848, -45959], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15949, -46169], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15434, -47936], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17514, -45555], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26323, -45624], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24965, -47862], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26087, -47879], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10780, -44273], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8946, -42755], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15719, -43367], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14257, -44760], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12568, -41716], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16642, -44575], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16660, -42205], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19972, -43997], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22058, -44737], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23351, -43203], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21921, -42992], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25395, -42832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28470, -42257], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29005, -44188], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28896, -43008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8021, -38014], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4350, -40222], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9352, -40589], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11043, -38625], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15605, -39135], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19275, -37129], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20951, -38118], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23770, -40471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21458, -39219], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27044, -37933], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25758, -40171], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25702, -40471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32137, -38037], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30306, -37424], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7919, -35629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7403, -36670], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6557, -36728], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9881, -36211], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9811, -34380], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15219, -33774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13063, -33249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12888, -36449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20193, -34375], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23091, -34292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27269, -33464], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31867, -34885], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29177, -35870], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102342, -94244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100661, -95642], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101414, -96246], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101147, -97675], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99620, -98019], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99248, -94995], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105789, -96178], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105711, -98207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98420, -91515], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99504, -92485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100825, -93110], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102570, -94098], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103239, -94016], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103382, -91349], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104101, -90549], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105661, -90781], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104486, -93375], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104949, -93999], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99240, -89259], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100033, -86365], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101491, -86224], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101250, -86071], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101555, -87073], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101760, -87395], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100933, -89604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101173, -88327], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100745, -89286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98681, -86480], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98878, -87690], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102489, -89470], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102823, -86768], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104455, -86985], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105896, -86209], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105110, -87766], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104184, -87725], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99915, -82581], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98401, -83264], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101390, -83039], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98623, -83113], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103082, -85544], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103303, -82409], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102696, -82963], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103019, -83773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103854, -82751], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104852, -82969], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106158, -85249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106148, -85504], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105264, -84383], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105171, -84670], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102132, -78415], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102179, -79733], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98431, -81310], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98578, -79282], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105365, -78961], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106325, -80888], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103728, -81263], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104218, -81265], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99911, -75451], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100408, -77008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98825, -76385], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104394, -75753], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104537, -76439], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109636, -76693], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120909, -76629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126377, -75152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100624, -69773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101757, -70927], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102388, -71550], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104082, -71544], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102720, -71400], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107479, -70956], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116374, -71050], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99830, -67388], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99058, -66271], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103785, -68586], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102922, -69009], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109109, -68222], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112870, -68600], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116458, -68267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([120578, -67180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66974, -97222], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66175, -96351], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68932, -96316], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69005, -94294], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68569, -97552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69976, -97434], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72451, -94373], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74230, -97542], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76844, -95787], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76642, -98234], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73736, -97333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78724, -97195], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79751, -95260], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79556, -94955], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81657, -97694], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81229, -94509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81283, -94295], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84681, -97651], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84576, -97671], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84418, -97443], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89978, -95338], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89028, -96112], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88816, -96347], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87581, -94309], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87635, -95698], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92217, -94767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93401, -94477], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93889, -97727], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97561, -96148], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97149, -97170], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65548, -90970], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69323, -92423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68267, -93344], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68280, -92993], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69240, -90161], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68558, -91318], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68502, -90961], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67073, -91964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66012, -91778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65696, -91739], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66017, -93068], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73395, -91629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71745, -91657], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70873, -93326], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([75801, -92046], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78884, -90770], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78729, -91349], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85763, -90885], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84224, -93139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81993, -90828], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89507, -92484], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90000, -92887], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88847, -90598], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87404, -92386], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93212, -91054], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90182, -91405], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90276, -91905], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90616, -90659], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92494, -90751], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93878, -90316], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92506, -91801], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92270, -92221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92542, -92291], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93812, -94013], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93820, -93497], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92837, -93579], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90775, -92465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97700, -93006], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96622, -92506], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95403, -93257], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68545, -87116], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67368, -87207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65832, -87328], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66303, -89767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66859, -89876], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71991, -87237], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76055, -89319], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79902, -86123], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79749, -89321], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82804, -86126], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84373, -86954], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85155, -88662], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84088, -88608], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89814, -87584], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88581, -86921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88398, -86716], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89880, -89842], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89692, -89122], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86828, -88740], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87078, -89759], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94155, -86377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93683, -86404], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93508, -89872], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93575, -89032], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93139, -87779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92570, -87688], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93553, -87259], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93056, -86091], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91154, -86600], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90368, -86709], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90578, -86748], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90873, -86802], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90815, -87537], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90214, -89819], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95909, -87974], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95893, -89318], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97781, -89497], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97321, -88798], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97621, -88266], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97256, -88105], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97574, -87410], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97798, -86096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95407, -87042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95231, -87335], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94384, -88580], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81437, -84485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87969, -83485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91069, -81940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91406, -83745], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93903, -84083], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93789, -83779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92645, -85097], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93672, -85565], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95369, -83128], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95326, -81984], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95600, -82240], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97087, -83282], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95538, -85600], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98074, -83355], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66439, -80542], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66025, -78318], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68224, -78804], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72077, -80709], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74731, -80323], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74933, -79873], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([75280, -79684], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81518, -80685], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81776, -80319], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82747, -78216], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85335, -81048], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85604, -81179], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88496, -79926], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89601, -81019], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88471, -80937], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88864, -78425], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89292, -78253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88652, -78640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87701, -79130], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87884, -80249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87365, -79814], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87153, -80086], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86115, -81629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86393, -78031], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86381, -79314], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92678, -80305], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92822, -80738], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93398, -79558], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93405, -78604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93587, -78661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90353, -78321], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90307, -80265], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92522, -81918], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97559, -79025], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97794, -81384], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97430, -80076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95881, -80439], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96159, -78435], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72262, -74674], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70683, -75987], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71061, -77685], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78780, -77444], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79647, -74770], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86836, -76446], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86954, -74616], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86870, -74512], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92920, -74857], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93630, -76509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94102, -74165], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91565, -76272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96649, -74839], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81239, -72854], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80411, -71867], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89534, -71801], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88366, -73089], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89896, -70125], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92085, -71236], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92891, -71198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90372, -73347], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96284, -70474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79199, -67013], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80156, -65985], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81447, -65594], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80895, -69247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83564, -65697], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83169, -67775], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89052, -68547], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88238, -67123], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86727, -67381], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86589, -66714], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90941, -66561], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93561, -67047], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91636, -68330], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91867, -68070], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91904, -68568], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96182, -68504], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96126, -69246], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32768, -97085], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34064, -95792], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35652, -96089], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35620, -95779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33784, -95444], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39356, -97719], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39812, -98152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47108, -97813], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46798, -97712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46656, -97922], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51312, -95111], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51311, -97113], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49955, -96902], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53723, -97809], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59159, -94525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58974, -94678], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65142, -98024], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61476, -95950], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36110, -92831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36081, -92713], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39487, -91485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39217, -91400], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38283, -93605], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41812, -92592], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41778, -91553], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41095, -90422], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45798, -92332], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55498, -92501], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59787, -93669], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61429, -90879], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58845, -90160], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59857, -91046], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62723, -90921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62580, -90966], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62461, -90816], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36602, -90002], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36451, -90035], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35152, -88396], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37401, -88304], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40104, -86813], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39503, -86854], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39121, -87883], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40428, -89172], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40702, -89252], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43600, -88148], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43531, -88250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43769, -89117], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43553, -88941], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42811, -86900], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42735, -86805], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42982, -86674], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45616, -88404], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45397, -88635], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49872, -87906], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54300, -86573], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54215, -86397], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53260, -88522], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53361, -88099], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56609, -88748], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58716, -89850], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57781, -87229], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57580, -87289], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60267, -88146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60160, -86940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61963, -89542], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61985, -89680], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62951, -87671], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62792, -87590], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36257, -84101], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36023, -84118], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32896, -83214], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34858, -82989], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35316, -84390], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37976, -84187], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37854, -84357], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39292, -81992], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39577, -83144], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39142, -85058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43044, -82801], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47884, -82458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52877, -85373], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52150, -82290], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56261, -83508], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56434, -83290], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54041, -82164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55828, -82399], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55740, -82251], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57185, -84648], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57257, -84810], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57288, -84693], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60289, -84580], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57538, -84808], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60861, -81964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58956, -83318], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58686, -85895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57532, -85537], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63704, -83068], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63404, -82987], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64987, -84371], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65044, -84461], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63882, -84353], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63264, -83716], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61505, -85075], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61558, -83155], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63376, -82067], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62858, -81950], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64850, -82020], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35690, -80975], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36321, -80460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36335, -80334], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37121, -81223], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37238, -81191], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44959, -80457], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46763, -79123], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45168, -78665], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55743, -80241], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56006, -80203], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56454, -81143], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54766, -79471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57828, -79630], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58435, -78454], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58321, -78250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61546, -81131], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65038, -81907], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63355, -79324], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33848, -77763], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42323, -77582], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60745, -77767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33374, -70381], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37366, -72835], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38086, -72921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40283, -73267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42237, -70486], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43222, -70834], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55413, -72892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34530, -68375], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34118, -68315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33804, -68371], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38971, -66006], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43097, -67998], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41957, -65889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45258, -68217], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47677, -65797], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51453, -65846], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1139, -97173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5257, -94983], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5264, -94821], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4489, -96287], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4451, -96765], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9760, -95983], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9200, -95761], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13904, -97648], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14363, -95881], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18804, -96088], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19191, -96108], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16726, -96670], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19252, -94435], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19746, -94585], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20567, -95631], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20598, -96532], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22581, -96420], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25799, -96413], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25886, -96526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26845, -94251], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26955, -97894], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32125, -95855], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28857, -95511], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29864, -94780], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29818, -94576], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30662, -95146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31519, -95492], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1358, -92517], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3514, -92710], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3509, -92496], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([656, -91935], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6923, -90293], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11605, -90661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9489, -90569], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9580, -90803], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18977, -92670], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19240, -90647], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23505, -93794], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27941, -94069], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27663, -91415], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27755, -91341], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28060, -91640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27252, -92066], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30027, -92720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29779, -92787], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30347, -92078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30369, -90837], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30283, -91815], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30614, -90315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([426, -88539], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2664, -86521], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7226, -86771], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5736, -86472], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6611, -89664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6872, -89840], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4361, -89758], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11005, -88798], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13804, -88780], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12868, -89626], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16096, -86173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18729, -89623], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19032, -89390], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20094, -86748], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22294, -87623], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21599, -86449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21618, -90103], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32030, -88116], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32519, -87534], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2924, -84140], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2532, -84148], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2597, -84940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3482, -83187], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([626, -83258], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1909, -82047], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5630, -83044], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5626, -82922], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12150, -84991], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11065, -85933], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10477, -84153], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10365, -84572], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15306, -84233], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15450, -84400], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14943, -83990], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13842, -83388], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16446, -85881], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16903, -85095], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16950, -84248], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19666, -82635], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19416, -82468], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19210, -85320], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23469, -85407], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22621, -83076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23166, -83080], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27128, -84882], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26494, -85697], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29265, -83840], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29834, -83238], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31091, -82057], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31500, -84598], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31604, -84385], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29352, -81985], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1259, -78865], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([714, -79468], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3119, -79827], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1769, -81617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5047, -79248], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10250, -81624], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15688, -81502], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15181, -81014], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15365, -80330], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12825, -80813], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19299, -80556], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19212, -80692], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20474, -79525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21907, -80546], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20740, -79614], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20541, -81617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28475, -78543], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27016, -81088], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26844, -80989], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26958, -80146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25896, -79900], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31088, -81372], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30952, -78678], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29679, -77911], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29089, -79519], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6849, -75786], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20353, -75668], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17218, -76280], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29659, -77557], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29424, -77418], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1805, -70140], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([610, -70663], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5419, -72903], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7256, -72770], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7702, -71781], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18511, -72776], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17697, -73040], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18379, -71928], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17286, -70810], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24087, -70412], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22292, -73505], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27758, -72884], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26365, -73110], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26183, -73043], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30228, -70253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30136, -70444], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([406, -67629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2600, -68963], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7743, -68737], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14514, -65941], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21394, -66860], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22856, -67326], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20928, -68470], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25254, -66310], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31465, -69482], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30129, -66041], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28997, -68151], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28959, -66395], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101702, -129511], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99693, -128787], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126375, -128501], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125990, -129411], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126630, -129459], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124562, -130754], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123812, -128656], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123994, -128099], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([130887, -130407], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100122, -125116], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102874, -125641], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103150, -123075], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110079, -123575], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109380, -123658], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107249, -124207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107038, -125309], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113811, -125674], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113918, -124071], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112090, -123525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118101, -124498], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118084, -125060], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115860, -126292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119019, -125334], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119373, -123626], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121178, -123630], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119804, -123428], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126517, -125416], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124578, -126166], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124438, -126419], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([127968, -125246], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99590, -119845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105344, -119868], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103999, -119019], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108334, -120068], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109654, -120309], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109693, -118955], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112640, -121157], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118686, -120739], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118549, -118983], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116423, -120377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119818, -121928], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122150, -122198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119427, -120396], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124179, -119328], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125265, -120641], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126618, -121601], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([129741, -120029], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([128877, -120442], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98935, -117421], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98968, -116416], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99256, -117896], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102763, -115547], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105719, -118111], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124032, -117576], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123900, -116445], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([128015, -115008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100384, -114193], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99365, -113355], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103254, -112723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105649, -111835], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100416, -108085], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101662, -107186], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105158, -108096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103376, -110088], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101065, -104581], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98933, -102988], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103524, -102887], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105802, -102736], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105627, -102710], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105378, -103580], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104664, -105149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102641, -104442], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([130909, -103725], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([130721, -103892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98487, -101543], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100331, -102344], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100655, -101754], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101008, -101671], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101260, -99537], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103168, -102321], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104021, -101484], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104210, -100581], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([130646, -98475], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83654, -130655], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83929, -128042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89933, -128545], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87885, -128702], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92604, -127217], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90988, -127510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91448, -129615], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96753, -128173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65836, -124838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88547, -126804], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93292, -123162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93403, -125343], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97637, -126475], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95832, -124723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85211, -120503], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85847, -119747], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93659, -119280], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90830, -121145], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66999, -115342], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65786, -117219], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67480, -118588], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70527, -117612], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70053, -116196], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([75076, -114924], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76298, -115345], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77532, -115178], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74673, -117338], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77208, -118214], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77388, -118237], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77908, -114940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80907, -114907], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80816, -116052], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79506, -116193], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79489, -116460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79514, -115073], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78366, -115842], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78440, -117465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79565, -118175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81658, -117546], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81796, -117797], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81117, -118465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84525, -117254], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89127, -115704], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89803, -115814], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89501, -118407], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86919, -115330], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86157, -115768], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86031, -118639], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89094, -117887], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89381, -118297], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89552, -118342], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89828, -118356], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89391, -118194], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89432, -118350], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92294, -114774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90399, -114863], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93523, -116290], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92313, -117840], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94357, -118189], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96008, -114821], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95771, -116247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96543, -115880], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96940, -118485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68861, -111927], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69534, -113614], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65915, -110767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66684, -111468], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66300, -112544], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72491, -112537], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73019, -111036], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72050, -111745], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72065, -112162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72603, -114199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77210, -110666], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81377, -110842], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78384, -112914], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78723, -112712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85798, -112548], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85709, -112639], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83501, -111118], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82736, -112104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83130, -113712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85814, -114333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89426, -113406], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89967, -114653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90156, -114393], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91331, -112253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98062, -113412], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96737, -113158], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96365, -112460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67175, -107790], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67530, -108495], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67940, -109952], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68969, -107240], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69403, -108137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68321, -110253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70840, -108862], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71223, -107861], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73596, -107132], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([75375, -108174], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([75507, -108838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([75544, -109530], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78673, -106920], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79668, -110068], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79601, -110398], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80590, -109585], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81064, -108061], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81773, -109732], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82663, -108257], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82801, -108491], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83999, -107081], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84904, -108282], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86467, -108157], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87937, -108631], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89235, -108924], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90046, -109101], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89427, -108553], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87424, -110336], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86188, -110407], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90289, -106854], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92213, -109921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95363, -109764], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68166, -103092], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66621, -104685], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73546, -104953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76619, -102817], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77490, -105876], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76105, -105755], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76187, -105536], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74847, -105337], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74649, -105641], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81329, -103595], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81320, -104076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83137, -104214], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82340, -105638], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87822, -103071], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87820, -103520], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86489, -102825], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86679, -102866], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87899, -105286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88036, -106041], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88602, -103718], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89647, -102489], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91867, -106267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93095, -103423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93528, -103184], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97052, -105500], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97112, -105106], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95742, -105832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66947, -98804], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72831, -99010], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74963, -101412], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74546, -98480], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76862, -98308], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78108, -101672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81590, -101575], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78325, -101940], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85826, -98509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85610, -98832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89481, -99213], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89778, -102315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87971, -100096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87736, -101576], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89788, -102098], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89880, -101880], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93449, -99570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([94355, -98699], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96739, -98779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98059, -100500], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36485, -127294], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36683, -128620], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34001, -130914], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42484, -130883], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42444, -127970], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42238, -127634], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41489, -128292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42159, -130807], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46763, -129318], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45598, -127241], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45932, -129404], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59796, -127726], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59466, -130221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61055, -129990], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63262, -127104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63411, -127839], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63291, -127835], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34182, -126016], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34115, -126126], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38661, -123133], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38546, -123145], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40451, -124164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46987, -124195], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46175, -125905], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50552, -124487], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50218, -124484], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53716, -122921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54616, -124267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55287, -125721], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54390, -125575], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56782, -125303], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61167, -125252], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59336, -122928], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59432, -123003], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59221, -123186], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63977, -123627], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65369, -124680], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62783, -124175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34002, -119502], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33935, -122336], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39962, -122579], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40427, -122596], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48179, -119254], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48755, -119478], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48867, -119449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48886, -119725], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47776, -119833], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47729, -119953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51743, -121114], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49683, -121195], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51822, -119971], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51793, -120178], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51583, -120546], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55278, -120376], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55193, -120645], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56462, -122661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57963, -120849], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60763, -120612], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57994, -119953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57844, -120201], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62834, -122146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36536, -117611], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36528, -117511], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36795, -117272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35262, -117529], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39147, -116075], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42969, -117552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42929, -117737], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43664, -115311], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44793, -116038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44601, -116043], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53089, -117478], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52977, -117526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58920, -117345], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62122, -118015], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62405, -117365], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64784, -117608], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33889, -110772], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33948, -110666], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34158, -110854], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36579, -114342], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37881, -111769], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37927, -111882], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39468, -110887], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41176, -111574], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41106, -111476], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51575, -112194], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52570, -113025], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52243, -114380], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56421, -110873], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56676, -110640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58261, -111641], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58204, -111536], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60102, -112558], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60317, -112550], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59946, -113935], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62822, -112444], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62840, -113778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62718, -114023], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40837, -110505], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44013, -107415], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43931, -108038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43037, -108222], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45005, -106506], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48022, -108546], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48128, -108335], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52459, -109022], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49344, -110034], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49664, -106733], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54804, -109615], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54838, -109510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55786, -108028], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61127, -109607], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60568, -107472], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63809, -108695], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63629, -107602], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33491, -104840], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33578, -105112], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35709, -106124], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35786, -106136], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35673, -106367], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37142, -103356], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46233, -106379], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48619, -104634], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53025, -104355], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54754, -103359], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54667, -103629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55785, -104885], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55789, -104690], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55936, -104928], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59127, -103634], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64462, -104407], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64235, -105768], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63155, -106054], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35438, -100982], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34907, -100681], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35472, -100423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37293, -100216], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38179, -98728], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38799, -99809], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45030, -98956], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44875, -98534], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46384, -101136], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52209, -100964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49656, -99609], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49723, -99779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55966, -99421], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65014, -98367], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1926, -128767], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1109, -127227], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6495, -128972], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8207, -130870], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8361, -129040], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9752, -129703], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12737, -129161], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12792, -129049], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12817, -127450], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27451, -127482], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25459, -127323], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26635, -128414], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32584, -130257], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2805, -124749], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4178, -124351], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5585, -126769], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5223, -126410], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17689, -124765], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23283, -124082], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22566, -123852], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28639, -126716], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29915, -123197], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31409, -125054], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31735, -126289], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([490, -121869], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4227, -122326], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6647, -119773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9755, -122333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9172, -122590], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24007, -120532], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26084, -122349], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26556, -119574], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26285, -119513], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30229, -118863], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30928, -119611], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32652, -119929], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32531, -119953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1532, -116634], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2597, -115861], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2984, -116897], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3008, -117019], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2920, -116296], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3795, -117412], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5573, -118062], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5452, -117808], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10865, -118139], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11068, -117959], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9381, -115996], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13487, -117182], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13628, -117105], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15665, -115042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19327, -116015], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16984, -117576], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21619, -117051], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23049, -116833], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22944, -116777], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27339, -117384], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27453, -117341], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25264, -114843], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2489, -111740], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2864, -111606], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6445, -110645], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6361, -110770], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9171, -114194], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10875, -111280], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13376, -112393], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15328, -114073], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15607, -111024], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15763, -111363], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13688, -112485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14580, -110677], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19205, -114510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19090, -114476], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19217, -114227], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24292, -112703], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24088, -112507], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22006, -114650], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27192, -112005], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27370, -113384], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29220, -110801], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29048, -113236], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28894, -113474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7363, -108393], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5535, -109332], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5636, -109264], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6283, -110575], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13535, -107481], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18445, -108598], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18429, -108882], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17499, -109967], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22578, -107121], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23459, -107098], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29268, -107558], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7272, -103825], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6350, -104662], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7159, -103995], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4850, -104424], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4593, -104542], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6558, -104510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9461, -103860], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9127, -105688], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13632, -105586], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18441, -103620], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22528, -105550], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22954, -104708], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20619, -102542], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23146, -104521], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27226, -103521], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27169, -103413], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26249, -105328], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25579, -106067], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25650, -103914], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29447, -102905], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31136, -106231], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2734, -100213], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3886, -99047], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6096, -98423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6191, -98487], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6314, -101239], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6404, -100975], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6288, -100960], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4170, -99024], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20669, -100483], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22999, -100366], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21398, -102166], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21743, -163429], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19906, -160771], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18244, -162628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18415, -162198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14537, -160170], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16220, -152154], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-6093, -152732], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5401, -152858], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3275, -153820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3720, -154484], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3836, -154450], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14805, -147677], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15053, -147797], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11954, -149125], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12114, -148895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10167, -147870], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-283, -149002], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-392, -149056], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13626, -144806], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12550, -144379], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12436, -143871], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12417, -143991], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14320, -146453], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14211, -147018], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8968, -144732], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10059, -144549], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11079, -144852], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11502, -144573], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11426, -143764], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-994, -146165], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-742, -146042], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3692, -144106], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1206, -144092], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1357, -143850], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16068, -141475], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13796, -142374], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12915, -142932], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9362, -142639], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9610, -142773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10109, -136503], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11618, -136805], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11542, -136700], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11358, -136914], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5536, -135491], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2201, -137244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3893, -135867], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15269, -133429], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15344, -133520], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15528, -133300], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13928, -133850], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12732, -133365], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15102, -134239], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13931, -134978], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11050, -132183], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10761, -131864], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9864, -131257], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8844, -131280], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9755, -133072], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-4291, -134353], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2386, -132117], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2143, -131558], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2707, -132562], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2890, -131589], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37632, -157849], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34514, -154458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32254, -190640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-24737, -188845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27103, -189792], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-21229, -189234], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30837, -184966], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32680, -185720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31837, -186198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17457, -187957], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17005, -187023], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19505, -187442], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14344, -185254], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29892, -183529], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32493, -182192], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26472, -180280], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28183, -181738], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26845, -182945], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23647, -181137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22874, -183061], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-24217, -182539], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-24390, -182525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22941, -182361], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20445, -181600], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11890, -182984], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30355, -178541], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26833, -178163], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26106, -179433], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25839, -179937], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22707, -178270], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22917, -176175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19614, -179753], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19279, -178370], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14727, -178357], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31560, -175703], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28801, -172479], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30988, -174945], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30573, -172489], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27182, -172146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22904, -175941], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23528, -176004], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-18143, -175430], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-29346, -169261], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32668, -170859], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17504, -170057], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17693, -171707], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16157, -168029], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31836, -164549], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32014, -167189], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-25876, -166251], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19912, -166985], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14574, -165294], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32792, -191880], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33503, -188858], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34851, -186102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37156, -181820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36805, -180258], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33298, -180687], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33851, -181558], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37855, -178323], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33255, -179672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33574, -175355], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39278, -171077], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38001, -168179], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34821, -170820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38138, -166552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39364, -165820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35490, -167659], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-94897, -182628], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-95371, -183306], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-94892, -182308], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-99446, -179078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-99189, -179127], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-139127, -155439], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-138379, -154761], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-138569, -154695], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-137841, -149688], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-137645, -132729], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-171310, -140698], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-136164, -182301], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198451, -157313], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198438, -157249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([200108, -152710], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([200128, -152784], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([197446, -152684], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([199524, -148315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([199433, -148256], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([197176, -150117], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([197186, -150045], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203303, -150254], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([204372, -147895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([206057, -143661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([196685, -142364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([197893, -141012], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([197677, -141077], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([204432, -141876], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([204542, -141794], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([208262, -137128], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([208423, -138153], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([198650, -134015], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([206926, -133824], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([206183, -134762], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([206175, -134577], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([185862, -162706], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([185965, -162772], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188328, -158331], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188132, -158542], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188238, -158485], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188345, -158742], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188293, -158535], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188227, -158653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188573, -158404], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188569, -158333], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188647, -158428], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([190148, -156497], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([190073, -156422], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188569, -158460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([187653, -154701], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([187632, -154595], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([189937, -154453], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([189954, -154379], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([189825, -154420], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([191144, -152653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([187273, -148180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([187293, -148092], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([195394, -150727], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([182246, -145244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([182326, -145501], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([192517, -144313], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([184445, -140856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188748, -140148], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188709, -140242], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([191872, -141573], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([174227, -135262], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([185398, -136441], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([188078, -135236], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([193459, -138149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([193599, -138424], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([171986, -131529], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([184547, -131773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([191955, -134457], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([192117, -134209], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([194156, -132280], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([139199, -162951], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([139824, -160513], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([140004, -160624], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([141695, -160353], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([160574, -163730], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([142508, -157943], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([142328, -157832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([142254, -158018], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([155521, -159365], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([155244, -159050], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([155142, -158452], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([155323, -158563], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153584, -156157], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153658, -155971], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153838, -156082], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([156242, -158827], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([140622, -152278], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([143172, -151961], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([143895, -151795], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([145315, -152112], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([143982, -152892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([144375, -152753], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([144753, -152889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([146254, -152784], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([149547, -153095], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148581, -154183], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148368, -154700], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148442, -154514], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([154448, -154903], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153075, -154262], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153329, -154187], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([152910, -153852], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([146459, -151343], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([133420, -143921], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([133493, -143734], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([131083, -144642], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([132413, -145886], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([134862, -137472], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([138778, -137863], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([142928, -138838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([161589, -137143], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([161548, -137279], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148286, -133538], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([148355, -133692], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153040, -132508], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([153016, -132754], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([163533, -131555], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([199542, -166202], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203817, -164267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([203721, -164247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([173439, -170870], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([182662, -166051], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([131511, -165592], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([134735, -166408], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([136071, -165130], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([136780, -165789], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([136854, -165603], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98667, -161623], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98745, -161526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101925, -163657], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104123, -161252], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104934, -161510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103237, -163278], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112531, -162519], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115360, -163768], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101542, -158981], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98424, -157322], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99173, -158946], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99212, -158827], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103649, -158044], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103917, -157893], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103771, -157824], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102523, -159237], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102783, -159535], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102822, -156840], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106362, -157021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106386, -155989], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105306, -155662], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105796, -155916], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103936, -158045], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103108, -157734], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106580, -156638], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112836, -156883], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112797, -157002], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111307, -159145], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104934, -152887], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105270, -154172], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105072, -154675], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105308, -152364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106232, -152676], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109213, -152310], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110393, -154349], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110860, -152120], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112318, -154226], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103391, -147962], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107381, -149170], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107420, -149051], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107583, -150613], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107815, -150616], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106563, -151043], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109491, -149316], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108665, -149564], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108704, -149445], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110944, -151308], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([110983, -151189], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103634, -144596], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103673, -144477], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106847, -146838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106886, -146719], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([106878, -147310], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107052, -147073], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109112, -146006], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([129160, -144255], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([127721, -141328], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([127795, -141142], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([127975, -141253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100133, -136195], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103263, -136389], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117289, -136434], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116991, -135437], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121970, -136730], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126837, -139008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([124476, -135619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125520, -136523], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([130542, -138449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99731, -134021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98866, -131866], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104005, -132822], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103267, -134104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112179, -131457], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([122360, -132497], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([121682, -131943], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126477, -132292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([123071, -135023], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([129509, -133150], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69265, -161261], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72035, -162450], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72640, -162066], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73176, -161916], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76443, -161941], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80940, -163591], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80162, -162094], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78606, -162990], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80945, -159991], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83239, -163402], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88267, -162984], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88162, -163544], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87640, -161374], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93391, -160417], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93430, -160298], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92240, -162223], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92528, -162412], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91271, -163124], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97481, -161981], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([96807, -160343], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77478, -156086], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77595, -156285], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76483, -155880], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76569, -155889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80906, -156341], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87329, -156175], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91192, -158937], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81508, -153157], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85647, -151751], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89436, -155413], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89710, -155313], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88496, -154380], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86608, -153201], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67618, -148038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69402, -150484], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66328, -150096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76355, -150047], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80140, -149423], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80678, -150352], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79887, -150244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79866, -150354], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80108, -150056], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85731, -150278], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83860, -148974], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87546, -150162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89589, -150108], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89676, -150149], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89296, -148347], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87402, -147989], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66953, -143961], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72909, -145713], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76906, -144522], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77140, -144529], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74644, -146058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78810, -144089], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78418, -144383], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82279, -144306], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80979, -142970], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83491, -141570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84768, -141843], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([67280, -137635], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70378, -138799], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70160, -138827], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73639, -137317], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76218, -135792], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78349, -135447], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80252, -135419], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84877, -137500], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84500, -137533], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87664, -136288], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92562, -138897], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91376, -138207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95566, -136206], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97770, -136291], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([95960, -135615], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97985, -139081], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82888, -132564], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90060, -135103], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88617, -133272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86695, -131705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86226, -134063], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86412, -133905], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93157, -131538], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91559, -133510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93327, -134992], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62093, -162562], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64396, -162155], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64026, -160486], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47606, -156604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42980, -152945], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44210, -154482], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44500, -154454], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45775, -151896], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45666, -151844], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47873, -155174], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52728, -154839], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52563, -154604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54701, -154687], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56444, -154104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56595, -154246], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58870, -153865], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59326, -153197], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45765, -150967], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49147, -149372], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52363, -151384], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57959, -148552], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57927, -148705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57781, -148770], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59335, -149382], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58800, -149888], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57750, -149652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57658, -149691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59090, -147795], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59074, -147915], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58855, -147973], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59552, -149894], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62139, -148854], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64216, -149943], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48290, -144064], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48623, -146932], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50281, -144780], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50402, -144724], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49631, -146192], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55174, -145911], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58986, -145145], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58789, -145466], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65340, -145398], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65211, -145147], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62612, -145159], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62639, -144815], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63519, -143437], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43900, -140242], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43783, -140262], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46743, -140216], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54373, -141703], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54155, -141890], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57937, -140277], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63072, -143137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61832, -141844], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62169, -141723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62638, -140406], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63989, -140221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64210, -139627], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61846, -142253], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64209, -140774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62591, -142249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40423, -138516], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42302, -135352], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43293, -136965], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44234, -137377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49406, -138260], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49531, -139008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56342, -137920], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55934, -137278], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59616, -137187], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57978, -138193], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57779, -136063], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62608, -138502], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62538, -138601], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63017, -135538], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61768, -138907], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35497, -131247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33266, -132471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39873, -132785], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42675, -132762], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41257, -131597], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45883, -134247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57000, -134034], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61007, -132427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58542, -134265], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62668, -132368], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65253, -131950], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61939, -133114], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64171, -132964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4410, -160178], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2258, -157872], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([820, -153198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1566, -152910], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1488, -148004], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1601, -147960], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5312, -149164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10195, -151040], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9204, -149818], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15369, -150031], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17699, -149013], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18933, -148801], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6573, -144739], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18017, -146344], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17143, -147033], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22691, -144652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21274, -147285], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20610, -147341], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6958, -142005], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11164, -140607], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10335, -139912], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10057, -142617], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12880, -141026], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12943, -140922], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14151, -142342], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15578, -140457], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21064, -142400], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21253, -143120], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20816, -140066], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25307, -142364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24896, -140500], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25059, -140729], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29821, -140335], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29734, -140252], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30056, -141761], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29773, -141763], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([301, -137584], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1308, -135640], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1728, -136927], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1545, -136718], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4232, -138950], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6095, -138406], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6351, -138318], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4827, -138986], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4725, -138928], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4912, -138716], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9407, -137569], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10259, -138956], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10964, -138107], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10898, -138195], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11234, -136826], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10464, -136059], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10578, -136025], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10602, -136304], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12764, -139048], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12327, -138105], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12997, -138892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15984, -136312], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15917, -135608], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16951, -136639], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18059, -136814], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23939, -137875], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22235, -135798], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25705, -135644], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24784, -136200], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32096, -138864], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3163, -132187], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4867, -131652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6523, -132182], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7639, -132202], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5728, -133799], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7479, -133612], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6518, -133580], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6491, -133409], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5111, -133964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5098, -134082], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([4718, -134062], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8403, -134449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9453, -132364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11549, -134299], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26190, -131388], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([24929, -131484], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29193, -133279], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([105789, -164382], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107508, -164199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107547, -164080], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([117832, -167041], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([118388, -164899], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116126, -164297], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115922, -164123], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115452, -166803], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([119123, -164064], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125868, -165770], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([125941, -165583], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([126122, -165694], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([129168, -165152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([129242, -164966], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80943, -172804], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81256, -172523], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77902, -172978], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79348, -172807], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87451, -174393], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66116, -169916], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68848, -168650], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71201, -168522], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73459, -170613], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71399, -171364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73139, -169012], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79053, -171000], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74492, -166610], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([76516, -167046], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85276, -165973], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82254, -164183], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84580, -164377], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87702, -166153], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88755, -164977], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13955, 199741], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15005, 202832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-59773, 199855], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48057, 198997], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-48094, 199238], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37347, 197422], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50319, 202812], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-44318, 201992], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-44313, 201838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-62930, 205673], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-64554, 206627], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68278, 198516], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-71397, 202474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68689, 202879], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-66897, 204625], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30285, 164771], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-30372, 165076], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27094, 167315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27304, 166778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23064, 164676], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14575, 167163], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11791, 167118], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2747, 166880], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1643, 165468], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1048, 168227], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-328, 168870], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14346, 178726], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15049, 176584], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16114, 179685], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15943, 187618], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13609, 185967], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-16667, 190288], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14923, 191664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8712, 190091], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9395, 188831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49612, 164437], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49498, 164307], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45944, 164869], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45986, 164789], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33055, 166759], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-33344, 166755], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38354, 170399], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38241, 170426], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38255, 170677], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42028, 175580], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40144, 175138], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45716, 177931], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-38443, 184294], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39602, 186198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39713, 186376], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41988, 190103], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39738, 188681], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23399, 131474], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23305, 131421], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19288, 134137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19323, 134229], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14027, 134812], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-14560, 131713], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8945, 131815], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7427, 131655], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3462, 133510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-28037, 137251], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23370, 138036], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17346, 135801], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-19752, 138720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17338, 137670], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17258, 137773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15261, 138690], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1716, 139250], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3101, 137272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1916, 136106], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31423, 140657], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31472, 140466], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22906, 140845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-22902, 140709], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20252, 139608], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-20282, 139541], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13158, 142856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11086, 142648], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7230, 140672], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3030, 141590], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31510, 147200], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-31291, 146925], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23414, 143877], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-13672, 145745], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12181, 147224], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-26817, 148276], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17755, 148709], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-17828, 148825], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-12595, 149779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-15441, 148906], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-11954, 151126], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7453, 149540], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2610, 148962], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-27373, 155332], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2445, 155178], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-1106, 153997], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2826, 155461], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-2851, 155543], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32183, 157218], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32284, 157406], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-9951, 158600], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-5816, 156766], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-32176, 161938], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-7861, 162871], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50159, 146257], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-50047, 146183], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37473, 144136], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35948, 145447], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35923, 145548], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-49695, 148435], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-34286, 148562], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-45722, 154244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35739, 153530], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35780, 153356], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35549, 162427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35934, 162458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-68455, 138718], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-88194, 139571], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78275, 151661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-105234, 149216], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-105356, 149177], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-167589, 164060], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-167568, 164062], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-182770, 131290], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-180024, 134368], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-173588, 135942], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-180903, 140761], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-165728, 146731], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-166012, 146038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-166156, 144230], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-165741, 151247], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-164933, 151512], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-165621, 147652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-174027, 153430], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-172882, 152861], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-168543, 154297], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-171594, 153257], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-167736, 153363], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-167759, 155402], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-167813, 152868], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-173419, 158844], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-174807, 158172], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-173681, 158912], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-172560, 156365], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-165066, 158687], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-170231, 163235], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-168657, 162723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-169859, 161525], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-171119, 159986], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-169292, 161513], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33453, 198284], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48334, 200287], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52453, 197191], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50325, 197528], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53582, 199823], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61372, 200465], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64957, 199111], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32876, 202162], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34282, 203032], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40649, 204065], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37690, 203828], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38663, 203487], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37962, 200931], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43201, 203785], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61284, 204008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59840, 203888], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3323, 197648], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19133, 198516], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30838, 199180], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15089, 202321], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16943, 201472], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16516, 202586], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26212, 204616], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26927, 204029], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30913, 202038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31094, 203267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3680, 206533], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9075, 208060], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17665, 206441], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26370, 207148], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27026, 208486], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26564, 208017], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26385, 205507], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9882, 209596], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([107202, 168884], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109051, 175263], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109953, 179875], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98992, 183348], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98828, 184137], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99088, 184892], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99046, 185820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68865, 165987], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85001, 179832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87811, 182390], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93453, 184252], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49083, 167774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33722, 168973], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44488, 171140], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58495, 171164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35468, 174448], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40287, 172635], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38636, 172946], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41291, 174980], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50728, 173985], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46576, 178040], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([34024, 181714], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33001, 181832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40043, 180916], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41292, 180864], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55933, 181035], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59081, 180901], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46839, 188204], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51609, 187760], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62408, 185865], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62530, 184596], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35362, 189691], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36756, 189898], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32946, 189995], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40030, 190509], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39498, 190684], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43461, 191765], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42696, 189293], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63063, 188862], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35761, 192625], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45446, 195893], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26523, 166197], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9922, 170290], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14057, 170129], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14612, 169225], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27777, 171439], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9223, 173195], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11054, 172395], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11066, 172221], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18326, 175212], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19683, 173036], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19225, 174467], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22059, 172972], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23441, 174124], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7846, 179054], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7427, 176620], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8750, 178306], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9793, 177488], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9998, 178641], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15533, 178678], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13728, 179248], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17105, 178369], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18638, 177248], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22230, 178809], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22353, 178362], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22682, 177707], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31161, 177655], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31553, 178568], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29953, 178106], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5841, 183981], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9016, 182773], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18096, 182064], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3186, 186926], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7460, 187090], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7100, 186661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15299, 186502], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15560, 186856], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15464, 188006], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15706, 188259], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14563, 186936], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20894, 185383], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3645, 190327], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12455, 191500], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15384, 188631], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22292, 190557], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26555, 190249], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26178, 189827], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27247, 188901], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30783, 189199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31475, 190152], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30652, 190517], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3349, 195447], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2743, 193705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3218, 196144], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9409, 195048], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10680, 195482], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16778, 195556], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21768, 196327], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25687, 193157], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31365, 194102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31068, 194753], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30451, 194830], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68723, 132587], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68707, 132701], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78841, 134763], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78718, 134671], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78671, 134821], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73805, 138248], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([73293, 142652], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81656, 142426], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81573, 142666], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69350, 144092], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([80844, 147398], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([84308, 161291], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98176, 163079], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([52737, 132038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59715, 133071], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63475, 132700], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63637, 132481], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40316, 136184], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40487, 136166], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36926, 137926], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46684, 135315], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51964, 136874], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51102, 137997], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([51256, 138182], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38576, 141851], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45350, 140885], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46171, 139820], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60321, 141646], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59348, 142449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32960, 146590], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47709, 146623], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54632, 143897], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42814, 149424], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44137, 149102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47783, 148778], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36723, 153323], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40513, 152472], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41147, 152364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42077, 154110], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55075, 152360], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55313, 152492], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55337, 153081], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57345, 155270], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63646, 153078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63796, 153234], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63533, 156603], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64120, 156194], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([64125, 156030], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50494, 160915], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49362, 160456], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60160, 160122], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3284, 132364], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9768, 131256], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10400, 133272], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3204, 136722], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([5729, 136074], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13100, 137397], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16044, 135324], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6231, 141002], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20842, 140839], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21176, 141021], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31083, 139931], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31176, 140495], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31281, 140330], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31121, 140297], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([260, 146619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3630, 143709], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13861, 146490], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14017, 144661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22427, 144554], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22000, 145032], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([17232, 149256], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26348, 149573], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([3284, 153106], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([2102, 153158], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([9232, 153744], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15170, 153602], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23112, 154832], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21512, 153208], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31125, 152328], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11752, 155816], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10429, 158008], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29936, 157819], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10942, 160661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10268, 160782], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([10353, 161752], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13822, 161710], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([30104, 161415], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29504, 161747], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29440, 161155], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-23411, 130018], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-10458, 127735], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-8054, 128619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-956, 127407], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-3555, 128223], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-92810, 106057], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-96552, 121533], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-96953, 121145], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-78745, 121999], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79060, 122276], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39781, 3445], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39760, 3330], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36945, 15], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40142, 731], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40103, 774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39691, 2063], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36974, 570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-37049, 581], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36954, 659], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39745, 3244], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36342, 102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35774, 3104], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35933, 2013], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35885, 2058], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-35928, 2085], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-36033, 3106], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39883, 4183], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39941, 4427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40376, 7028], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40399, 7111], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40292, 6645], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40344, 6757], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40354, 6845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40348, 6936], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40174, 5699], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40208, 5776], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40244, 5836], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40240, 5898], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40076, 5164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40154, 5439], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40171, 5551], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39920, 4501], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39929, 4335], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39894, 4274], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-40972, 10845], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39232, 8283], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39550, 9074], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39707, 9368], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-39360, 8629], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47785, 16300], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47833, 16281], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-47887, 16277], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-41902, 12675], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-42114, 12924], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-87640, 3889], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-80236, 3340], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-80719, 183], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-79711, 1], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-137278, 105957], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-137639, 106198], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-154837, 119699], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-176360, 113173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-178989, 111027], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-178360, 111870], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-172450, 117676], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-180337, 123049], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([-179753, 124592], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([199715, 39931], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([200339, 37418], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([169642, 55826], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([170050, 55662], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([169542, 55399], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([167001, 59744], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([167173, 59380], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([168506, 59952], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([161500, 60051], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([167157, 12096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([165127, 15634], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([147031, 8080], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([157444, 10376], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79166, 128668], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79119, 128611], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40070, 130352], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37704, 128694], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38581, 127895], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([38620, 128132], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42172, 129136], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([47965, 128282], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54495, 129095], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54316, 128869], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57306, 129173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54953, 127415], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([57487, 127560], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58272, 127403], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63184, 131060], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([1994, 128146], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([14266, 128838], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13430, 129200], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([101364, 3141], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100829, 3728], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([99143, 759], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108371, 1918], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([108403, 2037], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109995, 3038], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109943, 2522], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109409, 923], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109421, 1032], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109336, 1164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109296, 1312], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109651, 688], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109641, 545], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109258, 612], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([109152, 704], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([111644, 3275], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113045, 4002], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113682, 185], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114436, 331], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114128, 1860], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113259, 2524], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113782, 2723], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114424, 2532], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114657, 1288], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([114868, 2808], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116452, 2639], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116272, 2650], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116003, 2942], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116075, 3192], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115788, 1836], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115867, 1736], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([115203, 1292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116828, 1471], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([116847, 1282], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103813, 5671], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112253, 4413], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([112356, 4367], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([113021, 4157], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([98998, 11028], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([104685, 8734], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100514, 13907], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([103666, 12787], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([102100, 17173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([100956, 16964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70875, 786], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70984, 493], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([72640, 2458], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74814, 3260], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83858, 2539], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83809, 2329], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([83781, 1994], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([82209, 3491], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90349, 529], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66514, 4781], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71807, 6884], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71929, 6877], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70146, 4292], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([69836, 7579], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77574, 6707], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([85552, 7207], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89027, 6164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([86481, 7685], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88431, 4953], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88474, 4839], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([88850, 5855], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89089, 6228], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([89083, 6102], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90279, 5972], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([92563, 6510], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68816, 9489], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([68803, 11606], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([71748, 9604], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74340, 9829], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74462, 9822], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81810, 11339], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78035, 8795], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([78158, 8788], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93222, 9055], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([91288, 8270], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([93732, 11340], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66704, 13779], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65877, 14001], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65998, 13994], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([65962, 15351], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([66085, 15344], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([70104, 13908], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([77232, 13941], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74424, 13053], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([74547, 13047], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79518, 15203], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([81259, 13985], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79796, 14140], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([79918, 14133], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([87000, 12726], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([90845, 13173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([97541, 13674], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36374, 831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39945, 1700], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([42487, 479], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46149, 877], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53361, 1179], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56369, 2020], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60173, 274], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60296, 267], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([62823, 1348], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36791, 8000], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33189, 4683], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40418, 5781], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40450, 5882], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36910, 8050], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53446, 7037], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53779, 6019], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53901, 6012], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([55911, 4386], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([56039, 7194], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59850, 5354], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([59590, 4326], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63612, 6656], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63735, 6649], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33332, 9133], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33246, 9164], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36317, 9144], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36221, 9000], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([36184, 8866], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43785, 10946], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43710, 10906], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([43654, 10980], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48700, 10105], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46780, 9726], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46933, 12263], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45461, 11720], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63674, 9168], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35802, 13015], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35864, 12907], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35342, 12981], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33643, 14904], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33652, 14967], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33528, 14964], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40071, 16005], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40037, 16110], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37444, 13050], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46861, 14705], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([48921, 16105], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49054, 16082], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([49007, 15943], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45836, 14661], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53913, 12570], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([54632, 14664], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60888, 15539], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([60063, 12875], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61555, 13912], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33649, 16965], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([33704, 17073], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37540, 19831], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([37380, 20235], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39810, 19020], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([40017, 19120], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44606, 19460], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([41934, 19653], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([50205, 19111], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([53756, 18133], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([58760, 19384], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([63503, 17954], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([61925, 20130], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35712, 22911], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35595, 22942], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([35695, 23022], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([39293, 20976], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44660, 23932], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([44781, 23795], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([46548, 23078], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([45806, 27427], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6476, 912], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7696, 3488], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7404, 2297], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([12139, 1203], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([8674, 2084], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([13725, 2353], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([18869, 3712], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16547, 1849], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23025, 3040], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21966, 737], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25345, 1710], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31266, 2771], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29061, 1802], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([7050, 5061], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([6923, 5089], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11498, 7000], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([11388, 6990], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([20388, 8010], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23820, 5096], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([21973, 4161], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26010, 6070], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31348, 7449], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29262, 5944], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29154, 5871], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([15308, 8809], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19095, 11512], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([16989, 9210], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22661, 10963], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22578, 10922], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28034, 9472], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([25686, 10984], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32089, 10999], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32209, 11018], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([19801, 13193], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22397, 15199], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([22536, 15127], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27320, 12613], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31777, 13064], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31338, 16095], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31436, 16196], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27619, 19065], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29741, 19520], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29842, 19601], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([29903, 19526], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([32060, 17774], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23361, 21387], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([23459, 21452], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([27766, 22173], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28558, 20698], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([26275, 21619], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31742, 21286], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([31702, 21447], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
-	L.circleMarker([28799, 20645], {color: "#FF69B4"}).addTo(rododendronicons).bindPopup("Рододендрон").bindTooltip("Рододендрон", {direction: 'top'});
+		var rododendron = [
+			[-28889, -29910],
+			[-25477, -31439],
+			[-20851, -29211],
+			[-21784, -30141],
+			[-19215, -32096],
+			[-15724, -28862],
+			[-14823, -32078],
+			[-13695, -32377],
+			[-10097, -30386],
+			[-11454, -29187],
+			[-11798, -31937],
+			[-5758, -31365],
+			[-5162, -30021],
+			[-5493, -29018],
+			[-1091, -31900],
+			[-2665, -30224],
+			[-2987, -28963],
+			[-3550, -31713],
+			[-28940, -28074],
+			[-29211, -27915],
+			[-25595, -26355],
+			[-27571, -25146],
+			[-28339, -25003],
+			[-22089, -24828],
+			[-23266, -24826],
+			[-19073, -27962],
+			[-17679, -25714],
+			[-12935, -25773],
+			[-15484, -27757],
+			[-14528, -27489],
+			[-10897, -25900],
+			[-11058, -27489],
+			[-8564, -24817],
+			[-7244, -26429],
+			[-7601, -25309],
+			[-1369, -26820],
+			[-30937, -24357],
+			[-25422, -23455],
+			[-21034, -24423],
+			[-22936, -22940],
+			[-21381, -20830],
+			[-19637, -23565],
+			[-17126, -24090],
+			[-20305, -20591],
+			[-14504, -21007],
+			[-13647, -22139],
+			[-10056, -24230],
+			[-9917, -22987],
+			[-12116, -20873],
+			[-6566, -21019],
+			[-5577, -22141],
+			[-7745, -22816],
+			[-7843, -24037],
+			[-5816, -23149],
+			[-3392, -21815],
+			[-25791, -19947],
+			[-19613, -19389],
+			[-12943, -19533],
+			[-13883, -18679],
+			[-8782, -19532],
+			[-8588, -18930],
+			[-11656, -19779],
+			[-5307, -19912],
+			[-1426, -18553],
+			[-883, -17820],
+			[-1509, -16534],
+			[-9543, -15072],
+			[-9035, -13074],
+			[-6217, -12720],
+			[-7924, -15021],
+			[-3931, -13602],
+			[-2219, -13640],
+			[-3538, -14846],
+			[-2231, -9811],
+			[-3035, -9525],
+			[-2970, -8638],
+			[-921, -11381],
+			[-2507, -12139],
+			[-3009, -11130],
+			[-34088, -31970],
+			[-35549, -31493],
+			[-33700, -30499],
+			[-35235, -28931],
+			[-58047, -22164],
+			[-55415, -22026],
+			[-55946, -22152],
+			[-62094, -19754],
+			[-62133, -19774],
+			[-62111, -19690],
+			[-61026, -17916],
+			[-60964, -17838],
+			[-60017, -15733],
+			[-53889, -15009],
+			[-56686, -13204],
+			[-55556, -12618],
+			[-55482, -12672],
+			[-55403, -12730],
+			[-55816, -12402],
+			[-53290, -14015],
+			[-53395, -14023],
+			[-53408, -13778],
+			[-53404, -13592],
+			[-53408, -13411],
+			[-53399, -13221],
+			[-53393, -13087],
+			[-53389, -12918],
+			[-53388, -12738],
+			[-49158, -15137],
+			[-49802, -15178],
+			[-50083, -15199],
+			[-51887, -15142],
+			[-51212, -15193],
+			[-52417, -15238],
+			[-50017, -13939],
+			[-49890, -13832],
+			[-49835, -13741],
+			[-49788, -13647],
+			[-48421, -12940],
+			[-47410, -15056],
+			[-47942, -15152],
+			[-48350, -15175],
+			[-48960, -15143],
+			[-44193, -14712],
+			[-44106, -14715],
+			[-44174, -14571],
+			[-43357, -13455],
+			[-43403, -13482],
+			[-41826, -12718],
+			[-41855, -12817],
+			[-41761, -12790],
+			[-58623, -12160],
+			[-55697, -12177],
+			[-53923, -8979],
+			[-53984, -8908],
+			[-55108, -9116],
+			[-54904, -9250],
+			[-54908, -9311],
+			[-54076, -9896],
+			[-54104, -9805],
+			[-54303, -9622],
+			[-54687, -11657],
+			[-54612, -11580],
+			[-54551, -11471],
+			[-54508, -11415],
+			[-54450, -11331],
+			[-54484, -11816],
+			[-54471, -11921],
+			[-54559, -12001],
+			[-54205, -11286],
+			[-54167, -11389],
+			[-54243, -11455],
+			[-52018, -8202],
+			[-51720, -8617],
+			[-51357, -8613],
+			[-51027, -8647],
+			[-50716, -8661],
+			[-50513, -8660],
+			[-51938, -11833],
+			[-52068, -11893],
+			[-51875, -11960],
+			[-51523, -11958],
+			[-51316, -11946],
+			[-51060, -11960],
+			[-50907, -11963],
+			[-50660, -11954],
+			[-50530, -11958],
+			[-50229, -11934],
+			[-50245, -11797],
+			[-52183, -8498],
+			[-52284, -8509],
+			[-52279, -8609],
+			[-53113, -8586],
+			[-53026, -8603],
+			[-53096, -8657],
+			[-50390, -8337],
+			[-50260, -8348],
+			[-50332, -8353],
+			[-47080, -10525],
+			[-47274, -12158],
+			[-40309, -11198],
+			[-40375, -11187],
+			[-40379, -11274],
+			[-38919, -9739],
+			[-38844, -9776],
+			[-38887, -9845],
+			[-57734, -5499],
+			[-57807, -5288],
+			[-58075, -6150],
+			[-58017, -6149],
+			[-53984, -6523],
+			[-54019, -6340],
+			[-54031, -6253],
+			[-54070, -6112],
+			[-54095, -6009],
+			[-54292, -5129],
+			[-54301, -5058],
+			[-54239, -5342],
+			[-54207, -5540],
+			[-54821, -4991],
+			[-54907, -4801],
+			[-54720, -5548],
+			[-54685, -5651],
+			[-54707, -5470],
+			[-56205, -5336],
+			[-51876, -8131],
+			[-49229, -5927],
+			[-49301, -5892],
+			[-52285, -8102],
+			[-52279, -8175],
+			[-51832, -8183],
+			[-51931, -8136],
+			[-47840, -5310],
+			[-47790, -5181],
+			[-47731, -5058],
+			[-47564, -5459],
+			[-47527, -5383],
+			[-47476, -5250],
+			[-48843, -6059],
+			[-48924, -6021],
+			[-48476, -6241],
+			[-48429, -6338],
+			[-48088, -6468],
+			[-48092, -6496],
+			[-42217, -6281],
+			[-41849, -5920],
+			[-43151, -5341],
+			[-42793, -4986],
+			[-37815, -7986],
+			[-37823, -8058],
+			[-36039, -6537],
+			[-36067, -6583],
+			[-36320, -6981],
+			[-36392, -6916],
+			[-54367, -2471],
+			[-54386, -2610],
+			[-54387, -2733],
+			[-54426, -3587],
+			[-54404, -3706],
+			[-54432, -3810],
+			[-45966, -649],
+			[-45877, -560],
+			[-45517, -604],
+			[-45519, -727],
+			[-46000, -1221],
+			[-45973, -1115],
+			[-45961, -1028],
+			[-45599, -1060],
+			[-45656, -1214],
+			[-45674, -1295],
+			[-46300, -2798],
+			[-46256, -2696],
+			[-46199, -2603],
+			[-46576, -2667],
+			[-46545, -2535],
+			[-46477, -2485],
+			[-48527, -2170],
+			[-48589, -2125],
+			[-48523, -2093],
+			[-42487, -508],
+			[-42417, -428],
+			[-42318, -375],
+			[-42214, -364],
+			[-42216, -1042],
+			[-42075, -996],
+			[-41954, -893],
+			[-41886, -784],
+			[-41860, -653],
+			[-40326, -936],
+			[-40408, -1011],
+			[-40487, -1114],
+			[-40032, -224],
+			[-40077, -150],
+			[-40151, -201],
+			[-36840, -51],
+			[-34409, -874],
+			[-34566, -3642],
+			[-34602, -3724],
+			[-34396, -3286],
+			[-34428, -3338],
+			[-87726, -31024],
+			[-87555, -31843],
+			[-89101, -31137],
+			[-89047, -30601],
+			[-89279, -30807],
+			[-84949, -31740],
+			[-83358, -30915],
+			[-84167, -31042],
+			[-84775, -29736],
+			[-84786, -29537],
+			[-90902, -24795],
+			[-87423, -27619],
+			[-86902, -28341],
+			[-85089, -27974],
+			[-85618, -27358],
+			[-85865, -27369],
+			[-85059, -25598],
+			[-83207, -27112],
+			[-79591, -26604],
+			[-80143, -25272],
+			[-78833, -28197],
+			[-87906, -20640],
+			[-86239, -24560],
+			[-87083, -22276],
+			[-82273, -24061],
+			[-83950, -23788],
+			[-89321, -17977],
+			[-87001, -19638],
+			[-83766, -18381],
+			[-87625, -16207],
+			[-84175, -14432],
+			[-84133, -12761],
+			[-85497, -15679],
+			[-85102, -8297],
+			[-84015, -9517],
+			[-84127, -8789],
+			[-85014, -10848],
+			[-76583, -11381],
+			[-76580, -11478],
+			[-76613, -11594],
+			[-83017, -6401],
+			[-84737, -7193],
+			[-81529, -4878],
+			[-78597, -5577],
+			[-81419, -7273],
+			[-79477, -250],
+			[-79742, -142],
+			[-78608, -2821],
+			[-79519, -2632],
+			[-78443, -427],
+			[-27493, -63270],
+			[-24819, -63224],
+			[-22706, -64276],
+			[-23071, -62340],
+			[-19272, -63800],
+			[-18503, -63651],
+			[-12961, -64110],
+			[-13853, -64507],
+			[-9245, -62343],
+			[-10944, -62824],
+			[-11970, -63659],
+			[-6410, -64125],
+			[-3550, -63226],
+			[-22188, -58396],
+			[-20775, -57511],
+			[-19323, -60618],
+			[-11142, -57579],
+			[-10107, -60148],
+			[-4964, -60951],
+			[-515, -59584],
+			[-1618, -58385],
+			[-1429, -59745],
+			[-1193, -57717],
+			[-18398, -54917],
+			[-13954, -53504],
+			[-12520, -56338],
+			[-15862, -54206],
+			[-11146, -56416],
+			[-11439, -53851],
+			[-5060, -56666],
+			[-5666, -53548],
+			[-5471, -55581],
+			[-2420, -54200],
+			[-2878, -56319],
+			[-16749, -52382],
+			[-13910, -52599],
+			[-9724, -50338],
+			[-6747, -52833],
+			[-3287, -51712],
+			[-21193, -48953],
+			[-17937, -46197],
+			[-20349, -48622],
+			[-17406, -47108],
+			[-7475, -49048],
+			[-2954, -46766],
+			[-3366, -45624],
+			[-1178, -47356],
+			[-31778, -41721],
+			[-30691, -42924],
+			[-25620, -44628],
+			[-24197, -41952],
+			[-17670, -42902],
+			[-14921, -43816],
+			[-11409, -43316],
+			[-10200, -41672],
+			[-4134, -43999],
+			[-4320, -42023],
+			[-6310, -43697],
+			[-32278, -38699],
+			[-32575, -40392],
+			[-21166, -39723],
+			[-22101, -38766],
+			[-17652, -37122],
+			[-17364, -39324],
+			[-18291, -40207],
+			[-12450, -38088],
+			[-13644, -40272],
+			[-9532, -40420],
+			[-6484, -38033],
+			[-118, -39830],
+			[-1633, -38971],
+			[-1725, -40474],
+			[-30786, -33829],
+			[-20760, -36582],
+			[-22447, -34321],
+			[-22849, -34106],
+			[-17060, -34784],
+			[-19407, -34165],
+			[-18606, -35745],
+			[-14257, -35314],
+			[-12683, -33769],
+			[-14751, -33942],
+			[-16064, -33826],
+			[-10850, -36156],
+			[-5965, -34379],
+			[-1627, -35719],
+			[-2956, -34369],
+			[-3585, -33321],
+			[-64261, -62570],
+			[-58035, -64517],
+			[-58011, -65042],
+			[-57176, -64092],
+			[-56147, -64722],
+			[-63677, -57852],
+			[-62041, -60855],
+			[-58837, -59843],
+			[-58762, -60334],
+			[-55973, -58889],
+			[-54645, -59799],
+			[-53888, -60557],
+			[-54692, -57644],
+			[-62818, -53644],
+			[-64442, -55155],
+			[-58656, -56088],
+			[-59748, -54872],
+			[-61065, -53994],
+			[-54066, -56072],
+			[-54290, -56034],
+			[-56637, -57141],
+			[-56333, -55237],
+			[-56252, -54251],
+			[-52755, -53552],
+			[-52456, -56164],
+			[-49832, -54936],
+			[-49998, -54271],
+			[-50663, -53975],
+			[-64255, -51302],
+			[-61970, -50209],
+			[-58081, -50475],
+			[-60025, -51821],
+			[-59296, -51181],
+			[-53757, -52843],
+			[-56822, -50272],
+			[-55743, -52924],
+			[-54632, -50037],
+			[-51317, -51250],
+			[-48947, -49367],
+			[-45573, -50760],
+			[-64649, -48144],
+			[-62810, -45721],
+			[-62614, -45204],
+			[-60758, -47766],
+			[-57958, -47682],
+			[-57723, -46495],
+			[-57757, -48449],
+			[-53690, -47880],
+			[-55614, -47863],
+			[-56575, -47647],
+			[-56868, -46877],
+			[-56493, -46238],
+			[-57269, -47205],
+			[-52348, -49004],
+			[-50077, -48479],
+			[-52438, -46355],
+			[-50176, -48256],
+			[-48402, -47123],
+			[-46567, -48028],
+			[-42190, -45428],
+			[-41617, -47964],
+			[-40059, -45597],
+			[-40265, -46901],
+			[-40357, -45705],
+			[-64794, -43691],
+			[-62928, -42598],
+			[-64008, -44610],
+			[-60274, -42316],
+			[-59317, -41403],
+			[-53768, -44432],
+			[-56284, -44559],
+			[-55847, -41849],
+			[-51634, -42713],
+			[-51461, -42660],
+			[-48495, -42206],
+			[-45275, -41522],
+			[-46724, -44287],
+			[-42058, -43253],
+			[-36978, -41659],
+			[-37263, -44982],
+			[-37129, -42592],
+			[-36358, -41854],
+			[-62435, -38388],
+			[-64512, -37899],
+			[-64862, -40602],
+			[-63051, -39731],
+			[-61650, -40778],
+			[-60951, -40287],
+			[-59902, -39502],
+			[-60498, -38558],
+			[-58513, -38774],
+			[-58816, -37663],
+			[-56695, -37297],
+			[-49486, -39298],
+			[-49635, -39239],
+			[-47097, -40082],
+			[-48080, -37665],
+			[-44006, -39410],
+			[-42512, -38889],
+			[-41956, -40387],
+			[-42331, -40577],
+			[-39268, -39975],
+			[-34400, -40628],
+			[-35148, -40767],
+			[-35213, -36592],
+			[-34797, -36581],
+			[-35309, -33652],
+			[-34655, -35497],
+			[-76864, -64811],
+			[-75273, -63452],
+			[-71587, -61664],
+			[-70355, -61971],
+			[-70171, -62163],
+			[-67527, -65303],
+			[-67167, -62143],
+			[-68356, -61921],
+			[-76934, -60695],
+			[-76128, -58782],
+			[-72997, -59587],
+			[-66817, -60427],
+			[-77144, -56406],
+			[-72038, -56865],
+			[-71774, -55022],
+			[-71063, -55433],
+			[-70503, -54465],
+			[-67810, -55915],
+			[-69284, -56340],
+			[-65722, -53809],
+			[-67495, -52043],
+			[-66135, -52952],
+			[-68887, -48552],
+			[-68109, -45293],
+			[-67299, -45691],
+			[-66177, -45554],
+			[-76612, -44276],
+			[-74126, -42420],
+			[-74505, -41935],
+			[-77270, -43427],
+			[-71729, -42328],
+			[-73109, -41975],
+			[-67949, -43099],
+			[-66925, -44097],
+			[-75788, -37461],
+			[-75491, -38418],
+			[-73173, -37035],
+			[-70280, -39145],
+			[-70616, -37659],
+			[-68611, -40152],
+			[-66638, -37171],
+			[-65849, -38218],
+			[-89337, -32931],
+			[-89029, -33878],
+			[-88416, -33273],
+			[-87233, -34507],
+			[-86153, -34552],
+			[-86844, -35778],
+			[-84319, -36691],
+			[-84947, -35691],
+			[-85717, -34455],
+			[-85260, -33465],
+			[-85274, -33230],
+			[-82508, -34993],
+			[-83352, -35184],
+			[-82537, -36226],
+			[-82678, -35609],
+			[-81032, -35283],
+			[-81768, -34180],
+			[-80337, -33051],
+			[-80035, -34147],
+			[-80763, -36647],
+			[-79765, -35981],
+			[-78162, -34610],
+			[-78062, -33205],
+			[-77688, -34413],
+			[-109970, -61972],
+			[-112743, -58451],
+			[-111802, -57989],
+			[-102262, -57418],
+			[-101347, -56921],
+			[-31415, -96897],
+			[-29659, -98135],
+			[-31576, -97117],
+			[-25234, -98149],
+			[-26071, -97928],
+			[-20847, -94617],
+			[-22167, -97416],
+			[-16632, -94585],
+			[-14538, -96508],
+			[-10644, -94574],
+			[-10023, -95253],
+			[-8490, -94626],
+			[-9070, -97166],
+			[-9349, -97473],
+			[-7353, -94724],
+			[-7208, -94333],
+			[-2824, -95894],
+			[-2006, -96175],
+			[-1871, -96304],
+			[-1204, -96867],
+			[-10652, -92632],
+			[-10480, -92548],
+			[-10261, -92702],
+			[-11327, -90629],
+			[-7973, -93118],
+			[-5161, -93336],
+			[-5158, -93486],
+			[-4851, -93882],
+			[-3430, -92539],
+			[-3548, -93711],
+			[-3510, -93576],
+			[-3767, -94184],
+			[-13880, -88282],
+			[-14218, -88960],
+			[-15712, -86229],
+			[-12122, -90034],
+			[-10664, -89087],
+			[-10465, -89788],
+			[-10567, -89531],
+			[-6734, -89213],
+			[-6584, -89593],
+			[-5153, -88175],
+			[-5189, -88032],
+			[-3817, -87180],
+			[-15213, -85871],
+			[-12942, -81944],
+			[-12406, -85758],
+			[-14657, -85892],
+			[-14418, -85830],
+			[-9503, -84116],
+			[-10915, -85185],
+			[-11089, -85190],
+			[-6326, -85308],
+			[-6677, -85493],
+			[-4999, -82188],
+			[-5160, -82531],
+			[-3508, -84394],
+			[-755, -83457],
+			[-8753, -79759],
+			[-10277, -78793],
+			[-10925, -80466],
+			[-11145, -80536],
+			[-4215, -78215],
+			[-5194, -80550],
+			[-7109, -79273],
+			[-7194, -79042],
+			[-5290, -78852],
+			[-3620, -80731],
+			[-668, -79116],
+			[-1063, -79700],
+			[-1185, -79678],
+			[-3306, -79409],
+			[-3575, -79696],
+			[-2234, -77890],
+			[-2133, -78152],
+			[-2032, -78089],
+			[-3967, -78081],
+			[-29033, -74398],
+			[-28000, -75847],
+			[-25688, -75357],
+			[-27663, -77653],
+			[-19499, -76972],
+			[-19316, -75741],
+			[-16118, -74904],
+			[-12368, -73966],
+			[-9691, -75855],
+			[-9115, -73996],
+			[-6749, -73892],
+			[-1177, -77076],
+			[-1486, -75354],
+			[-3627, -75726],
+			[-32247, -71590],
+			[-28244, -70939],
+			[-23243, -70008],
+			[-21912, -71902],
+			[-17557, -70666],
+			[-16857, -73128],
+			[-16749, -71720],
+			[-19806, -70895],
+			[-12817, -70698],
+			[-16084, -72238],
+			[-10012, -70569],
+			[-10899, -71484],
+			[-4358, -71027],
+			[-7971, -72920],
+			[-8125, -71607],
+			[-4796, -72553],
+			[-29092, -66122],
+			[-29456, -66506],
+			[-27179, -69460],
+			[-21142, -66552],
+			[-16483, -67788],
+			[-17743, -69498],
+			[-14285, -68320],
+			[-9714, -68374],
+			[-11418, -66362],
+			[-950, -67735],
+			[-55862, -97566],
+			[-32830, -96023],
+			[-57220, -92235],
+			[-49060, -92286],
+			[-50290, -87726],
+			[-47361, -89450],
+			[-64678, -83767],
+			[-64892, -81967],
+			[-49665, -84639],
+			[-65248, -79856],
+			[-54960, -81311],
+			[-53598, -76664],
+			[-53919, -74935],
+			[-51566, -76110],
+			[-45397, -75836],
+			[-40383, -75368],
+			[-64952, -70983],
+			[-40363, -71960],
+			[-37890, -71272],
+			[-33977, -70815],
+			[-35836, -72137],
+			[-36279, -73194],
+			[-62979, -69475],
+			[-63005, -66439],
+			[-64170, -67652],
+			[-55557, -66342],
+			[-34208, -67101],
+			[-74467, -97266],
+			[-75603, -97677],
+			[-69984, -94960],
+			[-66401, -94516],
+			[-72665, -92995],
+			[-71495, -90989],
+			[-69710, -91037],
+			[-67140, -92527],
+			[-66758, -92608],
+			[-81848, -89988],
+			[-80492, -87997],
+			[-71359, -86781],
+			[-71114, -88353],
+			[-70846, -89568],
+			[-72274, -88387],
+			[-68829, -89557],
+			[-66444, -89768],
+			[-66110, -86518],
+			[-68728, -88577],
+			[-68154, -88719],
+			[-79460, -85841],
+			[-72491, -84074],
+			[-73109, -84155],
+			[-72765, -82958],
+			[-71252, -82672],
+			[-69957, -83628],
+			[-67421, -83885],
+			[-65670, -82112],
+			[-66264, -83618],
+			[-70148, -78882],
+			[-70703, -79014],
+			[-67788, -80269],
+			[-78026, -76980],
+			[-77505, -74675],
+			[-73969, -74910],
+			[-70822, -74456],
+			[-68680, -74480],
+			[-67076, -74157],
+			[-75286, -72267],
+			[-77360, -72299],
+			[-74203, -71449],
+			[-74740, -70383],
+			[-72496, -70189],
+			[-71256, -72610],
+			[-70888, -72469],
+			[-74095, -68017],
+			[-70492, -67147],
+			[-71388, -66354],
+			[-69122, -68102],
+			[-68271, -69244],
+			[-65837, -66225],
+			[-65963, -69631],
+			[-14525, -128711],
+			[-13548, -127610],
+			[-13644, -127241],
+			[-8444, -127146],
+			[-8543, -127139],
+			[-5385, -128858],
+			[-4851, -128221],
+			[-6114, -129552],
+			[-2364, -130479],
+			[-3076, -128674],
+			[-2870, -128482],
+			[-2504, -128038],
+			[-16686, -123434],
+			[-16592, -123167],
+			[-14855, -125878],
+			[-12473, -124848],
+			[-11441, -126764],
+			[-11681, -123848],
+			[-8358, -125052],
+			[-6898, -126271],
+			[-6338, -126579],
+			[-6862, -125944],
+			[-160, -126040],
+			[-2730, -125789],
+			[-15187, -121636],
+			[-12899, -121543],
+			[-16019, -119928],
+			[-8884, -120569],
+			[-8830, -120683],
+			[-9103, -120748],
+			[-10644, -119460],
+			[-10480, -119358],
+			[-11629, -121452],
+			[-1128, -120560],
+			[-22212, -115857],
+			[-14184, -116212],
+			[-14274, -116160],
+			[-14998, -118597],
+			[-14975, -118473],
+			[-13334, -116364],
+			[-13204, -116626],
+			[-15220, -116655],
+			[-14665, -116375],
+			[-14385, -116324],
+			[-15144, -116196],
+			[-14809, -116664],
+			[-15144, -116196],
+			[-14809, -116664],
+			[-10111, -117233],
+			[-11165, -115813],
+			[-10962, -115852],
+			[-10053, -116705],
+			[-9789, -116617],
+			[-10054, -114883],
+			[-8076, -114868],
+			[-7903, -115576],
+			[-8074, -115430],
+			[-6439, -115250],
+			[-6484, -115096],
+			[-6558, -115263],
+			[-7606, -117051],
+			[-7480, -117125],
+			[-5532, -117195],
+			[-5650, -117189],
+			[-5595, -116919],
+			[-2530, -117710],
+			[-32032, -113833],
+			[-32469, -111991],
+			[-29562, -111080],
+			[-29572, -110940],
+			[-29069, -110911],
+			[-29788, -114389],
+			[-26172, -111864],
+			[-25031, -114560],
+			[-20970, -111462],
+			[-15794, -112369],
+			[-15862, -112098],
+			[-14006, -113817],
+			[-14795, -114356],
+			[-11122, -112327],
+			[-10951, -112129],
+			[-10919, -112333],
+			[-9359, -113782],
+			[-8532, -111932],
+			[-10593, -113030],
+			[-7494, -110725],
+			[-6719, -110925],
+			[-1885, -112749],
+			[-1408, -112390],
+			[-30301, -108226],
+			[-24781, -110120],
+			[-21388, -109280],
+			[-20432, -108291],
+			[-16738, -106809],
+			[-16685, -106649],
+			[-18389, -109847],
+			[-17276, -108072],
+			[-18174, -109850],
+			[-13411, -110224],
+			[-13388, -109948],
+			[-14583, -108034],
+			[-9088, -109291],
+			[-8475, -108705],
+			[-8199, -108619],
+			[-8832, -107235],
+			[-8781, -106959],
+			[-4435, -109322],
+			[-6845, -107442],
+			[-6793, -107571],
+			[-593, -107201],
+			[-3937, -107014],
+			[-3686, -106892],
+			[-29842, -102889],
+			[-30345, -102770],
+			[-25059, -103283],
+			[-24993, -103367],
+			[-26498, -105671],
+			[-27180, -105828],
+			[-27096, -105750],
+			[-25431, -102513],
+			[-27834, -102611],
+			[-26150, -105572],
+			[-28378, -106085],
+			[-18538, -105242],
+			[-18579, -105373],
+			[-17793, -102692],
+			[-18322, -106255],
+			[-17354, -103834],
+			[-20265, -104274],
+			[-17288, -102995],
+			[-17157, -105901],
+			[-18074, -103233],
+			[-15338, -105818],
+			[-14246, -102703],
+			[-14145, -102636],
+			[-10095, -105721],
+			[-9466, -105796],
+			[-5198, -103751],
+			[-7171, -103369],
+			[-7015, -103506],
+			[-2453, -103132],
+			[-907, -103628],
+			[-32290, -99377],
+			[-27281, -102300],
+			[-26498, -101164],
+			[-25859, -101831],
+			[-22880, -100189],
+			[-22795, -100111],
+			[-21997, -99526],
+			[-17893, -100856],
+			[-17864, -101019],
+			[-16645, -99078],
+			[-16634, -98885],
+			[-19057, -99298],
+			[-19142, -99376],
+			[-17409, -102104],
+			[-17442, -100921],
+			[-15476, -99976],
+			[-15700, -99798],
+			[-15063, -99233],
+			[-13533, -100798],
+			[-12254, -101007],
+			[-12152, -102169],
+			[-11082, -98729],
+			[-10859, -98814],
+			[-8743, -98708],
+			[-9162, -98919],
+			[-7607, -99733],
+			[-5905, -101192],
+			[-4398, -98486],
+			[-3959, -100213],
+			[-2224, -99618],
+			[-541, -99192],
+			[-56888, -110983],
+			[-38066, -112438],
+			[-38612, -111094],
+			[-36637, -113545],
+			[-37494, -107155],
+			[-34126, -109273],
+			[-34566, -109521],
+			[-64558, -102535],
+			[-62003, -103782],
+			[-61166, -103727],
+			[-55340, -101172],
+			[-33231, -102153],
+			[-33765, -101490],
+			[-76416, -115036],
+			[-72300, -113930],
+			[-67263, -111315],
+			[-73173, -108723],
+			[-70701, -107731],
+			[-72829, -102611],
+			[-67635, -98347],
+			[-69029, -100569],
+			[-163466, -84693],
+			[-161217, -85753],
+			[-150541, -84315],
+			[-163519, -81599],
+			[-158601, -107778],
+			[-151181, -102341],
+			[-147116, -100196],
+			[-175080, -122051],
+			[-169886, -115954],
+			[-170188, -115608],
+			[-170941, -115568],
+			[-178656, -110807],
+			[-168785, -114284],
+			[210576, -6768],
+			[195194, -20688],
+			[195457, -20852],
+			[198434, -42158],
+			[198684, -42398],
+			[198288, -95889],
+			[200314, -96518],
+			[197492, -92581],
+			[200688, -91080],
+			[169163, -96012],
+			[172888, -95389],
+			[178753, -94565],
+			[185827, -96030],
+			[190723, -94792],
+			[187749, -91389],
+			[189291, -94161],
+			[191187, -93411],
+			[191234, -93524],
+			[195424, -82329],
+			[138029, -97794],
+			[137749, -97754],
+			[146163, -95726],
+			[146405, -97557],
+			[139233, -86263],
+			[138807, -86668],
+			[140677, -89510],
+			[138020, -79364],
+			[136932, -80891],
+			[132917, -77083],
+			[132366, -76650],
+			[132630, -76605],
+			[133532, -75609],
+			[133637, -75850],
+			[132449, -74850],
+			[134455, -77198],
+			[133731, -77372],
+			[135431, -75149],
+			[135619, -74934],
+			[198682, -128136],
+			[198545, -128785],
+			[203023, -130864],
+			[203066, -130679],
+			[206709, -128557],
+			[198586, -124759],
+			[203324, -125873],
+			[203494, -126196],
+			[206771, -125614],
+			[204371, -114985],
+			[206892, -112748],
+			[199804, -107540],
+			[205960, -108088],
+			[197927, -98725],
+			[203147, -100676],
+			[175989, -131061],
+			[175749, -127758],
+			[164900, -123458],
+			[170905, -123994],
+			[185702, -125424],
+			[196247, -125754],
+			[171128, -119395],
+			[173797, -122180],
+			[176417, -119449],
+			[181173, -121417],
+			[164598, -118680],
+			[174442, -115307],
+			[178114, -117291],
+			[177975, -117324],
+			[183585, -116142],
+			[189453, -115012],
+			[195759, -115811],
+			[163975, -114164],
+			[165950, -111330],
+			[165834, -111406],
+			[164453, -111653],
+			[164741, -111742],
+			[164665, -111544],
+			[165264, -113015],
+			[165371, -113083],
+			[165248, -113162],
+			[164063, -111894],
+			[190137, -111682],
+			[192755, -112688],
+			[167562, -107029],
+			[176640, -110446],
+			[186902, -108954],
+			[186931, -108856],
+			[188778, -110237],
+			[192046, -108079],
+			[196053, -107663],
+			[187052, -103431],
+			[170673, -101339],
+			[179694, -99533],
+			[191165, -100679],
+			[192565, -98617],
+			[132851, -129121],
+			[137782, -128614],
+			[143199, -131066],
+			[131281, -126324],
+			[138546, -125477],
+			[143065, -123313],
+			[148002, -124137],
+			[148031, -124225],
+			[159030, -125638],
+			[160780, -124868],
+			[160694, -124509],
+			[134570, -119730],
+			[133046, -119190],
+			[132496, -121419],
+			[137132, -121845],
+			[143585, -119213],
+			[153921, -122463],
+			[159140, -121691],
+			[159210, -121843],
+			[162408, -121753],
+			[135608, -116678],
+			[137875, -117390],
+			[138357, -115309],
+			[141912, -117628],
+			[140495, -117190],
+			[145023, -118076],
+			[148828, -116916],
+			[158641, -115963],
+			[137909, -111022],
+			[137231, -112442],
+			[147890, -113954],
+			[158808, -112050],
+			[163800, -111739],
+			[163804, -111847],
+			[134402, -110078],
+			[142638, -110427],
+			[141990, -108206],
+			[150104, -108085],
+			[149943, -108212],
+			[154515, -107135],
+			[158561, -108512],
+			[158542, -108648],
+			[134974, -103199],
+			[136696, -105661],
+			[142191, -103056],
+			[142232, -102520],
+			[147624, -104056],
+			[155607, -102754],
+			[155451, -102803],
+			[163498, -104847],
+			[162779, -103460],
+			[139337, -99202],
+			[141623, -99432],
+			[159848, -101856],
+			[108033, -29267],
+			[109122, -30127],
+			[109510, -29251],
+			[109713, -29657],
+			[110014, -30166],
+			[109676, -31401],
+			[109818, -31291],
+			[110485, -31394],
+			[112156, -32635],
+			[114530, -31555],
+			[113427, -32701],
+			[113452, -32411],
+			[113776, -31137],
+			[113319, -31133],
+			[113189, -31021],
+			[113246, -30856],
+			[111429, -28923],
+			[111504, -28824],
+			[117049, -30735],
+			[116697, -29210],
+			[116754, -28942],
+			[117781, -32167],
+			[118773, -31563],
+			[120735, -29511],
+			[120497, -28819],
+			[125211, -30223],
+			[125525, -30264],
+			[107169, -25551],
+			[110138, -24930],
+			[109496, -25877],
+			[109506, -25965],
+			[107867, -25970],
+			[107813, -25838],
+			[107494, -27065],
+			[110145, -27308],
+			[110015, -27198],
+			[110195, -27138],
+			[109578, -28040],
+			[108138, -27703],
+			[108237, -27841],
+			[112151, -27647],
+			[111391, -28518],
+			[112537, -27911],
+			[112501, -28012],
+			[111990, -25908],
+			[117728, -25731],
+			[117854, -25965],
+			[117151, -27030],
+			[119658, -26993],
+			[121947, -26572],
+			[120377, -24655],
+			[125247, -25423],
+			[124285, -25910],
+			[123179, -28128],
+			[110536, -22819],
+			[109261, -23233],
+			[111146, -21031],
+			[111169, -21230],
+			[113138, -21307],
+			[113196, -21162],
+			[118435, -21079],
+			[117182, -22217],
+			[117100, -23303],
+			[119548, -22895],
+			[118931, -21425],
+			[121413, -24219],
+			[121231, -23953],
+			[121238, -23352],
+			[121602, -23833],
+			[121854, -21467],
+			[122187, -21108],
+			[123532, -23893],
+			[123447, -24155],
+			[126021, -22465],
+			[124735, -24511],
+			[99196, -16615],
+			[110563, -16606],
+			[108451, -17175],
+			[108508, -17210],
+			[108892, -17525],
+			[109216, -17283],
+			[109985, -17562],
+			[110132, -17635],
+			[109763, -18352],
+			[110560, -19654],
+			[109627, -20091],
+			[109616, -19686],
+			[110327, -20362],
+			[111192, -18992],
+			[110827, -18627],
+			[110915, -18741],
+			[111173, -17856],
+			[112247, -19899],
+			[112405, -19848],
+			[112633, -19933],
+			[110995, -17145],
+			[112768, -17896],
+			[116347, -17074],
+			[116444, -17127],
+			[118504, -17303],
+			[117679, -17938],
+			[116973, -18438],
+			[116051, -19949],
+			[116067, -20234],
+			[116149, -20207],
+			[118735, -16640],
+			[118605, -16744],
+			[122275, -18117],
+			[121419, -16877],
+			[121511, -16698],
+			[125659, -17263],
+			[125229, -17675],
+			[125510, -19736],
+			[126869, -19261],
+			[109107, -12449],
+			[109881, -12917],
+			[109920, -13264],
+			[110045, -13411],
+			[109710, -14002],
+			[109918, -13988],
+			[107831, -14266],
+			[108466, -15267],
+			[108365, -15977],
+			[108332, -15814],
+			[111105, -13101],
+			[111126, -13189],
+			[111564, -16343],
+			[111739, -16264],
+			[111928, -15901],
+			[110685, -14596],
+			[111055, -14880],
+			[111438, -13944],
+			[112452, -13701],
+			[116221, -13654],
+			[116401, -15759],
+			[116479, -15620],
+			[121506, -16333],
+			[120454, -15453],
+			[120535, -15658],
+			[120548, -15537],
+			[122062, -14258],
+			[121790, -13908],
+			[121248, -12845],
+			[119838, -13370],
+			[120021, -12315],
+			[125974, -12289],
+			[124643, -15255],
+			[126907, -14619],
+			[107666, -8212],
+			[107598, -8354],
+			[107237, -8441],
+			[107493, -9336],
+			[107343, -9306],
+			[109107, -8517],
+			[109230, -8520],
+			[109630, -9887],
+			[109740, -9934],
+			[109442, -10547],
+			[110476, -11884],
+			[110785, -9288],
+			[110640, -12275],
+			[110773, -10823],
+			[110864, -10625],
+			[111663, -9831],
+			[111093, -10167],
+			[113074, -8629],
+			[113364, -8849],
+			[112104, -11074],
+			[113703, -11475],
+			[112977, -10267],
+			[112862, -10389],
+			[111584, -8622],
+			[114930, -10014],
+			[114949, -9891],
+			[114905, -10147],
+			[115090, -10069],
+			[115086, -9930],
+			[116071, -9061],
+			[116553, -9344],
+			[118395, -10345],
+			[118083, -9021],
+			[117980, -9602],
+			[117229, -10695],
+			[117422, -10396],
+			[116731, -12213],
+			[119195, -11398],
+			[119497, -11492],
+			[119605, -11142],
+			[119731, -8327],
+			[123567, -8570],
+			[124309, -8669],
+			[124420, -8601],
+			[123188, -10394],
+			[123198, -11023],
+			[123754, -11459],
+			[125352, -11269],
+			[125345, -11434],
+			[125507, -12037],
+			[107555, -6596],
+			[107511, -6382],
+			[107640, -5356],
+			[107614, -5456],
+			[107974, -4179],
+			[107991, -4355],
+			[109133, -4191],
+			[109210, -4101],
+			[109231, -5335],
+			[109190, -5497],
+			[109998, -7076],
+			[108779, -6298],
+			[107863, -6469],
+			[107628, -7489],
+			[107744, -7492],
+			[108589, -7705],
+			[108324, -7990],
+			[108373, -7883],
+			[113782, -6489],
+			[112048, -7944],
+			[111727, -7302],
+			[110916, -6772],
+			[111100, -6723],
+			[111493, -6544],
+			[111335, -6375],
+			[110761, -5374],
+			[110993, -5295],
+			[111458, -5066],
+			[111368, -5263],
+			[111399, -5366],
+			[112884, -5282],
+			[116940, -4962],
+			[115959, -5937],
+			[117157, -7138],
+			[119065, -7830],
+			[120812, -6776],
+			[119086, -6596],
+			[119983, -4793],
+			[126395, -4723],
+			[126200, -5567],
+			[126288, -5513],
+			[124094, -5004],
+			[124205, -4694],
+			[123266, -6064],
+			[123388, -6222],
+			[123246, -7531],
+			[123251, -7648],
+			[124335, -7971],
+			[98726, -2927],
+			[108048, -154],
+			[107830, -580],
+			[109422, -1234],
+			[109554, -1168],
+			[109338, -1337],
+			[110245, -377],
+			[110424, -420],
+			[109533, -2285],
+			[109461, -2468],
+			[108642, -3353],
+			[108732, -3364],
+			[109059, -4003],
+			[113096, -3782],
+			[111499, -3789],
+			[111601, -3680],
+			[111963, -2895],
+			[112427, -1651],
+			[111989, -1629],
+			[113870, -2729],
+			[113963, -3244],
+			[114089, -2818],
+			[114552, -1238],
+			[113583, -895],
+			[113897, -1757],
+			[114057, -1486],
+			[114020, -1651],
+			[115587, -1486],
+			[116957, -3856],
+			[118316, -3358],
+			[121168, -1682],
+			[119166, -1804],
+			[119274, -1959],
+			[122582, -3508],
+			[123276, -1010],
+			[123367, -1063],
+			[123531, -3626],
+			[123409, -3541],
+			[75658, -30980],
+			[79900, -29789],
+			[69427, -25862],
+			[69974, -27763],
+			[70001, -27665],
+			[77386, -25715],
+			[83887, -27784],
+			[84349, -25247],
+			[87984, -27438],
+			[88055, -27624],
+			[89596, -24929],
+			[65820, -23781],
+			[71561, -22615],
+			[72778, -24570],
+			[72954, -22840],
+			[74650, -22910],
+			[81315, -22054],
+			[81477, -22170],
+			[81420, -20787],
+			[78990, -20961],
+			[79016, -20863],
+			[80341, -21143],
+			[81360, -20772],
+			[84377, -22057],
+			[84008, -23831],
+			[84075, -24018],
+			[85279, -20862],
+			[87504, -22582],
+			[88959, -23139],
+			[90663, -20708],
+			[90731, -20895],
+			[93160, -22459],
+			[95613, -20547],
+			[95080, -20807],
+			[96097, -23564],
+			[67594, -18628],
+			[69303, -16910],
+			[81771, -18135],
+			[81330, -20054],
+			[78193, -17876],
+			[81328, -18901],
+			[83965, -18828],
+			[87380, -17628],
+			[87409, -18538],
+			[86366, -18689],
+			[89909, -17433],
+			[90022, -17597],
+			[89439, -17909],
+			[89479, -19021],
+			[90920, -18377],
+			[90294, -18767],
+			[96102, -18838],
+			[96170, -19025],
+			[95025, -19452],
+			[95098, -19605],
+			[71006, -15653],
+			[97131, -14456],
+			[69294, -10649],
+			[69320, -10551],
+			[96894, -9547],
+			[84546, -5915],
+			[85194, -6094],
+			[74612, -2172],
+			[77439, -683],
+			[81752, -466],
+			[89179, -1130],
+			[97562, -216],
+			[36375, -29595],
+			[33647, -31498],
+			[40074, -32117],
+			[40735, -29538],
+			[37183, -29226],
+			[42017, -31712],
+			[44607, -29549],
+			[60846, -31292],
+			[36394, -27835],
+			[36134, -28247],
+			[33051, -24761],
+			[35977, -25841],
+			[40680, -25082],
+			[42145, -25479],
+			[44057, -26493],
+			[34331, -22199],
+			[38780, -21479],
+			[40321, -23415],
+			[41494, -21458],
+			[41716, -22963],
+			[41590, -23676],
+			[44222, -22308],
+			[64787, -22978],
+			[63706, -21657],
+			[62239, -22800],
+			[44379, -19917],
+			[56842, -17102],
+			[56867, -16999],
+			[58340, -19615],
+			[63137, -18334],
+			[63163, -18237],
+			[62009, -17498],
+			[62869, -19475],
+			[40620, -15130],
+			[43889, -13557],
+			[44191, -14607],
+			[44610, -14569],
+			[60236, -14200],
+			[42871, -10000],
+			[44177, -10254],
+			[54742, -10530],
+			[61434, -9347],
+			[58884, -8781],
+			[60273, -9735],
+			[61741, -12076],
+			[63770, -9523],
+			[40400, -6885],
+			[42829, -5844],
+			[42473, -4515],
+			[42611, -7198],
+			[59482, -5242],
+			[59604, -5249],
+			[58061, -5506],
+			[62629, -5162],
+			[62377, -6617],
+			[43476, -2542],
+			[53847, -3504],
+			[54223, -924],
+			[54665, -3289],
+			[54788, -3296],
+			[57763, -650],
+			[4803, -29149],
+			[11946, -28940],
+			[13500, -31458],
+			[13034, -29977],
+			[19043, -31181],
+			[20892, -31470],
+			[26254, -32560],
+			[1226, -25418],
+			[997, -27088],
+			[2635, -25147],
+			[4988, -27329],
+			[7168, -28281],
+			[9322, -27464],
+			[10722, -27366],
+			[10771, -27193],
+			[14719, -24962],
+			[15401, -27130],
+			[17861, -25707],
+			[22928, -25499],
+			[23148, -25378],
+			[22377, -27883],
+			[26314, -25805],
+			[25367, -27873],
+			[29428, -25900],
+			[31075, -25471],
+			[31557, -26761],
+			[1040, -21083],
+			[377, -21292],
+			[1188, -20837],
+			[4949, -23273],
+			[4464, -21199],
+			[7771, -23752],
+			[8424, -22902],
+			[10328, -20693],
+			[10277, -21070],
+			[11082, -23684],
+			[12671, -20954],
+			[14437, -23672],
+			[30496, -22696],
+			[28866, -20676],
+			[281, -20083],
+			[556, -16753],
+			[7275, -18839],
+			[10896, -19586],
+			[9993, -18504],
+			[12415, -17497],
+			[13603, -19573],
+			[15556, -16711],
+			[17134, -17073],
+			[18624, -17180],
+			[19966, -20206],
+			[22064, -19097],
+			[27367, -18244],
+			[25049, -17420],
+			[30319, -19026],
+			[29128, -19153],
+			[28931, -17693],
+			[3616, -12392],
+			[3924, -13664],
+			[4605, -15499],
+			[6755, -13807],
+			[9770, -14850],
+			[8715, -14771],
+			[8852, -13526],
+			[10236, -13211],
+			[13126, -13119],
+			[13252, -13365],
+			[18675, -13452],
+			[17508, -14008],
+			[17460, -14970],
+			[18880, -16078],
+			[22810, -15574],
+			[23000, -13286],
+			[26931, -16219],
+			[25401, -16120],
+			[24742, -14771],
+			[3711, -9321],
+			[2629, -9028],
+			[7108, -8408],
+			[5404, -8995],
+			[9217, -10720],
+			[15903, -9285],
+			[16162, -9333],
+			[15175, -10035],
+			[12956, -11525],
+			[13218, -11509],
+			[18455, -11376],
+			[17929, -9286],
+			[17794, -9112],
+			[22122, -8550],
+			[23353, -10938],
+			[3675, -4485],
+			[2014, -4373],
+			[4581, -4905],
+			[11804, -7390],
+			[9889, -7616],
+			[11719, -5442],
+			[10894, -4727],
+			[9859, -5667],
+			[15040, -7843],
+			[17939, -4729],
+			[16527, -6884],
+			[19050, -7267],
+			[19324, -5799],
+			[23615, -6156],
+			[23777, -6366],
+			[24084, -4636],
+			[22549, -4307],
+			[1206, -3390],
+			[1303, -2446],
+			[6805, -1578],
+			[4763, -469],
+			[10256, -3691],
+			[9756, -2720],
+			[11976, -1624],
+			[10748, -1174],
+			[16233, -2837],
+			[14224, -1147],
+			[17418, -3166],
+			[24035, -3874],
+			[23946, -1984],
+			[22332, -1573],
+			[28292, -919],
+			[29618, -1349],
+			[105813, -64438],
+			[106009, -62149],
+			[108202, -62899],
+			[121080, -63789],
+			[125857, -64656],
+			[129305, -64847],
+			[100809, -60528],
+			[105220, -59465],
+			[105391, -59256],
+			[103841, -59416],
+			[106079, -59467],
+			[120900, -58594],
+			[126343, -58509],
+			[102058, -53988],
+			[98901, -54617],
+			[98628, -53784],
+			[99358, -53739],
+			[100296, -53490],
+			[103036, -53496],
+			[102911, -54523],
+			[102621, -54305],
+			[104426, -54267],
+			[105749, -53533],
+			[105914, -53700],
+			[104415, -56503],
+			[104821, -57123],
+			[105734, -56582],
+			[119839, -54927],
+			[101342, -52819],
+			[101369, -52640],
+			[101566, -52178],
+			[102302, -50718],
+			[99825, -50463],
+			[99721, -51090],
+			[103133, -49597],
+			[105470, -49669],
+			[105919, -49640],
+			[106150, -50249],
+			[104897, -51774],
+			[103856, -51477],
+			[103278, -51664],
+			[103050, -52222],
+			[110804, -50058],
+			[126301, -49798],
+			[100125, -48377],
+			[100086, -48839],
+			[99549, -47829],
+			[100481, -47260],
+			[100733, -45758],
+			[100256, -45104],
+			[106265, -45706],
+			[105592, -46454],
+			[105971, -45154],
+			[104396, -47141],
+			[103126, -48132],
+			[103598, -48124],
+			[117261, -46755],
+			[126452, -48991],
+			[99920, -44186],
+			[103024, -42932],
+			[105656, -41517],
+			[105470, -42128],
+			[104263, -42110],
+			[105722, -44474],
+			[104022, -44552],
+			[104399, -43838],
+			[104510, -44262],
+			[104270, -44146],
+			[105964, -44957],
+			[106890, -43347],
+			[98424, -39779],
+			[101973, -39364],
+			[99297, -39115],
+			[100887, -38686],
+			[100891, -38986],
+			[101398, -39003],
+			[102391, -36981],
+			[103005, -37407],
+			[104111, -37650],
+			[105924, -37192],
+			[106241, -38478],
+			[105678, -38118],
+			[105613, -38608],
+			[106266, -39335],
+			[105602, -39470],
+			[104946, -40474],
+			[105203, -39969],
+			[102547, -39598],
+			[112867, -38999],
+			[123657, -38911],
+			[109593, -33361],
+			[109815, -35794],
+			[109930, -35606],
+			[110685, -33209],
+			[110801, -33101],
+			[110871, -33250],
+			[110957, -33062],
+			[112326, -35104],
+			[112426, -35005],
+			[112473, -34799],
+			[112457, -34891],
+			[112561, -34959],
+			[112539, -34800],
+			[112574, -33625],
+			[112635, -33588],
+			[112591, -33457],
+			[114400, -33961],
+			[113307, -33913],
+			[113413, -33895],
+			[113794, -35223],
+			[113812, -34953],
+			[113925, -34990],
+			[118828, -34460],
+			[119779, -34240],
+			[119678, -34190],
+			[120636, -36418],
+			[120970, -35578],
+			[121443, -34010],
+			[121547, -34221],
+			[122188, -33675],
+			[122109, -33399],
+			[120935, -33649],
+			[120541, -33377],
+			[126790, -32818],
+			[88340, -65171],
+			[92816, -62652],
+			[90740, -64362],
+			[95853, -65474],
+			[95624, -65255],
+			[94446, -62122],
+			[97840, -62035],
+			[97723, -62075],
+			[86308, -59528],
+			[87772, -60447],
+			[87923, -60528],
+			[92108, -58605],
+			[90547, -58501],
+			[90802, -60294],
+			[92410, -60283],
+			[94184, -59521],
+			[97853, -61162],
+			[97831, -61300],
+			[85706, -53869],
+			[83257, -54553],
+			[84080, -53712],
+			[88885, -54651],
+			[86380, -55757],
+			[86176, -55776],
+			[86424, -53703],
+			[96494, -53289],
+			[96399, -56444],
+			[96596, -56500],
+			[79623, -49700],
+			[81682, -51938],
+			[82045, -49710],
+			[85823, -49858],
+			[84146, -51336],
+			[82107, -49681],
+			[89086, -49202],
+			[87531, -51327],
+			[87394, -52270],
+			[93654, -52672],
+			[97936, -49234],
+			[98138, -50758],
+			[94792, -50165],
+			[95974, -51469],
+			[95008, -51249],
+			[97197, -51762],
+			[95498, -52319],
+			[96671, -52455],
+			[76696, -46152],
+			[78095, -47305],
+			[78345, -48346],
+			[82552, -49144],
+			[88620, -45279],
+			[90433, -47677],
+			[90544, -48448],
+			[91929, -48385],
+			[91242, -46063],
+			[91461, -46323],
+			[94075, -47402],
+			[93092, -47118],
+			[93750, -46013],
+			[95980, -45138],
+			[94270, -45139],
+			[94416, -45099],
+			[95889, -46491],
+			[94893, -47736],
+			[94817, -48180],
+			[97127, -46975],
+			[96314, -48750],
+			[96806, -48417],
+			[97224, -49103],
+			[98019, -48131],
+			[69812, -41433],
+			[72213, -41619],
+			[77341, -41526],
+			[85657, -44334],
+			[87125, -44863],
+			[86205, -43214],
+			[86884, -42866],
+			[86615, -42522],
+			[93285, -43008],
+			[92951, -44039],
+			[91251, -41899],
+			[96363, -41626],
+			[95821, -41295],
+			[95289, -41684],
+			[94951, -42213],
+			[95281, -43169],
+			[96015, -44821],
+			[68573, -37478],
+			[74988, -38467],
+			[81017, -39059],
+			[86129, -39893],
+			[88897, -40844],
+			[92415, -37590],
+			[93386, -37423],
+			[96136, -37768],
+			[96002, -37604],
+			[94491, -40333],
+			[97470, -38683],
+			[97686, -37483],
+			[98274, -39862],
+			[66145, -34555],
+			[68340, -34255],
+			[73035, -32971],
+			[38048, -62841],
+			[38296, -62075],
+			[37243, -63844],
+			[41912, -63685],
+			[44175, -62240],
+			[42084, -62767],
+			[45217, -65462],
+			[56667, -62432],
+			[55591, -65392],
+			[57378, -65025],
+			[34753, -57945],
+			[39142, -59711],
+			[39432, -60506],
+			[42360, -60637],
+			[41252, -60001],
+			[46844, -59137],
+			[57026, -58020],
+			[61149, -60285],
+			[35883, -54033],
+			[39866, -54544],
+			[38963, -54970],
+			[44390, -55808],
+			[43485, -56531],
+			[38834, -49832],
+			[39369, -50435],
+			[43194, -50271],
+			[47010, -52139],
+			[59064, -51356],
+			[36296, -45634],
+			[34771, -49123],
+			[37396, -45408],
+			[41124, -41284],
+			[44781, -42377],
+			[34237, -39606],
+			[33855, -37002],
+			[33101, -39721],
+			[43683, -38239],
+			[35158, -34835],
+			[37404, -35476],
+			[39741, -36730],
+			[39495, -35978],
+			[43263, -33755],
+			[61597, -33638],
+			[62532, -35831],
+			[730, -63969],
+			[2814, -62939],
+			[4596, -62298],
+			[5241, -63468],
+			[10741, -64433],
+			[14688, -64570],
+			[17664, -64896],
+			[19527, -62967],
+			[17003, -61900],
+			[1507, -60087],
+			[797, -61198],
+			[1788, -57691],
+			[7982, -57458],
+			[10076, -57857],
+			[12710, -57625],
+			[1486, -53494],
+			[1424, -55021],
+			[2651, -54629],
+			[4177, -53529],
+			[7442, -54079],
+			[15584, -53603],
+			[14979, -57138],
+			[14607, -56030],
+			[21061, -54549],
+			[22945, -55510],
+			[23281, -56344],
+			[21064, -55898],
+			[32689, -55666],
+			[32351, -54670],
+			[29448, -53526],
+			[524, -51769],
+			[1090, -52376],
+			[10860, -52942],
+			[10620, -50763],
+			[8806, -52478],
+			[13013, -50268],
+			[15671, -52623],
+			[14027, -51795],
+			[12975, -52058],
+			[14101, -52569],
+			[19275, -50524],
+			[22864, -52765],
+			[21416, -49453],
+			[27670, -49831],
+			[26497, -49871],
+			[30931, -49975],
+			[31614, -51150],
+			[2302, -45388],
+			[701, -48471],
+			[5022, -45609],
+			[8555, -48666],
+			[9636, -48258],
+			[14848, -45959],
+			[15949, -46169],
+			[15434, -47936],
+			[17514, -45555],
+			[26323, -45624],
+			[24965, -47862],
+			[26087, -47879],
+			[10780, -44273],
+			[8946, -42755],
+			[15719, -43367],
+			[14257, -44760],
+			[12568, -41716],
+			[16642, -44575],
+			[16660, -42205],
+			[19972, -43997],
+			[22058, -44737],
+			[23351, -43203],
+			[21921, -42992],
+			[25395, -42832],
+			[28470, -42257],
+			[29005, -44188],
+			[28896, -43008],
+			[8021, -38014],
+			[4350, -40222],
+			[9352, -40589],
+			[11043, -38625],
+			[15605, -39135],
+			[19275, -37129],
+			[20951, -38118],
+			[23770, -40471],
+			[21458, -39219],
+			[27044, -37933],
+			[25758, -40171],
+			[25702, -40471],
+			[32137, -38037],
+			[30306, -37424],
+			[7919, -35629],
+			[7403, -36670],
+			[6557, -36728],
+			[9881, -36211],
+			[9811, -34380],
+			[15219, -33774],
+			[13063, -33249],
+			[12888, -36449],
+			[20193, -34375],
+			[23091, -34292],
+			[27269, -33464],
+			[31867, -34885],
+			[29177, -35870],
+			[102342, -94244],
+			[100661, -95642],
+			[101414, -96246],
+			[101147, -97675],
+			[99620, -98019],
+			[99248, -94995],
+			[105789, -96178],
+			[105711, -98207],
+			[98420, -91515],
+			[99504, -92485],
+			[100825, -93110],
+			[102570, -94098],
+			[103239, -94016],
+			[103382, -91349],
+			[104101, -90549],
+			[105661, -90781],
+			[104486, -93375],
+			[104949, -93999],
+			[99240, -89259],
+			[100033, -86365],
+			[101491, -86224],
+			[101250, -86071],
+			[101555, -87073],
+			[101760, -87395],
+			[100933, -89604],
+			[101173, -88327],
+			[100745, -89286],
+			[98681, -86480],
+			[98878, -87690],
+			[102489, -89470],
+			[102823, -86768],
+			[104455, -86985],
+			[105896, -86209],
+			[105110, -87766],
+			[104184, -87725],
+			[99915, -82581],
+			[98401, -83264],
+			[101390, -83039],
+			[98623, -83113],
+			[103082, -85544],
+			[103303, -82409],
+			[102696, -82963],
+			[103019, -83773],
+			[103854, -82751],
+			[104852, -82969],
+			[106158, -85249],
+			[106148, -85504],
+			[105264, -84383],
+			[105171, -84670],
+			[102132, -78415],
+			[102179, -79733],
+			[98431, -81310],
+			[98578, -79282],
+			[105365, -78961],
+			[106325, -80888],
+			[103728, -81263],
+			[104218, -81265],
+			[99911, -75451],
+			[100408, -77008],
+			[98825, -76385],
+			[104394, -75753],
+			[104537, -76439],
+			[109636, -76693],
+			[120909, -76629],
+			[126377, -75152],
+			[100624, -69773],
+			[101757, -70927],
+			[102388, -71550],
+			[104082, -71544],
+			[102720, -71400],
+			[107479, -70956],
+			[116374, -71050],
+			[99830, -67388],
+			[99058, -66271],
+			[103785, -68586],
+			[102922, -69009],
+			[109109, -68222],
+			[112870, -68600],
+			[116458, -68267],
+			[120578, -67180],
+			[66974, -97222],
+			[66175, -96351],
+			[68932, -96316],
+			[69005, -94294],
+			[68569, -97552],
+			[69976, -97434],
+			[72451, -94373],
+			[74230, -97542],
+			[76844, -95787],
+			[76642, -98234],
+			[73736, -97333],
+			[78724, -97195],
+			[79751, -95260],
+			[79556, -94955],
+			[81657, -97694],
+			[81229, -94509],
+			[81283, -94295],
+			[84681, -97651],
+			[84576, -97671],
+			[84418, -97443],
+			[89978, -95338],
+			[89028, -96112],
+			[88816, -96347],
+			[87581, -94309],
+			[87635, -95698],
+			[92217, -94767],
+			[93401, -94477],
+			[93889, -97727],
+			[97561, -96148],
+			[97149, -97170],
+			[65548, -90970],
+			[69323, -92423],
+			[68267, -93344],
+			[68280, -92993],
+			[69240, -90161],
+			[68558, -91318],
+			[68502, -90961],
+			[67073, -91964],
+			[66012, -91778],
+			[65696, -91739],
+			[66017, -93068],
+			[73395, -91629],
+			[71745, -91657],
+			[70873, -93326],
+			[75801, -92046],
+			[78884, -90770],
+			[78729, -91349],
+			[85763, -90885],
+			[84224, -93139],
+			[81993, -90828],
+			[89507, -92484],
+			[90000, -92887],
+			[88847, -90598],
+			[87404, -92386],
+			[93212, -91054],
+			[90182, -91405],
+			[90276, -91905],
+			[90616, -90659],
+			[92494, -90751],
+			[93878, -90316],
+			[92506, -91801],
+			[92270, -92221],
+			[92542, -92291],
+			[93812, -94013],
+			[93820, -93497],
+			[92837, -93579],
+			[90775, -92465],
+			[97700, -93006],
+			[96622, -92506],
+			[95403, -93257],
+			[68545, -87116],
+			[67368, -87207],
+			[65832, -87328],
+			[66303, -89767],
+			[66859, -89876],
+			[71991, -87237],
+			[76055, -89319],
+			[79902, -86123],
+			[79749, -89321],
+			[82804, -86126],
+			[84373, -86954],
+			[85155, -88662],
+			[84088, -88608],
+			[89814, -87584],
+			[88581, -86921],
+			[88398, -86716],
+			[89880, -89842],
+			[89692, -89122],
+			[86828, -88740],
+			[87078, -89759],
+			[94155, -86377],
+			[93683, -86404],
+			[93508, -89872],
+			[93575, -89032],
+			[93139, -87779],
+			[92570, -87688],
+			[93553, -87259],
+			[93056, -86091],
+			[91154, -86600],
+			[90368, -86709],
+			[90578, -86748],
+			[90873, -86802],
+			[90815, -87537],
+			[90214, -89819],
+			[95909, -87974],
+			[95893, -89318],
+			[97781, -89497],
+			[97321, -88798],
+			[97621, -88266],
+			[97256, -88105],
+			[97574, -87410],
+			[97798, -86096],
+			[95407, -87042],
+			[95231, -87335],
+			[94384, -88580],
+			[81437, -84485],
+			[87969, -83485],
+			[91069, -81940],
+			[91406, -83745],
+			[93903, -84083],
+			[93789, -83779],
+			[92645, -85097],
+			[93672, -85565],
+			[95369, -83128],
+			[95326, -81984],
+			[95600, -82240],
+			[97087, -83282],
+			[95538, -85600],
+			[98074, -83355],
+			[66439, -80542],
+			[66025, -78318],
+			[68224, -78804],
+			[72077, -80709],
+			[74731, -80323],
+			[74933, -79873],
+			[75280, -79684],
+			[81518, -80685],
+			[81776, -80319],
+			[82747, -78216],
+			[85335, -81048],
+			[85604, -81179],
+			[88496, -79926],
+			[89601, -81019],
+			[88471, -80937],
+			[88864, -78425],
+			[89292, -78253],
+			[88652, -78640],
+			[87701, -79130],
+			[87884, -80249],
+			[87365, -79814],
+			[87153, -80086],
+			[86115, -81629],
+			[86393, -78031],
+			[86381, -79314],
+			[92678, -80305],
+			[92822, -80738],
+			[93398, -79558],
+			[93405, -78604],
+			[93587, -78661],
+			[90353, -78321],
+			[90307, -80265],
+			[92522, -81918],
+			[97559, -79025],
+			[97794, -81384],
+			[97430, -80076],
+			[95881, -80439],
+			[96159, -78435],
+			[72262, -74674],
+			[70683, -75987],
+			[71061, -77685],
+			[78780, -77444],
+			[79647, -74770],
+			[86836, -76446],
+			[86954, -74616],
+			[86870, -74512],
+			[92920, -74857],
+			[93630, -76509],
+			[94102, -74165],
+			[91565, -76272],
+			[96649, -74839],
+			[81239, -72854],
+			[80411, -71867],
+			[89534, -71801],
+			[88366, -73089],
+			[89896, -70125],
+			[92085, -71236],
+			[92891, -71198],
+			[90372, -73347],
+			[96284, -70474],
+			[79199, -67013],
+			[80156, -65985],
+			[81447, -65594],
+			[80895, -69247],
+			[83564, -65697],
+			[83169, -67775],
+			[89052, -68547],
+			[88238, -67123],
+			[86727, -67381],
+			[86589, -66714],
+			[90941, -66561],
+			[93561, -67047],
+			[91636, -68330],
+			[91867, -68070],
+			[91904, -68568],
+			[96182, -68504],
+			[96126, -69246],
+			[32768, -97085],
+			[34064, -95792],
+			[35652, -96089],
+			[35620, -95779],
+			[33784, -95444],
+			[39356, -97719],
+			[39812, -98152],
+			[47108, -97813],
+			[46798, -97712],
+			[46656, -97922],
+			[51312, -95111],
+			[51311, -97113],
+			[49955, -96902],
+			[53723, -97809],
+			[59159, -94525],
+			[58974, -94678],
+			[65142, -98024],
+			[61476, -95950],
+			[36110, -92831],
+			[36081, -92713],
+			[39487, -91485],
+			[39217, -91400],
+			[38283, -93605],
+			[41812, -92592],
+			[41778, -91553],
+			[41095, -90422],
+			[45798, -92332],
+			[55498, -92501],
+			[59787, -93669],
+			[61429, -90879],
+			[58845, -90160],
+			[59857, -91046],
+			[62723, -90921],
+			[62580, -90966],
+			[62461, -90816],
+			[36602, -90002],
+			[36451, -90035],
+			[35152, -88396],
+			[37401, -88304],
+			[40104, -86813],
+			[39503, -86854],
+			[39121, -87883],
+			[40428, -89172],
+			[40702, -89252],
+			[43600, -88148],
+			[43531, -88250],
+			[43769, -89117],
+			[43553, -88941],
+			[42811, -86900],
+			[42735, -86805],
+			[42982, -86674],
+			[45616, -88404],
+			[45397, -88635],
+			[49872, -87906],
+			[54300, -86573],
+			[54215, -86397],
+			[53260, -88522],
+			[53361, -88099],
+			[56609, -88748],
+			[58716, -89850],
+			[57781, -87229],
+			[57580, -87289],
+			[60267, -88146],
+			[60160, -86940],
+			[61963, -89542],
+			[61985, -89680],
+			[62951, -87671],
+			[62792, -87590],
+			[36257, -84101],
+			[36023, -84118],
+			[32896, -83214],
+			[34858, -82989],
+			[35316, -84390],
+			[37976, -84187],
+			[37854, -84357],
+			[39292, -81992],
+			[39577, -83144],
+			[39142, -85058],
+			[43044, -82801],
+			[47884, -82458],
+			[52877, -85373],
+			[52150, -82290],
+			[56261, -83508],
+			[56434, -83290],
+			[54041, -82164],
+			[55828, -82399],
+			[55740, -82251],
+			[57185, -84648],
+			[57257, -84810],
+			[57288, -84693],
+			[60289, -84580],
+			[57538, -84808],
+			[60861, -81964],
+			[58956, -83318],
+			[58686, -85895],
+			[57532, -85537],
+			[63704, -83068],
+			[63404, -82987],
+			[64987, -84371],
+			[65044, -84461],
+			[63882, -84353],
+			[63264, -83716],
+			[61505, -85075],
+			[61558, -83155],
+			[63376, -82067],
+			[62858, -81950],
+			[64850, -82020],
+			[35690, -80975],
+			[36321, -80460],
+			[36335, -80334],
+			[37121, -81223],
+			[37238, -81191],
+			[44959, -80457],
+			[46763, -79123],
+			[45168, -78665],
+			[55743, -80241],
+			[56006, -80203],
+			[56454, -81143],
+			[54766, -79471],
+			[57828, -79630],
+			[58435, -78454],
+			[58321, -78250],
+			[61546, -81131],
+			[65038, -81907],
+			[63355, -79324],
+			[33848, -77763],
+			[42323, -77582],
+			[60745, -77767],
+			[33374, -70381],
+			[37366, -72835],
+			[38086, -72921],
+			[40283, -73267],
+			[42237, -70486],
+			[43222, -70834],
+			[55413, -72892],
+			[34530, -68375],
+			[34118, -68315],
+			[33804, -68371],
+			[38971, -66006],
+			[43097, -67998],
+			[41957, -65889],
+			[45258, -68217],
+			[47677, -65797],
+			[51453, -65846],
+			[1139, -97173],
+			[5257, -94983],
+			[5264, -94821],
+			[4489, -96287],
+			[4451, -96765],
+			[9760, -95983],
+			[9200, -95761],
+			[13904, -97648],
+			[14363, -95881],
+			[18804, -96088],
+			[19191, -96108],
+			[16726, -96670],
+			[19252, -94435],
+			[19746, -94585],
+			[20567, -95631],
+			[20598, -96532],
+			[22581, -96420],
+			[25799, -96413],
+			[25886, -96526],
+			[26845, -94251],
+			[26955, -97894],
+			[32125, -95855],
+			[28857, -95511],
+			[29864, -94780],
+			[29818, -94576],
+			[30662, -95146],
+			[31519, -95492],
+			[1358, -92517],
+			[3514, -92710],
+			[3509, -92496],
+			[656, -91935],
+			[6923, -90293],
+			[11605, -90661],
+			[9489, -90569],
+			[9580, -90803],
+			[18977, -92670],
+			[19240, -90647],
+			[23505, -93794],
+			[27941, -94069],
+			[27663, -91415],
+			[27755, -91341],
+			[28060, -91640],
+			[27252, -92066],
+			[30027, -92720],
+			[29779, -92787],
+			[30347, -92078],
+			[30369, -90837],
+			[30283, -91815],
+			[30614, -90315],
+			[426, -88539],
+			[2664, -86521],
+			[7226, -86771],
+			[5736, -86472],
+			[6611, -89664],
+			[6872, -89840],
+			[4361, -89758],
+			[11005, -88798],
+			[13804, -88780],
+			[12868, -89626],
+			[16096, -86173],
+			[18729, -89623],
+			[19032, -89390],
+			[20094, -86748],
+			[22294, -87623],
+			[21599, -86449],
+			[21618, -90103],
+			[32030, -88116],
+			[32519, -87534],
+			[2924, -84140],
+			[2532, -84148],
+			[2597, -84940],
+			[3482, -83187],
+			[626, -83258],
+			[1909, -82047],
+			[5630, -83044],
+			[5626, -82922],
+			[12150, -84991],
+			[11065, -85933],
+			[10477, -84153],
+			[10365, -84572],
+			[15306, -84233],
+			[15450, -84400],
+			[14943, -83990],
+			[13842, -83388],
+			[16446, -85881],
+			[16903, -85095],
+			[16950, -84248],
+			[19666, -82635],
+			[19416, -82468],
+			[19210, -85320],
+			[23469, -85407],
+			[22621, -83076],
+			[23166, -83080],
+			[27128, -84882],
+			[26494, -85697],
+			[29265, -83840],
+			[29834, -83238],
+			[31091, -82057],
+			[31500, -84598],
+			[31604, -84385],
+			[29352, -81985],
+			[1259, -78865],
+			[714, -79468],
+			[3119, -79827],
+			[1769, -81617],
+			[5047, -79248],
+			[10250, -81624],
+			[15688, -81502],
+			[15181, -81014],
+			[15365, -80330],
+			[12825, -80813],
+			[19299, -80556],
+			[19212, -80692],
+			[20474, -79525],
+			[21907, -80546],
+			[20740, -79614],
+			[20541, -81617],
+			[28475, -78543],
+			[27016, -81088],
+			[26844, -80989],
+			[26958, -80146],
+			[25896, -79900],
+			[31088, -81372],
+			[30952, -78678],
+			[29679, -77911],
+			[29089, -79519],
+			[6849, -75786],
+			[20353, -75668],
+			[17218, -76280],
+			[29659, -77557],
+			[29424, -77418],
+			[1805, -70140],
+			[610, -70663],
+			[5419, -72903],
+			[7256, -72770],
+			[7702, -71781],
+			[18511, -72776],
+			[17697, -73040],
+			[18379, -71928],
+			[17286, -70810],
+			[24087, -70412],
+			[22292, -73505],
+			[27758, -72884],
+			[26365, -73110],
+			[26183, -73043],
+			[30228, -70253],
+			[30136, -70444],
+			[406, -67629],
+			[2600, -68963],
+			[7743, -68737],
+			[14514, -65941],
+			[21394, -66860],
+			[22856, -67326],
+			[20928, -68470],
+			[25254, -66310],
+			[31465, -69482],
+			[30129, -66041],
+			[28997, -68151],
+			[28959, -66395],
+			[101702, -129511],
+			[99693, -128787],
+			[126375, -128501],
+			[125990, -129411],
+			[126630, -129459],
+			[124562, -130754],
+			[123812, -128656],
+			[123994, -128099],
+			[130887, -130407],
+			[100122, -125116],
+			[102874, -125641],
+			[103150, -123075],
+			[110079, -123575],
+			[109380, -123658],
+			[107249, -124207],
+			[107038, -125309],
+			[113811, -125674],
+			[113918, -124071],
+			[112090, -123525],
+			[118101, -124498],
+			[118084, -125060],
+			[115860, -126292],
+			[119019, -125334],
+			[119373, -123626],
+			[121178, -123630],
+			[119804, -123428],
+			[126517, -125416],
+			[124578, -126166],
+			[124438, -126419],
+			[127968, -125246],
+			[99590, -119845],
+			[105344, -119868],
+			[103999, -119019],
+			[108334, -120068],
+			[109654, -120309],
+			[109693, -118955],
+			[112640, -121157],
+			[118686, -120739],
+			[118549, -118983],
+			[116423, -120377],
+			[119818, -121928],
+			[122150, -122198],
+			[119427, -120396],
+			[124179, -119328],
+			[125265, -120641],
+			[126618, -121601],
+			[129741, -120029],
+			[128877, -120442],
+			[98935, -117421],
+			[98968, -116416],
+			[99256, -117896],
+			[102763, -115547],
+			[105719, -118111],
+			[124032, -117576],
+			[123900, -116445],
+			[128015, -115008],
+			[100384, -114193],
+			[99365, -113355],
+			[103254, -112723],
+			[105649, -111835],
+			[100416, -108085],
+			[101662, -107186],
+			[105158, -108096],
+			[103376, -110088],
+			[101065, -104581],
+			[98933, -102988],
+			[103524, -102887],
+			[105802, -102736],
+			[105627, -102710],
+			[105378, -103580],
+			[104664, -105149],
+			[102641, -104442],
+			[130909, -103725],
+			[130721, -103892],
+			[98487, -101543],
+			[100331, -102344],
+			[100655, -101754],
+			[101008, -101671],
+			[101260, -99537],
+			[103168, -102321],
+			[104021, -101484],
+			[104210, -100581],
+			[130646, -98475],
+			[83654, -130655],
+			[83929, -128042],
+			[89933, -128545],
+			[87885, -128702],
+			[92604, -127217],
+			[90988, -127510],
+			[91448, -129615],
+			[96753, -128173],
+			[65836, -124838],
+			[88547, -126804],
+			[93292, -123162],
+			[93403, -125343],
+			[97637, -126475],
+			[95832, -124723],
+			[85211, -120503],
+			[85847, -119747],
+			[93659, -119280],
+			[90830, -121145],
+			[66999, -115342],
+			[65786, -117219],
+			[67480, -118588],
+			[70527, -117612],
+			[70053, -116196],
+			[75076, -114924],
+			[76298, -115345],
+			[77532, -115178],
+			[74673, -117338],
+			[77208, -118214],
+			[77388, -118237],
+			[77908, -114940],
+			[80907, -114907],
+			[80816, -116052],
+			[79506, -116193],
+			[79489, -116460],
+			[79514, -115073],
+			[78366, -115842],
+			[78440, -117465],
+			[79565, -118175],
+			[81658, -117546],
+			[81796, -117797],
+			[81117, -118465],
+			[84525, -117254],
+			[89127, -115704],
+			[89803, -115814],
+			[89501, -118407],
+			[86919, -115330],
+			[86157, -115768],
+			[86031, -118639],
+			[89094, -117887],
+			[89381, -118297],
+			[89552, -118342],
+			[89828, -118356],
+			[89391, -118194],
+			[89432, -118350],
+			[92294, -114774],
+			[90399, -114863],
+			[93523, -116290],
+			[92313, -117840],
+			[94357, -118189],
+			[96008, -114821],
+			[95771, -116247],
+			[96543, -115880],
+			[96940, -118485],
+			[68861, -111927],
+			[69534, -113614],
+			[65915, -110767],
+			[66684, -111468],
+			[66300, -112544],
+			[72491, -112537],
+			[73019, -111036],
+			[72050, -111745],
+			[72065, -112162],
+			[72603, -114199],
+			[77210, -110666],
+			[81377, -110842],
+			[78384, -112914],
+			[78723, -112712],
+			[85798, -112548],
+			[85709, -112639],
+			[83501, -111118],
+			[82736, -112104],
+			[83130, -113712],
+			[85814, -114333],
+			[89426, -113406],
+			[89967, -114653],
+			[90156, -114393],
+			[91331, -112253],
+			[98062, -113412],
+			[96737, -113158],
+			[96365, -112460],
+			[67175, -107790],
+			[67530, -108495],
+			[67940, -109952],
+			[68969, -107240],
+			[69403, -108137],
+			[68321, -110253],
+			[70840, -108862],
+			[71223, -107861],
+			[73596, -107132],
+			[75375, -108174],
+			[75507, -108838],
+			[75544, -109530],
+			[78673, -106920],
+			[79668, -110068],
+			[79601, -110398],
+			[80590, -109585],
+			[81064, -108061],
+			[81773, -109732],
+			[82663, -108257],
+			[82801, -108491],
+			[83999, -107081],
+			[84904, -108282],
+			[86467, -108157],
+			[87937, -108631],
+			[89235, -108924],
+			[90046, -109101],
+			[89427, -108553],
+			[87424, -110336],
+			[86188, -110407],
+			[90289, -106854],
+			[92213, -109921],
+			[95363, -109764],
+			[68166, -103092],
+			[66621, -104685],
+			[73546, -104953],
+			[76619, -102817],
+			[77490, -105876],
+			[76105, -105755],
+			[76187, -105536],
+			[74847, -105337],
+			[74649, -105641],
+			[81329, -103595],
+			[81320, -104076],
+			[83137, -104214],
+			[82340, -105638],
+			[87822, -103071],
+			[87820, -103520],
+			[86489, -102825],
+			[86679, -102866],
+			[87899, -105286],
+			[88036, -106041],
+			[88602, -103718],
+			[89647, -102489],
+			[91867, -106267],
+			[93095, -103423],
+			[93528, -103184],
+			[97052, -105500],
+			[97112, -105106],
+			[95742, -105832],
+			[66947, -98804],
+			[72831, -99010],
+			[74963, -101412],
+			[74546, -98480],
+			[76862, -98308],
+			[78108, -101672],
+			[81590, -101575],
+			[78325, -101940],
+			[85826, -98509],
+			[85610, -98832],
+			[89481, -99213],
+			[89778, -102315],
+			[87971, -100096],
+			[87736, -101576],
+			[89788, -102098],
+			[89880, -101880],
+			[93449, -99570],
+			[94355, -98699],
+			[96739, -98779],
+			[98059, -100500],
+			[36485, -127294],
+			[36683, -128620],
+			[34001, -130914],
+			[42484, -130883],
+			[42444, -127970],
+			[42238, -127634],
+			[41489, -128292],
+			[42159, -130807],
+			[46763, -129318],
+			[45598, -127241],
+			[45932, -129404],
+			[59796, -127726],
+			[59466, -130221],
+			[61055, -129990],
+			[63262, -127104],
+			[63411, -127839],
+			[63291, -127835],
+			[34182, -126016],
+			[34115, -126126],
+			[38661, -123133],
+			[38546, -123145],
+			[40451, -124164],
+			[46987, -124195],
+			[46175, -125905],
+			[50552, -124487],
+			[50218, -124484],
+			[53716, -122921],
+			[54616, -124267],
+			[55287, -125721],
+			[54390, -125575],
+			[56782, -125303],
+			[61167, -125252],
+			[59336, -122928],
+			[59432, -123003],
+			[59221, -123186],
+			[63977, -123627],
+			[65369, -124680],
+			[62783, -124175],
+			[34002, -119502],
+			[33935, -122336],
+			[39962, -122579],
+			[40427, -122596],
+			[48179, -119254],
+			[48755, -119478],
+			[48867, -119449],
+			[48886, -119725],
+			[47776, -119833],
+			[47729, -119953],
+			[51743, -121114],
+			[49683, -121195],
+			[51822, -119971],
+			[51793, -120178],
+			[51583, -120546],
+			[55278, -120376],
+			[55193, -120645],
+			[56462, -122661],
+			[57963, -120849],
+			[60763, -120612],
+			[57994, -119953],
+			[57844, -120201],
+			[62834, -122146],
+			[36536, -117611],
+			[36528, -117511],
+			[36795, -117272],
+			[35262, -117529],
+			[39147, -116075],
+			[42969, -117552],
+			[42929, -117737],
+			[43664, -115311],
+			[44793, -116038],
+			[44601, -116043],
+			[53089, -117478],
+			[52977, -117526],
+			[58920, -117345],
+			[62122, -118015],
+			[62405, -117365],
+			[64784, -117608],
+			[33889, -110772],
+			[33948, -110666],
+			[34158, -110854],
+			[36579, -114342],
+			[37881, -111769],
+			[37927, -111882],
+			[39468, -110887],
+			[41176, -111574],
+			[41106, -111476],
+			[51575, -112194],
+			[52570, -113025],
+			[52243, -114380],
+			[56421, -110873],
+			[56676, -110640],
+			[58261, -111641],
+			[58204, -111536],
+			[60102, -112558],
+			[60317, -112550],
+			[59946, -113935],
+			[62822, -112444],
+			[62840, -113778],
+			[62718, -114023],
+			[40837, -110505],
+			[44013, -107415],
+			[43931, -108038],
+			[43037, -108222],
+			[45005, -106506],
+			[48022, -108546],
+			[48128, -108335],
+			[52459, -109022],
+			[49344, -110034],
+			[49664, -106733],
+			[54804, -109615],
+			[54838, -109510],
+			[55786, -108028],
+			[61127, -109607],
+			[60568, -107472],
+			[63809, -108695],
+			[63629, -107602],
+			[33491, -104840],
+			[33578, -105112],
+			[35709, -106124],
+			[35786, -106136],
+			[35673, -106367],
+			[37142, -103356],
+			[46233, -106379],
+			[48619, -104634],
+			[53025, -104355],
+			[54754, -103359],
+			[54667, -103629],
+			[55785, -104885],
+			[55789, -104690],
+			[55936, -104928],
+			[59127, -103634],
+			[64462, -104407],
+			[64235, -105768],
+			[63155, -106054],
+			[35438, -100982],
+			[34907, -100681],
+			[35472, -100423],
+			[37293, -100216],
+			[38179, -98728],
+			[38799, -99809],
+			[45030, -98956],
+			[44875, -98534],
+			[46384, -101136],
+			[52209, -100964],
+			[49656, -99609],
+			[49723, -99779],
+			[55966, -99421],
+			[65014, -98367],
+			[1926, -128767],
+			[1109, -127227],
+			[6495, -128972],
+			[8207, -130870],
+			[8361, -129040],
+			[9752, -129703],
+			[12737, -129161],
+			[12792, -129049],
+			[12817, -127450],
+			[27451, -127482],
+			[25459, -127323],
+			[26635, -128414],
+			[32584, -130257],
+			[2805, -124749],
+			[4178, -124351],
+			[5585, -126769],
+			[5223, -126410],
+			[17689, -124765],
+			[23283, -124082],
+			[22566, -123852],
+			[28639, -126716],
+			[29915, -123197],
+			[31409, -125054],
+			[31735, -126289],
+			[490, -121869],
+			[4227, -122326],
+			[6647, -119773],
+			[9755, -122333],
+			[9172, -122590],
+			[24007, -120532],
+			[26084, -122349],
+			[26556, -119574],
+			[26285, -119513],
+			[30229, -118863],
+			[30928, -119611],
+			[32652, -119929],
+			[32531, -119953],
+			[1532, -116634],
+			[2597, -115861],
+			[2984, -116897],
+			[3008, -117019],
+			[2920, -116296],
+			[3795, -117412],
+			[5573, -118062],
+			[5452, -117808],
+			[10865, -118139],
+			[11068, -117959],
+			[9381, -115996],
+			[13487, -117182],
+			[13628, -117105],
+			[15665, -115042],
+			[19327, -116015],
+			[16984, -117576],
+			[21619, -117051],
+			[23049, -116833],
+			[22944, -116777],
+			[27339, -117384],
+			[27453, -117341],
+			[25264, -114843],
+			[2489, -111740],
+			[2864, -111606],
+			[6445, -110645],
+			[6361, -110770],
+			[9171, -114194],
+			[10875, -111280],
+			[13376, -112393],
+			[15328, -114073],
+			[15607, -111024],
+			[15763, -111363],
+			[13688, -112485],
+			[14580, -110677],
+			[19205, -114510],
+			[19090, -114476],
+			[19217, -114227],
+			[24292, -112703],
+			[24088, -112507],
+			[22006, -114650],
+			[27192, -112005],
+			[27370, -113384],
+			[29220, -110801],
+			[29048, -113236],
+			[28894, -113474],
+			[7363, -108393],
+			[5535, -109332],
+			[5636, -109264],
+			[6283, -110575],
+			[13535, -107481],
+			[18445, -108598],
+			[18429, -108882],
+			[17499, -109967],
+			[22578, -107121],
+			[23459, -107098],
+			[29268, -107558],
+			[7272, -103825],
+			[6350, -104662],
+			[7159, -103995],
+			[4850, -104424],
+			[4593, -104542],
+			[6558, -104510],
+			[9461, -103860],
+			[9127, -105688],
+			[13632, -105586],
+			[18441, -103620],
+			[22528, -105550],
+			[22954, -104708],
+			[20619, -102542],
+			[23146, -104521],
+			[27226, -103521],
+			[27169, -103413],
+			[26249, -105328],
+			[25579, -106067],
+			[25650, -103914],
+			[29447, -102905],
+			[31136, -106231],
+			[2734, -100213],
+			[3886, -99047],
+			[6096, -98423],
+			[6191, -98487],
+			[6314, -101239],
+			[6404, -100975],
+			[6288, -100960],
+			[4170, -99024],
+			[20669, -100483],
+			[22999, -100366],
+			[21398, -102166],
+			[-21743, -163429],
+			[-19906, -160771],
+			[-18244, -162628],
+			[-18415, -162198],
+			[-14537, -160170],
+			[-16220, -152154],
+			[-6093, -152732],
+			[-5401, -152858],
+			[-3275, -153820],
+			[-3720, -154484],
+			[-3836, -154450],
+			[-14805, -147677],
+			[-15053, -147797],
+			[-11954, -149125],
+			[-12114, -148895],
+			[-10167, -147870],
+			[-283, -149002],
+			[-392, -149056],
+			[-13626, -144806],
+			[-12550, -144379],
+			[-12436, -143871],
+			[-12417, -143991],
+			[-14320, -146453],
+			[-14211, -147018],
+			[-8968, -144732],
+			[-10059, -144549],
+			[-11079, -144852],
+			[-11502, -144573],
+			[-11426, -143764],
+			[-994, -146165],
+			[-742, -146042],
+			[-3692, -144106],
+			[-1206, -144092],
+			[-1357, -143850],
+			[-16068, -141475],
+			[-13796, -142374],
+			[-12915, -142932],
+			[-9362, -142639],
+			[-9610, -142773],
+			[-10109, -136503],
+			[-11618, -136805],
+			[-11542, -136700],
+			[-11358, -136914],
+			[-5536, -135491],
+			[-2201, -137244],
+			[-3893, -135867],
+			[-15269, -133429],
+			[-15344, -133520],
+			[-15528, -133300],
+			[-13928, -133850],
+			[-12732, -133365],
+			[-15102, -134239],
+			[-13931, -134978],
+			[-11050, -132183],
+			[-10761, -131864],
+			[-9864, -131257],
+			[-8844, -131280],
+			[-9755, -133072],
+			[-4291, -134353],
+			[-2386, -132117],
+			[-2143, -131558],
+			[-2707, -132562],
+			[-2890, -131589],
+			[-37632, -157849],
+			[-34514, -154458],
+			[-32254, -190640],
+			[-24737, -188845],
+			[-27103, -189792],
+			[-21229, -189234],
+			[-30837, -184966],
+			[-32680, -185720],
+			[-31837, -186198],
+			[-17457, -187957],
+			[-17005, -187023],
+			[-19505, -187442],
+			[-14344, -185254],
+			[-29892, -183529],
+			[-32493, -182192],
+			[-26472, -180280],
+			[-28183, -181738],
+			[-26845, -182945],
+			[-23647, -181137],
+			[-22874, -183061],
+			[-24217, -182539],
+			[-24390, -182525],
+			[-22941, -182361],
+			[-20445, -181600],
+			[-11890, -182984],
+			[-30355, -178541],
+			[-26833, -178163],
+			[-26106, -179433],
+			[-25839, -179937],
+			[-22707, -178270],
+			[-22917, -176175],
+			[-19614, -179753],
+			[-19279, -178370],
+			[-14727, -178357],
+			[-31560, -175703],
+			[-28801, -172479],
+			[-30988, -174945],
+			[-30573, -172489],
+			[-27182, -172146],
+			[-22904, -175941],
+			[-23528, -176004],
+			[-18143, -175430],
+			[-29346, -169261],
+			[-32668, -170859],
+			[-17504, -170057],
+			[-17693, -171707],
+			[-16157, -168029],
+			[-31836, -164549],
+			[-32014, -167189],
+			[-25876, -166251],
+			[-19912, -166985],
+			[-14574, -165294],
+			[-32792, -191880],
+			[-33503, -188858],
+			[-34851, -186102],
+			[-37156, -181820],
+			[-36805, -180258],
+			[-33298, -180687],
+			[-33851, -181558],
+			[-37855, -178323],
+			[-33255, -179672],
+			[-33574, -175355],
+			[-39278, -171077],
+			[-38001, -168179],
+			[-34821, -170820],
+			[-38138, -166552],
+			[-39364, -165820],
+			[-35490, -167659],
+			[-94897, -182628],
+			[-95371, -183306],
+			[-94892, -182308],
+			[-99446, -179078],
+			[-99189, -179127],
+			[-139127, -155439],
+			[-138379, -154761],
+			[-138569, -154695],
+			[-137841, -149688],
+			[-137645, -132729],
+			[-171310, -140698],
+			[-136164, -182301],
+			[198451, -157313],
+			[198438, -157249],
+			[200108, -152710],
+			[200128, -152784],
+			[197446, -152684],
+			[199524, -148315],
+			[199433, -148256],
+			[197176, -150117],
+			[197186, -150045],
+			[203303, -150254],
+			[204372, -147895],
+			[206057, -143661],
+			[196685, -142364],
+			[197893, -141012],
+			[197677, -141077],
+			[204432, -141876],
+			[204542, -141794],
+			[208262, -137128],
+			[208423, -138153],
+			[198650, -134015],
+			[206926, -133824],
+			[206183, -134762],
+			[206175, -134577],
+			[185862, -162706],
+			[185965, -162772],
+			[188328, -158331],
+			[188132, -158542],
+			[188238, -158485],
+			[188345, -158742],
+			[188293, -158535],
+			[188227, -158653],
+			[188573, -158404],
+			[188569, -158333],
+			[188647, -158428],
+			[190148, -156497],
+			[190073, -156422],
+			[188569, -158460],
+			[187653, -154701],
+			[187632, -154595],
+			[189937, -154453],
+			[189954, -154379],
+			[189825, -154420],
+			[191144, -152653],
+			[187273, -148180],
+			[187293, -148092],
+			[195394, -150727],
+			[182246, -145244],
+			[182326, -145501],
+			[192517, -144313],
+			[184445, -140856],
+			[188748, -140148],
+			[188709, -140242],
+			[191872, -141573],
+			[174227, -135262],
+			[185398, -136441],
+			[188078, -135236],
+			[193459, -138149],
+			[193599, -138424],
+			[171986, -131529],
+			[184547, -131773],
+			[191955, -134457],
+			[192117, -134209],
+			[194156, -132280],
+			[139199, -162951],
+			[139824, -160513],
+			[140004, -160624],
+			[141695, -160353],
+			[160574, -163730],
+			[142508, -157943],
+			[142328, -157832],
+			[142254, -158018],
+			[155521, -159365],
+			[155244, -159050],
+			[155142, -158452],
+			[155323, -158563],
+			[153584, -156157],
+			[153658, -155971],
+			[153838, -156082],
+			[156242, -158827],
+			[140622, -152278],
+			[143172, -151961],
+			[143895, -151795],
+			[145315, -152112],
+			[143982, -152892],
+			[144375, -152753],
+			[144753, -152889],
+			[146254, -152784],
+			[149547, -153095],
+			[148581, -154183],
+			[148368, -154700],
+			[148442, -154514],
+			[154448, -154903],
+			[153075, -154262],
+			[153329, -154187],
+			[152910, -153852],
+			[146459, -151343],
+			[133420, -143921],
+			[133493, -143734],
+			[131083, -144642],
+			[132413, -145886],
+			[134862, -137472],
+			[138778, -137863],
+			[142928, -138838],
+			[161589, -137143],
+			[161548, -137279],
+			[148286, -133538],
+			[148355, -133692],
+			[153040, -132508],
+			[153016, -132754],
+			[163533, -131555],
+			[199542, -166202],
+			[203817, -164267],
+			[203721, -164247],
+			[173439, -170870],
+			[182662, -166051],
+			[131511, -165592],
+			[134735, -166408],
+			[136071, -165130],
+			[136780, -165789],
+			[136854, -165603],
+			[98667, -161623],
+			[98745, -161526],
+			[101925, -163657],
+			[104123, -161252],
+			[104934, -161510],
+			[103237, -163278],
+			[112531, -162519],
+			[115360, -163768],
+			[101542, -158981],
+			[98424, -157322],
+			[99173, -158946],
+			[99212, -158827],
+			[103649, -158044],
+			[103917, -157893],
+			[103771, -157824],
+			[102523, -159237],
+			[102783, -159535],
+			[102822, -156840],
+			[106362, -157021],
+			[106386, -155989],
+			[105306, -155662],
+			[105796, -155916],
+			[103936, -158045],
+			[103108, -157734],
+			[106580, -156638],
+			[112836, -156883],
+			[112797, -157002],
+			[111307, -159145],
+			[104934, -152887],
+			[105270, -154172],
+			[105072, -154675],
+			[105308, -152364],
+			[106232, -152676],
+			[109213, -152310],
+			[110393, -154349],
+			[110860, -152120],
+			[112318, -154226],
+			[103391, -147962],
+			[107381, -149170],
+			[107420, -149051],
+			[107583, -150613],
+			[107815, -150616],
+			[106563, -151043],
+			[109491, -149316],
+			[108665, -149564],
+			[108704, -149445],
+			[110944, -151308],
+			[110983, -151189],
+			[103634, -144596],
+			[103673, -144477],
+			[106847, -146838],
+			[106886, -146719],
+			[106878, -147310],
+			[107052, -147073],
+			[109112, -146006],
+			[129160, -144255],
+			[127721, -141328],
+			[127795, -141142],
+			[127975, -141253],
+			[100133, -136195],
+			[103263, -136389],
+			[117289, -136434],
+			[116991, -135437],
+			[121970, -136730],
+			[126837, -139008],
+			[124476, -135619],
+			[125520, -136523],
+			[130542, -138449],
+			[99731, -134021],
+			[98866, -131866],
+			[104005, -132822],
+			[103267, -134104],
+			[112179, -131457],
+			[122360, -132497],
+			[121682, -131943],
+			[126477, -132292],
+			[123071, -135023],
+			[129509, -133150],
+			[69265, -161261],
+			[72035, -162450],
+			[72640, -162066],
+			[73176, -161916],
+			[76443, -161941],
+			[80940, -163591],
+			[80162, -162094],
+			[78606, -162990],
+			[80945, -159991],
+			[83239, -163402],
+			[88267, -162984],
+			[88162, -163544],
+			[87640, -161374],
+			[93391, -160417],
+			[93430, -160298],
+			[92240, -162223],
+			[92528, -162412],
+			[91271, -163124],
+			[97481, -161981],
+			[96807, -160343],
+			[77478, -156086],
+			[77595, -156285],
+			[76483, -155880],
+			[76569, -155889],
+			[80906, -156341],
+			[87329, -156175],
+			[91192, -158937],
+			[81508, -153157],
+			[85647, -151751],
+			[89436, -155413],
+			[89710, -155313],
+			[88496, -154380],
+			[86608, -153201],
+			[67618, -148038],
+			[69402, -150484],
+			[66328, -150096],
+			[76355, -150047],
+			[80140, -149423],
+			[80678, -150352],
+			[79887, -150244],
+			[79866, -150354],
+			[80108, -150056],
+			[85731, -150278],
+			[83860, -148974],
+			[87546, -150162],
+			[89589, -150108],
+			[89676, -150149],
+			[89296, -148347],
+			[87402, -147989],
+			[66953, -143961],
+			[72909, -145713],
+			[76906, -144522],
+			[77140, -144529],
+			[74644, -146058],
+			[78810, -144089],
+			[78418, -144383],
+			[82279, -144306],
+			[80979, -142970],
+			[83491, -141570],
+			[84768, -141843],
+			[67280, -137635],
+			[70378, -138799],
+			[70160, -138827],
+			[73639, -137317],
+			[76218, -135792],
+			[78349, -135447],
+			[80252, -135419],
+			[84877, -137500],
+			[84500, -137533],
+			[87664, -136288],
+			[92562, -138897],
+			[91376, -138207],
+			[95566, -136206],
+			[97770, -136291],
+			[95960, -135615],
+			[97985, -139081],
+			[82888, -132564],
+			[90060, -135103],
+			[88617, -133272],
+			[86695, -131705],
+			[86226, -134063],
+			[86412, -133905],
+			[93157, -131538],
+			[91559, -133510],
+			[93327, -134992],
+			[62093, -162562],
+			[64396, -162155],
+			[64026, -160486],
+			[47606, -156604],
+			[42980, -152945],
+			[44210, -154482],
+			[44500, -154454],
+			[45775, -151896],
+			[45666, -151844],
+			[47873, -155174],
+			[52728, -154839],
+			[52563, -154604],
+			[54701, -154687],
+			[56444, -154104],
+			[56595, -154246],
+			[58870, -153865],
+			[59326, -153197],
+			[45765, -150967],
+			[49147, -149372],
+			[52363, -151384],
+			[57959, -148552],
+			[57927, -148705],
+			[57781, -148770],
+			[59335, -149382],
+			[58800, -149888],
+			[57750, -149652],
+			[57658, -149691],
+			[59090, -147795],
+			[59074, -147915],
+			[58855, -147973],
+			[59552, -149894],
+			[62139, -148854],
+			[64216, -149943],
+			[48290, -144064],
+			[48623, -146932],
+			[50281, -144780],
+			[50402, -144724],
+			[49631, -146192],
+			[55174, -145911],
+			[58986, -145145],
+			[58789, -145466],
+			[65340, -145398],
+			[65211, -145147],
+			[62612, -145159],
+			[62639, -144815],
+			[63519, -143437],
+			[43900, -140242],
+			[43783, -140262],
+			[46743, -140216],
+			[54373, -141703],
+			[54155, -141890],
+			[57937, -140277],
+			[63072, -143137],
+			[61832, -141844],
+			[62169, -141723],
+			[62638, -140406],
+			[63989, -140221],
+			[64210, -139627],
+			[61846, -142253],
+			[64209, -140774],
+			[62591, -142249],
+			[40423, -138516],
+			[42302, -135352],
+			[43293, -136965],
+			[44234, -137377],
+			[49406, -138260],
+			[49531, -139008],
+			[56342, -137920],
+			[55934, -137278],
+			[59616, -137187],
+			[57978, -138193],
+			[57779, -136063],
+			[62608, -138502],
+			[62538, -138601],
+			[63017, -135538],
+			[61768, -138907],
+			[35497, -131247],
+			[33266, -132471],
+			[39873, -132785],
+			[42675, -132762],
+			[41257, -131597],
+			[45883, -134247],
+			[57000, -134034],
+			[61007, -132427],
+			[58542, -134265],
+			[62668, -132368],
+			[65253, -131950],
+			[61939, -133114],
+			[64171, -132964],
+			[4410, -160178],
+			[2258, -157872],
+			[820, -153198],
+			[1566, -152910],
+			[1488, -148004],
+			[1601, -147960],
+			[5312, -149164],
+			[10195, -151040],
+			[9204, -149818],
+			[15369, -150031],
+			[17699, -149013],
+			[18933, -148801],
+			[6573, -144739],
+			[18017, -146344],
+			[17143, -147033],
+			[22691, -144652],
+			[21274, -147285],
+			[20610, -147341],
+			[6958, -142005],
+			[11164, -140607],
+			[10335, -139912],
+			[10057, -142617],
+			[12880, -141026],
+			[12943, -140922],
+			[14151, -142342],
+			[15578, -140457],
+			[21064, -142400],
+			[21253, -143120],
+			[20816, -140066],
+			[25307, -142364],
+			[24896, -140500],
+			[25059, -140729],
+			[29821, -140335],
+			[29734, -140252],
+			[30056, -141761],
+			[29773, -141763],
+			[301, -137584],
+			[1308, -135640],
+			[1728, -136927],
+			[1545, -136718],
+			[4232, -138950],
+			[6095, -138406],
+			[6351, -138318],
+			[4827, -138986],
+			[4725, -138928],
+			[4912, -138716],
+			[9407, -137569],
+			[10259, -138956],
+			[10964, -138107],
+			[10898, -138195],
+			[11234, -136826],
+			[10464, -136059],
+			[10578, -136025],
+			[10602, -136304],
+			[12764, -139048],
+			[12327, -138105],
+			[12997, -138892],
+			[15984, -136312],
+			[15917, -135608],
+			[16951, -136639],
+			[18059, -136814],
+			[23939, -137875],
+			[22235, -135798],
+			[25705, -135644],
+			[24784, -136200],
+			[32096, -138864],
+			[3163, -132187],
+			[4867, -131652],
+			[6523, -132182],
+			[7639, -132202],
+			[5728, -133799],
+			[7479, -133612],
+			[6518, -133580],
+			[6491, -133409],
+			[5111, -133964],
+			[5098, -134082],
+			[4718, -134062],
+			[8403, -134449],
+			[9453, -132364],
+			[11549, -134299],
+			[26190, -131388],
+			[24929, -131484],
+			[29193, -133279],
+			[105789, -164382],
+			[107508, -164199],
+			[107547, -164080],
+			[117832, -167041],
+			[118388, -164899],
+			[116126, -164297],
+			[115922, -164123],
+			[115452, -166803],
+			[119123, -164064],
+			[125868, -165770],
+			[125941, -165583],
+			[126122, -165694],
+			[129168, -165152],
+			[129242, -164966],
+			[80943, -172804],
+			[81256, -172523],
+			[77902, -172978],
+			[79348, -172807],
+			[87451, -174393],
+			[66116, -169916],
+			[68848, -168650],
+			[71201, -168522],
+			[73459, -170613],
+			[71399, -171364],
+			[73139, -169012],
+			[79053, -171000],
+			[74492, -166610],
+			[76516, -167046],
+			[85276, -165973],
+			[82254, -164183],
+			[84580, -164377],
+			[87702, -166153],
+			[88755, -164977],
+			[-13955, 199741],
+			[-15005, 202832],
+			[-59773, 199855],
+			[-48057, 198997],
+			[-48094, 199238],
+			[-37347, 197422],
+			[-50319, 202812],
+			[-44318, 201992],
+			[-44313, 201838],
+			[-62930, 205673],
+			[-64554, 206627],
+			[-68278, 198516],
+			[-71397, 202474],
+			[-68689, 202879],
+			[-66897, 204625],
+			[-30285, 164771],
+			[-30372, 165076],
+			[-27094, 167315],
+			[-27304, 166778],
+			[-23064, 164676],
+			[-14575, 167163],
+			[-11791, 167118],
+			[-2747, 166880],
+			[-1643, 165468],
+			[-1048, 168227],
+			[-328, 168870],
+			[-14346, 178726],
+			[-15049, 176584],
+			[-16114, 179685],
+			[-15943, 187618],
+			[-13609, 185967],
+			[-16667, 190288],
+			[-14923, 191664],
+			[-8712, 190091],
+			[-9395, 188831],
+			[-49612, 164437],
+			[-49498, 164307],
+			[-45944, 164869],
+			[-45986, 164789],
+			[-33055, 166759],
+			[-33344, 166755],
+			[-38354, 170399],
+			[-38241, 170426],
+			[-38255, 170677],
+			[-42028, 175580],
+			[-40144, 175138],
+			[-45716, 177931],
+			[-38443, 184294],
+			[-39602, 186198],
+			[-39713, 186376],
+			[-41988, 190103],
+			[-39738, 188681],
+			[-23399, 131474],
+			[-23305, 131421],
+			[-19288, 134137],
+			[-19323, 134229],
+			[-14027, 134812],
+			[-14560, 131713],
+			[-8945, 131815],
+			[-7427, 131655],
+			[-3462, 133510],
+			[-28037, 137251],
+			[-23370, 138036],
+			[-17346, 135801],
+			[-19752, 138720],
+			[-17338, 137670],
+			[-17258, 137773],
+			[-15261, 138690],
+			[-1716, 139250],
+			[-3101, 137272],
+			[-1916, 136106],
+			[-31423, 140657],
+			[-31472, 140466],
+			[-22906, 140845],
+			[-22902, 140709],
+			[-20252, 139608],
+			[-20282, 139541],
+			[-13158, 142856],
+			[-11086, 142648],
+			[-7230, 140672],
+			[-3030, 141590],
+			[-31510, 147200],
+			[-31291, 146925],
+			[-23414, 143877],
+			[-13672, 145745],
+			[-12181, 147224],
+			[-26817, 148276],
+			[-17755, 148709],
+			[-17828, 148825],
+			[-12595, 149779],
+			[-15441, 148906],
+			[-11954, 151126],
+			[-7453, 149540],
+			[-2610, 148962],
+			[-27373, 155332],
+			[-2445, 155178],
+			[-1106, 153997],
+			[-2826, 155461],
+			[-2851, 155543],
+			[-32183, 157218],
+			[-32284, 157406],
+			[-9951, 158600],
+			[-5816, 156766],
+			[-32176, 161938],
+			[-7861, 162871],
+			[-50159, 146257],
+			[-50047, 146183],
+			[-37473, 144136],
+			[-35948, 145447],
+			[-35923, 145548],
+			[-49695, 148435],
+			[-34286, 148562],
+			[-45722, 154244],
+			[-35739, 153530],
+			[-35780, 153356],
+			[-35549, 162427],
+			[-35934, 162458],
+			[-68455, 138718],
+			[-88194, 139571],
+			[-78275, 151661],
+			[-105234, 149216],
+			[-105356, 149177],
+			[-167589, 164060],
+			[-167568, 164062],
+			[-182770, 131290],
+			[-180024, 134368],
+			[-173588, 135942],
+			[-180903, 140761],
+			[-165728, 146731],
+			[-166012, 146038],
+			[-166156, 144230],
+			[-165741, 151247],
+			[-164933, 151512],
+			[-165621, 147652],
+			[-174027, 153430],
+			[-172882, 152861],
+			[-168543, 154297],
+			[-171594, 153257],
+			[-167736, 153363],
+			[-167759, 155402],
+			[-167813, 152868],
+			[-173419, 158844],
+			[-174807, 158172],
+			[-173681, 158912],
+			[-172560, 156365],
+			[-165066, 158687],
+			[-170231, 163235],
+			[-168657, 162723],
+			[-169859, 161525],
+			[-171119, 159986],
+			[-169292, 161513],
+			[33453, 198284],
+			[48334, 200287],
+			[52453, 197191],
+			[50325, 197528],
+			[53582, 199823],
+			[61372, 200465],
+			[64957, 199111],
+			[32876, 202162],
+			[34282, 203032],
+			[40649, 204065],
+			[37690, 203828],
+			[38663, 203487],
+			[37962, 200931],
+			[43201, 203785],
+			[61284, 204008],
+			[59840, 203888],
+			[3323, 197648],
+			[19133, 198516],
+			[30838, 199180],
+			[15089, 202321],
+			[16943, 201472],
+			[16516, 202586],
+			[26212, 204616],
+			[26927, 204029],
+			[30913, 202038],
+			[31094, 203267],
+			[3680, 206533],
+			[9075, 208060],
+			[17665, 206441],
+			[26370, 207148],
+			[27026, 208486],
+			[26564, 208017],
+			[26385, 205507],
+			[9882, 209596],
+			[107202, 168884],
+			[109051, 175263],
+			[109953, 179875],
+			[98992, 183348],
+			[98828, 184137],
+			[99088, 184892],
+			[99046, 185820],
+			[68865, 165987],
+			[85001, 179832],
+			[87811, 182390],
+			[93453, 184252],
+			[49083, 167774],
+			[33722, 168973],
+			[44488, 171140],
+			[58495, 171164],
+			[35468, 174448],
+			[40287, 172635],
+			[38636, 172946],
+			[41291, 174980],
+			[50728, 173985],
+			[46576, 178040],
+			[34024, 181714],
+			[33001, 181832],
+			[40043, 180916],
+			[41292, 180864],
+			[55933, 181035],
+			[59081, 180901],
+			[46839, 188204],
+			[51609, 187760],
+			[62408, 185865],
+			[62530, 184596],
+			[35362, 189691],
+			[36756, 189898],
+			[32946, 189995],
+			[40030, 190509],
+			[39498, 190684],
+			[43461, 191765],
+			[42696, 189293],
+			[63063, 188862],
+			[35761, 192625],
+			[45446, 195893],
+			[26523, 166197],
+			[9922, 170290],
+			[14057, 170129],
+			[14612, 169225],
+			[27777, 171439],
+			[9223, 173195],
+			[11054, 172395],
+			[11066, 172221],
+			[18326, 175212],
+			[19683, 173036],
+			[19225, 174467],
+			[22059, 172972],
+			[23441, 174124],
+			[7846, 179054],
+			[7427, 176620],
+			[8750, 178306],
+			[9793, 177488],
+			[9998, 178641],
+			[15533, 178678],
+			[13728, 179248],
+			[17105, 178369],
+			[18638, 177248],
+			[22230, 178809],
+			[22353, 178362],
+			[22682, 177707],
+			[31161, 177655],
+			[31553, 178568],
+			[29953, 178106],
+			[5841, 183981],
+			[9016, 182773],
+			[18096, 182064],
+			[3186, 186926],
+			[7460, 187090],
+			[7100, 186661],
+			[15299, 186502],
+			[15560, 186856],
+			[15464, 188006],
+			[15706, 188259],
+			[14563, 186936],
+			[20894, 185383],
+			[3645, 190327],
+			[12455, 191500],
+			[15384, 188631],
+			[22292, 190557],
+			[26555, 190249],
+			[26178, 189827],
+			[27247, 188901],
+			[30783, 189199],
+			[31475, 190152],
+			[30652, 190517],
+			[3349, 195447],
+			[2743, 193705],
+			[3218, 196144],
+			[9409, 195048],
+			[10680, 195482],
+			[16778, 195556],
+			[21768, 196327],
+			[25687, 193157],
+			[31365, 194102],
+			[31068, 194753],
+			[30451, 194830],
+			[68723, 132587],
+			[68707, 132701],
+			[78841, 134763],
+			[78718, 134671],
+			[78671, 134821],
+			[73805, 138248],
+			[73293, 142652],
+			[81656, 142426],
+			[81573, 142666],
+			[69350, 144092],
+			[80844, 147398],
+			[84308, 161291],
+			[98176, 163079],
+			[52737, 132038],
+			[59715, 133071],
+			[63475, 132700],
+			[63637, 132481],
+			[40316, 136184],
+			[40487, 136166],
+			[36926, 137926],
+			[46684, 135315],
+			[51964, 136874],
+			[51102, 137997],
+			[51256, 138182],
+			[38576, 141851],
+			[45350, 140885],
+			[46171, 139820],
+			[60321, 141646],
+			[59348, 142449],
+			[32960, 146590],
+			[47709, 146623],
+			[54632, 143897],
+			[42814, 149424],
+			[44137, 149102],
+			[47783, 148778],
+			[36723, 153323],
+			[40513, 152472],
+			[41147, 152364],
+			[42077, 154110],
+			[55075, 152360],
+			[55313, 152492],
+			[55337, 153081],
+			[57345, 155270],
+			[63646, 153078],
+			[63796, 153234],
+			[63533, 156603],
+			[64120, 156194],
+			[64125, 156030],
+			[50494, 160915],
+			[49362, 160456],
+			[60160, 160122],
+			[3284, 132364],
+			[9768, 131256],
+			[10400, 133272],
+			[3204, 136722],
+			[5729, 136074],
+			[13100, 137397],
+			[16044, 135324],
+			[6231, 141002],
+			[20842, 140839],
+			[21176, 141021],
+			[31083, 139931],
+			[31176, 140495],
+			[31281, 140330],
+			[31121, 140297],
+			[260, 146619],
+			[3630, 143709],
+			[13861, 146490],
+			[14017, 144661],
+			[22427, 144554],
+			[22000, 145032],
+			[17232, 149256],
+			[26348, 149573],
+			[3284, 153106],
+			[2102, 153158],
+			[9232, 153744],
+			[15170, 153602],
+			[23112, 154832],
+			[21512, 153208],
+			[31125, 152328],
+			[11752, 155816],
+			[10429, 158008],
+			[29936, 157819],
+			[10942, 160661],
+			[10268, 160782],
+			[10353, 161752],
+			[13822, 161710],
+			[30104, 161415],
+			[29504, 161747],
+			[29440, 161155],
+			[-23411, 130018],
+			[-10458, 127735],
+			[-8054, 128619],
+			[-956, 127407],
+			[-3555, 128223],
+			[-92810, 106057],
+			[-96552, 121533],
+			[-96953, 121145],
+			[-78745, 121999],
+			[-79060, 122276],
+			[-39781, 3445],
+			[-39760, 3330],
+			[-36945, 15],
+			[-40142, 731],
+			[-40103, 774],
+			[-39691, 2063],
+			[-36974, 570],
+			[-37049, 581],
+			[-36954, 659],
+			[-39745, 3244],
+			[-36342, 102],
+			[-35774, 3104],
+			[-35933, 2013],
+			[-35885, 2058],
+			[-35928, 2085],
+			[-36033, 3106],
+			[-39883, 4183],
+			[-39941, 4427],
+			[-40376, 7028],
+			[-40399, 7111],
+			[-40292, 6645],
+			[-40344, 6757],
+			[-40354, 6845],
+			[-40348, 6936],
+			[-40174, 5699],
+			[-40208, 5776],
+			[-40244, 5836],
+			[-40240, 5898],
+			[-40076, 5164],
+			[-40154, 5439],
+			[-40171, 5551],
+			[-39920, 4501],
+			[-39929, 4335],
+			[-39894, 4274],
+			[-40972, 10845],
+			[-39232, 8283],
+			[-39550, 9074],
+			[-39707, 9368],
+			[-39360, 8629],
+			[-47785, 16300],
+			[-47833, 16281],
+			[-47887, 16277],
+			[-41902, 12675],
+			[-42114, 12924],
+			[-87640, 3889],
+			[-80236, 3340],
+			[-80719, 183],
+			[-79711, 1],
+			[-137278, 105957],
+			[-137639, 106198],
+			[-154837, 119699],
+			[-176360, 113173],
+			[-178989, 111027],
+			[-178360, 111870],
+			[-172450, 117676],
+			[-180337, 123049],
+			[-179753, 124592],
+			[199715, 39931],
+			[200339, 37418],
+			[169642, 55826],
+			[170050, 55662],
+			[169542, 55399],
+			[167001, 59744],
+			[167173, 59380],
+			[168506, 59952],
+			[161500, 60051],
+			[167157, 12096],
+			[165127, 15634],
+			[147031, 8080],
+			[157444, 10376],
+			[79166, 128668],
+			[79119, 128611],
+			[40070, 130352],
+			[37704, 128694],
+			[38581, 127895],
+			[38620, 128132],
+			[42172, 129136],
+			[47965, 128282],
+			[54495, 129095],
+			[54316, 128869],
+			[57306, 129173],
+			[54953, 127415],
+			[57487, 127560],
+			[58272, 127403],
+			[63184, 131060],
+			[1994, 128146],
+			[14266, 128838],
+			[13430, 129200],
+			[101364, 3141],
+			[100829, 3728],
+			[99143, 759],
+			[108371, 1918],
+			[108403, 2037],
+			[109995, 3038],
+			[109943, 2522],
+			[109409, 923],
+			[109421, 1032],
+			[109336, 1164],
+			[109296, 1312],
+			[109651, 688],
+			[109641, 545],
+			[109258, 612],
+			[109152, 704],
+			[111644, 3275],
+			[113045, 4002],
+			[113682, 185],
+			[114436, 331],
+			[114128, 1860],
+			[113259, 2524],
+			[113782, 2723],
+			[114424, 2532],
+			[114657, 1288],
+			[114868, 2808],
+			[116452, 2639],
+			[116272, 2650],
+			[116003, 2942],
+			[116075, 3192],
+			[115788, 1836],
+			[115867, 1736],
+			[115203, 1292],
+			[116828, 1471],
+			[116847, 1282],
+			[103813, 5671],
+			[112253, 4413],
+			[112356, 4367],
+			[113021, 4157],
+			[98998, 11028],
+			[104685, 8734],
+			[100514, 13907],
+			[103666, 12787],
+			[102100, 17173],
+			[100956, 16964],
+			[70875, 786],
+			[70984, 493],
+			[72640, 2458],
+			[74814, 3260],
+			[83858, 2539],
+			[83809, 2329],
+			[83781, 1994],
+			[82209, 3491],
+			[90349, 529],
+			[66514, 4781],
+			[71807, 6884],
+			[71929, 6877],
+			[70146, 4292],
+			[69836, 7579],
+			[77574, 6707],
+			[85552, 7207],
+			[89027, 6164],
+			[86481, 7685],
+			[88431, 4953],
+			[88474, 4839],
+			[88850, 5855],
+			[89089, 6228],
+			[89083, 6102],
+			[90279, 5972],
+			[92563, 6510],
+			[68816, 9489],
+			[68803, 11606],
+			[71748, 9604],
+			[74340, 9829],
+			[74462, 9822],
+			[81810, 11339],
+			[78035, 8795],
+			[78158, 8788],
+			[93222, 9055],
+			[91288, 8270],
+			[93732, 11340],
+			[66704, 13779],
+			[65877, 14001],
+			[65998, 13994],
+			[65962, 15351],
+			[66085, 15344],
+			[70104, 13908],
+			[77232, 13941],
+			[74424, 13053],
+			[74547, 13047],
+			[79518, 15203],
+			[81259, 13985],
+			[79796, 14140],
+			[79918, 14133],
+			[87000, 12726],
+			[90845, 13173],
+			[97541, 13674],
+			[36374, 831],
+			[39945, 1700],
+			[42487, 479],
+			[46149, 877],
+			[53361, 1179],
+			[56369, 2020],
+			[60173, 274],
+			[60296, 267],
+			[62823, 1348],
+			[36791, 8000],
+			[33189, 4683],
+			[40418, 5781],
+			[40450, 5882],
+			[36910, 8050],
+			[53446, 7037],
+			[53779, 6019],
+			[53901, 6012],
+			[55911, 4386],
+			[56039, 7194],
+			[59850, 5354],
+			[59590, 4326],
+			[63612, 6656],
+			[63735, 6649],
+			[33332, 9133],
+			[33246, 9164],
+			[36317, 9144],
+			[36221, 9000],
+			[36184, 8866],
+			[43785, 10946],
+			[43710, 10906],
+			[43654, 10980],
+			[48700, 10105],
+			[46780, 9726],
+			[46933, 12263],
+			[45461, 11720],
+			[63674, 9168],
+			[35802, 13015],
+			[35864, 12907],
+			[35342, 12981],
+			[33643, 14904],
+			[33652, 14967],
+			[33528, 14964],
+			[40071, 16005],
+			[40037, 16110],
+			[37444, 13050],
+			[46861, 14705],
+			[48921, 16105],
+			[49054, 16082],
+			[49007, 15943],
+			[45836, 14661],
+			[53913, 12570],
+			[54632, 14664],
+			[60888, 15539],
+			[60063, 12875],
+			[61555, 13912],
+			[33649, 16965],
+			[33704, 17073],
+			[37540, 19831],
+			[37380, 20235],
+			[39810, 19020],
+			[40017, 19120],
+			[44606, 19460],
+			[41934, 19653],
+			[50205, 19111],
+			[53756, 18133],
+			[58760, 19384],
+			[63503, 17954],
+			[61925, 20130],
+			[35712, 22911],
+			[35595, 22942],
+			[35695, 23022],
+			[39293, 20976],
+			[44660, 23932],
+			[44781, 23795],
+			[46548, 23078],
+			[45806, 27427],
+			[6476, 912],
+			[7696, 3488],
+			[7404, 2297],
+			[12139, 1203],
+			[8674, 2084],
+			[13725, 2353],
+			[18869, 3712],
+			[16547, 1849],
+			[23025, 3040],
+			[21966, 737],
+			[25345, 1710],
+			[31266, 2771],
+			[29061, 1802],
+			[7050, 5061],
+			[6923, 5089],
+			[11498, 7000],
+			[11388, 6990],
+			[20388, 8010],
+			[23820, 5096],
+			[21973, 4161],
+			[26010, 6070],
+			[31348, 7449],
+			[29262, 5944],
+			[29154, 5871],
+			[15308, 8809],
+			[19095, 11512],
+			[16989, 9210],
+			[22661, 10963],
+			[22578, 10922],
+			[28034, 9472],
+			[25686, 10984],
+			[32089, 10999],
+			[32209, 11018],
+			[19801, 13193],
+			[22397, 15199],
+			[22536, 15127],
+			[27320, 12613],
+			[31777, 13064],
+			[31338, 16095],
+			[31436, 16196],
+			[27619, 19065],
+			[29741, 19520],
+			[29842, 19601],
+			[29903, 19526],
+			[32060, 17774],
+			[23361, 21387],
+			[23459, 21452],
+			[27766, 22173],
+			[28558, 20698],
+			[26275, 21619],
+			[31742, 21286],
+			[31702, 21447],
+			[28799, 20645]
+		];
+		for (var i = 0; i < rododendron.length; i++) {
+			rododendron_1 = new L.circleMarker([rododendron[i][0],rododendron[i][1]], {color: "#FF69B4"})
+			.bindPopup("Рододендрон")
+			.bindTooltip("Рододендрон", {direction: 'top'})
+			.addTo(rododendronicons);
+		}
 	}
 	else {
 		rododendronicons.clearLayers();
