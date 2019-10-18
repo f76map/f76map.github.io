@@ -1,190 +1,198 @@
-	var pepelynayarozaicons = L.layerGroup().addTo(map);
-	function PepelynayaRozaOnOff() {
+var pepelynayarozaicons = L.layerGroup().addTo(map);
+function PepelynayaRozaOnOff() {
 	var chbox;
 	chbox=document.getElementById('PepelynayaRozaButton');
 	if (chbox.checked) {
-	L.circleMarker([-111685, -62259], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111514, -62376], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111596, -62415], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-110010, -61911], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111357, -60746], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111115, -57934], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111161, -57942], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111192, -57953], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111299, -57776], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-111238, -57749], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-110065, -60638], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-107943, -53378], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-106957, -54003], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-106948, -54013], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-117350, -42316], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-117355, -42339], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-112252, -40977], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-112255, -40924], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-83766, -89564], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-128220, -93799], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-128547, -93143], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-128166, -93033], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-125531, -74632], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-125705, -74544], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-125724, -74541], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-129700, -71654], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-129761, -71572], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-129705, -71754], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-125152, -73430], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-125151, -73414], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-125152, -73417], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-89679, -126087], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-90111, -125549], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-79638, -124996], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-79542, -124725], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-77730, -122138], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-82444, -117814], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-75730, -114916], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-75741, -114943], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-124092, -129071], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-113139, -120805], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-112645, -122226], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-113437, -122287], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-112435, -115293], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-112601, -114746], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-112341, -114553], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-105930, -109646], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-106329, -108974], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-105114, -101475], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-104533, -101566], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134657, -50608], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134289, -50698], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-145410, -95750], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-144741, -95924], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-140364, -91333], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-153553, -130438], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-146610, -129980], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-148182, -123364], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-147917, -123680], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-148447, -123978], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-148708, -126019], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162604, -120046], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-160207, -119667], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-146423, -121987], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162972, -115968], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-163243, -116103], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162775, -115922], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162299, -116594], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-158205, -116979], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-158208, -116545], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-155942, -115161], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-156584, -116551], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-141701, -118577], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-138744, -117131], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-163527, -112352], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134396, -106520], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-139475, -104179], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-140625, -105333], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-140510, -105199], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-138495, -103327], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134067, -106469], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134659, -106409], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-132812, -105706], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-148874, -99414], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-150522, -101304], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-171118, -128433], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-165359, -130278], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-165793, -130268], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-172982, -124079], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-172545, -123944], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-172968, -125103], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-172890, -124883], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-168247, -113357], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-169378, -110636], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-170462, -110875], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-170351, -110803], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-167464, -113414], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-167767, -110709], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-167789, -114279], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-1301, -163123], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-1237, -163032], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-61207, -145393], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-94035, -149033], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-93119, -148029], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-93376, -148122], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-93147, -148048], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-70801, -132688], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-129201, -157847], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-128894, -157528], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-128539, -156063], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-128931, -156797], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-125229, -157148], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-129939, -152184], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-129135, -155558], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-129390, -146166], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-121309, -146274], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-121390, -146527], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-117610, -137700], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-8644, -164838], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-8586, -164743], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-151900, -160523], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-150961, -160746], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162031, -157077], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-161449, -156998], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162483, -157398], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162224, -157321], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162446, -157159], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-162453, -156909], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-160800, -154629], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-160334, -154307], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-160257, -154766], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-148311, -155085], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-148185, -153090], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-142222, -152380], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-131116, -152662], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-133061, -154157], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-137855, -151046], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-132738, -150185], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-133434, -149300], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-163810, -145626], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-163589, -145805], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-163290, -145754], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-158512, -146032], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-152648, -145855], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-152570, -140043], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-145005, -142472], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-145628, -142081], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-145605, -141355], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-146107, -140325], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-146604, -140321], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-146031, -140301], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-152124, -139162], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-149710, -136361], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134815, -135326], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-135339, -133503], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134474, -135069], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-133619, -134677], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134763, -133660], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-132688, -132608], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-168834, -157283], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-166738, -156887], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-166588, -155910], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-170879, -153726], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-170598, -153769], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-169445, -149818], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-170227, -150838], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-169427, -141189], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-169657, -142079], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-166076, -131557], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-165811, -131302], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-165123, -131281], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134675, -174680], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-134652, -174641], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-33381, 50787], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-88788, 63723], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([-130998, 10549], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([35634, 121616], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([35767, 121540], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([35671, 121503], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([24799, 124329], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([120570, 30956], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
-	L.circleMarker([120790, 31217], {color: "#A0522D"}).addTo(pepelynayarozaicons).bindPopup("Пепельная роза").bindTooltip("Пепельная роза", {direction: 'top'});
+		var pepelynayaroza = [
+			[-111685, -62259],
+			[-111514, -62376],
+			[-111596, -62415],
+			[-110010, -61911],
+			[-111357, -60746],
+			[-111115, -57934],
+			[-111161, -57942],
+			[-111192, -57953],
+			[-111299, -57776],
+			[-111238, -57749],
+			[-110065, -60638],
+			[-107943, -53378],
+			[-106957, -54003],
+			[-106948, -54013],
+			[-117350, -42316],
+			[-117355, -42339],
+			[-112252, -40977],
+			[-112255, -40924],
+			[-83766, -89564],
+			[-128220, -93799],
+			[-128547, -93143],
+			[-128166, -93033],
+			[-125531, -74632],
+			[-125705, -74544],
+			[-125724, -74541],
+			[-129700, -71654],
+			[-129761, -71572],
+			[-129705, -71754],
+			[-125152, -73430],
+			[-125151, -73414],
+			[-125152, -73417],
+			[-89679, -126087],
+			[-90111, -125549],
+			[-79638, -124996],
+			[-79542, -124725],
+			[-77730, -122138],
+			[-82444, -117814],
+			[-75730, -114916],
+			[-75741, -114943],
+			[-124092, -129071],
+			[-113139, -120805],
+			[-112645, -122226],
+			[-113437, -122287],
+			[-112435, -115293],
+			[-112601, -114746],
+			[-112341, -114553],
+			[-105930, -109646],
+			[-106329, -108974],
+			[-105114, -101475],
+			[-104533, -101566],
+			[-134657, -50608],
+			[-134289, -50698],
+			[-145410, -95750],
+			[-144741, -95924],
+			[-140364, -91333],
+			[-153553, -130438],
+			[-146610, -129980],
+			[-148182, -123364],
+			[-147917, -123680],
+			[-148447, -123978],
+			[-148708, -126019],
+			[-162604, -120046],
+			[-160207, -119667],
+			[-146423, -121987],
+			[-162972, -115968],
+			[-163243, -116103],
+			[-162775, -115922],
+			[-162299, -116594],
+			[-158205, -116979],
+			[-158208, -116545],
+			[-155942, -115161],
+			[-156584, -116551],
+			[-141701, -118577],
+			[-138744, -117131],
+			[-163527, -112352],
+			[-134396, -106520],
+			[-139475, -104179],
+			[-140625, -105333],
+			[-140510, -105199],
+			[-138495, -103327],
+			[-134067, -106469],
+			[-134659, -106409],
+			[-132812, -105706],
+			[-148874, -99414],
+			[-150522, -101304],
+			[-171118, -128433],
+			[-165359, -130278],
+			[-165793, -130268],
+			[-172982, -124079],
+			[-172545, -123944],
+			[-172968, -125103],
+			[-172890, -124883],
+			[-168247, -113357],
+			[-169378, -110636],
+			[-170462, -110875],
+			[-170351, -110803],
+			[-167464, -113414],
+			[-167767, -110709],
+			[-167789, -114279],
+			[-1301, -163123],
+			[-1237, -163032],
+			[-61207, -145393],
+			[-94035, -149033],
+			[-93119, -148029],
+			[-93376, -148122],
+			[-93147, -148048],
+			[-70801, -132688],
+			[-129201, -157847],
+			[-128894, -157528],
+			[-128539, -156063],
+			[-128931, -156797],
+			[-125229, -157148],
+			[-129939, -152184],
+			[-129135, -155558],
+			[-129390, -146166],
+			[-121309, -146274],
+			[-121390, -146527],
+			[-117610, -137700],
+			[-8644, -164838],
+			[-8586, -164743],
+			[-151900, -160523],
+			[-150961, -160746],
+			[-162031, -157077],
+			[-161449, -156998],
+			[-162483, -157398],
+			[-162224, -157321],
+			[-162446, -157159],
+			[-162453, -156909],
+			[-160800, -154629],
+			[-160334, -154307],
+			[-160257, -154766],
+			[-148311, -155085],
+			[-148185, -153090],
+			[-142222, -152380],
+			[-131116, -152662],
+			[-133061, -154157],
+			[-137855, -151046],
+			[-132738, -150185],
+			[-133434, -149300],
+			[-163810, -145626],
+			[-163589, -145805],
+			[-163290, -145754],
+			[-158512, -146032],
+			[-152648, -145855],
+			[-152570, -140043],
+			[-145005, -142472],
+			[-145628, -142081],
+			[-145605, -141355],
+			[-146107, -140325],
+			[-146604, -140321],
+			[-146031, -140301],
+			[-152124, -139162],
+			[-149710, -136361],
+			[-134815, -135326],
+			[-135339, -133503],
+			[-134474, -135069],
+			[-133619, -134677],
+			[-134763, -133660],
+			[-132688, -132608],
+			[-168834, -157283],
+			[-166738, -156887],
+			[-166588, -155910],
+			[-170879, -153726],
+			[-170598, -153769],
+			[-169445, -149818],
+			[-170227, -150838],
+			[-169427, -141189],
+			[-169657, -142079],
+			[-166076, -131557],
+			[-165811, -131302],
+			[-165123, -131281],
+			[-134675, -174680],
+			[-134652, -174641],
+			[-33381, 50787],
+			[-88788, 63723],
+			[-130998, 10549],
+			[35634, 121616],
+			[35767, 121540],
+			[35671, 121503],
+			[24799, 124329],
+			[120570, 30956],
+			[120790, 31217]
+		];
+		for (var i = 0; i < pepelynayaroza.length; i++) {
+			pepelynayaroza_1 = new L.circleMarker([pepelynayaroza[i][0],pepelynayaroza[i][1]], {color: "#A0522D"})
+			.bindPopup("Пепельная роза")
+			.bindTooltip("Пепельная роза", {direction: 'top'})
+			.addTo(pepelynayarozaicons);
+		}
 	}
 	else {
 		pepelynayarozaicons.clearLayers();
