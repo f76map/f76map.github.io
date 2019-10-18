@@ -1,289 +1,304 @@
-	var bobbleheadicons = L.layerGroup().addTo(map);
-	function BobbleheadOnOff() {
+var bobbleheadicons = L.layerGroup().addTo(map);
+function BobbleheadOnOff() {
 	var chbox;
 	chbox=document.getElementById('BobbleheadButton');
 	if (chbox.checked) {
-	icons = new L.marker([138553, 748], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([140611, 3507], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-44888, -50371], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-46160, -50993], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([52057, -149431], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([147369, -78369], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([149392, -75845], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-155322, 164553], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-97571, 200204], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-160885, 151663], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-86648, 115341], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-103941, 108933], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([139535, -147443], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([142780, -147994], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([143112, -151752], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-141278, 137446], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-167920, -115003], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-168194, -112844], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([91626, 115148], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([92932, 114953], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([205469, -92060], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([206031, -93092], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([124927, 169219], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([125562, 171135], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-1737, -159651], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-4225, -155935], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-39466, -131698], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-46313, -137272], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-38204, -127979], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-52085, -14031], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-51669, -12713], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-98797, 8029], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-99515, 8132], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-99688, 8082], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-99460, 8576], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([183584, 2683], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-37789, 83480], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-40652, 88297], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-33763, 92092], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-160369, 78540], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([34081, -6373], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([88709, 105239], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-72833, -132227], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([188259, -29595], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([190957, -25106], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([201242, -28149], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([80312, 182582], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([80897, 184115], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-54871, 57962], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-53140, 58657], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([124665, -26245], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([130638, -28007], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([51357, -42847], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([102787, -11110], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-37476, 84673], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([196923, -30801], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-129237, 119653], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-83427, 165545], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-84310, 166001], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-37938, 159916], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-38390, 158882], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-37943, 159616], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([126739, -28588], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-42363, -5550], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([171971, -121758], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([177715, -122920], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([180773, -123193], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([29029, 130851], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([26569, 125581], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([29422, 119951], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-120288, -188720], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-112458, -59127], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([3768, -32266], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-111155, -59409], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([48338, -22776], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-48815, -117377], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([44178, 177201], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([84423, 151300], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([88100, 156882], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-81946, -177961], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-81766, -177374], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-76641, -181700], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-80002, -182561], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([16435, 45839], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([17056, 45685], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([15835, 51559], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([22666, 47651], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([23209, 48430], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([24857, 69924], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([39438, 115490], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([39466, 115314], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([49466, 84751], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([46037, 101053], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([36185, 38444], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([100568, 25610], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([72787, 136613], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([71630, 137179], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([191152, -18865], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-27964, 162238], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-27115, 162534], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-27141, 162172], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-27354, 162829], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-97824, 189591], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([94649, 104490], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([95400, 99040], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([93169, 103622], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([780, 139688], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-60282, 181922], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-131777, -111773], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-83448, -78876], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-64403, 41625], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-128326, 120530], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([136562, -172990], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-49071, 27683], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([164361, -150421], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-59372, 180182], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-123201, -130995], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-124016, -133678], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-120260, -132145], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-123325, -130146], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([172467, 39760], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([82082, 55866], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([90181, -33030], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-104298, -123439], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-19621, 17088], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-89580, 148594], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-88163, 152662], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-114245, 45366], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-121875, 40896], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-63551, 74696], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-33782, 12720], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([20049, 91187], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-8429, -2972], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([72349, -76091], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([75651, -76678], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-41871, -69397], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-40760, -71777], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-46733, -72891], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-144956, 140074], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-141704, 136544], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-136900, 152924], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-146031, 153673], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([25854, -60807], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([7180, 42564], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([5923, 42587], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([6034, 43298], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([7356, 43494], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([29834, -21292], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([32007, -19728], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-7315, 21054], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([191977, -168910], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([195640, -169184], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-109334, -22286], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-179863, 76528], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-178942, 74308], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-27586, -131789], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-31888, -129973], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-108045, -23291], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-164825, 122090], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-164468, 123364], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-169469, 202669], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-169057, 201550], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-59418, 141324], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-172481, 109588], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([46456, 160836], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([44160, 164282], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([43391, 161216], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([14891, 193356], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([169802, 57932], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-88059, 63663], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-90552, 63095], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-119896, 3598], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([52833, -125716], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([52039, -127655], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([120797, 6544], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-117653, 197244], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-30392, -188769], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-71238, 170312], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-157337, 191417], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-109395, 159030], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-153725, 128497], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([128528, 85102], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([133685, 86073], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([133793, 87806], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([129287, 85486], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([144466, 97880], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([143537, 97530], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([88614, -21064], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-17754, 162717], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-115425, -95997], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-149922, -125454], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([183852, -93209], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-43712, -173836], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-42949, -173683], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-40976, -175230], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-39807, 46896], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-39268, 44216], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([113842, 114162], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([65931, 176879], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([63944, 172880], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([58826, 176873], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([61550, 178754], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-149725, -56473], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([29275, -58618], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([16712, 43825], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([57823, 13812], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([57970, 11018], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([58139, 11334], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([57768, 9710], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([57599, 12663], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([153716, -104260], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([160856, -92051], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([173272, -139759], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([179054, 133071], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([58105, -101610], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([27704, -79453], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-106018, 36280], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-59365, 98773], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-59426, 99768], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-124259, -182760], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-119757, -188877], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-124690, -186223], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-57028, -46947], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-56006, -61515], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-53893, -61953], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-64368, -61523], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-61898, -55122], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([79286, -154023], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-	icons = new L.marker([-144997, 178126], {icon: icon_bobblehead1}).addTo(bobbleheadicons).bindPopup("Пупс").bindTooltip("Пупс", {direction: 'top'});
-
-	icons = new L.marker([82071, -8020], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Университет &quotВолт-Тек&quot]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Университет &quotВолт-Тек&quot]", {direction: 'top'});
-	icons = new L.marker([-40971, -132032], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Электростанция &quotПосейдон Энерджи&quot WV-06]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Электростанция &quotПосейдон Энерджи&quot WV-06]", {direction: 'top'});
-	icons = new L.marker([-118164, 1654], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 5 шт.<br>[Внутри локации Точка &quotЧарли&quot]").bindTooltip("Пупсы - 5 шт.<br>[Внутри локации Точка &quotЧарли&quot]", {direction: 'top'});
-	icons = new L.marker([-55735, -114894], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри здания Медцентр AVR]").bindTooltip("Пупсы - 4 шт.<br>[Внутри здания Медцентр AVR]", {direction: 'top'});
-	icons = new L.marker([94128, 2135], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Школа Моргантауна]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Школа Моргантауна]", {direction: 'top'});
-	icons = new L.marker([-43120, 112631], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Национальный исследовательский центр радиоастрономии]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Национальный исследовательский центр радиоастрономии]", {direction: 'top'});
-	icons = new L.marker([-14505, 80945], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри локация Точка &quotАльфа&quot]").bindTooltip("Пупсы - 4 шт.<br>[Внутри локация Точка &quotАльфа&quot]", {direction: 'top'});
-	icons = new L.marker([-141320, 143840], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Муниципальный центр Ватоги]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Муниципальный центр Ватоги]", {direction: 'top'});
-	icons = new L.marker([62688, -58605], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри локации Шахта &quotГоули&quot]").bindTooltip("Пупсы - 3 шт.<br>[Внутри локации Шахта &quotГоули&quot]", {direction: 'top'});
-	icons = new L.marker([-12605, 196567], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Галерея в долине]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Галерея в долине]", {direction: 'top'});
-	icons = new L.marker([-136952, 138432], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Общественный центр Ватоги]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Общественный центр Ватоги]", {direction: 'top'});
-	icons = new L.marker([-51807, 56146], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри локации Место захоронения на горе Эммет]").bindTooltip("Пупс<br>[Внутри локации Место захоронения на горе Эммет]", {direction: 'top'});
-	icons = new L.marker([127398, -29105], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания Восточная региональная тюрьма]").bindTooltip("Пупс<br>[Внутри здания Восточная региональная тюрьма]", {direction: 'top'});
-	icons = new L.marker([-70220, -70715], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Особняк Риверсайд]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Особняк Риверсайд]", {direction: 'top'});
-	icons = new L.marker([-46520, 28168], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]").bindTooltip("Пупсы - 3 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]", {direction: 'top'});
-	icons = new L.marker([-102236, -84358], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри локации Горящая шахта]").bindTooltip("Пупсы - 4 шт.<br>[Внутри локации Горящая шахта]", {direction: 'top'});
-	icons = new L.marker([-53492, -162144], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]", {direction: 'top'});
-	icons = new L.marker([-15204, 118972], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 6 шт.<br>[Внутри здания Шугар гроув]").bindTooltip("Пупсы - 6 шт.<br>[Внутри здания Шугар гроув]", {direction: 'top'});
-	icons = new L.marker([-160896, -73687], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания Штаб-квартира &quotГаррахан майнинг&quot]").bindTooltip("Пупс<br>[Внутри здания Штаб-квартира &quotГаррахан майнинг&quot]", {direction: 'top'});
-	icons = new L.marker([-57828, -91983], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания Капитолий Чарлстона]").bindTooltip("Пупс<br>[Внутри здания Капитолий Чарлстона]", {direction: 'top'});
-	/* icons = new L.marker([-146558, -96290], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри локации Убежище 63]").bindTooltip("Пупс<br>[Внутри локации Убежище 63]", {direction: 'top'}); */
-	icons = new L.marker([-131600, 107048], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания Форт Дефайанс]").bindTooltip("Пупс<br>[Внутри здания Форт Дефайанс]", {direction: 'top'});
-	icons = new L.marker([-149488, 112944], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри локации Тоннель &quotБольшой излом&quot]").bindTooltip("Пупс<br>[Внутри локации Тоннель &quotБольшой излом&quot]", {direction: 'top'});
-	icons = new L.marker([-120808, -44088], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри локации Тоннель &quotБольшой излом&quot]").bindTooltip("Пупс<br>[Внутри локации Тоннель &quotБольшой излом&quot]", {direction: 'top'});
-	icons = new L.marker([-64897, 200091], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Исследовательский центр &quotРобКо&quot]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Исследовательский центр &quotРобКо&quot]", {direction: 'top'});
-	icons = new L.marker([-46784, -108174], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Штаб-квартира &quotХорнрайт индастриал&quot]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Штаб-квартира &quotХорнрайт индастриал&quot]", {direction: 'top'});
-	icons = new L.marker([19445, -117195], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри здания Центр аграрных исследований &quotВолт-Тек&quot]").bindTooltip("Пупсы - 4 шт.<br>[Внутри здания Центр аграрных исследований &quotВолт-Тек&quot]", {direction: 'top'});
-	icons = new L.marker([-64741, 130050], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри локации Шахта &quotКервуд&quot]").bindTooltip("Пупсы - 4 шт.<br>[Внутри локации Шахта &quotКервуд&quot]", {direction: 'top'});
-	icons = new L.marker([-89947, -41527], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри локации Необыкновенные пещеры]").bindTooltip("Пупсы - 4 шт.<br>[Внутри локации Необыкновенные пещеры]", {direction: 'top'});
-	icons = new L.marker([-146584, 153175], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри здания Школа Ватоги]").bindTooltip("Пупсы - 4 шт.<br>[Внутри здания Школа Ватоги]", {direction: 'top'});
-	icons = new L.marker([84461, -15851], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри здания Переработка пищевых продуктов &quotМама Дольче&quot]").bindTooltip("Пупсы - 4 шт.<br>[Внутри здания Переработка пищевых продуктов &quotМама Дольче&quot]", {direction: 'top'});
-	icons = new L.marker([43120, 87360], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри локации Пещера вендиго]").bindTooltip("Пупсы - 4 шт.<br>[Внутри локации Пещера вендиго]", {direction: 'top'});
-	icons = new L.marker([-60624, 88526], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]").bindTooltip("Пупс<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", {direction: 'top'});
-	/* icons = new L.marker([137186, 145156], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри локации Убежище 94]").bindTooltip("Пупс<br>[Внутри локации Убежище 94]", {direction: 'top'}); */
-	icons = new L.marker([73912, 79507], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания Обсерватория АТЛАС]").bindTooltip("Пупс<br>[Внутри здания Обсерватория АТЛАС]", {direction: 'top'});
-	icons = new L.marker([-82471, -118114], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри локации &quotОтрыжка Бетти&quot]").bindTooltip("Пупсы - 4 шт.<br>[Внутри локации &quotОтрыжка Бетти&quot]", {direction: 'top'});
-	icons = new L.marker([7828, 119103], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри локации Убежище Хоука]").bindTooltip("Пупсы - 2 шт.<br>[Внутри локации Убежище Хоука]", {direction: 'top'});
-	icons = new L.marker([-138108, 88917], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри локации Шахта &quotСчастливая дыра&quot]").bindTooltip("Пупсы - 3 шт.<br>[Внутри локации Шахта &quotСчастливая дыра&quot]", {direction: 'top'});
-	icons = new L.marker([-141039, 141012], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри здания Экстренные службы Ватоги]").bindTooltip("Пупсы - 3 шт.<br>[Внутри здания Экстренные службы Ватоги]", {direction: 'top'});
-	icons = new L.marker([-74719, -113348], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания &quotРжавая кирка&quot]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания &quotРжавая кирка&quot]", {direction: 'top'});
-	icons = new L.marker([98395, 192590], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 5 шт.<br>[Внутри здания Электростанция &quotГрозовая гора&quot]").bindTooltip("Пупсы - 5 шт.<br>[Внутри здания Электростанция &quotГрозовая гора&quot]", {direction: 'top'});
-	icons = new L.marker([-112937, -62704], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Ван Лоу, таксидермист]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Ван Лоу, таксидермист]", {direction: 'top'});
-	icons = new L.marker([-3956, 157951], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 4 шт.<br>[Внутри локации Норы]").bindTooltip("Пупсы - 4 шт.<br>[Внутри локации Норы]", {direction: 'top'});
-	icons = new L.marker([14430, 39100], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 3 шт.<br>[Внутри локации Вершина мира, этаж Мезонин]").bindTooltip("Пупсы - 3 шт.<br>[Внутри локации Вершина мира, этаж Мезонин]", {direction: 'top'});
-	icons = new L.marker([137056, 43038], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 5 шт.<br>[Внутри локации Точка &quotБраво&quot]").bindTooltip("Пупсы - 5 шт.<br>[Внутри локации Точка &quotБраво&quot]", {direction: 'top'});
-	icons = new L.marker([89394, -875], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Дом &quotПи&quot]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Дом &quotПи&quot]", {direction: 'top'});
-	icons = new L.marker([85875, 5283], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Дом &quotЭта Пси&quot]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Дом &quotЭта Пси&quot]", {direction: 'top'});
-	icons = new L.marker([76623, -6504], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 2 шт.<br>[Внутри здания Тату-салон &quotБольшая Эл&quot]").bindTooltip("Пупсы - 2 шт.<br>[Внутри здания Тату-салон &quotБольшая Эл&quot]", {direction: 'top'});
-	icons = new L.marker([50783, -40504], {icon: icon_bobblehead3}).addTo(bobbleheadicons).bindPopup("Пупсы - 5 шт.<br>[Внутри здания Лаборатория биомов &quotАрктос фарма&quot]").bindTooltip("Пупсы - 5 шт.<br>[Внутри здания Лаборатория биомов &quotАрктос фарма&quot]", {direction: 'top'});
-	icons = new L.marker([-104306, -119563], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания здания Складской подвал]").bindTooltip("Пупс<br>[Внутри здания здания Складской подвал]", {direction: 'top'});
-	icons = new L.marker([-139096, 148632], {icon: icon_bobblehead2}).addTo(bobbleheadicons).bindPopup("Пупс<br>[Внутри здания здания Штаб-квартира АМС]").bindTooltip("Пупс<br>[Внутри здания здания Штаб-квартира АМС]", {direction: 'top'});
+		var bobblehead1 = [
+			[138553, 748],
+			[140611, 3507],
+			[-44888, -50371],
+			[-46160, -50993],
+			[52057, -149431],
+			[147369, -78369],
+			[149392, -75845],
+			[-155322, 164553],
+			[-97571, 200204],
+			[-160885, 151663],
+			[-86648, 115341],
+			[-103941, 108933],
+			[139535, -147443],
+			[142780, -147994],
+			[143112, -151752],
+			[-141278, 137446],
+			[-167920, -115003],
+			[-168194, -112844],
+			[91626, 115148],
+			[92932, 114953],
+			[205469, -92060],
+			[206031, -93092],
+			[124927, 169219],
+			[125562, 171135],
+			[-1737, -159651],
+			[-4225, -155935],
+			[-39466, -131698],
+			[-46313, -137272],
+			[-38204, -127979],
+			[-52085, -14031],
+			[-51669, -12713],
+			[-98797, 8029],
+			[-99515, 8132],
+			[-99688, 8082],
+			[-99460, 8576],
+			[183584, 2683],
+			[-37789, 83480],
+			[-40652, 88297],
+			[-33763, 92092],
+			[-160369, 78540],
+			[34081, -6373],
+			[88709, 105239],
+			[-72833, -132227],
+			[188259, -29595],
+			[190957, -25106],
+			[201242, -28149],
+			[80312, 182582],
+			[80897, 184115],
+			[-54871, 57962],
+			[-53140, 58657],
+			[124665, -26245],
+			[130638, -28007],
+			[51357, -42847],
+			[102787, -11110],
+			[-37476, 84673],
+			[196923, -30801],
+			[-129237, 119653],
+			[-83427, 165545],
+			[-84310, 166001],
+			[-37938, 159916],
+			[-38390, 158882],
+			[-37943, 159616],
+			[126739, -28588],
+			[-42363, -5550],
+			[171971, -121758],
+			[177715, -122920],
+			[180773, -123193],
+			[29029, 130851],
+			[26569, 125581],
+			[29422, 119951],
+			[-120288, -188720],
+			[-112458, -59127],
+			[3768, -32266],
+			[-111155, -59409],
+			[48338, -22776],
+			[-48815, -117377],
+			[44178, 177201],
+			[84423, 151300],
+			[88100, 156882],
+			[-81946, -177961],
+			[-81766, -177374],
+			[-76641, -181700],
+			[-80002, -182561],
+			[16435, 45839],
+			[17056, 45685],
+			[15835, 51559],
+			[22666, 47651],
+			[23209, 48430],
+			[24857, 69924],
+			[39438, 115490],
+			[39466, 115314],
+			[49466, 84751],
+			[46037, 101053],
+			[36185, 38444],
+			[100568, 25610],
+			[72787, 136613],
+			[71630, 137179],
+			[191152, -18865],
+			[-27964, 162238],
+			[-27115, 162534],
+			[-27141, 162172],
+			[-27354, 162829],
+			[-97824, 189591],
+			[94649, 104490],
+			[95400, 99040],
+			[93169, 103622],
+			[780, 139688],
+			[-60282, 181922],
+			[-131777, -111773],
+			[-83448, -78876],
+			[-64403, 41625],
+			[-128326, 120530],
+			[136562, -172990],
+			[-49071, 27683],
+			[164361, -150421],
+			[-59372, 180182],
+			[-123201, -130995],
+			[-124016, -133678],
+			[-120260, -132145],
+			[-123325, -130146],
+			[172467, 39760],
+			[82082, 55866],
+			[90181, -33030],
+			[-104298, -123439],
+			[-19621, 17088],
+			[-89580, 148594],
+			[-88163, 152662],
+			[-114245, 45366],
+			[-121875, 40896],
+			[-63551, 74696],
+			[-33782, 12720],
+			[20049, 91187],
+			[-8429, -2972],
+			[72349, -76091],
+			[75651, -76678],
+			[-41871, -69397],
+			[-40760, -71777],
+			[-46733, -72891],
+			[-144956, 140074],
+			[-141704, 136544],
+			[-136900, 152924],
+			[-146031, 153673],
+			[25854, -60807],
+			[7180, 42564],
+			[5923, 42587],
+			[6034, 43298],
+			[7356, 43494],
+			[29834, -21292],
+			[32007, -19728],
+			[-7315, 21054],
+			[191977, -168910],
+			[195640, -169184],
+			[-109334, -22286],
+			[-179863, 76528],
+			[-178942, 74308],
+			[-27586, -131789],
+			[-31888, -129973],
+			[-108045, -23291],
+			[-164825, 122090],
+			[-164468, 123364],
+			[-169469, 202669],
+			[-169057, 201550],
+			[-59418, 141324],
+			[-172481, 109588],
+			[46456, 160836],
+			[44160, 164282],
+			[43391, 161216],
+			[14891, 193356],
+			[169802, 57932],
+			[-88059, 63663],
+			[-90552, 63095],
+			[-119896, 3598],
+			[52833, -125716],
+			[52039, -127655],
+			[120797, 6544],
+			[-117653, 197244],
+			[-30392, -188769],
+			[-71238, 170312],
+			[-157337, 191417],
+			[-109395, 159030],
+			[-153725, 128497],
+			[128528, 85102],
+			[133685, 86073],
+			[133793, 87806],
+			[129287, 85486],
+			[144466, 97880],
+			[143537, 97530],
+			[88614, -21064],
+			[-17754, 162717],
+			[-115425, -95997],
+			[-149922, -125454],
+			[183852, -93209],
+			[-43712, -173836],
+			[-42949, -173683],
+			[-40976, -175230],
+			[-39807, 46896],
+			[-39268, 44216],
+			[113842, 114162],
+			[65931, 176879],
+			[63944, 172880],
+			[58826, 176873],
+			[61550, 178754],
+			[-149725, -56473],
+			[29275, -58618],
+			[16712, 43825],
+			[57823, 13812],
+			[57970, 11018],
+			[58139, 11334],
+			[57768, 9710],
+			[57599, 12663],
+			[153716, -104260],
+			[160856, -92051],
+			[173272, -139759],
+			[179054, 133071],
+			[58105, -101610],
+			[27704, -79453],
+			[-106018, 36280],
+			[-59365, 98773],
+			[-59426, 99768],
+			[-124259, -182760],
+			[-119757, -188877],
+			[-124690, -186223],
+			[-57028, -46947],
+			[-56006, -61515],
+			[-53893, -61953],
+			[-64368, -61523],
+			[-61898, -55122],
+			[79286, -154023],
+			[-144997, 178126]
+		];
+		var bobblehead2 = [
+			["Пупсы - 3 шт.<br>[Внутри здания Университет &quotВолт-Тек&quot]", 82071, -8020, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания Электростанция &quotПосейдон Энерджи&quot WV-06]", -40971, -132032, icon_bobblehead3],
+			["Пупсы - 5 шт.<br>[Внутри локации Точка &quotЧарли&quot]", -118164, 1654, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри здания Медцентр AVR]", -55735, -114894, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри здания Школа Моргантауна]", 94128, 2135, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания Национальный исследовательский центр радиоастрономии]", -43120, 112631, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри локация Точка &quotАльфа&quot]", -14505, 80945, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания Муниципальный центр Ватоги]", -141320, 143840, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри локации Шахта &quotГоули&quot]", 62688, -58605, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри здания Галерея в долине]", -12605, 196567, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри здания Общественный центр Ватоги]", -136952, 138432, icon_bobblehead3],
+			["Пупс<br>[Внутри локации Место захоронения на горе Эммет]", -51807, 56146, icon_bobblehead2],
+			["Пупс<br>[Внутри здания Восточная региональная тюрьма]", 127398, -29105, icon_bobblehead2],
+			["Пупсы - 2 шт.<br>[Внутри здания Особняк Риверсайд]", -70220, -70715, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри локации Шахта &quotБлэкуотер&quot]", -46520, 28168, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри локации Горящая шахта]", -102236, -84358, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри здания Завод &quotЯдер-колы&quot — Канова]", -53492, -162144, icon_bobblehead3],
+			["Пупсы - 6 шт.<br>[Внутри здания Шугар гроув]", -15204, 118972, icon_bobblehead3],
+			["Пупс<br>[Внутри здания Штаб-квартира &quotГаррахан майнинг&quot]", -160896, -73687, icon_bobblehead2],
+			["Пупс<br>[Внутри здания Капитолий Чарлстона]", -57828, -91983, icon_bobblehead2],
+			/* ["Пупс<br>[Внутри локации Убежище 63]", -146558, -96290, icon_bobblehead2], */
+			["Пупс<br>[Внутри здания Форт Дефайанс]", -131600, 107048, icon_bobblehead2],
+			["Пупс<br>[Внутри локации Тоннель &quotБольшой излом&quot]", -149488, 112944, icon_bobblehead2],
+			["Пупс<br>[Внутри локации Тоннель &quotБольшой излом&quot]", -120808, -44088, icon_bobblehead2],
+			["Пупсы - 3 шт.<br>[Внутри здания Исследовательский центр &quotРобКо&quot]", -64897, 200091, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри здания Штаб-квартира &quotХорнрайт индастриал&quot]", -46784, -108174, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри здания Центр аграрных исследований &quotВолт-Тек&quot]", 19445, -117195, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри локации Шахта &quotКервуд&quot]", -64741, 130050, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри локации Необыкновенные пещеры]", -89947, -41527, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри здания Школа Ватоги]", -146584, 153175, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри здания Переработка пищевых продуктов &quotМама Дольче&quot]", 84461, -15851, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри локации Пещера вендиго]", 43120, 87360, icon_bobblehead3],
+			["Пупс<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526, icon_bobblehead2],
+			/* ["Пупс<br>[Внутри локации Убежище 94]", 137186, 145156, icon_bobblehead2], */
+			["Пупс<br>[Внутри здания Обсерватория АТЛАС]", 73912, 79507, icon_bobblehead2],
+			["Пупсы - 4 шт.<br>[Внутри локации &quotОтрыжка Бетти&quot]", -82471, -118114, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри локации Убежище Хоука]", 7828, 119103, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри локации Шахта &quotСчастливая дыра&quot]", -138108, 88917, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри здания Экстренные службы Ватоги]", -141039, 141012, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания &quotРжавая кирка&quot]", -74719, -113348, icon_bobblehead3],
+			["Пупсы - 5 шт.<br>[Внутри здания Электростанция &quotГрозовая гора&quot]", 98395, 192590, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания Ван Лоу, таксидермист]", -112937, -62704, icon_bobblehead3],
+			["Пупсы - 4 шт.<br>[Внутри локации Норы]", -3956, 157951, icon_bobblehead3],
+			["Пупсы - 3 шт.<br>[Внутри локации Вершина мира, этаж Мезонин]", 14430, 39100, icon_bobblehead3],
+			["Пупсы - 5 шт.<br>[Внутри локации Точка &quotБраво&quot]", 137056, 43038, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания Дом &quotПи&quot]", 89394, -875, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания Дом &quotЭта Пси&quot]", 85875, 5283, icon_bobblehead3],
+			["Пупсы - 2 шт.<br>[Внутри здания Тату-салон &quotБольшая Эл&quot]", 76623, -6504, icon_bobblehead3],
+			["Пупсы - 5 шт.<br>[Внутри здания Лаборатория биомов &quotАрктос фарма&quot]", 50783, -40504, icon_bobblehead3],
+			["Пупс<br>[Внутри здания здания Складской подвал]", -104306, -119563, icon_bobblehead2],
+			["Пупс<br>[Внутри здания здания Штаб-квартира АМС]", -139096, 148632, icon_bobblehead2]
+		];
+	for (var i = 0; i < bobblehead1.length; i++) {
+				bobblehead1_1 = new L.Marker([bobblehead1[i][0],bobblehead1[i][1]], {icon: icon_bobblehead1})
+					.bindPopup("Пупс")
+					.bindTooltip("Пупс", {direction: 'top'})
+					.addTo(bobbleheadicons);
+			}
+	for (var i = 0; i < bobblehead2.length; i++) {
+				bobblehead2_1 = new L.Marker([bobblehead2[i][1],bobblehead2[i][2]], {icon: bobblehead2[i][3]})
+					.bindPopup(bobblehead2[i][0])
+					.bindTooltip(bobblehead2[i][0], {direction: 'top'})
+					.addTo(bobbleheadicons);
+			}
 	}
 	else {
 		bobbleheadicons.clearLayers();
