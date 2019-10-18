@@ -1,1887 +1,1902 @@
-	var ilofasolyicons = L.layerGroup().addTo(map);
-	function IlofasolyOnOff() {
+var ilofasolyicons = L.layerGroup().addTo(map);
+function IlofasolyOnOff() {
 	var chbox;
 	chbox=document.getElementById('IlofasolyButton');
 	if (chbox.checked) {
-	L.circleMarker([-21660, -32618], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13580, -29822], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13643, -29583], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13721, -29759], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-22450, -26977], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2770, -19937], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2896, -19932], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15936, -15686], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15999, -15593], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-57900, -22921], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-45004, -17107], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-34905, -18097], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-34884, -18041], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-75902, -17569], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-75827, -17690], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-79280, -11340], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-121129, -22092], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-120384, -22097], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-120467, -22111], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-120318, -22039], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27264, -63304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27586, -62796], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27640, -62684], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15278, -62488], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14766, -62013], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-23158, -45856], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-23160, -46017], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13753, -46593], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13575, -46597], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14243, -46985], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14106, -46975], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3605, -47879], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3476, -47895], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3434, -48000], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24830, -44151], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24780, -44322], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-19098, -42544], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6758, -39031], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7095, -39285], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6959, -38985], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7113, -39104], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65096, -49875], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65111, -49783], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65175, -49889], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-48078, -45223], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-48115, -45326], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-72803, -64139], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-73986, -53533], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74061, -53319], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9521, -91389], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9605, -91348], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9581, -91882], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9491, -91838], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5057, -90656], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9687, -87147], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9818, -87266], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9677, -87730], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14514, -77229], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14649, -77221], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10921, -73804], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10828, -73915], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11120, -74461], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10991, -74280], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-26469, -72744], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-26400, -72652], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-26238, -72552], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15194, -70559], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10252, -73496], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10127, -73475], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10306, -73257], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-386, -70214], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-256, -70081], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15247, -66304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15377, -66341], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14789, -67265], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14686, -67311], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-63388, -98179], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-58741, -96115], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-56936, -90992], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-62756, -86765], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65073, -88888], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-64977, -87576], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-50898, -81771], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-75815, -97575], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-72139, -97982], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-69648, -95380], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68621, -95622], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-79918, -92897], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74495, -91778], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70707, -93913], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-75991, -89266], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76662, -88153], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70523, -86375], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-69352, -86297], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65717, -86974], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-67455, -83497], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70625, -74723], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70692, -74807], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70568, -74812], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-66730, -75613], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-67580, -76295], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14881, -129130], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15769, -129739], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14649, -127009], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14015, -127473], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9292, -130371], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11111, -129529], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9776, -130021], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4961, -129568], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7665, -127687], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3059, -128725], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3351, -130064], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3067, -129546], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2527, -129603], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-17203, -123394], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14214, -126624], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13671, -124025], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11876, -123755], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8705, -124931], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9168, -124036], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5890, -124594], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5896, -125168], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7568, -124654], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4948, -125563], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2520, -126289], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-607, -124115], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1640, -125559], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3184, -125903], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3414, -125482], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14776, -121390], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15737, -122436], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13960, -121542], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11041, -122625], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11490, -122575], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6435, -120664], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8027, -121984], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6954, -120831], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6647, -120113], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2585, -119806], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1448, -122872], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14118, -117126], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-12592, -115682], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9881, -116435], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5477, -117643], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3858, -115652], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14534, -111148], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9128, -114397], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8529, -114020], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8900, -114580], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8503, -111285], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9137, -112381], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7898, -112960], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7046, -112279], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7477, -112169], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7159, -114211], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7016, -114102], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6144, -114004], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2088, -113231], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2146, -111412], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-18781, -109140], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-16179, -109930], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-16123, -110052], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6467, -109437], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6290, -109590], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5131, -109616], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5170, -109457], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2081, -109509], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2016, -109422], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14187, -104326], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4452, -104365], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6423, -103700], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-700, -104389], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-760, -104314], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-304, -104236], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-20297, -100443], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4987, -101374], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1005, -100124], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1842, -98866], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-57516, -111206], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-58290, -109661], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-60482, -103459], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-55141, -104898], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-67882, -112917], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-67849, -113004], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70124, -101178], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-148373, -22532], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-148272, -22567], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137649, -21635], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137895, -21663], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-156896, -8249], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-156882, -8090], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-140868, -6888], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-140675, -6976], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-135575, -1380], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-135438, -1365], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169978, -18962], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169868, -18936], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169966, -19048], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175626, -3219], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175483, -3263], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-165846, -2704], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-166027, -2668], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-166075, -2798], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163614, -32935], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163455, -33038], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-156619, -33354], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-156675, -33461], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-142860, -33806], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-142897, -33703], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-179430, -33516], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-179402, -33384], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-179327, -33430], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163317, -92539], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-176924, -97716], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-171674, -95985], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-174643, -92386], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175174, -93159], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170555, -87768], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-167343, -83547], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-157384, -103595], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-161735, -99640], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-176821, -107216], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169534, -106874], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169006, -107323], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-165075, -103787], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-176343, -99440], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-174309, -98633], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([185933, -96956], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([193243, -94706], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([191247, -80091], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157403, -89832], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([136520, -81007], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([136298, -81814], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([136346, -81402], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([136535, -80971], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([133024, -75038], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([200782, -104831], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([177452, -130495], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([172260, -122300], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([165079, -114328], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([182383, -108528], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([132933, -127824], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([141435, -123743], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([148926, -105393], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([106777, -23164], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([88951, -24771], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([85395, -20818], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([89990, -24384], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([92809, -23038], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([92942, -22280], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([90385, -20976], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([90801, -21600], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([90742, -21326], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([91155, -24123], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([90594, -22491], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94622, -23933], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([84522, -19715], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([84009, -19496], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([89105, -17736], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([86928, -19095], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([86612, -18940], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([87825, -18917], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([89540, -18956], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([88880, -18368], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([89736, -17384], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([67295, -5408], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41013, -18540], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35088, -9541], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35005, -9683], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([52697, -9049], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([62944, -2591], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([29275, -21363], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([29291, -21534], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([29374, -21399], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4730, -12676], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4963, -12692], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21895, -10694], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1450, -7141], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1208, -7069], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1366, -7273], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6284, -5094], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([14466, -1452], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([118890, -61208], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([118910, -61299], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([122240, -49190], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([122190, -49166], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([96113, -48174], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43502, -64700], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43622, -64481], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43687, -64687], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([36449, -58703], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([36316, -58548], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([36318, -58772], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42767, -58335], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42938, -58374], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42755, -58184], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42907, -58266], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37148, -54683], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37038, -54615], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37122, -54582], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44076, -48169], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44256, -48100], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42249, -36975], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42183, -37587], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42109, -37409], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41956, -37539], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3869, -61686], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3891, -61831], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4682, -60013], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4501, -60082], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4494, -60286], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8472, -54989], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8493, -54778], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26793, -56000], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26719, -55917], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([25777, -54958], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([25640, -54999], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30954, -56019], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31071, -56016], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17351, -49412], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17521, -49361], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17389, -49241], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([25608, -52690], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([25758, -52594], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15111, -47541], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([14973, -47579], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23755, -47500], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23908, -47545], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23806, -47631], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27749, -48340], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27519, -48267], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27701, -48205], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3707, -41679], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3672, -41843], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9483, -44175], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9593, -44157], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9146, -38584], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9271, -38577], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9365, -38773], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9073, -38308], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([14190, -38726], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([14332, -38857], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([12974, -37602], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([13059, -37713], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27152, -36678], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27029, -36724], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([99288, -86969], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([99281, -87038], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([104074, -84498], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([104151, -84431], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([68247, -96862], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([85655, -95317], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([85731, -95395], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([96284, -96049], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([96273, -96498], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([95977, -96948], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([95489, -96718], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([95421, -96124], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([95478, -91849], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([77254, -87736], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([66533, -81259], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([66590, -81119], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([81130, -78623], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([81188, -78711], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([95899, -66321], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([96010, -66323], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([33998, -90771], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([33778, -90827], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([33828, -90718], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35369, -91223], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35461, -91155], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35381, -91501], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([65335, -92893], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([65421, -92949], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64874, -93067], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([36568, -86660], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([36612, -86561], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35370, -88472], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35450, -88494], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([56771, -90071], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([56628, -90044], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41060, -83014], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41176, -82974], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41605, -82931], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([58167, -82709], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([58077, -82777], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37464, -76433], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37530, -76272], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37584, -76463], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44292, -77030], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44457, -77178], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44251, -77218], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43255, -75216], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43341, -75395], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43368, -75187], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35069, -72775], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35100, -72946], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34791, -72678], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43935, -73060], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43855, -73135], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([43767, -72994], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41807, -67136], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3081, -95546], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3060, -95723], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2809, -95940], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7694, -95033], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7604, -94955], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7785, -94944], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21963, -95564], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21908, -95671], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6261, -92733], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6170, -92592], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6877, -93170], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6201, -93956], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6050, -93895], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5916, -94117], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17367, -90548], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17371, -90694], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17637, -90384], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([20916, -90966], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([20868, -90760], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([20860, -90934], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18045, -87844], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17989, -87915], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18496, -86949], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18548, -86911], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27241, -87379], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27492, -87006], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27319, -87090], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26880, -87909], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26768, -87909], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30368, -89188], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30512, -88843], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30211, -89265], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8054, -78235], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8146, -78251], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8031, -78573], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8219, -78471], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([22938, -81467], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23425, -81449], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23476, -81397], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([559, -74410], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([669, -74321], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([678, -74505], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3872, -76825], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3957, -76548], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4687, -75685], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4669, -75539], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4584, -75659], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17589, -74460], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17490, -74374], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17390, -74496], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10846, -70285], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10885, -70128], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10691, -70233], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18093, -70246], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18178, -70188], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30868, -72116], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31046, -72156], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30986, -72075], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2374, -66787], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2434, -66905], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2276, -66936], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7831, -65935], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7484, -66192], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7600, -66139], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([11686, -68510], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([11523, -68525], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([11017, -69010], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([106009, -129729], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([100692, -126478], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([119785, -124030], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([117662, -120489], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([122507, -119428], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([126794, -120633], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([123964, -122502], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([102492, -114850], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([102495, -114798], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([105305, -98745], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([86702, -129495], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([93534, -129681], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([88258, -124519], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([92600, -123591], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([87581, -116362], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([69004, -114610], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([85243, -114614], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([85278, -114545], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([95970, -108865], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([96048, -108930], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([77976, -102822], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([87467, -101936], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35761, -127290], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37450, -127003], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([39132, -127381], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([36955, -127897], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([48073, -127651], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([45790, -127370], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([61286, -128864], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34262, -126826], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35972, -123890], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38564, -124000], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38723, -123640], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41904, -125779], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41847, -123185], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([61378, -124211], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([63704, -123735], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([63759, -125997], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35271, -120805], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35847, -121085], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([59411, -118894], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([57780, -122037], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([60223, -121990], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([62878, -118866], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([62924, -119037], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([39953, -117591], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([45266, -115739], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([56243, -117731], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([56264, -118009], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38687, -110823], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([40832, -112080], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([40757, -112235], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([40932, -111753], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44966, -112924], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([45855, -113707], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([57718, -111392], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([60877, -114052], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([65122, -113522], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([65136, -113426], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44547, -109690], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44642, -109756], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44640, -109950], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([46626, -108529], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([46287, -107741], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42410, -103256], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44300, -104753], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44269, -104815], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44329, -104541], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([59282, -105665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([59718, -102071], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1936, -130773], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1284, -129260], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3467, -128665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([781, -130058], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1498, -128563], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2553, -129488], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5996, -129348], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4252, -129304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6706, -127485], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7200, -128320], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9551, -129385], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10380, -129688], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10971, -129889], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10219, -130261], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21893, -129080], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2763, -124730], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2282, -126490], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1062, -123721], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5884, -123273], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4599, -123999], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4529, -125040], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4556, -123874], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10473, -124703], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8530, -126292], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9833, -123257], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([14285, -123304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16969, -123747], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18456, -123248], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23174, -123901], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([28628, -125333], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27868, -126251], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31408, -124581], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([32414, -123717], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3487, -119117], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2938, -121729], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([768, -121856], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5265, -121991], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5685, -122729], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4521, -121137], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9735, -121729], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18998, -121759], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18679, -121918], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18745, -122851], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18361, -122729], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([22001, -121884], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24552, -120992], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27206, -122122], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26209, -120298], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27743, -119579], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([28162, -120596], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30125, -120444], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5979, -115949], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7606, -116773], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9798, -117395], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9176, -117656], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([14832, -118403], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18905, -116223], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([20176, -115029], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31730, -117094], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31689, -116973], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([361, -110979], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2739, -113491], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7881, -110614], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6953, -110888], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4332, -112212], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10199, -113554], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([129, -108057], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3738, -107312], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3895, -107137], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3722, -107262], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1972, -108861], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1785, -108932], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6082, -107746], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10280, -108499], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10195, -108688], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16019, -107730], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17404, -109381], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17488, -109470], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21550, -108737], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21124, -108215], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21167, -108300], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21395, -108489], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21211, -108250], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21485, -108699], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21434, -108722], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21332, -108428], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21276, -108465], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3481, -102816], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1069, -104328], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([969, -104274], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16060, -105096], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15820, -105112], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([13159, -105502], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([13202, -105406], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([13132, -105412], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26018, -104620], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([25947, -104652], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2411, -101286], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2311, -101199], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5620, -99959], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18620, -100547], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18530, -100478], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17381, -100312], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17405, -100241], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21549, -102016], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([21627, -101939], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31687, -99520], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31722, -99614], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([32694, -99410], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27219, -158853], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-25103, -153983], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27266, -151931], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15969, -154136], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15798, -154930], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14802, -155400], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14031, -154511], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11825, -155305], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-12089, -154967], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-12029, -155351], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-25082, -148659], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15395, -149403], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15557, -148538], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-12847, -147520], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4678, -148147], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4229, -148168], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4304, -148279], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13118, -144077], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-12816, -143504], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15572, -146773], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15965, -147049], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9545, -144085], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9418, -144767], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4772, -146649], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4690, -146808], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1692, -145665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-348, -145205], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15797, -142287], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13807, -143148], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8430, -141380], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11123, -142169], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2320, -139969], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1359, -139877], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-553, -139672], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-482, -139310], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-857, -141113], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15090, -135866], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14454, -135616], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9709, -135885], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10692, -135276], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-9791, -137279], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5276, -138125], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4443, -139060], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4512, -137596], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4567, -135927], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4906, -136969], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3155, -138571], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3523, -136899], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3456, -135909], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14829, -133443], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11810, -132058], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4243, -134911], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4664, -133339], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-4479, -131986], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7644, -131457], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-657, -131564], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1545, -134315], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33438, -163713], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-32948, -158977], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-37907, -155169], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-37701, -146926], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-174581, -140734], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([198766, -161256], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([199167, -162755], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([199150, -162619], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([199301, -162733], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([197719, -162095], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([202142, -152869], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([201694, -141397], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([201796, -141322], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203555, -138739], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194431, -161456], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([195529, -161503], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194982, -161400], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194769, -161544], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([195805, -161739], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([163848, -157910], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([163923, -158081], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([164085, -158100], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([164000, -158145], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([164005, -157972], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([164010, -157790], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([189310, -159635], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([174315, -147731], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([174681, -148254], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([174450, -147944], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([175004, -147943], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([187792, -148352], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([169192, -144832], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([168914, -144921], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([169342, -144472], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([168867, -144251], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([168901, -144711], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([142697, -155855], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([144488, -154615], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([143556, -154977], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([126912, -136262], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([123017, -138549], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([100217, -134887], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([122080, -132421], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([78922, -156574], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([68655, -155056], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([82072, -137384], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94621, -135450], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([92330, -132995], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([51654, -153310], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([51527, -153191], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([51860, -153988], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([49878, -152824], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([50276, -149854], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([50363, -150327], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([50433, -150377], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([50306, -150259], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([61029, -149197], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([61305, -149186], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([61230, -149109], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42613, -147274], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42424, -146956], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42039, -144789], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41940, -144709], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53860, -143907], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53858, -143790], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53677, -143820], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41952, -141548], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42053, -141616], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([45775, -141173], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([46139, -141174], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([46002, -141230], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64882, -140818], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([65005, -140800], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([63701, -141179], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([62753, -140250], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([62650, -140106], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([36525, -137943], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35794, -138083], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([33826, -137067], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([33339, -137916], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37560, -138102], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38089, -138998], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([47496, -135329], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64218, -137757], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64267, -137900], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34899, -132558], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35735, -133280], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35069, -131344], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34976, -131227], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([39761, -134072], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38994, -134694], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38218, -133256], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42640, -131213], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44764, -131989], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([41564, -134466], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42697, -134108], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64798, -133552], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64675, -133649], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7681, -155659], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2830, -153799], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2991, -153625], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2553, -153677], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2247, -153546], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5251, -153274], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10390, -151942], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([11948, -152239], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([13675, -152464], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16847, -152647], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4929, -148174], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6913, -148088], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7870, -148625], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10950, -149938], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10191, -150955], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15508, -148683], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18783, -149547], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16432, -149976], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24681, -147493], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24659, -147568], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6016, -144335], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7396, -144297], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6893, -144145], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6387, -144412], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7829, -145126], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8815, -144484], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10118, -145879], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([8972, -146334], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17873, -146735], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18109, -145771], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24605, -147385], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([5424, -141155], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4912, -140480], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6002, -140701], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6977, -140599], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10803, -140653], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([14209, -141860], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18486, -140801], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17519, -139744], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16915, -140979], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16471, -142900], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([19194, -141706], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27171, -140998], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27222, -140940], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27529, -140872], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([515, -138465], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1319, -137155], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([647, -137343], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([293, -138239], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4451, -138834], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4605, -136574], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7256, -137835], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([13306, -138045], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15977, -135267], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15669, -135927], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([17536, -137960], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([22042, -135930], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([25550, -138009], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([31481, -136311], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1132, -132951], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2478, -134463], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7795, -132665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6937, -132342], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4508, -132234], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([11034, -134085], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([16270, -134091], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15223, -133232], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15658, -134626], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([15419, -134475], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([32296, -131963], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([32211, -131868], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([29793, -133932], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([29523, -133678], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24632, 186447], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24639, 186346], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24653, 186204], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24735, 186336], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24741, 186220], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24550, 186221], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-44580, 133590], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-44646, 133559], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36649, 137998], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36671, 138065], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([170647, 153295], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([170574, 153063], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([170500, 153247], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([170708, 153195], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([170550, 153193], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160702, 138338], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160629, 138106], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160555, 138290], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160763, 138238], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160605, 138235], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([155978, 141003], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([156052, 140819], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([156028, 140948], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([156125, 141051], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([156186, 140951], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157605, 148305], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157531, 148073], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157457, 148257], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157665, 148205], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157507, 148202], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160169, 153638], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160095, 153406], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160021, 153590], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160229, 153538], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160071, 153535], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94112, 134196], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94171, 134195], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94153, 134068], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94036, 134120], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94208, 134134], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([94279, 134022], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-25721, 105621], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-25971, 105709], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-25747, 105923], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7602, 104868], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6130, 103807], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7806, 103570], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-18508, 116269], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-17452, 116812], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-19866, 116996], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30384, 130476], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30467, 130449], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30490, 130498], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-58322, 99951], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-58260, 99984], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53669, 99240], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-54035, 98742], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53292, 98920], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-46347, 116775], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-46220, 118592], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-45344, 117665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42181, 119842], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-41791, 120532], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42161, 121323], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-57753, 125626], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-57732, 125543], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-57717, 125656], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36501, 124208], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-34780, 125152], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-35832, 126584], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74210, 109877], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74160, 109843], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74200, 109805], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70549, 106896], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70609, 106946], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70024, 111340], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70060, 111316], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70075, 111372], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-127640, 98432], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-126153, 100102], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-125963, 101844], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-123825, 100104], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-119137, 101617], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-115610, 99889], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-127031, 104226], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-23135, 65876], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-23202, 65751], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6355, 68490], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6632, 67893], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6317, 67880], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30899, 72140], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31000, 72190], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-16931, 73378], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-17025, 73281], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-18546, 70386], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-17935, 70328], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11056, 70676], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-10884, 70773], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27458, 73988], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27593, 73979], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13935, 74750], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13934, 74580], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11104, 74292], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11189, 74562], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6717, 75728], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6335, 75806], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1454, 77709], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1645, 77195], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31124, 78113], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-25263, 78625], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24962, 78486], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-26561, 78997], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-18503, 81181], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-18595, 81202], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6103, 78889], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6171, 78828], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-240, 79280], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-364, 79138], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-1656, 79789], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-29315, 84365], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-29637, 84511], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-29553, 91946], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-29479, 92198], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-57186, 67507], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-57200, 67370], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-45901, 68024], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-46119, 67920], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39341, 70777], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39205, 70838], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39417, 70849], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65051, 75112], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65180, 75004], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-47323, 76331], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-47352, 76414], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33642, 75229], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33915, 75356], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53413, 80422], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53325, 80486], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40921, 81106], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40901, 81280], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53023, 82645], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53120, 82682], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-37075, 82026], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-37060, 82117], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-38550, 89550], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-38015, 89009], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-94430, 66696], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-91499, 67440], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-91402, 67464], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-91813, 68427], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-85078, 69176], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-85154, 69221], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74741, 68665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74746, 68577], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68168, 66867], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68088, 66889], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-96711, 70562], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-95964, 71030], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68494, 73531], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68366, 73455], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-80824, 81614], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-81000, 81584], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-86819, 83269], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-86844, 82970], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-73768, 85666], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-73764, 85845], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-73267, 82407], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-73222, 82357], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76333, 89605], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76367, 89685], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76296, 89673], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70247, 94283], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70196, 94334], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-118531, 68925], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-118518, 68758], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-106588, 66724], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-106590, 66603], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-111218, 73496], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-111272, 73567], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-112559, 76304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-112422, 76323], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-112065, 76608], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-129184, 81296], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-129653, 80384], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-130278, 80711], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-106216, 78089], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-105879, 78000], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-105969, 77951], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-100287, 80846], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-100280, 80958], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-128937, 83532], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-129354, 83691], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-111537, 85341], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-110990, 84378], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-110971, 84168], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-107878, 84488], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-128390, 93993], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-127899, 91185], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-120059, 98167], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-122341, 95982], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-122267, 94419], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30594, 34920], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30627, 34705], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24790, 36178], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24908, 35847], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27312, 40399], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-17670, 37770], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13819, 40125], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6039, 39660], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30929, 43366], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-19879, 41158], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-19748, 41207], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14090, 44524], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8004, 41682], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-29114, 45535], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-25988, 47670], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-23159, 47150], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-19029, 47025], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31181, 50187], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31050, 50396], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27554, 49822], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-17678, 50527], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-18098, 50967], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-15052, 49445], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-14928, 49527], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8034, 52846], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-6316, 51426], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3092, 51493], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-3213, 51495], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30920, 54473], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31746, 54725], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31754, 54960], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-23944, 54969], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24046, 54573], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13356, 54251], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-12971, 54381], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5489, 61488], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5536, 61623], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-64755, 35491], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-60761, 35079], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-56206, 35465], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53366, 33706], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53428, 33575], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-49680, 34711], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-49633, 34739], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-44414, 33167], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-44424, 32926], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36966, 35348], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36019, 36010], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33420, 34890], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33523, 34743], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-63523, 39113], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-58108, 37928], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-55800, 39705], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-45262, 37214], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-45235, 37332], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42728, 40223], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42791, 40040], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42528, 37356], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42684, 37328], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-37890, 38852], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33663, 38040], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-60846, 40963], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-60783, 41147], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-56082, 43217], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-55872, 43230], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52201, 43221], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52089, 43278], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52476, 43813], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52685, 43800], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-51464, 44930], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-45474, 42756], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-47187, 44731], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-47459, 44515], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-44362, 41676], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39333, 42231], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39396, 42075], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-51422, 45060], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-37999, 48826], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36808, 48531], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-34965, 48919], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40883, 50620], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40456, 56576], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40717, 57166], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36689, 55873], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36762, 55713], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-47358, 57862], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-47442, 57947], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-48007, 58203], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-41100, 58744], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-41055, 58677], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33753, 60624], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-33658, 60466], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-59313, 63914], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-59451, 63874], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-35612, 64230], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36515, 63734], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-92005, 34877], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-92093, 35078], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-75457, 35894], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-73603, 33513], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-71170, 33786], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-71044, 33934], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-90932, 38544], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-91023, 38508], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74592, 38148], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74655, 37965], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74655, 37657], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74592, 37840], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-96278, 52238], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-96367, 52294], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-80970, 53203], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-81624, 52861], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-81427, 52889], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65572, 50136], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68974, 51051], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-69142, 51115], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-80922, 53531], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-81039, 53516], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76798, 59956], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76656, 60059], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-74630, 59628], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-72379, 59293], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-72571, 59356], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-83996, 64837], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-83951, 64942], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-108094, 36113], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-108107, 36225], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-106289, 35818], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-101169, 34873], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-101235, 34686], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-107344, 36967], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-105040, 37052], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-105155, 37304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-98451, 37793], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-98482, 37897], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-130370, 44576], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-130527, 44462], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-124667, 46042], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-124089, 47662], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-123976, 47680], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-98476, 48500], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-98323, 48482], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-110728, 52056], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-110770, 52226], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-101318, 49359], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-101263, 49422], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-129076, 56068], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-129043, 55793], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-109226, 60241], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-109236, 60403], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-126355, 63421], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-125901, 63489], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-112041, 61996], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-111973, 62124], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-32579, 3981], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-24719, 3987], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-30192, 6248], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-26172, 8523], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31310, 14893], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27320, 15976], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31312, 19725], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31375, 19542], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-23965, 20092], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-13034, 18408], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-11192, 18727], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-8247, 18506], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-2986, 18413], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-18136, 24105], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-5228, 20752], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-7806, 24419], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-93, 23105], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27893, 26190], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-26372, 28623], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31459, 30429], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-31545, 30518], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27369, 30806], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-27085, 30894], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-16883, 30273], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-64123, 3358], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-63317, 5643], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-62438, 7511], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-62570, 7233], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-62434, 7371], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-35254, 4337], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-43408, 10173], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42267, 9304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-43154, 9980], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-62636, 13857], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-63632, 15872], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-54718, 14480], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-49320, 15355], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-44622, 12986], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-41904, 13827], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39671, 13554], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39798, 13514], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39659, 15346], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36540, 15349], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-36470, 12655], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-34055, 12575], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-34104, 12500], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-56709, 19952], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-55832, 18824], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-56438, 17856], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-51123, 19451], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-53021, 16469], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-49883, 17488], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52082, 20116], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40657, 19455], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40594, 19638], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40594, 19945], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40657, 19762], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-35326, 18806], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52046, 22404], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52104, 22588], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-51376, 23427], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-44688, 24290], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-42860, 23660], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-39467, 21906], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-63543, 25581], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-61467, 28626], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-50618, 27402], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-50831, 27990], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-52804, 25865], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-35579, 26238], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-61737, 32044], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-46041, 30580], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-48147, 32584], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-38257, 30251], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-40090, 29850], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-89902, 7067], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-89833, 7129], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-67895, 7103], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-84954, 10075], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-85926, 10220], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-85853, 10309], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-95743, 13523], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-95787, 13460], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-90681, 13399], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-90619, 13311], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-85206, 15364], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76438, 15456], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76374, 15639], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-69793, 15889], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-69990, 16245], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-67239, 14203], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76706, 22787], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-73090, 22570], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-71980, 22585], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-66422, 23633], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-72395, 26627], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70744, 25539], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65900, 28141], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-65963, 27958], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-76774, 30951], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-71366, 31598], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-70348, 28730], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68412, 32335], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68541, 32193], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68683, 31921], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-68542, 32054], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-119057, 7922], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-102034, 4897], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-101853, 4906], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-115650, 10873], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-115553, 10846], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-109075, 9532], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-109195, 9141], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-124851, 14472], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-124913, 14658], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-103410, 16057], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-103237, 16096], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-127132, 19271], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-127248, 19188], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-115885, 17875], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-115975, 18094], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-112943, 16876], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-112944, 17043], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-103890, 19119], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-103979, 19172], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-116016, 25171], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-116214, 25173], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-103116, 26294], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-102902, 26307], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-117485, 30177], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-117430, 30374], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-99549, 30745], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-99805, 30716], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-136488, 99369], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-134912, 99726], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-133584, 99880], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-140209, 103145], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-136694, 104143], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-138910, 105307], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-134439, 103423], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-146521, 67795], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-146600, 67745], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137920, 67885], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137389, 67440], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-132607, 68567], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-148605, 70254], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-149729, 70900], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-150210, 73336], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-144630, 73249], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-140944, 70727], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-138685, 70768], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-138587, 70615], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163686, 74350], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163768, 74053], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-151972, 75737], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-153455, 76851], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-155087, 76824], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-150770, 76746], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-150638, 76893], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-149705, 76772], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-145096, 76540], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-153282, 81857], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-148184, 78964], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-149328, 79396], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-150664, 77966], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-145597, 81321], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-145740, 81380], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-145979, 78750], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-138100, 81024], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-154920, 83760], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-154693, 83851], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-153682, 82980], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-134739, 84170], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-145915, 88158], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-150464, 93673], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-141885, 92094], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163444, 96749], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-162412, 97268], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-132360, 94767], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175553, 68082], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-173377, 68326], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-173310, 67753], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170047, 69325], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170282, 69097], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-168772, 66435], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-172968, 71541], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-173346, 72172], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-173860, 73164], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-166784, 71294], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-167155, 71387], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-179160, 77505], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-179887, 75697], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178764, 76303], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-172167, 75485], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-172532, 76096], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-166405, 75217], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-176980, 80695], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-177891, 79813], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178451, 79314], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-168700, 78763], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-168932, 81594], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169334, 81510], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175487, 84937], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170046, 85749], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170432, 85925], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169390, 83975], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-168876, 84413], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-173827, 86873], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178293, 90169], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-177537, 91754], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-177365, 97225], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-176953, 96964], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-173688, 95517], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163562, 35275], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163425, 35345], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-146461, 32849], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-146372, 32957], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-140317, 36828], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137030, 33837], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137434, 33701], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-155750, 37433], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-145174, 38309], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-144483, 38155], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-144506, 38309], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-132546, 37247], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-132355, 37278], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-149024, 42795], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-149140, 42863], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137896, 44572], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-137899, 44388], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-162406, 48998], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163650, 47017], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163734, 46836], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-140524, 46181], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-140658, 46058], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-162434, 49166], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-162676, 49410], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-141401, 51630], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-141438, 51429], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-136305, 49489], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-136459, 49459], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-132571, 50950], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-133251, 51479], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163565, 55009], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-163523, 54640], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-139835, 56101], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-135344, 56257], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-135879, 54515], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-135978, 54412], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-135086, 53261], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-134532, 55404], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-134794, 55825], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-162029, 58714], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-162396, 58844], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-159192, 59292], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-159586, 59873], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-159557, 57460], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-159647, 57628], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-159516, 57970], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-144954, 59709], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-145158, 59933], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-134200, 60433], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-133740, 58774], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-133846, 58819], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178895, 34793], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178569, 34894], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178690, 34806], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-166955, 51409], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-166769, 51211], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-168903, 55224], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-169413, 55846], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-177036, 60457], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175299, 58264], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175010, 58046], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170936, 59106], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-171758, 60657], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-171526, 60034], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-177227, 64295], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-176758, 63443], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175765, 63133], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-175617, 63367], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-160705, 5071], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-160605, 4986], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-160553, 5122], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-141849, 6995], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-150822, 10113], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-150848, 10247], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-144438, 10241], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-148805, 12491], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-148697, 12663], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-152859, 16851], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-152711, 16887], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-139319, 21986], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-139021, 22217], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-139051, 21877], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-153917, 27932], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-153826, 27962], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-142641, 24832], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-141766, 25032], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-138752, 29586], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-139035, 28993], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-139229, 29087], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178432, 6465], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178670, 6574], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-178558, 6394], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170263, 18317], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170155, 18511], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([-170074, 18346], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([205604, 117708], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([192238, 101966], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([189319, 104620], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194926, 108227], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([171349, 114045], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([171266, 114389], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([171222, 114184], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([137698, 104870], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([137773, 105165], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([137864, 105097], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([137123, 108283], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([136753, 108142], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([136817, 108114], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([151451, 107656], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([151042, 107728], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([151183, 107772], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([151203, 107673], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([154236, 110374], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([154075, 110224], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([154098, 110158], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([149478, 111898], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150114, 112303], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150032, 111895], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150304, 111957], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150375, 111884], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157352, 117981], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157645, 118254], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([157557, 118133], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([197838, 74461], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([197895, 74534], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([197712, 74554], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203546, 75740], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203150, 75011], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203263, 75095], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([202506, 75762], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([202481, 75832], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203194, 77775], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([197615, 81340], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203659, 78243], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203726, 78543], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203520, 78214], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([198420, 82911], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([198328, 82905], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([198212, 82042], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([190090, 73179], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([190464, 74780], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([190421, 74503], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([190148, 73833], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([191379, 76283], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([191513, 76179], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([191650, 76299], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194612, 75909], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194987, 75653], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194619, 75578], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([181660, 80577], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([181113, 80730], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([180813, 80259], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([186623, 81728], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([190724, 78317], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([190443, 77918], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([190179, 78157], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([196598, 77849], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([196285, 77884], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([195733, 80249], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([195672, 80018], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([195460, 80249], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([196545, 81431], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([196545, 81318], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([181197, 85665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([186630, 82022], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([186514, 82004], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([195834, 83883], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([195956, 84474], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([196148, 82822], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194961, 85092], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([173340, 91096], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([173731, 91095], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([193343, 91071], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([173955, 95155], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([174197, 95231], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([174013, 95113], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([191931, 97886], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150013, 66189], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150142, 66214], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150069, 65852], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150413, 65633], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150282, 66772], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150057, 66703], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([152793, 67290], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([151835, 66732], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([151761, 66657], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([148111, 77646], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([152040, 76668], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([152277, 76451], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([153422, 75252], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([143601, 79455], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([143921, 79480], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([149105, 79705], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150036, 80012], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([149997, 80215], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([148193, 78858], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([148328, 78365], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([147884, 78316], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([140374, 83653], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([140350, 83813], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([140184, 83854], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([140636, 83734], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([146517, 84085], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([146510, 83911], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([146647, 83913], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([159411, 84249], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([161299, 84387], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([161014, 84143], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([135061, 94408], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([135116, 94343], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([135194, 94419], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160246, 95107], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160203, 95077], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([160111, 94841], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203877, 56760], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([203273, 56664], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([204610, 58721], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([204037, 59009], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([202784, 58789], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([202725, 58994], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([199921, 65410], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([200051, 65402], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([199752, 65453], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([178076, 43264], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([178264, 43505], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([196220, 46638], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([196217, 46540], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194213, 60876], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([194491, 61871], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([137708, 35809], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([138313, 34590], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([138362, 34674], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([133201, 60864], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([133223, 60730], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([133616, 60952], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([139093, 58636], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([138954, 58669], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([138996, 58783], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([149256, 60164], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([149158, 60171], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([149227, 60295], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([150973, 60699], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([151151, 60277], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([159823, 58009], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([162557, 59587], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([163242, 59532], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([163469, 59397], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([163565, 59347], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([146216, 63272], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([146018, 63426], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([146947, 63382], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([39059, 99892], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38815, 99761], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38941, 99856], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([60556, 98866], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([60690, 98828], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([58916, 99921], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([58982, 99998], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([60578, 101155], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([60323, 101047], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([55663, 114493], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([56706, 113988], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([56200, 114304], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([56454, 113820], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53340, 113257], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53459, 112579], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([65320, 118065], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([65385, 117946], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18412, 103242], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18545, 103296], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([18480, 103432], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6289, 117487], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6465, 117435], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([6559, 117155], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27145, 115306], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26854, 115343], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([27012, 115423], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1116, 120494], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1298, 120706], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([995, 120184], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24049, 119236], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23897, 120127], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23749, 120196], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23558, 119495], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([127911, 75768], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([128272, 75633], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([128314, 76037], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([116307, 82798], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([116088, 82699], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([116291, 82719], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([105472, 88281], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([105314, 88504], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([104886, 88285], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([105147, 88163], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([104956, 88134], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([123974, 86125], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([123804, 86489], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([123868, 86123], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([115106, 91951], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([115382, 92122], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([115280, 92069], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([120231, 90204], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([120151, 90194], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([120332, 90369], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([120995, 90370], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([124011, 92461], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([123890, 92215], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([123956, 92348], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([84637, 70639], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([84644, 70712], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([84717, 70638], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([66548, 76415], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([66340, 76517], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([66747, 76450], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([58810, 66207], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([51545, 75675], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([51088, 75119], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([50994, 74677], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([50568, 74802], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64420, 76806], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64369, 76746], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([39024, 80328], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([38962, 80314], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44427, 79521], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44403, 79464], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44353, 79539], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44503, 79466], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34981, 85417], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35025, 85292], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35065, 85406], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([46515, 89341], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([45788, 89405], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34720, 90777], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34505, 90949], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34349, 91201], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34282, 91073], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([45773, 90368], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4400, 70619], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23169, 75032], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23195, 75024], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3750, 91276], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([3291, 90521], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2579, 90209], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10670, 91932], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([9829, 90364], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([10613, 91971], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([11709, 90729], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([101467, 35085], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([100788, 37907], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([104128, 43004], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([103881, 48259], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([107540, 48650], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([122202, 46683], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121177, 46322], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121302, 45578], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121423, 45682], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121507, 48000], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121390, 47975], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121932, 48012], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121065, 50875], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([120949, 50995], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([120859, 59853], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121248, 59650], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([121029, 59508], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([92463, 35895], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([84965, 40732], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([75676, 47507], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([75840, 47484], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([75813, 47391], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([97557, 50477], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([80412, 58126], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([80310, 58197], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([80320, 58084], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35347, 44808], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([35407, 44870], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37800, 41423], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([37718, 41427], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([44245, 42106], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([40025, 51824], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53532, 51182], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53866, 51126], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([53731, 51182], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([33840, 54130], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([33865, 54216], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([57784, 65091], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([58524, 64169], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7950, 49710], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([7917, 49722], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2556, 56470], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([2659, 56580], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([19618, 54665], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([19591, 54700], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([567, 59435], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([385, 59393], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1085, 59192], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26232, 59383], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([26199, 59374], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30280, 58604], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30406, 58647], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([30366, 58581], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([101157, 27111], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([104683, 32468], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([74546, 12677], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([70022, 21576], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([76178, 27671], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([88267, 31942], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([92318, 31928], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([40604, 2196], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42441, 2543], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([34409, 6332], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([45457, 5472], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([46963, 10771], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([54299, 9688], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42945, 15754], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42972, 15673], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([42989, 15759], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([49765, 15769], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([62155, 13111], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([64616, 24227], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([23823, 2850], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([13735, 11126], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1548, 16172], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([4512, 15929], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24093, 15537], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24123, 15486], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([24058, 15473], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([22250, 14025], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([1112, 28492], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([20366, 28570], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([20361, 28642], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([32199, 27344], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([32121, 27395], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-	L.circleMarker([32184, 27055], {color: "#6B8E23"}).addTo(ilofasolyicons).bindPopup("Илофасоль").bindTooltip("Илофасоль", {direction: 'top'});
-
-	L.circleMarker([59527, 185466], {color: "#6B8E23", fillColor: "#000000", fillOpacity: "0.8"}).addTo(ilofasolyicons).bindPopup("Илофасоль<br>[Внутри локации Бункер Рейли Клэя]").bindTooltip("Илофасоль<br>[Внутри локации Бункер Рейли Клэя]", {direction: 'top'});
+		var ilofasoly1 = [
+			[-21660, -32618],
+			[-13580, -29822],
+			[-13643, -29583],
+			[-13721, -29759],
+			[-22450, -26977],
+			[-2770, -19937],
+			[-2896, -19932],
+			[-15936, -15686],
+			[-15999, -15593],
+			[-57900, -22921],
+			[-45004, -17107],
+			[-34905, -18097],
+			[-34884, -18041],
+			[-75902, -17569],
+			[-75827, -17690],
+			[-79280, -11340],
+			[-121129, -22092],
+			[-120384, -22097],
+			[-120467, -22111],
+			[-120318, -22039],
+			[-27264, -63304],
+			[-27586, -62796],
+			[-27640, -62684],
+			[-15278, -62488],
+			[-14766, -62013],
+			[-23158, -45856],
+			[-23160, -46017],
+			[-13753, -46593],
+			[-13575, -46597],
+			[-14243, -46985],
+			[-14106, -46975],
+			[-3605, -47879],
+			[-3476, -47895],
+			[-3434, -48000],
+			[-24830, -44151],
+			[-24780, -44322],
+			[-19098, -42544],
+			[-6758, -39031],
+			[-7095, -39285],
+			[-6959, -38985],
+			[-7113, -39104],
+			[-65096, -49875],
+			[-65111, -49783],
+			[-65175, -49889],
+			[-48078, -45223],
+			[-48115, -45326],
+			[-72803, -64139],
+			[-73986, -53533],
+			[-74061, -53319],
+			[-9521, -91389],
+			[-9605, -91348],
+			[-9581, -91882],
+			[-9491, -91838],
+			[-5057, -90656],
+			[-9687, -87147],
+			[-9818, -87266],
+			[-9677, -87730],
+			[-14514, -77229],
+			[-14649, -77221],
+			[-10921, -73804],
+			[-10828, -73915],
+			[-11120, -74461],
+			[-10991, -74280],
+			[-26469, -72744],
+			[-26400, -72652],
+			[-26238, -72552],
+			[-15194, -70559],
+			[-10252, -73496],
+			[-10127, -73475],
+			[-10306, -73257],
+			[-386, -70214],
+			[-256, -70081],
+			[-15247, -66304],
+			[-15377, -66341],
+			[-14789, -67265],
+			[-14686, -67311],
+			[-63388, -98179],
+			[-58741, -96115],
+			[-56936, -90992],
+			[-62756, -86765],
+			[-65073, -88888],
+			[-64977, -87576],
+			[-50898, -81771],
+			[-75815, -97575],
+			[-72139, -97982],
+			[-69648, -95380],
+			[-68621, -95622],
+			[-79918, -92897],
+			[-74495, -91778],
+			[-70707, -93913],
+			[-75991, -89266],
+			[-76662, -88153],
+			[-70523, -86375],
+			[-69352, -86297],
+			[-65717, -86974],
+			[-67455, -83497],
+			[-70625, -74723],
+			[-70692, -74807],
+			[-70568, -74812],
+			[-66730, -75613],
+			[-67580, -76295],
+			[-14881, -129130],
+			[-15769, -129739],
+			[-14649, -127009],
+			[-14015, -127473],
+			[-9292, -130371],
+			[-11111, -129529],
+			[-9776, -130021],
+			[-4961, -129568],
+			[-7665, -127687],
+			[-3059, -128725],
+			[-3351, -130064],
+			[-3067, -129546],
+			[-2527, -129603],
+			[-17203, -123394],
+			[-14214, -126624],
+			[-13671, -124025],
+			[-11876, -123755],
+			[-8705, -124931],
+			[-9168, -124036],
+			[-5890, -124594],
+			[-5896, -125168],
+			[-7568, -124654],
+			[-4948, -125563],
+			[-2520, -126289],
+			[-607, -124115],
+			[-1640, -125559],
+			[-3184, -125903],
+			[-3414, -125482],
+			[-14776, -121390],
+			[-15737, -122436],
+			[-13960, -121542],
+			[-11041, -122625],
+			[-11490, -122575],
+			[-6435, -120664],
+			[-8027, -121984],
+			[-6954, -120831],
+			[-6647, -120113],
+			[-2585, -119806],
+			[-1448, -122872],
+			[-14118, -117126],
+			[-12592, -115682],
+			[-9881, -116435],
+			[-5477, -117643],
+			[-3858, -115652],
+			[-14534, -111148],
+			[-9128, -114397],
+			[-8529, -114020],
+			[-8900, -114580],
+			[-8503, -111285],
+			[-9137, -112381],
+			[-7898, -112960],
+			[-7046, -112279],
+			[-7477, -112169],
+			[-7159, -114211],
+			[-7016, -114102],
+			[-6144, -114004],
+			[-2088, -113231],
+			[-2146, -111412],
+			[-18781, -109140],
+			[-16179, -109930],
+			[-16123, -110052],
+			[-6467, -109437],
+			[-6290, -109590],
+			[-5131, -109616],
+			[-5170, -109457],
+			[-2081, -109509],
+			[-2016, -109422],
+			[-14187, -104326],
+			[-4452, -104365],
+			[-6423, -103700],
+			[-700, -104389],
+			[-760, -104314],
+			[-304, -104236],
+			[-20297, -100443],
+			[-4987, -101374],
+			[-1005, -100124],
+			[-1842, -98866],
+			[-57516, -111206],
+			[-58290, -109661],
+			[-60482, -103459],
+			[-55141, -104898],
+			[-67882, -112917],
+			[-67849, -113004],
+			[-70124, -101178],
+			[-148373, -22532],
+			[-148272, -22567],
+			[-137649, -21635],
+			[-137895, -21663],
+			[-156896, -8249],
+			[-156882, -8090],
+			[-140868, -6888],
+			[-140675, -6976],
+			[-135575, -1380],
+			[-135438, -1365],
+			[-169978, -18962],
+			[-169868, -18936],
+			[-169966, -19048],
+			[-175626, -3219],
+			[-175483, -3263],
+			[-165846, -2704],
+			[-166027, -2668],
+			[-166075, -2798],
+			[-163614, -32935],
+			[-163455, -33038],
+			[-156619, -33354],
+			[-156675, -33461],
+			[-142860, -33806],
+			[-142897, -33703],
+			[-179430, -33516],
+			[-179402, -33384],
+			[-179327, -33430],
+			[-163317, -92539],
+			[-176924, -97716],
+			[-171674, -95985],
+			[-174643, -92386],
+			[-175174, -93159],
+			[-170555, -87768],
+			[-167343, -83547],
+			[-157384, -103595],
+			[-161735, -99640],
+			[-176821, -107216],
+			[-169534, -106874],
+			[-169006, -107323],
+			[-165075, -103787],
+			[-176343, -99440],
+			[-174309, -98633],
+			[185933, -96956],
+			[193243, -94706],
+			[191247, -80091],
+			[157403, -89832],
+			[136520, -81007],
+			[136298, -81814],
+			[136346, -81402],
+			[136535, -80971],
+			[133024, -75038],
+			[200782, -104831],
+			[177452, -130495],
+			[172260, -122300],
+			[165079, -114328],
+			[182383, -108528],
+			[132933, -127824],
+			[141435, -123743],
+			[148926, -105393],
+			[106777, -23164],
+			[88951, -24771],
+			[85395, -20818],
+			[89990, -24384],
+			[92809, -23038],
+			[92942, -22280],
+			[90385, -20976],
+			[90801, -21600],
+			[90742, -21326],
+			[91155, -24123],
+			[90594, -22491],
+			[94622, -23933],
+			[84522, -19715],
+			[84009, -19496],
+			[89105, -17736],
+			[86928, -19095],
+			[86612, -18940],
+			[87825, -18917],
+			[89540, -18956],
+			[88880, -18368],
+			[89736, -17384],
+			[67295, -5408],
+			[41013, -18540],
+			[35088, -9541],
+			[35005, -9683],
+			[52697, -9049],
+			[62944, -2591],
+			[29275, -21363],
+			[29291, -21534],
+			[29374, -21399],
+			[4730, -12676],
+			[4963, -12692],
+			[21895, -10694],
+			[1450, -7141],
+			[1208, -7069],
+			[1366, -7273],
+			[6284, -5094],
+			[14466, -1452],
+			[118890, -61208],
+			[118910, -61299],
+			[122240, -49190],
+			[122190, -49166],
+			[96113, -48174],
+			[43502, -64700],
+			[43622, -64481],
+			[43687, -64687],
+			[36449, -58703],
+			[36316, -58548],
+			[36318, -58772],
+			[42767, -58335],
+			[42938, -58374],
+			[42755, -58184],
+			[42907, -58266],
+			[37148, -54683],
+			[37038, -54615],
+			[37122, -54582],
+			[44076, -48169],
+			[44256, -48100],
+			[42249, -36975],
+			[42183, -37587],
+			[42109, -37409],
+			[41956, -37539],
+			[3869, -61686],
+			[3891, -61831],
+			[4682, -60013],
+			[4501, -60082],
+			[4494, -60286],
+			[8472, -54989],
+			[8493, -54778],
+			[26793, -56000],
+			[26719, -55917],
+			[25777, -54958],
+			[25640, -54999],
+			[30954, -56019],
+			[31071, -56016],
+			[17351, -49412],
+			[17521, -49361],
+			[17389, -49241],
+			[25608, -52690],
+			[25758, -52594],
+			[15111, -47541],
+			[14973, -47579],
+			[23755, -47500],
+			[23908, -47545],
+			[23806, -47631],
+			[27749, -48340],
+			[27519, -48267],
+			[27701, -48205],
+			[3707, -41679],
+			[3672, -41843],
+			[9483, -44175],
+			[9593, -44157],
+			[9146, -38584],
+			[9271, -38577],
+			[9365, -38773],
+			[9073, -38308],
+			[14190, -38726],
+			[14332, -38857],
+			[12974, -37602],
+			[13059, -37713],
+			[27152, -36678],
+			[27029, -36724],
+			[99288, -86969],
+			[99281, -87038],
+			[104074, -84498],
+			[104151, -84431],
+			[68247, -96862],
+			[85655, -95317],
+			[85731, -95395],
+			[96284, -96049],
+			[96273, -96498],
+			[95977, -96948],
+			[95489, -96718],
+			[95421, -96124],
+			[95478, -91849],
+			[77254, -87736],
+			[66533, -81259],
+			[66590, -81119],
+			[81130, -78623],
+			[81188, -78711],
+			[95899, -66321],
+			[96010, -66323],
+			[33998, -90771],
+			[33778, -90827],
+			[33828, -90718],
+			[35369, -91223],
+			[35461, -91155],
+			[35381, -91501],
+			[65335, -92893],
+			[65421, -92949],
+			[64874, -93067],
+			[36568, -86660],
+			[36612, -86561],
+			[35370, -88472],
+			[35450, -88494],
+			[56771, -90071],
+			[56628, -90044],
+			[41060, -83014],
+			[41176, -82974],
+			[41605, -82931],
+			[58167, -82709],
+			[58077, -82777],
+			[37464, -76433],
+			[37530, -76272],
+			[37584, -76463],
+			[44292, -77030],
+			[44457, -77178],
+			[44251, -77218],
+			[43255, -75216],
+			[43341, -75395],
+			[43368, -75187],
+			[35069, -72775],
+			[35100, -72946],
+			[34791, -72678],
+			[43935, -73060],
+			[43855, -73135],
+			[43767, -72994],
+			[41807, -67136],
+			[3081, -95546],
+			[3060, -95723],
+			[2809, -95940],
+			[7694, -95033],
+			[7604, -94955],
+			[7785, -94944],
+			[21963, -95564],
+			[21908, -95671],
+			[6261, -92733],
+			[6170, -92592],
+			[6877, -93170],
+			[6201, -93956],
+			[6050, -93895],
+			[5916, -94117],
+			[17367, -90548],
+			[17371, -90694],
+			[17637, -90384],
+			[20916, -90966],
+			[20868, -90760],
+			[20860, -90934],
+			[18045, -87844],
+			[17989, -87915],
+			[18496, -86949],
+			[18548, -86911],
+			[27241, -87379],
+			[27492, -87006],
+			[27319, -87090],
+			[26880, -87909],
+			[26768, -87909],
+			[30368, -89188],
+			[30512, -88843],
+			[30211, -89265],
+			[8054, -78235],
+			[8146, -78251],
+			[8031, -78573],
+			[8219, -78471],
+			[22938, -81467],
+			[23425, -81449],
+			[23476, -81397],
+			[559, -74410],
+			[669, -74321],
+			[678, -74505],
+			[3872, -76825],
+			[3957, -76548],
+			[4687, -75685],
+			[4669, -75539],
+			[4584, -75659],
+			[17589, -74460],
+			[17490, -74374],
+			[17390, -74496],
+			[10846, -70285],
+			[10885, -70128],
+			[10691, -70233],
+			[18093, -70246],
+			[18178, -70188],
+			[30868, -72116],
+			[31046, -72156],
+			[30986, -72075],
+			[2374, -66787],
+			[2434, -66905],
+			[2276, -66936],
+			[7831, -65935],
+			[7484, -66192],
+			[7600, -66139],
+			[11686, -68510],
+			[11523, -68525],
+			[11017, -69010],
+			[106009, -129729],
+			[100692, -126478],
+			[119785, -124030],
+			[117662, -120489],
+			[122507, -119428],
+			[126794, -120633],
+			[123964, -122502],
+			[102492, -114850],
+			[102495, -114798],
+			[105305, -98745],
+			[86702, -129495],
+			[93534, -129681],
+			[88258, -124519],
+			[92600, -123591],
+			[87581, -116362],
+			[69004, -114610],
+			[85243, -114614],
+			[85278, -114545],
+			[95970, -108865],
+			[96048, -108930],
+			[77976, -102822],
+			[87467, -101936],
+			[35761, -127290],
+			[37450, -127003],
+			[39132, -127381],
+			[36955, -127897],
+			[48073, -127651],
+			[45790, -127370],
+			[61286, -128864],
+			[34262, -126826],
+			[35972, -123890],
+			[38564, -124000],
+			[38723, -123640],
+			[41904, -125779],
+			[41847, -123185],
+			[61378, -124211],
+			[63704, -123735],
+			[63759, -125997],
+			[35271, -120805],
+			[35847, -121085],
+			[59411, -118894],
+			[57780, -122037],
+			[60223, -121990],
+			[62878, -118866],
+			[62924, -119037],
+			[39953, -117591],
+			[45266, -115739],
+			[56243, -117731],
+			[56264, -118009],
+			[38687, -110823],
+			[40832, -112080],
+			[40757, -112235],
+			[40932, -111753],
+			[44966, -112924],
+			[45855, -113707],
+			[57718, -111392],
+			[60877, -114052],
+			[65122, -113522],
+			[65136, -113426],
+			[44547, -109690],
+			[44642, -109756],
+			[44640, -109950],
+			[46626, -108529],
+			[46287, -107741],
+			[42410, -103256],
+			[44300, -104753],
+			[44269, -104815],
+			[44329, -104541],
+			[59282, -105665],
+			[59718, -102071],
+			[1936, -130773],
+			[1284, -129260],
+			[3467, -128665],
+			[781, -130058],
+			[1498, -128563],
+			[2553, -129488],
+			[5996, -129348],
+			[4252, -129304],
+			[6706, -127485],
+			[7200, -128320],
+			[9551, -129385],
+			[10380, -129688],
+			[10971, -129889],
+			[10219, -130261],
+			[21893, -129080],
+			[2763, -124730],
+			[2282, -126490],
+			[1062, -123721],
+			[5884, -123273],
+			[4599, -123999],
+			[4529, -125040],
+			[4556, -123874],
+			[10473, -124703],
+			[8530, -126292],
+			[9833, -123257],
+			[14285, -123304],
+			[16969, -123747],
+			[18456, -123248],
+			[23174, -123901],
+			[28628, -125333],
+			[27868, -126251],
+			[31408, -124581],
+			[32414, -123717],
+			[3487, -119117],
+			[2938, -121729],
+			[768, -121856],
+			[5265, -121991],
+			[5685, -122729],
+			[4521, -121137],
+			[9735, -121729],
+			[18998, -121759],
+			[18679, -121918],
+			[18745, -122851],
+			[18361, -122729],
+			[22001, -121884],
+			[24552, -120992],
+			[27206, -122122],
+			[26209, -120298],
+			[27743, -119579],
+			[28162, -120596],
+			[30125, -120444],
+			[5979, -115949],
+			[7606, -116773],
+			[9798, -117395],
+			[9176, -117656],
+			[14832, -118403],
+			[18905, -116223],
+			[20176, -115029],
+			[31730, -117094],
+			[31689, -116973],
+			[361, -110979],
+			[2739, -113491],
+			[7881, -110614],
+			[6953, -110888],
+			[4332, -112212],
+			[10199, -113554],
+			[129, -108057],
+			[3738, -107312],
+			[3895, -107137],
+			[3722, -107262],
+			[1972, -108861],
+			[1785, -108932],
+			[6082, -107746],
+			[10280, -108499],
+			[10195, -108688],
+			[16019, -107730],
+			[17404, -109381],
+			[17488, -109470],
+			[21550, -108737],
+			[21124, -108215],
+			[21167, -108300],
+			[21395, -108489],
+			[21211, -108250],
+			[21485, -108699],
+			[21434, -108722],
+			[21332, -108428],
+			[21276, -108465],
+			[3481, -102816],
+			[1069, -104328],
+			[969, -104274],
+			[16060, -105096],
+			[15820, -105112],
+			[13159, -105502],
+			[13202, -105406],
+			[13132, -105412],
+			[26018, -104620],
+			[25947, -104652],
+			[2411, -101286],
+			[2311, -101199],
+			[5620, -99959],
+			[18620, -100547],
+			[18530, -100478],
+			[17381, -100312],
+			[17405, -100241],
+			[21549, -102016],
+			[21627, -101939],
+			[31687, -99520],
+			[31722, -99614],
+			[32694, -99410],
+			[-27219, -158853],
+			[-25103, -153983],
+			[-27266, -151931],
+			[-15969, -154136],
+			[-15798, -154930],
+			[-14802, -155400],
+			[-14031, -154511],
+			[-11825, -155305],
+			[-12089, -154967],
+			[-12029, -155351],
+			[-25082, -148659],
+			[-15395, -149403],
+			[-15557, -148538],
+			[-12847, -147520],
+			[-4678, -148147],
+			[-4229, -148168],
+			[-4304, -148279],
+			[-13118, -144077],
+			[-12816, -143504],
+			[-15572, -146773],
+			[-15965, -147049],
+			[-9545, -144085],
+			[-9418, -144767],
+			[-4772, -146649],
+			[-4690, -146808],
+			[-1692, -145665],
+			[-348, -145205],
+			[-15797, -142287],
+			[-13807, -143148],
+			[-8430, -141380],
+			[-11123, -142169],
+			[-2320, -139969],
+			[-1359, -139877],
+			[-553, -139672],
+			[-482, -139310],
+			[-857, -141113],
+			[-15090, -135866],
+			[-14454, -135616],
+			[-9709, -135885],
+			[-10692, -135276],
+			[-9791, -137279],
+			[-5276, -138125],
+			[-4443, -139060],
+			[-4512, -137596],
+			[-4567, -135927],
+			[-4906, -136969],
+			[-3155, -138571],
+			[-3523, -136899],
+			[-3456, -135909],
+			[-14829, -133443],
+			[-11810, -132058],
+			[-4243, -134911],
+			[-4664, -133339],
+			[-4479, -131986],
+			[-7644, -131457],
+			[-657, -131564],
+			[-1545, -134315],
+			[-33438, -163713],
+			[-32948, -158977],
+			[-37907, -155169],
+			[-37701, -146926],
+			[-174581, -140734],
+			[198766, -161256],
+			[199167, -162755],
+			[199150, -162619],
+			[199301, -162733],
+			[197719, -162095],
+			[202142, -152869],
+			[201694, -141397],
+			[201796, -141322],
+			[203555, -138739],
+			[194431, -161456],
+			[195529, -161503],
+			[194982, -161400],
+			[194769, -161544],
+			[195805, -161739],
+			[163848, -157910],
+			[163923, -158081],
+			[164085, -158100],
+			[164000, -158145],
+			[164005, -157972],
+			[164010, -157790],
+			[189310, -159635],
+			[174315, -147731],
+			[174681, -148254],
+			[174450, -147944],
+			[175004, -147943],
+			[187792, -148352],
+			[169192, -144832],
+			[168914, -144921],
+			[169342, -144472],
+			[168867, -144251],
+			[168901, -144711],
+			[142697, -155855],
+			[144488, -154615],
+			[143556, -154977],
+			[126912, -136262],
+			[123017, -138549],
+			[100217, -134887],
+			[122080, -132421],
+			[78922, -156574],
+			[68655, -155056],
+			[82072, -137384],
+			[94621, -135450],
+			[92330, -132995],
+			[51654, -153310],
+			[51527, -153191],
+			[51860, -153988],
+			[49878, -152824],
+			[50276, -149854],
+			[50363, -150327],
+			[50433, -150377],
+			[50306, -150259],
+			[61029, -149197],
+			[61305, -149186],
+			[61230, -149109],
+			[42613, -147274],
+			[42424, -146956],
+			[42039, -144789],
+			[41940, -144709],
+			[53860, -143907],
+			[53858, -143790],
+			[53677, -143820],
+			[41952, -141548],
+			[42053, -141616],
+			[45775, -141173],
+			[46139, -141174],
+			[46002, -141230],
+			[64882, -140818],
+			[65005, -140800],
+			[63701, -141179],
+			[62753, -140250],
+			[62650, -140106],
+			[36525, -137943],
+			[35794, -138083],
+			[33826, -137067],
+			[33339, -137916],
+			[37560, -138102],
+			[38089, -138998],
+			[47496, -135329],
+			[64218, -137757],
+			[64267, -137900],
+			[34899, -132558],
+			[35735, -133280],
+			[35069, -131344],
+			[34976, -131227],
+			[39761, -134072],
+			[38994, -134694],
+			[38218, -133256],
+			[42640, -131213],
+			[44764, -131989],
+			[41564, -134466],
+			[42697, -134108],
+			[64798, -133552],
+			[64675, -133649],
+			[7681, -155659],
+			[2830, -153799],
+			[2991, -153625],
+			[2553, -153677],
+			[2247, -153546],
+			[5251, -153274],
+			[10390, -151942],
+			[11948, -152239],
+			[13675, -152464],
+			[16847, -152647],
+			[4929, -148174],
+			[6913, -148088],
+			[7870, -148625],
+			[10950, -149938],
+			[10191, -150955],
+			[15508, -148683],
+			[18783, -149547],
+			[16432, -149976],
+			[24681, -147493],
+			[24659, -147568],
+			[6016, -144335],
+			[7396, -144297],
+			[6893, -144145],
+			[6387, -144412],
+			[7829, -145126],
+			[8815, -144484],
+			[10118, -145879],
+			[8972, -146334],
+			[17873, -146735],
+			[18109, -145771],
+			[24605, -147385],
+			[5424, -141155],
+			[4912, -140480],
+			[6002, -140701],
+			[6977, -140599],
+			[10803, -140653],
+			[14209, -141860],
+			[18486, -140801],
+			[17519, -139744],
+			[16915, -140979],
+			[16471, -142900],
+			[19194, -141706],
+			[27171, -140998],
+			[27222, -140940],
+			[27529, -140872],
+			[515, -138465],
+			[1319, -137155],
+			[647, -137343],
+			[293, -138239],
+			[4451, -138834],
+			[4605, -136574],
+			[7256, -137835],
+			[13306, -138045],
+			[15977, -135267],
+			[15669, -135927],
+			[17536, -137960],
+			[22042, -135930],
+			[25550, -138009],
+			[31481, -136311],
+			[1132, -132951],
+			[2478, -134463],
+			[7795, -132665],
+			[6937, -132342],
+			[4508, -132234],
+			[11034, -134085],
+			[16270, -134091],
+			[15223, -133232],
+			[15658, -134626],
+			[15419, -134475],
+			[32296, -131963],
+			[32211, -131868],
+			[29793, -133932],
+			[29523, -133678],
+			[-24632, 186447],
+			[-24639, 186346],
+			[-24653, 186204],
+			[-24735, 186336],
+			[-24741, 186220],
+			[-24550, 186221],
+			[-44580, 133590],
+			[-44646, 133559],
+			[-36649, 137998],
+			[-36671, 138065],
+			[170647, 153295],
+			[170574, 153063],
+			[170500, 153247],
+			[170708, 153195],
+			[170550, 153193],
+			[160702, 138338],
+			[160629, 138106],
+			[160555, 138290],
+			[160763, 138238],
+			[160605, 138235],
+			[155978, 141003],
+			[156052, 140819],
+			[156028, 140948],
+			[156125, 141051],
+			[156186, 140951],
+			[157605, 148305],
+			[157531, 148073],
+			[157457, 148257],
+			[157665, 148205],
+			[157507, 148202],
+			[160169, 153638],
+			[160095, 153406],
+			[160021, 153590],
+			[160229, 153538],
+			[160071, 153535],
+			[94112, 134196],
+			[94171, 134195],
+			[94153, 134068],
+			[94036, 134120],
+			[94208, 134134],
+			[94279, 134022],
+			[-25721, 105621],
+			[-25971, 105709],
+			[-25747, 105923],
+			[-7602, 104868],
+			[-6130, 103807],
+			[-7806, 103570],
+			[-18508, 116269],
+			[-17452, 116812],
+			[-19866, 116996],
+			[-30384, 130476],
+			[-30467, 130449],
+			[-30490, 130498],
+			[-58322, 99951],
+			[-58260, 99984],
+			[-53669, 99240],
+			[-54035, 98742],
+			[-53292, 98920],
+			[-46347, 116775],
+			[-46220, 118592],
+			[-45344, 117665],
+			[-42181, 119842],
+			[-41791, 120532],
+			[-42161, 121323],
+			[-57753, 125626],
+			[-57732, 125543],
+			[-57717, 125656],
+			[-36501, 124208],
+			[-34780, 125152],
+			[-35832, 126584],
+			[-74210, 109877],
+			[-74160, 109843],
+			[-74200, 109805],
+			[-70549, 106896],
+			[-70609, 106946],
+			[-70024, 111340],
+			[-70060, 111316],
+			[-70075, 111372],
+			[-127640, 98432],
+			[-126153, 100102],
+			[-125963, 101844],
+			[-123825, 100104],
+			[-119137, 101617],
+			[-115610, 99889],
+			[-127031, 104226],
+			[-23135, 65876],
+			[-23202, 65751],
+			[-6355, 68490],
+			[-6632, 67893],
+			[-6317, 67880],
+			[-30899, 72140],
+			[-31000, 72190],
+			[-16931, 73378],
+			[-17025, 73281],
+			[-18546, 70386],
+			[-17935, 70328],
+			[-11056, 70676],
+			[-10884, 70773],
+			[-27458, 73988],
+			[-27593, 73979],
+			[-13935, 74750],
+			[-13934, 74580],
+			[-11104, 74292],
+			[-11189, 74562],
+			[-6717, 75728],
+			[-6335, 75806],
+			[-1454, 77709],
+			[-1645, 77195],
+			[-31124, 78113],
+			[-25263, 78625],
+			[-24962, 78486],
+			[-26561, 78997],
+			[-18503, 81181],
+			[-18595, 81202],
+			[-6103, 78889],
+			[-6171, 78828],
+			[-240, 79280],
+			[-364, 79138],
+			[-1656, 79789],
+			[-29315, 84365],
+			[-29637, 84511],
+			[-29553, 91946],
+			[-29479, 92198],
+			[-57186, 67507],
+			[-57200, 67370],
+			[-45901, 68024],
+			[-46119, 67920],
+			[-39341, 70777],
+			[-39205, 70838],
+			[-39417, 70849],
+			[-65051, 75112],
+			[-65180, 75004],
+			[-47323, 76331],
+			[-47352, 76414],
+			[-33642, 75229],
+			[-33915, 75356],
+			[-53413, 80422],
+			[-53325, 80486],
+			[-40921, 81106],
+			[-40901, 81280],
+			[-53023, 82645],
+			[-53120, 82682],
+			[-37075, 82026],
+			[-37060, 82117],
+			[-38550, 89550],
+			[-38015, 89009],
+			[-94430, 66696],
+			[-91499, 67440],
+			[-91402, 67464],
+			[-91813, 68427],
+			[-85078, 69176],
+			[-85154, 69221],
+			[-74741, 68665],
+			[-74746, 68577],
+			[-68168, 66867],
+			[-68088, 66889],
+			[-96711, 70562],
+			[-95964, 71030],
+			[-68494, 73531],
+			[-68366, 73455],
+			[-80824, 81614],
+			[-81000, 81584],
+			[-86819, 83269],
+			[-86844, 82970],
+			[-73768, 85666],
+			[-73764, 85845],
+			[-73267, 82407],
+			[-73222, 82357],
+			[-76333, 89605],
+			[-76367, 89685],
+			[-76296, 89673],
+			[-70247, 94283],
+			[-70196, 94334],
+			[-118531, 68925],
+			[-118518, 68758],
+			[-106588, 66724],
+			[-106590, 66603],
+			[-111218, 73496],
+			[-111272, 73567],
+			[-112559, 76304],
+			[-112422, 76323],
+			[-112065, 76608],
+			[-129184, 81296],
+			[-129653, 80384],
+			[-130278, 80711],
+			[-106216, 78089],
+			[-105879, 78000],
+			[-105969, 77951],
+			[-100287, 80846],
+			[-100280, 80958],
+			[-128937, 83532],
+			[-129354, 83691],
+			[-111537, 85341],
+			[-110990, 84378],
+			[-110971, 84168],
+			[-107878, 84488],
+			[-128390, 93993],
+			[-127899, 91185],
+			[-120059, 98167],
+			[-122341, 95982],
+			[-122267, 94419],
+			[-30594, 34920],
+			[-30627, 34705],
+			[-24790, 36178],
+			[-24908, 35847],
+			[-27312, 40399],
+			[-17670, 37770],
+			[-13819, 40125],
+			[-6039, 39660],
+			[-30929, 43366],
+			[-19879, 41158],
+			[-19748, 41207],
+			[-14090, 44524],
+			[-8004, 41682],
+			[-29114, 45535],
+			[-25988, 47670],
+			[-23159, 47150],
+			[-19029, 47025],
+			[-31181, 50187],
+			[-31050, 50396],
+			[-27554, 49822],
+			[-17678, 50527],
+			[-18098, 50967],
+			[-15052, 49445],
+			[-14928, 49527],
+			[-8034, 52846],
+			[-6316, 51426],
+			[-3092, 51493],
+			[-3213, 51495],
+			[-30920, 54473],
+			[-31746, 54725],
+			[-31754, 54960],
+			[-23944, 54969],
+			[-24046, 54573],
+			[-13356, 54251],
+			[-12971, 54381],
+			[-5489, 61488],
+			[-5536, 61623],
+			[-64755, 35491],
+			[-60761, 35079],
+			[-56206, 35465],
+			[-53366, 33706],
+			[-53428, 33575],
+			[-49680, 34711],
+			[-49633, 34739],
+			[-44414, 33167],
+			[-44424, 32926],
+			[-36966, 35348],
+			[-36019, 36010],
+			[-33420, 34890],
+			[-33523, 34743],
+			[-63523, 39113],
+			[-58108, 37928],
+			[-55800, 39705],
+			[-45262, 37214],
+			[-45235, 37332],
+			[-42728, 40223],
+			[-42791, 40040],
+			[-42528, 37356],
+			[-42684, 37328],
+			[-37890, 38852],
+			[-33663, 38040],
+			[-60846, 40963],
+			[-60783, 41147],
+			[-56082, 43217],
+			[-55872, 43230],
+			[-52201, 43221],
+			[-52089, 43278],
+			[-52476, 43813],
+			[-52685, 43800],
+			[-51464, 44930],
+			[-45474, 42756],
+			[-47187, 44731],
+			[-47459, 44515],
+			[-44362, 41676],
+			[-39333, 42231],
+			[-39396, 42075],
+			[-51422, 45060],
+			[-37999, 48826],
+			[-36808, 48531],
+			[-34965, 48919],
+			[-40883, 50620],
+			[-40456, 56576],
+			[-40717, 57166],
+			[-36689, 55873],
+			[-36762, 55713],
+			[-47358, 57862],
+			[-47442, 57947],
+			[-48007, 58203],
+			[-41100, 58744],
+			[-41055, 58677],
+			[-33753, 60624],
+			[-33658, 60466],
+			[-59313, 63914],
+			[-59451, 63874],
+			[-35612, 64230],
+			[-36515, 63734],
+			[-92005, 34877],
+			[-92093, 35078],
+			[-75457, 35894],
+			[-73603, 33513],
+			[-71170, 33786],
+			[-71044, 33934],
+			[-90932, 38544],
+			[-91023, 38508],
+			[-74592, 38148],
+			[-74655, 37965],
+			[-74655, 37657],
+			[-74592, 37840],
+			[-96278, 52238],
+			[-96367, 52294],
+			[-80970, 53203],
+			[-81624, 52861],
+			[-81427, 52889],
+			[-65572, 50136],
+			[-68974, 51051],
+			[-69142, 51115],
+			[-80922, 53531],
+			[-81039, 53516],
+			[-76798, 59956],
+			[-76656, 60059],
+			[-74630, 59628],
+			[-72379, 59293],
+			[-72571, 59356],
+			[-83996, 64837],
+			[-83951, 64942],
+			[-108094, 36113],
+			[-108107, 36225],
+			[-106289, 35818],
+			[-101169, 34873],
+			[-101235, 34686],
+			[-107344, 36967],
+			[-105040, 37052],
+			[-105155, 37304],
+			[-98451, 37793],
+			[-98482, 37897],
+			[-130370, 44576],
+			[-130527, 44462],
+			[-124667, 46042],
+			[-124089, 47662],
+			[-123976, 47680],
+			[-98476, 48500],
+			[-98323, 48482],
+			[-110728, 52056],
+			[-110770, 52226],
+			[-101318, 49359],
+			[-101263, 49422],
+			[-129076, 56068],
+			[-129043, 55793],
+			[-109226, 60241],
+			[-109236, 60403],
+			[-126355, 63421],
+			[-125901, 63489],
+			[-112041, 61996],
+			[-111973, 62124],
+			[-32579, 3981],
+			[-24719, 3987],
+			[-30192, 6248],
+			[-26172, 8523],
+			[-31310, 14893],
+			[-27320, 15976],
+			[-31312, 19725],
+			[-31375, 19542],
+			[-23965, 20092],
+			[-13034, 18408],
+			[-11192, 18727],
+			[-8247, 18506],
+			[-2986, 18413],
+			[-18136, 24105],
+			[-5228, 20752],
+			[-7806, 24419],
+			[-93, 23105],
+			[-27893, 26190],
+			[-26372, 28623],
+			[-31459, 30429],
+			[-31545, 30518],
+			[-27369, 30806],
+			[-27085, 30894],
+			[-16883, 30273],
+			[-64123, 3358],
+			[-63317, 5643],
+			[-62438, 7511],
+			[-62570, 7233],
+			[-62434, 7371],
+			[-35254, 4337],
+			[-43408, 10173],
+			[-42267, 9304],
+			[-43154, 9980],
+			[-62636, 13857],
+			[-63632, 15872],
+			[-54718, 14480],
+			[-49320, 15355],
+			[-44622, 12986],
+			[-41904, 13827],
+			[-39671, 13554],
+			[-39798, 13514],
+			[-39659, 15346],
+			[-36540, 15349],
+			[-36470, 12655],
+			[-34055, 12575],
+			[-34104, 12500],
+			[-56709, 19952],
+			[-55832, 18824],
+			[-56438, 17856],
+			[-51123, 19451],
+			[-53021, 16469],
+			[-49883, 17488],
+			[-52082, 20116],
+			[-40657, 19455],
+			[-40594, 19638],
+			[-40594, 19945],
+			[-40657, 19762],
+			[-35326, 18806],
+			[-52046, 22404],
+			[-52104, 22588],
+			[-51376, 23427],
+			[-44688, 24290],
+			[-42860, 23660],
+			[-39467, 21906],
+			[-63543, 25581],
+			[-61467, 28626],
+			[-50618, 27402],
+			[-50831, 27990],
+			[-52804, 25865],
+			[-35579, 26238],
+			[-61737, 32044],
+			[-46041, 30580],
+			[-48147, 32584],
+			[-38257, 30251],
+			[-40090, 29850],
+			[-89902, 7067],
+			[-89833, 7129],
+			[-67895, 7103],
+			[-84954, 10075],
+			[-85926, 10220],
+			[-85853, 10309],
+			[-95743, 13523],
+			[-95787, 13460],
+			[-90681, 13399],
+			[-90619, 13311],
+			[-85206, 15364],
+			[-76438, 15456],
+			[-76374, 15639],
+			[-69793, 15889],
+			[-69990, 16245],
+			[-67239, 14203],
+			[-76706, 22787],
+			[-73090, 22570],
+			[-71980, 22585],
+			[-66422, 23633],
+			[-72395, 26627],
+			[-70744, 25539],
+			[-65900, 28141],
+			[-65963, 27958],
+			[-76774, 30951],
+			[-71366, 31598],
+			[-70348, 28730],
+			[-68412, 32335],
+			[-68541, 32193],
+			[-68683, 31921],
+			[-68542, 32054],
+			[-119057, 7922],
+			[-102034, 4897],
+			[-101853, 4906],
+			[-115650, 10873],
+			[-115553, 10846],
+			[-109075, 9532],
+			[-109195, 9141],
+			[-124851, 14472],
+			[-124913, 14658],
+			[-103410, 16057],
+			[-103237, 16096],
+			[-127132, 19271],
+			[-127248, 19188],
+			[-115885, 17875],
+			[-115975, 18094],
+			[-112943, 16876],
+			[-112944, 17043],
+			[-103890, 19119],
+			[-103979, 19172],
+			[-116016, 25171],
+			[-116214, 25173],
+			[-103116, 26294],
+			[-102902, 26307],
+			[-117485, 30177],
+			[-117430, 30374],
+			[-99549, 30745],
+			[-99805, 30716],
+			[-136488, 99369],
+			[-134912, 99726],
+			[-133584, 99880],
+			[-140209, 103145],
+			[-136694, 104143],
+			[-138910, 105307],
+			[-134439, 103423],
+			[-146521, 67795],
+			[-146600, 67745],
+			[-137920, 67885],
+			[-137389, 67440],
+			[-132607, 68567],
+			[-148605, 70254],
+			[-149729, 70900],
+			[-150210, 73336],
+			[-144630, 73249],
+			[-140944, 70727],
+			[-138685, 70768],
+			[-138587, 70615],
+			[-163686, 74350],
+			[-163768, 74053],
+			[-151972, 75737],
+			[-153455, 76851],
+			[-155087, 76824],
+			[-150770, 76746],
+			[-150638, 76893],
+			[-149705, 76772],
+			[-145096, 76540],
+			[-153282, 81857],
+			[-148184, 78964],
+			[-149328, 79396],
+			[-150664, 77966],
+			[-145597, 81321],
+			[-145740, 81380],
+			[-145979, 78750],
+			[-138100, 81024],
+			[-154920, 83760],
+			[-154693, 83851],
+			[-153682, 82980],
+			[-134739, 84170],
+			[-145915, 88158],
+			[-150464, 93673],
+			[-141885, 92094],
+			[-163444, 96749],
+			[-162412, 97268],
+			[-132360, 94767],
+			[-175553, 68082],
+			[-173377, 68326],
+			[-173310, 67753],
+			[-170047, 69325],
+			[-170282, 69097],
+			[-168772, 66435],
+			[-172968, 71541],
+			[-173346, 72172],
+			[-173860, 73164],
+			[-166784, 71294],
+			[-167155, 71387],
+			[-179160, 77505],
+			[-179887, 75697],
+			[-178764, 76303],
+			[-172167, 75485],
+			[-172532, 76096],
+			[-166405, 75217],
+			[-176980, 80695],
+			[-177891, 79813],
+			[-178451, 79314],
+			[-168700, 78763],
+			[-168932, 81594],
+			[-169334, 81510],
+			[-175487, 84937],
+			[-170046, 85749],
+			[-170432, 85925],
+			[-169390, 83975],
+			[-168876, 84413],
+			[-173827, 86873],
+			[-178293, 90169],
+			[-177537, 91754],
+			[-177365, 97225],
+			[-176953, 96964],
+			[-173688, 95517],
+			[-163562, 35275],
+			[-163425, 35345],
+			[-146461, 32849],
+			[-146372, 32957],
+			[-140317, 36828],
+			[-137030, 33837],
+			[-137434, 33701],
+			[-155750, 37433],
+			[-145174, 38309],
+			[-144483, 38155],
+			[-144506, 38309],
+			[-132546, 37247],
+			[-132355, 37278],
+			[-149024, 42795],
+			[-149140, 42863],
+			[-137896, 44572],
+			[-137899, 44388],
+			[-162406, 48998],
+			[-163650, 47017],
+			[-163734, 46836],
+			[-140524, 46181],
+			[-140658, 46058],
+			[-162434, 49166],
+			[-162676, 49410],
+			[-141401, 51630],
+			[-141438, 51429],
+			[-136305, 49489],
+			[-136459, 49459],
+			[-132571, 50950],
+			[-133251, 51479],
+			[-163565, 55009],
+			[-163523, 54640],
+			[-139835, 56101],
+			[-135344, 56257],
+			[-135879, 54515],
+			[-135978, 54412],
+			[-135086, 53261],
+			[-134532, 55404],
+			[-134794, 55825],
+			[-162029, 58714],
+			[-162396, 58844],
+			[-159192, 59292],
+			[-159586, 59873],
+			[-159557, 57460],
+			[-159647, 57628],
+			[-159516, 57970],
+			[-144954, 59709],
+			[-145158, 59933],
+			[-134200, 60433],
+			[-133740, 58774],
+			[-133846, 58819],
+			[-178895, 34793],
+			[-178569, 34894],
+			[-178690, 34806],
+			[-166955, 51409],
+			[-166769, 51211],
+			[-168903, 55224],
+			[-169413, 55846],
+			[-177036, 60457],
+			[-175299, 58264],
+			[-175010, 58046],
+			[-170936, 59106],
+			[-171758, 60657],
+			[-171526, 60034],
+			[-177227, 64295],
+			[-176758, 63443],
+			[-175765, 63133],
+			[-175617, 63367],
+			[-160705, 5071],
+			[-160605, 4986],
+			[-160553, 5122],
+			[-141849, 6995],
+			[-150822, 10113],
+			[-150848, 10247],
+			[-144438, 10241],
+			[-148805, 12491],
+			[-148697, 12663],
+			[-152859, 16851],
+			[-152711, 16887],
+			[-139319, 21986],
+			[-139021, 22217],
+			[-139051, 21877],
+			[-153917, 27932],
+			[-153826, 27962],
+			[-142641, 24832],
+			[-141766, 25032],
+			[-138752, 29586],
+			[-139035, 28993],
+			[-139229, 29087],
+			[-178432, 6465],
+			[-178670, 6574],
+			[-178558, 6394],
+			[-170263, 18317],
+			[-170155, 18511],
+			[-170074, 18346],
+			[205604, 117708],
+			[192238, 101966],
+			[189319, 104620],
+			[194926, 108227],
+			[171349, 114045],
+			[171266, 114389],
+			[171222, 114184],
+			[137698, 104870],
+			[137773, 105165],
+			[137864, 105097],
+			[137123, 108283],
+			[136753, 108142],
+			[136817, 108114],
+			[151451, 107656],
+			[151042, 107728],
+			[151183, 107772],
+			[151203, 107673],
+			[154236, 110374],
+			[154075, 110224],
+			[154098, 110158],
+			[149478, 111898],
+			[150114, 112303],
+			[150032, 111895],
+			[150304, 111957],
+			[150375, 111884],
+			[157352, 117981],
+			[157645, 118254],
+			[157557, 118133],
+			[197838, 74461],
+			[197895, 74534],
+			[197712, 74554],
+			[203546, 75740],
+			[203150, 75011],
+			[203263, 75095],
+			[202506, 75762],
+			[202481, 75832],
+			[203194, 77775],
+			[197615, 81340],
+			[203659, 78243],
+			[203726, 78543],
+			[203520, 78214],
+			[198420, 82911],
+			[198328, 82905],
+			[198212, 82042],
+			[190090, 73179],
+			[190464, 74780],
+			[190421, 74503],
+			[190148, 73833],
+			[191379, 76283],
+			[191513, 76179],
+			[191650, 76299],
+			[194612, 75909],
+			[194987, 75653],
+			[194619, 75578],
+			[181660, 80577],
+			[181113, 80730],
+			[180813, 80259],
+			[186623, 81728],
+			[190724, 78317],
+			[190443, 77918],
+			[190179, 78157],
+			[196598, 77849],
+			[196285, 77884],
+			[195733, 80249],
+			[195672, 80018],
+			[195460, 80249],
+			[196545, 81431],
+			[196545, 81318],
+			[181197, 85665],
+			[186630, 82022],
+			[186514, 82004],
+			[195834, 83883],
+			[195956, 84474],
+			[196148, 82822],
+			[194961, 85092],
+			[173340, 91096],
+			[173731, 91095],
+			[193343, 91071],
+			[173955, 95155],
+			[174197, 95231],
+			[174013, 95113],
+			[191931, 97886],
+			[150013, 66189],
+			[150142, 66214],
+			[150069, 65852],
+			[150413, 65633],
+			[150282, 66772],
+			[150057, 66703],
+			[152793, 67290],
+			[151835, 66732],
+			[151761, 66657],
+			[148111, 77646],
+			[152040, 76668],
+			[152277, 76451],
+			[153422, 75252],
+			[143601, 79455],
+			[143921, 79480],
+			[149105, 79705],
+			[150036, 80012],
+			[149997, 80215],
+			[148193, 78858],
+			[148328, 78365],
+			[147884, 78316],
+			[140374, 83653],
+			[140350, 83813],
+			[140184, 83854],
+			[140636, 83734],
+			[146517, 84085],
+			[146510, 83911],
+			[146647, 83913],
+			[159411, 84249],
+			[161299, 84387],
+			[161014, 84143],
+			[135061, 94408],
+			[135116, 94343],
+			[135194, 94419],
+			[160246, 95107],
+			[160203, 95077],
+			[160111, 94841],
+			[203877, 56760],
+			[203273, 56664],
+			[204610, 58721],
+			[204037, 59009],
+			[202784, 58789],
+			[202725, 58994],
+			[199921, 65410],
+			[200051, 65402],
+			[199752, 65453],
+			[178076, 43264],
+			[178264, 43505],
+			[196220, 46638],
+			[196217, 46540],
+			[194213, 60876],
+			[194491, 61871],
+			[137708, 35809],
+			[138313, 34590],
+			[138362, 34674],
+			[133201, 60864],
+			[133223, 60730],
+			[133616, 60952],
+			[139093, 58636],
+			[138954, 58669],
+			[138996, 58783],
+			[149256, 60164],
+			[149158, 60171],
+			[149227, 60295],
+			[150973, 60699],
+			[151151, 60277],
+			[159823, 58009],
+			[162557, 59587],
+			[163242, 59532],
+			[163469, 59397],
+			[163565, 59347],
+			[146216, 63272],
+			[146018, 63426],
+			[146947, 63382],
+			[39059, 99892],
+			[38815, 99761],
+			[38941, 99856],
+			[60556, 98866],
+			[60690, 98828],
+			[58916, 99921],
+			[58982, 99998],
+			[60578, 101155],
+			[60323, 101047],
+			[55663, 114493],
+			[56706, 113988],
+			[56200, 114304],
+			[56454, 113820],
+			[53340, 113257],
+			[53459, 112579],
+			[65320, 118065],
+			[65385, 117946],
+			[18412, 103242],
+			[18545, 103296],
+			[18480, 103432],
+			[6289, 117487],
+			[6465, 117435],
+			[6559, 117155],
+			[27145, 115306],
+			[26854, 115343],
+			[27012, 115423],
+			[1116, 120494],
+			[1298, 120706],
+			[995, 120184],
+			[24049, 119236],
+			[23897, 120127],
+			[23749, 120196],
+			[23558, 119495],
+			[127911, 75768],
+			[128272, 75633],
+			[128314, 76037],
+			[116307, 82798],
+			[116088, 82699],
+			[116291, 82719],
+			[105472, 88281],
+			[105314, 88504],
+			[104886, 88285],
+			[105147, 88163],
+			[104956, 88134],
+			[123974, 86125],
+			[123804, 86489],
+			[123868, 86123],
+			[115106, 91951],
+			[115382, 92122],
+			[115280, 92069],
+			[120231, 90204],
+			[120151, 90194],
+			[120332, 90369],
+			[120995, 90370],
+			[124011, 92461],
+			[123890, 92215],
+			[123956, 92348],
+			[84637, 70639],
+			[84644, 70712],
+			[84717, 70638],
+			[66548, 76415],
+			[66340, 76517],
+			[66747, 76450],
+			[58810, 66207],
+			[51545, 75675],
+			[51088, 75119],
+			[50994, 74677],
+			[50568, 74802],
+			[64420, 76806],
+			[64369, 76746],
+			[39024, 80328],
+			[38962, 80314],
+			[44427, 79521],
+			[44403, 79464],
+			[44353, 79539],
+			[44503, 79466],
+			[34981, 85417],
+			[35025, 85292],
+			[35065, 85406],
+			[46515, 89341],
+			[45788, 89405],
+			[34720, 90777],
+			[34505, 90949],
+			[34349, 91201],
+			[34282, 91073],
+			[45773, 90368],
+			[4400, 70619],
+			[23169, 75032],
+			[23195, 75024],
+			[3750, 91276],
+			[3291, 90521],
+			[2579, 90209],
+			[10670, 91932],
+			[9829, 90364],
+			[10613, 91971],
+			[11709, 90729],
+			[101467, 35085],
+			[100788, 37907],
+			[104128, 43004],
+			[103881, 48259],
+			[107540, 48650],
+			[122202, 46683],
+			[121177, 46322],
+			[121302, 45578],
+			[121423, 45682],
+			[121507, 48000],
+			[121390, 47975],
+			[121932, 48012],
+			[121065, 50875],
+			[120949, 50995],
+			[120859, 59853],
+			[121248, 59650],
+			[121029, 59508],
+			[92463, 35895],
+			[84965, 40732],
+			[75676, 47507],
+			[75840, 47484],
+			[75813, 47391],
+			[97557, 50477],
+			[80412, 58126],
+			[80310, 58197],
+			[80320, 58084],
+			[35347, 44808],
+			[35407, 44870],
+			[37800, 41423],
+			[37718, 41427],
+			[44245, 42106],
+			[40025, 51824],
+			[53532, 51182],
+			[53866, 51126],
+			[53731, 51182],
+			[33840, 54130],
+			[33865, 54216],
+			[57784, 65091],
+			[58524, 64169],
+			[7950, 49710],
+			[7917, 49722],
+			[2556, 56470],
+			[2659, 56580],
+			[19618, 54665],
+			[19591, 54700],
+			[567, 59435],
+			[385, 59393],
+			[1085, 59192],
+			[26232, 59383],
+			[26199, 59374],
+			[30280, 58604],
+			[30406, 58647],
+			[30366, 58581],
+			[101157, 27111],
+			[104683, 32468],
+			[74546, 12677],
+			[70022, 21576],
+			[76178, 27671],
+			[88267, 31942],
+			[92318, 31928],
+			[40604, 2196],
+			[42441, 2543],
+			[34409, 6332],
+			[45457, 5472],
+			[46963, 10771],
+			[54299, 9688],
+			[42945, 15754],
+			[42972, 15673],
+			[42989, 15759],
+			[49765, 15769],
+			[62155, 13111],
+			[64616, 24227],
+			[23823, 2850],
+			[13735, 11126],
+			[1548, 16172],
+			[4512, 15929],
+			[24093, 15537],
+			[24123, 15486],
+			[24058, 15473],
+			[22250, 14025],
+			[1112, 28492],
+			[20366, 28570],
+			[20361, 28642],
+			[32199, 27344],
+			[32121, 27395],
+			[32184, 27055]
+		];
+		var ilofasoly2 = [
+			["Илофасоль<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466]
+		];
+		for (var i = 0; i < ilofasoly1.length; i++) {
+			ilofasoly1_1 = new L.circleMarker([ilofasoly1[i][0],ilofasoly1[i][1]], {color: "#6B8E23"})
+			.bindPopup("Илофасоль")
+			.bindTooltip("Илофасоль", {direction: 'top'})
+			.addTo(ilofasolyicons);
+		}
+		for (var i = 0; i < ilofasoly2.length; i++) {
+			ilofasoly2_1 = new L.circleMarker([ilofasoly2[i][1],ilofasoly2[i][2]], {color: "#6B8E23", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(ilofasoly2[i][0])
+			.bindTooltip(ilofasoly2[i][0], {direction: 'top'})
+			.addTo(ilofasolyicons);
+		}
 	}
 	else {
 		ilofasolyicons.clearLayers();
