@@ -1,338 +1,346 @@
-	var hvostolomicons = L.layerGroup().addTo(map);
-	function HvostolomOnOff() {
+var hvostolomicons = L.layerGroup().addTo(map);
+function HvostolomOnOff() {
 	var chbox;
 	chbox=document.getElementById('HvostolomButton');
 	if (chbox.checked) {
-	L.circleMarker([-43656, -14666], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-43637, -14714], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-43355, -15220], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-43046, -15292], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-42956, -15193], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-42969, -15267], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-43161, -14493], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-43149, -14567], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-45328, -9979], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-45306, -10004], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-45189, -10600], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-45209, -10556], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-50527, -55907], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-50274, -55689], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-50327, -55935], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-69009, -67411], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-48339, -102501], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-48431, -102459], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-47914, -102461], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-46869, -105235], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-46949, -105327], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-45856, -106452], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-45863, -106434], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-55319, -99249], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-55444, -99152], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-55262, -99031], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([107038, -23752], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([106929, -23619], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([103641, -1520], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([103288, -791], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([69419, -31085], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([69285, -30810], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([69390, -30852], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84047, -20486], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84187, -20456], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([88730, -16999], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([95940, -17903], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([95899, -17722], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76000, -63809], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76039, -63973], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76123, -63835], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78071, -58553], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78084, -59263], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78165, -59215], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78152, -59330], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([81786, -54252], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78207, -56899], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([80509, -55761], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([80575, -55721], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78089, -56826], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78194, -56816], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([82035, -54063], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([82522, -53446], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([85173, -52414], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([85071, -50847], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84255, -50261], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84326, -50212], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84359, -50293], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83925, -52800], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84012, -52800], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83888, -52850], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([87042, -50666], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76895, -45589], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76699, -45583], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76830, -45562], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([79802, -46576], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78276, -46449], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78444, -48199], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([81518, -47701], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([81402, -47670], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([79801, -46503], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([82951, -47705], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([82951, -47765], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83019, -47772], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([74166, -43177], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([74236, -43218], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([73958, -43272], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([74012, -43316], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([72113, -38598], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([72192, -38610], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([72171, -38679], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([69471, -95657], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([69531, -95629], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([38979, -96826], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([39078, -96713], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([39095, -96782], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([121616, -122741], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([123433, -121196], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([85028, -116991], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([95565, -114163], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([74723, -104429], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([75466, -103025], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([34186, -99616], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([34079, -99570], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([34102, -99501], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([34192, -99508], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([17486, -129978], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([17512, -129899], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([17439, -129886], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([16101, -125969], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([15980, -125973], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([14140, -122238], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([14124, -122147], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([14265, -117652], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([14116, -117687], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([14083, -117790], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([16378, -115613], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([16315, -115682], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([16448, -115621], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([18800, -113879], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([18776, -113820], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([18647, -114005], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([20669, -111970], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([20711, -111907], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([20881, -111866], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([23984, -109289], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([23997, -109388], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24549, -109355], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24430, -109577], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24970, -109067], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([28197, -106432], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([28033, -106467], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([31656, -102798], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([31490, -102897], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([31464, -102824], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-56189, -149231], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-56262, -149456], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-56146, -149395], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-56146, -149562], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-54735, -142838], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-54713, -142698], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-54644, -142706], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32373, -195658], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32440, -195842], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32566, -195737], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32448, -188646], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32278, -189879], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32301, -189825], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32454, -189047], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32504, -188972], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-27911, -188977], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-27939, -188792], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-27855, -189401], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-27991, -189317], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-28022, -189452], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32247, -187079], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32258, -187003], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-32049, -186877], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-25861, -184185], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-21849, -182875], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-21948, -182975], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-12745, -182896], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-12885, -182824], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-12922, -182908], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-15758, -179767], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-15765, -179592], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-15824, -179730], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-10825, -176375], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-10819, -176309], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-10748, -176360], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-8152, -174272], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-8114, -174207], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-8096, -174058], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-8027, -174108], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-8004, -173979], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-4285, -175341], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-4244, -175440], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-4367, -175460], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-2612, -173066], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-2605, -173141], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-5554, -170057], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-5664, -170011], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-6587, -171041], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-6504, -170998], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-6491, -170818], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-6609, -171191], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-6565, -171243], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-7041, -171958], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-794, -171661], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-57477, -170987], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-57376, -171056], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-58879, -166414], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-58846, -166447], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-59275, -165482], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-58713, -166537], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-59273, -165585], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([175818, -154610], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([175928, -154672], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([175840, -154757], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([175419, -153030], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([175417, -153144], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([158772, -132625], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([158283, -132522], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([158625, -132408], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([72612, -153210], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([71253, -153594], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([71264, -153748], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([71286, -153484], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([71908, -154886], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([74768, -154693], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([74668, -154616], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([74691, -154748], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([73844, -153894], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([96481, -133634], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([46168, -163618], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([46046, -163640], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([46094, -163780], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([43541, -155332], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([43550, -155196], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([43367, -155079], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([36305, -149114], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([36197, -149240], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([36344, -149277], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([32818, -147491], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([32983, -147501], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([40248, -151410], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([40174, -151484], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([40276, -151514], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([33414, -147438], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([4502, -160087], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([4524, -160197], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([4202, -161477], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([4268, -161318], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([4328, -161430], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([12882, -156332], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([13007, -156297], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([12945, -156355], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([15804, -156388], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([15769, -156463], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([15672, -156412], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([9503, -154560], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([9700, -154639], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([9602, -154571], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([16465, -153061], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([16607, -153078], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24565, -148723], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24557, -148596], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24296, -143921], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24238, -143821], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([24251, -143952], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([25344, -146729], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([25282, -146809], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([25333, -146863], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([30767, -145476], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([30827, -145161], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([30691, -145310], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([30133, -144875], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([30247, -144964], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([30084, -145081], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([21583, -139954], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([21691, -140065], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([21280, -139409], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([21413, -139450], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([21367, -139570], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([19049, -134805], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([18981, -134915], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([18949, -134803], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([101857, -163970], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([101981, -164044], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([102180, -164411], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([102269, -164520], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([102320, -164455], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([107074, -164721], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([107227, -164426], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([107129, -164461], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([107315, -164405], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([70235, -184491], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([70093, -184501], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([70169, -184607], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([70086, -184183], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([70076, -184246], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76715, -182810], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76683, -182887], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([76830, -182893], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78515, -183656], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78540, -183541], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([78659, -183556], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83517, -180756], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83910, -180411], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83815, -180567], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83845, -180612], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([83684, -180709], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([82312, -183592], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([82538, -183485], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([82400, -183664], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([66095, -179567], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([80596, -177531], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84297, -178777], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84382, -178854], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([84468, -178648], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([93418, -168377], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([93561, -168370], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([93528, -168221], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([93984, -167773], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([94127, -167766], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([94094, -167617], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([94535, -166793], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([94545, -166935], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([94693, -166900], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([65222, -182670], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([65426, -182957], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([56576, -178337], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([56669, -178379], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([56803, -178398], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([56103, -174169], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([56074, -174289], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([56204, -174458], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([49051, -170365], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([48987, -170454], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([49120, -170511], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([50342, -171833], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([50438, -171948], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([50337, -171926], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([249, -171438], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([246, -171535], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([178, -171480], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([152, -166646], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([234, -166696], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([5987, -165904], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([6093, -165981], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([5935, -166049], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([104268, -241844], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-40558, 13150], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-40515, 13178], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-40645, 12807], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([-40184, 12620], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-	L.circleMarker([59122, 10511], {color: "#EEE8AA"}).addTo(hvostolomicons).bindPopup("Хвостолом").bindTooltip("Хвостолом", {direction: 'top'});
-//3 в лаборатории
+		var hvostolom = [
+			[-43656, -14666],
+			[-43637, -14714],
+			[-43355, -15220],
+			[-43046, -15292],
+			[-42956, -15193],
+			[-42969, -15267],
+			[-43161, -14493],
+			[-43149, -14567],
+			[-45328, -9979],
+			[-45306, -10004],
+			[-45189, -10600],
+			[-45209, -10556],
+			[-50527, -55907],
+			[-50274, -55689],
+			[-50327, -55935],
+			[-69009, -67411],
+			[-48339, -102501],
+			[-48431, -102459],
+			[-47914, -102461],
+			[-46869, -105235],
+			[-46949, -105327],
+			[-45856, -106452],
+			[-45863, -106434],
+			[-55319, -99249],
+			[-55444, -99152],
+			[-55262, -99031],
+			[107038, -23752],
+			[106929, -23619],
+			[103641, -1520],
+			[103288, -791],
+			[69419, -31085],
+			[69285, -30810],
+			[69390, -30852],
+			[84047, -20486],
+			[84187, -20456],
+			[88730, -16999],
+			[95940, -17903],
+			[95899, -17722],
+			[76000, -63809],
+			[76039, -63973],
+			[76123, -63835],
+			[78071, -58553],
+			[78084, -59263],
+			[78165, -59215],
+			[78152, -59330],
+			[81786, -54252],
+			[78207, -56899],
+			[80509, -55761],
+			[80575, -55721],
+			[78089, -56826],
+			[78194, -56816],
+			[82035, -54063],
+			[82522, -53446],
+			[85173, -52414],
+			[85071, -50847],
+			[84255, -50261],
+			[84326, -50212],
+			[84359, -50293],
+			[83925, -52800],
+			[84012, -52800],
+			[83888, -52850],
+			[87042, -50666],
+			[76895, -45589],
+			[76699, -45583],
+			[76830, -45562],
+			[79802, -46576],
+			[78276, -46449],
+			[78444, -48199],
+			[81518, -47701],
+			[81402, -47670],
+			[79801, -46503],
+			[82951, -47705],
+			[82951, -47765],
+			[83019, -47772],
+			[74166, -43177],
+			[74236, -43218],
+			[73958, -43272],
+			[74012, -43316],
+			[72113, -38598],
+			[72192, -38610],
+			[72171, -38679],
+			[69471, -95657],
+			[69531, -95629],
+			[38979, -96826],
+			[39078, -96713],
+			[39095, -96782],
+			[121616, -122741],
+			[123433, -121196],
+			[85028, -116991],
+			[95565, -114163],
+			[74723, -104429],
+			[75466, -103025],
+			[34186, -99616],
+			[34079, -99570],
+			[34102, -99501],
+			[34192, -99508],
+			[17486, -129978],
+			[17512, -129899],
+			[17439, -129886],
+			[16101, -125969],
+			[15980, -125973],
+			[14140, -122238],
+			[14124, -122147],
+			[14265, -117652],
+			[14116, -117687],
+			[14083, -117790],
+			[16378, -115613],
+			[16315, -115682],
+			[16448, -115621],
+			[18800, -113879],
+			[18776, -113820],
+			[18647, -114005],
+			[20669, -111970],
+			[20711, -111907],
+			[20881, -111866],
+			[23984, -109289],
+			[23997, -109388],
+			[24549, -109355],
+			[24430, -109577],
+			[24970, -109067],
+			[28197, -106432],
+			[28033, -106467],
+			[31656, -102798],
+			[31490, -102897],
+			[31464, -102824],
+			[-56189, -149231],
+			[-56262, -149456],
+			[-56146, -149395],
+			[-56146, -149562],
+			[-54735, -142838],
+			[-54713, -142698],
+			[-54644, -142706],
+			[-32373, -195658],
+			[-32440, -195842],
+			[-32566, -195737],
+			[-32448, -188646],
+			[-32278, -189879],
+			[-32301, -189825],
+			[-32454, -189047],
+			[-32504, -188972],
+			[-27911, -188977],
+			[-27939, -188792],
+			[-27855, -189401],
+			[-27991, -189317],
+			[-28022, -189452],
+			[-32247, -187079],
+			[-32258, -187003],
+			[-32049, -186877],
+			[-25861, -184185],
+			[-21849, -182875],
+			[-21948, -182975],
+			[-12745, -182896],
+			[-12885, -182824],
+			[-12922, -182908],
+			[-15758, -179767],
+			[-15765, -179592],
+			[-15824, -179730],
+			[-10825, -176375],
+			[-10819, -176309],
+			[-10748, -176360],
+			[-8152, -174272],
+			[-8114, -174207],
+			[-8096, -174058],
+			[-8027, -174108],
+			[-8004, -173979],
+			[-4285, -175341],
+			[-4244, -175440],
+			[-4367, -175460],
+			[-2612, -173066],
+			[-2605, -173141],
+			[-5554, -170057],
+			[-5664, -170011],
+			[-6587, -171041],
+			[-6504, -170998],
+			[-6491, -170818],
+			[-6609, -171191],
+			[-6565, -171243],
+			[-7041, -171958],
+			[-794, -171661],
+			[-57477, -170987],
+			[-57376, -171056],
+			[-58879, -166414],
+			[-58846, -166447],
+			[-59275, -165482],
+			[-58713, -166537],
+			[-59273, -165585],
+			[175818, -154610],
+			[175928, -154672],
+			[175840, -154757],
+			[175419, -153030],
+			[175417, -153144],
+			[158772, -132625],
+			[158283, -132522],
+			[158625, -132408],
+			[72612, -153210],
+			[71253, -153594],
+			[71264, -153748],
+			[71286, -153484],
+			[71908, -154886],
+			[74768, -154693],
+			[74668, -154616],
+			[74691, -154748],
+			[73844, -153894],
+			[96481, -133634],
+			[46168, -163618],
+			[46046, -163640],
+			[46094, -163780],
+			[43541, -155332],
+			[43550, -155196],
+			[43367, -155079],
+			[36305, -149114],
+			[36197, -149240],
+			[36344, -149277],
+			[32818, -147491],
+			[32983, -147501],
+			[40248, -151410],
+			[40174, -151484],
+			[40276, -151514],
+			[33414, -147438],
+			[4502, -160087],
+			[4524, -160197],
+			[4202, -161477],
+			[4268, -161318],
+			[4328, -161430],
+			[12882, -156332],
+			[13007, -156297],
+			[12945, -156355],
+			[15804, -156388],
+			[15769, -156463],
+			[15672, -156412],
+			[9503, -154560],
+			[9700, -154639],
+			[9602, -154571],
+			[16465, -153061],
+			[16607, -153078],
+			[24565, -148723],
+			[24557, -148596],
+			[24296, -143921],
+			[24238, -143821],
+			[24251, -143952],
+			[25344, -146729],
+			[25282, -146809],
+			[25333, -146863],
+			[30767, -145476],
+			[30827, -145161],
+			[30691, -145310],
+			[30133, -144875],
+			[30247, -144964],
+			[30084, -145081],
+			[21583, -139954],
+			[21691, -140065],
+			[21280, -139409],
+			[21413, -139450],
+			[21367, -139570],
+			[19049, -134805],
+			[18981, -134915],
+			[18949, -134803],
+			[101857, -163970],
+			[101981, -164044],
+			[102180, -164411],
+			[102269, -164520],
+			[102320, -164455],
+			[107074, -164721],
+			[107227, -164426],
+			[107129, -164461],
+			[107315, -164405],
+			[70235, -184491],
+			[70093, -184501],
+			[70169, -184607],
+			[70086, -184183],
+			[70076, -184246],
+			[76715, -182810],
+			[76683, -182887],
+			[76830, -182893],
+			[78515, -183656],
+			[78540, -183541],
+			[78659, -183556],
+			[83517, -180756],
+			[83910, -180411],
+			[83815, -180567],
+			[83845, -180612],
+			[83684, -180709],
+			[82312, -183592],
+			[82538, -183485],
+			[82400, -183664],
+			[66095, -179567],
+			[80596, -177531],
+			[84297, -178777],
+			[84382, -178854],
+			[84468, -178648],
+			[93418, -168377],
+			[93561, -168370],
+			[93528, -168221],
+			[93984, -167773],
+			[94127, -167766],
+			[94094, -167617],
+			[94535, -166793],
+			[94545, -166935],
+			[94693, -166900],
+			[65222, -182670],
+			[65426, -182957],
+			[56576, -178337],
+			[56669, -178379],
+			[56803, -178398],
+			[56103, -174169],
+			[56074, -174289],
+			[56204, -174458],
+			[49051, -170365],
+			[48987, -170454],
+			[49120, -170511],
+			[50342, -171833],
+			[50438, -171948],
+			[50337, -171926],
+			[249, -171438],
+			[246, -171535],
+			[178, -171480],
+			[152, -166646],
+			[234, -166696],
+			[5987, -165904],
+			[6093, -165981],
+			[5935, -166049],
+			[104268, -241844],
+			[-40558, 13150],
+			[-40515, 13178],
+			[-40645, 12807],
+			[-40184, 12620],
+			[59122, 10511]
+		];
+		for (var i = 0; i < hvostolom.length; i++) {
+			hvostolom_1 = new L.circleMarker([hvostolom[i][0],hvostolom[i][1]], {color: "#EEE8AA"})
+			.bindPopup("Хвостолом")
+			.bindTooltip("Хвостолом", {direction: 'top'})
+			.addTo(hvostolomicons);
+		}
 	}
 	else {
 		hvostolomicons.clearLayers();
 	}
 }
+//3 в лаборатории
