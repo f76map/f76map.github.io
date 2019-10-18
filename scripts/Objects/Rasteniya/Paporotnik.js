@@ -1,3812 +1,3820 @@
-	var paporotnikicons = L.layerGroup().addTo(map);
-	function PaporotnikOnOff() {
+var paporotnikicons = L.layerGroup().addTo(map);
+function PaporotnikOnOff() {
 	var chbox;
 	chbox=document.getElementById('PaporotnikButton');
 	if (chbox.checked) {
-	L.circleMarker([-151722, -72673], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151730, -72443], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151365, -72716], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([204028, -29250], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([204452, -25421], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203432, -26395], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202237, -25031], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198356, -24286], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200522, -24267], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201733, -22969], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202638, -23957], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202731, -21108], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([204782, -22005], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198688, -17649], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198345, -17544], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203875, -20432], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197251, -14703], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198873, -13305], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197346, -13533], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200801, -13188], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202124, -14910], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201755, -12317], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196632, -11336], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198257, -8918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200609, -10611], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202030, -9565], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203689, -12208], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([210734, -9920], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199414, -4618], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198190, -4214], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196687, -7483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196620, -3953], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196877, -2955], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198171, -834], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198082, -1032], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165418, -30229], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165348, -30363], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164408, -30914], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174363, -29325], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176202, -31606], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187327, -29134], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185265, -29190], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185070, -29841], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185358, -29879], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188812, -30512], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165873, -27347], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166252, -25431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186220, -27953], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187032, -27164], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186738, -26584], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188645, -25573], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189396, -25177], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193578, -25259], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168324, -21511], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170797, -23095], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169056, -22621], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189835, -21921], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191617, -21694], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191674, -21407], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191144, -21018], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194260, -23361], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192766, -22632], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166396, -17229], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186315, -18575], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185326, -16963], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190519, -18155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191437, -16736], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193091, -19453], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195766, -18544], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195914, -18137], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193096, -18084], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164392, -15368], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164356, -14518], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184683, -15545], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186250, -14967], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186169, -14801], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187042, -15059], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187178, -15051], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191754, -14782], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192485, -14291], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170784, -11474], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180939, -10666], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181882, -11555], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182318, -9621], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182303, -9190], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187735, -9826], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189052, -11995], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191620, -11701], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191610, -9627], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191864, -11630], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192642, -8509], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195901, -10438], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196127, -11596], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165548, -7069], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165800, -6184], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168405, -5984], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170402, -5363], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170555, -5152], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169079, -4834], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169800, -6228], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173300, -6547], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183808, -4327], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183808, -4166], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182420, -7426], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192475, -7862], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190544, -7511], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191684, -7749], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194932, -6612], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195284, -6866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166608, -3810], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165645, -2091], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165538, -2019], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165993, -2250], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164140, -3955], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163958, -4058], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169508, -3950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179177, -2582], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179636, -2603], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183181, -1326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183804, -3398], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191825, -1335], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193165, -722], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193280, -3954], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195390, -1311], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195342, -1464], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132823, -32719], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133263, -32720], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140768, -30431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140706, -30596], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141274, -29841], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141689, -29242], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142150, -31802], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142399, -31571], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142539, -29158], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144301, -28744], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145879, -29012], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145950, -29178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144922, -31791], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145196, -31541], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146753, -31974], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148734, -29669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148190, -32468], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148369, -32523], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148465, -32445], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160809, -30909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160777, -30770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135540, -26365], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135624, -26452], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136368, -25216], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139076, -28596], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139214, -28522], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139125, -26220], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138324, -27653], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140157, -28015], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140382, -27273], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141114, -26102], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141301, -26089], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142213, -26231], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142566, -28349], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142118, -27301], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144228, -28483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147281, -27812], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147389, -27943], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145282, -26156], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145640, -27108], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160174, -26403], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160339, -25537], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161311, -26768], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162017, -25500], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160870, -27040], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133918, -22129], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134121, -22240], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133761, -21289], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138581, -23001], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138653, -23986], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139230, -21148], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138753, -20912], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136978, -21331], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137292, -21545], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143273, -20781], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141832, -20801], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141949, -20925], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139559, -20938], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140459, -21926], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141721, -23282], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141955, -23529], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139967, -24093], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140213, -23998], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143533, -21084], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151464, -22004], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150946, -21759], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151188, -21634], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151330, -21681], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151510, -20576], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152780, -21542], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152540, -22122], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152986, -22011], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152599, -22106], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163475, -24217], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162067, -22156], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161578, -22628], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162212, -24541], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162124, -24513], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161565, -23605], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162045, -21695], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162815, -22326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135276, -19551], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136098, -16974], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136171, -16952], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136089, -18958], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136028, -19145], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138596, -19711], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138729, -19792], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138452, -19481], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136795, -16738], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135675, -18175], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139797, -17349], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139844, -17517], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140127, -18566], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141346, -20038], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141291, -20170], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141202, -20034], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142307, -19603], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142203, -18373], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142266, -18299], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142207, -18549], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142514, -19910], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142974, -20441], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146290, -18415], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146523, -18761], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146950, -18686], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146778, -18464], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146495, -18663], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151226, -19930], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151383, -19910], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151540, -19688], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151310, -19633], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159722, -20301], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158319, -17452], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158182, -17538], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158174, -17421], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157593, -19705], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156436, -18687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156510, -18895], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156436, -18774], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161362, -18108], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162477, -20178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163375, -18223], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163219, -18202], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163212, -18340], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135707, -14340], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135562, -14660], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135797, -13935], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136036, -13652], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136178, -14775], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136387, -15515], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139630, -12650], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139837, -12994], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141359, -14937], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141707, -15254], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141639, -15499], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141555, -15783], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141654, -15866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139715, -14659], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139465, -14952], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139359, -14655], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144247, -16186], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151295, -14285], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151343, -14431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153702, -15424], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152874, -14584], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153807, -14710], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153447, -14208], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161411, -13273], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160609, -14576], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153765, -9385], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156137, -8977], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156528, -10615], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157815, -10365], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133860, -5207], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133916, -5491], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135012, -7386], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134710, -5964], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134842, -6309], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135651, -4243], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135571, -4587], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135858, -7287], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135366, -7016], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150511, -5025], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150312, -4901], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152965, -4440], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152851, -4380], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157730, -6063], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159448, -7370], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159544, -7476], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157975, -6582], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158307, -7236], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163807, -7222], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162353, -6497], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163052, -7033], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132853, -2081], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133453, -2447], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134218, -3079], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134917, -2391], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135094, -3652], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135252, -3902], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160565, -1821], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200558, -52003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198020, -50899], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198053, -49333], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([204142, -52166], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203404, -52694], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202425, -52870], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201781, -52034], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200884, -51596], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197720, -48687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200454, -47558], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200274, -47824], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199358, -47414], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199468, -46188], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198476, -45540], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199415, -42231], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197886, -41367], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198856, -41796], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197375, -40130], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198096, -37360], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199264, -38595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203271, -37352], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201384, -37878], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201501, -40213], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203217, -38818], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([205033, -39818], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([208380, -37404], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([206966, -39202], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197171, -36761], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201744, -34490], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201137, -34197], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201334, -35582], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202340, -33980], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165850, -61769], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171908, -63707], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170996, -62690], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169268, -64020], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173021, -65060], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173228, -61659], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173304, -61850], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174672, -61471], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174625, -61671], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174958, -62714], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174602, -65127], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178932, -61830], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177160, -63396], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179069, -63727], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178793, -61623], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176794, -61841], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178787, -61839], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183026, -62713], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181043, -63216], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180539, -64141], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183021, -61524], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183738, -61761], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181329, -65220], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183675, -61678], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183793, -61810], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185940, -63202], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186129, -64728], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186674, -65107], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186857, -64028], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189770, -62252], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191491, -63532], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164979, -57528], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166182, -61213], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168748, -59610], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168015, -61307], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169143, -58964], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169182, -59165], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170700, -59569], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171885, -61096], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174752, -60090], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172804, -58361], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173572, -59191], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174128, -59342], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175756, -58053], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175865, -61227], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179361, -58086], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179543, -58499], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179499, -58699], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176234, -61429], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176550, -60972], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177386, -60361], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180834, -59736], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181701, -61251], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182290, -61334], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187939, -60474], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187275, -58483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186164, -57702], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186157, -57600], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188892, -59084], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190355, -58236], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190888, -59812], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166353, -54767], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165428, -55983], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169017, -57013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170190, -55890], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170097, -56072], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171819, -56634], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171980, -55280], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173481, -55641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175749, -55377], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175460, -55699], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173831, -54048], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174612, -55371], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174685, -55263], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178782, -57031], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179149, -55052], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178570, -55672], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180104, -55469], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178187, -56039], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176533, -54329], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181233, -56407], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182160, -56058], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181040, -57078], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183437, -56077], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182751, -57343], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180751, -55406], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187128, -56318], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187460, -56741], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186491, -54780], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187766, -53882], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185388, -56062], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185439, -57341], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188959, -53913], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192208, -53352], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192136, -56432], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190589, -55627], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166094, -51973], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164663, -51085], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165686, -50475], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171870, -49549], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168896, -51469], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168919, -52173], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169028, -51605], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170842, -50933], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172318, -49380], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173490, -52315], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173526, -49698], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175557, -49855], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175990, -52852], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175126, -53068], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176190, -50892], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178059, -53172], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179944, -51368], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176598, -49222], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177239, -51405], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177102, -50792], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180316, -50876], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183217, -52211], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183015, -51776], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181755, -52885], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182348, -52257], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187237, -50994], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187942, -50089], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187339, -52693], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187821, -51167], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188093, -52182], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188386, -51180], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189300, -52307], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192278, -49699], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191551, -51724], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190165, -49792], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196459, -49640], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195868, -52759], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192860, -51614], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194537, -50003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195014, -50179], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165906, -48001], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165658, -48686], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166878, -46490], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170141, -46879], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168126, -46476], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168212, -46662], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169205, -45377], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171675, -48076], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171982, -47495], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171472, -45306], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175169, -46710], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173733, -45841], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174643, -46152], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175228, -46022], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176161, -47790], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180160, -47110], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176631, -46310], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178170, -47890], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178462, -48340], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180040, -45490], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181102, -46880], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182453, -45281], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183449, -45286], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184219, -48477], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184621, -48673], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184926, -48304], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184390, -47930], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186506, -45276], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187054, -48770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190919, -45372], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192332, -48824], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190055, -48664], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191680, -47178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194051, -47908], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192733, -48805], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165206, -43016], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167394, -44585], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169078, -44750], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168720, -43154], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168120, -43182], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170192, -43520], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171625, -43134], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171859, -42170], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171453, -42425], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176064, -42388], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175832, -42839], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173728, -44717], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176219, -44671], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177062, -44441], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179620, -43355], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180825, -40978], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180787, -43521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182363, -41047], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183098, -43641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183078, -42907], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182892, -42820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184676, -44185], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187251, -42021], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188216, -43351], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188187, -41887], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187976, -42234], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187755, -41807], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189328, -41984], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191751, -41434], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191474, -42987], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190578, -44155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194529, -41545], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195550, -42385], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194763, -42490], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169359, -39778], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170386, -39977], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171934, -37484], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172007, -37675], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169921, -37073], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173498, -39511], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174494, -39230], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174494, -39017], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172785, -38512], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174229, -39297], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175480, -40487], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176138, -39585], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176291, -40491], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177864, -40162], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178252, -40056], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179981, -39285], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178352, -36997], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182003, -40939], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183849, -38861], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180594, -38477], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183696, -39782], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180311, -37183], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181494, -38132], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184920, -40081], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185527, -40805], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186798, -39422], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192124, -40220], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196361, -37687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196545, -36967], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193511, -38899], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164938, -34483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164495, -34674], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170885, -34446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173204, -35124], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173481, -35800], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173229, -35811], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178623, -35344], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178484, -35367], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178801, -35388], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181197, -34746], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180746, -34700], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180815, -35096], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151046, -64326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149457, -64103], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152993, -64914], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153394, -64409], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160174, -64867], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162662, -64272], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149182, -57700], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150935, -59647], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153043, -57458], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152318, -60515], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160870, -58620], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161131, -60174], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149230, -56296], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149794, -56387], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151091, -53492], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149839, -55004], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152834, -56324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152660, -56445], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154131, -56481], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156642, -54096], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156122, -56328], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157645, -54909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161466, -54182], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162359, -55590], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152226, -52286], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152360, -52370], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157806, -51384], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159114, -52618], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157472, -50929], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161824, -50913], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163109, -50779], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145100, -45607], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145054, -45526], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143965, -46169], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144334, -46038], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144817, -45721], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155147, -47194], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154870, -47827], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159181, -48943], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161199, -45297], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161762, -45876], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162153, -45854], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144959, -44872], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145029, -44758], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149198, -44211], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151512, -42329], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155626, -43234], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155311, -41888], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157839, -44587], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156571, -41662], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157758, -42409], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163681, -41872], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163383, -44006], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133218, -40521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144398, -39802], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144446, -38432], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144457, -39028], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144359, -38777], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149130, -38563], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148927, -38612], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151967, -38139], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152274, -39722], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155680, -37384], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155923, -37896], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155754, -36988], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157265, -38555], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156631, -39248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156888, -38938], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160087, -40354], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160144, -37240], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161648, -38794], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131243, -34383], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133534, -32869], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133403, -32907], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139393, -33348], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140858, -32826], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142040, -36031], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141864, -36229], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141644, -33431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142910, -35135], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142673, -34336], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146302, -32991], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144851, -33344], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144336, -35511], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145088, -34012], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146535, -33560], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146516, -34020], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147051, -35707], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148724, -35548], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148732, -35658], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148740, -35960], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152013, -33577], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153552, -33349], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155508, -35661], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158059, -36597], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159526, -35467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161279, -34891], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159883, -34768], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161383, -33280], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159849, -35992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162200, -33075], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163619, -33501], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161064, -36842], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163916, -87674], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166545, -76002], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166444, -74160], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165311, -75381], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167984, -75992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168494, -74119], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169395, -74936], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170855, -74591], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168758, -76952], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172068, -77802], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173094, -76781], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173401, -75957], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174598, -75956], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176127, -74939], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175989, -75154], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176588, -75726], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179822, -77043], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176257, -77666], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181850, -75178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183952, -76912], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184150, -75811], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186531, -73919], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186171, -74191], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187159, -77088], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186919, -76716], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190007, -76599], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191015, -77487], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192033, -74287], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193003, -75278], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166194, -72722], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165509, -72146], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165209, -73538], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168946, -73242], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168971, -72762], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169495, -72592], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169776, -72664], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171866, -73696], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172864, -73061], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173177, -72565], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173109, -71038], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173991, -70862], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174243, -71064], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174464, -72734], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174470, -70007], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175619, -70300], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176703, -72420], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177760, -72661], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179103, -73061], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177563, -69749], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182317, -72326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183015, -72347], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180443, -73600], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180326, -73432], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181695, -70950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183355, -71101], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187896, -70180], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187463, -69975], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185388, -71894], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185244, -72040], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185728, -70838], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186987, -72494], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186665, -72291], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188880, -73032], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190726, -71528], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167796, -68964], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167232, -65671], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165918, -66379], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169433, -65996], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171672, -66416], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169172, -66962], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171789, -68556], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174402, -66445], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172357, -67144], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172551, -69393], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172048, -67766], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172896, -66209], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175170, -67986], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176058, -68512], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178911, -69595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178125, -68521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177803, -66235], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180174, -66416], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178448, -66294], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181517, -65594], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181576, -69334], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181587, -68777], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181560, -67908], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181675, -65831], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181693, -69619], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185557, -68705], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185307, -69356], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186817, -65823], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186676, -69288], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187200, -68319], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185509, -65746], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189267, -68082], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191036, -67360], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163324, -87244], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142485, -85106], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142801, -85724], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143001, -84179], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150999, -83565], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149350, -85109], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151962, -82842], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153369, -82110], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153841, -81971], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157809, -83642], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158824, -83745], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159254, -83752], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158944, -82886], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157911, -85270], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149560, -77956], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148195, -78306], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149916, -81675], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151649, -78814], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152239, -78716], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154942, -81341], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152379, -78647], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156379, -77937], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157725, -78303], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158324, -79063], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160786, -81849], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160901, -79398], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162884, -79558], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162607, -80107], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149846, -76411], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148464, -75974], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149183, -74074], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150767, -75871], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148328, -76554], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153118, -76799], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155292, -76385], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154328, -74918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158090, -75996], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156245, -74552], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156037, -76992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161240, -75311], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141340, -70320], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139273, -70589], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139547, -69920], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144150, -72055], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144884, -72835], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149073, -70118], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157193, -72078], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155956, -73515], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160876, -71534], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150060, -66105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148611, -67937], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149421, -67262], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149411, -66986], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149442, -67404], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152219, -67955], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158521, -66626], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162241, -68343], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126137, -239], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126170, -155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126137, -326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126195, -1756], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126297, -1812], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128811, -39251], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([129017, -38941], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128988, -38863], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([129102, -39053], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([129879, -40833], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130821, -34658], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([72052, -173512], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15974, 200263], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13928, 200424], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9096, 199639], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9672, 197992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8962, 196744], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8601, 200112], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10518, 197318], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11630, 196998], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4756, 198970], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1790, 199952], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1334, 198915], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-994, 198847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1769, 197247], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13591, 203338], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16080, 202249], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15258, 203400], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10396, 201104], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10365, 202321], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6077, 203291], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-5224, 204035], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4450, 202918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2053, 201213], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3583, 203216], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1706, 203139], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8524, 205002], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7839, 205122], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6035, 205197], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3385, 206188], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1255, 207859], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1987, 206313], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-57717, 199925], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-58620, 199238], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-59483, 199292], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56588, 198072], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56426, 197813], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56519, 197711], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56533, 197501], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-50059, 199184], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-50064, 199271], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-49965, 199228], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45284, 199515], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45349, 199656], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45259, 199620], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43349, 198238], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43237, 198282], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43249, 198199], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39357, 197709], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39378, 197810], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39506, 197782], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54592, 203559], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54452, 203684], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54553, 203695], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47249, 203665], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47157, 203620], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43518, 202366], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43642, 202379], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43603, 202448], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73591, 196784], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73201, 198609], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71620, 198709], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69824, 197992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69332, 199316], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-66906, 199043], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68576, 198624], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88939, 201187], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88937, 201119], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72648, 203818], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69003, 204150], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72668, 207257], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70718, 207295], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-130349, 196652], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-130215, 196683], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127500, 197611], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124166, 196926], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123371, 196796], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126161, 197738], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125194, 197597], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125781, 199895], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126166, 200075], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118843, 196798], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120128, 198906], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120339, 199069], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119327, 197299], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119964, 197084], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119527, 197340], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118960, 196689], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116660, 196945], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116549, 196858], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118467, 196608], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116343, 197072], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116691, 198622], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114876, 199628], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114397, 199769], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114234, 199642], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108041, 199002], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108166, 198933], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104797, 199235], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104312, 198996], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104582, 198906], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127050, 201823], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127031, 202099], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128537, 201927], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128626, 202125], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128693, 202575], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122154, 200864], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119191, 201112], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119332, 201417], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122229, 201129], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122110, 202716], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114936, 203530], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114713, 203867], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114599, 203581], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108817, 203446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109113, 202948], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109289, 203255], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102020, 202825], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99873, 202518], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102005, 202544], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101871, 202510], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128147, 205586], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128265, 205689], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-26801, 166089], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-26755, 165952], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-26883, 165987], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21379, 166405], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21333, 166524], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21497, 166422], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21153, 166361], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21318, 166284], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16547, 167675], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17084, 165172], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17421, 164878], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13476, 164298], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12927, 164399], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12709, 164858], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13120, 164597], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10443, 164000], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10074, 163993], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-5886, 165565], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6366, 164882], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6617, 165917], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6376, 165429], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3435, 164140], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1964, 164061], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2546, 164105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11936, 169702], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8737, 168781], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10990, 171567], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8011, 168831], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7754, 169399], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3609, 168815], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2939, 169205], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1987, 169729], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1762, 169951], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2143, 169820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13411, 176100], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13538, 172710], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-14674, 173075], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15114, 175760], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8610, 172667], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8482, 172887], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8699, 172862], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6490, 173598], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7623, 173127], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7385, 172815], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-20821, 179975], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-20935, 180053], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15601, 178517], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-14751, 179273], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9559, 177346], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11283, 178065], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10164, 179260], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8409, 178894], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6071, 177057], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6873, 178079], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7296, 177350], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-32422, 183393], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-32450, 183696], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-29622, 183256], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-29339, 182902], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-29153, 182676], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-27760, 182292], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-25363, 182041], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21769, 181122], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21693, 180968], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-21111, 180447], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-20977, 180356], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11257, 183451], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10699, 180540], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10727, 183668], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7953, 181770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7968, 180868], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7027, 181234], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7067, 182696], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31337, 188300], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31088, 188310], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30632, 188050], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31722, 186846], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16287, 187150], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13915, 186959], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13263, 186166], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11973, 186044], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8895, 186169], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9145, 187920], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7574, 186812], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7831, 186567], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7086, 185603], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1579, 185346], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-699, 185493], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-14443, 190376], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15263, 192197], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15976, 188448], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8206, 191359], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8801, 188695], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9631, 189509], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7681, 190514], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7291, 190198], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7874, 191707], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1850, 190091], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2582, 192100], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2915, 190758], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1869, 192437], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-849, 190971], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16362, 195184], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16119, 194492], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4258, 192812], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-5141, 195508], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8150, 193746], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8091, 196141], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-272, 193394], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-691, 194692], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3817, 194995], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-62948, 167577], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63028, 167556], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63254, 166533], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-65259, 167452], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48328, 166813], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48236, 166662], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48144, 166794], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-46637, 166073], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-46586, 166201], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-46478, 166157], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39385, 165422], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39505, 165316], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39534, 165459], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-35676, 164939], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-35706, 165090], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-35562, 165028], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-65339, 168105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63397, 168003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-62196, 169401], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-62154, 171833], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-62888, 171733], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56016, 170986], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56144, 170774], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45696, 170763], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45583, 170759], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45454, 169000], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48213, 169121], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48562, 169248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45654, 169612], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45742, 169678], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-45756, 169560], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42916, 171323], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42784, 171280], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42793, 171383], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-36423, 171975], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-65278, 174727], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-65358, 175120], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63633, 175623], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63668, 175874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56913, 172758], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56864, 172675], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42555, 172770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42550, 172894], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42464, 172840], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39779, 173755], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39750, 173680], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39662, 173736], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-36283, 172125], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-36643, 172410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-36125, 172252], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-36361, 172111], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63900, 178960], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63658, 178717], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63237, 178450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63956, 179340], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63719, 178534], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-63698, 178783], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51421, 176925], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51437, 177027], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51520, 176989], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42725, 177070], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42428, 177044], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42516, 177105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42602, 177046], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37809, 178805], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37810, 178886], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37943, 178810], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-64569, 183804], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-64415, 184018], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47745, 181394], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47748, 181496], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47652, 181451], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42910, 183335], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42933, 183456], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42821, 183349], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37843, 180711], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37828, 180788], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-65252, 184654], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-65064, 184590], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-64705, 184669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53459, 185845], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53510, 185954], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53564, 185851], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42669, 185989], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42568, 186036], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42550, 185948], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43872, 186446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47722, 192085], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47703, 192178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39847, 190258], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-40078, 190732], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-40067, 190635], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-64826, 193653], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-61896, 195549], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-62735, 196497], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56332, 195111], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56240, 195119], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-56236, 194964], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-52210, 193068], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-52256, 193187], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-52152, 193175], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47732, 194018], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47714, 194111], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47602, 194112], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42076, 194928], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42062, 195055], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42212, 195008], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39914, 196079], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-39975, 195990], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95470, 163907], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80296, 165596], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80192, 165586], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73834, 167860], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71729, 165646], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97095, 170367], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96843, 170312], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96917, 170575], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94912, 169087], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94984, 169059], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91169, 171287], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91026, 171183], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-89865, 169391], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-89925, 169334], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88943, 169417], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88993, 169527], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-89815, 168679], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84340, 171798], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84412, 171878], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74747, 168086], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74951, 170451], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74023, 171220], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69804, 168092], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68578, 169046], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67558, 170304], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68412, 168869], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84251, 172832], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84215, 172899], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82221, 175506], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82347, 175439], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79798, 174737], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79746, 174756], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-77404, 173596], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-77655, 173220], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-77551, 173795], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70296, 173589], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71770, 172894], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71143, 172821], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69052, 173259], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69335, 173674], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68022, 174909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68075, 175742], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69529, 176003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83088, 178631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83050, 178651], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81231, 178405], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81185, 178332], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97711, 180442], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97817, 180445], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84190, 181961], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84494, 181387], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84302, 181319], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74992, 180629], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76140, 180843], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-75629, 181008], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71554, 182980], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69928, 182816], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70235, 182923], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71021, 182736], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68246, 182446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67772, 182714], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67885, 182809], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96007, 188004], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96198, 187940], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96252, 185981], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88361, 188064], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88399, 188225], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87909, 188314], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87878, 188319], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-85624, 185882], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-85543, 185801], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-85635, 186057], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-78824, 186830], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79316, 187013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79441, 187086], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74307, 185273], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93193, 189853], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93153, 189806], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91627, 189791], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91559, 189732], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81638, 190570], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81569, 190568], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-78022, 192345], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-75620, 188600], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-75618, 188787], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74999, 190509], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-75205, 190826], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72388, 189595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72262, 189324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71975, 189176], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88870, 196135], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88746, 196114], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88766, 196155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87952, 196085], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88592, 195223], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88645, 195198], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82369, 193745], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82303, 193741], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79176, 194666], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81525, 193578], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81892, 193392], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-78066, 192589], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76052, 194312], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76149, 193982], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-77702, 192556], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72743, 195506], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73248, 194635], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73121, 195216], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68212, 194231], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68269, 194875], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-68671, 194533], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127119, 166181], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125419, 166505], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123225, 165025], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125283, 166192], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125954, 166453], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122976, 165221], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122787, 164479], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122782, 165047], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120657, 165712], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119923, 164196], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119854, 163912], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121227, 165365], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120995, 165787], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113165, 165800], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112576, 165786], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112243, 165654], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112737, 165528], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113303, 165137], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109589, 167248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109227, 167014], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105765, 164839], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105572, 164546], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105887, 164649], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98868, 164597], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98829, 164539], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98690, 164602], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127576, 168624], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128169, 168843], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127894, 168311], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127183, 168682], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126129, 168002], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126693, 168909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126771, 168890], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119116, 168113], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115081, 168808], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115298, 168785], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115351, 168865], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115330, 168718], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115315, 168326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115460, 168355], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109952, 171616], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109327, 171581], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104790, 169749], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104600, 168332], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105520, 169053], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105184, 168657], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125008, 172341], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125082, 172744], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113789, 175160], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113543, 175254], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103137, 175185], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102642, 175354], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99864, 173994], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99589, 173925], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99453, 174210], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98828, 174397], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98499, 174512], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122000, 177405], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122165, 177384], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117201, 177466], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116657, 177545], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116575, 177193], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116745, 176888], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117358, 176978], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117412, 176587], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111164, 178315], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111188, 178229], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111145, 177835], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111301, 177814], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111169, 178002], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109462, 177986], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109157, 178113], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108833, 179914], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109392, 179632], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109079, 179823], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106078, 179065], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105544, 178116], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105716, 178657], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101141, 177848], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-100401, 177826], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-130578, 182745], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128313, 181378], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128210, 181086], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128440, 181335], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128798, 181036], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126118, 181059], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126436, 180920], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126599, 180830], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126606, 180368], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123070, 182316], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123528, 183830], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123600, 184134], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122014, 182199], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122502, 181870], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122485, 182478], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122543, 182854], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122556, 183429], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117967, 181324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118702, 180794], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118572, 180882], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118237, 181306], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111804, 184099], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111484, 183651], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111696, 183469], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109449, 180433], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109439, 180628], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109115, 183779], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109221, 183932], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107428, 183564], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107817, 183281], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105512, 182336], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105218, 182527], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101148, 180731], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-100789, 180785], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123244, 184478], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126381, 187143], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124855, 185121], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123530, 186589], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124849, 186646], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123919, 187003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123730, 188082], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122189, 186911], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120980, 187301], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121461, 185395], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120541, 186230], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120127, 186679], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116177, 188108], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118148, 187997], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114744, 186989], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115198, 187344], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113041, 187900], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112889, 187562], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112380, 186758], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112522, 185657], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107257, 184500], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102419, 186853], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106210, 188383], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102672, 187033], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103934, 185208], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102986, 187167], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99308, 187206], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99547, 187383], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99372, 187587], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101623, 186437], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101953, 186503], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101445, 186778], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129121, 192313], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129263, 191206], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127595, 189297], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127340, 189122], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127875, 190650], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128241, 191623], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127896, 190989], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126551, 189496], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126112, 191410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124428, 188805], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124664, 188657], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122223, 189087], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121881, 189072], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115522, 189062], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114822, 188832], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116396, 189324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115598, 189044], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117573, 189050], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117251, 189215], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111215, 189777], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114441, 191060], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113956, 190619], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114138, 190740], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111354, 192268], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106657, 189766], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108901, 189071], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108778, 188856], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106022, 188532], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106333, 189216], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106308, 189512], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127291, 195382], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127538, 195196], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127375, 194224], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127622, 195440], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128564, 193595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129859, 194423], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-130270, 194369], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124212, 196180], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126654, 195179], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125874, 195895], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115097, 195155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115212, 194248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114760, 192781], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112038, 195252], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-110844, 195985], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114593, 192757], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113080, 194499], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107151, 194452], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107202, 194007], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106842, 193587], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106950, 192965], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103269, 194614], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103333, 195834], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103532, 195274], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103298, 195221], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103355, 195410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98842, 194238], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98713, 194039], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-22798, 132956], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-22735, 132922], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-22677, 132978], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-22747, 133023], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17829, 133184], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17882, 133341], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17910, 133094], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13635, 134782], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12847, 134068], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13218, 134571], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15870, 132320], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11374, 133681], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11123, 132674], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10883, 132755], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7098, 134467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4728, 134062], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4999, 131928], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4931, 132212], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8076, 132153], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1563, 133766], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-362, 131733], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2965, 131796], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-25993, 136031], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-25928, 135957], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-26026, 135947], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-22252, 136230], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-22243, 136106], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-22165, 136183], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-14729, 138649], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-14435, 138641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-14488, 138359], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15836, 136561], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16123, 136251], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9014, 136387], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8846, 135644], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9341, 135927], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-5057, 139041], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4533, 138726], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7456, 137027], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7035, 137023], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2854, 138478], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2802, 138877], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2672, 138576], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-28001, 139376], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-27950, 139472], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-27890, 139359], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13180, 140789], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13731, 140803], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-13504, 140621], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10587, 140675], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10414, 140802], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8469, 140464], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8993, 140597], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6091, 143023], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6619, 143142], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6506, 142840], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4326, 141280], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4630, 141189], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3935, 142477], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-646, 142384], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2214, 142493], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-18208, 145137], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-18186, 145286], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-18095, 145163], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12738, 147399], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12656, 147103], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9164, 147126], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10094, 145120], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10614, 144990], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11107, 144896], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6824, 147189], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4596, 144712], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4500, 145067], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6117, 144608], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-963, 147169], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1330, 144843], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1002, 144255], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31088, 149892], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30889, 150111], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30992, 150041], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31214, 150853], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31222, 150981], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31081, 151046], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15373, 151441], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15149, 151119], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12318, 150363], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-14790, 148330], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15308, 147746], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9605, 149709], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8893, 150450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4711, 148409], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-5115, 148614], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-5024, 148415], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3803, 151547], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1865, 148077], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2617, 148091], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3934, 149223], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3596, 149210], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3722, 149100], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-742, 147599], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30897, 154364], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31243, 154253], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31182, 154147], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31080, 154287], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31129, 152488], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31254, 152602], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-31221, 152426], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-27302, 151775], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-27262, 151634], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-27381, 151730], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-27192, 151735], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16304, 152656], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15887, 152470], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12416, 155645], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12741, 155139], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-12937, 155570], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8828, 154712], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8949, 153951], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10187, 151848], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8146, 154171], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7356, 154085], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7770, 154238], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2847, 153507], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3392, 153595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3033, 151662], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-3801, 151920], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30307, 156918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30320, 156841], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30230, 156804], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-28376, 157350], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-28332, 157446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-28293, 157532], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-23720, 157193], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-23647, 157313], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-23633, 157450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17461, 155959], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17665, 156005], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-17651, 155897], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16206, 156296], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16233, 156703], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15937, 156520], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8522, 159678], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9139, 159445], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-11704, 157032], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10117, 158541], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7516, 159404], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7144, 158987], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6462, 158637], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30855, 160792], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30737, 160687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-30858, 160670], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-23347, 159756], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-23182, 159847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-23285, 159875], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-18563, 160741], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-18520, 160899], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-18625, 160805], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15944, 160717], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15402, 160579], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-16333, 160391], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15978, 160083], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8230, 161128], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9126, 163642], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10993, 163190], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-10766, 162681], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6878, 163077], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7018, 163410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6596, 163410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7121, 161091], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-61111, 136844], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-61028, 136941], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-55097, 137538], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54929, 137483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54945, 137583], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54871, 137592], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-62917, 139950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-62983, 140006], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-60965, 140513], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-60944, 140439], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-61066, 140469], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-55511, 141477], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-55510, 141574], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-55619, 141489], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51451, 140267], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51374, 140289], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51384, 140399], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47859, 141970], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47858, 141831], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-47958, 141874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-34955, 142250], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-34967, 142378], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-35067, 142314], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-59709, 144414], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-59817, 145105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51386, 146444], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51316, 146454], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-38830, 146599], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-38951, 146617], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-38968, 146565], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-32834, 143840], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-32927, 143794], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-32927, 143936], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53566, 148302], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53549, 148450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51044, 148813], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-51157, 148719], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48924, 149865], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48783, 150178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48814, 150096], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-43017, 149549], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42910, 149490], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42798, 149643], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-42920, 149629], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-38074, 149722], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-38263, 149725], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-38166, 149806], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-38185, 149714], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-34633, 149946], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-34382, 150118], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-34352, 150031], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-34531, 150020], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53801, 154266], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53682, 154275], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-53867, 154351], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48421, 152715], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48377, 152984], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48470, 152834], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-48382, 152849], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37379, 152757], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37475, 152954], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-37386, 152935], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54151, 157397], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54115, 157253], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-54309, 157398], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-50513, 158577], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-50654, 158518], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-50549, 158429], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-46364, 158028], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-46497, 157924], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-46451, 157770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-46386, 157887], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-33709, 156004], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-33856, 155904], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-33731, 155889], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-35088, 160569], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-35087, 160501], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97099, 132822], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97131, 132934], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97195, 132843], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95887, 133457], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95865, 133455], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95374, 132854], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95372, 132759], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-92983, 132795], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93030, 132873], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86995, 131539], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87031, 131679], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-89709, 134098], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83515, 132953], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83490, 133046], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83571, 133032], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74963, 134945], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74787, 134752], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70485, 134210], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-66455, 135111], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69602, 133637], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69484, 133708], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-65702, 133233], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98057, 139076], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98166, 139016], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95726, 137293], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95827, 137319], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-90638, 137361], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-90537, 137353], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87016, 135282], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86914, 135337], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86648, 138627], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86662, 138535], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83857, 135706], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83825, 135785], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79704, 138476], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79714, 138405], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67118, 135672], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67145, 135670], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-90953, 142732], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91021, 142737], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86379, 143304], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84801, 141422], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95292, 146024], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95348, 146003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86342, 143468], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-89147, 144789], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-89061, 144761], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82704, 143909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74110, 146414], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74689, 146595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73930, 146293], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69252, 146506], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69271, 146671], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-69071, 147148], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94914, 147673], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94990, 147634], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-92257, 148676], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-92318, 148800], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84530, 147916], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84523, 147971], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-78557, 149587], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-78495, 148701], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-66672, 148816], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-66742, 148529], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-66780, 148574], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96844, 152640], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96903, 152537], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93858, 154604], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82881, 152082], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82914, 151985], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81092, 152918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81276, 153092], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72373, 153469], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72257, 153431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95876, 157441], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95681, 157209], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95602, 157359], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91707, 157874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91494, 157805], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87252, 159206], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87346, 159184], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83417, 156690], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83403, 156818], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79017, 157679], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80177, 157371], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80267, 157479], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70087, 157641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70149, 157605], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95883, 161826], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94909, 161402], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94366, 161426], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94448, 161431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-94354, 161525], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93418, 160608], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93346, 160683], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93957, 159800], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93366, 161662], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93187, 161631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88876, 159874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82727, 161683], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-82666, 161631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81029, 161474], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81066, 161391], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-81165, 161487], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72346, 162344], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72444, 161531], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72090, 162092], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-71966, 162077], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129269, 132560], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129387, 132919], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129419, 132481], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123373, 131280], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115068, 133030], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114714, 132478], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114411, 132794], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114467, 132048], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114353, 132523], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102504, 134707], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102683, 133619], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102761, 134266], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105587, 134616], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102185, 133818], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101996, 134609], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102330, 134983], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102322, 133844], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102369, 134446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102114, 134065], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102022, 134003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102280, 134507], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102355, 134573], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98996, 132571], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-130012, 135593], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128833, 137508], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129150, 137332], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123378, 138665], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123184, 138732], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123585, 138551], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126339, 138490], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119022, 135221], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118960, 135433], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118040, 135566], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117969, 135413], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118059, 135450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118626, 135460], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111853, 136253], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111402, 135957], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111831, 135661], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112160, 136532], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111676, 136878], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111238, 136466], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103843, 137567], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104684, 137820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104491, 137839], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104108, 137932], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103608, 137436], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103317, 137958], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101027, 138373], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-100997, 138294], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101108, 138415], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127928, 141814], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129855, 140322], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-130843, 142375], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-130613, 142503], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128077, 141566], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123021, 141898], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123205, 141997], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122265, 142869], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115033, 140240], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115034, 140174], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114935, 140190], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112009, 140127], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112390, 140273], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112293, 140056], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111607, 140403], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112240, 140232], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129510, 145049], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129526, 144653], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-129656, 144889], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126962, 145659], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125833, 144472], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126101, 144693], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122705, 145469], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116354, 144582], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116352, 144749], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116329, 144388], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112360, 144092], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112259, 144121], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112284, 144185], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104602, 143847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104751, 143429], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105288, 143361], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104313, 143752], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103916, 146814], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104042, 146789], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127404, 151209], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127354, 150630], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128200, 148902], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128782, 149309], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124873, 150466], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-125036, 150725], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124986, 150939], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123189, 147733], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119287, 148590], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121593, 147854], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121449, 148246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121344, 148369], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113106, 149970], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113071, 149911], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113154, 149847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109852, 148614], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107357, 147728], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107417, 147612], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127195, 152486], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-127415, 152242], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123116, 151930], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-110155, 154575], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-110187, 154527], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121057, 157454], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-121061, 157206], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101709, 159580], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102154, 159303], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101177, 159697], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101256, 156256], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101138, 159475], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116006, 162703], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116081, 162697], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101427, 160082], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101679, 160001], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159345, 200608], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158791, 200301], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158792, 200019], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150361, 200470], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150752, 199884], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150477, 199866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150289, 200107], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143745, 198054], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143904, 197131], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143677, 196998], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143192, 197641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-135279, 199720], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-135582, 198599], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-136791, 198829], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-136961, 199061], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-136615, 199203], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131502, 198076], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131404, 198345], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131452, 198038], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157196, 201658], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158147, 203448], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158090, 203598], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157694, 202066], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157471, 201768], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157341, 202444], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-145438, 203845], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-145429, 203631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-145360, 204112], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-145383, 204388], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138041, 204068], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137365, 204119], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137157, 204267], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137414, 204660], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134087, 204870], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175493, 199603], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175228, 199362], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175540, 199347], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167641, 199569], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167562, 199614], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167063, 199173], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165511, 199538], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-164819, 200507], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165206, 200414], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165514, 200492], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179101, 202007], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-173956, 203574], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-173953, 203567], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174281, 203685], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174316, 203519], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-166237, 204197], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165488, 200778], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-144275, 164583], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134051, 164178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134755, 164162], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133571, 166427], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133368, 166618], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132413, 165339], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132498, 165722], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138753, 171523], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137668, 170992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138516, 169802], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131170, 168275], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161908, 174748], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161020, 175490], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161255, 175789], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161150, 175478], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161837, 174542], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-162130, 174509], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-162216, 174810], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133864, 172551], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134388, 172789], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134808, 172953], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-160054, 176999], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159876, 177607], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159658, 176861], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151334, 179682], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151428, 179594], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151131, 179855], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150519, 180092], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138778, 179667], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138518, 176940], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137647, 178369], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161186, 183684], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161086, 183909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-162222, 182009], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161053, 182103], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161188, 182246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151703, 180919], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151727, 181239], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150859, 181878], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150694, 181992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150500, 181583], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150371, 181269], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150045, 180960], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150487, 180304], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137286, 184271], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134126, 183521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133941, 182950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133782, 182760], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133610, 182874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158681, 187440], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159281, 187321], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159047, 187551], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158753, 187738], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151783, 184857], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151774, 185727], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-153906, 188308], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151717, 184991], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151715, 185242], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151590, 185461], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148611, 187801], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148793, 187125], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148841, 187309], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148931, 187609], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-149403, 187324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151097, 185484], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151320, 185327], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151447, 185762], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-136700, 185442], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137137, 184883], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137235, 185397], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137090, 185695], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138507, 188013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137354, 184532], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-161558, 192442], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-160546, 192367], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-160206, 192422], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158795, 188918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158877, 189798], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158995, 189284], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147483, 189144], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147739, 189718], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147801, 189519], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147657, 189173], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147678, 189302], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147259, 189170], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147175, 189347], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147118, 189248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-145910, 189310], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-145788, 189375], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132387, 191696], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132823, 191562], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156165, 195920], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-154002, 194276], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-154122, 194829], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150987, 194327], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151135, 194566], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148703, 196517], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148781, 196115], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-149103, 196345], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143945, 196093], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143532, 194462], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143833, 194502], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-144039, 194790], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-142950, 194849], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-142644, 195925], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143037, 196458], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-143140, 196258], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-135658, 193802], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137671, 194269], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133502, 195987], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132795, 195963], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132563, 195818], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132183, 195242], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131511, 192992], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177149, 170786], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177272, 171449], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176949, 171241], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176902, 170965], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-170565, 171351], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169377, 169337], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-171318, 170167], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-166924, 168377], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167429, 168411], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167400, 168623], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-178119, 175484], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-178991, 175288], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179605, 174460], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179231, 175179], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179227, 174955], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179600, 175118], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-172428, 173879], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-172286, 173647], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-168109, 175775], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-172001, 173641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-171721, 173397], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177262, 179534], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177486, 179801], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177658, 179578], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175625, 178355], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175777, 177818], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175738, 178126], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175777, 178013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-168059, 178205], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-168040, 178040], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-168173, 176495], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165163, 179444], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165070, 179553], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167570, 178104], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-166793, 177009], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167110, 176639], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-178910, 181274], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-178753, 181172], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-178657, 180868], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176344, 182938], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176374, 183329], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176351, 184199], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176182, 183644], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165716, 185291], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165399, 185513], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174347, 191162], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174559, 191657], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174783, 191127], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169016, 192342], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-168832, 192288], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169321, 192285], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-170910, 189685], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174508, 195463], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174236, 195495], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174267, 195325], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-170021, 192756], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169808, 192929], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169435, 192941], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169436, 192591], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169459, 192667], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169566, 192652], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-170153, 192678], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169266, 192737], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-164235, 196446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158975, 132333], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158771, 132056], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-154314, 131217], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-153978, 131452], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150338, 132444], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148453, 131495], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148530, 131606], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148604, 132112], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148342, 132386], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148302, 131520], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147926, 131095], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147756, 131278], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-147131, 133046], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133255, 135074], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133244, 134691], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159541, 138719], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151903, 139137], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-151843, 138938], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-152087, 139073], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131471, 138925], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131357, 138824], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155758, 142141], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-152238, 139322], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155195, 141870], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155412, 142196], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150044, 141655], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150363, 141020], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150333, 140565], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133120, 139370], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133438, 139545], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156244, 147105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148574, 146964], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-135955, 146461], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132604, 144183], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133954, 145226], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155947, 147630], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157619, 148565], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157552, 148791], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158266, 148356], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157905, 148573], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-154392, 149662], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-154661, 149981], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150679, 148806], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150575, 149076], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148757, 148591], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148608, 150208], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-136985, 148669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-136752, 148156], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-136901, 147877], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-135972, 149654], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-135335, 149483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132590, 149443], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132768, 149683], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132662, 149946], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-153033, 152731], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-153133, 152177], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-152828, 152595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150730, 154261], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-149725, 154137], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-144905, 155493], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138233, 155316], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138665, 154976], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132160, 153034], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132661, 154678], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-132476, 154878], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156609, 158283], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159623, 156519], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159238, 157018], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156098, 158610], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-150664, 156689], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-145639, 156014], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-146108, 157347], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-146256, 157739], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138956, 155842], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-138171, 157684], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-137130, 156521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133607, 159133], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156678, 163227], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156500, 162523], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156315, 162312], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-153330, 163049], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-153430, 162751], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155538, 162936], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155558, 162340], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-144654, 162950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-146095, 161061], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-144628, 160641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-144654, 162703], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-141895, 162875], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-140951, 162318], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-140811, 162728], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134467, 159797], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133636, 162699], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-133446, 162465], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177810, 135821], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177149, 137100], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177541, 137465], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-177454, 138145], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197721, 197503], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201482, 198799], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197636, 201951], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201320, 202428], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170077, 197748], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171008, 197119], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172245, 198188], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173105, 197621], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175176, 197867], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175684, 199253], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176485, 198975], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177637, 197947], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178940, 199365], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179684, 197752], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181690, 199755], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182928, 198390], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181250, 198450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187454, 197774], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184779, 199658], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185101, 197467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191644, 198501], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189189, 197940], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195013, 198167], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192147, 202081], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193782, 201905], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199835, 194400], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178811, 170824], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179297, 169438], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177108, 170816], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177383, 169277], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183495, 171075], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183284, 169513], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181335, 169249], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181128, 171326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171178, 173632], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170980, 175265], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168292, 175913], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172997, 175013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173044, 173635], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174665, 175130], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([176843, 174378], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177499, 172806], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179589, 172940], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180930, 172864], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183486, 173182], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167752, 177360], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170874, 177602], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175007, 177212], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173166, 178629], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180096, 178857], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180817, 177303], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185594, 179274], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166443, 181746], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165666, 182008], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168185, 182845], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169544, 181580], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179844, 181436], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181294, 183333], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182967, 183384], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184534, 180745], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167395, 187323], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165571, 184612], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167369, 184810], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169493, 187540], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171158, 185274], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173155, 187416], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175009, 187410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179101, 187485], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178736, 184820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([181040, 184874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185132, 187100], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191754, 187198], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189616, 185420], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190004, 186990], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164755, 191863], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171452, 191951], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178832, 191483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([178929, 191557], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177907, 189247], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177495, 191115], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184176, 190259], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([184219, 191616], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185345, 189589], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189828, 191909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194926, 190424], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166553, 195342], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167150, 193815], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168136, 194980], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169082, 192715], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171187, 195456], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175429, 193596], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([174905, 195520], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173226, 193240], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([172707, 195916], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179196, 195047], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([177157, 193832], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183029, 193172], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([180559, 194855], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([183830, 196070], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([182776, 196466], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186228, 193806], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186287, 193117], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185238, 195187], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191663, 194730], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189368, 193999], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195374, 194452], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139124, 164329], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140897, 165835], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147426, 164570], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137825, 169950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135410, 169293], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136194, 171230], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137842, 169159], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132252, 175294], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134417, 175447], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137523, 175764], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137054, 173850], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138921, 172467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139489, 173012], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140005, 175120], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142290, 174550], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144855, 175327], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134125, 179429], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132218, 179409], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131934, 177113], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138394, 179487], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135780, 179825], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136028, 177022], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139731, 179645], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147750, 176841], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151362, 177885], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149850, 177622], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134269, 180776], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132017, 181819], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138958, 181793], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136981, 181908], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140102, 183557], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142125, 182773], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142219, 181851], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140201, 181437], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145095, 182602], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146867, 183288], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148367, 183730], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153834, 180485], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155210, 181517], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155148, 182602], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131726, 186717], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136773, 187241], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135877, 185069], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142694, 187711], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140313, 185956], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146566, 187179], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146236, 185892], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144264, 185748], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143436, 187524], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148398, 186965], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151294, 185855], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150979, 186827], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148860, 185191], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155271, 187858], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155440, 184903], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153338, 184834], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134890, 192064], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138943, 190310], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138052, 190805], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137069, 191158], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143167, 190873], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141980, 189662], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140554, 191298], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([140448, 189345], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144669, 191218], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147143, 191432], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146755, 188945], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144381, 189364], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150316, 189195], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148341, 189369], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148599, 191358], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([150978, 192130], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153340, 188853], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154263, 191263], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152443, 191817], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155149, 189117], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132742, 195090], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134991, 192921], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136261, 193912], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136651, 194956], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138493, 196347], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141119, 195858], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142311, 195957], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142771, 193289], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147267, 193457], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146597, 195412], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144434, 195521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143611, 193786], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151036, 195893], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154289, 195236], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152342, 195639], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152577, 193897], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154403, 193008], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138248, 133081], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139600, 132600], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131960, 138952], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131743, 139533], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134117, 139928], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137486, 141072], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131904, 143674], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131599, 150236], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134913, 150437], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136179, 151026], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134733, 155377], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131691, 152933], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131553, 152302], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137055, 155253], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([139776, 155420], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144218, 155291], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131696, 158395], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137907, 157057], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144661, 158989], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([133248, 161154], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138796, 159936], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138913, 162396], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141251, 163130], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144626, 161039], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([43154, 198504], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([42747, 198306], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138, 197269], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([353, 196608], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1390, 199974], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2663, 197101], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3753, 198612], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2020, 203440], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3370, 203564], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1455, 202357], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2615, 205450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3028, 207837], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([107113, 165452], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([107541, 164149], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([111686, 165205], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([116035, 164237], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120157, 166511], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125347, 164539], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127956, 165206], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([114604, 168155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([118544, 170986], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127523, 170763], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([109470, 174690], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127573, 173728], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128469, 175431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130660, 175054], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([107955, 179972], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128231, 179671], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130256, 178764], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127745, 177012], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130102, 176512], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([129862, 183459], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130525, 181966], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127549, 181567], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([106094, 186866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([109927, 188333], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([106763, 187028], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127761, 185178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([109914, 189446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([107942, 189089], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128393, 189643], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130592, 193184], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128240, 194883], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128251, 194187], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130014, 195386], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67019, 164256], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67089, 164352], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([66968, 164371], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73392, 166076], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73399, 166188], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73264, 166146], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75730, 167065], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75673, 166937], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([74857, 165997], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([74964, 165991], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([74896, 165856], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81070, 166823], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80929, 166793], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80966, 166918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([78748, 166742], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([78879, 166655], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([78884, 166775], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85693, 164137], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85553, 164102], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85653, 163981], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84049, 166577], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84042, 166759], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84119, 166683], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([86780, 180635], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([89857, 181246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([90261, 183027], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([93055, 183672], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([92090, 183770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([91573, 183291], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([97793, 183891], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([98047, 184310], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([97130, 184935], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([33535, 164473], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34036, 164348], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([52226, 165074], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([52601, 165718], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47191, 169293], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([45817, 169562], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48176, 169419], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36542, 174405], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39896, 182459], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([40349, 181367], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([41309, 184159], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([41715, 183527], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([42506, 183514], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([41299, 181819], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([43539, 187941], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([43107, 187049], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39541, 189768], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39287, 190241], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([26796, 165640], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3092, 168886], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2642, 169027], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2429, 168794], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([4662, 167998], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([4362, 168233], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([27437, 171078], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([28137, 170836], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30415, 180090], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([32414, 181730], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31095, 181055], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3470, 187970], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3966, 192293], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2757, 189961], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3371, 188707], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([339, 191950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1176, 190557], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([549, 194244], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3121, 196292], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3704, 192836], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127890, 132781], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122177, 136702], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123969, 135956], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128049, 137923], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121553, 139702], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124338, 141432], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([100989, 146919], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([103828, 146476], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125148, 147110], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128384, 143552], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([98455, 151222], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([98431, 151025], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([103589, 150824], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([113975, 149011], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([116226, 150499], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120625, 151330], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124758, 149995], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([127369, 149541], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([130248, 150127], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([104953, 153688], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([108917, 155129], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([113030, 154963], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122142, 154912], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([118918, 153258], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123676, 154957], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([129301, 151813], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([100078, 158004], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([100618, 157103], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([103044, 158019], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([108722, 158018], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([107110, 159100], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([114318, 158544], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([111247, 156428], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([114564, 159142], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([117128, 156677], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121376, 159154], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([129274, 157710], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([105090, 160583], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([110113, 161680], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([106994, 163356], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([113497, 162258], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([111066, 161404], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([116134, 161203], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([117389, 160210], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122168, 162461], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([119328, 162865], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126077, 162891], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([128912, 161739], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68799, 133681], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68636, 133631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67327, 131795], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67217, 131751], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67253, 131889], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73295, 134629], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73291, 134757], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73170, 134672], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73191, 134541], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71129, 134248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71208, 134224], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71112, 134163], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75222, 132687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75219, 132811], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75125, 132728], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75170, 132603], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80571, 132932], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80659, 132923], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80534, 132787], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80732, 132937], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82526, 132121], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82704, 132113], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82548, 131995], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68410, 138656], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68553, 138631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68413, 138533], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([66387, 137918], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([66256, 138045], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([66362, 138044], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([66315, 137903], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68886, 135793], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([70616, 139137], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([70499, 139173], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([70600, 139234], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75310, 137264], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75418, 137306], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75330, 138401], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75365, 138465], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75271, 138501], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71168, 140109], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71115, 139969], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71034, 140097], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71900, 142321], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71784, 142328], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([74206, 139828], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([74278, 139687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([74305, 139881], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([77186, 142130], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([77129, 142312], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([77085, 142200], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80519, 141455], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80685, 141552], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80534, 141613], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80444, 140153], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80342, 140087], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80332, 140185], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84534, 140746], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84421, 140743], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84512, 140598], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82938, 140058], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83030, 140047], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([89536, 142695], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([91771, 142567], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([94936, 143203], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([72832, 145188], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([72915, 145382], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([72758, 145288], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80901, 146090], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80877, 146183], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80742, 146102], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81349, 143831], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81504, 143877], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80279, 143946], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85400, 145342], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85420, 145133], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85473, 145267], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85321, 145260], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83997, 144392], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84058, 144248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84151, 144388], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84198, 144217], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84287, 144275], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([88797, 144465], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([89899, 145234], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([94523, 145804], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([98023, 146534], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68589, 149067], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68709, 148976], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68729, 149103], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71571, 149687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71705, 149675], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71645, 149814], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81594, 148573], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81465, 148566], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81498, 148708], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84871, 148995], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84993, 149006], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85123, 149028], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85097, 149111], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([88350, 147876], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([91313, 149127], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([96152, 148195], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67520, 153138], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67529, 153046], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67635, 153122], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67681, 153006], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73602, 153450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([73480, 153456], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75003, 154105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75032, 154236], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([74896, 154214], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75716, 151861], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75705, 151988], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([75604, 151884], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80822, 152619], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80977, 152591], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([80876, 152740], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81460, 154638], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81538, 154754], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([81395, 154790], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83835, 154870], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83711, 154825], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83850, 154709], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84468, 155025], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84549, 154932], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([84581, 155060], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([93652, 152255], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([95969, 153921], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71487, 156439], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71458, 156605], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71344, 156496], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([71563, 156571], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82253, 157397], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82181, 157375], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82191, 157518], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([82225, 159246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85550, 158650], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85560, 158768], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85439, 158674], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([91714, 156460], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([95183, 158572], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68138, 162058], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68097, 161909], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68267, 161962], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([69092, 160829], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([68823, 160661], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85251, 160585], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85361, 160601], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([85363, 160500], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39779, 131935], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39626, 132150], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38552, 134409], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38349, 134402], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38428, 134289], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37860, 131250], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37311, 132448], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37127, 132303], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38427, 132874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38626, 132973], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38437, 132050], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37968, 132081], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50511, 134335], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([49381, 131519], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([51015, 131631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50825, 131507], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50658, 131831], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56220, 133205], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54567, 133299], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54685, 133344], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54265, 132627], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54280, 132446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54453, 132475], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38596, 138739], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38653, 138567], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38456, 139114], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38558, 139035], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39444, 138530], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39517, 138659], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48563, 135536], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48052, 135794], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([45438, 137134], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([46027, 137011], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([46000, 136782], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50526, 136216], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([49933, 136446], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50345, 138656], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50880, 137545], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50361, 137785], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62438, 137010], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62528, 136970], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([64139, 135968], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([64296, 135950], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([64397, 136215], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63932, 135643], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63639, 135714], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63340, 136130], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63149, 136083], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36104, 141588], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36581, 139837], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36686, 139569], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([33077, 139684], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([40295, 141410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([40219, 141248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39166, 140965], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38915, 141141], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38801, 141212], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38823, 142642], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38741, 142703], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36942, 140775], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37046, 140734], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37588, 140109], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37728, 140285], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39672, 139505], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39734, 139654], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([40041, 139712], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([40193, 139762], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([40066, 139557], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48116, 141574], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47123, 143009], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47782, 142620], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47885, 139505], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48855, 139531], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48650, 140650], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47426, 140989], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47401, 141155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48910, 143321], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48888, 139352], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([49231, 139486], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([51720, 143169], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54751, 141501], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([55249, 140319], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56354, 140684], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56149, 139899], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([55964, 140023], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56055, 140149], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34759, 144618], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([35026, 144539], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([35247, 144772], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34728, 145631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34816, 145550], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34630, 146472], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34399, 146520], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36363, 147296], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47344, 145820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47250, 145887], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48982, 146167], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([48973, 146424], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47696, 143483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([46560, 143847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50077, 146354], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50305, 146311], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([49849, 145109], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([49946, 145311], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([51101, 147309], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([51368, 147303], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([51141, 147117], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([49493, 143403], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([52361, 144134], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([52136, 143744], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50492, 144601], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62036, 145824], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62166, 145842], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62103, 145738], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62398, 146693], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62979, 144864], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62914, 144318], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38029, 148470], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39171, 150517], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([39310, 149672], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([44037, 149451], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([44333, 149344], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([44356, 148266], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([44239, 148442], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([45181, 147872], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([45183, 147713], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([46179, 148804], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([55146, 148545], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([55248, 148342], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54889, 148286], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([64081, 150296], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([64359, 150631], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36001, 154688], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36311, 154385], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36229, 154503], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([35442, 153750], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([42762, 152669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([43200, 152260], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([43024, 152155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47269, 153633], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47242, 153497], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47477, 152949], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([52376, 153783], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([52677, 153324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([52884, 153274], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([53562, 154770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([53638, 154521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54690, 154178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54717, 154294], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54952, 153947], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([54659, 154070], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([55956, 152250], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63051, 154920], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63405, 155484], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63458, 154791], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63535, 154387], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63622, 154547], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([35976, 159658], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([55439, 159126], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([55263, 159180], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56379, 158905], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([59862, 158933], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([59512, 158718], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([59475, 158619], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([58945, 157751], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63833, 159022], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63753, 158874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34941, 162817], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36291, 160163], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([35527, 161022], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([34974, 160960], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([33223, 160727], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([33365, 160524], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56363, 161080], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56429, 160938], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56536, 161669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56309, 161437], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([56522, 160616], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62644, 162494], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62130, 161547], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([62256, 161669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63136, 160541], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([63192, 160359], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3274, 134555], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([358, 134658], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1776, 132328], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2043, 134249], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([7557, 134695], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([7445, 134590], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([8049, 133289], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([7471, 132890], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([6694, 131964], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([9331, 131649], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([8639, 131669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10936, 132919], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10297, 132510], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10184, 132382], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([9874, 132656], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1988, 135754], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1622, 135681], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3317, 140578], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2860, 140793], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1519, 140602], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([5641, 142189], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([6106, 142131], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([5705, 142035], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([6874, 141383], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10832, 142648], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11189, 142467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11664, 142540], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10577, 143068], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([12103, 141827], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31880, 143079], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31549, 143047], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31378, 142860], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31526, 142013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31430, 141673], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([29374, 141641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([29853, 141324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([29934, 141834], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30122, 142038], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30079, 140808], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30748, 141307], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30691, 141184], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2784, 147012], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2773, 146447], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1714, 144830], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1270, 144501], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([7245, 145492], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([5754, 145192], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([5522, 146860], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([6276, 147059], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11675, 144521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11975, 145629], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10859, 145306], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11241, 146244], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([14992, 144281], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([14639, 143583], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([14609, 143703], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([16241, 145812], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([16006, 146096], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([12373, 144825], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([19222, 145621], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([19129, 145534], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([17470, 144590], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([17609, 144709], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30595, 146669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30351, 145917], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30818, 145798], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31200, 144986], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30723, 144571], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([864, 148395], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2477, 149440], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2938, 149713], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10560, 149886], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10083, 149655], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([14631, 147869], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([14872, 147461], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2135, 154008], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1834, 153914], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3600, 153478], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([4032, 153710], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([4107, 154150], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([9625, 153370], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([18797, 154816], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([21447, 154576], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([21369, 154735], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11506, 156280], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11525, 156121], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10406, 156503], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10605, 156289], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10428, 157208], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([13101, 156552], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([13201, 156447], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([19090, 155946], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([18845, 156546], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([19213, 156793], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([19204, 158466], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([22975, 158636], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([22592, 158532], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([21061, 158232], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([21385, 158410], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([20950, 157411], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([20925, 157246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31403, 157923], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31550, 158288], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([30528, 159221], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([11705, 160502], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([12950, 160280], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([13158, 159947], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([14259, 161029], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([14984, 161769], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([20262, 160116], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([20363, 159940], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([19873, 160201], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([21806, 161198], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([20614, 161365], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([26693, 163595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31592, 160156], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([31616, 159799], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([32629, 159807], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15475, 129574], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-15598, 129393], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9626, 130874], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9283, 130726], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-8484, 130757], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-9717, 128606], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-7863, 130467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-4733, 129838], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-6493, 128872], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2248, 131061], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-206, 130866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-1350, 128517], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-2667, 127161], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98251, 104632], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97995, 104588], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97209, 108820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97398, 109091], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97606, 108449], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91305, 109852], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-91190, 109460], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-89610, 109507], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95685, 111945], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96054, 112256], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96824, 112497], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-92937, 111304], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-92741, 111013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-92385, 111358], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87055, 113917], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86301, 113820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-86688, 113853], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83993, 113080], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83645, 112792], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84498, 114339], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84675, 114323], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80922, 113845], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80529, 113530], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80780, 113296], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96636, 117813], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96450, 118047], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96680, 118060], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93291, 116769], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93571, 117082], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-93159, 117283], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87523, 119522], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88805, 119659], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88834, 121185], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87691, 120687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-87401, 120157], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84017, 120056], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83613, 120206], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84113, 119882], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83504, 121521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76402, 120910], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76393, 121014], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76309, 120922], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76256, 121034], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-72965, 121757], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73064, 121745], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73044, 121819], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97218, 125266], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97819, 124887], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97109, 124145], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97521, 124073], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-80035, 126491], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79474, 126847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74451, 123972], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74382, 123930], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-74364, 123995], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73359, 123233], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73459, 123294], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-73392, 123349], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67452, 125543], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67446, 125611], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-67381, 125533], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95419, 128091], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-95474, 127998], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-96924, 130728], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-97000, 130779], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-88035, 127408], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84575, 130520], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-84657, 130546], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-83353, 127167], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79285, 127548], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-79390, 127516], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-78623, 127016], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76698, 127560], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-76800, 127461], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70816, 129155], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70869, 129240], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70594, 129932], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70800, 130112], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-70681, 130317], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124019, 105457], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124237, 105639], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-118366, 104304], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111666, 104492], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-106847, 104829], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109928, 103056], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109129, 105617], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109147, 105813], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105209, 104593], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104185, 105045], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104363, 105276], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-100450, 105548], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101901, 105134], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101828, 105373], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-101817, 105061], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126500, 109145], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124226, 108041], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119735, 108231], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120303, 108271], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120027, 107037], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116125, 109401], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113903, 108724], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-110955, 108027], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-110955, 107860], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108260, 106853], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108045, 110488], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109232, 106961], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-110010, 108642], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104981, 107954], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-102914, 107746], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105083, 109421], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-98760, 106699], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99524, 108743], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99919, 109431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99663, 109669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123135, 111214], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-124238, 112851], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120186, 113671], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-119207, 111082], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120597, 112839], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114980, 112836], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-117730, 111744], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114884, 111313], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-111191, 113420], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99943, 111174], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-126420, 115747], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-123250, 118519], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-122402, 116486], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-115711, 114803], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112871, 115576], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-107126, 117260], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103188, 116989], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105669, 114699], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99992, 116556], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-120064, 121815], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-116339, 122352], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-112972, 119388], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-110354, 120962], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108078, 121085], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-105387, 122760], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-103919, 120604], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-99502, 119086], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-114441, 126664], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-104892, 124268], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-100130, 125819], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128792, 127434], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128833, 127255], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-128482, 127253], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-113698, 129379], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108262, 130916], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108625, 130894], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109448, 130730], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109031, 130244], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109142, 130489], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108532, 130238], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-108568, 130151], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-109162, 130203], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159229, 102139], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159237, 101318], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155753, 101459], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-155352, 103432], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-152568, 105703], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-162043, 108994], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-163163, 107656], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-163390, 107864], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-160932, 116927], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-160827, 116760], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-160407, 117084], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-163777, 115965], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-163607, 116151], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157582, 115498], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-163353, 120611], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159880, 121750], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-157840, 119647], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159308, 119397], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159455, 121436], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-154966, 121997], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-159618, 125687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158058, 126835], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-154531, 124418], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156891, 128055], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-156855, 128154], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158724, 129838], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-158745, 130262], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-148358, 130980], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134220, 127727], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-131165, 130741], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134092, 127968], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-134226, 128188], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174905, 109169], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-174246, 108265], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-172304, 107196], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169124, 108613], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-168952, 109431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-166960, 107973], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-167109, 107444], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-180113, 113479], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179307, 113081], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-173014, 113788], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175095, 114248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175418, 113659], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-170127, 111754], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-170218, 111282], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179508, 115867], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179632, 117570], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179490, 118005], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-178738, 117684], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169986, 115993], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-169890, 116654], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-164719, 117466], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-164816, 118147], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179520, 119784], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179653, 119538], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-179477, 119465], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176022, 119030], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-176034, 119859], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-175930, 119787], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-165880, 119710], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-166001, 119515], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-166105, 118860], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-181842, 98031], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-182628, 94641], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([-180669, 95563], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167025, 101035], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166961, 101108], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166993, 100982], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169112, 98696], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([168992, 110607], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152263, 100974], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162547, 99731], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154413, 104803], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154166, 105244], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154449, 105105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155221, 112776], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155185, 112948], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156877, 111666], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156377, 112401], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154119, 114960], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([134892, 129770], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([135772, 129751], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([141868, 129582], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162581, 92712], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162547, 92653], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131759, 95688], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([131263, 95423], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199244, 34236], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202337, 33468], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200361, 38744], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200172, 39880], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200068, 39991], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198449, 38848], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201839, 37620], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201599, 37078], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199737, 42871], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200075, 43769], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199988, 43847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197048, 43087], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198513, 42263], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198440, 42471], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201984, 43240], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202077, 43405], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202059, 41886], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201856, 41613], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199902, 45546], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164319, 36816], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166319, 35929], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166195, 35866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165425, 36209], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167837, 32902], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164365, 33499], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164381, 34229], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166117, 34335], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190517, 34713], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190698, 34783], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196395, 33750], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196120, 33467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195947, 36814], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165872, 38728], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165983, 38646], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166423, 37958], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164771, 37812], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([179243, 39113], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190797, 39865], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190722, 39915], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190901, 40450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191337, 40473], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195254, 38697], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195422, 38622], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194969, 39643], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188001, 42324], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191130, 43290], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189794, 41170], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([189609, 43644], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194019, 44277], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194445, 42537], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194640, 42609], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194725, 43007], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193226, 42384], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193205, 42223], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196040, 43088], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162392, 33575], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161393, 35655], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197478, 1938], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197554, 2554], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([198011, 1264], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([199460, 3099], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203288, 1030], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([201034, 246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202222, 1196], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([205008, 2178], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([200094, 5018], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([197586, 6842], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202176, 5494], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([202163, 5333], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([203835, 13663], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188468, 1467], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191091, 2195], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190844, 2870], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192592, 40], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194855, 2461], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196084, 38], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193286, 1183], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193197, 1274], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194739, 2758], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164231, 7905], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167243, 7048], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166902, 5559], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166466, 5555], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164411, 6396], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185465, 5648], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185657, 5652], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192219, 6676], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195756, 7486], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194339, 7191], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194257, 6829], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193282, 6894], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([193162, 7123], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167226, 10707], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167169, 10801], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164092, 8772], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164183, 8431], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164236, 8541], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165166, 9680], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164922, 11096], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165030, 11006], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169551, 8634], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([175059, 9714], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187710, 11074], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192262, 10105], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191688, 11169], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191485, 11847], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195237, 8705], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165894, 14945], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166262, 15867], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166245, 13471], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164922, 12510], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164993, 12469], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166175, 15866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167760, 12953], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169907, 16128], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173091, 12857], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([186030, 14701], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190795, 14979], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([188806, 14147], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191995, 15942], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196458, 13356], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196100, 13173], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195439, 13444], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167662, 18211], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164909, 18458], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164925, 18714], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164795, 18589], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171191, 18536], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169947, 17525], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187941, 19754], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185647, 18717], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([185711, 18903], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([187594, 19112], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([191511, 16836], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([196007, 18595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195015, 17192], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194314, 16763], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194190, 17763], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([195701, 18386], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([194385, 18973], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166356, 24407], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166431, 22895], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166292, 23012], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167107, 21254], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166904, 20965], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192360, 22811], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([190550, 20694], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164104, 28554], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167007, 28478], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([166968, 28555], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165269, 27385], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([164623, 27054], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165311, 26040], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165760, 26265], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165919, 24897], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165722, 24985], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165798, 24916], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170567, 27465], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171455, 26270], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([170833, 25656], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([171291, 26201], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([169628, 26209], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173373, 25227], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173202, 25185], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([173344, 24977], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192251, 25156], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([192565, 24872], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([167868, 31650], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165635, 32313], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165728, 32016], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([165682, 31406], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144932, 767], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145714, 1089], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145674, 1135], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([145728, 1170], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143861, 2557], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([143940, 2626], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147814, 692], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147926, 714], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155021, 3573], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153587, 3484], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([147337, 7403], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155021, 7600], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153779, 5302], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154736, 5531], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([152544, 5844], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157004, 5000], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158586, 6183], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157585, 6692], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156490, 7798], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156775, 7532], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163071, 5063], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160885, 5503], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161319, 5689], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161953, 6614], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160312, 6616], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162154, 7985], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160834, 7954], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160761, 7895], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161841, 6528], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162905, 5066], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132213, 11695], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132357, 11809], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146239, 10803], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155483, 12258], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([151838, 12035], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154488, 11513], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154181, 11244], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([154581, 10781], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153780, 10594], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153874, 10017], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([153475, 8879], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157031, 11845], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158762, 9936], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157112, 9676], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157192, 9731], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156679, 8663], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157213, 8521], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([158832, 11198], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160966, 8941], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162604, 8767], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162925, 9018], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163093, 8954], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160174, 10494], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160448, 9852], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160408, 9919], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161277, 11104], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161843, 11422], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160401, 11872], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161416, 10471], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160617, 11915], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([132127, 12483], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([138540, 16244], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([137370, 12680], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([136898, 13248], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142179, 15866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144533, 16326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([146027, 14787], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144643, 13754], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([149105, 16180], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([148620, 15442], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([155518, 12354], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([157320, 13261], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159206, 13246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([156609, 12623], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161134, 13000], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159960, 13862], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159867, 14518], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([159962, 14581], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161878, 15092], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162373, 14507], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162076, 15181], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([142886, 19101], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([144590, 18504], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([163689, 18912], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160803, 20305], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([160695, 20097], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162231, 18659], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161129, 20006], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162405, 21212], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162600, 21427], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161735, 23056], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161736, 22913], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([161747, 23195], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162355, 24362], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162224, 24434], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162944, 28377], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162761, 30433], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162288, 29973], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162571, 31436], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([162027, 31667], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([117770, 102010], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([117108, 101976], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([117391, 102013], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([117852, 102605], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([117891, 103378], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124880, 107593], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125117, 108234], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123435, 106664], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123709, 106689], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124120, 107087], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125008, 107660], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([113065, 117044], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([114024, 115928], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([114071, 116197], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([112987, 114942], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67108, 130068], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67086, 130243], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([66905, 127391], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([66909, 127246], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67000, 127375], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([67006, 127266], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([72124, 129679], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([72227, 129633], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([72225, 129743], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([79172, 130785], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([79235, 130687], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([79115, 130673], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83077, 130756], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83003, 130759], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([83060, 130866], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50874, 126943], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([37036, 130516], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([36864, 130266], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([38245, 130828], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([43529, 129965], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([43816, 130066], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47527, 128727], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47463, 128845], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([47333, 128849], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([49784, 130946], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([50884, 128299], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([51022, 127123], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([58572, 127345], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([2221, 130731], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([3419, 129222], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([1354, 128581], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([451, 127827], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([5203, 128682], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([4932, 128824], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10387, 128372], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([10476, 128669], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([104945, 83590], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([106030, 84176], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([113767, 83358], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([113624, 83447], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([110115, 86726], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([110365, 86831], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([110849, 88774], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([116436, 93476], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([116226, 93423], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([100280, 2034], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([119101, 2070], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([119380, 2560], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120254, 1684], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120624, 1607], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120715, 1878], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121811, 2347], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121911, 2336], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121371, 2379], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122513, 2326], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122833, 2253], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123344, 3182], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124437, 3385], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124228, 3122], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124412, 2819], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124529, 2391], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125537, 2514], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125788, 1819], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125790, 1737], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124667, 1696], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124753, 1093], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126457, 450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126609, 413], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120275, 7008], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121329, 7078], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121657, 6985], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122772, 6450], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122734, 5693], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122836, 5875], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123388, 5034], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123440, 4773], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123535, 4439], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([122981, 6942], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([118516, 10849], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([118711, 10820], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([118602, 11595], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121692, 11536], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121303, 11265], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120590, 10951], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120871, 11298], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121144, 11484], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([119565, 11776], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125572, 11773], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124603, 11000], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124272, 10224], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124600, 9430], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125727, 10226], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([120921, 12464], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121624, 12583], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121255, 13243], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([121737, 13800], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125139, 16097], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124545, 16368], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123391, 14041], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124385, 14871], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124794, 13934], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([124348, 17680], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([123548, 16531], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126159, 19084], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([126784, 17696], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([125262, 17173], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([90110, 6231], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([90011, 6429], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([90120, 6125], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-	L.circleMarker([90171, 6003], {color: "#425E17"}).addTo(paporotnikicons).bindPopup("Папоротник-мутант").bindTooltip("Папоротник-мутант", {direction: 'top'});
-//2 в Убежище 94
+		var paporotnik = [
+			[-151722, -72673],
+			[-151730, -72443],
+			[-151365, -72716],
+			[204028, -29250],
+			[204452, -25421],
+			[203432, -26395],
+			[202237, -25031],
+			[198356, -24286],
+			[200522, -24267],
+			[201733, -22969],
+			[202638, -23957],
+			[202731, -21108],
+			[204782, -22005],
+			[198688, -17649],
+			[198345, -17544],
+			[203875, -20432],
+			[197251, -14703],
+			[198873, -13305],
+			[197346, -13533],
+			[200801, -13188],
+			[202124, -14910],
+			[201755, -12317],
+			[196632, -11336],
+			[198257, -8918],
+			[200609, -10611],
+			[202030, -9565],
+			[203689, -12208],
+			[210734, -9920],
+			[199414, -4618],
+			[198190, -4214],
+			[196687, -7483],
+			[196620, -3953],
+			[196877, -2955],
+			[198171, -834],
+			[198082, -1032],
+			[165418, -30229],
+			[165348, -30363],
+			[164408, -30914],
+			[174363, -29325],
+			[176202, -31606],
+			[187327, -29134],
+			[185265, -29190],
+			[185070, -29841],
+			[185358, -29879],
+			[188812, -30512],
+			[165873, -27347],
+			[166252, -25431],
+			[186220, -27953],
+			[187032, -27164],
+			[186738, -26584],
+			[188645, -25573],
+			[189396, -25177],
+			[193578, -25259],
+			[168324, -21511],
+			[170797, -23095],
+			[169056, -22621],
+			[189835, -21921],
+			[191617, -21694],
+			[191674, -21407],
+			[191144, -21018],
+			[194260, -23361],
+			[192766, -22632],
+			[166396, -17229],
+			[186315, -18575],
+			[185326, -16963],
+			[190519, -18155],
+			[191437, -16736],
+			[193091, -19453],
+			[195766, -18544],
+			[195914, -18137],
+			[193096, -18084],
+			[164392, -15368],
+			[164356, -14518],
+			[184683, -15545],
+			[186250, -14967],
+			[186169, -14801],
+			[187042, -15059],
+			[187178, -15051],
+			[191754, -14782],
+			[192485, -14291],
+			[170784, -11474],
+			[180939, -10666],
+			[181882, -11555],
+			[182318, -9621],
+			[182303, -9190],
+			[187735, -9826],
+			[189052, -11995],
+			[191620, -11701],
+			[191610, -9627],
+			[191864, -11630],
+			[192642, -8509],
+			[195901, -10438],
+			[196127, -11596],
+			[165548, -7069],
+			[165800, -6184],
+			[168405, -5984],
+			[170402, -5363],
+			[170555, -5152],
+			[169079, -4834],
+			[169800, -6228],
+			[173300, -6547],
+			[183808, -4327],
+			[183808, -4166],
+			[182420, -7426],
+			[192475, -7862],
+			[190544, -7511],
+			[191684, -7749],
+			[194932, -6612],
+			[195284, -6866],
+			[166608, -3810],
+			[165645, -2091],
+			[165538, -2019],
+			[165993, -2250],
+			[164140, -3955],
+			[163958, -4058],
+			[169508, -3950],
+			[179177, -2582],
+			[179636, -2603],
+			[183181, -1326],
+			[183804, -3398],
+			[191825, -1335],
+			[193165, -722],
+			[193280, -3954],
+			[195390, -1311],
+			[195342, -1464],
+			[132823, -32719],
+			[133263, -32720],
+			[140768, -30431],
+			[140706, -30596],
+			[141274, -29841],
+			[141689, -29242],
+			[142150, -31802],
+			[142399, -31571],
+			[142539, -29158],
+			[144301, -28744],
+			[145879, -29012],
+			[145950, -29178],
+			[144922, -31791],
+			[145196, -31541],
+			[146753, -31974],
+			[148734, -29669],
+			[148190, -32468],
+			[148369, -32523],
+			[148465, -32445],
+			[160809, -30909],
+			[160777, -30770],
+			[135540, -26365],
+			[135624, -26452],
+			[136368, -25216],
+			[139076, -28596],
+			[139214, -28522],
+			[139125, -26220],
+			[138324, -27653],
+			[140157, -28015],
+			[140382, -27273],
+			[141114, -26102],
+			[141301, -26089],
+			[142213, -26231],
+			[142566, -28349],
+			[142118, -27301],
+			[144228, -28483],
+			[147281, -27812],
+			[147389, -27943],
+			[145282, -26156],
+			[145640, -27108],
+			[160174, -26403],
+			[160339, -25537],
+			[161311, -26768],
+			[162017, -25500],
+			[160870, -27040],
+			[133918, -22129],
+			[134121, -22240],
+			[133761, -21289],
+			[138581, -23001],
+			[138653, -23986],
+			[139230, -21148],
+			[138753, -20912],
+			[136978, -21331],
+			[137292, -21545],
+			[143273, -20781],
+			[141832, -20801],
+			[141949, -20925],
+			[139559, -20938],
+			[140459, -21926],
+			[141721, -23282],
+			[141955, -23529],
+			[139967, -24093],
+			[140213, -23998],
+			[143533, -21084],
+			[151464, -22004],
+			[150946, -21759],
+			[151188, -21634],
+			[151330, -21681],
+			[151510, -20576],
+			[152780, -21542],
+			[152540, -22122],
+			[152986, -22011],
+			[152599, -22106],
+			[163475, -24217],
+			[162067, -22156],
+			[161578, -22628],
+			[162212, -24541],
+			[162124, -24513],
+			[161565, -23605],
+			[162045, -21695],
+			[162815, -22326],
+			[135276, -19551],
+			[136098, -16974],
+			[136171, -16952],
+			[136089, -18958],
+			[136028, -19145],
+			[138596, -19711],
+			[138729, -19792],
+			[138452, -19481],
+			[136795, -16738],
+			[135675, -18175],
+			[139797, -17349],
+			[139844, -17517],
+			[140127, -18566],
+			[141346, -20038],
+			[141291, -20170],
+			[141202, -20034],
+			[142307, -19603],
+			[142203, -18373],
+			[142266, -18299],
+			[142207, -18549],
+			[142514, -19910],
+			[142974, -20441],
+			[146290, -18415],
+			[146523, -18761],
+			[146950, -18686],
+			[146778, -18464],
+			[146495, -18663],
+			[151226, -19930],
+			[151383, -19910],
+			[151540, -19688],
+			[151310, -19633],
+			[159722, -20301],
+			[158319, -17452],
+			[158182, -17538],
+			[158174, -17421],
+			[157593, -19705],
+			[156436, -18687],
+			[156510, -18895],
+			[156436, -18774],
+			[161362, -18108],
+			[162477, -20178],
+			[163375, -18223],
+			[163219, -18202],
+			[163212, -18340],
+			[135707, -14340],
+			[135562, -14660],
+			[135797, -13935],
+			[136036, -13652],
+			[136178, -14775],
+			[136387, -15515],
+			[139630, -12650],
+			[139837, -12994],
+			[141359, -14937],
+			[141707, -15254],
+			[141639, -15499],
+			[141555, -15783],
+			[141654, -15866],
+			[139715, -14659],
+			[139465, -14952],
+			[139359, -14655],
+			[144247, -16186],
+			[151295, -14285],
+			[151343, -14431],
+			[153702, -15424],
+			[152874, -14584],
+			[153807, -14710],
+			[153447, -14208],
+			[161411, -13273],
+			[160609, -14576],
+			[153765, -9385],
+			[156137, -8977],
+			[156528, -10615],
+			[157815, -10365],
+			[133860, -5207],
+			[133916, -5491],
+			[135012, -7386],
+			[134710, -5964],
+			[134842, -6309],
+			[135651, -4243],
+			[135571, -4587],
+			[135858, -7287],
+			[135366, -7016],
+			[150511, -5025],
+			[150312, -4901],
+			[152965, -4440],
+			[152851, -4380],
+			[157730, -6063],
+			[159448, -7370],
+			[159544, -7476],
+			[157975, -6582],
+			[158307, -7236],
+			[163807, -7222],
+			[162353, -6497],
+			[163052, -7033],
+			[132853, -2081],
+			[133453, -2447],
+			[134218, -3079],
+			[134917, -2391],
+			[135094, -3652],
+			[135252, -3902],
+			[160565, -1821],
+			[200558, -52003],
+			[198020, -50899],
+			[198053, -49333],
+			[204142, -52166],
+			[203404, -52694],
+			[202425, -52870],
+			[201781, -52034],
+			[200884, -51596],
+			[197720, -48687],
+			[200454, -47558],
+			[200274, -47824],
+			[199358, -47414],
+			[199468, -46188],
+			[198476, -45540],
+			[199415, -42231],
+			[197886, -41367],
+			[198856, -41796],
+			[197375, -40130],
+			[198096, -37360],
+			[199264, -38595],
+			[203271, -37352],
+			[201384, -37878],
+			[201501, -40213],
+			[203217, -38818],
+			[205033, -39818],
+			[208380, -37404],
+			[206966, -39202],
+			[197171, -36761],
+			[201744, -34490],
+			[201137, -34197],
+			[201334, -35582],
+			[202340, -33980],
+			[165850, -61769],
+			[171908, -63707],
+			[170996, -62690],
+			[169268, -64020],
+			[173021, -65060],
+			[173228, -61659],
+			[173304, -61850],
+			[174672, -61471],
+			[174625, -61671],
+			[174958, -62714],
+			[174602, -65127],
+			[178932, -61830],
+			[177160, -63396],
+			[179069, -63727],
+			[178793, -61623],
+			[176794, -61841],
+			[178787, -61839],
+			[183026, -62713],
+			[181043, -63216],
+			[180539, -64141],
+			[183021, -61524],
+			[183738, -61761],
+			[181329, -65220],
+			[183675, -61678],
+			[183793, -61810],
+			[185940, -63202],
+			[186129, -64728],
+			[186674, -65107],
+			[186857, -64028],
+			[189770, -62252],
+			[191491, -63532],
+			[164979, -57528],
+			[166182, -61213],
+			[168748, -59610],
+			[168015, -61307],
+			[169143, -58964],
+			[169182, -59165],
+			[170700, -59569],
+			[171885, -61096],
+			[174752, -60090],
+			[172804, -58361],
+			[173572, -59191],
+			[174128, -59342],
+			[175756, -58053],
+			[175865, -61227],
+			[179361, -58086],
+			[179543, -58499],
+			[179499, -58699],
+			[176234, -61429],
+			[176550, -60972],
+			[177386, -60361],
+			[180834, -59736],
+			[181701, -61251],
+			[182290, -61334],
+			[187939, -60474],
+			[187275, -58483],
+			[186164, -57702],
+			[186157, -57600],
+			[188892, -59084],
+			[190355, -58236],
+			[190888, -59812],
+			[166353, -54767],
+			[165428, -55983],
+			[169017, -57013],
+			[170190, -55890],
+			[170097, -56072],
+			[171819, -56634],
+			[171980, -55280],
+			[173481, -55641],
+			[175749, -55377],
+			[175460, -55699],
+			[173831, -54048],
+			[174612, -55371],
+			[174685, -55263],
+			[178782, -57031],
+			[179149, -55052],
+			[178570, -55672],
+			[180104, -55469],
+			[178187, -56039],
+			[176533, -54329],
+			[181233, -56407],
+			[182160, -56058],
+			[181040, -57078],
+			[183437, -56077],
+			[182751, -57343],
+			[180751, -55406],
+			[187128, -56318],
+			[187460, -56741],
+			[186491, -54780],
+			[187766, -53882],
+			[185388, -56062],
+			[185439, -57341],
+			[188959, -53913],
+			[192208, -53352],
+			[192136, -56432],
+			[190589, -55627],
+			[166094, -51973],
+			[164663, -51085],
+			[165686, -50475],
+			[171870, -49549],
+			[168896, -51469],
+			[168919, -52173],
+			[169028, -51605],
+			[170842, -50933],
+			[172318, -49380],
+			[173490, -52315],
+			[173526, -49698],
+			[175557, -49855],
+			[175990, -52852],
+			[175126, -53068],
+			[176190, -50892],
+			[178059, -53172],
+			[179944, -51368],
+			[176598, -49222],
+			[177239, -51405],
+			[177102, -50792],
+			[180316, -50876],
+			[183217, -52211],
+			[183015, -51776],
+			[181755, -52885],
+			[182348, -52257],
+			[187237, -50994],
+			[187942, -50089],
+			[187339, -52693],
+			[187821, -51167],
+			[188093, -52182],
+			[188386, -51180],
+			[189300, -52307],
+			[192278, -49699],
+			[191551, -51724],
+			[190165, -49792],
+			[196459, -49640],
+			[195868, -52759],
+			[192860, -51614],
+			[194537, -50003],
+			[195014, -50179],
+			[165906, -48001],
+			[165658, -48686],
+			[166878, -46490],
+			[170141, -46879],
+			[168126, -46476],
+			[168212, -46662],
+			[169205, -45377],
+			[171675, -48076],
+			[171982, -47495],
+			[171472, -45306],
+			[175169, -46710],
+			[173733, -45841],
+			[174643, -46152],
+			[175228, -46022],
+			[176161, -47790],
+			[180160, -47110],
+			[176631, -46310],
+			[178170, -47890],
+			[178462, -48340],
+			[180040, -45490],
+			[181102, -46880],
+			[182453, -45281],
+			[183449, -45286],
+			[184219, -48477],
+			[184621, -48673],
+			[184926, -48304],
+			[184390, -47930],
+			[186506, -45276],
+			[187054, -48770],
+			[190919, -45372],
+			[192332, -48824],
+			[190055, -48664],
+			[191680, -47178],
+			[194051, -47908],
+			[192733, -48805],
+			[165206, -43016],
+			[167394, -44585],
+			[169078, -44750],
+			[168720, -43154],
+			[168120, -43182],
+			[170192, -43520],
+			[171625, -43134],
+			[171859, -42170],
+			[171453, -42425],
+			[176064, -42388],
+			[175832, -42839],
+			[173728, -44717],
+			[176219, -44671],
+			[177062, -44441],
+			[179620, -43355],
+			[180825, -40978],
+			[180787, -43521],
+			[182363, -41047],
+			[183098, -43641],
+			[183078, -42907],
+			[182892, -42820],
+			[184676, -44185],
+			[187251, -42021],
+			[188216, -43351],
+			[188187, -41887],
+			[187976, -42234],
+			[187755, -41807],
+			[189328, -41984],
+			[191751, -41434],
+			[191474, -42987],
+			[190578, -44155],
+			[194529, -41545],
+			[195550, -42385],
+			[194763, -42490],
+			[169359, -39778],
+			[170386, -39977],
+			[171934, -37484],
+			[172007, -37675],
+			[169921, -37073],
+			[173498, -39511],
+			[174494, -39230],
+			[174494, -39017],
+			[172785, -38512],
+			[174229, -39297],
+			[175480, -40487],
+			[176138, -39585],
+			[176291, -40491],
+			[177864, -40162],
+			[178252, -40056],
+			[179981, -39285],
+			[178352, -36997],
+			[182003, -40939],
+			[183849, -38861],
+			[180594, -38477],
+			[183696, -39782],
+			[180311, -37183],
+			[181494, -38132],
+			[184920, -40081],
+			[185527, -40805],
+			[186798, -39422],
+			[192124, -40220],
+			[196361, -37687],
+			[196545, -36967],
+			[193511, -38899],
+			[164938, -34483],
+			[164495, -34674],
+			[170885, -34446],
+			[173204, -35124],
+			[173481, -35800],
+			[173229, -35811],
+			[178623, -35344],
+			[178484, -35367],
+			[178801, -35388],
+			[181197, -34746],
+			[180746, -34700],
+			[180815, -35096],
+			[151046, -64326],
+			[149457, -64103],
+			[152993, -64914],
+			[153394, -64409],
+			[160174, -64867],
+			[162662, -64272],
+			[149182, -57700],
+			[150935, -59647],
+			[153043, -57458],
+			[152318, -60515],
+			[160870, -58620],
+			[161131, -60174],
+			[149230, -56296],
+			[149794, -56387],
+			[151091, -53492],
+			[149839, -55004],
+			[152834, -56324],
+			[152660, -56445],
+			[154131, -56481],
+			[156642, -54096],
+			[156122, -56328],
+			[157645, -54909],
+			[161466, -54182],
+			[162359, -55590],
+			[152226, -52286],
+			[152360, -52370],
+			[157806, -51384],
+			[159114, -52618],
+			[157472, -50929],
+			[161824, -50913],
+			[163109, -50779],
+			[145100, -45607],
+			[145054, -45526],
+			[143965, -46169],
+			[144334, -46038],
+			[144817, -45721],
+			[155147, -47194],
+			[154870, -47827],
+			[159181, -48943],
+			[161199, -45297],
+			[161762, -45876],
+			[162153, -45854],
+			[144959, -44872],
+			[145029, -44758],
+			[149198, -44211],
+			[151512, -42329],
+			[155626, -43234],
+			[155311, -41888],
+			[157839, -44587],
+			[156571, -41662],
+			[157758, -42409],
+			[163681, -41872],
+			[163383, -44006],
+			[133218, -40521],
+			[144398, -39802],
+			[144446, -38432],
+			[144457, -39028],
+			[144359, -38777],
+			[149130, -38563],
+			[148927, -38612],
+			[151967, -38139],
+			[152274, -39722],
+			[155680, -37384],
+			[155923, -37896],
+			[155754, -36988],
+			[157265, -38555],
+			[156631, -39248],
+			[156888, -38938],
+			[160087, -40354],
+			[160144, -37240],
+			[161648, -38794],
+			[131243, -34383],
+			[133534, -32869],
+			[133403, -32907],
+			[139393, -33348],
+			[140858, -32826],
+			[142040, -36031],
+			[141864, -36229],
+			[141644, -33431],
+			[142910, -35135],
+			[142673, -34336],
+			[146302, -32991],
+			[144851, -33344],
+			[144336, -35511],
+			[145088, -34012],
+			[146535, -33560],
+			[146516, -34020],
+			[147051, -35707],
+			[148724, -35548],
+			[148732, -35658],
+			[148740, -35960],
+			[152013, -33577],
+			[153552, -33349],
+			[155508, -35661],
+			[158059, -36597],
+			[159526, -35467],
+			[161279, -34891],
+			[159883, -34768],
+			[161383, -33280],
+			[159849, -35992],
+			[162200, -33075],
+			[163619, -33501],
+			[161064, -36842],
+			[163916, -87674],
+			[166545, -76002],
+			[166444, -74160],
+			[165311, -75381],
+			[167984, -75992],
+			[168494, -74119],
+			[169395, -74936],
+			[170855, -74591],
+			[168758, -76952],
+			[172068, -77802],
+			[173094, -76781],
+			[173401, -75957],
+			[174598, -75956],
+			[176127, -74939],
+			[175989, -75154],
+			[176588, -75726],
+			[179822, -77043],
+			[176257, -77666],
+			[181850, -75178],
+			[183952, -76912],
+			[184150, -75811],
+			[186531, -73919],
+			[186171, -74191],
+			[187159, -77088],
+			[186919, -76716],
+			[190007, -76599],
+			[191015, -77487],
+			[192033, -74287],
+			[193003, -75278],
+			[166194, -72722],
+			[165509, -72146],
+			[165209, -73538],
+			[168946, -73242],
+			[168971, -72762],
+			[169495, -72592],
+			[169776, -72664],
+			[171866, -73696],
+			[172864, -73061],
+			[173177, -72565],
+			[173109, -71038],
+			[173991, -70862],
+			[174243, -71064],
+			[174464, -72734],
+			[174470, -70007],
+			[175619, -70300],
+			[176703, -72420],
+			[177760, -72661],
+			[179103, -73061],
+			[177563, -69749],
+			[182317, -72326],
+			[183015, -72347],
+			[180443, -73600],
+			[180326, -73432],
+			[181695, -70950],
+			[183355, -71101],
+			[187896, -70180],
+			[187463, -69975],
+			[185388, -71894],
+			[185244, -72040],
+			[185728, -70838],
+			[186987, -72494],
+			[186665, -72291],
+			[188880, -73032],
+			[190726, -71528],
+			[167796, -68964],
+			[167232, -65671],
+			[165918, -66379],
+			[169433, -65996],
+			[171672, -66416],
+			[169172, -66962],
+			[171789, -68556],
+			[174402, -66445],
+			[172357, -67144],
+			[172551, -69393],
+			[172048, -67766],
+			[172896, -66209],
+			[175170, -67986],
+			[176058, -68512],
+			[178911, -69595],
+			[178125, -68521],
+			[177803, -66235],
+			[180174, -66416],
+			[178448, -66294],
+			[181517, -65594],
+			[181576, -69334],
+			[181587, -68777],
+			[181560, -67908],
+			[181675, -65831],
+			[181693, -69619],
+			[185557, -68705],
+			[185307, -69356],
+			[186817, -65823],
+			[186676, -69288],
+			[187200, -68319],
+			[185509, -65746],
+			[189267, -68082],
+			[191036, -67360],
+			[163324, -87244],
+			[142485, -85106],
+			[142801, -85724],
+			[143001, -84179],
+			[150999, -83565],
+			[149350, -85109],
+			[151962, -82842],
+			[153369, -82110],
+			[153841, -81971],
+			[157809, -83642],
+			[158824, -83745],
+			[159254, -83752],
+			[158944, -82886],
+			[157911, -85270],
+			[149560, -77956],
+			[148195, -78306],
+			[149916, -81675],
+			[151649, -78814],
+			[152239, -78716],
+			[154942, -81341],
+			[152379, -78647],
+			[156379, -77937],
+			[157725, -78303],
+			[158324, -79063],
+			[160786, -81849],
+			[160901, -79398],
+			[162884, -79558],
+			[162607, -80107],
+			[149846, -76411],
+			[148464, -75974],
+			[149183, -74074],
+			[150767, -75871],
+			[148328, -76554],
+			[153118, -76799],
+			[155292, -76385],
+			[154328, -74918],
+			[158090, -75996],
+			[156245, -74552],
+			[156037, -76992],
+			[161240, -75311],
+			[141340, -70320],
+			[139273, -70589],
+			[139547, -69920],
+			[144150, -72055],
+			[144884, -72835],
+			[149073, -70118],
+			[157193, -72078],
+			[155956, -73515],
+			[160876, -71534],
+			[150060, -66105],
+			[148611, -67937],
+			[149421, -67262],
+			[149411, -66986],
+			[149442, -67404],
+			[152219, -67955],
+			[158521, -66626],
+			[162241, -68343],
+			[126137, -239],
+			[126170, -155],
+			[126137, -326],
+			[126195, -1756],
+			[126297, -1812],
+			[128811, -39251],
+			[129017, -38941],
+			[128988, -38863],
+			[129102, -39053],
+			[129879, -40833],
+			[130821, -34658],
+			[72052, -173512],
+			[-15974, 200263],
+			[-13928, 200424],
+			[-9096, 199639],
+			[-9672, 197992],
+			[-8962, 196744],
+			[-8601, 200112],
+			[-10518, 197318],
+			[-11630, 196998],
+			[-4756, 198970],
+			[-1790, 199952],
+			[-1334, 198915],
+			[-994, 198847],
+			[-1769, 197247],
+			[-13591, 203338],
+			[-16080, 202249],
+			[-15258, 203400],
+			[-10396, 201104],
+			[-10365, 202321],
+			[-6077, 203291],
+			[-5224, 204035],
+			[-4450, 202918],
+			[-2053, 201213],
+			[-3583, 203216],
+			[-1706, 203139],
+			[-8524, 205002],
+			[-7839, 205122],
+			[-6035, 205197],
+			[-3385, 206188],
+			[-1255, 207859],
+			[-1987, 206313],
+			[-57717, 199925],
+			[-58620, 199238],
+			[-59483, 199292],
+			[-56588, 198072],
+			[-56426, 197813],
+			[-56519, 197711],
+			[-56533, 197501],
+			[-50059, 199184],
+			[-50064, 199271],
+			[-49965, 199228],
+			[-45284, 199515],
+			[-45349, 199656],
+			[-45259, 199620],
+			[-43349, 198238],
+			[-43237, 198282],
+			[-43249, 198199],
+			[-39357, 197709],
+			[-39378, 197810],
+			[-39506, 197782],
+			[-54592, 203559],
+			[-54452, 203684],
+			[-54553, 203695],
+			[-47249, 203665],
+			[-47157, 203620],
+			[-43518, 202366],
+			[-43642, 202379],
+			[-43603, 202448],
+			[-73591, 196784],
+			[-73201, 198609],
+			[-71620, 198709],
+			[-69824, 197992],
+			[-69332, 199316],
+			[-66906, 199043],
+			[-68576, 198624],
+			[-88939, 201187],
+			[-88937, 201119],
+			[-72648, 203818],
+			[-69003, 204150],
+			[-72668, 207257],
+			[-70718, 207295],
+			[-130349, 196652],
+			[-130215, 196683],
+			[-127500, 197611],
+			[-124166, 196926],
+			[-123371, 196796],
+			[-126161, 197738],
+			[-125194, 197597],
+			[-125781, 199895],
+			[-126166, 200075],
+			[-118843, 196798],
+			[-120128, 198906],
+			[-120339, 199069],
+			[-119327, 197299],
+			[-119964, 197084],
+			[-119527, 197340],
+			[-118960, 196689],
+			[-116660, 196945],
+			[-116549, 196858],
+			[-118467, 196608],
+			[-116343, 197072],
+			[-116691, 198622],
+			[-114876, 199628],
+			[-114397, 199769],
+			[-114234, 199642],
+			[-108041, 199002],
+			[-108166, 198933],
+			[-104797, 199235],
+			[-104312, 198996],
+			[-104582, 198906],
+			[-127050, 201823],
+			[-127031, 202099],
+			[-128537, 201927],
+			[-128626, 202125],
+			[-128693, 202575],
+			[-122154, 200864],
+			[-119191, 201112],
+			[-119332, 201417],
+			[-122229, 201129],
+			[-122110, 202716],
+			[-114936, 203530],
+			[-114713, 203867],
+			[-114599, 203581],
+			[-108817, 203446],
+			[-109113, 202948],
+			[-109289, 203255],
+			[-102020, 202825],
+			[-99873, 202518],
+			[-102005, 202544],
+			[-101871, 202510],
+			[-128147, 205586],
+			[-128265, 205689],
+			[-26801, 166089],
+			[-26755, 165952],
+			[-26883, 165987],
+			[-21379, 166405],
+			[-21333, 166524],
+			[-21497, 166422],
+			[-21153, 166361],
+			[-21318, 166284],
+			[-16547, 167675],
+			[-17084, 165172],
+			[-17421, 164878],
+			[-13476, 164298],
+			[-12927, 164399],
+			[-12709, 164858],
+			[-13120, 164597],
+			[-10443, 164000],
+			[-10074, 163993],
+			[-5886, 165565],
+			[-6366, 164882],
+			[-6617, 165917],
+			[-6376, 165429],
+			[-3435, 164140],
+			[-1964, 164061],
+			[-2546, 164105],
+			[-11936, 169702],
+			[-8737, 168781],
+			[-10990, 171567],
+			[-8011, 168831],
+			[-7754, 169399],
+			[-3609, 168815],
+			[-2939, 169205],
+			[-1987, 169729],
+			[-1762, 169951],
+			[-2143, 169820],
+			[-13411, 176100],
+			[-13538, 172710],
+			[-14674, 173075],
+			[-15114, 175760],
+			[-8610, 172667],
+			[-8482, 172887],
+			[-8699, 172862],
+			[-6490, 173598],
+			[-7623, 173127],
+			[-7385, 172815],
+			[-20821, 179975],
+			[-20935, 180053],
+			[-15601, 178517],
+			[-14751, 179273],
+			[-9559, 177346],
+			[-11283, 178065],
+			[-10164, 179260],
+			[-8409, 178894],
+			[-6071, 177057],
+			[-6873, 178079],
+			[-7296, 177350],
+			[-32422, 183393],
+			[-32450, 183696],
+			[-29622, 183256],
+			[-29339, 182902],
+			[-29153, 182676],
+			[-27760, 182292],
+			[-25363, 182041],
+			[-21769, 181122],
+			[-21693, 180968],
+			[-21111, 180447],
+			[-20977, 180356],
+			[-11257, 183451],
+			[-10699, 180540],
+			[-10727, 183668],
+			[-7953, 181770],
+			[-7968, 180868],
+			[-7027, 181234],
+			[-7067, 182696],
+			[-31337, 188300],
+			[-31088, 188310],
+			[-30632, 188050],
+			[-31722, 186846],
+			[-16287, 187150],
+			[-13915, 186959],
+			[-13263, 186166],
+			[-11973, 186044],
+			[-8895, 186169],
+			[-9145, 187920],
+			[-7574, 186812],
+			[-7831, 186567],
+			[-7086, 185603],
+			[-1579, 185346],
+			[-699, 185493],
+			[-14443, 190376],
+			[-15263, 192197],
+			[-15976, 188448],
+			[-8206, 191359],
+			[-8801, 188695],
+			[-9631, 189509],
+			[-7681, 190514],
+			[-7291, 190198],
+			[-7874, 191707],
+			[-1850, 190091],
+			[-2582, 192100],
+			[-2915, 190758],
+			[-1869, 192437],
+			[-849, 190971],
+			[-16362, 195184],
+			[-16119, 194492],
+			[-4258, 192812],
+			[-5141, 195508],
+			[-8150, 193746],
+			[-8091, 196141],
+			[-272, 193394],
+			[-691, 194692],
+			[-3817, 194995],
+			[-62948, 167577],
+			[-63028, 167556],
+			[-63254, 166533],
+			[-65259, 167452],
+			[-48328, 166813],
+			[-48236, 166662],
+			[-48144, 166794],
+			[-46637, 166073],
+			[-46586, 166201],
+			[-46478, 166157],
+			[-39385, 165422],
+			[-39505, 165316],
+			[-39534, 165459],
+			[-35676, 164939],
+			[-35706, 165090],
+			[-35562, 165028],
+			[-65339, 168105],
+			[-63397, 168003],
+			[-62196, 169401],
+			[-62154, 171833],
+			[-62888, 171733],
+			[-56016, 170986],
+			[-56144, 170774],
+			[-45696, 170763],
+			[-45583, 170759],
+			[-45454, 169000],
+			[-48213, 169121],
+			[-48562, 169248],
+			[-45654, 169612],
+			[-45742, 169678],
+			[-45756, 169560],
+			[-42916, 171323],
+			[-42784, 171280],
+			[-42793, 171383],
+			[-36423, 171975],
+			[-65278, 174727],
+			[-65358, 175120],
+			[-63633, 175623],
+			[-63668, 175874],
+			[-56913, 172758],
+			[-56864, 172675],
+			[-42555, 172770],
+			[-42550, 172894],
+			[-42464, 172840],
+			[-39779, 173755],
+			[-39750, 173680],
+			[-39662, 173736],
+			[-36283, 172125],
+			[-36643, 172410],
+			[-36125, 172252],
+			[-36361, 172111],
+			[-63900, 178960],
+			[-63658, 178717],
+			[-63237, 178450],
+			[-63956, 179340],
+			[-63719, 178534],
+			[-63698, 178783],
+			[-51421, 176925],
+			[-51437, 177027],
+			[-51520, 176989],
+			[-42725, 177070],
+			[-42428, 177044],
+			[-42516, 177105],
+			[-42602, 177046],
+			[-37809, 178805],
+			[-37810, 178886],
+			[-37943, 178810],
+			[-64569, 183804],
+			[-64415, 184018],
+			[-47745, 181394],
+			[-47748, 181496],
+			[-47652, 181451],
+			[-42910, 183335],
+			[-42933, 183456],
+			[-42821, 183349],
+			[-37843, 180711],
+			[-37828, 180788],
+			[-65252, 184654],
+			[-65064, 184590],
+			[-64705, 184669],
+			[-53459, 185845],
+			[-53510, 185954],
+			[-53564, 185851],
+			[-42669, 185989],
+			[-42568, 186036],
+			[-42550, 185948],
+			[-43872, 186446],
+			[-47722, 192085],
+			[-47703, 192178],
+			[-39847, 190258],
+			[-40078, 190732],
+			[-40067, 190635],
+			[-64826, 193653],
+			[-61896, 195549],
+			[-62735, 196497],
+			[-56332, 195111],
+			[-56240, 195119],
+			[-56236, 194964],
+			[-52210, 193068],
+			[-52256, 193187],
+			[-52152, 193175],
+			[-47732, 194018],
+			[-47714, 194111],
+			[-47602, 194112],
+			[-42076, 194928],
+			[-42062, 195055],
+			[-42212, 195008],
+			[-39914, 196079],
+			[-39975, 195990],
+			[-95470, 163907],
+			[-80296, 165596],
+			[-80192, 165586],
+			[-73834, 167860],
+			[-71729, 165646],
+			[-97095, 170367],
+			[-96843, 170312],
+			[-96917, 170575],
+			[-94912, 169087],
+			[-94984, 169059],
+			[-91169, 171287],
+			[-91026, 171183],
+			[-89865, 169391],
+			[-89925, 169334],
+			[-88943, 169417],
+			[-88993, 169527],
+			[-89815, 168679],
+			[-84340, 171798],
+			[-84412, 171878],
+			[-74747, 168086],
+			[-74951, 170451],
+			[-74023, 171220],
+			[-69804, 168092],
+			[-68578, 169046],
+			[-67558, 170304],
+			[-68412, 168869],
+			[-84251, 172832],
+			[-84215, 172899],
+			[-82221, 175506],
+			[-82347, 175439],
+			[-79798, 174737],
+			[-79746, 174756],
+			[-77404, 173596],
+			[-77655, 173220],
+			[-77551, 173795],
+			[-70296, 173589],
+			[-71770, 172894],
+			[-71143, 172821],
+			[-69052, 173259],
+			[-69335, 173674],
+			[-68022, 174909],
+			[-68075, 175742],
+			[-69529, 176003],
+			[-83088, 178631],
+			[-83050, 178651],
+			[-81231, 178405],
+			[-81185, 178332],
+			[-97711, 180442],
+			[-97817, 180445],
+			[-84190, 181961],
+			[-84494, 181387],
+			[-84302, 181319],
+			[-74992, 180629],
+			[-76140, 180843],
+			[-75629, 181008],
+			[-71554, 182980],
+			[-69928, 182816],
+			[-70235, 182923],
+			[-71021, 182736],
+			[-68246, 182446],
+			[-67772, 182714],
+			[-67885, 182809],
+			[-96007, 188004],
+			[-96198, 187940],
+			[-96252, 185981],
+			[-88361, 188064],
+			[-88399, 188225],
+			[-87909, 188314],
+			[-87878, 188319],
+			[-85624, 185882],
+			[-85543, 185801],
+			[-85635, 186057],
+			[-78824, 186830],
+			[-79316, 187013],
+			[-79441, 187086],
+			[-74307, 185273],
+			[-93193, 189853],
+			[-93153, 189806],
+			[-91627, 189791],
+			[-91559, 189732],
+			[-81638, 190570],
+			[-81569, 190568],
+			[-78022, 192345],
+			[-75620, 188600],
+			[-75618, 188787],
+			[-74999, 190509],
+			[-75205, 190826],
+			[-72388, 189595],
+			[-72262, 189324],
+			[-71975, 189176],
+			[-88870, 196135],
+			[-88746, 196114],
+			[-88766, 196155],
+			[-87952, 196085],
+			[-88592, 195223],
+			[-88645, 195198],
+			[-82369, 193745],
+			[-82303, 193741],
+			[-79176, 194666],
+			[-81525, 193578],
+			[-81892, 193392],
+			[-78066, 192589],
+			[-76052, 194312],
+			[-76149, 193982],
+			[-77702, 192556],
+			[-72743, 195506],
+			[-73248, 194635],
+			[-73121, 195216],
+			[-68212, 194231],
+			[-68269, 194875],
+			[-68671, 194533],
+			[-127119, 166181],
+			[-125419, 166505],
+			[-123225, 165025],
+			[-125283, 166192],
+			[-125954, 166453],
+			[-122976, 165221],
+			[-122787, 164479],
+			[-122782, 165047],
+			[-120657, 165712],
+			[-119923, 164196],
+			[-119854, 163912],
+			[-121227, 165365],
+			[-120995, 165787],
+			[-113165, 165800],
+			[-112576, 165786],
+			[-112243, 165654],
+			[-112737, 165528],
+			[-113303, 165137],
+			[-109589, 167248],
+			[-109227, 167014],
+			[-105765, 164839],
+			[-105572, 164546],
+			[-105887, 164649],
+			[-98868, 164597],
+			[-98829, 164539],
+			[-98690, 164602],
+			[-127576, 168624],
+			[-128169, 168843],
+			[-127894, 168311],
+			[-127183, 168682],
+			[-126129, 168002],
+			[-126693, 168909],
+			[-126771, 168890],
+			[-119116, 168113],
+			[-115081, 168808],
+			[-115298, 168785],
+			[-115351, 168865],
+			[-115330, 168718],
+			[-115315, 168326],
+			[-115460, 168355],
+			[-109952, 171616],
+			[-109327, 171581],
+			[-104790, 169749],
+			[-104600, 168332],
+			[-105520, 169053],
+			[-105184, 168657],
+			[-125008, 172341],
+			[-125082, 172744],
+			[-113789, 175160],
+			[-113543, 175254],
+			[-103137, 175185],
+			[-102642, 175354],
+			[-99864, 173994],
+			[-99589, 173925],
+			[-99453, 174210],
+			[-98828, 174397],
+			[-98499, 174512],
+			[-122000, 177405],
+			[-122165, 177384],
+			[-117201, 177466],
+			[-116657, 177545],
+			[-116575, 177193],
+			[-116745, 176888],
+			[-117358, 176978],
+			[-117412, 176587],
+			[-111164, 178315],
+			[-111188, 178229],
+			[-111145, 177835],
+			[-111301, 177814],
+			[-111169, 178002],
+			[-109462, 177986],
+			[-109157, 178113],
+			[-108833, 179914],
+			[-109392, 179632],
+			[-109079, 179823],
+			[-106078, 179065],
+			[-105544, 178116],
+			[-105716, 178657],
+			[-101141, 177848],
+			[-100401, 177826],
+			[-130578, 182745],
+			[-128313, 181378],
+			[-128210, 181086],
+			[-128440, 181335],
+			[-128798, 181036],
+			[-126118, 181059],
+			[-126436, 180920],
+			[-126599, 180830],
+			[-126606, 180368],
+			[-123070, 182316],
+			[-123528, 183830],
+			[-123600, 184134],
+			[-122014, 182199],
+			[-122502, 181870],
+			[-122485, 182478],
+			[-122543, 182854],
+			[-122556, 183429],
+			[-117967, 181324],
+			[-118702, 180794],
+			[-118572, 180882],
+			[-118237, 181306],
+			[-111804, 184099],
+			[-111484, 183651],
+			[-111696, 183469],
+			[-109449, 180433],
+			[-109439, 180628],
+			[-109115, 183779],
+			[-109221, 183932],
+			[-107428, 183564],
+			[-107817, 183281],
+			[-105512, 182336],
+			[-105218, 182527],
+			[-101148, 180731],
+			[-100789, 180785],
+			[-123244, 184478],
+			[-126381, 187143],
+			[-124855, 185121],
+			[-123530, 186589],
+			[-124849, 186646],
+			[-123919, 187003],
+			[-123730, 188082],
+			[-122189, 186911],
+			[-120980, 187301],
+			[-121461, 185395],
+			[-120541, 186230],
+			[-120127, 186679],
+			[-116177, 188108],
+			[-118148, 187997],
+			[-114744, 186989],
+			[-115198, 187344],
+			[-113041, 187900],
+			[-112889, 187562],
+			[-112380, 186758],
+			[-112522, 185657],
+			[-107257, 184500],
+			[-102419, 186853],
+			[-106210, 188383],
+			[-102672, 187033],
+			[-103934, 185208],
+			[-102986, 187167],
+			[-99308, 187206],
+			[-99547, 187383],
+			[-99372, 187587],
+			[-101623, 186437],
+			[-101953, 186503],
+			[-101445, 186778],
+			[-129121, 192313],
+			[-129263, 191206],
+			[-127595, 189297],
+			[-127340, 189122],
+			[-127875, 190650],
+			[-128241, 191623],
+			[-127896, 190989],
+			[-126551, 189496],
+			[-126112, 191410],
+			[-124428, 188805],
+			[-124664, 188657],
+			[-122223, 189087],
+			[-121881, 189072],
+			[-115522, 189062],
+			[-114822, 188832],
+			[-116396, 189324],
+			[-115598, 189044],
+			[-117573, 189050],
+			[-117251, 189215],
+			[-111215, 189777],
+			[-114441, 191060],
+			[-113956, 190619],
+			[-114138, 190740],
+			[-111354, 192268],
+			[-106657, 189766],
+			[-108901, 189071],
+			[-108778, 188856],
+			[-106022, 188532],
+			[-106333, 189216],
+			[-106308, 189512],
+			[-127291, 195382],
+			[-127538, 195196],
+			[-127375, 194224],
+			[-127622, 195440],
+			[-128564, 193595],
+			[-129859, 194423],
+			[-130270, 194369],
+			[-124212, 196180],
+			[-126654, 195179],
+			[-125874, 195895],
+			[-115097, 195155],
+			[-115212, 194248],
+			[-114760, 192781],
+			[-112038, 195252],
+			[-110844, 195985],
+			[-114593, 192757],
+			[-113080, 194499],
+			[-107151, 194452],
+			[-107202, 194007],
+			[-106842, 193587],
+			[-106950, 192965],
+			[-103269, 194614],
+			[-103333, 195834],
+			[-103532, 195274],
+			[-103298, 195221],
+			[-103355, 195410],
+			[-98842, 194238],
+			[-98713, 194039],
+			[-22798, 132956],
+			[-22735, 132922],
+			[-22677, 132978],
+			[-22747, 133023],
+			[-17829, 133184],
+			[-17882, 133341],
+			[-17910, 133094],
+			[-13635, 134782],
+			[-12847, 134068],
+			[-13218, 134571],
+			[-15870, 132320],
+			[-11374, 133681],
+			[-11123, 132674],
+			[-10883, 132755],
+			[-7098, 134467],
+			[-4728, 134062],
+			[-4999, 131928],
+			[-4931, 132212],
+			[-8076, 132153],
+			[-1563, 133766],
+			[-362, 131733],
+			[-2965, 131796],
+			[-25993, 136031],
+			[-25928, 135957],
+			[-26026, 135947],
+			[-22252, 136230],
+			[-22243, 136106],
+			[-22165, 136183],
+			[-14729, 138649],
+			[-14435, 138641],
+			[-14488, 138359],
+			[-15836, 136561],
+			[-16123, 136251],
+			[-9014, 136387],
+			[-8846, 135644],
+			[-9341, 135927],
+			[-5057, 139041],
+			[-4533, 138726],
+			[-7456, 137027],
+			[-7035, 137023],
+			[-2854, 138478],
+			[-2802, 138877],
+			[-2672, 138576],
+			[-28001, 139376],
+			[-27950, 139472],
+			[-27890, 139359],
+			[-13180, 140789],
+			[-13731, 140803],
+			[-13504, 140621],
+			[-10587, 140675],
+			[-10414, 140802],
+			[-8469, 140464],
+			[-8993, 140597],
+			[-6091, 143023],
+			[-6619, 143142],
+			[-6506, 142840],
+			[-4326, 141280],
+			[-4630, 141189],
+			[-3935, 142477],
+			[-646, 142384],
+			[-2214, 142493],
+			[-18208, 145137],
+			[-18186, 145286],
+			[-18095, 145163],
+			[-12738, 147399],
+			[-12656, 147103],
+			[-9164, 147126],
+			[-10094, 145120],
+			[-10614, 144990],
+			[-11107, 144896],
+			[-6824, 147189],
+			[-4596, 144712],
+			[-4500, 145067],
+			[-6117, 144608],
+			[-963, 147169],
+			[-1330, 144843],
+			[-1002, 144255],
+			[-31088, 149892],
+			[-30889, 150111],
+			[-30992, 150041],
+			[-31214, 150853],
+			[-31222, 150981],
+			[-31081, 151046],
+			[-15373, 151441],
+			[-15149, 151119],
+			[-12318, 150363],
+			[-14790, 148330],
+			[-15308, 147746],
+			[-9605, 149709],
+			[-8893, 150450],
+			[-4711, 148409],
+			[-5115, 148614],
+			[-5024, 148415],
+			[-3803, 151547],
+			[-1865, 148077],
+			[-2617, 148091],
+			[-3934, 149223],
+			[-3596, 149210],
+			[-3722, 149100],
+			[-742, 147599],
+			[-30897, 154364],
+			[-31243, 154253],
+			[-31182, 154147],
+			[-31080, 154287],
+			[-31129, 152488],
+			[-31254, 152602],
+			[-31221, 152426],
+			[-27302, 151775],
+			[-27262, 151634],
+			[-27381, 151730],
+			[-27192, 151735],
+			[-16304, 152656],
+			[-15887, 152470],
+			[-12416, 155645],
+			[-12741, 155139],
+			[-12937, 155570],
+			[-8828, 154712],
+			[-8949, 153951],
+			[-10187, 151848],
+			[-8146, 154171],
+			[-7356, 154085],
+			[-7770, 154238],
+			[-2847, 153507],
+			[-3392, 153595],
+			[-3033, 151662],
+			[-3801, 151920],
+			[-30307, 156918],
+			[-30320, 156841],
+			[-30230, 156804],
+			[-28376, 157350],
+			[-28332, 157446],
+			[-28293, 157532],
+			[-23720, 157193],
+			[-23647, 157313],
+			[-23633, 157450],
+			[-17461, 155959],
+			[-17665, 156005],
+			[-17651, 155897],
+			[-16206, 156296],
+			[-16233, 156703],
+			[-15937, 156520],
+			[-8522, 159678],
+			[-9139, 159445],
+			[-11704, 157032],
+			[-10117, 158541],
+			[-7516, 159404],
+			[-7144, 158987],
+			[-6462, 158637],
+			[-30855, 160792],
+			[-30737, 160687],
+			[-30858, 160670],
+			[-23347, 159756],
+			[-23182, 159847],
+			[-23285, 159875],
+			[-18563, 160741],
+			[-18520, 160899],
+			[-18625, 160805],
+			[-15944, 160717],
+			[-15402, 160579],
+			[-16333, 160391],
+			[-15978, 160083],
+			[-8230, 161128],
+			[-9126, 163642],
+			[-10993, 163190],
+			[-10766, 162681],
+			[-6878, 163077],
+			[-7018, 163410],
+			[-6596, 163410],
+			[-7121, 161091],
+			[-61111, 136844],
+			[-61028, 136941],
+			[-55097, 137538],
+			[-54929, 137483],
+			[-54945, 137583],
+			[-54871, 137592],
+			[-62917, 139950],
+			[-62983, 140006],
+			[-60965, 140513],
+			[-60944, 140439],
+			[-61066, 140469],
+			[-55511, 141477],
+			[-55510, 141574],
+			[-55619, 141489],
+			[-51451, 140267],
+			[-51374, 140289],
+			[-51384, 140399],
+			[-47859, 141970],
+			[-47858, 141831],
+			[-47958, 141874],
+			[-34955, 142250],
+			[-34967, 142378],
+			[-35067, 142314],
+			[-59709, 144414],
+			[-59817, 145105],
+			[-51386, 146444],
+			[-51316, 146454],
+			[-38830, 146599],
+			[-38951, 146617],
+			[-38968, 146565],
+			[-32834, 143840],
+			[-32927, 143794],
+			[-32927, 143936],
+			[-53566, 148302],
+			[-53549, 148450],
+			[-51044, 148813],
+			[-51157, 148719],
+			[-48924, 149865],
+			[-48783, 150178],
+			[-48814, 150096],
+			[-43017, 149549],
+			[-42910, 149490],
+			[-42798, 149643],
+			[-42920, 149629],
+			[-38074, 149722],
+			[-38263, 149725],
+			[-38166, 149806],
+			[-38185, 149714],
+			[-34633, 149946],
+			[-34382, 150118],
+			[-34352, 150031],
+			[-34531, 150020],
+			[-53801, 154266],
+			[-53682, 154275],
+			[-53867, 154351],
+			[-48421, 152715],
+			[-48377, 152984],
+			[-48470, 152834],
+			[-48382, 152849],
+			[-37379, 152757],
+			[-37475, 152954],
+			[-37386, 152935],
+			[-54151, 157397],
+			[-54115, 157253],
+			[-54309, 157398],
+			[-50513, 158577],
+			[-50654, 158518],
+			[-50549, 158429],
+			[-46364, 158028],
+			[-46497, 157924],
+			[-46451, 157770],
+			[-46386, 157887],
+			[-33709, 156004],
+			[-33856, 155904],
+			[-33731, 155889],
+			[-35088, 160569],
+			[-35087, 160501],
+			[-97099, 132822],
+			[-97131, 132934],
+			[-97195, 132843],
+			[-95887, 133457],
+			[-95865, 133455],
+			[-95374, 132854],
+			[-95372, 132759],
+			[-92983, 132795],
+			[-93030, 132873],
+			[-86995, 131539],
+			[-87031, 131679],
+			[-89709, 134098],
+			[-83515, 132953],
+			[-83490, 133046],
+			[-83571, 133032],
+			[-74963, 134945],
+			[-74787, 134752],
+			[-70485, 134210],
+			[-66455, 135111],
+			[-69602, 133637],
+			[-69484, 133708],
+			[-65702, 133233],
+			[-98057, 139076],
+			[-98166, 139016],
+			[-95726, 137293],
+			[-95827, 137319],
+			[-90638, 137361],
+			[-90537, 137353],
+			[-87016, 135282],
+			[-86914, 135337],
+			[-86648, 138627],
+			[-86662, 138535],
+			[-83857, 135706],
+			[-83825, 135785],
+			[-79704, 138476],
+			[-79714, 138405],
+			[-67118, 135672],
+			[-67145, 135670],
+			[-90953, 142732],
+			[-91021, 142737],
+			[-86379, 143304],
+			[-84801, 141422],
+			[-95292, 146024],
+			[-95348, 146003],
+			[-86342, 143468],
+			[-89147, 144789],
+			[-89061, 144761],
+			[-82704, 143909],
+			[-74110, 146414],
+			[-74689, 146595],
+			[-73930, 146293],
+			[-69252, 146506],
+			[-69271, 146671],
+			[-69071, 147148],
+			[-94914, 147673],
+			[-94990, 147634],
+			[-92257, 148676],
+			[-92318, 148800],
+			[-84530, 147916],
+			[-84523, 147971],
+			[-78557, 149587],
+			[-78495, 148701],
+			[-66672, 148816],
+			[-66742, 148529],
+			[-66780, 148574],
+			[-96844, 152640],
+			[-96903, 152537],
+			[-93858, 154604],
+			[-82881, 152082],
+			[-82914, 151985],
+			[-81092, 152918],
+			[-81276, 153092],
+			[-72373, 153469],
+			[-72257, 153431],
+			[-95876, 157441],
+			[-95681, 157209],
+			[-95602, 157359],
+			[-91707, 157874],
+			[-91494, 157805],
+			[-87252, 159206],
+			[-87346, 159184],
+			[-83417, 156690],
+			[-83403, 156818],
+			[-79017, 157679],
+			[-80177, 157371],
+			[-80267, 157479],
+			[-70087, 157641],
+			[-70149, 157605],
+			[-95883, 161826],
+			[-94909, 161402],
+			[-94366, 161426],
+			[-94448, 161431],
+			[-94354, 161525],
+			[-93418, 160608],
+			[-93346, 160683],
+			[-93957, 159800],
+			[-93366, 161662],
+			[-93187, 161631],
+			[-88876, 159874],
+			[-82727, 161683],
+			[-82666, 161631],
+			[-81029, 161474],
+			[-81066, 161391],
+			[-81165, 161487],
+			[-72346, 162344],
+			[-72444, 161531],
+			[-72090, 162092],
+			[-71966, 162077],
+			[-129269, 132560],
+			[-129387, 132919],
+			[-129419, 132481],
+			[-123373, 131280],
+			[-115068, 133030],
+			[-114714, 132478],
+			[-114411, 132794],
+			[-114467, 132048],
+			[-114353, 132523],
+			[-102504, 134707],
+			[-102683, 133619],
+			[-102761, 134266],
+			[-105587, 134616],
+			[-102185, 133818],
+			[-101996, 134609],
+			[-102330, 134983],
+			[-102322, 133844],
+			[-102369, 134446],
+			[-102114, 134065],
+			[-102022, 134003],
+			[-102280, 134507],
+			[-102355, 134573],
+			[-98996, 132571],
+			[-130012, 135593],
+			[-128833, 137508],
+			[-129150, 137332],
+			[-123378, 138665],
+			[-123184, 138732],
+			[-123585, 138551],
+			[-126339, 138490],
+			[-119022, 135221],
+			[-118960, 135433],
+			[-118040, 135566],
+			[-117969, 135413],
+			[-118059, 135450],
+			[-118626, 135460],
+			[-111853, 136253],
+			[-111402, 135957],
+			[-111831, 135661],
+			[-112160, 136532],
+			[-111676, 136878],
+			[-111238, 136466],
+			[-103843, 137567],
+			[-104684, 137820],
+			[-104491, 137839],
+			[-104108, 137932],
+			[-103608, 137436],
+			[-103317, 137958],
+			[-101027, 138373],
+			[-100997, 138294],
+			[-101108, 138415],
+			[-127928, 141814],
+			[-129855, 140322],
+			[-130843, 142375],
+			[-130613, 142503],
+			[-128077, 141566],
+			[-123021, 141898],
+			[-123205, 141997],
+			[-122265, 142869],
+			[-115033, 140240],
+			[-115034, 140174],
+			[-114935, 140190],
+			[-112009, 140127],
+			[-112390, 140273],
+			[-112293, 140056],
+			[-111607, 140403],
+			[-112240, 140232],
+			[-129510, 145049],
+			[-129526, 144653],
+			[-129656, 144889],
+			[-126962, 145659],
+			[-125833, 144472],
+			[-126101, 144693],
+			[-122705, 145469],
+			[-116354, 144582],
+			[-116352, 144749],
+			[-116329, 144388],
+			[-112360, 144092],
+			[-112259, 144121],
+			[-112284, 144185],
+			[-104602, 143847],
+			[-104751, 143429],
+			[-105288, 143361],
+			[-104313, 143752],
+			[-103916, 146814],
+			[-104042, 146789],
+			[-127404, 151209],
+			[-127354, 150630],
+			[-128200, 148902],
+			[-128782, 149309],
+			[-124873, 150466],
+			[-125036, 150725],
+			[-124986, 150939],
+			[-123189, 147733],
+			[-119287, 148590],
+			[-121593, 147854],
+			[-121449, 148246],
+			[-121344, 148369],
+			[-113106, 149970],
+			[-113071, 149911],
+			[-113154, 149847],
+			[-109852, 148614],
+			[-107357, 147728],
+			[-107417, 147612],
+			[-127195, 152486],
+			[-127415, 152242],
+			[-123116, 151930],
+			[-110155, 154575],
+			[-110187, 154527],
+			[-121057, 157454],
+			[-121061, 157206],
+			[-101709, 159580],
+			[-102154, 159303],
+			[-101177, 159697],
+			[-101256, 156256],
+			[-101138, 159475],
+			[-116006, 162703],
+			[-116081, 162697],
+			[-101427, 160082],
+			[-101679, 160001],
+			[-159345, 200608],
+			[-158791, 200301],
+			[-158792, 200019],
+			[-150361, 200470],
+			[-150752, 199884],
+			[-150477, 199866],
+			[-150289, 200107],
+			[-143745, 198054],
+			[-143904, 197131],
+			[-143677, 196998],
+			[-143192, 197641],
+			[-135279, 199720],
+			[-135582, 198599],
+			[-136791, 198829],
+			[-136961, 199061],
+			[-136615, 199203],
+			[-131502, 198076],
+			[-131404, 198345],
+			[-131452, 198038],
+			[-157196, 201658],
+			[-158147, 203448],
+			[-158090, 203598],
+			[-157694, 202066],
+			[-157471, 201768],
+			[-157341, 202444],
+			[-145438, 203845],
+			[-145429, 203631],
+			[-145360, 204112],
+			[-145383, 204388],
+			[-138041, 204068],
+			[-137365, 204119],
+			[-137157, 204267],
+			[-137414, 204660],
+			[-134087, 204870],
+			[-175493, 199603],
+			[-175228, 199362],
+			[-175540, 199347],
+			[-167641, 199569],
+			[-167562, 199614],
+			[-167063, 199173],
+			[-165511, 199538],
+			[-164819, 200507],
+			[-165206, 200414],
+			[-165514, 200492],
+			[-179101, 202007],
+			[-173956, 203574],
+			[-173953, 203567],
+			[-174281, 203685],
+			[-174316, 203519],
+			[-166237, 204197],
+			[-165488, 200778],
+			[-144275, 164583],
+			[-134051, 164178],
+			[-134755, 164162],
+			[-133571, 166427],
+			[-133368, 166618],
+			[-132413, 165339],
+			[-132498, 165722],
+			[-138753, 171523],
+			[-137668, 170992],
+			[-138516, 169802],
+			[-131170, 168275],
+			[-161908, 174748],
+			[-161020, 175490],
+			[-161255, 175789],
+			[-161150, 175478],
+			[-161837, 174542],
+			[-162130, 174509],
+			[-162216, 174810],
+			[-133864, 172551],
+			[-134388, 172789],
+			[-134808, 172953],
+			[-160054, 176999],
+			[-159876, 177607],
+			[-159658, 176861],
+			[-151334, 179682],
+			[-151428, 179594],
+			[-151131, 179855],
+			[-150519, 180092],
+			[-138778, 179667],
+			[-138518, 176940],
+			[-137647, 178369],
+			[-161186, 183684],
+			[-161086, 183909],
+			[-162222, 182009],
+			[-161053, 182103],
+			[-161188, 182246],
+			[-151703, 180919],
+			[-151727, 181239],
+			[-150859, 181878],
+			[-150694, 181992],
+			[-150500, 181583],
+			[-150371, 181269],
+			[-150045, 180960],
+			[-150487, 180304],
+			[-137286, 184271],
+			[-134126, 183521],
+			[-133941, 182950],
+			[-133782, 182760],
+			[-133610, 182874],
+			[-158681, 187440],
+			[-159281, 187321],
+			[-159047, 187551],
+			[-158753, 187738],
+			[-151783, 184857],
+			[-151774, 185727],
+			[-153906, 188308],
+			[-151717, 184991],
+			[-151715, 185242],
+			[-151590, 185461],
+			[-148611, 187801],
+			[-148793, 187125],
+			[-148841, 187309],
+			[-148931, 187609],
+			[-149403, 187324],
+			[-151097, 185484],
+			[-151320, 185327],
+			[-151447, 185762],
+			[-136700, 185442],
+			[-137137, 184883],
+			[-137235, 185397],
+			[-137090, 185695],
+			[-138507, 188013],
+			[-137354, 184532],
+			[-161558, 192442],
+			[-160546, 192367],
+			[-160206, 192422],
+			[-158795, 188918],
+			[-158877, 189798],
+			[-158995, 189284],
+			[-147483, 189144],
+			[-147739, 189718],
+			[-147801, 189519],
+			[-147657, 189173],
+			[-147678, 189302],
+			[-147259, 189170],
+			[-147175, 189347],
+			[-147118, 189248],
+			[-145910, 189310],
+			[-145788, 189375],
+			[-132387, 191696],
+			[-132823, 191562],
+			[-156165, 195920],
+			[-154002, 194276],
+			[-154122, 194829],
+			[-150987, 194327],
+			[-151135, 194566],
+			[-148703, 196517],
+			[-148781, 196115],
+			[-149103, 196345],
+			[-143945, 196093],
+			[-143532, 194462],
+			[-143833, 194502],
+			[-144039, 194790],
+			[-142950, 194849],
+			[-142644, 195925],
+			[-143037, 196458],
+			[-143140, 196258],
+			[-135658, 193802],
+			[-137671, 194269],
+			[-133502, 195987],
+			[-132795, 195963],
+			[-132563, 195818],
+			[-132183, 195242],
+			[-131511, 192992],
+			[-177149, 170786],
+			[-177272, 171449],
+			[-176949, 171241],
+			[-176902, 170965],
+			[-170565, 171351],
+			[-169377, 169337],
+			[-171318, 170167],
+			[-166924, 168377],
+			[-167429, 168411],
+			[-167400, 168623],
+			[-178119, 175484],
+			[-178991, 175288],
+			[-179605, 174460],
+			[-179231, 175179],
+			[-179227, 174955],
+			[-179600, 175118],
+			[-172428, 173879],
+			[-172286, 173647],
+			[-168109, 175775],
+			[-172001, 173641],
+			[-171721, 173397],
+			[-177262, 179534],
+			[-177486, 179801],
+			[-177658, 179578],
+			[-175625, 178355],
+			[-175777, 177818],
+			[-175738, 178126],
+			[-175777, 178013],
+			[-168059, 178205],
+			[-168040, 178040],
+			[-168173, 176495],
+			[-165163, 179444],
+			[-165070, 179553],
+			[-167570, 178104],
+			[-166793, 177009],
+			[-167110, 176639],
+			[-178910, 181274],
+			[-178753, 181172],
+			[-178657, 180868],
+			[-176344, 182938],
+			[-176374, 183329],
+			[-176351, 184199],
+			[-176182, 183644],
+			[-165716, 185291],
+			[-165399, 185513],
+			[-174347, 191162],
+			[-174559, 191657],
+			[-174783, 191127],
+			[-169016, 192342],
+			[-168832, 192288],
+			[-169321, 192285],
+			[-170910, 189685],
+			[-174508, 195463],
+			[-174236, 195495],
+			[-174267, 195325],
+			[-170021, 192756],
+			[-169808, 192929],
+			[-169435, 192941],
+			[-169436, 192591],
+			[-169459, 192667],
+			[-169566, 192652],
+			[-170153, 192678],
+			[-169266, 192737],
+			[-164235, 196446],
+			[-158975, 132333],
+			[-158771, 132056],
+			[-154314, 131217],
+			[-153978, 131452],
+			[-150338, 132444],
+			[-148453, 131495],
+			[-148530, 131606],
+			[-148604, 132112],
+			[-148342, 132386],
+			[-148302, 131520],
+			[-147926, 131095],
+			[-147756, 131278],
+			[-147131, 133046],
+			[-133255, 135074],
+			[-133244, 134691],
+			[-159541, 138719],
+			[-151903, 139137],
+			[-151843, 138938],
+			[-152087, 139073],
+			[-131471, 138925],
+			[-131357, 138824],
+			[-155758, 142141],
+			[-152238, 139322],
+			[-155195, 141870],
+			[-155412, 142196],
+			[-150044, 141655],
+			[-150363, 141020],
+			[-150333, 140565],
+			[-133120, 139370],
+			[-133438, 139545],
+			[-156244, 147105],
+			[-148574, 146964],
+			[-135955, 146461],
+			[-132604, 144183],
+			[-133954, 145226],
+			[-155947, 147630],
+			[-157619, 148565],
+			[-157552, 148791],
+			[-158266, 148356],
+			[-157905, 148573],
+			[-154392, 149662],
+			[-154661, 149981],
+			[-150679, 148806],
+			[-150575, 149076],
+			[-148757, 148591],
+			[-148608, 150208],
+			[-136985, 148669],
+			[-136752, 148156],
+			[-136901, 147877],
+			[-135972, 149654],
+			[-135335, 149483],
+			[-132590, 149443],
+			[-132768, 149683],
+			[-132662, 149946],
+			[-153033, 152731],
+			[-153133, 152177],
+			[-152828, 152595],
+			[-150730, 154261],
+			[-149725, 154137],
+			[-144905, 155493],
+			[-138233, 155316],
+			[-138665, 154976],
+			[-132160, 153034],
+			[-132661, 154678],
+			[-132476, 154878],
+			[-156609, 158283],
+			[-159623, 156519],
+			[-159238, 157018],
+			[-156098, 158610],
+			[-150664, 156689],
+			[-145639, 156014],
+			[-146108, 157347],
+			[-146256, 157739],
+			[-138956, 155842],
+			[-138171, 157684],
+			[-137130, 156521],
+			[-133607, 159133],
+			[-156678, 163227],
+			[-156500, 162523],
+			[-156315, 162312],
+			[-153330, 163049],
+			[-153430, 162751],
+			[-155538, 162936],
+			[-155558, 162340],
+			[-144654, 162950],
+			[-146095, 161061],
+			[-144628, 160641],
+			[-144654, 162703],
+			[-141895, 162875],
+			[-140951, 162318],
+			[-140811, 162728],
+			[-134467, 159797],
+			[-133636, 162699],
+			[-133446, 162465],
+			[-177810, 135821],
+			[-177149, 137100],
+			[-177541, 137465],
+			[-177454, 138145],
+			[197721, 197503],
+			[201482, 198799],
+			[197636, 201951],
+			[201320, 202428],
+			[170077, 197748],
+			[171008, 197119],
+			[172245, 198188],
+			[173105, 197621],
+			[175176, 197867],
+			[175684, 199253],
+			[176485, 198975],
+			[177637, 197947],
+			[178940, 199365],
+			[179684, 197752],
+			[181690, 199755],
+			[182928, 198390],
+			[181250, 198450],
+			[187454, 197774],
+			[184779, 199658],
+			[185101, 197467],
+			[191644, 198501],
+			[189189, 197940],
+			[195013, 198167],
+			[192147, 202081],
+			[193782, 201905],
+			[199835, 194400],
+			[178811, 170824],
+			[179297, 169438],
+			[177108, 170816],
+			[177383, 169277],
+			[183495, 171075],
+			[183284, 169513],
+			[181335, 169249],
+			[181128, 171326],
+			[171178, 173632],
+			[170980, 175265],
+			[168292, 175913],
+			[172997, 175013],
+			[173044, 173635],
+			[174665, 175130],
+			[176843, 174378],
+			[177499, 172806],
+			[179589, 172940],
+			[180930, 172864],
+			[183486, 173182],
+			[167752, 177360],
+			[170874, 177602],
+			[175007, 177212],
+			[173166, 178629],
+			[180096, 178857],
+			[180817, 177303],
+			[185594, 179274],
+			[166443, 181746],
+			[165666, 182008],
+			[168185, 182845],
+			[169544, 181580],
+			[179844, 181436],
+			[181294, 183333],
+			[182967, 183384],
+			[184534, 180745],
+			[167395, 187323],
+			[165571, 184612],
+			[167369, 184810],
+			[169493, 187540],
+			[171158, 185274],
+			[173155, 187416],
+			[175009, 187410],
+			[179101, 187485],
+			[178736, 184820],
+			[181040, 184874],
+			[185132, 187100],
+			[191754, 187198],
+			[189616, 185420],
+			[190004, 186990],
+			[164755, 191863],
+			[171452, 191951],
+			[178832, 191483],
+			[178929, 191557],
+			[177907, 189247],
+			[177495, 191115],
+			[184176, 190259],
+			[184219, 191616],
+			[185345, 189589],
+			[189828, 191909],
+			[194926, 190424],
+			[166553, 195342],
+			[167150, 193815],
+			[168136, 194980],
+			[169082, 192715],
+			[171187, 195456],
+			[175429, 193596],
+			[174905, 195520],
+			[173226, 193240],
+			[172707, 195916],
+			[179196, 195047],
+			[177157, 193832],
+			[183029, 193172],
+			[180559, 194855],
+			[183830, 196070],
+			[182776, 196466],
+			[186228, 193806],
+			[186287, 193117],
+			[185238, 195187],
+			[191663, 194730],
+			[189368, 193999],
+			[195374, 194452],
+			[139124, 164329],
+			[140897, 165835],
+			[147426, 164570],
+			[137825, 169950],
+			[135410, 169293],
+			[136194, 171230],
+			[137842, 169159],
+			[132252, 175294],
+			[134417, 175447],
+			[137523, 175764],
+			[137054, 173850],
+			[138921, 172467],
+			[139489, 173012],
+			[140005, 175120],
+			[142290, 174550],
+			[144855, 175327],
+			[134125, 179429],
+			[132218, 179409],
+			[131934, 177113],
+			[138394, 179487],
+			[135780, 179825],
+			[136028, 177022],
+			[139731, 179645],
+			[147750, 176841],
+			[151362, 177885],
+			[149850, 177622],
+			[134269, 180776],
+			[132017, 181819],
+			[138958, 181793],
+			[136981, 181908],
+			[140102, 183557],
+			[142125, 182773],
+			[142219, 181851],
+			[140201, 181437],
+			[145095, 182602],
+			[146867, 183288],
+			[148367, 183730],
+			[153834, 180485],
+			[155210, 181517],
+			[155148, 182602],
+			[131726, 186717],
+			[136773, 187241],
+			[135877, 185069],
+			[142694, 187711],
+			[140313, 185956],
+			[146566, 187179],
+			[146236, 185892],
+			[144264, 185748],
+			[143436, 187524],
+			[148398, 186965],
+			[151294, 185855],
+			[150979, 186827],
+			[148860, 185191],
+			[155271, 187858],
+			[155440, 184903],
+			[153338, 184834],
+			[134890, 192064],
+			[138943, 190310],
+			[138052, 190805],
+			[137069, 191158],
+			[143167, 190873],
+			[141980, 189662],
+			[140554, 191298],
+			[140448, 189345],
+			[144669, 191218],
+			[147143, 191432],
+			[146755, 188945],
+			[144381, 189364],
+			[150316, 189195],
+			[148341, 189369],
+			[148599, 191358],
+			[150978, 192130],
+			[153340, 188853],
+			[154263, 191263],
+			[152443, 191817],
+			[155149, 189117],
+			[132742, 195090],
+			[134991, 192921],
+			[136261, 193912],
+			[136651, 194956],
+			[138493, 196347],
+			[141119, 195858],
+			[142311, 195957],
+			[142771, 193289],
+			[147267, 193457],
+			[146597, 195412],
+			[144434, 195521],
+			[143611, 193786],
+			[151036, 195893],
+			[154289, 195236],
+			[152342, 195639],
+			[152577, 193897],
+			[154403, 193008],
+			[138248, 133081],
+			[139600, 132600],
+			[131960, 138952],
+			[131743, 139533],
+			[134117, 139928],
+			[137486, 141072],
+			[131904, 143674],
+			[131599, 150236],
+			[134913, 150437],
+			[136179, 151026],
+			[134733, 155377],
+			[131691, 152933],
+			[131553, 152302],
+			[137055, 155253],
+			[139776, 155420],
+			[144218, 155291],
+			[131696, 158395],
+			[137907, 157057],
+			[144661, 158989],
+			[133248, 161154],
+			[138796, 159936],
+			[138913, 162396],
+			[141251, 163130],
+			[144626, 161039],
+			[43154, 198504],
+			[42747, 198306],
+			[138, 197269],
+			[353, 196608],
+			[1390, 199974],
+			[2663, 197101],
+			[3753, 198612],
+			[2020, 203440],
+			[3370, 203564],
+			[1455, 202357],
+			[2615, 205450],
+			[3028, 207837],
+			[107113, 165452],
+			[107541, 164149],
+			[111686, 165205],
+			[116035, 164237],
+			[120157, 166511],
+			[125347, 164539],
+			[127956, 165206],
+			[114604, 168155],
+			[118544, 170986],
+			[127523, 170763],
+			[109470, 174690],
+			[127573, 173728],
+			[128469, 175431],
+			[130660, 175054],
+			[107955, 179972],
+			[128231, 179671],
+			[130256, 178764],
+			[127745, 177012],
+			[130102, 176512],
+			[129862, 183459],
+			[130525, 181966],
+			[127549, 181567],
+			[106094, 186866],
+			[109927, 188333],
+			[106763, 187028],
+			[127761, 185178],
+			[109914, 189446],
+			[107942, 189089],
+			[128393, 189643],
+			[130592, 193184],
+			[128240, 194883],
+			[128251, 194187],
+			[130014, 195386],
+			[67019, 164256],
+			[67089, 164352],
+			[66968, 164371],
+			[73392, 166076],
+			[73399, 166188],
+			[73264, 166146],
+			[75730, 167065],
+			[75673, 166937],
+			[74857, 165997],
+			[74964, 165991],
+			[74896, 165856],
+			[81070, 166823],
+			[80929, 166793],
+			[80966, 166918],
+			[78748, 166742],
+			[78879, 166655],
+			[78884, 166775],
+			[85693, 164137],
+			[85553, 164102],
+			[85653, 163981],
+			[84049, 166577],
+			[84042, 166759],
+			[84119, 166683],
+			[86780, 180635],
+			[89857, 181246],
+			[90261, 183027],
+			[93055, 183672],
+			[92090, 183770],
+			[91573, 183291],
+			[97793, 183891],
+			[98047, 184310],
+			[97130, 184935],
+			[33535, 164473],
+			[34036, 164348],
+			[52226, 165074],
+			[52601, 165718],
+			[47191, 169293],
+			[45817, 169562],
+			[48176, 169419],
+			[36542, 174405],
+			[39896, 182459],
+			[40349, 181367],
+			[41309, 184159],
+			[41715, 183527],
+			[42506, 183514],
+			[41299, 181819],
+			[43539, 187941],
+			[43107, 187049],
+			[39541, 189768],
+			[39287, 190241],
+			[26796, 165640],
+			[3092, 168886],
+			[2642, 169027],
+			[2429, 168794],
+			[4662, 167998],
+			[4362, 168233],
+			[27437, 171078],
+			[28137, 170836],
+			[30415, 180090],
+			[32414, 181730],
+			[31095, 181055],
+			[3470, 187970],
+			[3966, 192293],
+			[2757, 189961],
+			[3371, 188707],
+			[339, 191950],
+			[1176, 190557],
+			[549, 194244],
+			[3121, 196292],
+			[3704, 192836],
+			[127890, 132781],
+			[122177, 136702],
+			[123969, 135956],
+			[128049, 137923],
+			[121553, 139702],
+			[124338, 141432],
+			[100989, 146919],
+			[103828, 146476],
+			[125148, 147110],
+			[128384, 143552],
+			[98455, 151222],
+			[98431, 151025],
+			[103589, 150824],
+			[113975, 149011],
+			[116226, 150499],
+			[120625, 151330],
+			[124758, 149995],
+			[127369, 149541],
+			[130248, 150127],
+			[104953, 153688],
+			[108917, 155129],
+			[113030, 154963],
+			[122142, 154912],
+			[118918, 153258],
+			[123676, 154957],
+			[129301, 151813],
+			[100078, 158004],
+			[100618, 157103],
+			[103044, 158019],
+			[108722, 158018],
+			[107110, 159100],
+			[114318, 158544],
+			[111247, 156428],
+			[114564, 159142],
+			[117128, 156677],
+			[121376, 159154],
+			[129274, 157710],
+			[105090, 160583],
+			[110113, 161680],
+			[106994, 163356],
+			[113497, 162258],
+			[111066, 161404],
+			[116134, 161203],
+			[117389, 160210],
+			[122168, 162461],
+			[119328, 162865],
+			[126077, 162891],
+			[128912, 161739],
+			[68799, 133681],
+			[68636, 133631],
+			[67327, 131795],
+			[67217, 131751],
+			[67253, 131889],
+			[73295, 134629],
+			[73291, 134757],
+			[73170, 134672],
+			[73191, 134541],
+			[71129, 134248],
+			[71208, 134224],
+			[71112, 134163],
+			[75222, 132687],
+			[75219, 132811],
+			[75125, 132728],
+			[75170, 132603],
+			[80571, 132932],
+			[80659, 132923],
+			[80534, 132787],
+			[80732, 132937],
+			[82526, 132121],
+			[82704, 132113],
+			[82548, 131995],
+			[68410, 138656],
+			[68553, 138631],
+			[68413, 138533],
+			[66387, 137918],
+			[66256, 138045],
+			[66362, 138044],
+			[66315, 137903],
+			[68886, 135793],
+			[70616, 139137],
+			[70499, 139173],
+			[70600, 139234],
+			[75310, 137264],
+			[75418, 137306],
+			[75330, 138401],
+			[75365, 138465],
+			[75271, 138501],
+			[71168, 140109],
+			[71115, 139969],
+			[71034, 140097],
+			[71900, 142321],
+			[71784, 142328],
+			[74206, 139828],
+			[74278, 139687],
+			[74305, 139881],
+			[77186, 142130],
+			[77129, 142312],
+			[77085, 142200],
+			[80519, 141455],
+			[80685, 141552],
+			[80534, 141613],
+			[80444, 140153],
+			[80342, 140087],
+			[80332, 140185],
+			[84534, 140746],
+			[84421, 140743],
+			[84512, 140598],
+			[82938, 140058],
+			[83030, 140047],
+			[89536, 142695],
+			[91771, 142567],
+			[94936, 143203],
+			[72832, 145188],
+			[72915, 145382],
+			[72758, 145288],
+			[80901, 146090],
+			[80877, 146183],
+			[80742, 146102],
+			[81349, 143831],
+			[81504, 143877],
+			[80279, 143946],
+			[85400, 145342],
+			[85420, 145133],
+			[85473, 145267],
+			[85321, 145260],
+			[83997, 144392],
+			[84058, 144248],
+			[84151, 144388],
+			[84198, 144217],
+			[84287, 144275],
+			[88797, 144465],
+			[89899, 145234],
+			[94523, 145804],
+			[98023, 146534],
+			[68589, 149067],
+			[68709, 148976],
+			[68729, 149103],
+			[71571, 149687],
+			[71705, 149675],
+			[71645, 149814],
+			[81594, 148573],
+			[81465, 148566],
+			[81498, 148708],
+			[84871, 148995],
+			[84993, 149006],
+			[85123, 149028],
+			[85097, 149111],
+			[88350, 147876],
+			[91313, 149127],
+			[96152, 148195],
+			[67520, 153138],
+			[67529, 153046],
+			[67635, 153122],
+			[67681, 153006],
+			[73602, 153450],
+			[73480, 153456],
+			[75003, 154105],
+			[75032, 154236],
+			[74896, 154214],
+			[75716, 151861],
+			[75705, 151988],
+			[75604, 151884],
+			[80822, 152619],
+			[80977, 152591],
+			[80876, 152740],
+			[81460, 154638],
+			[81538, 154754],
+			[81395, 154790],
+			[83835, 154870],
+			[83711, 154825],
+			[83850, 154709],
+			[84468, 155025],
+			[84549, 154932],
+			[84581, 155060],
+			[93652, 152255],
+			[95969, 153921],
+			[71487, 156439],
+			[71458, 156605],
+			[71344, 156496],
+			[71563, 156571],
+			[82253, 157397],
+			[82181, 157375],
+			[82191, 157518],
+			[82225, 159246],
+			[85550, 158650],
+			[85560, 158768],
+			[85439, 158674],
+			[91714, 156460],
+			[95183, 158572],
+			[68138, 162058],
+			[68097, 161909],
+			[68267, 161962],
+			[69092, 160829],
+			[68823, 160661],
+			[85251, 160585],
+			[85361, 160601],
+			[85363, 160500],
+			[39779, 131935],
+			[39626, 132150],
+			[38552, 134409],
+			[38349, 134402],
+			[38428, 134289],
+			[37860, 131250],
+			[37311, 132448],
+			[37127, 132303],
+			[38427, 132874],
+			[38626, 132973],
+			[38437, 132050],
+			[37968, 132081],
+			[50511, 134335],
+			[49381, 131519],
+			[51015, 131631],
+			[50825, 131507],
+			[50658, 131831],
+			[56220, 133205],
+			[54567, 133299],
+			[54685, 133344],
+			[54265, 132627],
+			[54280, 132446],
+			[54453, 132475],
+			[38596, 138739],
+			[38653, 138567],
+			[38456, 139114],
+			[38558, 139035],
+			[39444, 138530],
+			[39517, 138659],
+			[48563, 135536],
+			[48052, 135794],
+			[45438, 137134],
+			[46027, 137011],
+			[46000, 136782],
+			[50526, 136216],
+			[49933, 136446],
+			[50345, 138656],
+			[50880, 137545],
+			[50361, 137785],
+			[62438, 137010],
+			[62528, 136970],
+			[64139, 135968],
+			[64296, 135950],
+			[64397, 136215],
+			[63932, 135643],
+			[63639, 135714],
+			[63340, 136130],
+			[63149, 136083],
+			[36104, 141588],
+			[36581, 139837],
+			[36686, 139569],
+			[33077, 139684],
+			[40295, 141410],
+			[40219, 141248],
+			[39166, 140965],
+			[38915, 141141],
+			[38801, 141212],
+			[38823, 142642],
+			[38741, 142703],
+			[36942, 140775],
+			[37046, 140734],
+			[37588, 140109],
+			[37728, 140285],
+			[39672, 139505],
+			[39734, 139654],
+			[40041, 139712],
+			[40193, 139762],
+			[40066, 139557],
+			[48116, 141574],
+			[47123, 143009],
+			[47782, 142620],
+			[47885, 139505],
+			[48855, 139531],
+			[48650, 140650],
+			[47426, 140989],
+			[47401, 141155],
+			[48910, 143321],
+			[48888, 139352],
+			[49231, 139486],
+			[51720, 143169],
+			[54751, 141501],
+			[55249, 140319],
+			[56354, 140684],
+			[56149, 139899],
+			[55964, 140023],
+			[56055, 140149],
+			[34759, 144618],
+			[35026, 144539],
+			[35247, 144772],
+			[34728, 145631],
+			[34816, 145550],
+			[34630, 146472],
+			[34399, 146520],
+			[36363, 147296],
+			[47344, 145820],
+			[47250, 145887],
+			[48982, 146167],
+			[48973, 146424],
+			[47696, 143483],
+			[46560, 143847],
+			[50077, 146354],
+			[50305, 146311],
+			[49849, 145109],
+			[49946, 145311],
+			[51101, 147309],
+			[51368, 147303],
+			[51141, 147117],
+			[49493, 143403],
+			[52361, 144134],
+			[52136, 143744],
+			[50492, 144601],
+			[62036, 145824],
+			[62166, 145842],
+			[62103, 145738],
+			[62398, 146693],
+			[62979, 144864],
+			[62914, 144318],
+			[38029, 148470],
+			[39171, 150517],
+			[39310, 149672],
+			[44037, 149451],
+			[44333, 149344],
+			[44356, 148266],
+			[44239, 148442],
+			[45181, 147872],
+			[45183, 147713],
+			[46179, 148804],
+			[55146, 148545],
+			[55248, 148342],
+			[54889, 148286],
+			[64081, 150296],
+			[64359, 150631],
+			[36001, 154688],
+			[36311, 154385],
+			[36229, 154503],
+			[35442, 153750],
+			[42762, 152669],
+			[43200, 152260],
+			[43024, 152155],
+			[47269, 153633],
+			[47242, 153497],
+			[47477, 152949],
+			[52376, 153783],
+			[52677, 153324],
+			[52884, 153274],
+			[53562, 154770],
+			[53638, 154521],
+			[54690, 154178],
+			[54717, 154294],
+			[54952, 153947],
+			[54659, 154070],
+			[55956, 152250],
+			[63051, 154920],
+			[63405, 155484],
+			[63458, 154791],
+			[63535, 154387],
+			[63622, 154547],
+			[35976, 159658],
+			[55439, 159126],
+			[55263, 159180],
+			[56379, 158905],
+			[59862, 158933],
+			[59512, 158718],
+			[59475, 158619],
+			[58945, 157751],
+			[63833, 159022],
+			[63753, 158874],
+			[34941, 162817],
+			[36291, 160163],
+			[35527, 161022],
+			[34974, 160960],
+			[33223, 160727],
+			[33365, 160524],
+			[56363, 161080],
+			[56429, 160938],
+			[56536, 161669],
+			[56309, 161437],
+			[56522, 160616],
+			[62644, 162494],
+			[62130, 161547],
+			[62256, 161669],
+			[63136, 160541],
+			[63192, 160359],
+			[3274, 134555],
+			[358, 134658],
+			[1776, 132328],
+			[2043, 134249],
+			[7557, 134695],
+			[7445, 134590],
+			[8049, 133289],
+			[7471, 132890],
+			[6694, 131964],
+			[9331, 131649],
+			[8639, 131669],
+			[10936, 132919],
+			[10297, 132510],
+			[10184, 132382],
+			[9874, 132656],
+			[1988, 135754],
+			[1622, 135681],
+			[3317, 140578],
+			[2860, 140793],
+			[1519, 140602],
+			[5641, 142189],
+			[6106, 142131],
+			[5705, 142035],
+			[6874, 141383],
+			[10832, 142648],
+			[11189, 142467],
+			[11664, 142540],
+			[10577, 143068],
+			[12103, 141827],
+			[31880, 143079],
+			[31549, 143047],
+			[31378, 142860],
+			[31526, 142013],
+			[31430, 141673],
+			[29374, 141641],
+			[29853, 141324],
+			[29934, 141834],
+			[30122, 142038],
+			[30079, 140808],
+			[30748, 141307],
+			[30691, 141184],
+			[2784, 147012],
+			[2773, 146447],
+			[1714, 144830],
+			[1270, 144501],
+			[7245, 145492],
+			[5754, 145192],
+			[5522, 146860],
+			[6276, 147059],
+			[11675, 144521],
+			[11975, 145629],
+			[10859, 145306],
+			[11241, 146244],
+			[14992, 144281],
+			[14639, 143583],
+			[14609, 143703],
+			[16241, 145812],
+			[16006, 146096],
+			[12373, 144825],
+			[19222, 145621],
+			[19129, 145534],
+			[17470, 144590],
+			[17609, 144709],
+			[30595, 146669],
+			[30351, 145917],
+			[30818, 145798],
+			[31200, 144986],
+			[30723, 144571],
+			[864, 148395],
+			[2477, 149440],
+			[2938, 149713],
+			[10560, 149886],
+			[10083, 149655],
+			[14631, 147869],
+			[14872, 147461],
+			[2135, 154008],
+			[1834, 153914],
+			[3600, 153478],
+			[4032, 153710],
+			[4107, 154150],
+			[9625, 153370],
+			[18797, 154816],
+			[21447, 154576],
+			[21369, 154735],
+			[11506, 156280],
+			[11525, 156121],
+			[10406, 156503],
+			[10605, 156289],
+			[10428, 157208],
+			[13101, 156552],
+			[13201, 156447],
+			[19090, 155946],
+			[18845, 156546],
+			[19213, 156793],
+			[19204, 158466],
+			[22975, 158636],
+			[22592, 158532],
+			[21061, 158232],
+			[21385, 158410],
+			[20950, 157411],
+			[20925, 157246],
+			[31403, 157923],
+			[31550, 158288],
+			[30528, 159221],
+			[11705, 160502],
+			[12950, 160280],
+			[13158, 159947],
+			[14259, 161029],
+			[14984, 161769],
+			[20262, 160116],
+			[20363, 159940],
+			[19873, 160201],
+			[21806, 161198],
+			[20614, 161365],
+			[26693, 163595],
+			[31592, 160156],
+			[31616, 159799],
+			[32629, 159807],
+			[-15475, 129574],
+			[-15598, 129393],
+			[-9626, 130874],
+			[-9283, 130726],
+			[-8484, 130757],
+			[-9717, 128606],
+			[-7863, 130467],
+			[-4733, 129838],
+			[-6493, 128872],
+			[-2248, 131061],
+			[-206, 130866],
+			[-1350, 128517],
+			[-2667, 127161],
+			[-98251, 104632],
+			[-97995, 104588],
+			[-97209, 108820],
+			[-97398, 109091],
+			[-97606, 108449],
+			[-91305, 109852],
+			[-91190, 109460],
+			[-89610, 109507],
+			[-95685, 111945],
+			[-96054, 112256],
+			[-96824, 112497],
+			[-92937, 111304],
+			[-92741, 111013],
+			[-92385, 111358],
+			[-87055, 113917],
+			[-86301, 113820],
+			[-86688, 113853],
+			[-83993, 113080],
+			[-83645, 112792],
+			[-84498, 114339],
+			[-84675, 114323],
+			[-80922, 113845],
+			[-80529, 113530],
+			[-80780, 113296],
+			[-96636, 117813],
+			[-96450, 118047],
+			[-96680, 118060],
+			[-93291, 116769],
+			[-93571, 117082],
+			[-93159, 117283],
+			[-87523, 119522],
+			[-88805, 119659],
+			[-88834, 121185],
+			[-87691, 120687],
+			[-87401, 120157],
+			[-84017, 120056],
+			[-83613, 120206],
+			[-84113, 119882],
+			[-83504, 121521],
+			[-76402, 120910],
+			[-76393, 121014],
+			[-76309, 120922],
+			[-76256, 121034],
+			[-72965, 121757],
+			[-73064, 121745],
+			[-73044, 121819],
+			[-97218, 125266],
+			[-97819, 124887],
+			[-97109, 124145],
+			[-97521, 124073],
+			[-80035, 126491],
+			[-79474, 126847],
+			[-74451, 123972],
+			[-74382, 123930],
+			[-74364, 123995],
+			[-73359, 123233],
+			[-73459, 123294],
+			[-73392, 123349],
+			[-67452, 125543],
+			[-67446, 125611],
+			[-67381, 125533],
+			[-95419, 128091],
+			[-95474, 127998],
+			[-96924, 130728],
+			[-97000, 130779],
+			[-88035, 127408],
+			[-84575, 130520],
+			[-84657, 130546],
+			[-83353, 127167],
+			[-79285, 127548],
+			[-79390, 127516],
+			[-78623, 127016],
+			[-76698, 127560],
+			[-76800, 127461],
+			[-70816, 129155],
+			[-70869, 129240],
+			[-70594, 129932],
+			[-70800, 130112],
+			[-70681, 130317],
+			[-124019, 105457],
+			[-124237, 105639],
+			[-118366, 104304],
+			[-111666, 104492],
+			[-106847, 104829],
+			[-109928, 103056],
+			[-109129, 105617],
+			[-109147, 105813],
+			[-105209, 104593],
+			[-104185, 105045],
+			[-104363, 105276],
+			[-100450, 105548],
+			[-101901, 105134],
+			[-101828, 105373],
+			[-101817, 105061],
+			[-126500, 109145],
+			[-124226, 108041],
+			[-119735, 108231],
+			[-120303, 108271],
+			[-120027, 107037],
+			[-116125, 109401],
+			[-113903, 108724],
+			[-110955, 108027],
+			[-110955, 107860],
+			[-108260, 106853],
+			[-108045, 110488],
+			[-109232, 106961],
+			[-110010, 108642],
+			[-104981, 107954],
+			[-102914, 107746],
+			[-105083, 109421],
+			[-98760, 106699],
+			[-99524, 108743],
+			[-99919, 109431],
+			[-99663, 109669],
+			[-123135, 111214],
+			[-124238, 112851],
+			[-120186, 113671],
+			[-119207, 111082],
+			[-120597, 112839],
+			[-114980, 112836],
+			[-117730, 111744],
+			[-114884, 111313],
+			[-111191, 113420],
+			[-99943, 111174],
+			[-126420, 115747],
+			[-123250, 118519],
+			[-122402, 116486],
+			[-115711, 114803],
+			[-112871, 115576],
+			[-107126, 117260],
+			[-103188, 116989],
+			[-105669, 114699],
+			[-99992, 116556],
+			[-120064, 121815],
+			[-116339, 122352],
+			[-112972, 119388],
+			[-110354, 120962],
+			[-108078, 121085],
+			[-105387, 122760],
+			[-103919, 120604],
+			[-99502, 119086],
+			[-114441, 126664],
+			[-104892, 124268],
+			[-100130, 125819],
+			[-128792, 127434],
+			[-128833, 127255],
+			[-128482, 127253],
+			[-113698, 129379],
+			[-108262, 130916],
+			[-108625, 130894],
+			[-109448, 130730],
+			[-109031, 130244],
+			[-109142, 130489],
+			[-108532, 130238],
+			[-108568, 130151],
+			[-109162, 130203],
+			[-159229, 102139],
+			[-159237, 101318],
+			[-155753, 101459],
+			[-155352, 103432],
+			[-152568, 105703],
+			[-162043, 108994],
+			[-163163, 107656],
+			[-163390, 107864],
+			[-160932, 116927],
+			[-160827, 116760],
+			[-160407, 117084],
+			[-163777, 115965],
+			[-163607, 116151],
+			[-157582, 115498],
+			[-163353, 120611],
+			[-159880, 121750],
+			[-157840, 119647],
+			[-159308, 119397],
+			[-159455, 121436],
+			[-154966, 121997],
+			[-159618, 125687],
+			[-158058, 126835],
+			[-154531, 124418],
+			[-156891, 128055],
+			[-156855, 128154],
+			[-158724, 129838],
+			[-158745, 130262],
+			[-148358, 130980],
+			[-134220, 127727],
+			[-131165, 130741],
+			[-134092, 127968],
+			[-134226, 128188],
+			[-174905, 109169],
+			[-174246, 108265],
+			[-172304, 107196],
+			[-169124, 108613],
+			[-168952, 109431],
+			[-166960, 107973],
+			[-167109, 107444],
+			[-180113, 113479],
+			[-179307, 113081],
+			[-173014, 113788],
+			[-175095, 114248],
+			[-175418, 113659],
+			[-170127, 111754],
+			[-170218, 111282],
+			[-179508, 115867],
+			[-179632, 117570],
+			[-179490, 118005],
+			[-178738, 117684],
+			[-169986, 115993],
+			[-169890, 116654],
+			[-164719, 117466],
+			[-164816, 118147],
+			[-179520, 119784],
+			[-179653, 119538],
+			[-179477, 119465],
+			[-176022, 119030],
+			[-176034, 119859],
+			[-175930, 119787],
+			[-165880, 119710],
+			[-166001, 119515],
+			[-166105, 118860],
+			[-181842, 98031],
+			[-182628, 94641],
+			[-180669, 95563],
+			[167025, 101035],
+			[166961, 101108],
+			[166993, 100982],
+			[169112, 98696],
+			[168992, 110607],
+			[152263, 100974],
+			[162547, 99731],
+			[154413, 104803],
+			[154166, 105244],
+			[154449, 105105],
+			[155221, 112776],
+			[155185, 112948],
+			[156877, 111666],
+			[156377, 112401],
+			[154119, 114960],
+			[134892, 129770],
+			[135772, 129751],
+			[141868, 129582],
+			[162581, 92712],
+			[162547, 92653],
+			[131759, 95688],
+			[131263, 95423],
+			[199244, 34236],
+			[202337, 33468],
+			[200361, 38744],
+			[200172, 39880],
+			[200068, 39991],
+			[198449, 38848],
+			[201839, 37620],
+			[201599, 37078],
+			[199737, 42871],
+			[200075, 43769],
+			[199988, 43847],
+			[197048, 43087],
+			[198513, 42263],
+			[198440, 42471],
+			[201984, 43240],
+			[202077, 43405],
+			[202059, 41886],
+			[201856, 41613],
+			[199902, 45546],
+			[164319, 36816],
+			[166319, 35929],
+			[166195, 35866],
+			[165425, 36209],
+			[167837, 32902],
+			[164365, 33499],
+			[164381, 34229],
+			[166117, 34335],
+			[190517, 34713],
+			[190698, 34783],
+			[196395, 33750],
+			[196120, 33467],
+			[195947, 36814],
+			[165872, 38728],
+			[165983, 38646],
+			[166423, 37958],
+			[164771, 37812],
+			[179243, 39113],
+			[190797, 39865],
+			[190722, 39915],
+			[190901, 40450],
+			[191337, 40473],
+			[195254, 38697],
+			[195422, 38622],
+			[194969, 39643],
+			[188001, 42324],
+			[191130, 43290],
+			[189794, 41170],
+			[189609, 43644],
+			[194019, 44277],
+			[194445, 42537],
+			[194640, 42609],
+			[194725, 43007],
+			[193226, 42384],
+			[193205, 42223],
+			[196040, 43088],
+			[162392, 33575],
+			[161393, 35655],
+			[197478, 1938],
+			[197554, 2554],
+			[198011, 1264],
+			[199460, 3099],
+			[203288, 1030],
+			[201034, 246],
+			[202222, 1196],
+			[205008, 2178],
+			[200094, 5018],
+			[197586, 6842],
+			[202176, 5494],
+			[202163, 5333],
+			[203835, 13663],
+			[188468, 1467],
+			[191091, 2195],
+			[190844, 2870],
+			[192592, 40],
+			[194855, 2461],
+			[196084, 38],
+			[193286, 1183],
+			[193197, 1274],
+			[194739, 2758],
+			[164231, 7905],
+			[167243, 7048],
+			[166902, 5559],
+			[166466, 5555],
+			[164411, 6396],
+			[185465, 5648],
+			[185657, 5652],
+			[192219, 6676],
+			[195756, 7486],
+			[194339, 7191],
+			[194257, 6829],
+			[193282, 6894],
+			[193162, 7123],
+			[167226, 10707],
+			[167169, 10801],
+			[164092, 8772],
+			[164183, 8431],
+			[164236, 8541],
+			[165166, 9680],
+			[164922, 11096],
+			[165030, 11006],
+			[169551, 8634],
+			[175059, 9714],
+			[187710, 11074],
+			[192262, 10105],
+			[191688, 11169],
+			[191485, 11847],
+			[195237, 8705],
+			[165894, 14945],
+			[166262, 15867],
+			[166245, 13471],
+			[164922, 12510],
+			[164993, 12469],
+			[166175, 15866],
+			[167760, 12953],
+			[169907, 16128],
+			[173091, 12857],
+			[186030, 14701],
+			[190795, 14979],
+			[188806, 14147],
+			[191995, 15942],
+			[196458, 13356],
+			[196100, 13173],
+			[195439, 13444],
+			[167662, 18211],
+			[164909, 18458],
+			[164925, 18714],
+			[164795, 18589],
+			[171191, 18536],
+			[169947, 17525],
+			[187941, 19754],
+			[185647, 18717],
+			[185711, 18903],
+			[187594, 19112],
+			[191511, 16836],
+			[196007, 18595],
+			[195015, 17192],
+			[194314, 16763],
+			[194190, 17763],
+			[195701, 18386],
+			[194385, 18973],
+			[166356, 24407],
+			[166431, 22895],
+			[166292, 23012],
+			[167107, 21254],
+			[166904, 20965],
+			[192360, 22811],
+			[190550, 20694],
+			[164104, 28554],
+			[167007, 28478],
+			[166968, 28555],
+			[165269, 27385],
+			[164623, 27054],
+			[165311, 26040],
+			[165760, 26265],
+			[165919, 24897],
+			[165722, 24985],
+			[165798, 24916],
+			[170567, 27465],
+			[171455, 26270],
+			[170833, 25656],
+			[171291, 26201],
+			[169628, 26209],
+			[173373, 25227],
+			[173202, 25185],
+			[173344, 24977],
+			[192251, 25156],
+			[192565, 24872],
+			[167868, 31650],
+			[165635, 32313],
+			[165728, 32016],
+			[165682, 31406],
+			[144932, 767],
+			[145714, 1089],
+			[145674, 1135],
+			[145728, 1170],
+			[143861, 2557],
+			[143940, 2626],
+			[147814, 692],
+			[147926, 714],
+			[155021, 3573],
+			[153587, 3484],
+			[147337, 7403],
+			[155021, 7600],
+			[153779, 5302],
+			[154736, 5531],
+			[152544, 5844],
+			[157004, 5000],
+			[158586, 6183],
+			[157585, 6692],
+			[156490, 7798],
+			[156775, 7532],
+			[163071, 5063],
+			[160885, 5503],
+			[161319, 5689],
+			[161953, 6614],
+			[160312, 6616],
+			[162154, 7985],
+			[160834, 7954],
+			[160761, 7895],
+			[161841, 6528],
+			[162905, 5066],
+			[132213, 11695],
+			[132357, 11809],
+			[146239, 10803],
+			[155483, 12258],
+			[151838, 12035],
+			[154488, 11513],
+			[154181, 11244],
+			[154581, 10781],
+			[153780, 10594],
+			[153874, 10017],
+			[153475, 8879],
+			[157031, 11845],
+			[158762, 9936],
+			[157112, 9676],
+			[157192, 9731],
+			[156679, 8663],
+			[157213, 8521],
+			[158832, 11198],
+			[160966, 8941],
+			[162604, 8767],
+			[162925, 9018],
+			[163093, 8954],
+			[160174, 10494],
+			[160448, 9852],
+			[160408, 9919],
+			[161277, 11104],
+			[161843, 11422],
+			[160401, 11872],
+			[161416, 10471],
+			[160617, 11915],
+			[132127, 12483],
+			[138540, 16244],
+			[137370, 12680],
+			[136898, 13248],
+			[142179, 15866],
+			[144533, 16326],
+			[146027, 14787],
+			[144643, 13754],
+			[149105, 16180],
+			[148620, 15442],
+			[155518, 12354],
+			[157320, 13261],
+			[159206, 13246],
+			[156609, 12623],
+			[161134, 13000],
+			[159960, 13862],
+			[159867, 14518],
+			[159962, 14581],
+			[161878, 15092],
+			[162373, 14507],
+			[162076, 15181],
+			[142886, 19101],
+			[144590, 18504],
+			[163689, 18912],
+			[160803, 20305],
+			[160695, 20097],
+			[162231, 18659],
+			[161129, 20006],
+			[162405, 21212],
+			[162600, 21427],
+			[161735, 23056],
+			[161736, 22913],
+			[161747, 23195],
+			[162355, 24362],
+			[162224, 24434],
+			[162944, 28377],
+			[162761, 30433],
+			[162288, 29973],
+			[162571, 31436],
+			[162027, 31667],
+			[117770, 102010],
+			[117108, 101976],
+			[117391, 102013],
+			[117852, 102605],
+			[117891, 103378],
+			[124880, 107593],
+			[125117, 108234],
+			[123435, 106664],
+			[123709, 106689],
+			[124120, 107087],
+			[125008, 107660],
+			[113065, 117044],
+			[114024, 115928],
+			[114071, 116197],
+			[112987, 114942],
+			[67108, 130068],
+			[67086, 130243],
+			[66905, 127391],
+			[66909, 127246],
+			[67000, 127375],
+			[67006, 127266],
+			[72124, 129679],
+			[72227, 129633],
+			[72225, 129743],
+			[79172, 130785],
+			[79235, 130687],
+			[79115, 130673],
+			[83077, 130756],
+			[83003, 130759],
+			[83060, 130866],
+			[50874, 126943],
+			[37036, 130516],
+			[36864, 130266],
+			[38245, 130828],
+			[43529, 129965],
+			[43816, 130066],
+			[47527, 128727],
+			[47463, 128845],
+			[47333, 128849],
+			[49784, 130946],
+			[50884, 128299],
+			[51022, 127123],
+			[58572, 127345],
+			[2221, 130731],
+			[3419, 129222],
+			[1354, 128581],
+			[451, 127827],
+			[5203, 128682],
+			[4932, 128824],
+			[10387, 128372],
+			[10476, 128669],
+			[104945, 83590],
+			[106030, 84176],
+			[113767, 83358],
+			[113624, 83447],
+			[110115, 86726],
+			[110365, 86831],
+			[110849, 88774],
+			[116436, 93476],
+			[116226, 93423],
+			[100280, 2034],
+			[119101, 2070],
+			[119380, 2560],
+			[120254, 1684],
+			[120624, 1607],
+			[120715, 1878],
+			[121811, 2347],
+			[121911, 2336],
+			[121371, 2379],
+			[122513, 2326],
+			[122833, 2253],
+			[123344, 3182],
+			[124437, 3385],
+			[124228, 3122],
+			[124412, 2819],
+			[124529, 2391],
+			[125537, 2514],
+			[125788, 1819],
+			[125790, 1737],
+			[124667, 1696],
+			[124753, 1093],
+			[126457, 450],
+			[126609, 413],
+			[120275, 7008],
+			[121329, 7078],
+			[121657, 6985],
+			[122772, 6450],
+			[122734, 5693],
+			[122836, 5875],
+			[123388, 5034],
+			[123440, 4773],
+			[123535, 4439],
+			[122981, 6942],
+			[118516, 10849],
+			[118711, 10820],
+			[118602, 11595],
+			[121692, 11536],
+			[121303, 11265],
+			[120590, 10951],
+			[120871, 11298],
+			[121144, 11484],
+			[119565, 11776],
+			[125572, 11773],
+			[124603, 11000],
+			[124272, 10224],
+			[124600, 9430],
+			[125727, 10226],
+			[120921, 12464],
+			[121624, 12583],
+			[121255, 13243],
+			[121737, 13800],
+			[125139, 16097],
+			[124545, 16368],
+			[123391, 14041],
+			[124385, 14871],
+			[124794, 13934],
+			[124348, 17680],
+			[123548, 16531],
+			[126159, 19084],
+			[126784, 17696],
+			[125262, 17173],
+			[90110, 6231],
+			[90011, 6429],
+			[90120, 6125],
+			[90171, 6003]
+		];
+		for (var i = 0; i < paporotnik.length; i++) {
+			paporotnik_1 = new L.circleMarker([paporotnik[i][0],paporotnik[i][1]], {color: "#425E17"})
+			.bindPopup("Папоротник-мутант")
+			.bindTooltip("Папоротник-мутант", {direction: 'top'})
+			.addTo(paporotnikicons);
+		}
 	}
 	else {
 		paporotnikicons.clearLayers();
 	}
 }
+//2 в Убежище 94
