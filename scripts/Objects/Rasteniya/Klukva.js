@@ -1,150 +1,158 @@
-	var klukvaicons = L.layerGroup().addTo(map);
-	function KlukvaOnOff() {
+var klukvaicons = L.layerGroup().addTo(map);
+function KlukvaOnOff() {
 	var chbox;
 	chbox=document.getElementById('KlukvaButton');
 	if (chbox.checked) {
-	L.circleMarker([-168911, -13968], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-169006, -12905], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-169631, -13303], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-168392, -13771], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([175051, -127358], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([176098, -127409], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([173944, -127058], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([175411, -126828], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([173590, -126751], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([174988, -125689], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([174511, -126668], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([175745, -126177], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([174735, -125986], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([176208, -126828], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-74335, 170209], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75048, 168872], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-74027, 169374], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-71312, 171072], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-71064, 171640], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-73544, 169416], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-73020, 171115], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-73472, 171096], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-71856, 169040], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-71328, 168520], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-71798, 170232], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-72896, 168440], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-73149, 170334], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-73464, 170656], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119563, 171924], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120336, 171795], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119942, 171740], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-118278, 171079], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119877, 173999], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120670, 174528], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120492, 172613], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119502, 172203], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120185, 172495], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120448, 172384], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120032, 172672], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120456, 172163], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119762, 172443], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119777, 172032], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120655, 174730], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-123440, 191736], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-120635, 191163], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-115908, 190296], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-123272, 194784], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-124632, 194536], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119159, 195138], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-119730, 196022], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-121224, 192544], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-118008, 193016], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-87161, 151061], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-87262, 151149], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75473, 158895], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75765, 159638], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-76915, 159587], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-73667, 159307], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-78030, 162145], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-78107, 162032], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-77954, 161809], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75043, 162195], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75078, 162248], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75136, 162328], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-76573, 162271], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-76658, 162042], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-76718, 162182], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75402, 161224], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75827, 161070], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-74261, 160399], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-76782, 160823], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-77781, 162666], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75698, 162222], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-74446, 159986], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-75874, 159786], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-77001, 159836], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-158018, 171766], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-172352, 184040], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-172335, 182628], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-171578, 183333], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-171882, 184160], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-170157, 181880], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-172720, 185096], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-173356, 186480], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-172236, 184809], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-172634, 185573], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-173432, 186255], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-173056, 186099], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-173465, 187095], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-173133, 185794], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-171886, 185430], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-170039, 185258], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-163327, 131294], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-155885, 131281], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-160640, 155403], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-162963, 151681], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-162578, 154177], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-163772, 155386], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-162703, 155079], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-162956, 154383], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-162851, 152868], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-163483, 155919], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-177749, 138354], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-178964, 136431], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-172364, 142048], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-171996, 147490], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164860, 154678], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164896, 153944], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164688, 152928], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164320, 151872], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164746, 154954], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-163879, 154092], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-163944, 153770], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164560, 153114], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164968, 152281], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-170429, 157338], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-164504, 156080], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-170911, 161704], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-167772, 161419], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-102842, 122384], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-102639, 121691], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-100295, 121021], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-98682, 123059], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-144761, 109259], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-133702, 114240], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-150814, 118622], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-145596, 116103], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-142407, 117312], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-139063, 118630], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-138503, 119623], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-157278, 124941], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-152858, 124729], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-148585, 123212], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-163530, 130779], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-152860, 127431], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-148675, 127232], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-175349, 122465], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-173171, 120177], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-169971, 121468], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-175563, 123236], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-175524, 123551], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
-	L.circleMarker([-165185, 125706], {color: "#9e003a"}).addTo(klukvaicons).bindPopup("Клюква").bindTooltip("Клюква", {direction: 'top'});
+		var klukva = [
+			[-168911, -13968],
+			[-169006, -12905],
+			[-169631, -13303],
+			[-168392, -13771],
+			[175051, -127358],
+			[176098, -127409],
+			[173944, -127058],
+			[175411, -126828],
+			[173590, -126751],
+			[174988, -125689],
+			[174511, -126668],
+			[175745, -126177],
+			[174735, -125986],
+			[176208, -126828],
+			[-74335, 170209],
+			[-75048, 168872],
+			[-74027, 169374],
+			[-71312, 171072],
+			[-71064, 171640],
+			[-73544, 169416],
+			[-73020, 171115],
+			[-73472, 171096],
+			[-71856, 169040],
+			[-71328, 168520],
+			[-71798, 170232],
+			[-72896, 168440],
+			[-73149, 170334],
+			[-73464, 170656],
+			[-119563, 171924],
+			[-120336, 171795],
+			[-119942, 171740],
+			[-118278, 171079],
+			[-119877, 173999],
+			[-120670, 174528],
+			[-120492, 172613],
+			[-119502, 172203],
+			[-120185, 172495],
+			[-120448, 172384],
+			[-120032, 172672],
+			[-120456, 172163],
+			[-119762, 172443],
+			[-119777, 172032],
+			[-120655, 174730],
+			[-123440, 191736],
+			[-120635, 191163],
+			[-115908, 190296],
+			[-123272, 194784],
+			[-124632, 194536],
+			[-119159, 195138],
+			[-119730, 196022],
+			[-121224, 192544],
+			[-118008, 193016],
+			[-87161, 151061],
+			[-87262, 151149],
+			[-75473, 158895],
+			[-75765, 159638],
+			[-76915, 159587],
+			[-73667, 159307],
+			[-78030, 162145],
+			[-78107, 162032],
+			[-77954, 161809],
+			[-75043, 162195],
+			[-75078, 162248],
+			[-75136, 162328],
+			[-76573, 162271],
+			[-76658, 162042],
+			[-76718, 162182],
+			[-75402, 161224],
+			[-75827, 161070],
+			[-74261, 160399],
+			[-76782, 160823],
+			[-77781, 162666],
+			[-75698, 162222],
+			[-74446, 159986],
+			[-75874, 159786],
+			[-77001, 159836],
+			[-158018, 171766],
+			[-172352, 184040],
+			[-172335, 182628],
+			[-171578, 183333],
+			[-171882, 184160],
+			[-170157, 181880],
+			[-172720, 185096],
+			[-173356, 186480],
+			[-172236, 184809],
+			[-172634, 185573],
+			[-173432, 186255],
+			[-173056, 186099],
+			[-173465, 187095],
+			[-173133, 185794],
+			[-171886, 185430],
+			[-170039, 185258],
+			[-163327, 131294],
+			[-155885, 131281],
+			[-160640, 155403],
+			[-162963, 151681],
+			[-162578, 154177],
+			[-163772, 155386],
+			[-162703, 155079],
+			[-162956, 154383],
+			[-162851, 152868],
+			[-163483, 155919],
+			[-177749, 138354],
+			[-178964, 136431],
+			[-172364, 142048],
+			[-171996, 147490],
+			[-164860, 154678],
+			[-164896, 153944],
+			[-164688, 152928],
+			[-164320, 151872],
+			[-164746, 154954],
+			[-163879, 154092],
+			[-163944, 153770],
+			[-164560, 153114],
+			[-164968, 152281],
+			[-170429, 157338],
+			[-164504, 156080],
+			[-170911, 161704],
+			[-167772, 161419],
+			[-102842, 122384],
+			[-102639, 121691],
+			[-100295, 121021],
+			[-98682, 123059],
+			[-144761, 109259],
+			[-133702, 114240],
+			[-150814, 118622],
+			[-145596, 116103],
+			[-142407, 117312],
+			[-139063, 118630],
+			[-138503, 119623],
+			[-157278, 124941],
+			[-152858, 124729],
+			[-148585, 123212],
+			[-163530, 130779],
+			[-152860, 127431],
+			[-148675, 127232],
+			[-175349, 122465],
+			[-173171, 120177],
+			[-169971, 121468],
+			[-175563, 123236],
+			[-175524, 123551],
+			[-165185, 125706]
+		];
+		for (var i = 0; i < klukva.length; i++) {
+			klukva_1 = new L.circleMarker([klukva[i][0],klukva[i][1]], {color: "#9e003a"})
+			.bindPopup("Клюква")
+			.bindTooltip("Клюква", {direction: 'top'})
+			.addTo(klukvaicons);
+		}
 	}
 	else {
 		klukvaicons.clearLayers();
