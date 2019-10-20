@@ -66,19 +66,19 @@ if(window.location.hash == '#cvetoktoshki') {CvetokToshkiButton.checked = 1; Cve
 if(window.location.hash == '#cvetoktyikvyi') {CvetokTyikvyiButton.checked = 1; CvetokTyikvyiOnOff();}
 if(window.location.hash == '#cvetokarbuza') {CvetokArbuzaButton.checked = 1; CvetokArbuzaOnOff();}
 if(window.location.hash == '#cvetokmorkovi') {CvetokMorkoviButton.checked = 1; CvetokMorkoviOnOff();}
-// -------------------- Без включения локаций --------------------
+// -------------------- Без остального --------------------
 if(window.location.hash == '#treasure_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; TreasureButton.checked = 1; TreasureOnOff();}
 if(window.location.hash == '#magazine_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; MagazineButton.checked = 1; MagazineOnOff();}
 if(window.location.hash == '#bobblehead_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; BobbleheadButton.checked = 1; BobbleheadOnOff();}
 if(window.location.hash == '#capstash_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; CapStashButton.checked = 1; CapStashOnOff();}
-// Случайные встречи (без локаций)
+// Случайные встречи (без остального)
 if(window.location.hash == '#assault_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; REAssaultButton.checked = 1; REAssaultOnOff();}
 if(window.location.hash == '#object_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; REObjectButton.checked = 1; REObjectOnOff();}
 if(window.location.hash == '#scene_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; RESceneButton.checked = 1; RESceneOnOff();}
 if(window.location.hash == '#travel_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; RETravelButton.checked = 1; RETravelOnOff();}
 // Мобы
 if(window.location.hash == '#strangemobs_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; StrangeMobsButton.checked = 1; StrangeMobsOnOff();}
-// Месторождения для экстракторов (без локаций)
+// Месторождения для экстракторов (без остального)
 if(window.location.hash == '#medy_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; MedyButton.checked = 1; MedyOnOff();}
 if(window.location.hash == '#hlam_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; HlamButton.checked = 1; HlamOnOff();}
 if(window.location.hash == '#ugoly_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; UgolyButton.checked = 1; UgolyOnOff();}
@@ -94,7 +94,7 @@ if(window.location.hash == '#aluminiy_0') {allicons.clearLayers();LocationsButto
 if(window.location.hash == '#kristalli_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; KristalliButton.checked = 1; KristalliOnOff();}
 if(window.location.hash == '#chorniytitan_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; ChorniyTitanButton.checked = 1; ChorniyTitanOnOff();}
 if(window.location.hash == '#yaderniymaterial_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; YaderniyMaterialButton.checked = 1; YaderniyMaterialOnOff();}
-// Растения (без локаций)
+// Растения (без остального)
 if(window.location.hash == '#grib_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; GribButton.checked = 1; GribOnOff();}
 if(window.location.hash == '#arbuz_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; ArbuzButton.checked = 1; ArbuzOnOff();}
 if(window.location.hash == '#astra_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; AstraButton.checked = 1; AstraOnOff();}
@@ -133,6 +133,7 @@ if(window.location.hash == '#cvetoktoshki_0') {allicons.clearLayers();LocationsB
 if(window.location.hash == '#cvetoktyikvyi_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; CvetokTyikvyiButton.checked = 1; CvetokTyikvyiOnOff();}
 if(window.location.hash == '#cvetokarbuza_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; CvetokArbuzaButton.checked = 1; CvetokArbuzaOnOff();}
 if(window.location.hash == '#cvetokmorkovi_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar0.style.display = 'none'; donat0.style.display = 'none'; CvetokMorkoviButton.checked = 1; CvetokMorkoviOnOff();}
+// Локации
 for (i=1; i < 368; i++) {if(window.location.hash == "#"+[i]) {m[i].openPopup(); map.flyTo(m[i].getLatLng(), -7);}}
 history.pushState("", document.title, window.location.pathname + window.location.search);
 }
