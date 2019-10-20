@@ -542,6 +542,9 @@
 		.emptybox2 {position: relative; height: 10px; width: 100%;}
 		
 		.fancybox-custom .fancybox-skin {box-shadow: 0 0 50px #222;}
+		
+		.b_url_i {width: 15px; height: 15px;}
+		.b_url2 {position: relative; top: 1px; display: inline-block; margin-right: 8px;}
 	</style>
 </head>
 <body onload="initMap()">
@@ -725,7 +728,7 @@
 	function closeinfo() {
 	zatemnenie.style.display = "none";
 	}
-	var clipboard = new Clipboard('.buttonurl');
+	var clipboard = new Clipboard('.b_url');
 	clipboard.on('success', function(e) {
 	var btn = $(e.trigger);
 	});	
@@ -885,10 +888,10 @@ LocationsOnOff();
 		<label class="switch" id="switch7"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="switch23"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
 		<label class="switch" id="switch24"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#treasure"><input type="image" src="css/images/url.png" alt="ОК" id="url1_1" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#magazine"><input type="image" src="css/images/url.png" alt="ОК" id="url1_2" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#bobblehead"><input type="image" src="css/images/url.png" alt="ОК" id="url1_3" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#capstash"><input type="image" src="css/images/url.png" alt="ОК" id="url1_4" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#treasure"><input type="image" src="css/images/url.png" alt="ОК" id="url1_1" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#magazine"><input type="image" src="css/images/url.png" alt="ОК" id="url1_2" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#bobblehead"><input type="image" src="css/images/url.png" alt="ОК" id="url1_3" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#capstash"><input type="image" src="css/images/url.png" alt="ОК" id="url1_4" width="12" height="12" title="Скопировать ссылку"></div>
 		</div>
 	</ul>
 </li>
@@ -909,10 +912,10 @@ LocationsOnOff();
 		<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
 (Откроется в новой вкладке)" style="padding: 0;"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
 		</div>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="url2_1" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="url2_2" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="url2_3" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="url2_4" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="url2_1" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="url2_2" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="url2_3" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="url2_4" width="12" height="12" title="Скопировать ссылку"></div>
 		</div>
 	</ul>
 </li>
@@ -924,7 +927,7 @@ LocationsOnOff();
 	<div style="height: 48px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
 		<div class="text" id="strangemobs_text">Места спавна флэтвудского монстра<br>и молерота (спавнятся ночью)</div>
 		<label class="switch" id="strangemobs_switch"><input type="checkbox" onchange="StrangeMobsOnOff()" id="StrangeMobsButton" autocomplete="off"><span class="slider"></span></label>
-		<div class="buttonurl" data-clipboard-text="https://f76map.ru#strangemobs"><input type="image" src="css/images/url.png" alt="ОК" id="url5" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#strangemobs"><input type="image" src="css/images/url.png" alt="ОК" id="url5" width="12" height="12" title="Скопировать ссылку"></div>
 	</ul>
 </li>
 <li>
@@ -963,21 +966,21 @@ LocationsOnOff();
 			<label class="switch" id="switch20"><input type="checkbox" onchange="KristalliOnOff()" id="KristalliButton" autocomplete="off"><span class="slider"></span></label>
 			<label class="switch" id="switch21"><input type="checkbox" onchange="ChorniyTitanOnOff()" id="ChorniyTitanButton" autocomplete="off"><span class="slider"></span></label>
 			<label class="switch" id="switch22"><input type="checkbox" onchange="YaderniyMaterialOnOff()" id="YaderniyMaterialButton" autocomplete="off"><span class="slider"></span></label>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#medy"><input type="image" src="css/images/url.png" id="url3_1" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#hlam"><input type="image" src="css/images/url.png" id="url3_2" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#ugoly"><input type="image" src="css/images/url.png" id="url3_3" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#beton"><input type="image" src="css/images/url.png" id="url3_4" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#maslo"><input type="image" src="css/images/url.png" id="url3_5" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#zoloto"><input type="image" src="css/images/url.png" id="url3_6" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#jelezo"><input type="image" src="css/images/url.png" id="url3_7" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#svinec"><input type="image" src="css/images/url.png" id="url3_8" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#serebro"><input type="image" src="css/images/url.png" id="url3_9" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#kislota"><input type="image" src="css/images/url.png" id="url3_10" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#udobrenie"><input type="image" src="css/images/url.png" id="url3_11" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#aluminiy"><input type="image" src="css/images/url.png" id="url3_12" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#kristalli"><input type="image" src="css/images/url.png" id="url3_13" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#chorniytitan"><input type="image" src="css/images/url.png" id="url3_14" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#yaderniymaterial"><input type="image" src="css/images/url.png" id="url3_15" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#medy"><input type="image" src="css/images/url.png" id="url3_1" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#hlam"><input type="image" src="css/images/url.png" id="url3_2" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#ugoly"><input type="image" src="css/images/url.png" id="url3_3" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#beton"><input type="image" src="css/images/url.png" id="url3_4" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#maslo"><input type="image" src="css/images/url.png" id="url3_5" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#zoloto"><input type="image" src="css/images/url.png" id="url3_6" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#jelezo"><input type="image" src="css/images/url.png" id="url3_7" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#svinec"><input type="image" src="css/images/url.png" id="url3_8" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#serebro"><input type="image" src="css/images/url.png" id="url3_9" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#kislota"><input type="image" src="css/images/url.png" id="url3_10" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#udobrenie"><input type="image" src="css/images/url.png" id="url3_11" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#aluminiy"><input type="image" src="css/images/url.png" id="url3_12" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#kristalli"><input type="image" src="css/images/url.png" id="url3_13" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#chorniytitan"><input type="image" src="css/images/url.png" id="url3_14" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#yaderniymaterial"><input type="image" src="css/images/url.png" id="url3_15" width="12" height="12" title="Скопировать ссылку"></div>
 		</div>
 	</ul>
 </li>
@@ -1102,44 +1105,44 @@ LocationsOnOff();
 			<label class="switch" id="plants_switch17_2"><input type="checkbox" onchange="CvetokTyikvyiOnOff()" id="CvetokTyikvyiButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch18_2"><input type="checkbox" onchange="CvetokArbuzaOnOff()" id="CvetokArbuzaButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch19_2"><input type="checkbox" onchange="CvetokMorkoviOnOff()" id="CvetokMorkoviButton" autocomplete="off"><span class="slider"></span></label>	
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#grib"><input type="image" src="css/images/url.png" id="url4_1" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#arbuz"><input type="image" src="css/images/url.png" id="url4_2" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#astra"><input type="image" src="css/images/url.png" id="url4_3" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#toshka"><input type="image" src="css/images/url.png" id="url4_4" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#tyikva"><input type="image" src="css/images/url.png" id="url4_5" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#klukva"><input type="image" src="css/images/url.png" id="url4_6" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#morkovy"><input type="image" src="css/images/url.png" id="url4_7" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#ejevika"><input type="image" src="css/images/url.png" id="url4_8" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#kukuruza"><input type="image" src="css/images/url.png" id="url4_9" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#lihocvet"><input type="image" src="css/images/url.png" id="url4_10" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#ilofasoly"><input type="image" src="css/images/url.png" id="url4_11" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#krovolist"><input type="image" src="css/images/url.png" id="url4_12" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#mozgogrib"><input type="image" src="css/images/url.png" id="url4_13" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#mutafrukt"><input type="image" src="css/images/url.png" id="url4_14" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#peplocvet"><input type="image" src="css/images/url.png" id="url4_15" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#smolyanika"><input type="image" src="css/images/url.png" id="url4_16" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#hvostolom"><input type="image" src="css/images/url.png" id="url4_17" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#britvozlak"><input type="image" src="css/images/url.png" id="url4_18" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#gryaznocvet"><input type="image" src="css/images/url.png" id="url4_19" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#rododendron"><input type="image" src="css/images/url.png" id="url4_2_1" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#chertopoloh"><input type="image" src="css/images/url.png" id="url4_2_2" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#nochnoypolzun"><input type="image" src="css/images/url.png" id="url4_2_3" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#nutryanoygrib"><input type="image" src="css/images/url.png" id="url4_2_4" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#ognenniygrib"><input type="image" src="css/images/url.png" id="url4_2_5" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#yaycomolerota"><input type="image" src="css/images/url.png" id="url4_2_6" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#pepelynayaroza"><input type="image" src="css/images/url.png" id="url4_2_7" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#yagodahlopushka"><input type="image" src="css/images/url.png" id="url4_2_8" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#korenyjenyshenya"><input type="image" src="css/images/url.png" id="url4_2_9" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#svetgrib"><input type="image" src="css/images/url.png" id="url4_2_10" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru##cvetokdushitelya"><input type="image" src="css/images/url.png" id="url4_2_11" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#svetsmola"><input type="image" src="css/images/url.png" id="url4_2_12" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#zarajklukva"><input type="image" src="css/images/url.png" id="url4_2_13" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#paporotnik"><input type="image" src="css/images/url.png" id="url4_2_14" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#kizil"><input type="image" src="css/images/url.png" id="url4_2_15" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetoktoshki"><input type="image" src="css/images/url.png" id="url4_2_16" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetoktyikvyi"><input type="image" src="css/images/url.png" id="url4_2_17" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetokarbuza"><input type="image" src="css/images/url.png" id="url4_2_18" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="buttonurl" data-clipboard-text="https://f76map.ru#cvetokmorkovi"><input type="image" src="css/images/url.png" id="url4_2_19" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#grib"><input type="image" src="css/images/url.png" id="url4_1" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#arbuz"><input type="image" src="css/images/url.png" id="url4_2" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#astra"><input type="image" src="css/images/url.png" id="url4_3" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#toshka"><input type="image" src="css/images/url.png" id="url4_4" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#tyikva"><input type="image" src="css/images/url.png" id="url4_5" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#klukva"><input type="image" src="css/images/url.png" id="url4_6" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#morkovy"><input type="image" src="css/images/url.png" id="url4_7" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#ejevika"><input type="image" src="css/images/url.png" id="url4_8" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#kukuruza"><input type="image" src="css/images/url.png" id="url4_9" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#lihocvet"><input type="image" src="css/images/url.png" id="url4_10" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#ilofasoly"><input type="image" src="css/images/url.png" id="url4_11" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#krovolist"><input type="image" src="css/images/url.png" id="url4_12" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#mozgogrib"><input type="image" src="css/images/url.png" id="url4_13" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#mutafrukt"><input type="image" src="css/images/url.png" id="url4_14" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#peplocvet"><input type="image" src="css/images/url.png" id="url4_15" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#smolyanika"><input type="image" src="css/images/url.png" id="url4_16" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#hvostolom"><input type="image" src="css/images/url.png" id="url4_17" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#britvozlak"><input type="image" src="css/images/url.png" id="url4_18" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#gryaznocvet"><input type="image" src="css/images/url.png" id="url4_19" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#rododendron"><input type="image" src="css/images/url.png" id="url4_2_1" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#chertopoloh"><input type="image" src="css/images/url.png" id="url4_2_2" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#nochnoypolzun"><input type="image" src="css/images/url.png" id="url4_2_3" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#nutryanoygrib"><input type="image" src="css/images/url.png" id="url4_2_4" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#ognenniygrib"><input type="image" src="css/images/url.png" id="url4_2_5" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#yaycomolerota"><input type="image" src="css/images/url.png" id="url4_2_6" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#pepelynayaroza"><input type="image" src="css/images/url.png" id="url4_2_7" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#yagodahlopushka"><input type="image" src="css/images/url.png" id="url4_2_8" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#korenyjenyshenya"><input type="image" src="css/images/url.png" id="url4_2_9" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#svetgrib"><input type="image" src="css/images/url.png" id="url4_2_10" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru##cvetokdushitelya"><input type="image" src="css/images/url.png" id="url4_2_11" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#svetsmola"><input type="image" src="css/images/url.png" id="url4_2_12" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#zarajklukva"><input type="image" src="css/images/url.png" id="url4_2_13" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#paporotnik"><input type="image" src="css/images/url.png" id="url4_2_14" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#kizil"><input type="image" src="css/images/url.png" id="url4_2_15" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetoktoshki"><input type="image" src="css/images/url.png" id="url4_2_16" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetoktyikvyi"><input type="image" src="css/images/url.png" id="url4_2_17" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetokarbuza"><input type="image" src="css/images/url.png" id="url4_2_18" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetokmorkovi"><input type="image" src="css/images/url.png" id="url4_2_19" width="12" height="12" title="Скопировать ссылку"></div>
 			<div class="emptybox"></div>
 		</div>
 	</ul>
@@ -1889,13 +1892,13 @@ LocationsOnOff();
 	<p>Я не настаиваю и не выпрашиваю пожертвования (хотя если честно - не отказался бы =D), но если вы все же решитесь на это, то переубеждать не буду и заранее благодарю.</p>
 	<div style="text-align: center; margin: 30px 0 20px 0;">QIWI - <a href="https://qiwi.me/f76map" rel="nofollow" target="_blank">https://qiwi.me/f76map</a></div>
 	<div style="text-align: center; margin: 20px 0;">
-	<div style="display: inline-block; width: 210px;">VISA - 4890494559903471</div><div class="buttonurl" style="display: inline-block; cursor: pointer; font-size: 10pt;" data-clipboard-text="4890494559903471">[cкопировать]</div>
+	<div style="display: inline-block; width: 210px;">VISA - 4890494559903471</div><div class="b_url" style="display: inline-block; cursor: pointer; font-size: 10pt;" data-clipboard-text="4890494559903471">[cкопировать]</div>
 	</div>
 </div>
 <a class="fancybox" id="donat0" href="#donat" title=""><img src="donat.png" style="position: absolute; right: 5px; bottom: 5px; width: 100px; z-index: 1000;" alt=""/></a>
 <script type="application/javascript">
-urlhash();
 HlamButtons();
+setTimeout(urlhash, 1000);
 </script>
 <script>$('.fancybox').fancybox();</script>
 </body>
