@@ -42,7 +42,7 @@
 
 	<script type="text/javascript" src="scripts/jquery.fancybox.pack.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css"/>
-	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138965528-2"></script>
 	<script>
@@ -67,7 +67,7 @@
 	</script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/53445217" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
-	
+
  <style>
 		@font-face {font-family: LemonMilkRus; src: url(fonts/LemonMilkRus.otf);}
 		@font-face {font-family: PTSerifRegular; src: url(fonts/PTSerifRegular.ttf);}
@@ -545,6 +545,10 @@
 		
 		.b_url_i {width: 15px; height: 15px;}
 		.b_url2 {position: relative; top: 1px; display: inline-block; margin-right: 8px;}
+		
+		#url_m_1 {position: absolute; top: 10px; left: 10px;}
+		.misc_text {position: absolute; left: 30px; top: 10px; font-size: 9pt;}
+		#misk_switch {position: absolute; left: 170px; top: 6px;}
 	</style>
 </head>
 <body onload="initMap()">
@@ -636,6 +640,8 @@
 		.setLatLng(e.latlng)
 		.addTo(allmarkers)
 	});
+	map.createPane("top");
+	map.getPane("top").style.zIndex = 999;
 	function f_sb0() {
 	var sidebarmove = document.getElementById('sidebar');
 	if (sidebarmove.style.left == '0px'){
@@ -721,6 +727,8 @@
 	vein1icons.clearLayers(); vein2icons.clearLayers(); vein3icons.clearLayers(); vein4icons.clearLayers(); vein5icons.clearLayers();
 	vein6icons.clearLayers(); vein7icons.clearLayers(); vein8icons.clearLayers(); vein9icons.clearLayers(); vein10icons.clearLayers();
 	vein11icons.clearLayers();
+	
+	portadinericons.clearLayers();
 	}
 	function openinfo() {
 	zatemnenie.style.display = "block";
@@ -850,6 +858,8 @@
 <script src="scripts/Objects/Hlam/Hlam7.js"></script>
 
 <script src="scripts/Objects/Rudyi.js"></script>
+
+<script src="scripts/Objects/PortADiner.js"></script>
 
 <script src="scripts/url-hash.js"></script>
 
@@ -1858,6 +1868,17 @@ LocationsOnOff();
 			<div id="box_h_b">
 			</div>
 		</div>
+	</ul>
+</li>
+<li>
+	<div class="dropdownlink"><i class="fa fa-asterisk" aria-hidden="true"></i> Разное
+		<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	</div>
+	<ul class="submenuItems">
+	<div style="height: 30px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+		<div class="misc_text">Портативный обед</div>
+		<label class="switch" id="misk_switch"><input type="checkbox" onchange="PortADinerOnOff()" id="PortADinerButton" autocomplete="off"><span class="slider"></span></label>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#portadiner"><input type="image" src="css/images/url.png" id="url_m_1" width="12" height="12" title="Скопировать ссылку"></div>
 	</ul>
 </li>
 </ul>
