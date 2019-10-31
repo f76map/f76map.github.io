@@ -2313,7 +2313,7 @@ function Vein3OnOff() {
 			["Жила кристаллов - 24 шт.<br>[Внутри локации Шахта &quotСчастливая дыра&quot]", -138108, 88917, "#bebebe", "#000000", "0.8"]
 			];
 	for (var i = 0; i < vein3.length; i++) {
-				vein_3 = new L.circleMarker([vein3[i][1],vein3[i][2]], {color: vein3[i][3], fillColor: vein3[i][4], fillOpacity: vein3[i][5]})
+				vein_3 = new L.circleMarker([vein3[i][1],vein3[i][2]], {pane: "top", color: vein3[i][3], fillColor: vein3[i][4], fillOpacity: vein3[i][5]})
 					.bindPopup(vein3[i][0])
 					.bindTooltip(vein3[i][0], {direction: 'top'})
 					.addTo(vein3icons);
@@ -5427,7 +5427,7 @@ function Vein11OnOff() {
 			["Урановая жила - 1 шт.<br>[Внутри локации Штаб-квартира &quotХорнрайт индастриал&quot]", -46784, -108174, "#7fff00", "#000000", "0.8"]
 			];
 	for (var i = 0; i < vein11.length; i++) {
-				vein_11 = new L.circleMarker([vein11[i][1],vein11[i][2]], {color: vein11[i][3], fillColor: vein11[i][4], fillOpacity: vein11[i][5]})
+				vein_11 = new L.circleMarker([vein11[i][1],vein11[i][2]], {pane: "top", color: vein11[i][3], fillColor: vein11[i][4], fillOpacity: vein11[i][5]})
 					.bindPopup(vein11[i][0])
 					.bindTooltip(vein11[i][0], {direction: 'top'})
 					.addTo(vein11icons);
