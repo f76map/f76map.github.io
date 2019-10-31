@@ -309,13 +309,13 @@ function KukuruzaOnOff() {
 			["Кукуруза - 2 шт.<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466]
 		];
 		for (var i = 0; i < kukuruza1.length; i++) {
-			kukuruza1_1 = new L.circleMarker([kukuruza1[i][0],kukuruza1[i][1]], {color: "#F0E68C"})
+			kukuruza1_1 = new L.circleMarker([kukuruza1[i][0],kukuruza1[i][1]], {pane: "top", color: "#F0E68C"})
 			.bindPopup("Кукуруза")
 			.bindTooltip("Кукуруза", {direction: 'top'})
 			.addTo(kukuruzaicons);
 		}
 		for (var i = 0; i < kukuruza2.length; i++) {
-			kukuruza2_1 = new L.circleMarker([kukuruza2[i][1],kukuruza2[i][2]], {color: "#F0E68C", fillColor: "#000000", fillOpacity: "0.8"})
+			kukuruza2_1 = new L.circleMarker([kukuruza2[i][1],kukuruza2[i][2]], {pane: "top", color: "#F0E68C", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(kukuruza2[i][0])
 			.bindTooltip(kukuruza2[i][0], {direction: 'top'})
 			.addTo(kukuruzaicons);

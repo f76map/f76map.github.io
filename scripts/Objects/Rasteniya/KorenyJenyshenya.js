@@ -31,7 +31,7 @@ function KorenyJenyshenyaOnOff() {
 			[54862, 24868]
 		];
 		for (var i = 0; i < korenyjenyshenya.length; i++) {
-			korenyjenyshenya_1 = new L.circleMarker([korenyjenyshenya[i][0],korenyjenyshenya[i][1]], {color: "#B5B8B1"})
+			korenyjenyshenya_1 = new L.circleMarker([korenyjenyshenya[i][0],korenyjenyshenya[i][1]], {pane: "top", color: "#B5B8B1"})
 			.bindPopup("Корень женьшеня")
 			.bindTooltip("Корень женьшеня", {direction: 'top'})
 			.addTo(korenyjenyshenyaicons);

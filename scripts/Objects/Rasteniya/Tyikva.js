@@ -363,13 +363,13 @@ function TyikvaOnOff() {
 			["Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]", -52810, 6663]
 		];
 		for (var i = 0; i < tyikva1.length; i++) {
-			tyikva1_1 = new L.circleMarker([tyikva1[i][0],tyikva1[i][1]], {color: "#D2691E"})
+			tyikva1_1 = new L.circleMarker([tyikva1[i][0],tyikva1[i][1]], {pane: "top", color: "#D2691E"})
 			.bindPopup("Тыква")
 			.bindTooltip("Тыква", {direction: 'top'})
 			.addTo(tyikvaicons);
 		}
 		for (var i = 0; i < tyikva2.length; i++) {
-			tyikva2_1 = new L.circleMarker([tyikva2[i][1],tyikva2[i][2]], {color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"})
+			tyikva2_1 = new L.circleMarker([tyikva2[i][1],tyikva2[i][2]], {pane: "top", color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(tyikva2[i][0])
 			.bindTooltip(tyikva2[i][0], {direction: 'top'})
 			.addTo(tyikvaicons);

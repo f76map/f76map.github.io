@@ -34,7 +34,7 @@ function YaycoMolerotaOnOff() {
 			[73221, -177427]
 		];
 		for (var i = 0; i < yaycomolerota.length; i++) {
-			yaycomolerota_1 = new L.circleMarker([yaycomolerota[i][0],yaycomolerota[i][1]], {color: "#FF0000"})
+			yaycomolerota_1 = new L.circleMarker([yaycomolerota[i][0],yaycomolerota[i][1]], {pane: "top", color: "#FF0000"})
 			.bindPopup("Яйцо молерота")
 			.bindTooltip("Яйцо молерота", {direction: 'top'})
 			.addTo(yaycomolerotaicons);

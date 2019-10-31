@@ -61,7 +61,7 @@ function CvetokToshkiOnOff() {
 			[-60046, 117171]
 		];
 		for (var i = 0; i < cvetoktoshki.length; i++) {
-			cvetoktoshki_1 = new L.circleMarker([cvetoktoshki[i][0],cvetoktoshki[i][1]], {color: "#991199"})
+			cvetoktoshki_1 = new L.circleMarker([cvetoktoshki[i][0],cvetoktoshki[i][1]], {pane: "top", color: "#991199"})
 			.bindPopup("Цветок дикой тошки")
 			.bindTooltip("Цветок дикой тошки", {direction: 'top'})
 			.addTo(cvetoktoshkiicons);

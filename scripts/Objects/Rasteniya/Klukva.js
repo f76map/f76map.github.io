@@ -148,7 +148,7 @@ function KlukvaOnOff() {
 			[-165185, 125706]
 		];
 		for (var i = 0; i < klukva.length; i++) {
-			klukva_1 = new L.circleMarker([klukva[i][0],klukva[i][1]], {color: "#9e003a"})
+			klukva_1 = new L.circleMarker([klukva[i][0],klukva[i][1]], {pane: "top", color: "#9e003a"})
 			.bindPopup("Клюква")
 			.bindTooltip("Клюква", {direction: 'top'})
 			.addTo(klukvaicons);

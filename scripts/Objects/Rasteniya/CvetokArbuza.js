@@ -29,7 +29,7 @@ function CvetokArbuzaOnOff() {
 			[-59560, 117244]
 		];
 		for (var i = 0; i < cvetokarbuza.length; i++) {
-			cvetokarbuza_1 = new L.circleMarker([cvetokarbuza[i][0],cvetokarbuza[i][1]], {color: "#CD00CD"})
+			cvetokarbuza_1 = new L.circleMarker([cvetokarbuza[i][0],cvetokarbuza[i][1]], {pane: "top", color: "#CD00CD"})
 			.bindPopup("Цветок дикого арбуза")
 			.bindTooltip("Цветок дикого арбуза", {direction: 'top'})
 			.addTo(cvetokarbuzaicons);

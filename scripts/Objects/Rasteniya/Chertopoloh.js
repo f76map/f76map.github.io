@@ -29,7 +29,7 @@ function ChertopolohOnOff() {
 			[150922, 4594]
 		];
 		for (var i = 0; i < chertopoloh.length; i++) {
-			chertopoloh_1 = new L.circleMarker([chertopoloh[i][0],chertopoloh[i][1]], {color: "#191970"})
+			chertopoloh_1 = new L.circleMarker([chertopoloh[i][0],chertopoloh[i][1]], {pane: "top", color: "#191970"})
 			.bindPopup("Чертополох")
 			.bindTooltip("Чертополох", {direction: 'top'})
 			.addTo(chertopolohicons);

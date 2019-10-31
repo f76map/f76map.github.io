@@ -12,7 +12,7 @@ function PeplocvetOnOff() {
 			[172063, -118713]
 		];
 		for (var i = 0; i < peplocvet.length; i++) {
-			peplocvet_1 = new L.circleMarker([peplocvet[i][0],peplocvet[i][1]], {color: "#6495ED"})
+			peplocvet_1 = new L.circleMarker([peplocvet[i][0],peplocvet[i][1]], {pane: "top", color: "#6495ED"})
 			.bindPopup("Пеплоцвет")
 			.bindTooltip("Пеплоцвет", {direction: 'top'})
 			.addTo(peplocveticons);

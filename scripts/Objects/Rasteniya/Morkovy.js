@@ -74,13 +74,13 @@ function MorkovyOnOff() {
 			["Морковь - 8 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526]
 		];
 		for (var i = 0; i < morkovy1.length; i++) {
-			morkovy1_1 = new L.circleMarker([morkovy1[i][0],morkovy1[i][1]], {color: "#ff8c00"})
+			morkovy1_1 = new L.circleMarker([morkovy1[i][0],morkovy1[i][1]], {pane: "top", color: "#ff8c00"})
 			.bindPopup("Морковь")
 			.bindTooltip("Морковь", {direction: 'top'})
 			.addTo(morkovyicons);
 		}
 		for (var i = 0; i < morkovy2.length; i++) {
-			morkovy2_1 = new L.circleMarker([morkovy2[i][1],morkovy2[i][2]], {color: "#ff8c00", fillColor: "#000000", fillOpacity: "0.8"})
+			morkovy2_1 = new L.circleMarker([morkovy2[i][1],morkovy2[i][2]], {pane: "top", color: "#ff8c00", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(morkovy2[i][0])
 			.bindTooltip(morkovy2[i][0], {direction: 'top'})
 			.addTo(morkovyicons);

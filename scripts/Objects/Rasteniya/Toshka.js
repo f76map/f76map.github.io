@@ -169,13 +169,13 @@
 			["Тошка - 13 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526]
 		];
 		for (var i = 0; i < toshka1.length; i++) {
-			toshka1_1 = new L.circleMarker([toshka1[i][0],toshka1[i][1]], {color: "#A52A2A"})
+			toshka1_1 = new L.circleMarker([toshka1[i][0],toshka1[i][1]], {pane: "top", color: "#A52A2A"})
 			.bindPopup("Тошка")
 			.bindTooltip("Тошка", {direction: 'top'})
 			.addTo(toshkaicons);
 		}
 		for (var i = 0; i < toshka2.length; i++) {
-			toshka2_1 = new L.circleMarker([toshka2[i][1],toshka2[i][2]], {color: "#A52A2A", fillColor: "#000000", fillOpacity: "0.8"})
+			toshka2_1 = new L.circleMarker([toshka2[i][1],toshka2[i][2]], {pane: "top", color: "#A52A2A", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(toshka2[i][0])
 			.bindTooltip(toshka2[i][0], {direction: 'top'})
 			.addTo(toshkaicons);
