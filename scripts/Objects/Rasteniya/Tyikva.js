@@ -138,18 +138,6 @@ function TyikvaOnOff() {
 			[129514, 126068],
 			[129553, 126025],
 			[36270, 122346],
-//FloraGourdVine01
-			[-52302, 203600],
-			[-52257, 203573],
-			[-46046, 201515],
-			[-46111, 201537],
-			[-46176, 201586],
-			[-55794, 193139],
-			[-55735, 193169],
-			[-55704, 193246],
-			[-40174, 193904],
-			[-40228, 193821],
-			[-40181, 193852],
 //LPI_FloraPumpkin01
 			[-162499, -54190],
 			[-160132, -41732],
@@ -355,12 +343,11 @@ function TyikvaOnOff() {
 			[114667, 64325],
 			[23748, 15623],
 			[23455, 15945],
-//Кювета
-			[-57707, -47927]
 		];
 		var tyikva2 = [
 			["Тыква - 5 шт.<br>[Внутри здания Школа Моргантауна]", 94128, 2135],
-			["Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]", -52810, 6663]
+			["Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]", -52810, 6663],
+			["Тыква<br>[Внутри локации Убежище 94]", 137186, 145156]
 		];
 		for (var i = 0; i < tyikva1.length; i++) {
 			tyikva1_1 = new L.circleMarker([tyikva1[i][0],tyikva1[i][1]], {pane: "top", color: "#D2691E"})
@@ -379,4 +366,47 @@ function TyikvaOnOff() {
 		tyikvaicons.clearLayers();
 	}
 }
-//1 в лаборатории
+
+var tyikva2icons = L.layerGroup().addTo(map);
+function Tyikva2OnOff() {
+	var chbox2;
+	chbox2=document.getElementById('Tyikva2Button');
+	if (chbox2.checked) {
+		var tyikva3 = [
+		//FloraGourdVine01
+			[-52302, 203600],
+			[-52257, 203573],
+			[-46046, 201515],
+			[-46111, 201537],
+			[-46176, 201586],
+			[-55794, 193139],
+			[-55735, 193169],
+			[-55704, 193246],
+			[-40174, 193904],
+			[-40228, 193821],
+			[-40181, 193852],
+		//Кювета
+			[-57707, -47927]
+		];
+		var tyikva4 = [
+		//Кювета
+			["Тыква - 2 шт.<br>[Внутри здания &quotАрктос фарма&quot]", 51382, -42352],
+			["Тыква - 5 шт.<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466],
+		];
+		for (var i = 0; i < tyikva3.length; i++) {
+			tyikva3_1 = new L.circleMarker([tyikva3[i][0],tyikva3[i][1]], {pane: "top", color: "#D2691E"})
+			.bindPopup("Тыква")
+			.bindTooltip("Тыква", {direction: 'top'})
+			.addTo(tyikva2icons);
+		}
+		for (var i = 0; i < tyikva4.length; i++) {
+			tyikva4_1 = new L.circleMarker([tyikva4[i][1],tyikva4[i][2]], {pane: "top", color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(tyikva4[i][0])
+			.bindTooltip(tyikva4[i][0], {direction: 'top'})
+			.addTo(tyikva2icons);
+		}
+	}
+	else {
+		tyikva2icons.clearLayers();
+	}
+}
