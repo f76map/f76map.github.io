@@ -34,6 +34,7 @@ if(window.location.hash == '#arbuz') {ArbuzButton.checked = 1; ArbuzOnOff();}
 if(window.location.hash == '#astra') {AstraButton.checked = 1; AstraOnOff();}
 if(window.location.hash == '#toshka') {ToshkaButton.checked = 1; ToshkaOnOff();}
 if(window.location.hash == '#tyikva') {TyikvaButton.checked = 1; TyikvaOnOff();}
+if(window.location.hash == '#tyikva2') {Tyikva2Button.checked = 1; Tyikva2OnOff();}
 if(window.location.hash == '#klukva') {KlukvaButton.checked = 1; KlukvaOnOff();}
 if(window.location.hash == '#morkovy') {MorkovyButton.checked = 1; MorkovyOnOff();}
 if(window.location.hash == '#ejevika') {EjevikaButton.checked = 1; EjevikaOnOff();}
@@ -103,6 +104,7 @@ if(window.location.hash == '#arbuz_0') {allicons.clearLayers();LocationsButton.c
 if(window.location.hash == '#astra_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; AstraButton.checked = 1; AstraOnOff();}
 if(window.location.hash == '#toshka_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; ToshkaButton.checked = 1; ToshkaOnOff();}
 if(window.location.hash == '#tyikva_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; TyikvaButton.checked = 1; TyikvaOnOff();}
+if(window.location.hash == '#tyikva2_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; Tyikva2Button.checked = 1; Tyikva2OnOff();}
 if(window.location.hash == '#klukva_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; KlukvaButton.checked = 1; KlukvaOnOff();}
 if(window.location.hash == '#morkovy_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; MorkovyButton.checked = 1; MorkovyOnOff();}
 if(window.location.hash == '#ejevika_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; EjevikaButton.checked = 1; EjevikaOnOff();}
