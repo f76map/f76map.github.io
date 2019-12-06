@@ -24,7 +24,7 @@ var sinkspeed=0.3
 var snowmaxsize=25
 
 // Set the minimal-size of your snowflakes
-var snowminsize=5
+var snowminsize=8
 
 // Set the snowing-zone
 // Set 1 for all-over-snowing, set 2 for left-side-snowing
