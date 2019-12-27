@@ -325,11 +325,12 @@
 		.mapinfo
 		{
 		position: absolute;
-		bottom: 156px;
+		bottom: 160px;
 		left: 282px;
 		}
 		#mapinfoid
 		{
+			display: block;
 			width: 95px;
 			height: 63px;
 			background-color:#FFFFFF;
@@ -339,43 +340,7 @@
 			padding: 7px 7px 7px 7px;
 			cursor:pointer;
 		}
-		#zatemnenie {
-			background: rgba(102, 102, 102, 0.5);
-			width: 100%; height: 100%;
-			position: absolute;
-			top: 0; left: 0;
-			display: none;
-			z-index: 10000;
-		}
-		#okno {
-			width: 520px; height: 330px;
-			padding: 15px;
-			border:1px solid #3c3c3c;
-			border-radius: 7px;
-			position: absolute;
-			top: 0; right: 0; bottom: 0; left: 0;
-			margin: auto;
-			background: #FFFFFF;
-			font-family: PTSerifRegular;
-			font-size: 12pt;
-		}
-		#closebuttoninfo
-		{
-			position: absolute;
-			bottom: 20px;
-			left: 145px;
-			width: 260px;
-			height: 30px;
-			background-color:#FFFFFF;
-			border:1px solid #3c3c3c;
-			border-radius: 7px;
-			cursor:pointer;
-			font-size: 12pt;
-			font-family: PTSerifRegular;
-		}
-		#closebuttoninfo:hover {background-color: #3c3c3c; color: #FFFFFF;}
 		p {text-indent: 20px; margin: 10px 0;}
-		
 		#box4 {height: 146px; width: 414px; top: 311px; left:10px;}
 		#box5 {position: relative; height: 125px; width: 408px; top: 0px; left:0px; overflow-y: auto;}
 		#plants_switch1 {top: 6px; left: 116px;}
@@ -729,26 +694,16 @@
 	cvetoktyikvyiicons.clearLayers();
 	cvetokarbuzaicons.clearLayers();
 	cvetokmorkoviicons.clearLayers();
-	
 	HlamOff();
-	
 	vein1icons.clearLayers(); vein2icons.clearLayers(); vein3icons.clearLayers(); vein4icons.clearLayers(); vein5icons.clearLayers();
 	vein6icons.clearLayers(); vein7icons.clearLayers(); vein8icons.clearLayers(); vein9icons.clearLayers(); vein10icons.clearLayers();
 	vein11icons.clearLayers();
-	
 	portadinericons.clearLayers();
-	}
-	function openinfo() {
-	zatemnenie.style.display = "block";
-	}
-	function closeinfo() {
-	zatemnenie.style.display = "none";
 	}
 	var clipboard = new Clipboard('.b_url');
 	clipboard.on('success', function(e) {
 	var btn = $(e.trigger);
-	});	
-	
+	});
 	map.on('popupopen', function(e) {
 		$(document).ready(function() {
 		$("#single_1").fancybox({helpers: {title : {type : 'float'}}});
@@ -876,16 +831,14 @@
 <script type="application/javascript">
 LocationsOnOff();
 </script>
-    <div id="zatemnenie">
-      <div id="okno">
-        <div id="infohead" align="center"><b>Интерактивная карта Fallout 76.</b></div>	
+	<div id="infookno" style="width: 700px;display: none;">
+		<div id="infohead" align="center"><b>Интерактивная карта Fallout 76.</b></div>
 		<p>Есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (для экстракторов), рудные жилы, растения, хлам, места спавна флэтвудских монстров и молеротов, а так же поиск точек по вашим введенным координатам. При включении локаций включается строка поиска. 
 		<p>На ЛКМ показывает координаты того места где вы кликнули, на ПКМ - ставит простой маркер.
-		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогли с координатами - Гаруст и nokimaro.
-		<p>Мы, а так же еще несколько тысяч игроков Fallout 76 сидим на самом крупном русскоязычном дискорд сервере по игре Fallout 76 - <a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank">F76 HUB</a>. 
-        <input class="closebuttoninfo" type="button" id="closebuttoninfo" onclick="closeinfo()" value="Закрыть окно"/>
-      </div>
-    </div>
+		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогли с координатами - Гаруст и nokimaro. Помогла со скриншотами сокровищ - PPPie.
+		<p>Мы, а так же еще несколько тысяч игроков Fallout 76 сидим на самом крупном русскоязычном дискорд сервере по игре Fallout 76 - <a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank">F76 HUB</a>. Там Вы можете найти кучу разной информации по игре, торговать с игроками и просто общаться.
+		<p>Если Вам очень помогла данная карта или какой-то материал который я выкладывал в дискорде, то Вы можете поблагодарить монеткой (кнопка в правом нижнем углу) =).
+	</div>
 <div id="sidebar">
 <img src="lampi.png" alt="лампочки" style="position: absolute; top: -60px; left: -60px;">
 <div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель"/></div>
@@ -1905,7 +1858,7 @@ LocationsOnOff();
 		<div class="map"><input type="button" id="b5" onclick="but5()" value="2" style="font-family: 'Arial'"/></div>
 		<div class="map"><input type="button" id="b6" onclick="but6()" value="3" style="font-family: 'Arial'"/></div>
 	</div>
-	<div class="mapinfo"><img type="button" src="css/images/mapinfo.png" id="mapinfoid" onclick="openinfo()"/></a></div>
+	<div class="mapinfo"><a class="fancybox" id="mapinfoid" href="#infookno" title=""><img src="css/images/mapinfo.png" style="width: 95px;" alt=""/></a></div>
 	<div id="discord_f76hub"><a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank" title="Русскоязычный сервер дискорд по игре Fallout 76
 (Откроется в новой вкладке)"><img type="button" src="css/images/discord_f76hub.png" id="f76hub" onclick="f_f76hub()"/></a></div>
 	<div id="search">
