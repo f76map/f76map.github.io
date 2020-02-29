@@ -75,14 +75,12 @@
 		@font-face {font-family: RobotoCondensed-Bold; src: url(fonts/RobotoCondensed-Bold.ttf);}
 		@font-face {font-family: RobotoCondensed-Light; src: url(fonts/RobotoCondensed-Light.ttf);}
 		@font-face {font-family: RobotoCondensed-Regular; src: url(fonts/RobotoCondensed-Regular.ttf);}
-		html, body
-		{
+		html, body {
 			width: 100%;
 			height: 100%;
 			margin: 0;
 		}
-		#search
-		{
+		#search {
 			width: 404px;
 			height: 70px;
 			position: absolute;
@@ -95,15 +93,13 @@
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 		}
-		#searchX
-		{
+		#searchX {
 			position: absolute;
 			top: 5px;
 			right: 240px;
 			font-size: 16pt;
 		}
-		#searchY
-		{
+		#searchY {
 			position: absolute;
 			top: 45px;
 			right: 240px;
@@ -112,8 +108,7 @@
 		#searchB1 {position: absolute; left: 180px;}
 		#searchB2 {position: absolute; top: 45px; left: 180px;}
 		#searchB3 {position: absolute; right: 4px;}
-		#lng, #lat
-		{
+		#lng, #lat {
 			width: 120px;
 			height: 29px;
 			border:1px solid #3c3c3c;
@@ -121,8 +116,7 @@
 			padding: 0 10px;
 			font-size: 12pt;
 		}
-		#b1, #b2, #b3
-		{
+		#b1, #b2, #b3 {
 			height: 31px;
 			border-radius:7px;
 			border:1px solid #3c3c3c;
@@ -134,19 +128,33 @@
 		#b1 {width: 92px;}
 		#b2 {width: 230px;}		
 		#b3 {width: 126px;}	
-        #map
-        {
+        #map {
             background-color: #3c3c3c;
 			background-image: url('bg.jpg');
 			background-size: 50%;
             width: 100%;
             height: 100%;
         }
-		#changemap
-		{
+		#lkm_pkm {
+			position: absolute;
+			bottom: 204px;
+			left: 10px;
+			width: 267px;
+			height: 33px;
+			border-radius: 7px;
+			border: 1px solid #3c3c3c;
+		}
+		#lkm_pkm_text {
+			position: absolute;
+			top: 4px;
+			left: 5px;
+			font-family: LemonMilkRus;
+			font-size: 9pt;
+		}
+		#changemap {
 			position: absolute;
 			width: 260px;
-			height: 137px;
+			height: 99px;
 			left: 10px;
 			bottom: 90px;
 			z-index: 99999;
@@ -158,8 +166,7 @@
 			font-family: LemonMilkRus;
 			font-size: 10pt;
 		}
-		#b4, #b5, #b6
-		{
+		#b4, #b5, #b6 {
 			position: absolute;
 			width: 28px;
 			height: 28px;
@@ -170,16 +177,15 @@
 			font-size: 12pt;
 			cursor:pointer;
 		}
-		#b4 {top: 40px; background-color:#3c3c3c; color: #FFFFFF;}
-		#b5 {top: 70px; background-color:#FFFFFF;}
-		#b6 {top: 100px; background-color:#FFFFFF;}
-		#changemaptext {position: relative; top: 5px;}
+		#b4 {top: 18px; background-color:#3c3c3c; color: #FFFFFF;}
+		#b5 {top: 48px; background-color:#FFFFFF;}
+		#b6 {top: 78px; background-color:#FFFFFF;}
+		#changemaptext {position: relative; top: 0px;}
 		#changemaptext1, #changemaptext2, #changemaptext3{position: absolute; left: 45px;}
-		#changemaptext1 {top: 48px;}
-		#changemaptext2 {top: 78px;}
-		#changemaptext3 {top: 108px;}
-		#sidebar
-		{
+		#changemaptext1 {top: 25px;}
+		#changemaptext2 {top: 55px;}
+		#changemaptext3 {top: 85px;}
+		#sidebar {
 			position: absolute;
 			bottom: 0px;
 			left: -453px;
@@ -197,8 +203,7 @@
 			border:1px solid #3c3c3c;
 			padding: 285px 0 0 0;
 		}
-		#sidebarbutton
-		{
+		#sidebarbutton {
 			position: absolute;
 			left: 462px;
 			bottom: 90px;
@@ -206,8 +211,7 @@
 			transition: all 0.5s ease-in-out;
 
 		}
-		#sb0
-		{
+		#sb0 {
 			width: 30px;
 			height: 149px;
 			background-color: RGB(255, 255, 255);
@@ -217,21 +221,18 @@
 			padding: 0;
 			cursor:pointer;
 		}
-		.buttoninfo
-		{
+		.buttoninfo {
 			position: absolute;
 			top: 11px;
 			left: 330px;
 			z-index: 2;
 		}
-		#discord_f76hub
-		{
+		#discord_f76hub {
 			position: absolute;
 			bottom: 86px;
 			left: 282px;
 		}
-		#f76hub
-		{
+		#f76hub {
 			width: 95px;
 			height: 56px;
 			background-color:#FFFFFF;
@@ -308,26 +309,23 @@
 		.box {position: absolute; background-color: #FFFFFF; border-radius:7px; border:1px solid #3c3c3c; box-shadow: 0 0 5px #bbb; z-index: 1;}
 		
 		.allcheckbox{position: absolute; bottom: 242px; left: 10px;}
-		#allcheckboxbut
-		{
-		height: 35px;
-		width: 416px;
-		background-color:#FFFFFF;
-		border-radius:7px;
-		border:1px solid #3c3c3c;
-		box-shadow: 0 0 5px #bbb;
-		font-family: LemonMilkRus;
-		font-size: 10pt;
-		cursor:pointer;
+		#allcheckboxbut {
+			height: 35px;
+			width: 416px;
+			background-color:#FFFFFF;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			box-shadow: 0 0 5px #bbb;
+			font-family: LemonMilkRus;
+			font-size: 10pt;
+			cursor:pointer;
 		}
-		.mapinfo
-		{
-		position: absolute;
-		bottom: 160px;
-		left: 282px;
+		.mapinfo {
+			position: absolute;
+			bottom: 160px;
+			left: 282px;
 		}
-		#mapinfoid
-		{
+		#mapinfoid {
 			display: block;
 			width: 95px;
 			height: 63px;
@@ -519,7 +517,23 @@
 		#url_m_1 {position: absolute; top: 10px; left: 10px;}
 		.misc_text {position: absolute; left: 30px; top: 10px; font-size: 9pt;}
 		#misk_switch {position: absolute; left: 170px; top: 6px;}
-	</style>
+		#popupbutton {
+			font-family: RobotoCondensed-Regular;
+			font-size: 14px;
+			line-height: 14px;
+			height: 23px;
+			width: 60px;
+			border-radius: 10px;
+			border: 2px solid #999;
+			padding: 0px 0px 3px 0px;
+			cursor: pointer;
+			position: relative;
+			left: 2px;
+		}
+		#popupbutton:hover {
+			border: 2px solid red;
+		}
+</style>
 </head>
 <body onload="initMap()">
 <div id="map"></div>
@@ -540,27 +554,48 @@
     map.setZoom(-9);
     map.zoomControl.setPosition('topright');
 	var allmarkers = L.layerGroup().addTo(map);
-	var marker = null;
+	var markers = []
+	function createMarker(coords, op) {
+	var id
+	if (markers.length < 1) id = 0
+	else id = markers[markers.length - 1]._id + 1
+	var popupContent =
+	"X: " + coords[1] + "<br>Y: "  + coords[0] +
+	"<br><button id='popupbutton' onclick='clearMarker(" + id + ")'>удалить</button>";
+	<!-- "X: " + coords[1] + "<br>Y: "  + coords[0] + -->
+	<!-- "<br><button style='font-family: Tahoma, Verdana, sans-serif; font-weight: bold; color: red; font-size: 18px; line-height: 16px; height: 23px; width: 25px; border-radius: 7px; border: 2px solid red; padding: 0px 0px 3px 0px; cursor: pointer; position: relative; left: 2px;' onclick='clearMarker(" + id + ")'>×</button>"; -->
+	var myMarker = L.marker(coords, {
+		draggable: false
+	}).addTo(allmarkers);
+	myMarker._id = id
+	if (op == 1){var myPopup = myMarker.bindPopup(popupContent).openPopup();}
+	else {var myPopup = myMarker.bindPopup(popupContent);}
+	map.addLayer(myMarker)
+	markers.push(myMarker)
+	}
+	function clearMarker(id) {
+		console.log(markers)
+		var new_markers = []
+		markers.forEach(function(marker) {
+			if (marker._id == id) map.removeLayer(marker)
+			else new_markers.push(marker)
+		})
+		markers = new_markers
+	}
 	function but1() {
-		if (marker !== null) {
-		map.removeLayer(marker);
-		}
-		allmarkers.clearLayers();
+	allmarkers.clearLayers();
 	var lat = document.getElementById("lat").value;
 	var lng = document.getElementById("lng").value;
-	marker = L.marker([lat, lng]).addTo(allmarkers);
-	marker.bindPopup("<b>Я тут!</b>" + "<br>X: " + lng + "<br>Y: " + lat).openPopup();
+	createMarker([lat, lng],[1]);
 	map.panTo([lat, lng]);
 	};
 	function but2() {
 	var lat = document.getElementById("lat").value;
 	var lng = document.getElementById("lng").value;
-	marker = new L.marker([lat, lng]).addTo(allmarkers);
-	marker.bindPopup("<b>Я тут!</b>" + "<br>X: " + lng + "<br>Y: " + lat).openPopup();
+	createMarker([lat, lng],[1]);
 	map.panTo([lat, lng]);
 	};
 	function but3() {
-	map.removeLayer(marker);
 	allmarkers.clearLayers();
 	};
 	function but4() {
@@ -597,18 +632,12 @@
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent("X: " + e.latlng.lng + ", Y: " + e.latlng.lat)
+			.setContent("X: " + ~~e.latlng.lng + ", Y: " + ~~e.latlng.lat)
 			.addTo(map);
 	}
 	map.on('click', onMapClick);
 	map.on('contextmenu',function(e){
-		if (marker !== null) {
-				map.removeLayer(marker);
-			}
-				allmarkers.clearLayers();
-		marker = L.marker()
-		.setLatLng(e.latlng)
-		.addTo(allmarkers)
+	createMarker([e.latlng.lat, e.latlng.lng])
 	});
 	map.createPane("top");
 	map.getPane("top").style.zIndex = 999;
@@ -627,6 +656,7 @@
 	};
 	function AllCheckboxOff(){
 	$('input[type="checkbox"]:checked').prop('checked',false);
+	allmarkers.clearLayers();
 	allicons.clearLayers();
 	reassaulticons.clearLayers();
 	retravelicons.clearLayers();
@@ -1846,6 +1876,9 @@ LocationsOnOff();
 </ul>
 </div>
 	<div class="allcheckbox"><input type="button" onclick="AllCheckboxOff()" id="allcheckboxbut" value="Отключить все"/></div>
+	<div id="lkm_pkm">
+		<div id="lkm_pkm_text"><u>ЛКМ</u> на карте - показать координаты<br><u>ПКМ</u> на карте - поставить маркер</div>
+	</div>
 	<div id="changemap">
 		<div id="changemaptext" align="center"><u>Выбор карты:</u></div>
 		<div id="changemaptext1">Стандартная</div>
