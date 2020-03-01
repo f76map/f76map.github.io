@@ -1,6 +1,6 @@
 function HlamButtons() {
 	var btn, inp, sp, mot;
-	for (i=1; i < 693; i++) {
+	for (var i=1; i < 693; i++) {
 		btn=document.createElement("LABEL");
 		btn.classList.add('switch','switch2');
 		inp = document.createElement("INPUT");
@@ -17,7 +17,7 @@ function HlamButtons() {
 	}
 };
 function HlamOff() {
-	for (i=1; i < 693; i++) {
+	for (var i=1; i < 693; i++) {
 		var Func = new Function("hlam"+i+"icons.clearLayers()");
 		Func();
 	}
