@@ -21,7 +21,7 @@
 var bounds = [[0,0], [4376,7582]];
     var map = new L.map('map', {
       crs: L.CRS.Simple,
-      minZoom: -4.2,
+      minZoom: -4.5,
       maxZoom: 1,
 	  zoomSnap: 0.1,
 	  center:[2188,3791],
@@ -31,7 +31,7 @@ var bounds = [[0,0], [4376,7582]];
     });
     var image = L.imageOverlay('css/metroidvania_map2.jpg', bounds).addTo(map);
     map.fitBounds(bounds);
-    map.setZoom(-4.2);
+    map.setZoom(-4.5);
     map.zoomControl.setPosition('topleft');
 
 var g = [
