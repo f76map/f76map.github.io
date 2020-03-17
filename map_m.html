@@ -6,7 +6,9 @@
 		<link rel="stylesheet" href="css/leaflet.css" />
 		<script type="text/javascript" src="scripts/leaflet.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<script type="module" src="index.js"></script>
+		<script type="module">
+		import bridge from './@vkontakte/vk-bridge';
+		bridge.send('VKWebAppInit');</script>
 </head>
 <style>
 	html, body
