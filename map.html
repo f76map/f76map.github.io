@@ -26,7 +26,7 @@ var bounds = [[0,0], [4228,7582]];
       minZoom: -3.2,
       maxZoom: 1,
 	  zoomSnap: 0.1,
-	  center:[2188,3791],
+	  center:[2114,3791],
       maxBoundsViscosity: 0.5,
 	  wheelPxPerZoomLevel: 90,
       maxBounds: [[-5000,-5000], [9228,12582]]
@@ -131,7 +131,7 @@ var g = [
 h = 215;
 w = 460;
 for (let i = 0; i < g.length; i++) {
-	L.polygon([[4228-g[i].y,g[i].x],[4228-g[i].y,g[i].x+w],[4228-g[i].y-h,g[i].x+w],[4228-g[i].y-h,g[i].x]],{opacity:0.5,fillOpacity:0}).addTo(map).bindPopup(g[i].text);
+	L.polygon([[4228-g[i].y,g[i].x],[4228-g[i].y,g[i].x+w],[4228-g[i].y-h,g[i].x+w],[4228-g[i].y-h,g[i].x]],{opacity:0,fillOpacity:0}).addTo(map).bindPopup(g[i].text);
 }
 </script>
 </body>
