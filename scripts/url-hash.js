@@ -68,6 +68,7 @@ if(window.location.hash == '#cvetoktoshki') {CvetokToshkiButton.checked = 1; Cve
 if(window.location.hash == '#cvetoktyikvyi') {CvetokTyikvyiButton.checked = 1; CvetokTyikvyiOnOff();}
 if(window.location.hash == '#cvetokarbuza') {CvetokArbuzaButton.checked = 1; CvetokArbuzaOnOff();}
 if(window.location.hash == '#cvetokmorkovi') {CvetokMorkoviButton.checked = 1; CvetokMorkoviOnOff();}
+if(window.location.hash == '#hischnolist') {HischnolistButton.checked = 1; HischnolistOnOff();}
 // Разное
 if(window.location.hash == '#portadiner') {PortADinerButton.checked = 1; PortADinerOnOff();}
 // -------------------- Без остального --------------------
@@ -138,10 +139,13 @@ if(window.location.hash == '#cvetoktoshki_0') {allicons.clearLayers();LocationsB
 if(window.location.hash == '#cvetoktyikvyi_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; CvetokTyikvyiButton.checked = 1; CvetokTyikvyiOnOff();}
 if(window.location.hash == '#cvetokarbuza_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; CvetokArbuzaButton.checked = 1; CvetokArbuzaOnOff();}
 if(window.location.hash == '#cvetokmorkovi_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; CvetokMorkoviButton.checked = 1; CvetokMorkoviOnOff();}
+if(window.location.hash == '#hischnolist_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; HischnolistButton.checked = 1; HischnolistOnOff();}
+
 // Разное (без остального)
 if(window.location.hash == '#portadiner_0') {allicons.clearLayers(); LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; PortADinerButton.checked = 1; PortADinerOnOff();}
 // Локации
 for (i=1; i < 368; i++) {if(window.location.hash == "#"+[i]) {m[i].openPopup(); map.flyTo(m[i].getLatLng(), -7);}}
+for (i=1; i < 693; i++) {if(window.location.hash == "#hlam_"+[i]) {window['Hlam'+[i]+'Button'].checked = 1;window['Hlam'+[i]+'OnOff']();}}
 history.pushState("", document.title, window.location.pathname + window.location.search);
 }
 }
