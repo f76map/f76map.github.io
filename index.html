@@ -379,6 +379,7 @@
 		#plants_switch17_2 {top: 374px; left: 351px;}
 		#plants_switch18_2 {top: 397px; left: 351px;}
 		#plants_switch19_2 {top: 420px; left: 351px;}
+		#plants_switch20_2 {top: 443px; left: 351px;}
 		
 		.plants_text {font-family: LemonMilkRus; font-size: 9pt;}
 		#plants_text1 {position: absolute; top: 10px; left: 25px;}
@@ -421,6 +422,7 @@
 		#plants_text37 {position: absolute; top: 378px; left: 185px;}
 		#plants_text38 {position: absolute; top: 401px; left: 185px;}
 		#plants_text39 {position: absolute; top: 424px; left: 185px;}
+		#plants_text40 {position: absolute; top: 447px; left: 185px;}
 		
 		#line1 {position: absolute; top: 5px; left: 158px; width: 5px; height: 435px; background-color: #3c3c3c; opacity: 0.3; border-radius: 3px;}
 
@@ -494,6 +496,7 @@
 		#url4_2_17 {position: absolute; top: 378px; left: 170px;}
 		#url4_2_18 {position: absolute; top: 401px; left: 170px;}
 		#url4_2_19 {position: absolute; top: 424px; left: 170px;}
+		#url4_2_20 {position: absolute; top: 447px; left: 170px;}
 		
 		#url5 {position: absolute; top: 18px; left: 25px;}
 		
@@ -722,6 +725,7 @@
 	cvetoktyikvyiicons.clearLayers();
 	cvetokarbuzaicons.clearLayers();
 	cvetokmorkoviicons.clearLayers();
+	hischnolisticons.clearLayers();
 	HlamOff();
 	vein1icons.clearLayers(); vein2icons.clearLayers(); vein3icons.clearLayers(); vein4icons.clearLayers(); vein5icons.clearLayers();
 	vein6icons.clearLayers(); vein7icons.clearLayers(); vein8icons.clearLayers(); vein9icons.clearLayers(); vein10icons.clearLayers();
@@ -837,6 +841,7 @@
 <script src="scripts/Objects/Rasteniya/CvetokTyikvyi.js"></script>
 <script src="scripts/Objects/Rasteniya/CvetokArbuza.js"></script>
 <script src="scripts/Objects/Rasteniya/CvetokMorkovi.js"></script>
+<script src="scripts/Objects/Rasteniya/Hischnolist.js"></script>
 
 <script src="scripts/Objects/StrangeMobsButton.js"></script>
 
@@ -1067,6 +1072,7 @@ LocationsOnOff();
 			<div class="plants_text" id="plants_text37">Цветок дикой тыквы</div>
 			<div class="plants_text" id="plants_text38">Цветок дикого арбуза</div>
 			<div class="plants_text" id="plants_text39">Цветок дикой моркови</div>
+			<div class="plants_text" id="plants_text40">Гигантский хищнолист</div>
 			<label class="switch" id="plants_switch1"><input type="checkbox" onchange="GribOnOff()" id="GribButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch2"><input type="checkbox" onchange="ArbuzOnOff()" id="ArbuzButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch3"><input type="checkbox" onchange="AstraOnOff()" id="AstraButton" autocomplete="off"><span class="slider"></span></label>	
@@ -1105,7 +1111,8 @@ LocationsOnOff();
 			<label class="switch" id="plants_switch16_2"><input type="checkbox" onchange="CvetokToshkiOnOff()" id="CvetokToshkiButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch17_2"><input type="checkbox" onchange="CvetokTyikvyiOnOff()" id="CvetokTyikvyiButton" autocomplete="off"><span class="slider"></span></label>	
 			<label class="switch" id="plants_switch18_2"><input type="checkbox" onchange="CvetokArbuzaOnOff()" id="CvetokArbuzaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch19_2"><input type="checkbox" onchange="CvetokMorkoviOnOff()" id="CvetokMorkoviButton" autocomplete="off"><span class="slider"></span></label>	
+			<label class="switch" id="plants_switch19_2"><input type="checkbox" onchange="CvetokMorkoviOnOff()" id="CvetokMorkoviButton" autocomplete="off"><span class="slider"></span></label>
+			<label class="switch" id="plants_switch20_2"><input type="checkbox" onchange="HischnolistOnOff()" id="HischnolistButton" autocomplete="off"><span class="slider"></span></label>			
 			<div class="b_url" data-clipboard-text="https://f76map.ru#grib"><input type="image" src="css/images/url.png" id="url4_1" width="12" height="12" title="Скопировать ссылку"></div>
 			<div class="b_url" data-clipboard-text="https://f76map.ru#arbuz"><input type="image" src="css/images/url.png" id="url4_2" width="12" height="12" title="Скопировать ссылку"></div>
 			<div class="b_url" data-clipboard-text="https://f76map.ru#astra"><input type="image" src="css/images/url.png" id="url4_3" width="12" height="12" title="Скопировать ссылку"></div>
@@ -1145,6 +1152,7 @@ LocationsOnOff();
 			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetoktyikvyi"><input type="image" src="css/images/url.png" id="url4_2_17" width="12" height="12" title="Скопировать ссылку"></div>
 			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetokarbuza"><input type="image" src="css/images/url.png" id="url4_2_18" width="12" height="12" title="Скопировать ссылку"></div>
 			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetokmorkovi"><input type="image" src="css/images/url.png" id="url4_2_19" width="12" height="12" title="Скопировать ссылку"></div>
+			<div class="b_url" data-clipboard-text="https://f76map.ru#hischnolist"><input type="image" src="css/images/url.png" id="url4_2_20" width="12" height="12" title="Скопировать ссылку"></div>
 			<div class="emptybox"></div>
 		</div>
 	</ul>
