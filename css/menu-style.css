@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-
-
 ul {
   list-style: none;
 }
@@ -39,17 +37,22 @@ h2 {
 .dropdownlink {
   cursor: pointer;
   display: block;
-  padding: 12px 12px 12px 50px;
+  padding: 10px 12px 10px 50px;
   font-size: 10pt;
   border-bottom: 1px solid #ccc;
   color: #212121;
   position: relative;
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
+
+.dropdownlink:hover {
+	background: rgb(255, 200, 0);
+}
+
 .dropdownlink i {
   position: absolute;
-  top: 11px;
+  top: 8px;
   left: 16px;
 }
 .dropdownlink .fa-chevron-down {
@@ -74,3 +77,5 @@ h2 {
   transition: all 0.4s ease-out;
 }
 .fa, .far, .fas {font-size: 14pt;}
+
+.open>div {background: rgb(255, 200, 0);}

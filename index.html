@@ -82,48 +82,53 @@
 		}
 		#search {
 			width: 404px;
-			height: 70px;
+			height: 57px;
 			position: absolute;
 			bottom: 5px;
 			left: 10px;
 			z-index: 99999;
 			background-color: #FFFFFF;
-			padding: 5px 5px;
+			padding: 3px 5px;
 			box-shadow: 0 0 5px #bbb;
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 		}
 		#searchX {
 			position: absolute;
-			top: 5px;
+			top: 3px;
 			right: 240px;
-			font-size: 16pt;
+			font-size: 12pt;
 		}
 		#searchY {
 			position: absolute;
-			top: 45px;
+			top: 33px;
 			right: 240px;
-			font-size: 16pt;
+			font-size: 12pt;
 		}
 		#searchB1 {position: absolute; left: 180px;}
-		#searchB2 {position: absolute; top: 45px; left: 180px;}
+		#searchB2 {position: absolute; top: 33px; left: 180px;}
 		#searchB3 {position: absolute; right: 4px;}
 		#lng, #lat {
-			width: 120px;
-			height: 29px;
+			width: 125px;
+			height: 25px;
 			border:1px solid #3c3c3c;
 			border-radius: 5px;
 			padding: 0 10px;
 			font-size: 12pt;
 		}
 		#b1, #b2, #b3 {
-			height: 31px;
+			height: 27px;
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			cursor:pointer;
 			background-color:#FFFFFF;
 			font-family: LemonMilkRus;
 			font-size: 8pt;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		#b1:hover, #b2:hover, #b3:hover {
+			background: rgb(255, 200, 0);
 		}
 		#b1 {width: 92px;}
 		#b2 {width: 230px;}		
@@ -137,26 +142,26 @@
         }
 		#lkm_pkm {
 			position: absolute;
-			bottom: 204px;
+			bottom: 175px;
 			left: 10px;
 			width: 267px;
-			height: 33px;
+			height: 22px;
 			border-radius: 7px;
 			border: 1px solid #3c3c3c;
 		}
 		#lkm_pkm_text {
 			position: absolute;
-			top: 4px;
-			left: 5px;
+			top: 5px;
+			left: 21px;
 			font-family: LemonMilkRus;
 			font-size: 9pt;
 		}
 		#changemap {
 			position: absolute;
 			width: 260px;
-			height: 99px;
+			height: 87px;
 			left: 10px;
-			bottom: 90px;
+			bottom: 73px;
 			z-index: 99999;
 			background-color: #FFFFFF;
 			padding: 5px 2px 5px 5px;
@@ -176,15 +181,19 @@
 			font-weight: bolder;
 			font-size: 12pt;
 			cursor:pointer;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
 		}
-		#b4 {top: 18px; background-color:#3c3c3c; color: #FFFFFF;}
-		#b5 {top: 48px; background-color:#FFFFFF;}
-		#b6 {top: 78px; background-color:#FFFFFF;}
-		#changemaptext {position: relative; top: 0px;}
+		#b4:hover, #b5:hover, #b6:hover {
+			background: rgb(255, 200, 0) !important;
+		}
+		#b4 {top: 5px; background-color:#3c3c3c; color: #FFFFFF;}
+		#b5 {top: 35px; background-color:#FFFFFF;}
+		#b6 {top: 65px; background-color:#FFFFFF;}
 		#changemaptext1, #changemaptext2, #changemaptext3{position: absolute; left: 45px;}
-		#changemaptext1 {top: 25px;}
-		#changemaptext2 {top: 55px;}
-		#changemaptext3 {top: 85px;}
+		#changemaptext1 {top: 12px;}
+		#changemaptext2 {top: 42px;}
+		#changemaptext3 {top: 72px;}
 		#sidebar {
 			position: absolute;
 			bottom: 0px;
@@ -201,55 +210,66 @@
 			-o-transition: all 0.5s ease-in-out; /** Opera **/
 			border-radius:0px 7px 7px 0px;
 			border:1px solid #3c3c3c;
-			padding: 285px 0 0 0;
+			padding: 245px 0 0 0;
 		}
 		#sidebarbutton {
 			position: absolute;
 			left: 462px;
-			bottom: 90px;
+			bottom: 73px;
 			z-index: 801;
 			transition: all 0.5s ease-in-out;
 
 		}
 		#sb0 {
 			width: 30px;
-			height: 149px;
+			height: 126px;
 			background-color: RGB(255, 255, 255);
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			box-shadow: 0 0 5px #bbb;
 			padding: 0;
 			cursor:pointer;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		#sb0:hover {
+			background: rgb(255, 200, 0);
 		}
 		.buttoninfo {
 			position: absolute;
 			top: 11px;
-			left: 330px;
+			left: 335px;
 			z-index: 2;
 		}
 		#discord_f76hub {
 			position: absolute;
-			bottom: 86px;
+			bottom: 69px;
 			left: 282px;
 		}
 		#f76hub {
-			width: 95px;
-			height: 56px;
+			width: 88px;
 			background-color:#FFFFFF;
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			box-shadow: 0 0 5px #bbb;
-			padding: 7px 7px 3px 7px;
+			padding: 7px 10px 3px 10px;
 			cursor:pointer;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		#f76hub:hover {
+			background: rgb(255, 200, 0);
 		}
 		.switch {z-index: 2;}
 		
 		#switch1 {top: 6px; left: 120px;} /*Локации*/
 		
-		#switch2 {top: 6px; left: 110px;} /*Assault*/
-		#switch3 {top: 29px; left: 110px;} /*Object*/
-		#switch4 {top: 6px; left: 255px;} /*Scene*/
-		#switch5 {top: 29px; left: 255px;} /*Travel*/
+		#re_switch1 {top: 6px; left: 110px;} /*Assault*/
+		#re_switch2 {top: 6px; left: 255px;} /*Object*/
+		#re_switch3 {top: 29px; left: 110px;} /*Scene*/
+		#re_switch4 {top: 29px; left: 255px;} /*Travel*/
+		#re_switch5 {top: 52px; left: 110px;} /*Camp*/
+		#re_switch6 {top: 52px; left: 255px;} /*Mining*/
 		
 		#switch6 {top: 29px; left: 120px;} /*Сокровища*/
 		#switch7 {top: 52px; left: 120px;} /*Журналы*/
@@ -277,14 +297,35 @@
 		.text {position: absolute; z-index: 2; font-family: LemonMilkRus; font-size: 9pt;}
 
 		#text1 {top: 10px; left: 30px;} /*Локации*/
-
-		#text2 {top: 10px; left: 50px;} /*Assault*/
-		#text3 {top: 33px; left: 50px;} /*Object*/
-		#text4 {top: 10px; left: 200px;} /*Scene*/
-		#text5 {top: 33px; left: 200px;} /*Travel*/
-		
+		#text23 {top: 10px; left: 210px;} /*Пупсы*/
 		#text6 {top: 33px; left: 30px;} /*Сокровища*/
+		#text24 {top: 33px; left: 210px;} /*Тайники с крышками*/
 		#text7 {top: 56px; left: 30px;} /*Журналы*/
+		
+		#wb_text1 {top: 10px; left: 30px;} /*Оружейный верстак*/
+		#wb_text2 {top: 33px; left: 30px;} /*Верстак для брони*/
+		#wb_text3 {top: 56px; left: 30px;} /*Ремонтный верстак*/
+		#wb_text4 {top: 79px; left: 30px;} /*Химлаборатория*/
+		#wb_text5 {top: 102px; left: 30px;} /*Пункт обслуживания силовой брони*/
+		
+		#wb_switch1 {top: 6px; left: 300px;}
+		#wb_switch2 {top: 29px; left: 300px;}
+		#wb_switch3 {top: 52px; left: 300px;}
+		#wb_switch4 {top: 75px; left: 300px;}
+		#wb_switch5 {top: 98px; left: 300px;}
+		
+		#wb_url_1 {position: absolute; top: 10px; left: 10px;}
+		#wb_url_2 {position: absolute; top: 33px; left: 10px;}
+		#wb_url_3 {position: absolute; top: 56px; left: 10px;}
+		#wb_url_4 {position: absolute; top: 79px; left: 10px;}
+		#wb_url_5 {position: absolute; top: 102px; left: 10px;}
+		
+		#re_text1 {top: 10px; left: 50px;} /*Assault*/
+		#re_text2 {top: 10px; left: 200px;} /*Object*/
+		#re_text3 {top: 33px; left: 50px;} /*Scene*/
+		#re_text4 {top: 33px; left: 200px;} /*Travel*/
+		#re_text5 {top: 56px; left: 50px;} /*Camp*/
+		#re_text6 {top: 56px; left: 200px;} /*Mining*/
 		
 		#text8 {top: 10px; left: 45px;}
 		#text9 {top: 33px; left: 45px;}
@@ -303,38 +344,48 @@
 		#text21 {top: 125px; left: 210px;}
 		#text22 {top: 148px; left: 210px;}
 		
-		#text23 {top: 10px; left: 210px;} /*Пупсы*/
-		#text24 {top: 33px; left: 210px;} /*Тайники с крышками*/
-		
 		.box {position: absolute; background-color: #FFFFFF; border-radius:7px; border:1px solid #3c3c3c; box-shadow: 0 0 5px #bbb; z-index: 1;}
 		
-		.allcheckbox{position: absolute; bottom: 242px; left: 10px;}
-		#allcheckboxbut {
+		#allcheckbox{position: absolute; bottom: 202px; left: 10px;}
+		#allcheckbox2{position: absolute; bottom: 202px; left: 219px;}
+		.allcheckboxbut {
 			height: 35px;
-			width: 416px;
+			width: 206px;
 			background-color:#FFFFFF;
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			box-shadow: 0 0 5px #bbb;
 			font-family: LemonMilkRus;
-			font-size: 10pt;
+			font-size: 9pt;
 			cursor:pointer;
+			white-space: normal;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		.allcheckboxbut:hover {
+			background: rgb(255, 200, 0);
 		}
 		.mapinfo {
 			position: absolute;
-			bottom: 160px;
+			bottom: 139px;
 			left: 282px;
 		}
 		#mapinfoid {
 			display: block;
-			width: 95px;
-			height: 63px;
+			width: 102px;
+			height: 52px;
 			background-color:#FFFFFF;
 			border-radius:7px;
 			border:1px solid #3c3c3c;
 			box-shadow: 0 0 5px #bbb;
-			padding: 7px 7px 7px 7px;
+			padding: 3px;
 			cursor:pointer;
+			text-align: center;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		#mapinfoid:hover {
+			background: rgb(255, 200, 0);
 		}
 		p {text-indent: 20px; margin: 10px 0;}
 		#box4 {height: 146px; width: 414px; top: 311px; left:10px;}
@@ -436,10 +487,12 @@
 		#url1_3 {position: absolute; top: 10px; left: 190px;}
 		#url1_4 {position: absolute; top: 33px; left: 190px;}
 		
-		#url2_1 {position: absolute; top: 10px; left: 30px;}
-		#url2_2 {position: absolute; top: 33px; left: 30px;}
-		#url2_3 {position: absolute; top: 10px; left: 180px;}
-		#url2_4 {position: absolute; top: 33px; left: 180px;}
+		#re_url_1 {position: absolute; top: 10px; left: 30px;} /*Assault*/
+		#re_url_2 {position: absolute; top: 10px; left: 180px;} /*Object*/
+		#re_url_3 {position: absolute; top: 33px; left: 30px;} /*Scene*/
+		#re_url_4 {position: absolute; top: 33px; left: 180px;} /*Travel*/
+		#re_url_5 {position: absolute; top: 56px; left: 30px;} /*Camp*/
+		#re_url_6 {position: absolute; top: 56px; left: 180px;} /*Travel*/
 		
 		#url3_1 {position: absolute; top: 10px; left: 25px;}
 		#url3_2 {position: absolute; top: 33px; left: 25px;}
@@ -538,7 +591,7 @@
 		}
 </style>
 </head>
-<body onload="initMap()">
+<body>
 <div id="map"></div>
 <script type="application/javascript">
 	var bounds = [[-290730,-291730], [292230,291255]];
@@ -559,22 +612,20 @@
 	var allmarkers = L.layerGroup().addTo(map);
 	var markers = []
 	function createMarker(coords, op) {
-	var id
-	if (markers.length < 1) id = 0
-	else id = markers[markers.length - 1]._id + 1
-	var popupContent =
-	"X: " + coords[1] + "<br>Y: "  + coords[0] +
-	"<br><button id='popupbutton' onclick='clearMarker(" + id + ")'>удалить</button>";
-	<!-- "X: " + coords[1] + "<br>Y: "  + coords[0] + -->
-	<!-- "<br><button style='font-family: Tahoma, Verdana, sans-serif; font-weight: bold; color: red; font-size: 18px; line-height: 16px; height: 23px; width: 25px; border-radius: 7px; border: 2px solid red; padding: 0px 0px 3px 0px; cursor: pointer; position: relative; left: 2px;' onclick='clearMarker(" + id + ")'>×</button>"; -->
-	var myMarker = L.marker(coords, {
-		draggable: false
-	}).addTo(allmarkers);
-	myMarker._id = id
-	if (op == 1){var myPopup = myMarker.bindPopup(popupContent).openPopup();}
-	else {var myPopup = myMarker.bindPopup(popupContent);}
-	map.addLayer(myMarker)
-	markers.push(myMarker)
+		var id
+		if (markers.length < 1) id = 0
+		else id = markers[markers.length - 1]._id + 1
+		var popupContent =
+		"X: " + coords[1] + "<br>Y: "  + coords[0] +
+		"<br><button id='popupbutton' onclick='clearMarker(" + id + ")'>удалить</button>";
+		var myMarker = L.marker(coords, {
+			draggable: false
+		}).addTo(allmarkers);
+		myMarker._id = id
+		if (op == 1){var myPopup = myMarker.bindPopup(popupContent).openPopup();}
+		else {var myPopup = myMarker.bindPopup(popupContent);}
+		map.addLayer(myMarker)
+		markers.push(myMarker)
 	}
 	function clearMarker(id) {
 		console.log(markers)
@@ -631,16 +682,16 @@
 	b5.style.color = '#000000';
 	b6.style.color = '#FFFFFF';
 	};
-	var popup = L.popup();
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent("X: " + ~~e.latlng.lng + ", Y: " + ~~e.latlng.lat)
-			.addTo(map);
-	}
-	map.on('click', onMapClick);
+	<!-- var popup = L.popup(); -->
+	<!-- function onMapClick(e) { -->
+		<!-- popup -->
+			<!-- .setLatLng(e.latlng) -->
+			<!-- .setContent("X: " + ~~e.latlng.lng + ", Y: " + ~~e.latlng.lat) -->
+			<!-- .addTo(map); -->
+	<!-- } -->
+	<!-- map.on('click', onMapClick); -->
 	map.on('contextmenu',function(e){
-	createMarker([e.latlng.lat, e.latlng.lng])
+		createMarker([e.latlng.lat, e.latlng.lng])
 	});
 	map.createPane("top");
 	map.getPane("top").style.zIndex = 999;
@@ -659,12 +710,24 @@
 	};
 	function AllCheckboxOff(){
 	$('input[type="checkbox"]:checked').prop('checked',false);
-	allmarkers.clearLayers();
 	allicons.clearLayers();
+	map.removeControl( controlSearch );
+	AllCheckboxOff2();
+	}
+	function AllCheckboxOff2(){
+	$('input[type="checkbox"]:checked:not(#LocationsButton)').prop('checked',false);
+	allmarkers.clearLayers();
+	wb1icons.clearLayers();
+	wb2icons.clearLayers();
+	wb3icons.clearLayers();
+	wb4icons.clearLayers();
+	wb5icons.clearLayers();
 	reassaulticons.clearLayers();
-	retravelicons.clearLayers();
-	resceneicons.clearLayers();
 	reobjecticons.clearLayers();
+	resceneicons.clearLayers();
+	retravelicons.clearLayers();
+	<!-- recampicons.clearLayers(); -->
+	<!-- reminingicons.clearLayers(); -->
 	strangemobsicons.clearLayers();
 	aluminiyicons.clearLayers();
 	betonicons.clearLayers();
@@ -685,7 +748,6 @@
 	magazineicons.clearLayers();
 	bobbleheadicons.clearLayers();
 	capstashicons.clearLayers();
-	map.removeControl( controlSearch );
 	gribicons.clearLayers();
 	arbuzicons.clearLayers();
 	astraicons.clearLayers();
@@ -778,11 +840,19 @@
 </script>
 <script src="scripts/LocationsIcons.js"></script>
 <script src="scripts/Objects/LocationsButton.js"></script>
-<script src="scripts/Objects/RandomEncountersButton.js"></script>
-<script src="scripts/Objects/RandomEncountersAssaultButton.js"></script>
-<script src="scripts/Objects/RandomEncountersObjectButton.js"></script>
-<script src="scripts/Objects/RandomEncountersSceneButton.js"></script>
-<script src="scripts/Objects/RandomEncountersTravelButton.js"></script>
+
+<script src="scripts/Objects/WB/Wb1Button.js"></script>
+<script src="scripts/Objects/WB/Wb2Button.js"></script>
+<script src="scripts/Objects/WB/Wb3Button.js"></script>
+<script src="scripts/Objects/WB/Wb4Button.js"></script>
+<script src="scripts/Objects/WB/Wb5Button.js"></script>
+
+<script src="scripts/Objects/RE/RandomEncountersAssaultButton.js"></script>
+<script src="scripts/Objects/RE/RandomEncountersObjectButton.js"></script>
+<script src="scripts/Objects/RE/RandomEncountersSceneButton.js"></script>
+<script src="scripts/Objects/RE/RandomEncountersTravelButton.js"></script>
+<script src="scripts/Objects/RE/RandomEncountersCampButton.js"></script>
+<script src="scripts/Objects/RE/RandomEncountersMiningButton.js"></script>
 <script src="scripts/Objects/Mestorojdeniya/AluminiyButton.js"></script>
 <script src="scripts/Objects/Mestorojdeniya/BetonButton.js"></script>
 <script src="scripts/Objects/Mestorojdeniya/JelezoButton.js"></script>
@@ -865,19 +935,20 @@
 LocationsOnOff();
 </script>
 	<div id="infookno" style="width: 700px;display: none;">
-		<div id="infohead" align="center"><b>Интерактивная карта Fallout 76.</b></div>
+		<img src="css/favicons/favicon-32x32.png" style="position: absolute;"></img>
+		<div id="infohead" align="center" style="padding-top: 15px;"><b>Интерактивная карта Fallout 76.</b></div>
 		<p>Есть локации, сокровища, журналы, пупсы, тайники с крышками, места случайных встреч, месторождения (для экстракторов), рудные жилы, растения, хлам, места спавна флэтвудских монстров и молеротов, а так же поиск точек по вашим введенным координатам. При включении локаций включается строка поиска. 
-		<p>На ЛКМ показывает координаты того места где вы кликнули, на ПКМ - ставит простой маркер.
+		<p>При нажатии ПКМ на карте - ставит маркер (возможна установка множества маркеров, при нажатии на них покажет координаты и кнопку удаления данного маркера).
 		<p>Пишет код - Farget (я) (код кривой, но рабочий =D). Помогли с координатами - Гаруст и nokimaro. Помогла со скриншотами сокровищ - PPPie.
 		<p>Мы, а так же еще несколько тысяч игроков Fallout 76 сидим на самом крупном русскоязычном дискорд сервере по игре Fallout 76 - <a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank">F76 HUB</a>. Там Вы можете найти кучу разной информации по игре, торговать с игроками и просто общаться.
 		<p>Если Вам очень помогла данная карта или какой-то материал который я выкладывал в дискорде, то Вы можете поблагодарить монеткой (кнопка в правом нижнем углу) =).
 	</div>
 <div id="sidebar">
 <div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель"/></div>
-<div id="one" style="font-family: LemonMilkRus; position: relative; bottom: 280px; left: 10px;">
+<div id="one" style="font-family: LemonMilkRus; position: relative; bottom: 240px; left: 10px;">
 <ul class="accordion-menu" style="border-radius: 7px; border: 1px solid #3c3c3c; box-shadow: 0 0 5px #bbb;">
 <li>
-	<div class="dropdownlink"><i class="fa fa-home" aria-hidden="true"></i> Основное
+	<div class="dropdownlink"><i class="fa fa-home" aria-hidden="true" style="left: 15px;"></i> Основное
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
@@ -900,31 +971,65 @@ LocationsOnOff();
 	</ul>
 </li>
 <li>
-	<div class="dropdownlink"><i class="fa fa-random" aria-hidden="true"></i> Случайные встречи
+	<!-- <div class="dropdownlink"><i class="fa fa-question" aria-hidden="true" style="left: 18px;"></i> ????? -->
+	<div class="dropdownlink"><i class="fa fa-hammer" aria-hidden="true" style="left: 15px;"></i> Верстаки
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
-		<div style="height: 55px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
-		<div class="text" id="text2">Assault</div>
-		<div class="text" id="text3">Object</div>
-		<div class="text" id="text4">Scene</div>
-		<div class="text" id="text5">Travel</div>
-		<label class="switch" id="switch2"><input type="checkbox" onchange="REAssaultOnOff()" id="REAssaultButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch3"><input type="checkbox" onchange="REObjectOnOff()" id="REObjectButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch4"><input type="checkbox" onchange="RESceneOnOff()" id="RESceneButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch5"><input type="checkbox" onchange="RETravelOnOff()" id="RETravelButton" autocomplete="off"><span class="slider"></span></label>
-		<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
-(Откроется в новой вкладке)" style="padding: 0;"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
-		</div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="url2_1" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="url2_2" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="url2_3" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="url2_4" width="12" height="12" title="Скопировать ссылку"></div>
+		<div style="height: 125px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+		<div class="text" id="wb_text1">Оружейный верстак</div>
+		<div class="text" id="wb_text2">Верстак для брони</div>
+		<div class="text" id="wb_text3">Ремонтный верстак</div>
+		<div class="text" id="wb_text4">Химлаборатория</div>
+		<div class="text" id="wb_text5">Пункт обслуживания силовой брони</div>
+		<label class="switch" id="wb_switch1"><input type="checkbox" onchange="Wb1OnOff()" id="Wb1Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="wb_switch2"><input type="checkbox" onchange="Wb2OnOff()" id="Wb2Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="wb_switch3"><input type="checkbox" onchange="Wb3OnOff()" id="Wb3Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="wb_switch4"><input type="checkbox" onchange="Wb4OnOff()" id="Wb4Button" autocomplete="off"><span class="slider"></span></label>	
+		<label class="switch" id="wb_switch5"><input type="checkbox" onchange="Wb5OnOff()" id="Wb5Button" autocomplete="off"><span class="slider"></span></label>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench1"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_1" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench2"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_2" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench3"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_3" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench4"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_4" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench5"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_5" width="12" height="12" title="Скопировать ссылку"></div>
 		</div>
 	</ul>
 </li>
 <li>
-	<div class="dropdownlink"><i class="fa fa-pastafarianism" aria-hidden="true"></i> Монстры
+	<div class="dropdownlink"><i class="fa fa-random" aria-hidden="true"></i> Случайные встречи
+		<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	</div>
+	<ul class="submenuItems">
+		<!-- <div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;"> -->
+		<div style="height: 55px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+		<div class="text" id="re_text1">Assault</div>
+		<div class="text" id="re_text2">Object</div>
+		<div class="text" id="re_text3">Scene</div>
+		<div class="text" id="re_text4">Travel</div>
+		<!-- <div class="text" id="re_text5">Camp</div> -->
+		<!-- <div class="text" id="re_text6">Mining</div> -->
+		
+		<label class="switch" id="re_switch1"><input type="checkbox" onchange="REAssaultOnOff()" id="REAssaultButton" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="re_switch2"><input type="checkbox" onchange="REObjectOnOff()" id="REObjectButton" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="re_switch3"><input type="checkbox" onchange="RESceneOnOff()" id="RESceneButton" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="re_switch4"><input type="checkbox" onchange="RETravelOnOff()" id="RETravelButton" autocomplete="off"><span class="slider"></span></label>
+		<!-- <label class="switch" id="re_switch5"><input type="checkbox" onchange="RECampOnOff()" id="RECampButton" autocomplete="off"><span class="slider"></span></label> -->
+		<!-- <label class="switch" id="re_switch6"><input type="checkbox" onchange="REMiningOnOff()" id="REMiningButton" autocomplete="off"><span class="slider"></span></label> -->
+		
+		<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
+(Откроется в новой вкладке)" style="padding: 0;"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
+		</div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_1" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_2" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_3" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_4" width="12" height="12" title="Скопировать ссылку"></div>
+		<!-- <div class="b_url" data-clipboard-text="https://f76map.ru#camp"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_5" width="12" height="12" title="Скопировать ссылку"></div> -->
+		<!-- <div class="b_url" data-clipboard-text="https://f76map.ru#mining"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_6" width="12" height="12" title="Скопировать ссылку"></div> -->
+		</div>
+	</ul>
+</li>
+<li>
+	<div class="dropdownlink"><i class="fa fa-pastafarianism" aria-hidden="true" style="left: 14px;"></i> Монстры
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
@@ -989,7 +1094,7 @@ LocationsOnOff();
 	</ul>
 </li>
 <li>
-    <div class="dropdownlink"><i class="fas fa-gem" aria-hidden="true"></i> Рудные жилы
+    <div class="dropdownlink"><i class="fas fa-gem" aria-hidden="true" style="left: 15px;"></i> Рудные жилы
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
     </div>
     <ul class="submenuItems">
@@ -1883,30 +1988,30 @@ LocationsOnOff();
 </li>
 </ul>
 </div>
-	<div class="allcheckbox"><input type="button" onclick="AllCheckboxOff()" id="allcheckboxbut" value="Отключить все"/></div>
+	<div id="allcheckbox"><button onclick="AllCheckboxOff()" class="allcheckboxbut" title="Отключить все иконки и маркеры">Отключить все</button></div>
+	<div id="allcheckbox2"><button onclick="AllCheckboxOff2()" class="allcheckboxbut" title="Отключить все иконки (кроме локаций) и маркеры">Отключить все<br>кроме локаций</button></div>
 	<div id="lkm_pkm">
-		<div id="lkm_pkm_text"><u>ЛКМ</u> на карте - показать координаты<br><u>ПКМ</u> на карте - поставить маркер</div>
+		<div id="lkm_pkm_text"><u>ПКМ</u> на карте - поставить маркер</div>
 	</div>
 	<div id="changemap">
-		<div id="changemaptext" align="center"><u>Выбор карты:</u></div>
-		<div id="changemaptext1">Стандартная</div>
-		<div id="changemaptext2">Военная</div>
+		<div id="changemaptext1">Стандартная карта</div>
+		<div id="changemaptext2">Военная карта </div>
 		<div id="changemaptext3">Стандартная + регионы</div>
 		<div class="map"><input type="button" id="b4" onclick="but4()" value="1" style="font-family: 'Arial'"/></div>
 		<div class="map"><input type="button" id="b5" onclick="but5()" value="2" style="font-family: 'Arial'"/></div>
 		<div class="map"><input type="button" id="b6" onclick="but6()" value="3" style="font-family: 'Arial'"/></div>
 	</div>
-	<div class="mapinfo"><a class="fancybox" id="mapinfoid" href="#infookno" title=""><img src="css/images/mapinfo.png" style="width: 95px;" alt=""/></a></div>
+	<div class="mapinfo"><a class="fancybox" id="mapinfoid" href="#infookno"><img src="css/images/mapinfo.png" style="width: 78px;" alt=""/></a></div>
 	<div id="discord_f76hub"><a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank" title="Русскоязычный сервер дискорд по игре Fallout 76
 (Откроется в новой вкладке)"><img src="css/images/discord_f76hub.png" id="f76hub" onclick="f_f76hub()"/></a></div>
 	<div id="search">
 		<div id="searchX" style="font-family: 'LemonMilkRus'">X: <input type="text" maxlength="14" name="lng" id="lng"/></div>
 		<div id="searchY" style="font-family: 'LemonMilkRus'">Y: <input type="text" maxlength="14" name="lat" id="lat"/></div>
-		<div id="searchB1" title="Найти точку и поставить маркер по введенным координатам.
+		<div id="searchB1" title="Найти точку и поставить маркер по введенным координатам
 (Другие маркеры будут удалены)"><input type="button" id="b1" onclick="but1()" value="Найти точку"/></div>
-		<div id="searchB2" title="Найти точку и поставить маркер по введенным координатам.
+		<div id="searchB2" title="Найти точку и поставить маркер по введенным координатам
 (Другие маркеры не будут удалены)"><input type="button" id="b2" onclick="but2()" value="Найти точку (без удаления других)"/></div>
-		<div id="searchB3" title="Удалить все маркеры с карты."><input type="button" id="b3" onclick="but3()" value="Удалить маркеры"/></div>
+		<div id="searchB3" title="Удалить все маркеры с карты"><input type="button" id="b3" onclick="but3()" value="Удалить маркеры"/></div>
 	</div>
 </div>
 </div>
