@@ -5,11 +5,19 @@ if(window.location.hash == '#treasure') {TreasureButton.checked = 1; TreasureOnO
 if(window.location.hash == '#magazine') {MagazineButton.checked = 1; MagazineOnOff();}
 if(window.location.hash == '#bobblehead') {BobbleheadButton.checked = 1; BobbleheadOnOff();}
 if(window.location.hash == '#capstash') {CapStashButton.checked = 1; CapStashOnOff();}
+// Верстаки
+if(window.location.hash == '#workbench1') {Wb1Button.checked = 1; Wb1OnOff();}
+if(window.location.hash == '#workbench2') {Wb2Button.checked = 1; Wb2OnOff();}
+if(window.location.hash == '#workbench3') {Wb3Button.checked = 1; Wb3OnOff();}
+if(window.location.hash == '#workbench4') {Wb4Button.checked = 1; Wb4OnOff();}
+if(window.location.hash == '#workbench5') {Wb5Button.checked = 1; Wb5OnOff();}
 // Случайные встречи
 if(window.location.hash == '#assault') {REAssaultButton.checked = 1; REAssaultOnOff();}
 if(window.location.hash == '#object') {REObjectButton.checked = 1; REObjectOnOff();}
 if(window.location.hash == '#scene') {RESceneButton.checked = 1; RESceneOnOff();}
 if(window.location.hash == '#travel') {RETravelButton.checked = 1; RETravelOnOff();}
+if(window.location.hash == '#camp') {RECampButton.checked = 1; RECampOnOff();}
+if(window.location.hash == '#mining') {REMiningButton.checked = 1; REMiningOnOff();}
 // Мобы
 if(window.location.hash == '#strangemobs') {StrangeMobsButton.checked = 1; StrangeMobsOnOff();}
 // Месторождения для экстракторов

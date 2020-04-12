@@ -75,6 +75,8 @@
 	var icon_random2 = L.icon({iconUrl: 'css/images/icon_random2.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
 	var icon_random3 = L.icon({iconUrl: 'css/images/icon_random3.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
 	var icon_random4 = L.icon({iconUrl: 'css/images/icon_random4.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
+	var icon_random5 = L.icon({iconUrl: 'css/images/icon_random5.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
+	var icon_random6 = L.icon({iconUrl: 'css/images/icon_random6.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
 	
 	var icon_aluminiy = L.icon({iconUrl: 'css/images/icon_aluminiy.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
 	var icon_beton = L.icon({iconUrl: 'css/images/icon_beton.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
