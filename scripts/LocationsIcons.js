@@ -70,7 +70,12 @@
 	var icon70 = L.icon({iconUrl: 'css/images/icon70.png',	iconSize: [24, 24],	iconAnchor: [11, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	var icon71 = L.icon({iconUrl: 'css/images/icon71.png',	iconSize: [26, 22],	iconAnchor: [13, 12],	popupAnchor: [0, -12],	tooltipAnchor: [0, -12]});
 	var icon72 = L.icon({iconUrl: 'css/images/icon72.png',	iconSize: [29, 23],	iconAnchor: [15, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
-
+	var icon73 = L.icon({iconUrl: 'css/images/icon73.png',	iconSize: [38, 27],	iconAnchor: [18, 14],	popupAnchor: [0, -14],	tooltipAnchor: [0, -14]});
+	var icon74 = L.icon({iconUrl: 'css/images/icon74.png',	iconSize: [27, 29],	iconAnchor: [13, 15],	popupAnchor: [0, -15],	tooltipAnchor: [0, -15]});
+	var icon75 = L.icon({iconUrl: 'css/images/icon75.png',	iconSize: [35, 29],	iconAnchor: [16, 15],	popupAnchor: [0, -15],	tooltipAnchor: [0, -15]});
+	var icon76 = L.icon({iconUrl: 'css/images/icon76.png',	iconSize: [28, 27],	iconAnchor: [13, 14],	popupAnchor: [0, -14],	tooltipAnchor: [0, -14]});
+	var icon77 = L.icon({iconUrl: 'css/images/icon77.png',	iconSize: [32, 25],	iconAnchor: [15, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+	
 	var icon_random1 = L.icon({iconUrl: 'css/images/icon_random1.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
 	var icon_random2 = L.icon({iconUrl: 'css/images/icon_random2.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
 	var icon_random3 = L.icon({iconUrl: 'css/images/icon_random3.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
