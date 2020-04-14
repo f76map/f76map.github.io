@@ -237,7 +237,7 @@
 		}
 		.buttoninfo {
 			position: absolute;
-			top: 11px;
+			top: 21px;
 			left: 335px;
 			z-index: 2;
 		}
@@ -726,8 +726,8 @@
 	reobjecticons.clearLayers();
 	resceneicons.clearLayers();
 	retravelicons.clearLayers();
-	<!-- recampicons.clearLayers(); -->
-	<!-- reminingicons.clearLayers(); -->
+	recampicons.clearLayers();
+	reminingicons.clearLayers();
 	strangemobsicons.clearLayers();
 	aluminiyicons.clearLayers();
 	betonicons.clearLayers();
@@ -1000,21 +1000,20 @@ LocationsOnOff();
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
-		<!-- <div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;"> -->
-		<div style="height: 55px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+		<div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
 		<div class="text" id="re_text1">Assault</div>
 		<div class="text" id="re_text2">Object</div>
 		<div class="text" id="re_text3">Scene</div>
 		<div class="text" id="re_text4">Travel</div>
-		<!-- <div class="text" id="re_text5">Camp</div> -->
-		<!-- <div class="text" id="re_text6">Mining</div> -->
+		<div class="text" id="re_text5">Camp</div>
+		<div class="text" id="re_text6">Mining</div>
 		
 		<label class="switch" id="re_switch1"><input type="checkbox" onchange="REAssaultOnOff()" id="REAssaultButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="re_switch2"><input type="checkbox" onchange="REObjectOnOff()" id="REObjectButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="re_switch3"><input type="checkbox" onchange="RESceneOnOff()" id="RESceneButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="re_switch4"><input type="checkbox" onchange="RETravelOnOff()" id="RETravelButton" autocomplete="off"><span class="slider"></span></label>
-		<!-- <label class="switch" id="re_switch5"><input type="checkbox" onchange="RECampOnOff()" id="RECampButton" autocomplete="off"><span class="slider"></span></label> -->
-		<!-- <label class="switch" id="re_switch6"><input type="checkbox" onchange="REMiningOnOff()" id="REMiningButton" autocomplete="off"><span class="slider"></span></label> -->
+		<label class="switch" id="re_switch5"><input type="checkbox" onchange="RECampOnOff()" id="RECampButton" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="re_switch6"><input type="checkbox" onchange="REMiningOnOff()" id="REMiningButton" autocomplete="off"><span class="slider"></span></label>
 		
 		<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
 (Откроется в новой вкладке)" style="padding: 0;"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
@@ -1023,8 +1022,8 @@ LocationsOnOff();
 		<div class="b_url" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_2" width="12" height="12" title="Скопировать ссылку"></div>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_3" width="12" height="12" title="Скопировать ссылку"></div>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_4" width="12" height="12" title="Скопировать ссылку"></div>
-		<!-- <div class="b_url" data-clipboard-text="https://f76map.ru#camp"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_5" width="12" height="12" title="Скопировать ссылку"></div> -->
-		<!-- <div class="b_url" data-clipboard-text="https://f76map.ru#mining"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_6" width="12" height="12" title="Скопировать ссылку"></div> -->
+		<div class="b_url" data-clipboard-text="https://f76map.ru#camp"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_5" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#mining"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_6" width="12" height="12" title="Скопировать ссылку"></div>
 		</div>
 	</ul>
 </li>
