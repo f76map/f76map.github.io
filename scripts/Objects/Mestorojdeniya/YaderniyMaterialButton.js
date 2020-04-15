@@ -1,21 +1,29 @@
-	var yaderniymaterialicons = L.layerGroup().addTo(map);
-	function YaderniyMaterialOnOff() {
-	var chbox;
+let yaderniymaterialicons = L.layerGroup().addTo(map);
+function YaderniyMaterialOnOff() {
+	let chbox;
 	chbox=document.getElementById('YaderniyMaterialButton');
 	if (chbox.checked) {
-	icons = new L.marker([-42694, -123128], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-146304, -89409], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-115486, -87839], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-169311, -119320], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-156282, -2230], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-136426, 190871], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-171831, 160691], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-157800, -1473], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([-156824, -1592], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([70301, 45680], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([93279, 187919], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([13654, 11518], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
-	icons = new L.marker([148958, 137712], {icon: icon_yaderniymaterial}).addTo(yaderniymaterialicons).bindPopup("Месторождение урана (Ядерный материал)").bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'});
+		let yaderniymaterial = [
+			[-115486, -87839],
+			[-42694, -123128],
+			[-157800, -1473],
+			[-156824, -1592],
+			[-156282, -2230],
+			[-146304, -89409],
+			[-169311, -119320],
+			[-136426, 190871],
+			[-171831, 160691],
+			[148958, 137712],
+			[93279, 187919],
+			[70301, 45680],
+			[13654, 11518]
+		];
+		for (let i = 0; i < yaderniymaterial.length; i++) {
+			new L.Marker([yaderniymaterial[i][0],yaderniymaterial[i][1]], {icon: icon_yaderniymaterial})
+				.bindPopup("Месторождение урана (Ядерный материал)")
+				.bindTooltip("Месторождение урана (Ядерный материал)", {direction: 'top'})
+				.addTo(yaderniymaterialicons);
+		}
 	}
 	else {
 		yaderniymaterialicons.clearLayers();

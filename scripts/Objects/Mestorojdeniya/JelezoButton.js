@@ -1,85 +1,94 @@
-	var jelezoicons = L.layerGroup().addTo(map);
-	function JelezoOnOff() {
-	var chbox;
+let jelezoicons = L.layerGroup().addTo(map);
+function JelezoOnOff() {
+	let chbox;
 	chbox=document.getElementById('JelezoButton');
 	if (chbox.checked) {
-	icons = new L.marker([139118, -158647], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([60240, -66427], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([43624, -46361], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([54511, -25802], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([63671, -22104], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-17739, -130442], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-15256, -146769], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-44919, -170017], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-53755, -142558], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([8288, -150332], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-36506, -182177], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([13731, -67629], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-3879, -61955], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([77217, -53972], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([36208, -94990], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([5637, -115773], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-2834, -74926], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-13695, -25506], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([12431, -24545], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([25713, -26841], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([65309, -78478], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([97733, -72839], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([132232, -46227], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([120740, -1722], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([111346, -93260], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-30902, -51803], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-11434, -57144], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-72604, -52192], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-73666, -89437], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-64250, -110113], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-39373, -96381], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-43098, -48141], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([34252, -14682], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([51938, 17948], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-95706, -116690], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-126022, -111532], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-107627, -144044], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-146134, -152731], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-150635, -89062], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-134215, -86391], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-113109, -66768], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-99870, -110852], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([38172, -136113], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([77041, -122343], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([62520, -145811], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([169997, -53626], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([162017, -46193], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([204305, -142596], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([159557, -120510], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([179253, -164980], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([153028, -139859], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-101397, 178561], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([198765, 103440], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([118179, 51980], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-166372, -102721], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-167955, -91229], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-165793, -30393], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([134317, 97822], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([80497, 113375], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([116973, 71252], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([160554, 145492], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-120671, 78598], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([195949, 133768], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([194379, 181874], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([112006, 125403], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([90587, 189225], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-76044, 37405], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([27380, 26994], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([92647, 72486], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([2694, 91160], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-60970, -127789], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([150767, 140215], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-152058, -27168], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-148228, -15233], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-112368, -32274], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-13259, 60885], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
-	icons = new L.marker([-64168, 103402], {icon: icon_jelezo}).addTo(jelezoicons).bindPopup("Месторождение железа").bindTooltip("Месторождение железа", {direction: 'top'});
+		let jelezo = [
+			[-13695, -25506],
+			[-112368, -32274],
+			[-3879, -61955],
+			[-11434, -57144],
+			[-30902, -51803],
+			[-43098, -48141],
+			[-72604, -52192],
+			[-2834, -74926],
+			[-39373, -96381],
+			[-73666, -89437],
+			[-113109, -66768],
+			[-17739, -130442],
+			[-60970, -127789],
+			[-64250, -110113],
+			[-95706, -116690],
+			[-126022, -111532],
+			[-99870, -110852],
+			[-152058, -27168],
+			[-148228, -15233],
+			[-165793, -30393],
+			[-150635, -89062],
+			[-134215, -86391],
+			[-167955, -91229],
+			[-166372, -102721],
+			[169997, -53626],
+			[132232, -46227],
+			[162017, -46193],
+			[159557, -120510],
+			[120740, -1722],
+			[54511, -25802],
+			[63671, -22104],
+			[34252, -14682],
+			[25713, -26841],
+			[12431, -24545],
+			[77217, -53972],
+			[43624, -46361],
+			[111346, -93260],
+			[97733, -72839],
+			[36208, -94990],
+			[65309, -78478],
+			[60240, -66427],
+			[13731, -67629],
+			[77041, -122343],
+			[5637, -115773],
+			[-15256, -146769],
+			[-53755, -142558],
+			[-107627, -144044],
+			[-36506, -182177],
+			[-44919, -170017],
+			[-146134, -152731],
+			[204305, -142596],
+			[139118, -158647],
+			[153028, -139859],
+			[179253, -164980],
+			[62520, -145811],
+			[38172, -136113],
+			[8288, -150332],
+			[-101397, 178561],
+			[-127737, 156429],
+			[194379, 181874],
+			[195949, 133768],
+			[150767, 140215],
+			[160554, 145492],
+			[90587, 189225],
+			[-64168, 103402],
+			[-120671, 78598],
+			[-13259, 60885],
+			[-76044, 37405],
+			[198765, 103440],
+			[134317, 97822],
+			[112006, 125403],
+			[80497, 113375],
+			[116973, 71252],
+			[92647, 72486],
+			[2694, 91160],
+			[118179, 51980],
+			[51938, 17948],
+			[27380, 26994]
+		];
+		for (let i = 0; i < jelezo.length; i++) {
+			new L.Marker([jelezo[i][0],jelezo[i][1]], {icon: icon_jelezo})
+				.bindPopup("Месторождение железа")
+				.bindTooltip("Месторождение железа", {direction: 'top'})
+				.addTo(jelezoicons);
+		}
 	}
 	else {
 		jelezoicons.clearLayers();
