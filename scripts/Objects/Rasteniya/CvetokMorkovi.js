@@ -1,9 +1,9 @@
-var cvetokmorkoviicons = L.layerGroup().addTo(map);
+let cvetokmorkoviicons = L.layerGroup().addTo(map);
 function CvetokMorkoviOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('CvetokMorkoviButton');
 	if (chbox.checked) {
-		var cvetokmorkovi1 = [
+		let cvetokmorkovi1 = [
 			[-23310, -18007],
 			[-31458, -13869],
 			[-17472, -13367],
@@ -314,6 +314,10 @@ function CvetokMorkoviOnOff() {
 			[82532, -7273],
 			[82766, -7187],
 			[34400, -19419],
+			[25453, -56121],
+			[26243, -56042],
+			[47609, -80870],
+			[47540, -80998],
 			[-25348, -160744],
 			[-28776, -158253],
 			[-25087, -157868],
@@ -594,6 +598,9 @@ function CvetokMorkoviOnOff() {
 			[-61274, 111111],
 			[-61194, 111097],
 			[-61201, 111190],
+			[-60090, 117327],
+			[-59912, 116990],
+			[-59532, 117341],
 			[-43417, 115572],
 			[-43579, 115772],
 			[-55805, 126084],
@@ -999,8 +1006,6 @@ function CvetokMorkoviOnOff() {
 			[-130148, 39242],
 			[-113264, 38518],
 			[-113058, 38818],
-			[-101774, 37712],
-			[-101985, 37476],
 			[-128943, 42474],
 			[-129772, 42314],
 			[-130124, 42610],
@@ -1110,18 +1115,13 @@ function CvetokMorkoviOnOff() {
 			[-57801, 11768],
 			[-60424, 10384],
 			[-60354, 11069],
-			[-43167, 12096],
-			[-42230, 10738],
-			[-41120, 9165],
 			[-38841, 11950],
-			[-40685, 8267],
 			[-34135, 9832],
 			[-63546, 15720],
 			[-58696, 15777],
 			[-35759, 13182],
 			[-34116, 12403],
 			[-33008, 13280],
-			[-33232, 13970],
 			[-63676, 18515],
 			[-62529, 20268],
 			[-60246, 17835],
@@ -1258,9 +1258,6 @@ function CvetokMorkoviOnOff() {
 			[-101231, 27009],
 			[-106034, 29450],
 			[-106196, 29634],
-			[-101299, 32090],
-			[-101030, 32464],
-			[-100462, 30979],
 			[-137880, 102107],
 			[-141786, 103785],
 			[-135328, 103847],
@@ -1345,7 +1342,7 @@ function CvetokMorkoviOnOff() {
 			[-140015, 85619],
 			[-148860, 88156],
 			[-144119, 87957],
-			[-137902, 87481],
+			[-137807, 87586],
 			[-132580, 86459],
 			[-132250, 86317],
 			[-160665, 92465],
@@ -1576,8 +1573,6 @@ function CvetokMorkoviOnOff() {
 			[181666, 73127],
 			[180658, 72332],
 			[175850, 80071],
-			[176525, 80508],
-			[176567, 80215],
 			[191627, 78078],
 			[195892, 80363],
 			[196291, 79807],
@@ -1762,7 +1757,7 @@ function CvetokMorkoviOnOff() {
 			[965, 112812],
 			[1267, 112838],
 			[1376, 112962],
-			[9529, 116300],
+			[9692, 115634],
 			[10011, 117710],
 			[9586, 118754],
 			[9194, 117217],
@@ -1927,7 +1922,7 @@ function CvetokMorkoviOnOff() {
 			[109336, 54710],
 			[101011, 59257],
 			[104704, 59206],
-			[103325, 58810],
+			[102908, 58710],
 			[107985, 60047],
 			[108355, 58451],
 			[114268, 59054],
@@ -2066,17 +2061,18 @@ function CvetokMorkoviOnOff() {
 			[4975, 30060],
 			[4927, 30057]
 		];
-		var cvetokmorkovi2 = [
-			["Цветок дикой моркови - 2 шт.<br>[Внутри здания Галерея в долине]", -12605, 196567]
+		let cvetokmorkovi2 = [
+			["Цветок дикой моркови - 2 шт.<br>[Внутри здания Галерея в долине]", -12605, 196567],
+			["Цветок дикой моркови - 5 шт.<br>[Внутри локации Лаборатория биомов &quotАрктос фарма&quot]", 51382, -42352]
 		];
-		for (var i = 0; i < cvetokmorkovi1.length; i++) {
-			cvetokmorkovi1_1 = new L.circleMarker([cvetokmorkovi1[i][0],cvetokmorkovi1[i][1]], {color: "#FBCEB1"})
+		for (let i = 0; i < cvetokmorkovi1.length; i++) {
+			new L.circleMarker([cvetokmorkovi1[i][0],cvetokmorkovi1[i][1]], {color: "#FBCEB1"})
 			.bindPopup("Цветок дикой моркови")
 			.bindTooltip("Цветок дикой моркови", {direction: 'top'})
 			.addTo(cvetokmorkoviicons);
 		}
-		for (var i = 0; i < cvetokmorkovi2.length; i++) {
-			cvetokmorkovi2_1 = new L.circleMarker([cvetokmorkovi2[i][1],cvetokmorkovi2[i][2]], {color: "#FBCEB1", fillColor: "#000000", fillOpacity: "0.8"})
+		for (let i = 0; i < cvetokmorkovi2.length; i++) {
+			new L.circleMarker([cvetokmorkovi2[i][1],cvetokmorkovi2[i][2]], {color: "#FBCEB1", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(cvetokmorkovi2[i][0])
 			.bindTooltip(cvetokmorkovi2[i][0], {direction: 'top'})
 			.addTo(cvetokmorkoviicons);
@@ -2086,5 +2082,3 @@ function CvetokMorkoviOnOff() {
 		cvetokmorkoviicons.clearLayers();
 	}
 }
-//8 в Убежище 94
-//5 в лаборатории

@@ -1,9 +1,9 @@
-var morkovyicons = L.layerGroup().addTo(map);
+let morkovyicons = L.layerGroup().addTo(map);
 function MorkovyOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('MorkovyButton');
 	if (chbox.checked) {
-		var morkovy1 = [
+		let morkovy1 = [
 			[-109395, -65019],
 			[-109298, -65006],
 			[-109481, -65058],
@@ -66,21 +66,26 @@ function MorkovyOnOff() {
 			[32936, 92351],
 			[32819, 92291],
 			[32889, 92317],
-//Кювета
-			[-937, -163242]
+			
+			[-937, -163242],
+			[43086, 198467],
+			
+			[-60048, 117132],
+			[-59961, 117043]
 		];
-		var morkovy2 = [
-			["Морковь<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466],
-			["Морковь - 8 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526]
+		let morkovy2 = [
+			["Морковь - 2 шт.<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466],
+			["Морковь - 8 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526],
+			["Морковь - 3 шт.<br>[Внутри локации Лаборатория биомов &quotАрктос фарма&quot]", 51382, -42352]
 		];
-		for (var i = 0; i < morkovy1.length; i++) {
-			morkovy1_1 = new L.circleMarker([morkovy1[i][0],morkovy1[i][1]], {pane: "top", color: "#ff8c00"})
+		for (let i = 0; i < morkovy1.length; i++) {
+			new L.circleMarker([morkovy1[i][0],morkovy1[i][1]], {pane: "top", color: "#ff8c00"})
 			.bindPopup("Морковь")
 			.bindTooltip("Морковь", {direction: 'top'})
 			.addTo(morkovyicons);
 		}
-		for (var i = 0; i < morkovy2.length; i++) {
-			morkovy2_1 = new L.circleMarker([morkovy2[i][1],morkovy2[i][2]], {pane: "top", color: "#ff8c00", fillColor: "#000000", fillOpacity: "0.8"})
+		for (let i = 0; i < morkovy2.length; i++) {
+			new L.circleMarker([morkovy2[i][1],morkovy2[i][2]], {pane: "top", color: "#ff8c00", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(morkovy2[i][0])
 			.bindTooltip(morkovy2[i][0], {direction: 'top'})
 			.addTo(morkovyicons);
@@ -90,5 +95,3 @@ function MorkovyOnOff() {
 		morkovyicons.clearLayers();
 	}
 }
-//8 в Убежище 94
-//3 в лаборатории

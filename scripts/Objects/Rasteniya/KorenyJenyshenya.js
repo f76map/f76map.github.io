@@ -1,9 +1,9 @@
-var korenyjenyshenyaicons = L.layerGroup().addTo(map);
+let korenyjenyshenyaicons = L.layerGroup().addTo(map);
 function KorenyJenyshenyaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('KorenyJenyshenyaButton');
 	if (chbox.checked) {
-		var korenyjenyshenya = [
+		let korenyjenyshenya = [
 			[-43155, -6546],
 			[-43129, -6512],
 			[-43052, -6360],
@@ -15,7 +15,7 @@ function KorenyJenyshenyaOnOff() {
 			[-24725, 187312],
 			[-24725, 188091],
 			[-23662, 186379],
-			[-24443, 187047],
+			[-24444, 187049],
 			[-24415, 187725],
 			[-36166, 171081],
 			[-36421, 170942],
@@ -30,8 +30,8 @@ function KorenyJenyshenyaOnOff() {
 			[56730, 22744],
 			[54862, 24868]
 		];
-		for (var i = 0; i < korenyjenyshenya.length; i++) {
-			korenyjenyshenya_1 = new L.circleMarker([korenyjenyshenya[i][0],korenyjenyshenya[i][1]], {pane: "top", color: "#B5B8B1"})
+		for (let i = 0; i < korenyjenyshenya.length; i++) {
+			new L.circleMarker([korenyjenyshenya[i][0],korenyjenyshenya[i][1]], {pane: "top", color: "#B5B8B1"})
 			.bindPopup("Корень женьшеня")
 			.bindTooltip("Корень женьшеня", {direction: 'top'})
 			.addTo(korenyjenyshenyaicons);

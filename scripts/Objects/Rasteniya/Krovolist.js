@@ -1,9 +1,9 @@
-var krovolisticons = L.layerGroup().addTo(map);
+let krovolisticons = L.layerGroup().addTo(map);
 function KrovolistOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('KrovolistButton');
 	if (chbox.checked) {
-		var krovolist = [
+		let krovolist1 = [
 			[-76663, -15413],
 			[-76672, -13153],
 			[-77253, -14695],
@@ -489,7 +489,7 @@ function KrovolistOnOff() {
 			[-27026, 171318],
 			[-27602, 170194],
 			[-26844, 171188],
-			[-6781, 168622],
+			[-6858, 168469],
 			[-3592, 170315],
 			[-2328, 171758],
 			[-25301, 174636],
@@ -612,9 +612,11 @@ function KrovolistOnOff() {
 			[109045, 174693],
 			[108684, 173115],
 			[108530, 172258],
-			[99185, 178569],
+			[99256, 178346],
 			[101424, 178110],
 			[99853, 177337],
+			[99478, 178482],
+			[99350, 178433],
 			[105334, 176157],
 			[106896, 177017],
 			[108713, 178338],
@@ -1052,10 +1054,19 @@ function KrovolistOnOff() {
 			[1019, 62616],
 			[3627, 61631]
 		];
-		for (var i = 0; i < krovolist.length; i++) {
-			krovolist_1 = new L.circleMarker([krovolist[i][0],krovolist[i][1]], {color: "#B22222"})
+		let krovolist2 = [
+			["Кроволист - 2 шт.<br>[Внутри локации Лаборатория биомов &quotАрктос фарма&quot]", 51382, -42352],
+		];
+		for (let i = 0; i < krovolist1.length; i++) {
+			new L.circleMarker([krovolist1[i][0],krovolist1[i][1]], {color: "#B22222"})
 			.bindPopup("Кроволист")
 			.bindTooltip("Кроволист", {direction: 'top'})
+			.addTo(krovolisticons);
+		}
+		for (let i = 0; i < krovolist2.length; i++) {
+			mozgogrib2_1 = new L.circleMarker([krovolist2[i][1],krovolist2[i][2]], {color: "#B22222", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(krovolist2[i][0])
+			.bindTooltip(krovolist2[i][0], {direction: 'top'})
 			.addTo(krovolisticons);
 		}
 	}
@@ -1063,4 +1074,4 @@ function KrovolistOnOff() {
 		krovolisticons.clearLayers();
 	}
 }
-//2 внутри лаборатории
+//2 внутри Лаборатория биомов Арктос фарма

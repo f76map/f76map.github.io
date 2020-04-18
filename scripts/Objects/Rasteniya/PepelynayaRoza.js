@@ -1,9 +1,9 @@
-var pepelynayarozaicons = L.layerGroup().addTo(map);
+let pepelynayarozaicons = L.layerGroup().addTo(map);
 function PepelynayaRozaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('PepelynayaRozaButton');
 	if (chbox.checked) {
-		var pepelynayaroza = [
+		let pepelynayaroza1 = [
 			[-111685, -62259],
 			[-111514, -62376],
 			[-111596, -62415],
@@ -80,7 +80,7 @@ function PepelynayaRozaOnOff() {
 			[-138744, -117131],
 			[-163527, -112352],
 			[-134396, -106520],
-			[-139475, -104179],
+			[-139576, -104514],
 			[-140625, -105333],
 			[-140510, -105199],
 			[-138495, -103327],
@@ -187,10 +187,19 @@ function PepelynayaRozaOnOff() {
 			[120570, 30956],
 			[120790, 31217]
 		];
-		for (var i = 0; i < pepelynayaroza.length; i++) {
-			pepelynayaroza_1 = new L.circleMarker([pepelynayaroza[i][0],pepelynayaroza[i][1]], {color: "#A0522D"})
+		let pepelynayaroza2 = [
+			["Пепельная роза<br>[Внутри локации Горящая шахта]", -102236, -84358]
+		];
+		for (let i = 0; i < pepelynayaroza1.length; i++) {
+			new L.circleMarker([pepelynayaroza1[i][0],pepelynayaroza1[i][1]], {color: "#A0522D"})
 			.bindPopup("Пепельная роза")
 			.bindTooltip("Пепельная роза", {direction: 'top'})
+			.addTo(pepelynayarozaicons);
+		}
+		for (let i = 0; i < pepelynayaroza2.length; i++) {
+			new L.circleMarker([pepelynayaroza2[i][1],pepelynayaroza2[i][2]], {color: "#A0522D", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(pepelynayaroza2[i][0])
+			.bindTooltip(pepelynayaroza2[i][0], {direction: 'top'})
 			.addTo(pepelynayarozaicons);
 		}
 	}

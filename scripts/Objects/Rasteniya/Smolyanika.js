@@ -1,9 +1,9 @@
-var smolyanikaicons = L.layerGroup().addTo(map);
+let smolyanikaicons = L.layerGroup().addTo(map);
 function SmolyanikaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('SmolyanikaButton');
 	if (chbox.checked) {
-		var smolyanika = [
+		let smolyanika = [
 			[16918, -119363],
 			[18152, -120123],
 			[17908, -120186],
@@ -134,7 +134,7 @@ function SmolyanikaOnOff() {
 			[-94601, 109988],
 			[-96768, 110228],
 			[-96980, 109790],
-			[-91879, 118085],
+			[-91864, 117907],
 			[-92058, 116408],
 			[-79853, 118722],
 			[-81483, 117935],
@@ -170,8 +170,8 @@ function SmolyanikaOnOff() {
 			[162657, 58464],
 			[163669, 57482]
 		];
-		for (var i = 0; i < smolyanika.length; i++) {
-			smolyanika_1 = new L.circleMarker([smolyanika[i][0],smolyanika[i][1]], {color: "#9400D3"})
+		for (let i = 0; i < smolyanika.length; i++) {
+			new L.circleMarker([smolyanika[i][0],smolyanika[i][1]], {color: "#9400D3"})
 			.bindPopup("Смоляника")
 			.bindTooltip("Смоляника", {direction: 'top'})
 			.addTo(smolyanikaicons);

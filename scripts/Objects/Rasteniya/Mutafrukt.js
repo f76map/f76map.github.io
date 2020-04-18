@@ -1,21 +1,9 @@
-var mutafrukticons = L.layerGroup().addTo(map);
+let mutafrukticons = L.layerGroup().addTo(map);
 function MutafruktOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('MutafruktButton');
 	if (chbox.checked) {
-		var mutafrukt1 = [
-			[194216, -148117],
-			[416, 138882],
-			[879, 138669],
-			[879, 138669],
-			[707, 138748],
-			[161911, -91483],
-			[162070, -91382],
-			[162181, -91310],
-			[162341, -91209],
-			[193552, -144397],
-			[194042, -143966],
-//Дикий
+		let mutafrukt1 = [
 			[-17411, -29427],
 			[-8815, -27884],
 			[-9181, -27805],
@@ -850,7 +838,7 @@ function MutafruktOnOff() {
 			[57275, -104022],
 			[59468, -106455],
 			[43818, -99982],
-			[43814, -100168],
+			[43774, -100168],
 			[3468, -128314],
 			[889, -130538],
 			[7090, -127150],
@@ -1127,6 +1115,7 @@ function MutafruktOnOff() {
 			[124004, -164084],
 			[127976, -164058],
 			[87670, -164203],
+			[195456, 26222],
 			[113247, 119563],
 			[69855, 1083],
 			[72268, 6978],
@@ -1169,23 +1158,36 @@ function MutafruktOnOff() {
 			[26996, 17747],
 			[24833, 20818],
 			[24899, 20940],
-//Кювета
+			
 			[-162415, -53956],
 			[-162480, -53788],
-			[-162672, -54000]
+			[-162672, -54000],
+
+			[162341, -91209],
+			[162181, -91310],
+			[162070, -91382],
+			[161911, -91483],
+			[194216, -148117],
+			[194042, -143966],
+			[193552, -144400],
+			[707, 138748],
+			[879, 138669],
+			[416, 138882],
+			[587, 138802]
 		];
-		var mutafrukt2 = [
+		let mutafrukt2 = [
 			["Мутафрукт - 11 шт.<br>[Внутри здания Центр &quotВест-Тек Рисерч&quot]", -60624, 88526],
-			["Мутафрукт<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466]
+			["Мутафрукт<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466],
+			["Мутафрукт - 3 шт.<br>[Внутри локации Лаборатория биомов &quotАрктос фарма&quot]", 51382, -42352]
 		];
-		for (var i = 0; i < mutafrukt1.length; i++) {
-			mutafrukt1_1 = new L.circleMarker([mutafrukt1[i][0],mutafrukt1[i][1]], {color: "#800080"})
+		for (let i = 0; i < mutafrukt1.length; i++) {
+			new L.circleMarker([mutafrukt1[i][0],mutafrukt1[i][1]], {color: "#800080"})
 			.bindPopup("Мутафрукт")
 			.bindTooltip("Мутафрукт", {direction: 'top'})
 			.addTo(mutafrukticons);
 		}
-		for (var i = 0; i < mutafrukt2.length; i++) {
-			mutafrukt2_1 = new L.circleMarker([mutafrukt2[i][1],mutafrukt2[i][2]], {color: "#800080", fillColor: "#000000", fillOpacity: "0.8"})
+		for (let i = 0; i < mutafrukt2.length; i++) {
+			new L.circleMarker([mutafrukt2[i][1],mutafrukt2[i][2]], {color: "#800080", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(mutafrukt2[i][0])
 			.bindTooltip(mutafrukt2[i][0], {direction: 'top'})
 			.addTo(mutafrukticons);
@@ -1195,4 +1197,3 @@ function MutafruktOnOff() {
 		mutafrukticons.clearLayers();
 	}
 }
-//4 в лаборатории

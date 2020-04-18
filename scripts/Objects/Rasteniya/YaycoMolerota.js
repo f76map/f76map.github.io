@@ -1,9 +1,22 @@
-var yaycomolerotaicons = L.layerGroup().addTo(map);
+let yaycomolerotaicons = L.layerGroup().addTo(map);
 function YaycoMolerotaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('YaycoMolerotaButton');
 	if (chbox.checked) {
-		var yaycomolerota = [
+		let yaycomolerota = [
+			[183587, -93800],
+			[183606, -93419],
+			[183994, -91482],
+			[183448, -93419],
+			[183732, -93719],
+			[183438, -93756],
+			[183681, -91313],
+			[183681, -91313],
+			[184060, -91332],
+			[183603, -93531],
+			[-21059, -176254],
+			[-21055, -176420],
+			[-20905, -176431],
 			[72355, -180753],
 			[72414, -180832],
 			[72477, -180853],
@@ -31,10 +44,27 @@ function YaycoMolerotaOnOff() {
 			[73093, -177483],
 			[73160, -177489],
 			[73192, -177469],
-			[73221, -177427]
+			[73221, -177427],
+			[-32220, 150848],
+			[-31855, 150423],
+			[-32118, 150872],
+			[-31823, 150671],
+			[-31931, 151083],
+			[-32088, 150112],
+			[176893, 79969],
+			[176857, 79894],
+			[176289, 80320],
+			[176282, 80223],
+			[176381, 80195],
+			[100609, 26562],
+			[100461, 26487],
+			[100492, 26134],
+			[100486, 26101],
+			[100268, 26208],
+			[100268, 26354]
 		];
-		for (var i = 0; i < yaycomolerota.length; i++) {
-			yaycomolerota_1 = new L.circleMarker([yaycomolerota[i][0],yaycomolerota[i][1]], {pane: "top", color: "#FF0000"})
+		for (let i = 0; i < yaycomolerota.length; i++) {
+			new L.circleMarker([yaycomolerota[i][0],yaycomolerota[i][1]], {pane: "top", color: "#FF0000"})
 			.bindPopup("Яйцо молерота")
 			.bindTooltip("Яйцо молерота", {direction: 'top'})
 			.addTo(yaycomolerotaicons);

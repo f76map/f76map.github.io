@@ -1,9 +1,9 @@
-var yagodahlopushkaicons = L.layerGroup().addTo(map);
+let yagodahlopushkaicons = L.layerGroup().addTo(map);
 function YagodaHlopushkaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('YagodaHlopushkaButton');
 	if (chbox.checked) {
-		var yagodahlopushka = [
+		let yagodahlopushka1 = [
 			[-27379, -14299],
 			[-25624, -9151],
 			[-9810, -2019],
@@ -19,7 +19,7 @@ function YagodaHlopushkaOnOff() {
 			[-81203, -32606],
 			[-93992, -22336],
 			[-83906, -21970],
-			[-84161, -22142],
+			[-83893, -22037],
 			[-77862, -21704],
 			[-67840, -21181],
 			[-94863, -13811],
@@ -244,6 +244,8 @@ function YagodaHlopushkaOnOff() {
 			[-33073, 155896],
 			[-33181, 155884],
 			[-168964, 203616],
+			[199066, 143609],
+			[199302, 144290],
 			[179839, 150899],
 			[179948, 150955],
 			[178552, 157740],
@@ -513,7 +515,7 @@ function YagodaHlopushkaOnOff() {
 			[-80347, 78301],
 			[-66513, 78660],
 			[-66558, 78780],
-			[-66784, 79057],
+			[-66758, 79183],
 			[-97222, 85024],
 			[-92138, 85178],
 			[-91692, 85313],
@@ -721,7 +723,7 @@ function YagodaHlopushkaOnOff() {
 			[-48246, 32943],
 			[-44996, 35937],
 			[-35376, 35647],
-			[-64708, 40638],
+			[-64553, 40511],
 			[-63242, 39196],
 			[-63435, 37512],
 			[-61093, 38402],
@@ -832,9 +834,10 @@ function YagodaHlopushkaOnOff() {
 			[-75292, 62529],
 			[-116902, 36175],
 			[-117052, 36295],
-			[-113253, 32896],
-			[-98881, 33383],
-			[-98778, 33703],
+			[-108319, 32859],
+			[-108279, 33056],
+			[-98651, 33491],
+			[-98852, 33450],
 			[-129276, 40540],
 			[-129012, 40407],
 			[-130013, 40699],
@@ -842,7 +845,6 @@ function YagodaHlopushkaOnOff() {
 			[-111037, 38532],
 			[-110877, 38680],
 			[-111202, 37253],
-			[-111097, 37077],
 			[-123195, 44683],
 			[-123032, 44551],
 			[-125926, 42221],
@@ -1038,7 +1040,7 @@ function YagodaHlopushkaOnOff() {
 			[-95763, 22738],
 			[-95691, 22714],
 			[-70317, 23641],
-			[-67387, 23606],
+			[-67360, 23588],
 			[-87695, 26963],
 			[-87704, 27180],
 			[-88074, 26876],
@@ -1123,14 +1125,19 @@ function YagodaHlopushkaOnOff() {
 			[-105192, 24882],
 			[-104703, 25416],
 			[-104702, 25191],
+			[-100207, 28390],
 			[-129577, 31744],
 			[-129392, 31730],
-			[-113294, 32699],
 			[-109402, 30469],
 			[-109274, 30391],
+			[-107189, 30295],
 			[-104948, 32586],
 			[-104735, 29258],
 			[-104921, 28975],
+			[-102626, 32290],
+			[-102720, 32134],
+			[-100251, 28926],
+			[-100154, 28897],
 			[-162131, 100334],
 			[-162242, 98611],
 			[-162448, 98979],
@@ -1549,8 +1556,6 @@ function YagodaHlopushkaOnOff() {
 			[-158362, 21303],
 			[-157701, 21219],
 			[-157884, 20900],
-			[-153938, 21174],
-			[-153725, 21150],
 			[-146091, 21689],
 			[-145902, 21576],
 			[-146033, 21583],
@@ -1749,7 +1754,7 @@ function YagodaHlopushkaOnOff() {
 			[2290, 88340],
 			[2476, 88348],
 			[20175, 91315],
-			[20248, 91224],
+			[20220, 91225],
 			[20262, 91311],
 			[20031, 91332],
 			[98900, 35047],
@@ -1851,10 +1856,19 @@ function YagodaHlopushkaOnOff() {
 			[24260, 29851],
 			[24294, 29805]
 		];
-		for (var i = 0; i < yagodahlopushka.length; i++) {
-			yagodahlopushka_1 = new L.circleMarker([yagodahlopushka[i][0],yagodahlopushka[i][1]], {color: "#FFC0CB"})
+		let yagodahlopushka2 = [
+			["Ягода-хлопушка - 2 шт.<br>[Внутри локации Лаборатория биомов &quotАрктос фарма&quot]", 51382, -42352]
+		];
+		for (let i = 0; i < yagodahlopushka1.length; i++) {
+			new L.circleMarker([yagodahlopushka1[i][0],yagodahlopushka1[i][1]], {color: "#FFC0CB"})
 			.bindPopup("Ягода-хлопушка")
 			.bindTooltip("Ягода-хлопушка", {direction: 'top'})
+			.addTo(yagodahlopushkaicons);
+		}
+		for (let i = 0; i < yagodahlopushka2.length; i++) {
+			new L.circleMarker([yagodahlopushka2[i][1],yagodahlopushka2[i][2]], {color: "#A0522D", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(yagodahlopushka2[i][0])
+			.bindTooltip(yagodahlopushka2[i][0], {direction: 'top'})
 			.addTo(yagodahlopushkaicons);
 		}
 	}

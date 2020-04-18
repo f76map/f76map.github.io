@@ -1,9 +1,9 @@
-var cvetokarbuzaicons = L.layerGroup().addTo(map);
+let cvetokarbuzaicons = L.layerGroup().addTo(map);
 function CvetokArbuzaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('CvetokArbuzaButton');
 	if (chbox.checked) {
-		var cvetokarbuza = [
+		let cvetokarbuza = [
 			[151544, -73268],
 			[151189, -73290],
 			[171152, -119982],
@@ -19,6 +19,7 @@ function CvetokArbuzaOnOff() {
 			[101898, -98749],
 			[101541, -98811],
 			[-61067, -145281],
+			[194472, -165527],
 			[-58704, 177839],
 			[-58699, 177562],
 			[-58684, 178276],
@@ -28,8 +29,8 @@ function CvetokArbuzaOnOff() {
 			[-171893, 141616],
 			[-59560, 117244]
 		];
-		for (var i = 0; i < cvetokarbuza.length; i++) {
-			cvetokarbuza_1 = new L.circleMarker([cvetokarbuza[i][0],cvetokarbuza[i][1]], {pane: "top", color: "#CD00CD"})
+		for (let i = 0; i < cvetokarbuza.length; i++) {
+			new L.circleMarker([cvetokarbuza[i][0],cvetokarbuza[i][1]], {pane: "top", color: "#CD00CD"})
 			.bindPopup("Цветок дикого арбуза")
 			.bindTooltip("Цветок дикого арбуза", {direction: 'top'})
 			.addTo(cvetokarbuzaicons);
@@ -39,4 +40,3 @@ function CvetokArbuzaOnOff() {
 		cvetokarbuzaicons.clearLayers();
 	}
 }
-//5 в Убежище 94

@@ -1,9 +1,9 @@
-var hvostolomicons = L.layerGroup().addTo(map);
+let hvostolomicons = L.layerGroup().addTo(map);
 function HvostolomOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('HvostolomButton');
 	if (chbox.checked) {
-		var hvostolom = [
+		let hvostolom1 = [
 			[-43656, -14666],
 			[-43637, -14714],
 			[-43355, -15220],
@@ -140,7 +140,7 @@ function HvostolomOnOff() {
 			[-32440, -195842],
 			[-32566, -195737],
 			[-32448, -188646],
-			[-32278, -189879],
+			[-32289, -189853],
 			[-32301, -189825],
 			[-32454, -189047],
 			[-32504, -188972],
@@ -149,9 +149,6 @@ function HvostolomOnOff() {
 			[-27855, -189401],
 			[-27991, -189317],
 			[-28022, -189452],
-			[-32247, -187079],
-			[-32258, -187003],
-			[-32049, -186877],
 			[-25861, -184185],
 			[-21849, -182875],
 			[-21948, -182975],
@@ -223,8 +220,8 @@ function HvostolomOnOff() {
 			[40174, -151484],
 			[40276, -151514],
 			[33414, -147438],
-			[4502, -160087],
-			[4524, -160197],
+			[4361, -160027],
+			[4258, -160038],
 			[4202, -161477],
 			[4268, -161318],
 			[4328, -161430],
@@ -332,10 +329,21 @@ function HvostolomOnOff() {
 			[-40184, 12620],
 			[59122, 10511]
 		];
-		for (var i = 0; i < hvostolom.length; i++) {
-			hvostolom_1 = new L.circleMarker([hvostolom[i][0],hvostolom[i][1]], {color: "#EEE8AA"})
+		let hvostolom2 = [
+			["Хвостолом<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466],
+			["Хвостолом - 3 шт.<br>[Внутри локации Шахта Карлтона]", 158383, 21934],
+			["Хвостолом - 3 шт.<br>[Внутри локации Лаборатория биомов &quotАрктос фарма&quot]", 51382, -42352]
+		];
+		for (var i = 0; i < hvostolom1.length; i++) {
+			hvostolom_1 = new L.circleMarker([hvostolom1[i][0],hvostolom1[i][1]], {color: "#EEE8AA"})
 			.bindPopup("Хвостолом")
 			.bindTooltip("Хвостолом", {direction: 'top'})
+			.addTo(hvostolomicons);
+		}
+		for (let i = 0; i < hvostolom2.length; i++) {
+			new L.circleMarker([hvostolom2[i][1],hvostolom2[i][2]], {pane: "top", color: "#EEE8AA", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(hvostolom2[i][0])
+			.bindTooltip(hvostolom2[i][0], {direction: 'top'})
 			.addTo(hvostolomicons);
 		}
 	}
@@ -343,4 +351,3 @@ function HvostolomOnOff() {
 		hvostolomicons.clearLayers();
 	}
 }
-//3 в лаборатории

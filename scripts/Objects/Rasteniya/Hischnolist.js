@@ -1,9 +1,9 @@
-var hischnolisticons = L.layerGroup().addTo(map);
+let hischnolisticons = L.layerGroup().addTo(map);
 function HischnolistOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('HischnolistButton');
 	if (chbox.checked) {
-		var hischnolist = [
+		let hischnolist = [
 			[-81527, 198231],
 			[-83370, 201230],
 			[-129068, 198871],
@@ -48,7 +48,6 @@ function HischnolistOnOff() {
 			[-75953, 162456],
 			[-121103, 133103],
 			[-124738, 139742],
-			[-101361, 141877],
 			[-121310, 150073],
 			[-129063, 151826],
 			[-130386, 157308],
@@ -147,8 +146,8 @@ function HischnolistOnOff() {
 			[-173212, 127965],
 			[-168313, 129991]
 		];
-		for (var i = 0; i < hischnolist.length; i++) {
-			hischnolist_1 = new L.circleMarker([hischnolist[i][0],hischnolist[i][1]], {color: "#d0869a"})
+		for (let i = 0; i < hischnolist.length; i++) {
+			new L.circleMarker([hischnolist[i][0],hischnolist[i][1]], {color: "#d0869a"})
 			.bindPopup("Гигантский хищнолист")
 			.bindTooltip("Гигантский хищнолист", {direction: 'top'})
 			.addTo(hischnolisticons);

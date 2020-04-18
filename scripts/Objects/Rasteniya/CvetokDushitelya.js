@@ -1,9 +1,9 @@
-var cvetokdushitelyaicons = L.layerGroup().addTo(map);
+let cvetokdushitelyaicons = L.layerGroup().addTo(map);
 function CvetokDushitelyaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('CvetokDushitelyaButton');
 	if (chbox.checked) {
-		var cvetokdushitelya = [
+		let cvetokdushitelya = [
 			[-5419, 201596],
 			[-5481, 201452],
 			[-5527, 201562],
@@ -143,8 +143,8 @@ function CvetokDushitelyaOnOff() {
 			[126662, 195520],
 			[126712, 195637],
 			[126769, 195574],
-			[65994, 169967],
-			[65820, 169981],
+			[65956, 169935],
+			[65887, 169931],
 			[68399, 173383],
 			[68872, 173846],
 			[70565, 175398],
@@ -155,7 +155,7 @@ function CvetokDushitelyaOnOff() {
 			[73196, 196139],
 			[49295, 167812],
 			[64781, 167874],
-			[62999, 167346],
+			[63166, 167404],
 			[64723, 167842],
 			[47048, 169020],
 			[55478, 170133],
@@ -178,7 +178,6 @@ function CvetokDushitelyaOnOff() {
 			[14231, 177726],
 			[17554, 178073],
 			[19320, 183296],
-			[10102, 185836],
 			[25648, 194184],
 			[26219, 193753],
 			[26022, 193664],
@@ -269,8 +268,8 @@ function CvetokDushitelyaOnOff() {
 			[1009, 128886],
 			[1061, 129060]
 		];
-		for (var i = 0; i < cvetokdushitelya.length; i++) {
-			cvetokdushitelya_1 = new L.circleMarker([cvetokdushitelya[i][0],cvetokdushitelya[i][1]], {color: "#9ACD32"})
+		for (let i = 0; i < cvetokdushitelya.length; i++) {
+			new L.circleMarker([cvetokdushitelya[i][0],cvetokdushitelya[i][1]], {color: "#9ACD32"})
 			.bindPopup("Цветок душителя")
 			.bindTooltip("Цветок душителя", {direction: 'top'})
 			.addTo(cvetokdushitelyaicons);

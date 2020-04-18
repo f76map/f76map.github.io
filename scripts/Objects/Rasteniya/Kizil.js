@@ -1,9 +1,9 @@
-var kizilicons = L.layerGroup().addTo(map);
+let kizilicons = L.layerGroup().addTo(map);
 function KizilOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('KizilButton');
 	if (chbox.checked) {
-		var kizil = [
+		let kizil = [
 			[198420, -31189],
 			[198592, -21904],
 			[198289, -21968],
@@ -279,8 +279,8 @@ function KizilOnOff() {
 			[146269, 17354],
 			[162210, 18800]
 		];
-		for (var i = 0; i < kizil.length; i++) {
-			kizil_1 = new L.circleMarker([kizil[i][0],kizil[i][1]], {color: "#9ACD32"})
+		for (let i = 0; i < kizil.length; i++) {
+			new L.circleMarker([kizil[i][0],kizil[i][1]], {color: "#9ACD32"})
 			.bindPopup("Обесцвеченный кизил")
 			.bindTooltip("Обесцвеченный кизил", {direction: 'top'})
 			.addTo(kizilicons);

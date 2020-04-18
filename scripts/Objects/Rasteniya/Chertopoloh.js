@@ -1,9 +1,9 @@
-var chertopolohicons = L.layerGroup().addTo(map);
+let chertopolohicons = L.layerGroup().addTo(map);
 function ChertopolohOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('ChertopolohButton');
 	if (chbox.checked) {
-		var chertopoloh = [
+		let chertopoloh = [
 			[203831, -30097],
 			[204625, -31133],
 			[200923, -25464],
@@ -28,8 +28,8 @@ function ChertopolohOnOff() {
 			[166459, 8710],
 			[150922, 4594]
 		];
-		for (var i = 0; i < chertopoloh.length; i++) {
-			chertopoloh_1 = new L.circleMarker([chertopoloh[i][0],chertopoloh[i][1]], {pane: "top", color: "#191970"})
+		for (let i = 0; i < chertopoloh.length; i++) {
+			new L.circleMarker([chertopoloh[i][0],chertopoloh[i][1]], {pane: "top", color: "#191970"})
 			.bindPopup("Чертополох")
 			.bindTooltip("Чертополох", {direction: 'top'})
 			.addTo(chertopolohicons);
@@ -39,4 +39,3 @@ function ChertopolohOnOff() {
 		chertopolohicons.clearLayers();
 	}
 }
-//1 в Ловушки на складке ???

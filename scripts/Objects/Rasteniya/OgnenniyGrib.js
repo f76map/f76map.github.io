@@ -1,9 +1,9 @@
-var ognenniygribicons = L.layerGroup().addTo(map);
+let ognenniygribicons = L.layerGroup().addTo(map);
 function OgnenniyGribOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('OgnenniyGribButton');
 	if (chbox.checked) {
-		var ognenniygrib = [
+		let ognenniygrib = [
 			[-18808, -23814],
 			[-17491, -23969],
 			[-10032, -12696],
@@ -217,8 +217,8 @@ function OgnenniyGribOnOff() {
 			[32558, 9551],
 			[30781, 14242]
 		];
-		for (var i = 0; i < ognenniygrib.length; i++) {
-			ognenniygrib_1 = new L.circleMarker([ognenniygrib[i][0],ognenniygrib[i][1]], {color: "#FFA500"})
+		for (let i = 0; i < ognenniygrib.length; i++) {
+			new L.circleMarker([ognenniygrib[i][0],ognenniygrib[i][1]], {color: "#FFA500"})
 			.bindPopup("Огненный гриб")
 			.bindTooltip("Огненный гриб", {direction: 'top'})
 			.addTo(ognenniygribicons);

@@ -1,9 +1,9 @@
-var klukvaicons = L.layerGroup().addTo(map);
+let klukvaicons = L.layerGroup().addTo(map);
 function KlukvaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('KlukvaButton');
 	if (chbox.checked) {
-		var klukva = [
+		let klukva = [
 			[-168911, -13968],
 			[-169006, -12905],
 			[-169631, -13303],
@@ -123,6 +123,7 @@ function KlukvaOnOff() {
 			[-164504, 156080],
 			[-170911, 161704],
 			[-167772, 161419],
+			[-167006, 161321],
 			[-102842, 122384],
 			[-102639, 121691],
 			[-100295, 121021],
@@ -147,8 +148,8 @@ function KlukvaOnOff() {
 			[-175524, 123551],
 			[-165185, 125706]
 		];
-		for (var i = 0; i < klukva.length; i++) {
-			klukva_1 = new L.circleMarker([klukva[i][0],klukva[i][1]], {pane: "top", color: "#9e003a"})
+		for (let i = 0; i < klukva.length; i++) {
+			new L.circleMarker([klukva[i][0],klukva[i][1]], {pane: "top", color: "#9e003a"})
 			.bindPopup("Клюква")
 			.bindTooltip("Клюква", {direction: 'top'})
 			.addTo(klukvaicons);

@@ -1,9 +1,9 @@
-var gribicons = L.layerGroup().addTo(map);
+let gribicons = L.layerGroup().addTo(map);
 function GribOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('GribButton');
 	if (chbox.checked) {
-		var grib = [
+		let grib = [
 			[-115716, -57742],
 			[-118917, -55174],
 			[-120506, -55685],
@@ -325,8 +325,8 @@ function GribOnOff() {
 			[-134716, -165013],
 			[114477, -164984]
 		];
-		for (var i = 0; i < grib.length; i++) {
-			grib_1 = new L.circleMarker([grib[i][0],grib[i][1]], {color: "#B8860B"})
+		for (let i = 0; i < grib.length; i++) {
+			new L.circleMarker([grib[i][0],grib[i][1]], {color: "#B8860B"})
 			.bindPopup("Гриб")
 			.bindTooltip("Гриб", {direction: 'top'})
 			.addTo(gribicons);

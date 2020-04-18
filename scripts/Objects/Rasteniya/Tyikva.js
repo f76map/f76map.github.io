@@ -1,9 +1,9 @@
-var tyikvaicons = L.layerGroup().addTo(map);
+let tyikvaicons = L.layerGroup().addTo(map);
 function TyikvaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('TyikvaButton');
 	if (chbox.checked) {
-		var tyikva1 = [
+		let tyikva1 = [
 //LPI_FloraPumpkinVine01
 			[-162163, -41775],
 			[-161674, -41347],
@@ -31,6 +31,8 @@ function TyikvaOnOff() {
 			[107970, -22513],
 			[108069, -22639],
 			[108173, -22740],
+			[120873, -118756],
+			[120664, -118733],
 			[174538, -141124],
 			[174637, -141119],
 			[-23384, 173027],
@@ -182,6 +184,8 @@ function TyikvaOnOff() {
 			[58875, -97256],
 			[58947, -97276],
 			[58845, -97189],
+			[120873, -118756],
+			[120664, -118733],
 			[174538, -141124],
 			[174637, -141119],
 			[143751, -151703],
@@ -340,23 +344,22 @@ function TyikvaOnOff() {
 			[129514, 126068],
 			[129553, 126025],
 			[36270, 122346],
-			[114667, 64325],
+			[114680, 64331],
 			[23748, 15623],
-			[23455, 15945],
+			[23455, 15945]
 		];
-		var tyikva2 = [
+		let tyikva2 = [
 			["Тыква - 5 шт.<br>[Внутри здания Школа Моргантауна]", 94128, 2135],
-			["Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]", -52810, 6663],
-			["Тыква<br>[Внутри локации Убежище 94]", 137186, 145156]
+			["Тыква<br>[Внутри здания Курорт &quotУайтспринг&quot]", -52810, 6663]
 		];
-		for (var i = 0; i < tyikva1.length; i++) {
-			tyikva1_1 = new L.circleMarker([tyikva1[i][0],tyikva1[i][1]], {pane: "top", color: "#D2691E"})
+		for (let i = 0; i < tyikva1.length; i++) {
+			new L.circleMarker([tyikva1[i][0],tyikva1[i][1]], {pane: "top", color: "#D2691E"})
 			.bindPopup("Тыква")
 			.bindTooltip("Тыква", {direction: 'top'})
 			.addTo(tyikvaicons);
 		}
-		for (var i = 0; i < tyikva2.length; i++) {
-			tyikva2_1 = new L.circleMarker([tyikva2[i][1],tyikva2[i][2]], {pane: "top", color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"})
+		for (let i = 0; i < tyikva2.length; i++) {
+			new L.circleMarker([tyikva2[i][1],tyikva2[i][2]], {pane: "top", color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(tyikva2[i][0])
 			.bindTooltip(tyikva2[i][0], {direction: 'top'})
 			.addTo(tyikvaicons);
@@ -367,12 +370,12 @@ function TyikvaOnOff() {
 	}
 }
 
-var tyikva2icons = L.layerGroup().addTo(map);
+let tyikva2icons = L.layerGroup().addTo(map);
 function Tyikva2OnOff() {
-	var chbox2;
+	let chbox2;
 	chbox2=document.getElementById('Tyikva2Button');
 	if (chbox2.checked) {
-		var tyikva3 = [
+		let tyikva3 = [
 		//FloraGourdVine01
 			[-52302, 203600],
 			[-52257, 203573],
@@ -388,19 +391,19 @@ function Tyikva2OnOff() {
 		//Кювета
 			[-57707, -47927]
 		];
-		var tyikva4 = [
+		let tyikva4 = [
 		//Кювета
 			["Тыква - 2 шт.<br>[Внутри здания &quotАрктос фарма&quot]", 51382, -42352],
-			["Тыква - 5 шт.<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466],
+			["Тыква - 5 шт.<br>[Внутри локации Бункер Рейли Клэя]", 59527, 185466]
 		];
-		for (var i = 0; i < tyikva3.length; i++) {
-			tyikva3_1 = new L.circleMarker([tyikva3[i][0],tyikva3[i][1]], {pane: "top", color: "#D2691E"})
+		for (let i = 0; i < tyikva3.length; i++) {
+			new L.circleMarker([tyikva3[i][0],tyikva3[i][1]], {pane: "top", color: "#D2691E"})
 			.bindPopup("Тыква")
 			.bindTooltip("Тыква", {direction: 'top'})
 			.addTo(tyikva2icons);
 		}
-		for (var i = 0; i < tyikva4.length; i++) {
-			tyikva4_1 = new L.circleMarker([tyikva4[i][1],tyikva4[i][2]], {pane: "top", color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"})
+		for (let i = 0; i < tyikva4.length; i++) {
+			new L.circleMarker([tyikva4[i][1],tyikva4[i][2]], {pane: "top", color: "#D2691E", fillColor: "#000000", fillOpacity: "0.8"})
 			.bindPopup(tyikva4[i][0])
 			.bindTooltip(tyikva4[i][0], {direction: 'top'})
 			.addTo(tyikva2icons);

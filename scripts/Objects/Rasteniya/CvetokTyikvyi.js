@@ -1,9 +1,9 @@
-var cvetoktyikvyiicons = L.layerGroup().addTo(map);
+let cvetoktyikvyiicons = L.layerGroup().addTo(map);
 function CvetokTyikvyiOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('CvetokTyikvyiButton');
 	if (chbox.checked) {
-		var cvetoktyikvyi = [
+		let cvetoktyikvyi = [
 			[-54085, -54614],
 			[-54216, -54232],
 			[-53935, -55208],
@@ -32,6 +32,7 @@ function CvetokTyikvyiOnOff() {
 			[193989, -144211],
 			[194300, -144540],
 			[193563, -144590],
+			[194466, -165796],
 			[-15811, 202200],
 			[-14206, 201909],
 			[-88801, 203149],
@@ -247,10 +248,10 @@ function CvetokTyikvyiOnOff() {
 			[-124614, 113112],
 			[-102114, 114017],
 			[-99888, 112052],
+			[-98552, 114479],
 			[-126478, 115577],
 			[-117876, 118393],
 			[-98389, 117314],
-			[-100962, 116298],
 			[-123622, 118805],
 			[-123266, 121578],
 			[-119300, 122125],
@@ -293,8 +294,8 @@ function CvetokTyikvyiOnOff() {
 			[100341, 91945],
 			[100239, 91910]
 		];
-		for (var i = 0; i < cvetoktyikvyi.length; i++) {
-			cvetoktyikvyi_1 = new L.circleMarker([cvetoktyikvyi[i][0],cvetoktyikvyi[i][1]], {color: "#DAA520"})
+		for (let i = 0; i < cvetoktyikvyi.length; i++) {
+			new L.circleMarker([cvetoktyikvyi[i][0],cvetoktyikvyi[i][1]], {color: "#DAA520"})
 			.bindPopup("Цветок дикой тыквы")
 			.bindTooltip("Цветок дикой тыквы", {direction: 'top'})
 			.addTo(cvetoktyikvyiicons);

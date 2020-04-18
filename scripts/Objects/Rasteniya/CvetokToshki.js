@@ -1,9 +1,9 @@
-var cvetoktoshkiicons = L.layerGroup().addTo(map);
+let cvetoktoshkiicons = L.layerGroup().addTo(map);
 function CvetokToshkiOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('CvetokToshkiButton');
 	if (chbox.checked) {
-		var cvetoktoshki = [
+		let cvetoktoshki = [
 			[-43899, -90757],
 			[-43734, -91099],
 			[-43648, -90930],
@@ -60,8 +60,8 @@ function CvetokToshkiOnOff() {
 			[137967, 144503],
 			[-60046, 117171]
 		];
-		for (var i = 0; i < cvetoktoshki.length; i++) {
-			cvetoktoshki_1 = new L.circleMarker([cvetoktoshki[i][0],cvetoktoshki[i][1]], {pane: "top", color: "#991199"})
+		for (let i = 0; i < cvetoktoshki.length; i++) {
+			new L.circleMarker([cvetoktoshki[i][0],cvetoktoshki[i][1]], {pane: "top", color: "#991199"})
 			.bindPopup("Цветок дикой тошки")
 			.bindTooltip("Цветок дикой тошки", {direction: 'top'})
 			.addTo(cvetoktoshkiicons);

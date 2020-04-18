@@ -1,9 +1,9 @@
-var nochnoypolzunicons = L.layerGroup().addTo(map);
+let nochnoypolzunicons = L.layerGroup().addTo(map);
 function NochnoyPolzunOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('NochnoyPolzunButton');
 	if (chbox.checked) {
-		var nochnoypolzun = [
+		let nochnoypolzun1 = [
 			[-30863, -26468],
 			[-30946, -26158],
 			[-13029, -20909],
@@ -385,10 +385,19 @@ function NochnoyPolzunOnOff() {
 			[29625, 5213],
 			[26574, 13564]
 		];
-		for (var i = 0; i < nochnoypolzun.length; i++) {
-			nochnoypolzun_1 = new L.circleMarker([nochnoypolzun[i][0],nochnoypolzun[i][1]], {color: "#CD5C5C"})
+		let nochnoypolzun2 = [
+			["Ночной ползун - 19 шт.<br>[Внутри локации Яма]", -38130, -34473]
+		];
+		for (let i = 0; i < nochnoypolzun1.length; i++) {
+			new L.circleMarker([nochnoypolzun1[i][0],nochnoypolzun1[i][1]], {color: "#CD5C5C"})
 			.bindPopup("Ночной ползун")
 			.bindTooltip("Ночной ползун", {direction: 'top'})
+			.addTo(nochnoypolzunicons);
+		}
+		for (let i = 0; i < nochnoypolzun2.length; i++) {
+			new L.circleMarker([nochnoypolzun2[i][1],nochnoypolzun2[i][2]], {color: "#CD5C5C", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(nochnoypolzun2[i][0])
+			.bindTooltip(nochnoypolzun2[i][0], {direction: 'top'})
 			.addTo(nochnoypolzunicons);
 		}
 	}

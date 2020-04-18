@@ -1,9 +1,9 @@
-var svetsmolaicons = L.layerGroup().addTo(map);
+let svetsmolaicons = L.layerGroup().addTo(map);
 function SvetSmolaOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('SvetSmolaButton');
 	if (chbox.checked) {
-		var svetsmola = [
+		let svetsmola = [
 			[-16075, -4906],
 			[-46879, -19738],
 			[-33668, -12402],
@@ -139,7 +139,7 @@ function SvetSmolaOnOff() {
 			[130458, -43379],
 			[130469, -43358],
 			[-36501, -161488],
-			[-33127, -161326],
+			[-33050, -161267],
 			[-28650, -183646],
 			[-24027, -170713],
 			[-29755, -164318],
@@ -310,8 +310,6 @@ function SvetSmolaOnOff() {
 			[-54074, 59985],
 			[-49721, 59396],
 			[-49710, 59369],
-			[-48507, 58750],
-			[-48445, 58681],
 			[-63538, 62193],
 			[-42376, 61493],
 			[-42312, 62110],
@@ -430,9 +428,8 @@ function SvetSmolaOnOff() {
 			[-103895, 23050],
 			[-125567, 26690],
 			[-116727, 28129],
-			[-101798, 26087],
+			[-101613, 25382],
 			[-126489, 30088],
-			[-109376, 30360],
 			[-141921, 100404],
 			[-141863, 102395],
 			[-137451, 101680],
@@ -691,8 +688,8 @@ function SvetSmolaOnOff() {
 			[15811, 32487],
 			[24593, 31291]
 		];
-		for (var i = 0; i < svetsmola.length; i++) {
-			svetsmola_1 = new L.circleMarker([svetsmola[i][0],svetsmola[i][1]], {color: "#FFFF00"})
+		for (let i = 0; i < svetsmola.length; i++) {
+			new L.circleMarker([svetsmola[i][0],svetsmola[i][1]], {color: "#FFFF00"})
 			.bindPopup("Светящаяся смола")
 			.bindTooltip("Светящаяся смола", {direction: 'top'})
 			.addTo(svetsmolaicons);
