@@ -148,12 +148,11 @@ if(window.location.hash == '#cvetoktyikvyi_0') {allicons.clearLayers();Locations
 if(window.location.hash == '#cvetokarbuza_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; CvetokArbuzaButton.checked = 1; CvetokArbuzaOnOff();}
 if(window.location.hash == '#cvetokmorkovi_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; CvetokMorkoviButton.checked = 1; CvetokMorkoviOnOff();}
 if(window.location.hash == '#hischnolist_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; HischnolistButton.checked = 1; HischnolistOnOff();}
-
 // Разное (без остального)
 if(window.location.hash == '#portadiner_0') {allicons.clearLayers(); LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); sidebar_0.style.display = 'none'; donat0.style.display = 'none'; PortADinerButton.checked = 1; PortADinerOnOff();}
 // Локации
 for (i=1; i < 385; i++) {if(window.location.hash == "#"+[i]) {m[i].openPopup(); map.flyTo(m[i].getLatLng(), -7);}}
-for (i=1; i < 693; i++) {if(window.location.hash == "#hlam_"+[i]) {window['Hlam'+[i]+'Button'].checked = 1;window['Hlam'+[i]+'OnOff']();}}
+for (i=1; i <= 609; i++) {if(window.location.hash == "#hlam_"+[i]) {window['Hlam'+[i]+'Button'].checked = 1;window['Hlam'+[i]+'OnOff']();}}
 history.pushState("", document.title, window.location.pathname + window.location.search);
 }
 }
