@@ -480,6 +480,38 @@
 		#strangemobs_text {position: absolute; top: 10px; left: 50px; text-align: center;}
 		#strangemobs_switch {top: 14px; left: 350px;}
 		
+		#animals_text {position: absolute; top: 50px; left: 75px; text-align: center;}
+		#animals1_text {position: absolute; top: 73px; left: 50px; text-align: center;}
+		#animals2_text {position: absolute; top: 96px; left: 50px; text-align: center;}
+		#animals3_text {position: absolute; top: 119px; left: 50px; text-align: center;}
+		#animals4_text {position: absolute; top: 142px; left: 50px; text-align: center;}
+		#animals5_text {position: absolute; top: 165px; left: 50px; text-align: center;}
+		#animals6_text {position: absolute; top: 73px; left: 240px; text-align: center;}
+		#animals7_text {position: absolute; top: 96px; left: 240px; text-align: center;}
+		#animals8_text {position: absolute; top: 119px; left: 240px; text-align: center;}
+		#animals9_text {position: absolute; top: 142px; left: 240px; text-align: center;}
+		#animals10_text {position: absolute; top: 165px; left: 240px; text-align: center;}
+		#animals1_switch {top: 69px; left: 140px;}
+		#animals2_switch {top: 92px; left: 140px;}
+		#animals3_switch {top: 115px; left: 140px;}
+		#animals4_switch {top: 138px; left: 140px;}
+		#animals5_switch {top: 161px; left: 140px;}
+		#animals6_switch {top: 69px; left: 330px;}
+		#animals7_switch {top: 92px; left: 330px;}
+		#animals8_switch {top: 115px; left: 330px;}
+		#animals9_switch {top: 138px; left: 330px;}
+		#animals10_switch {top: 161px; left: 330px;}
+		#animals1_url {position: absolute; top: 73px; left: 30px;}
+		#animals2_url {position: absolute; top: 96px; left: 30px;}
+		#animals3_url {position: absolute; top: 119px; left: 30px;}
+		#animals4_url {position: absolute; top: 142px; left: 30px;}
+		#animals5_url {position: absolute; top: 165px; left: 30px;}
+		#animals6_url {position: absolute; top: 73px; left: 220px;}
+		#animals7_url {position: absolute; top: 96px; left: 220px;}
+		#animals8_url {position: absolute; top: 119px; left: 220px;}
+		#animals9_url {position: absolute; top: 142px; left: 220px;}
+		#animals10_url {position: absolute; top: 165px; left: 220px;}
+		
 		.emptybox {position: absolute; top: 463px; height: 5px; width: 100%;}
 		
 		#url1_1 {position: absolute; top: 33px; left: 10px;}
@@ -731,6 +763,16 @@
 	recampicons.clearLayers();
 	reminingicons.clearLayers();
 	strangemobsicons.clearLayers();
+	anim1icons.clearLayers();
+	anim2icons.clearLayers();
+	anim3icons.clearLayers();
+	anim4icons.clearLayers();
+	anim5icons.clearLayers();
+	anim6icons.clearLayers();
+	anim7icons.clearLayers();
+	anim8icons.clearLayers();
+	anim9icons.clearLayers();
+	anim10icons.clearLayers();
 	aluminiyicons.clearLayers();
 	betonicons.clearLayers();
 	chorniytitanicons.clearLayers();
@@ -917,6 +959,8 @@
 
 <script src="scripts/Objects/StrangeMobsButton.js"></script>
 
+<script src="scripts/Objects/Animals.js"></script>
+
 <script src="scripts/Objects/Rudyi.js"></script>
 
 <script src="scripts/Objects/PortADiner.js"></script>
@@ -1020,14 +1064,46 @@ LocationsOnOff();
 	</ul>
 </li>
 <li>
-	<div class="dropdownlink"><i class="fa fa-pastafarianism" aria-hidden="true" style="left: 14px;"></i> Монстры
+	<div class="dropdownlink"><i class="fa fa-pastafarianism" aria-hidden="true" style="left: 14px;"></i> Монстры и животные
 		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	<ul class="submenuItems">
-	<div style="height: 48px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+	<div style="height: 187px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
 		<div class="text" id="strangemobs_text">Места спавна флэтвудского монстра<br>и молерота (спавнятся ночью)</div>
 		<label class="switch" id="strangemobs_switch"><input type="checkbox" onchange="StrangeMobsOnOff()" id="StrangeMobsButton" autocomplete="off"><span class="slider"></span></label>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#strangemobs"><input type="image" src="css/images/url.png" alt="ОК" id="url5" width="12" height="12" title="Скопировать ссылку"></div>
+		
+		<div class="text" id="animals_text"><u>Возможные места спавна животных</u></div>
+		<div class="text" id="animals1_text">Бобер</div>
+		<div class="text" id="animals2_text">Кошка</div>
+		<div class="text" id="animals3_text">Курица</div>
+		<div class="text" id="animals4_text">Светлячок</div>
+		<div class="text" id="animals5_text">Лисица</div>
+		<div class="text" id="animals6_text">Опоссум</div>
+		<div class="text" id="animals7_text">Кролик</div>
+		<div class="text" id="animals8_text">Лягушка</div>
+		<div class="text" id="animals9_text">Рад-олень</div>
+		<div class="text" id="animals10_text">Белка</div>
+		<label class="switch" id="animals1_switch"><input type="checkbox" onchange="Animals1OnOff()" id="Animals1Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals2_switch"><input type="checkbox" onchange="Animals2OnOff()" id="Animals2Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals3_switch"><input type="checkbox" onchange="Animals3OnOff()" id="Animals3Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals4_switch"><input type="checkbox" onchange="Animals4OnOff()" id="Animals4Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals5_switch"><input type="checkbox" onchange="Animals5OnOff()" id="Animals5Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals6_switch"><input type="checkbox" onchange="Animals6OnOff()" id="Animals6Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals7_switch"><input type="checkbox" onchange="Animals7OnOff()" id="Animals7Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals8_switch"><input type="checkbox" onchange="Animals8OnOff()" id="Animals8Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals9_switch"><input type="checkbox" onchange="Animals9OnOff()" id="Animals9Button" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="animals10_switch"><input type="checkbox" onchange="Animals10OnOff()" id="Animals10Button" autocomplete="off"><span class="slider"></span></label>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals3"><input type="image" src="css/images/url.png" alt="ОК" id="animals3_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals4"><input type="image" src="css/images/url.png" alt="ОК" id="animals4_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals5"><input type="image" src="css/images/url.png" alt="ОК" id="animals5_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals6"><input type="image" src="css/images/url.png" alt="ОК" id="animals6_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals7"><input type="image" src="css/images/url.png" alt="ОК" id="animals7_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals8"><input type="image" src="css/images/url.png" alt="ОК" id="animals8_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals9"><input type="image" src="css/images/url.png" alt="ОК" id="animals9_url" width="12" height="12" title="Скопировать ссылку"></div>
+		<div class="b_url" data-clipboard-text="https://f76map.ru#animals10"><input type="image" src="css/images/url.png" alt="ОК" id="animals10_url" width="12" height="12" title="Скопировать ссылку"></div>
 	</ul>
 </li>
 <li>
@@ -1262,7 +1338,7 @@ LocationsOnOff();
 			<div id="box_h"></div>
 			<div id="box_h_b"></div>
 			<div id="box_h_s" style="position: absolute; left: 5px; width: 12px;"></div>
-			<script src="scripts/Objects/Hlam.js"></script>																   						 
+			<script src="scripts/Objects/Hlam.js"></script>
 		</div>
 	</ul>
 </li>
