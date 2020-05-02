@@ -20,6 +20,16 @@ if(window.location.hash == '#camp') {RECampButton.checked = 1; RECampOnOff();}
 if(window.location.hash == '#mining') {REMiningButton.checked = 1; REMiningOnOff();}
 // Мобы
 if(window.location.hash == '#strangemobs') {StrangeMobsButton.checked = 1; StrangeMobsOnOff();}
+if(window.location.hash == '#animals1') {Animals1Button.checked = 1; Animals1OnOff();}
+if(window.location.hash == '#animals2') {Animals2Button.checked = 1; Animals2OnOff();}
+if(window.location.hash == '#animals3') {Animals3Button.checked = 1; Animals3OnOff();}
+if(window.location.hash == '#animals4') {Animals4Button.checked = 1; Animals4OnOff();}
+if(window.location.hash == '#animals5') {Animals5Button.checked = 1; Animals5OnOff();}
+if(window.location.hash == '#animals6') {Animals6Button.checked = 1; Animals6OnOff();}
+if(window.location.hash == '#animals7') {Animals7Button.checked = 1; Animals7OnOff();}
+if(window.location.hash == '#animals8') {Animals8Button.checked = 1; Animals8OnOff();}
+if(window.location.hash == '#animals9') {Animals9Button.checked = 1; Animals9OnOff();}
+if(window.location.hash == '#animals10') {Animals10Button.checked = 1; Animals10OnOff();}
 // Месторождения для экстракторов
 if(window.location.hash == '#medy') {MedyButton.checked = 1; MedyOnOff();}
 if(window.location.hash == '#hlam') {HlamButton.checked = 1; HlamOnOff();}
