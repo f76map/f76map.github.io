@@ -20,16 +20,27 @@ if(window.location.hash == '#camp') {RECampButton.checked = 1; RECampOnOff();}
 if(window.location.hash == '#mining') {REMiningButton.checked = 1; REMiningOnOff();}
 // Мобы
 if(window.location.hash == '#strangemobs') {StrangeMobsButton.checked = 1; StrangeMobsOnOff();}
-if(window.location.hash == '#animals1') {Animals1Button.checked = 1; Animals1OnOff();}
-if(window.location.hash == '#animals2') {Animals2Button.checked = 1; Animals2OnOff();}
-if(window.location.hash == '#animals3') {Animals3Button.checked = 1; Animals3OnOff();}
-if(window.location.hash == '#animals4') {Animals4Button.checked = 1; Animals4OnOff();}
-if(window.location.hash == '#animals5') {Animals5Button.checked = 1; Animals5OnOff();}
-if(window.location.hash == '#animals6') {Animals6Button.checked = 1; Animals6OnOff();}
-if(window.location.hash == '#animals7') {Animals7Button.checked = 1; Animals7OnOff();}
-if(window.location.hash == '#animals8') {Animals8Button.checked = 1; Animals8OnOff();}
-if(window.location.hash == '#animals9') {Animals9Button.checked = 1; Animals9OnOff();}
-if(window.location.hash == '#animals10') {Animals10Button.checked = 1; Animals10OnOff();}
+if(window.location.hash == '#animals1_1') {Animals1_1Button.checked = 1; Animals1_1OnOff();}
+if(window.location.hash == '#animals1_2') {Animals1_2Button.checked = 1; Animals1_2OnOff();}
+if(window.location.hash == '#animals1_3') {Animals1_3Button.checked = 1; Animals1_3OnOff();}
+if(window.location.hash == '#animals1_4') {Animals1_4Button.checked = 1; Animals1_4OnOff();}
+if(window.location.hash == '#animals1_5') {Animals1_5Button.checked = 1; Animals1_5OnOff();}
+if(window.location.hash == '#animals1_6') {Animals1_6Button.checked = 1; Animals1_6OnOff();}
+if(window.location.hash == '#animals1_7') {Animals1_7Button.checked = 1; Animals1_7OnOff();}
+if(window.location.hash == '#animals1_8') {Animals1_8Button.checked = 1; Animals1_8OnOff();}
+if(window.location.hash == '#animals1_9') {Animals1_9Button.checked = 1; Animals1_9OnOff();}
+if(window.location.hash == '#animals1_10') {Animals1_10Button.checked = 1; Animals1_10OnOff();}
+if(window.location.hash == '#animals2_1') {Animals2_1Button.checked = 1; Animals2_1OnOff();}
+if(window.location.hash == '#animals2_2') {Animals2_2Button.checked = 1; Animals2_2OnOff();}
+if(window.location.hash == '#animals2_3') {Animals2_3Button.checked = 1; Animals2_3OnOff();}
+if(window.location.hash == '#animals2_4') {Animals2_4Button.checked = 1; Animals2_4OnOff();}
+if(window.location.hash == '#animals2_5') {Animals2_5Button.checked = 1; Animals2_5OnOff();}
+if(window.location.hash == '#animals2_6') {Animals2_6Button.checked = 1; Animals2_6OnOff();}
+if(window.location.hash == '#animals2_7') {Animals2_7Button.checked = 1; Animals2_7OnOff();}
+if(window.location.hash == '#animals2_8') {Animals2_8Button.checked = 1; Animals2_8OnOff();}
+if(window.location.hash == '#animals2_9') {Animals2_9Button.checked = 1; Animals2_9OnOff();}
+if(window.location.hash == '#animals2_10') {Animals2_10Button.checked = 1; Animals2_10OnOff();}
+if(window.location.hash == '#animals2_11') {Animals2_11Button.checked = 1; Animals2_11OnOff();}
 // Месторождения для экстракторов
 if(window.location.hash == '#medy') {MedyButton.checked = 1; MedyOnOff();}
 if(window.location.hash == '#hlam') {HlamButton.checked = 1; HlamOnOff();}
