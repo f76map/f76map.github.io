@@ -831,122 +831,404 @@ let animals = [
 	[191968, -162056, "Лес", a_r2]
 ];
 
-let anim1icons = L.layerGroup().addTo(map);
-function Animals1OnOff() {
+let anim1_1icons = L.layerGroup().addTo(map);
+function Animals1_1OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals1Button');
+	chbox=document.getElementById('Animals1_1Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь" || animals[i][2] == "Ядовитая долина") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1icons);}}}
-	else {anim1icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_1icons);}}}
+	else {anim1_1icons.clearLayers();}
 }
 
-let anim2icons = L.layerGroup().addTo(map);
-function Animals2OnOff() {
+let anim1_2icons = L.layerGroup().addTo(map);
+function Animals1_2OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals2Button');
+	chbox=document.getElementById('Animals1_2Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Лес") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim2icons);}}}
-	else {anim2icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_2icons);}}}
+	else {anim1_2icons.clearLayers();}
 }
 
-let anim3icons = L.layerGroup().addTo(map);
-function Animals3OnOff() {
+let anim1_3icons = L.layerGroup().addTo(map);
+function Animals1_3OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals3Button');
+	chbox=document.getElementById('Animals1_3Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Лес" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim3icons);}}}
-	else {anim3icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_3icons);}}}
+	else {anim1_3icons.clearLayers();}
 }
 
-let anim4icons = L.layerGroup().addTo(map);
-function Animals4OnOff() {
+let anim1_4icons = L.layerGroup().addTo(map);
+function Animals1_4OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals4Button');
+	chbox=document.getElementById('Animals1_4Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Шлаковая бездна" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь" || animals[i][2] == "Ядовитая долина") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim4icons);}}}
-	else {anim4icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_4icons);}}}
+	else {anim1_4icons.clearLayers();}
 }
 
-let anim5icons = L.layerGroup().addTo(map);
-function Animals5OnOff() {
+let anim1_5icons = L.layerGroup().addTo(map);
+function Animals1_5OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals5Button');
+	chbox=document.getElementById('Animals1_5Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim5icons);}}}
-	else {anim5icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_5icons);}}}
+	else {anim1_5icons.clearLayers();}
 }
 
-let anim6icons = L.layerGroup().addTo(map);
-function Animals6OnOff() {
+let anim1_6icons = L.layerGroup().addTo(map);
+function Animals1_6OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals6Button');
+	chbox=document.getElementById('Animals1_6Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Шлаковая бездна" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь" || animals[i][2] == "Ядовитая долина") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim6icons);}}}
-	else {anim6icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_6icons);}}}
+	else {anim1_6icons.clearLayers();}
 }
 
-let anim7icons = L.layerGroup().addTo(map);
-function Animals7OnOff() {
+let anim1_7icons = L.layerGroup().addTo(map);
+function Animals1_7OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals7Button');
+	chbox=document.getElementById('Animals1_7Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Дикий рубеж") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim7icons);}}}
-	else {anim7icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_7icons);}}}
+	else {anim1_7icons.clearLayers();}
 }
 
-let anim8icons = L.layerGroup().addTo(map);
-function Animals8OnOff() {
+let anim1_8icons = L.layerGroup().addTo(map);
+function Animals1_8OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals8Button');
+	chbox=document.getElementById('Animals1_8Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь" || animals[i][2] == "Ядовитая долина") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim8icons);}}}
-	else {anim8icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_8icons);}}}
+	else {anim1_8icons.clearLayers();}
 }
 
-let anim9icons = L.layerGroup().addTo(map);
-function Animals9OnOff() {
+let anim1_9icons = L.layerGroup().addTo(map);
+function Animals1_9OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals9Button');
+	chbox=document.getElementById('Animals1_9Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь" || animals[i][2] == "Ядовитая долина") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim9icons);}}}
-	else {anim9icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_9icons);}}}
+	else {anim1_9icons.clearLayers();}
 }
 
-let anim10icons = L.layerGroup().addTo(map);
-function Animals10OnOff() {
+let anim1_10icons = L.layerGroup().addTo(map);
+function Animals1_10OnOff() {
 	let chbox;
-	chbox=document.getElementById('Animals10Button');
+	chbox=document.getElementById('Animals1_10Button');
 	if (chbox.checked) {
 		for (let i = 0; i < animals.length; i++) {
 			if (animals[i][2] == "Клюквенное болото" || animals[i][2] == "Лес" || animals[i][2] == "Дикий рубеж" || animals[i][2] == "Топь" || animals[i][2] == "Ядовитая долина") {
 			new L.circleMarker([animals[i][0],animals[i][1]], {pane: "top", color: "#ffffff"})
-			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim10icons);}}}
-	else {anim10icons.clearLayers();}
+			.bindPopup("<u>Могут заспавниться:</u><br>"+animals[i][3]).bindTooltip("<u>Могут заспавниться:</u><br>"+animals[i][3], {direction: 'top'}).addTo(anim1_10icons);}}}
+	else {anim1_10icons.clearLayers();}
+}
+
+// --------------------------------------------------
+let animals2 = [
+//Бобер
+[-54271, 166294, "00115EDA"],
+[-53557, 166555, "00115EDA"],
+[-53637, 166510, "00115EDA"],
+[-54192, 166330, "00115EDA"],
+[-19538, 136589, "00115EDA"],
+[-19437, 137676, "00115EDA"],
+[-19191, 137305, "00115EDA"],
+[-19840, 137395, "00115EDA"],
+[-71816, 145976, "00115EDA"],
+[-71680, 145864, "00115EDA"],
+[-71536, 145776, "00115EDA"],
+[-94880, 150296, "00115EDA"],
+[-95411, 148748, "00115EDA"],
+[-95256, 148400, "00115EDA"],
+[-93630, 150297, "00115EDA"],
+[-93299, 147931, "00115EDA"],
+[-86816, 151176, "00115EDA"],
+[-86688, 150368, "00115EDA"],
+[-93367, 151898, "00115EDA"],
+[-90218, 162138, "00115EDA"],
+[-90219, 162380, "00115EDA"],
+[-89208, 162836, "00115EDA"],
+[-89337, 162870, "00115EDA"],
+[-176647, 167704, "00115EDA"],
+[-177004, 174217, "00115EDA"],
+[-177042, 174557, "00115EDA"],
+[-176913, 174453, "00115EDA"],
+[-136441, 162315, "00115EDA"],
+[-136557, 162559, "00115EDA"],
+[-136736, 162358, "00115EDA"],
+[-135969, 162166, "00115EDA"],
+[-135963, 162048, "00115EDA"],
+[-135867, 162105, "00115EDA"],
+[125483, 94152, "00115EDA"],
+[47570, 21524, "00115EDA"],
+[47571, 21753, "00115EDA"],
+[47575, 21638, "00115EDA"],
+//Брамин
+[-119611, -46191, "003DB3D9"],
+[-120178, -45444, "003DB3D9"],
+[15377, -109939, "003DB3D9"],
+[13384, -109602, "003DB3D9"],
+[14510, -108671, "003DB3D9"],
+[15923, -109241, "003DB3D9"],
+[24908, -106556, "003DB3D9"],
+[19435, -105664, "003DB3D9"],
+[20228, -104414, "003DB3D9"],
+[25567, -105993, "003DB3D9"],
+[24937, -105909, "003DB3D9"],
+[-148718, 115376, "003DB3D9"],
+[-149307, 115152, "003DB3D9"],
+[-149162, 115411, "003DB3D9"],
+[5606, 64105, "003DB3D9"],
+[5494, 64349, "003DB3D9"],
+[5651, 64686, "003DB3D9"],
+//Кошка
+[13313, 174752, "004F60A6"],
+[13322, 174686, "004F60A6"],
+[-5710, 34070, "004F60A6"],
+[-5792, 34087, "004F60A6"],
+[-5634, 34056, "004F60A6"],
+[-5546, 34037, "004F60A6"],
+[60275, -96596, "WixonHomestead_LvlCritterCat2 &quotЧесвик II&quot [NPC_:00590119]"],
+//Курица
+[-104336, 35292, "00424A60"],
+[-103948, 35324, "00424A60"],
+[-104143, 35030, "00424A60"],
+[-104014, 35152, "00424A60"],
+[-104408, 35093, "00424A60"],
+[-99963, 34141, "00424A60"],
+[-99797, 34091, "00424A60"],
+//Светлячок
+[51382, -42352, "0026F9FE", "Светлячок - 3 шт.<br>[Внутри локации Лаборатория биомов &quotАрктос фарма&quot]"],
+//Лисица
+[-19573, 73328, "004F60EC"],
+[-19677, 73642, "004F60EC"],
+[-19346, 73794, "004F60EC"],
+[-19675, 73924, "004F60EC"],
+//Опоссум
+[17230, -106800, "0026BB4F"],
+[18676, -106124, "0026BB4F"],
+[29567, -100750, "0026BB4F"],
+[17751, 9760, "0026BB4F"],
+[18106, 8697, "0026BB4F"],
+[17890, 9472, "0026BB4F"],
+[18296, 9474, "0026BB4F"],
+//Кролик
+[-61765, 6443, "004F60DB"],
+[-63631, 7893, "004F60DB"],
+[28523, 82338, "004F60DB"],
+[28570, 82485, "004F60DB"],
+[28570, 82613, "004F60DB"],
+[28659, 82277, "004F60DB"],
+[-61763, 6187, "004F60DB"],
+//Лягушка
+[-55593, -10244, "004F60E3"],
+[-55486, -10314, "004F60E3"],
+[-55380, -10385, "004F60E3"],
+[-55273, -10456, "004F60E3"],
+[-55166, -10527, "004F60E3"],
+[50147, 118580, "004F60E3"],
+[50147, 118452, "004F60E3"],
+[50147, 118324, "004F60E3"],
+[50019, 118452, "004F60E3"],
+[158383, 21934, "004F60E3_2", "Лягушка - 10 шт.<br>[Внутри локации Шахта Карлтона]"],
+//Рад-олень
+[-48271, -11637, "0018DFA4"],
+[47006, 42945, "0018DFA4"],
+[47060, 43222, "0018DFA4"],
+[104479, 132125, "0008CA3C"],
+[-101232, 85708, "0008CA3C"],
+[-168246, -13186, "0046DBE1"],
+[-168410, -12567, "0046DBE1"],
+[-167452, -14198, "0046DBE1"],
+[-166195, -12922, "0046DBE1"],
+[-169112, -10904, "0046DBE1"],
+[-167292, -11248, "0046DBE1"],
+[58602, -108132, "00115A8B"],
+[16770, 272093, ":00115A8B"],
+[16722, 271630, "00115A8B"],
+[37200, 168546, "00115A8B"],
+[38560, 169146, "00115A8B"],
+[104070, 132210, "00115A8B"],
+[-119920, 115605, "00115A8B"],
+[-30156, 67840, "00115A8B"],
+[-101357, 85971, "00115A8B"],
+[91098, 39619, "00115A8B"],
+[-39871, 12530, "00090E57"],
+[-39802, 12442, "00090E57"],
+[47604, 43184, "00090E57"],
+[-48222, -11731, "00090E57"],
+[47319, 42969, "00090E57"],
+//Белка
+[-44314, 7925, "004F60E1"],
+[-38149, 6780, "004F60E1"],
+[-62133, 8652, "004F60E1"],
+[-50700, 13466, "004F60E1"],
+[-50787, 12725, "004F60E1"],
+[5569, 19459, "004F60E1"],
+[5398, 19244, "004F60E1"],
+[5776, 19307, "004F60E1"]
+//Совенок
+	// 1 в локации Яма
+];
+let anim2_1icons = L.layerGroup().addTo(map);
+function Animals2_1OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_1Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "00115EDA") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Бобер").bindTooltip("Бобер", {direction: 'top'}).addTo(anim2_1icons);}}}
+	else {anim2_1icons.clearLayers();}
+}
+
+let anim2_2icons = L.layerGroup().addTo(map);
+function Animals2_2OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_2Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "003DB3D9") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Брамин").bindTooltip("Брамин", {direction: 'top'}).addTo(anim2_2icons);}}}
+	else {anim2_2icons.clearLayers();}
+}
+
+let anim2_3icons = L.layerGroup().addTo(map);
+function Animals2_3OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_3Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "004F60A6") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Кошка").bindTooltip("Кошка", {direction: 'top'}).addTo(anim2_3icons);}}}
+	else {anim2_3icons.clearLayers();}
+}
+
+let anim2_4icons = L.layerGroup().addTo(map);
+function Animals2_4OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_4Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "00424A60") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Курица").bindTooltip("Курица", {direction: 'top'}).addTo(anim2_4icons);}}}
+	else {anim2_4icons.clearLayers();}
+}
+
+let anim2_5icons = L.layerGroup().addTo(map);
+function Animals2_5OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_5Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "0026F9FE") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(animals2[i][3]).bindTooltip(animals2[i][3], {direction: 'top'}).addTo(anim2_5icons);}}}
+	else {anim2_5icons.clearLayers();}
+}
+
+let anim2_6icons = L.layerGroup().addTo(map);
+function Animals2_6OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_6Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "004F60EC") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Лисица").bindTooltip("Лисица", {direction: 'top'}).addTo(anim2_6icons);}}}
+	else {anim2_6icons.clearLayers();}
+}
+
+let anim2_7icons = L.layerGroup().addTo(map);
+function Animals2_7OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_7Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "0026BB4F") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Опоссум").bindTooltip("Опоссум", {direction: 'top'}).addTo(anim2_7icons);}}}
+	else {anim2_7icons.clearLayers();}
+}
+
+let anim2_8icons = L.layerGroup().addTo(map);
+function Animals2_8OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_8Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "004F60DB") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Кролик").bindTooltip("Кролик", {direction: 'top'}).addTo(anim2_8icons);}}}
+	else {anim2_8icons.clearLayers();}
+}
+
+let anim2_9icons = L.layerGroup().addTo(map);
+function Animals2_9OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_9Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "004F60E3") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Лягушка").bindTooltip("Лягушка", {direction: 'top'}).addTo(anim2_9icons);}
+			if (animals2[i][2] == "004F60E3_2") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff", fillColor: "#000000", fillOpacity: "0.8"})
+			.bindPopup(animals2[i][3]).bindTooltip(animals2[i][3], {direction: 'top'}).addTo(anim2_9icons);}}}
+	else {anim2_9icons.clearLayers();}
+}
+
+let anim2_10icons = L.layerGroup().addTo(map);
+function Animals2_10OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_10Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "0018DFA4" || animals2[i][2] == "0008CA3C" || animals2[i][2] == "0046DBE1" || animals2[i][2] == "00115A8B" || animals2[i][2] == "00090E57") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Рад-олень").bindTooltip("Рад-олень", {direction: 'top'}).addTo(anim2_10icons);}}}
+	else {anim2_10icons.clearLayers();}
+}
+
+let anim2_11icons = L.layerGroup().addTo(map);
+function Animals2_11OnOff() {
+	let chbox;
+	chbox=document.getElementById('Animals2_11Button');
+	if (chbox.checked) {
+		for (let i = 0; i < animals2.length; i++) {
+			if (animals2[i][2] == "004F60E1") {
+			new L.circleMarker([animals2[i][0],animals2[i][1]], {pane: "top", color: "#ffffff"})
+			.bindPopup("Белка").bindTooltip("Белка", {direction: 'top'}).addTo(anim2_11icons);}}}
+	else {anim2_11icons.clearLayers();}
 }
