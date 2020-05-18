@@ -721,7 +721,8 @@
 		"X: " + coords[1] + "<br>Y: "  + coords[0] +
 		"<br><button id='popupbutton' onclick='clearMarker(" + id + ")'>удалить</button>";
 		var myMarker = L.marker(coords, {
-			draggable: false
+			draggable: false,
+			pane: "top"
 		}).addTo(allmarkers);
 		myMarker._id = id
 		if (op == 1){var myPopup = myMarker.bindPopup(popupContent).openPopup();}
