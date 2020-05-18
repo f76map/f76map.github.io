@@ -29,6 +29,7 @@
     <script src="scripts/leaflet.js"></script>
 	<link rel="stylesheet" href="css/switchbutton.css" />
 	<script src="scripts/jquery-3.4.0.min.js"></script>
+	<script src="scripts/jquery-ui.min.js"></script>
 	<script src="scripts/leaflet-search.js"></script>
 	<link rel="stylesheet" href="css/leaflet-search.css" />
 
@@ -80,59 +81,6 @@
 			height: 100%;
 			margin: 0;
 		}
-		#search {
-			width: 404px;
-			height: 57px;
-			position: absolute;
-			bottom: 5px;
-			left: 10px;
-			z-index: 99999;
-			background-color: #FFFFFF;
-			padding: 3px 5px;
-			box-shadow: 0 0 5px #bbb;
-			border-radius:7px;
-			border:1px solid #3c3c3c;
-		}
-		#searchX {
-			position: absolute;
-			top: 3px;
-			right: 240px;
-			font-size: 12pt;
-		}
-		#searchY {
-			position: absolute;
-			top: 33px;
-			right: 240px;
-			font-size: 12pt;
-		}
-		#searchB1 {position: absolute; left: 180px;}
-		#searchB2 {position: absolute; top: 33px; left: 180px;}
-		#searchB3 {position: absolute; right: 4px;}
-		#lng, #lat {
-			width: 125px;
-			height: 25px;
-			border:1px solid #3c3c3c;
-			border-radius: 5px;
-			padding: 0 10px;
-			font-size: 12pt;
-		}
-		#b1, #b2, #b3 {
-			height: 27px;
-			border-radius:7px;
-			border:1px solid #3c3c3c;
-			cursor:pointer;
-			background-color:#FFFFFF;
-			font-family: LemonMilkRus;
-			font-size: 8pt;
-			-webkit-transition: all 0.4s ease-in-out;
-			transition: all 0.4s ease-in-out;
-		}
-		#b1:hover, #b2:hover, #b3:hover {
-			background: rgb(255, 200, 0);
-		}
-		#b1 {width: 92px;}
-		#b2 {width: 230px;}		
-		#b3 {width: 126px;}	
         #map {
             background-color: #3c3c3c;
 			background-image: url('bg2.jpg');
@@ -142,7 +90,7 @@
         }
 		#lkm_pkm {
 			position: absolute;
-			bottom: 175px;
+			bottom: 145px;
 			left: 10px;
 			width: 267px;
 			height: 22px;
@@ -161,7 +109,7 @@
 			width: 260px;
 			height: 87px;
 			left: 10px;
-			bottom: 73px;
+			bottom: 43px;
 			z-index: 99999;
 			background-color: #FFFFFF;
 			padding: 5px 2px 5px 5px;
@@ -202,7 +150,7 @@
 			height: auto;
 			margin: auto 0px 5px 0px;
 			background-color:#FFFFFF;
-			z-index: 800;
+			z-index: 400;
 			opacity: 0.87;
 			transition: all 0.5s ease-in-out;
 			-webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
@@ -210,12 +158,12 @@
 			-o-transition: all 0.5s ease-in-out; /** Opera **/
 			border-radius:0px 7px 7px 0px;
 			border:1px solid #3c3c3c;
-			padding: 245px 0 0 0;
+			padding: 215px 0 0 0;
 		}
 		#sidebarbutton {
 			position: absolute;
 			left: 462px;
-			bottom: 73px;
+			bottom: 43px;
 			z-index: 801;
 			transition: all 0.5s ease-in-out;
 
@@ -243,7 +191,7 @@
 		}
 		#discord_f76hub {
 			position: absolute;
-			bottom: 69px;
+			bottom: 39px;
 			left: 282px;
 		}
 		#f76hub {
@@ -346,8 +294,8 @@
 		
 		.box {position: absolute; background-color: #FFFFFF; border-radius:7px; border:1px solid #3c3c3c; box-shadow: 0 0 5px #bbb; z-index: 1;}
 		
-		#allcheckbox{position: absolute; bottom: 202px; left: 10px;}
-		#allcheckbox2{position: absolute; bottom: 202px; left: 219px;}
+		#allcheckbox{position: absolute; bottom: 172px; left: 10px;}
+		#allcheckbox2{position: absolute; bottom: 172px; left: 219px;}
 		.allcheckboxbut {
 			height: 35px;
 			width: 206px;
@@ -367,7 +315,7 @@
 		}
 		.mapinfo {
 			position: absolute;
-			bottom: 139px;
+			bottom: 109px;
 			left: 282px;
 		}
 		#mapinfoid {
@@ -658,6 +606,91 @@
 		#popupbutton:hover {
 			border: 2px solid red;
 		}
+		
+		#coords_fullbox {
+			position: absolute;
+			left: 430px;
+			bottom: 0px;
+			width: 650px;
+			height: 195px;
+			background-color: #3c3c3c;
+			margin: 5px;
+			opacity: 0.87;
+			z-index: 401;
+			border-radius: 7px;
+			border: 1px solid #3c3c3c;
+			cursor: move;
+			display: none;
+		}
+		#coords_box {
+			position: absolute;
+			bottom: 5px;
+			left: 10px;
+			height: 35px;
+			width: 415px;
+			background-color:#FFFFFF;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			box-shadow: 0 0 5px #bbb;
+			font-family: LemonMilkRus;
+			font-size: 9pt;
+			cursor:pointer;
+			white-space: normal;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		#coords_fullbox2 {
+			position: absolute;
+			top: 30px;
+			width: 650px;
+			height: 165px;
+			background-color: #ffffff;
+			border-radius: 0 0 7px 7px;
+			cursor: default;
+		}
+		#coords_box:hover {background: rgb(255, 200, 0);}
+		#searchX, #searchY {
+			position: absolute;
+			right: 475px;
+			font-size: 12pt;
+			font-family: LemonMilkRus;
+		}
+		#searchX {top: 3px;}
+		#searchY {top: 33px;}
+		#searchB1, #searchB2, #searchB3 {position: absolute; left: 28px;}
+		#searchB1 {top: 63px;}
+		#searchB2 {top: 93px;}
+		#searchB3 {top: 133px;}
+		#lng, #lat {
+			width: 125px;
+			height: 25px;
+			border:1px solid #3c3c3c;
+			border-radius: 5px;
+			padding: 0 10px;
+			font-size: 12pt;
+		}
+		#b1, #b2, #b3 {
+			height: 27px;
+			width: 147px;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			cursor:pointer;
+			background-color:#FFFFFF;
+			font-family: LemonMilkRus;
+			font-size: 8pt;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+		}
+		#b2 {height: 37px;}
+		#b1:hover, #b2:hover, #b3:hover {background: rgb(255, 200, 0);}
+		#coords {position: absolute; top: 60px; left: 505px; width: 70px; height: 55px; border-radius:7px; border:1px solid #3c3c3c; background-color: #FFFFFF; cursor: pointer; font-family: LemonMilkRus; font-size: 8pt; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+		#coords:hover {background: rgb(255, 200, 0);}
+		#coords_del {position: absolute; top: 120px; left: 505px; width: 70px; height: 40px; border-radius:7px; border:1px solid #3c3c3c; background-color: #FFFFFF; cursor: pointer; font-family: LemonMilkRus; font-size: 8pt; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+		#coords_del:hover {background: rgb(255, 200, 0);}
+		#coords_icon1 {position: absolute; top: 85px; left: 585px;}
+		#coords_icon2 {position: absolute; top: 130px; left: 585px;}
+		#coords_close {position: absolute; right: 10px; top: -27px; font-size: 14pt; cursor: pointer; color: #ffffff; font-family: RobotoCondensed-Regular; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+		#coords_close:hover {color: rgb(255, 200, 0) !important;}
 </style>
 </head>
 <body>
@@ -963,6 +996,8 @@
 
 <script src="scripts/Objects/PortADiner.js"></script>
 
+<script src="scripts/CoordsSearch.js"></script>
+
 <script src="scripts/url-hash.js"></script>
 
 <script type="application/javascript">
@@ -979,7 +1014,7 @@ LocationsOnOff();
 	</div>
 <div id="sidebar">
 <div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель"/></div>
-<div id="one" style="font-family: LemonMilkRus; position: relative; bottom: 240px; left: 10px;">
+<div id="one" style="font-family: LemonMilkRus; position: relative; bottom: 210px; left: 10px;">
 <ul class="accordion-menu" style="border-radius: 7px; border: 1px solid #3c3c3c; box-shadow: 0 0 5px #bbb;">
 <li>
 	<div class="dropdownlink"><i class="fa fa-home" aria-hidden="true" style="left: 15px;"></i> Основное
@@ -1102,7 +1137,6 @@ LocationsOnOff();
 		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_8"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_8_url" width="12" height="12" title="Скопировать ссылку"></div>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_9"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_9_url" width="12" height="12" title="Скопировать ссылку"></div>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_10"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_10_url" width="12" height="12" title="Скопировать ссылку"></div>
-		
 		<div class="text" id="animals2_text"><u>Места спавна животных</u></div>
 		<div class="text" id="animals2_1_text">Бобер</div>
 		<div class="text" id="animals2_2_text">Брамин</div>
@@ -1405,15 +1439,7 @@ LocationsOnOff();
 	<div class="mapinfo"><a class="fancybox" id="mapinfoid" href="#infookno"><img src="css/images/mapinfo.png" style="width: 78px;" alt=""/></a></div>
 	<div id="discord_f76hub"><a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank" title="Русскоязычный сервер дискорд по игре Fallout 76
 (Откроется в новой вкладке)"><img src="css/images/discord_f76hub.png" id="f76hub" onclick="f_f76hub()"/></a></div>
-	<div id="search">
-		<div id="searchX" style="font-family: 'LemonMilkRus'">X: <input type="text" maxlength="14" name="lng" id="lng"/></div>
-		<div id="searchY" style="font-family: 'LemonMilkRus'">Y: <input type="text" maxlength="14" name="lat" id="lat"/></div>
-		<div id="searchB1" title="Найти точку и поставить маркер по введенным координатам
-(Другие маркеры будут удалены)"><input type="button" id="b1" onclick="but1()" value="Найти точку"/></div>
-		<div id="searchB2" title="Найти точку и поставить маркер по введенным координатам
-(Другие маркеры не будут удалены)"><input type="button" id="b2" onclick="but2()" value="Найти точку (без удаления других)"/></div>
-		<div id="searchB3" title="Удалить все маркеры с карты"><input type="button" id="b3" onclick="but3()" value="Удалить маркеры"/></div>
-	</div>
+	<button id="coords_box" onclick="coords_box_show()" title="Включить панель поиска по координатам">Включить панель поиска по координатам</button>
 </div>
 </div>
 <div id="donat" style="width: 500px;display: none;">
@@ -1426,10 +1452,32 @@ LocationsOnOff();
 	<div style="margin: 20px 0;"><b>QIWI</b> - <a href="https://qiwi.me/f76map" rel="nofollow" target="_blank">https://qiwi.me/f76map</a></div>
 	</div>
 </div>
-<a class="fancybox" id="donat0" href="#donat" title=""><img src="donat3.png" style="position: absolute; right: 5px; bottom: 5px; width: 50px; z-index: 1000;" alt=""/></a>
-<script type="application/javascript">
-setTimeout(urlhash, 1000);
-</script>
+<a class="fancybox" id="donat0" href="#donat" title=""><img src="donat3.png" style="position: absolute; right: 5px; bottom: 5px; width: 50px; z-index: 400;" alt=""/></a>
+<div id="coords_fullbox">
+<div style="padding: 8px 0 0 10px; color: #ffffff; font-family: LemonMilkRus; font-size: 9pt;">Перемещаемая панель</div>
+	<div id="coords_fullbox2">
+		<div id="searchX">X: <input type="text" maxlength="14" name="lng" id="lng"/></div>
+		<div id="searchY">Y: <input type="text" maxlength="14" name="lat" id="lat"/></div>
+		<div id="searchB1" title="Найти точку и поставить маркер по введенным координатам
+(Другие маркеры будут удалены)"><input type="button" id="b1" onclick="but1()" value="Найти точку"/></div>
+		<div id="searchB2" title="Найти точку и поставить маркер по введенным координатам
+(Другие маркеры не будут удалены)"><input type="button" id="b2" onclick="but2()" value="Найти точку&#13;&#10;(без удаления других)"/></div>
+		<div id="searchB3" title="Удалить все маркеры с карты"><input type="button" id="b3" onclick="but3()" value="Удалить маркеры"/></div>
+		<div style="position: absolute; left: 185px; height: 165px; width: 5px; background-color: #3c3c3c;"></div>
+		<div style="position: absolute; left: 200px;"><b>Ввод набора координат</b><br><div style="font-size: 9pt;">Формат координат <b>[ Y , X ]</b>,[Y,X],[Y,X],[Y,X] (и т.д.)<br>Пример: [-168911, -13968], [-71798, 170232], [-119159, 195138]<br>Пробелы, табуляция и переносы строк не влияют.</div></div>
+		<textarea style="position: absolute; top: 60px; left: 200px; height: 98px; min-width: 300px; max-width: 300px; font-size: 10pt;" id="t01"></textarea>
+		<button id="coords" onclick="MarkersSet()">Отметить все точки на карте</button>
+		<button id="coords_del" onclick="MarkersDel()">Удалить точки</button>
+		<div id="coords_close" onclick="coords_box_hide()"><b>[закрыть]</b></div>
+		<div style="position: absolute; left: 585px; top: 40px; text-align: center; font-family: LemonMilkRus; font-size: 9pt;">Иконки<br>точек</div>
+		<input id="coords_icon1" name="coords_icon" type="radio" value="1" checked>
+		<div style="position: absolute; top: 82px; left: 610px; height: 18px; width: 18px; border-radius: 50%; box-shadow: 0 0 0 3px #ffff00;"></div>
+		<input id="coords_icon2" name="coords_icon" type="radio" value="2">
+		<img src="css/images/marker-icon.png" style="position: absolute; top: 120px; left: 610px; height: 35px;"></img>
+	</div>
+</div>
+<script>$('#coords_fullbox').draggable({containment: "body", cancel: '#coords_fullbox2'});</script>
 <script>$('.fancybox').fancybox();</script>
+<script type="application/javascript">setTimeout(urlhash, 1000);</script>
 </body>
 </html>
