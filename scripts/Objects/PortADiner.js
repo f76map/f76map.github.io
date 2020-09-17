@@ -1,35 +1,11 @@
-var portadinericons = L.layerGroup().addTo(map);
+let portadinericons = L.layerGroup().addTo(map);
 function PortADinerOnOff() {
-	var chbox;
+	let chbox;
 	chbox=document.getElementById('PortADinerButton');
 	if (chbox.checked) {
-		var portadiner1 = [
-			[-51565, -96573],
-			[-14246, -124704],
-			[-102383, -130135],
-			[-131716, -113326],
-			[173519, -14256],
-			[183584, -67312],
-			[87924, -4753],
-			[26986, -62385],
-			[18990, -107136],
-			[-119277, -136159],
-			[-77156, -175261],
-			[-121720, -183944],
-			[-111075, -177374],
-			[-89455, 184324],
-			[-144944, 139324],
-			[-137410, 153373],
-			[142176, 138870],
-			[69356, 202593],
-			[63951, 173748],
-			[172920, 38761],
-			[196538, 65245],
-			[16613, 45202],
-			[23835, 48463],
-			[57839, 13587]
-		];
-		var portadiner2 = [
+		let portadiner1 = [
+			[-51565, -96573],[-14246, -124704],[-102383, -130135],[-131716, -113326],[173519, -14256],[183584, -67312],[87924, -4753],[26986, -62385],[18990, -107136],[-119277, -136159],[-77156, -175261],[-121720, -183944],[-111075, -177374],[-89455, 184324],[-144944, 139324],[-137410, 153373],[142176, 138870],[69356, 202593],[63951, 173748],[172920, 38761],[196538, 65245],[16613, 45202],[23835, 48463],[57839, 13587]];
+		let portadiner2 = [
 			["Портативный обед<br>[Внутри здания Школа Ватоги]", -146584, 153175],
 			["Портативный обед<br>[Внутри здания Галерея в долине]", -12605, 196567],
 			["Портативный обед<br>[Внутри здания Общественный центр Ватоги]", -136952, 138432],
@@ -48,13 +24,13 @@ function PortADinerOnOff() {
 			["Портативный обед<br>[Внутри здания Форт Дефайанс]", -131600, 107048],
 			["Портативный обед<br>[Внутри здания Капитолий Чарлстона]", -57828, -91983]
 		];
-	for (var i = 0; i < portadiner1.length; i++) {
+	for (let i = 0; i < portadiner1.length; i++) {
 				portadiner1_1 = new L.circleMarker([portadiner1[i][0],portadiner1[i][1]], {pane: "top", color: "#ffffbf"})
 					.bindPopup("Портативный обед")
 					.bindTooltip("Портативный обед", {direction: 'top'})
 					.addTo(portadinericons);
 			}
-	for (var i = 0; i < portadiner2.length; i++) {
+	for (let i = 0; i < portadiner2.length; i++) {
 				portadiner2_1 = new L.circleMarker([portadiner2[i][1],portadiner2[i][2]], {pane: "top", color: "#ffffbf", fillColor: "#000000", fillOpacity: "0.8"})
 					.bindPopup(portadiner2[i][0])
 					.bindTooltip(portadiner2[i][0], {direction: 'top'})
