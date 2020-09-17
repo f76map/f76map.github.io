@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="google-site-verification" content="rAz6os48vxlwYdDyq6kSFFC9E775vsN1-9keVkCGB8g" />
-    <title>[F76 Map][by Farget][for Players] Интерактивная карта Fallout 76</title>
+	<title>[F76 Map][by Farget][for Players] Интерактивная карта Fallout 76</title>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="css/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="css/favicons/favicon-32x32.png">
@@ -26,7 +26,7 @@
 	<meta property="og:type" content="website"/>
 	
 	<link rel="stylesheet" href="css/leaflet.css" />
-    <script src="scripts/leaflet.js"></script>
+	<script src="scripts/leaflet.js"></script>
 	<link rel="stylesheet" href="css/switchbutton.css" />
 	<script src="scripts/jquery-3.4.0.min.js"></script>
 	<script src="scripts/jquery-ui.min.js"></script>
@@ -76,73 +76,15 @@
 		@font-face {font-family: RobotoCondensed-Bold; src: url(fonts/RobotoCondensed-Bold.ttf);}
 		@font-face {font-family: RobotoCondensed-Light; src: url(fonts/RobotoCondensed-Light.ttf);}
 		@font-face {font-family: RobotoCondensed-Regular; src: url(fonts/RobotoCondensed-Regular.ttf);}
-		html, body {
+		html, body {width: 100%; height: 100%; margin: 0;}
+		#map {
+			background-color: #3c3c3c;
+			background-image: url('bg3.jpg');
 			width: 100%;
 			height: 100%;
-			margin: 0;
-		}
-        #map {
-            background-color: #3c3c3c;
-			background-image: url('bg3.jpg');
-            width: 100%;
-            height: 100%;
 			background-position-x: center;
 			background-size: cover;
-        }
-		#lkm_pkm {
-			position: absolute;
-			bottom: 145px;
-			left: 10px;
-			width: 267px;
-			height: 22px;
-			border-radius: 7px;
-			border: 1px solid #3c3c3c;
 		}
-		#lkm_pkm_text {
-			position: absolute;
-			top: 5px;
-			left: 21px;
-			font-family: LemonMilkRus;
-			font-size: 9pt;
-		}
-		#changemap {
-			position: absolute;
-			width: 260px;
-			height: 87px;
-			left: 10px;
-			bottom: 43px;
-			z-index: 99999;
-			background-color: #FFFFFF;
-			padding: 5px 2px 5px 5px;
-			box-shadow: 0 0 5px #bbb;
-			border-radius:7px;
-			border:1px solid #3c3c3c;
-			font-family: LemonMilkRus;
-			font-size: 10pt;
-		}
-		#b4, #b5, #b6 {
-			position: absolute;
-			width: 28px;
-			height: 28px;
-			left: 10px;
-			border-radius:7px;
-			border:1px solid #3c3c3c;
-			font-weight: bolder;
-			font-size: 12pt;
-			cursor:pointer;
-			-webkit-transition: all 0.4s ease-in-out;
-			transition: all 0.4s ease-in-out;
-		}
-		#b4:hover, #b5:hover, #b6:hover {
-			background: rgb(255, 200, 0) !important;
-		}
-		#b4 {top: 5px; background-color:#3c3c3c; color: #FFFFFF;}
-		#b5 {top: 35px; background-color:#FFFFFF;}
-		#b6 {top: 65px; background-color:#FFFFFF;}
-		#changemaptext1, #changemaptext2, #changemaptext3{position: absolute; left: 45px;}
-		#changemaptext1 {top: 12px;}
-		#changemaptext2 {top: 42px;}
-		#changemaptext3 {top: 72px;}
 		#sidebar {
 			position: absolute;
 			bottom: 0px;
@@ -154,9 +96,9 @@
 			z-index: 400;
 			opacity: 0.87;
 			transition: all 0.5s ease-in-out;
-			-webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
-			-moz-transition: all 0.5s ease-in-out; /** Firefox **/
-			-o-transition: all 0.5s ease-in-out; /** Opera **/
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
 			border-radius:0px 7px 7px 0px;
 			border:1px solid #3c3c3c;
 			padding: 215px 0 0 0;
@@ -167,7 +109,6 @@
 			bottom: 43px;
 			z-index: 801;
 			transition: all 0.5s ease-in-out;
-
 		}
 		#sb0 {
 			width: 30px;
@@ -181,120 +122,13 @@
 			-webkit-transition: all 0.4s ease-in-out;
 			transition: all 0.4s ease-in-out;
 		}
-		#sb0:hover {
-			background: rgb(255, 200, 0);
+		#sb0:hover {background: rgb(255, 200, 0);}
+		#one {
+			position: relative;
+			bottom: 210px;
+			left: 10px;
+			font-family: LemonMilkRus;
 		}
-		.buttoninfo {
-			position: absolute;
-			top: 21px;
-			left: 335px;
-			z-index: 2;
-		}
-		#discord_f76hub {
-			position: absolute;
-			bottom: 39px;
-			left: 282px;
-		}
-		#f76hub {
-			width: 88px;
-			background-color:#FFFFFF;
-			border-radius:7px;
-			border:1px solid #3c3c3c;
-			box-shadow: 0 0 5px #bbb;
-			padding: 7px 10px 3px 10px;
-			cursor:pointer;
-			-webkit-transition: all 0.4s ease-in-out;
-			transition: all 0.4s ease-in-out;
-		}
-		#f76hub:hover {
-			background: rgb(255, 200, 0);
-		}
-		.switch {z-index: 2;}
-		
-		#switch1 {top: 6px; left: 120px;} /*Локации*/
-		
-		#re_switch1 {top: 6px; left: 110px;} /*Assault*/
-		#re_switch2 {top: 6px; left: 255px;} /*Object*/
-		#re_switch3 {top: 29px; left: 110px;} /*Scene*/
-		#re_switch4 {top: 29px; left: 255px;} /*Travel*/
-		#re_switch5 {top: 52px; left: 110px;} /*Camp*/
-		#re_switch6 {top: 52px; left: 255px;} /*Mining*/
-		
-		#switch6 {top: 29px; left: 120px;} /*Сокровища*/
-		#switch7 {top: 52px; left: 120px;} /*Журналы*/
-														/*Месторождения*/
-		#switch8 {top: 8px; left: 110px;}
-		#switch9 {top: 31px; left: 110px;}
-		#switch10 {top: 54px; left: 110px;}
-		#switch11 {top: 77px; left: 110px;}
-		#switch12 {top: 100px; left: 110px;}
-		#switch13 {top: 123px; left: 110px;}
-		#switch14 {top: 146px; left: 110px;}
-		#switch15 {top: 169px; left: 110px;}
-		
-		#switch16 {top: 8px; left: 360px;}
-		#switch17 {top: 31px; left: 360px;}
-		#switch18 {top: 54px; left: 360px;}
-		#switch19 {top: 77px; left: 360px;}
-		#switch20 {top: 100px; left: 360px;}
-		#switch21 {top: 123px; left: 360px;}
-		#switch22 {top: 146px; left: 360px;}
-		
-		#switch23 {top: 6px; left: 368px;} /*Пупсы*/
-		#switch24 {top: 29px; left: 368px;} /*Тайники с крышками*/
-		
-		.text {position: absolute; z-index: 2; font-family: LemonMilkRus; font-size: 9pt;}
-
-		#text1 {top: 10px; left: 30px;} /*Локации*/
-		#text23 {top: 10px; left: 210px;} /*Пупсы*/
-		#text6 {top: 33px; left: 30px;} /*Сокровища*/
-		#text24 {top: 33px; left: 210px;} /*Тайники с крышками*/
-		#text7 {top: 56px; left: 30px;} /*Журналы*/
-		
-		#wb_text1 {top: 10px; left: 30px;} /*Оружейный верстак*/
-		#wb_text2 {top: 33px; left: 30px;} /*Верстак для брони*/
-		#wb_text3 {top: 56px; left: 30px;} /*Ремонтный верстак*/
-		#wb_text4 {top: 79px; left: 30px;} /*Химлаборатория*/
-		#wb_text5 {top: 102px; left: 30px;} /*Пункт обслуживания силовой брони*/
-		
-		#wb_switch1 {top: 6px; left: 300px;}
-		#wb_switch2 {top: 29px; left: 300px;}
-		#wb_switch3 {top: 52px; left: 300px;}
-		#wb_switch4 {top: 75px; left: 300px;}
-		#wb_switch5 {top: 98px; left: 300px;}
-		
-		#wb_url_1 {position: absolute; top: 10px; left: 10px;}
-		#wb_url_2 {position: absolute; top: 33px; left: 10px;}
-		#wb_url_3 {position: absolute; top: 56px; left: 10px;}
-		#wb_url_4 {position: absolute; top: 79px; left: 10px;}
-		#wb_url_5 {position: absolute; top: 102px; left: 10px;}
-		
-		#re_text1 {top: 10px; left: 50px;} /*Assault*/
-		#re_text2 {top: 10px; left: 200px;} /*Object*/
-		#re_text3 {top: 33px; left: 50px;} /*Scene*/
-		#re_text4 {top: 33px; left: 200px;} /*Travel*/
-		#re_text5 {top: 56px; left: 50px;} /*Camp*/
-		#re_text6 {top: 56px; left: 200px;} /*Mining*/
-		
-		#text8 {top: 10px; left: 45px;}
-		#text9 {top: 33px; left: 45px;}
-		#text10 {top: 56px; left: 45px;}
-		#text11 {top: 79px; left: 45px;}
-		#text12 {top: 102px; left: 45px;}
-		#text13 {top: 125px; left: 45px;}
-		#text14 {top: 148px; left: 45px;}
-		#text15 {top: 171px; left: 45px;}
-		
-		#text16 {top: 10px; left: 210px;}
-		#text17 {top: 33px; left: 210px;}
-		#text18 {top: 56px; left: 210px;}
-		#text19 {top: 79px; left: 210px;}
-		#text20 {top: 102px; left: 210px;}
-		#text21 {top: 125px; left: 210px;}
-		#text22 {top: 148px; left: 210px;}
-		
-		.box {position: absolute; background-color: #FFFFFF; border-radius:7px; border:1px solid #3c3c3c; box-shadow: 0 0 5px #bbb; z-index: 1;}
-		
 		#allcheckbox{position: absolute; bottom: 172px; left: 10px;}
 		#allcheckbox2{position: absolute; bottom: 172px; left: 219px;}
 		.allcheckboxbut {
@@ -311,14 +145,53 @@
 			-webkit-transition: all 0.4s ease-in-out;
 			transition: all 0.4s ease-in-out;
 		}
-		.allcheckboxbut:hover {
-			background: rgb(255, 200, 0);
-		}
-		.mapinfo {
+		.allcheckboxbut:hover {background: rgb(255, 200, 0);}
+		#pkm {
 			position: absolute;
-			bottom: 109px;
-			left: 282px;
+			bottom: 145px;
+			left: 10px;
+			width: 267px;
+			height: 22px;
+			border-radius: 7px;
+			border: 1px solid #3c3c3c;
+			font-family: LemonMilkRus;
+			font-size: 9pt;
+			text-align: center;
+			line-height: 22px;
 		}
+		#changemap {
+			position: absolute;
+			width: 260px;
+			height: 87px;
+			left: 10px;
+			bottom: 43px;
+			z-index: 99999;
+			background-color: #FFFFFF;
+			padding: 5px 2px 5px 5px;
+			box-shadow: 0 0 5px #bbb;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			font-family: LemonMilkRus;
+			font-size: 10pt;
+		}
+		.image_map {
+			width: 28px;
+			height: 28px;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			font-weight: bolder;
+			font-size: 12pt;
+			cursor:pointer;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+			background: #FFFFFF;
+			color: #000000;
+			font-family: 'Arial';
+			margin: 0 10px 2px 5px;
+		}
+		.image_map:hover {background: rgb(255, 200, 0) !important;}
+		.selected_map {background: #3c3c3c; color: #FFFFFF;}
+		.mapinfo {position: absolute; bottom: 109px; left: 282px;}
 		#mapinfoid {
 			display: block;
 			width: 102px;
@@ -333,281 +206,20 @@
 			-webkit-transition: all 0.4s ease-in-out;
 			transition: all 0.4s ease-in-out;
 		}
-		#mapinfoid:hover {
-			background: rgb(255, 200, 0);
+		#mapinfoid:hover {background: rgb(255, 200, 0);}
+		#discord_f76hub {position: absolute; bottom: 39px; left: 282px;}
+		#f76hub {
+			width: 88px;
+			background-color:#FFFFFF;
+			border-radius:7px;
+			border:1px solid #3c3c3c;
+			box-shadow: 0 0 5px #bbb;
+			padding: 7px 10px 3px 10px;
+			cursor:pointer;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
 		}
-		p {text-indent: 20px; margin: 10px 0;}
-		#box4 {height: 146px; width: 414px; top: 311px; left:10px;}
-		#box5 {position: relative; height: 125px; width: 408px; top: 0px; left:0px; overflow-y: auto;}
-		#plants_switch1 {top: 6px; left: 116px;}
-		#plants_switch2 {top: 29px; left: 116px;}
-		#plants_switch3 {top: 52px; left: 116px;}
-		#plants_switch4 {top: 75px; left: 116px;}
-		#plants_switch5 {top: 98px; left: 116px;}
-		#plants_switch6 {top: 121px; left: 116px;}
-		#plants_switch7 {top: 144px; left: 116px;}
-		#plants_switch8 {top: 167px; left: 116px;}
-		#plants_switch9 {top: 190px; left: 116px;}
-		#plants_switch10 {top: 213px; left: 116px;}
-		#plants_switch11 {top: 236px; left: 116px;}
-		#plants_switch12 {top: 259px; left: 116px;}
-		#plants_switch13 {top: 282px; left: 116px;}
-		#plants_switch14 {top: 305px; left: 116px;}
-		#plants_switch15 {top: 328px; left: 116px;}
-		#plants_switch16 {top: 351px; left: 116px;}
-		#plants_switch17 {top: 374px; left: 116px;}
-		#plants_switch18 {top: 397px; left: 116px;}
-		#plants_switch19 {top: 420px; left: 116px;}
-		#plants_switch20 {top: 443px; left: 116px;}
-		
-		#plants_switch1_2 {top: 6px; left: 351px;}
-		#plants_switch2_2 {top: 29px; left: 351px;}
-		#plants_switch3_2 {top: 52px; left: 351px;}
-		#plants_switch4_2 {top: 75px; left: 351px;}
-		#plants_switch5_2 {top: 98px; left: 351px;}
-		#plants_switch6_2 {top: 121px; left: 351px;}
-		#plants_switch7_2 {top: 144px; left: 351px;}
-		#plants_switch8_2 {top: 167px; left: 351px;}
-		#plants_switch9_2 {top: 190px; left: 351px;}
-		#plants_switch10_2 {top: 213px; left: 351px;}
-		#plants_switch11_2 {top: 236px; left: 351px;}
-		#plants_switch12_2 {top: 259px; left: 351px;}
-		#plants_switch13_2 {top: 282px; left: 351px;}
-		#plants_switch14_2 {top: 305px; left: 351px;}
-		#plants_switch15_2 {top: 328px; left: 351px;}
-		#plants_switch16_2 {top: 351px; left: 351px;}
-		#plants_switch17_2 {top: 374px; left: 351px;}
-		#plants_switch18_2 {top: 397px; left: 351px;}
-		#plants_switch19_2 {top: 420px; left: 351px;}
-		#plants_switch20_2 {top: 443px; left: 351px;}
-		
-		.plants_text {font-family: LemonMilkRus; font-size: 9pt;}
-		#plants_text1 {position: absolute; top: 10px; left: 25px;}
-		#plants_text2 {position: absolute; top: 33px; left: 25px;}
-		#plants_text3 {position: absolute; top: 56px; left: 25px;}
-		#plants_text4 {position: absolute; top: 79px; left: 25px;}
-		#plants_text5 {position: absolute; top: 102px; left: 25px;}
-		#plants_text6 {position: absolute; top: 125px; left: 25px;}
-		#plants_text7 {position: absolute; top: 148px; left: 25px;}
-		#plants_text8 {position: absolute; top: 171px; left: 25px;}
-		#plants_text9 {position: absolute; top: 194px; left: 25px;}
-		#plants_text10 {position: absolute; top: 217px; left: 25px;}
-		#plants_text11 {position: absolute; top: 240px; left: 25px;}
-		#plants_text12 {position: absolute; top: 263px; left: 25px;}
-		#plants_text13 {position: absolute; top: 286px; left: 25px;}
-		#plants_text14 {position: absolute; top: 309px; left: 25px;}
-		#plants_text15 {position: absolute; top: 332px; left: 25px;}
-		#plants_text16 {position: absolute; top: 355px; left: 25px;}
-		#plants_text17 {position: absolute; top: 378px; left: 25px;}
-		#plants_text18 {position: absolute; top: 401px; left: 25px;}
-		#plants_text19 {position: absolute; top: 424px; left: 25px;}
-		#plants_text20 {position: absolute; top: 447px; left: 25px;}
-		
-		#plants_text21 {position: absolute; top: 10px; left: 185px;}
-		#plants_text22 {position: absolute; top: 33px; left: 185px;}
-		#plants_text23 {position: absolute; top: 56px; left: 185px;}
-		#plants_text24 {position: absolute; top: 79px; left: 185px;}
-		#plants_text25 {position: absolute; top: 102px; left: 185px;}
-		#plants_text26 {position: absolute; top: 125px; left: 185px;}
-		#plants_text27 {position: absolute; top: 148px; left: 185px;}
-		#plants_text28 {position: absolute; top: 171px; left: 185px;}
-		#plants_text29 {position: absolute; top: 194px; left: 185px;}
-		#plants_text30 {position: absolute; top: 217px; left: 185px;}
-		#plants_text31 {position: absolute; top: 240px; left: 185px;}
-		#plants_text32 {position: absolute; top: 263px; left: 185px;}
-		#plants_text33 {position: absolute; top: 286px; left: 185px;}
-		#plants_text34 {position: absolute; top: 309px; left: 185px;}
-		#plants_text35 {position: absolute; top: 332px; left: 185px;}
-		#plants_text36 {position: absolute; top: 355px; left: 185px;}
-		#plants_text37 {position: absolute; top: 378px; left: 185px;}
-		#plants_text38 {position: absolute; top: 401px; left: 185px;}
-		#plants_text39 {position: absolute; top: 424px; left: 185px;}
-		#plants_text40 {position: absolute; top: 447px; left: 185px;}
-		
-		#line1 {position: absolute; top: 5px; left: 158px; width: 5px; height: 435px; background-color: #3c3c3c; opacity: 0.3; border-radius: 3px;}
-
-		#strangemobs_text {position: absolute; top: 10px; left: 50px; text-align: center;}
-		#strangemobs_switch {top: 14px; left: 350px;}
-		
-		#animals1_text {position: absolute; top: 50px; left: 45px; text-align: center;}
-		#animals1_1_text {position: absolute; top: 73px; left: 50px; text-align: center;}
-		#animals1_2_text {position: absolute; top: 96px; left: 50px; text-align: center;}
-		#animals1_3_text {position: absolute; top: 119px; left: 50px; text-align: center;}
-		#animals1_4_text {position: absolute; top: 142px; left: 50px; text-align: center;}
-		#animals1_5_text {position: absolute; top: 165px; left: 50px; text-align: center;}
-		#animals1_6_text {position: absolute; top: 73px; left: 240px; text-align: center;}
-		#animals1_7_text {position: absolute; top: 96px; left: 240px; text-align: center;}
-		#animals1_8_text {position: absolute; top: 119px; left: 240px; text-align: center;}
-		#animals1_9_text {position: absolute; top: 142px; left: 240px; text-align: center;}
-		#animals1_10_text {position: absolute; top: 165px; left: 240px; text-align: center;}
-		#animals1_1_switch {top: 69px; left: 140px;}
-		#animals1_2_switch {top: 92px; left: 140px;}
-		#animals1_3_switch {top: 115px; left: 140px;}
-		#animals1_4_switch {top: 138px; left: 140px;}
-		#animals1_5_switch {top: 161px; left: 140px;}
-		#animals1_6_switch {top: 69px; left: 330px;}
-		#animals1_7_switch {top: 92px; left: 330px;}
-		#animals1_8_switch {top: 115px; left: 330px;}
-		#animals1_9_switch {top: 138px; left: 330px;}
-		#animals1_10_switch {top: 161px; left: 330px;}
-		#animals1_1_url {position: absolute; top: 73px; left: 30px;}
-		#animals1_2_url {position: absolute; top: 96px; left: 30px;}
-		#animals1_3_url {position: absolute; top: 119px; left: 30px;}
-		#animals1_4_url {position: absolute; top: 142px; left: 30px;}
-		#animals1_5_url {position: absolute; top: 165px; left: 30px;}
-		#animals1_6_url {position: absolute; top: 73px; left: 220px;}
-		#animals1_7_url {position: absolute; top: 96px; left: 220px;}
-		#animals1_8_url {position: absolute; top: 119px; left: 220px;}
-		#animals1_9_url {position: absolute; top: 142px; left: 220px;}
-		#animals1_10_url {position: absolute; top: 165px; left: 220px;}
-		
-		#animals2_text {position: absolute; top: 193px; left: 111px; text-align: center;}
-		#animals2_1_text {position: absolute; top: 216px; left: 50px; text-align: center;}
-		#animals2_2_text {position: absolute; top: 239px; left: 50px; text-align: center;}
-		#animals2_3_text {position: absolute; top: 262px; left: 50px; text-align: center;}
-		#animals2_4_text {position: absolute; top: 285px; left: 50px; text-align: center;}
-		#animals2_5_text {position: absolute; top: 308px; left: 50px; text-align: center;}
-		#animals2_6_text {position: absolute; top: 331px; left: 50px; text-align: center;}
-		#animals2_7_text {position: absolute; top: 216px; left: 240px; text-align: center;}
-		#animals2_8_text {position: absolute; top: 239px; left: 240px; text-align: center;}
-		#animals2_9_text {position: absolute; top: 262px; left: 240px; text-align: center;}
-		#animals2_10_text {position: absolute; top: 285px; left: 240px; text-align: center;}
-		#animals2_11_text {position: absolute; top: 308px; left: 240px; text-align: center;}
-		#animals2_1_switch {top: 212px; left: 140px;}
-		#animals2_2_switch {top: 235px; left: 140px;}
-		#animals2_3_switch {top: 258px; left: 140px;}
-		#animals2_4_switch {top: 281px; left: 140px;}
-		#animals2_5_switch {top: 304px; left: 140px;}
-		#animals2_6_switch {top: 327px; left: 140px;}
-		#animals2_7_switch {top: 212px; left: 330px;}
-		#animals2_8_switch {top: 235px; left: 330px;}
-		#animals2_9_switch {top: 258px; left: 330px;}
-		#animals2_10_switch {top: 281px; left: 330px;}
-		#animals2_11_switch {top: 304px; left: 330px;}
-		#animals2_1_url {position: absolute; top: 216px; left: 30px;}
-		#animals2_2_url {position: absolute; top: 239px; left: 30px;}
-		#animals2_3_url {position: absolute; top: 262px; left: 30px;}
-		#animals2_4_url {position: absolute; top: 285px; left: 30px;}
-		#animals2_5_url {position: absolute; top: 308px; left: 30px;}
-		#animals2_6_url {position: absolute; top: 331px; left: 30px;}
-		#animals2_7_url {position: absolute; top: 216px; left: 220px;}
-		#animals2_8_url {position: absolute; top: 239px; left: 220px;}
-		#animals2_9_url {position: absolute; top: 262px; left: 220px;}
-		#animals2_10_url {position: absolute; top: 285px; left: 220px;}
-		#animals2_11_url {position: absolute; top: 308px; left: 220px;}
-		
-		.emptybox {position: absolute; top: 463px; height: 5px; width: 100%;}
-		
-		#url1_1 {position: absolute; top: 33px; left: 10px;}
-		#url1_2 {position: absolute; top: 56px; left: 10px;}
-		#url1_3 {position: absolute; top: 10px; left: 190px;}
-		#url1_4 {position: absolute; top: 33px; left: 190px;}
-		
-		#re_url_1 {position: absolute; top: 10px; left: 30px;} /*Assault*/
-		#re_url_2 {position: absolute; top: 10px; left: 180px;} /*Object*/
-		#re_url_3 {position: absolute; top: 33px; left: 30px;} /*Scene*/
-		#re_url_4 {position: absolute; top: 33px; left: 180px;} /*Travel*/
-		#re_url_5 {position: absolute; top: 56px; left: 30px;} /*Camp*/
-		#re_url_6 {position: absolute; top: 56px; left: 180px;} /*Travel*/
-		
-		#url3_1 {position: absolute; top: 10px; left: 25px;}
-		#url3_2 {position: absolute; top: 33px; left: 25px;}
-		#url3_3 {position: absolute; top: 56px; left: 25px;}
-		#url3_4 {position: absolute; top: 79px; left: 25px;}
-		#url3_5 {position: absolute; top: 102px; left: 25px;}
-		#url3_6 {position: absolute; top: 125px; left: 25px;}
-		#url3_7 {position: absolute; top: 148px; left: 25px;}
-		#url3_8 {position: absolute; top: 171px; left: 25px;}
-		#url3_9 {position: absolute; top: 10px; left: 190px;}
-		#url3_10 {position: absolute; top: 33px; left: 190px;}
-		#url3_11 {position: absolute; top: 56px; left: 190px;}
-		#url3_12 {position: absolute; top: 79px; left: 190px;}
-		#url3_13 {position: absolute; top: 102px; left: 190px;}
-		#url3_14 {position: absolute; top: 125px; left: 190px;}
-		#url3_15 {position: absolute; top: 148px; left: 190px;}
-		
-		#url4_1 {position: absolute; top: 10px; left: 10px;}
-		#url4_2 {position: absolute; top: 33px; left: 10px;}
-		#url4_3 {position: absolute; top: 56px; left: 10px;}
-		#url4_4 {position: absolute; top: 79px; left: 10px;}
-		#url4_5 {position: absolute; top: 102px; left: 10px;}
-		#url4_6 {position: absolute; top: 125px; left: 10px;}
-		#url4_7 {position: absolute; top: 148px; left: 10px;}
-		#url4_8 {position: absolute; top: 171px; left: 10px;}
-		#url4_9 {position: absolute; top: 194px; left: 10px;}
-		#url4_10 {position: absolute; top: 217px; left: 10px;}
-		#url4_11 {position: absolute; top: 240px; left: 10px;}
-		#url4_12 {position: absolute; top: 263px; left: 10px;}
-		#url4_13 {position: absolute; top: 286px; left: 10px;}
-		#url4_14 {position: absolute; top: 309px; left: 10px;}
-		#url4_15 {position: absolute; top: 332px; left: 10px;}
-		#url4_16 {position: absolute; top: 355px; left: 10px;}
-		#url4_17 {position: absolute; top: 378px; left: 10px;}
-		#url4_18 {position: absolute; top: 401px; left: 10px;}
-		#url4_19 {position: absolute; top: 424px; left: 10px;}
-		#url4_20 {position: absolute; top: 447px; left: 10px;}
-		#url4_2_1 {position: absolute; top: 10px; left: 170px;}
-		#url4_2_2 {position: absolute; top: 33px; left: 170px;}
-		#url4_2_3 {position: absolute; top: 56px; left: 170px;}
-		#url4_2_4 {position: absolute; top: 79px; left: 170px;}
-		#url4_2_5 {position: absolute; top: 102px; left: 170px;}
-		#url4_2_6 {position: absolute; top: 125px; left: 170px;}
-		#url4_2_7 {position: absolute; top: 148px; left: 170px;}
-		#url4_2_8 {position: absolute; top: 171px; left: 170px;}
-		#url4_2_9 {position: absolute; top: 194px; left: 170px;}
-		#url4_2_10 {position: absolute; top: 217px; left: 170px;}
-		#url4_2_11 {position: absolute; top: 240px; left: 170px;}
-		#url4_2_12 {position: absolute; top: 263px; left: 170px;}
-		#url4_2_13 {position: absolute; top: 286px; left: 170px;}
-		#url4_2_14 {position: absolute; top: 309px; left: 170px;}
-		#url4_2_15 {position: absolute; top: 332px; left: 170px;}
-		#url4_2_16 {position: absolute; top: 355px; left: 170px;}
-		#url4_2_17 {position: absolute; top: 378px; left: 170px;}
-		#url4_2_18 {position: absolute; top: 401px; left: 170px;}
-		#url4_2_19 {position: absolute; top: 424px; left: 170px;}
-		#url4_2_20 {position: absolute; top: 447px; left: 170px;}
-		
-		#url5 {position: absolute; top: 18px; left: 25px;}
-		
-		#box_v {position: absolute; width: 335px; height: 100%; top: 0px; left: 15px;}
-		#box_v_b {position: absolute; width: 36px; height: 100%; top: 0px; left: 172px;}
-		#box_v2 {position: absolute; width: 335px; height: 100%; top: 0px; left: 240px;}
-		#box_v2_b {position: absolute; width: 36px; height: 100%; top: 0px; left: 365px;}
-		.vein_text {position: relative; margin-top: 9.2px; font-size: 9pt;}
-		
-		#box_h {position: absolute; width: 325px; height: 100%; top: 2px; left: 65px;}
-		#box_h_b {position: absolute; width: 36px; height: 100%; top: 2px; left: 20px;}
-		.hlam_text {position: relative; height: 13px; margin-top: 10px; font-size: 9pt;}
-		.switch2 {position: relative; top: 3px; margin-top: 3px;}
-		.emptybox2 {position: relative; height: 10px; width: 100%;}
-		.b_url_hlam {position: relative; top: 3px; height: 15px; margin-top: 8px;}
-		#hlam_t_273, #hlam_t_274, #hlam_t_275, #hlam_t_276, #hlam_t_277, #hlam_t_278, #hlam_t_279, #hlam_t_280, #hlam_t_281 {font-size: 8pt;}
-		
-		.fancybox-custom .fancybox-skin {box-shadow: 0 0 50px #222;}
-		
-		.b_url_i {width: 15px; height: 15px;}
-		.b_url2 {position: relative; top: 1px; display: inline-block; margin-right: 8px;}
-		
-		#url_m_1 {position: absolute; top: 10px; left: 10px;}
-		.misc_text {position: absolute; left: 30px; top: 10px; font-size: 9pt;}
-		#misk_switch {position: absolute; left: 170px; top: 6px;}
-		#popupbutton {
-			font-family: RobotoCondensed-Regular;
-			font-size: 14px;
-			line-height: 14px;
-			height: 23px;
-			width: 60px;
-			border-radius: 10px;
-			border: 2px solid #999;
-			padding: 0px 0px 3px 0px;
-			cursor: pointer;
-			position: relative;
-			left: 2px;
-		}
-		#popupbutton:hover {
-			border: 2px solid red;
-		}
-		
+		#f76hub:hover {background: rgb(255, 200, 0);}
 		#coords_fullbox {
 			position: absolute;
 			left: 430px;
@@ -692,26 +304,203 @@
 		#coords_icon2 {position: absolute; top: 130px; left: 585px;}
 		#coords_close {position: absolute; right: 10px; top: -27px; font-size: 14pt; cursor: pointer; color: #ffffff; font-family: RobotoCondensed-Regular; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
 		#coords_close:hover {color: rgb(255, 200, 0) !important;}
+		
+		.switch {z-index: 2;}
+		.text {position: absolute; z-index: 2; font-family: LemonMilkRus; font-size: 9pt;}
+/*Основное*/
+		#text1 {top: 10px; left: 30px;} /*Локации*/
+		#text2 {top: 33px; left: 30px;} /*Сокровища*/
+		#text3 {top: 56px; left: 30px;} /*Журналы*/
+		#text4 {top: 10px; left: 210px;} /*Пупсы*/
+		#text5 {top: 33px; left: 210px;} /*Тайники с крышками*/
+		
+		#switch1 {top: 6px; left: 120px;}
+		#switch2 {top: 29px; left: 120px;}
+		#switch3 {top: 52px; left: 120px;}
+		#switch4 {top: 6px; left: 368px;}
+		#switch5 {top: 29px; left: 368px;}
+		
+		#url1_1 {position: absolute; top: 33px; left: 10px;}
+		#url1_2 {position: absolute; top: 56px; left: 10px;}
+		#url1_3 {position: absolute; top: 10px; left: 190px;}
+		#url1_4 {position: absolute; top: 33px; left: 190px;}
+/*Верстаки*/
+		#wb_text1 {top: 10px; left: 30px;} /*Оружейный верстак*/
+		#wb_text2 {top: 33px; left: 30px;} /*Верстак для брони*/
+		#wb_text3 {top: 56px; left: 30px;} /*Ремонтный верстак*/
+		#wb_text4 {top: 79px; left: 30px;} /*Химлаборатория*/
+		#wb_text5 {top: 102px; left: 30px;} /*Пункт обслуживания силовой брони*/
+		
+		#wb_switch1 {top: 6px; left: 300px;}
+		#wb_switch2 {top: 29px; left: 300px;}
+		#wb_switch3 {top: 52px; left: 300px;}
+		#wb_switch4 {top: 75px; left: 300px;}
+		#wb_switch5 {top: 98px; left: 300px;}
+		
+		#wb_url_1 {position: absolute; top: 10px; left: 10px;}
+		#wb_url_2 {position: absolute; top: 33px; left: 10px;}
+		#wb_url_3 {position: absolute; top: 56px; left: 10px;}
+		#wb_url_4 {position: absolute; top: 79px; left: 10px;}
+		#wb_url_5 {position: absolute; top: 102px; left: 10px;}
+/*Случайные встречи*/
+		#re_text1 {top: 10px; left: 50px;} /*Assault*/
+		#re_text2 {top: 10px; left: 200px;} /*Object*/
+		#re_text3 {top: 33px; left: 50px;} /*Scene*/
+		#re_text4 {top: 33px; left: 200px;} /*Travel*/
+		#re_text5 {top: 56px; left: 50px;} /*Camp*/
+		#re_text6 {top: 56px; left: 200px;} /*Mining*/
+		
+		#re_switch1 {top: 6px; left: 110px;}
+		#re_switch2 {top: 6px; left: 255px;}
+		#re_switch3 {top: 29px; left: 110px;}
+		#re_switch4 {top: 29px; left: 255px;}
+		#re_switch5 {top: 52px; left: 110px;}
+		#re_switch6 {top: 52px; left: 255px;}
+		
+		#re_url_1 {position: absolute; top: 10px; left: 30px;}
+		#re_url_2 {position: absolute; top: 10px; left: 180px;}
+		#re_url_3 {position: absolute; top: 33px; left: 30px;}
+		#re_url_4 {position: absolute; top: 33px; left: 180px;}
+		#re_url_5 {position: absolute; top: 56px; left: 30px;}
+		#re_url_6 {position: absolute; top: 56px; left: 180px;}
+		
+		.re_info {position: absolute; top: 21px; left: 335px; z-index: 2;}
+/*Монстры и животные*/
+		#strangemobs_text {position: absolute; top: 10px; left: 50px; text-align: center;}
+		#strangemobs_switch {top: 14px; left: 350px;}
+		#url5 {position: absolute; top: 18px; left: 25px;}
+		
+		#animals1_text {position: absolute; top: 50px; left: 45px; text-align: center;}
+		#animals1_1_text {position: absolute; top: 73px; left: 50px; text-align: center;}
+		#animals1_2_text {position: absolute; top: 96px; left: 50px; text-align: center;}
+		#animals1_3_text {position: absolute; top: 119px; left: 50px; text-align: center;}
+		#animals1_4_text {position: absolute; top: 142px; left: 50px; text-align: center;}
+		#animals1_5_text {position: absolute; top: 165px; left: 50px; text-align: center;}
+		#animals1_6_text {position: absolute; top: 73px; left: 240px; text-align: center;}
+		#animals1_7_text {position: absolute; top: 96px; left: 240px; text-align: center;}
+		#animals1_8_text {position: absolute; top: 119px; left: 240px; text-align: center;}
+		#animals1_9_text {position: absolute; top: 142px; left: 240px; text-align: center;}
+		#animals1_10_text {position: absolute; top: 165px; left: 240px; text-align: center;}
+		#animals1_1_switch {top: 69px; left: 140px;}
+		#animals1_2_switch {top: 92px; left: 140px;}
+		#animals1_3_switch {top: 115px; left: 140px;}
+		#animals1_4_switch {top: 138px; left: 140px;}
+		#animals1_5_switch {top: 161px; left: 140px;}
+		#animals1_6_switch {top: 69px; left: 330px;}
+		#animals1_7_switch {top: 92px; left: 330px;}
+		#animals1_8_switch {top: 115px; left: 330px;}
+		#animals1_9_switch {top: 138px; left: 330px;}
+		#animals1_10_switch {top: 161px; left: 330px;}
+		#animals1_1_url {position: absolute; top: 73px; left: 30px;}
+		#animals1_2_url {position: absolute; top: 96px; left: 30px;}
+		#animals1_3_url {position: absolute; top: 119px; left: 30px;}
+		#animals1_4_url {position: absolute; top: 142px; left: 30px;}
+		#animals1_5_url {position: absolute; top: 165px; left: 30px;}
+		#animals1_6_url {position: absolute; top: 73px; left: 220px;}
+		#animals1_7_url {position: absolute; top: 96px; left: 220px;}
+		#animals1_8_url {position: absolute; top: 119px; left: 220px;}
+		#animals1_9_url {position: absolute; top: 142px; left: 220px;}
+		#animals1_10_url {position: absolute; top: 165px; left: 220px;}
+		
+		#animals2_text {position: absolute; top: 193px; left: 111px; text-align: center;}
+		#animals2_1_text {position: absolute; top: 216px; left: 50px; text-align: center;}
+		#animals2_2_text {position: absolute; top: 239px; left: 50px; text-align: center;}
+		#animals2_3_text {position: absolute; top: 262px; left: 50px; text-align: center;}
+		#animals2_4_text {position: absolute; top: 285px; left: 50px; text-align: center;}
+		#animals2_5_text {position: absolute; top: 308px; left: 50px; text-align: center;}
+		#animals2_6_text {position: absolute; top: 331px; left: 50px; text-align: center;}
+		#animals2_7_text {position: absolute; top: 216px; left: 240px; text-align: center;}
+		#animals2_8_text {position: absolute; top: 239px; left: 240px; text-align: center;}
+		#animals2_9_text {position: absolute; top: 262px; left: 240px; text-align: center;}
+		#animals2_10_text {position: absolute; top: 285px; left: 240px; text-align: center;}
+		#animals2_11_text {position: absolute; top: 308px; left: 240px; text-align: center;}
+		#animals2_1_switch {top: 212px; left: 140px;}
+		#animals2_2_switch {top: 235px; left: 140px;}
+		#animals2_3_switch {top: 258px; left: 140px;}
+		#animals2_4_switch {top: 281px; left: 140px;}
+		#animals2_5_switch {top: 304px; left: 140px;}
+		#animals2_6_switch {top: 327px; left: 140px;}
+		#animals2_7_switch {top: 212px; left: 330px;}
+		#animals2_8_switch {top: 235px; left: 330px;}
+		#animals2_9_switch {top: 258px; left: 330px;}
+		#animals2_10_switch {top: 281px; left: 330px;}
+		#animals2_11_switch {top: 304px; left: 330px;}
+		#animals2_1_url {position: absolute; top: 216px; left: 30px;}
+		#animals2_2_url {position: absolute; top: 239px; left: 30px;}
+		#animals2_3_url {position: absolute; top: 262px; left: 30px;}
+		#animals2_4_url {position: absolute; top: 285px; left: 30px;}
+		#animals2_5_url {position: absolute; top: 308px; left: 30px;}
+		#animals2_6_url {position: absolute; top: 331px; left: 30px;}
+		#animals2_7_url {position: absolute; top: 216px; left: 220px;}
+		#animals2_8_url {position: absolute; top: 239px; left: 220px;}
+		#animals2_9_url {position: absolute; top: 262px; left: 220px;}
+		#animals2_10_url {position: absolute; top: 285px; left: 220px;}
+		#animals2_11_url {position: absolute; top: 308px; left: 220px;}	
+/*Месторождения*/
+		#de_l {position: absolute; left: 25px; margin-top: 5px;}
+		#de_r {position: absolute; left: 190px; margin-top: 5px;}
+		.deposit {height: 20px; line-height: 20px; padding-bottom: 3px;}
+		.de_t {position: relative; height: 13px; padding-right: 15px; font-size: 9pt; font-family: LemonMilkRus;}
+/*Рудные жилы*/
+		#ve_l {position: absolute; left: 10px; margin-top: 5px;}
+		#ve_r {position: absolute; left: 230px; margin-top: 5px;}
+		.vein {height: 20px; line-height: 20px; padding-bottom: 3px;}
+		.ve_t {position: relative; height: 13px; padding-right: 5px; font-size: 9pt; font-family: LemonMilkRus;}
+/*Растения*/
+		#pl_l {position: absolute; left: 10px; margin-top: 5px;}
+		#pl_r {position: absolute; left: 165px; margin-top: 5px;}
+		.plant {height: 20px; line-height: 20px; padding-bottom: 3px;}
+		.pl_t {position: relative; height: 13px; padding-right: 5px; font-size: 9pt; font-family: LemonMilkRus;}
+/*Хлам*/
+		.hlam_text {position: relative; height: 13px; margin-top: 10px; font-size: 9pt;}
+		#box_h {position: absolute; width: 325px; height: 100%; top: 2px; left: 65px;}
+		#box_h_b {position: absolute; width: 36px; height: 100%; top: 2px; left: 20px;}
+		.b_url_hlam {position: relative; top: 3px; height: 15px; margin-top: 8px;}
+		#hlam_t_273, #hlam_t_274, #hlam_t_275, #hlam_t_276, #hlam_t_277, #hlam_t_278, #hlam_t_279, #hlam_t_280, #hlam_t_281 {font-size: 8pt;}
+		.switch2 {position: relative; top: 3px; margin-top: 3px;}
+		.emptybox2 {position: relative; height: 10px; width: 100%;}
+/*Разное*/
+		.misc_text {position: absolute; left: 30px; top: 10px; font-size: 9pt;}
+		#misk_switch {position: absolute; left: 170px; top: 6px;}
+		#url_m_1 {position: absolute; top: 10px; left: 10px;}
+/*-----*/
+		.fancybox-custom .fancybox-skin {box-shadow: 0 0 50px #222;}
+		.b_url_i {width: 15px; height: 15px;}
+		.b_url2 {position: relative; top: 1px; display: inline-block; margin-right: 8px;}
+		#popupbutton {
+			font-family: RobotoCondensed-Regular;
+			font-size: 14px;
+			line-height: 14px;
+			height: 23px;
+			width: 60px;
+			border-radius: 10px;
+			border: 2px solid #999;
+			padding: 0px 0px 3px 0px;
+			cursor: pointer;
+			position: relative;
+			left: 2px;
+		}
+		#popupbutton:hover {border: 2px solid red;}
 </style>
 </head>
 <body>
 <div id="map"></div>
 <script type="application/javascript">
 	var bounds = [[-290730,-291730], [292230,291255]];
-    var map = new L.map('map', {
-      crs: L.CRS.Simple,
-      minZoom: -10,
-      maxZoom: -4,
-      maxBoundsViscosity: 0.5,
-      maxBounds: [
-        [-700000, 700000],
-        [700000, -700000]
-        ],
-    });
-    var image = L.imageOverlay('css/images/map1.jpg', bounds).addTo(map);
-    map.fitBounds(bounds);
-    map.setZoom(-9);
-    map.zoomControl.setPosition('topright');
+	var map = new L.map('map', {
+		crs: L.CRS.Simple,
+		minZoom: -10,
+		maxZoom: -4,
+		maxBoundsViscosity: 0.5,
+		maxBounds: [
+			[-700000, 700000],
+			[700000, -700000]
+		],
+	});
+	var image = L.imageOverlay('css/images/map1.jpg', bounds).addTo(map);
+	map.fitBounds(bounds);
+	map.setZoom(-9);
+	map.zoomControl.setPosition('topright');
 	var allmarkers = L.layerGroup().addTo(map);
 	var markers = []
 	function createMarker(coords, op) {
@@ -756,44 +545,6 @@
 	function but3() {
 	allmarkers.clearLayers();
 	};
-	function but4() {
-	map.removeLayer(image);
-	image = L.imageOverlay('css/images/map1.jpg', bounds).addTo(map);
-	b4.style.background = '#3c3c3c';
-	b5.style.background = '#FFFFFF';
-	b6.style.background = '#FFFFFF';
-	b4.style.color = '#FFFFFF';
-	b5.style.color = '#000000';
-	b6.style.color = '#000000';
-	};
-	function but5() {
-	map.removeLayer(image);
-	image = L.imageOverlay('css/images/map2.jpg', bounds).addTo(map);
-	b4.style.background = '#FFFFFF';
-	b5.style.background = '#3c3c3c';
-	b6.style.background = '#FFFFFF';
-	b4.style.color = '#000000';
-	b5.style.color = '#FFFFFF';
-	b6.style.color = '#000000';
-	};
-	function but6() {
-	map.removeLayer(image);
-	image = L.imageOverlay('css/images/map3.jpg', bounds).addTo(map);
-	b4.style.background = '#FFFFFF';
-	b5.style.background = '#FFFFFF';
-	b6.style.background = '#3c3c3c';
-	b4.style.color = '#000000';
-	b5.style.color = '#000000';
-	b6.style.color = '#FFFFFF';
-	};
-	<!-- var popup = L.popup(); -->
-	<!-- function onMapClick(e) { -->
-		<!-- popup -->
-			<!-- .setLatLng(e.latlng) -->
-			<!-- .setContent("X: " + ~~e.latlng.lng + ", Y: " + ~~e.latlng.lat) -->
-			<!-- .addTo(map); -->
-	<!-- } -->
-	<!-- map.on('click', onMapClick); -->
 	map.on('contextmenu',function(e){
 		createMarker([e.latlng.lat, e.latlng.lng])
 	});
@@ -934,76 +685,21 @@
 </script>
 <script src="scripts/LocationsIcons.js"></script>
 <script src="scripts/Objects/Locations.js"></script>
-
 <script src="scripts/Objects/Treasure.js"></script>
 <script src="scripts/Objects/Magazine.js"></script>
 <script src="scripts/Objects/Bobblehead.js"></script>
 <script src="scripts/Objects/CapStash.js"></script>
-
-<script src="scripts/Objects/WB/Wb1.js"></script>
-<script src="scripts/Objects/WB/Wb2.js"></script>
-<script src="scripts/Objects/WB/Wb3.js"></script>
-<script src="scripts/Objects/WB/Wb4.js"></script>
-<script src="scripts/Objects/WB/Wb5.js"></script>
-
+<script src="scripts/Objects/Workbenches.js"></script>
 <script src="scripts/Objects/RandomEncounters.js"></script>
-
 <script src="scripts/Objects/StrangeMobs.js"></script>
 <script src="scripts/Objects/Animals.js"></script>
-
 <script src="scripts/Objects/Mestorojdeniya.js"></script>
-
 <script src="scripts/Objects/Ruda.js"></script>
-
-<script src="scripts/Objects/Rasteniya/Grib.js"></script>
-<script src="scripts/Objects/Rasteniya/Arbuz.js"></script>
-<script src="scripts/Objects/Rasteniya/Astra.js"></script>
-<script src="scripts/Objects/Rasteniya/Toshka.js"></script>
-<script src="scripts/Objects/Rasteniya/Tyikva.js"></script>
-<script src="scripts/Objects/Rasteniya/Klukva.js"></script>
-<script src="scripts/Objects/Rasteniya/Morkovy.js"></script>
-<script src="scripts/Objects/Rasteniya/Ejevika.js"></script>
-<script src="scripts/Objects/Rasteniya/Kukuruza.js"></script>
-<script src="scripts/Objects/Rasteniya/Lihocvet.js"></script>
-<script src="scripts/Objects/Rasteniya/Ilofasoly.js"></script>
-<script src="scripts/Objects/Rasteniya/Krovolist.js"></script>
-<script src="scripts/Objects/Rasteniya/Mozgogrib.js"></script>
-<script src="scripts/Objects/Rasteniya/Mutafrukt.js"></script>
-<script src="scripts/Objects/Rasteniya/Peplocvet.js"></script>
-<script src="scripts/Objects/Rasteniya/Smolyanika.js"></script>
-<script src="scripts/Objects/Rasteniya/Hvostolom.js"></script>
-<script src="scripts/Objects/Rasteniya/Britvozlak.js"></script>
-<script src="scripts/Objects/Rasteniya/Gryaznocvet.js"></script>
-<script src="scripts/Objects/Rasteniya/Rododendron.js"></script>
-<script src="scripts/Objects/Rasteniya/Chertopoloh.js"></script>
-<script src="scripts/Objects/Rasteniya/NochnoyPolzun.js"></script>
-<script src="scripts/Objects/Rasteniya/NutryanoyGrib.js"></script>
-<script src="scripts/Objects/Rasteniya/OgnenniyGrib.js"></script>
-<script src="scripts/Objects/Rasteniya/YaycoMolerota.js"></script>
-<script src="scripts/Objects/Rasteniya/PepelynayaRoza.js"></script>
-<script src="scripts/Objects/Rasteniya/YagodaHlopushka.js"></script>
-<script src="scripts/Objects/Rasteniya/KorenyJenyshenya.js"></script>
-<script src="scripts/Objects/Rasteniya/SvetGrib.js"></script>
-<script src="scripts/Objects/Rasteniya/CvetokDushitelya.js"></script>
-<script src="scripts/Objects/Rasteniya/SvetSmola.js"></script>
-<script src="scripts/Objects/Rasteniya/ZarajKlukva.js"></script>
-<script src="scripts/Objects/Rasteniya/Paporotnik.js"></script>
-<script src="scripts/Objects/Rasteniya/Kizil.js"></script>
-<script src="scripts/Objects/Rasteniya/CvetokToshki.js"></script>
-<script src="scripts/Objects/Rasteniya/CvetokTyikvyi.js"></script>
-<script src="scripts/Objects/Rasteniya/CvetokArbuza.js"></script>
-<script src="scripts/Objects/Rasteniya/CvetokMorkovi.js"></script>
-<script src="scripts/Objects/Rasteniya/Hischnolist.js"></script>
-
+<script src="scripts/Objects/Rasteniya.js"></script>
 <script src="scripts/Objects/PortADiner.js"></script>
-
 <script src="scripts/CoordsSearch.js"></script>
-
 <script src="scripts/url-hash.js"></script>
 
-<script type="application/javascript">
-LocationsOnOff();
-</script>
 	<div style="display: none;">Интерактивная карта по игре Fallout 76. Есть локации, сокровища, места случайных встреч, месторождения, журналы, пупсы, тайники с крышками, верстаки, растения, а так же поиск точек по вашим введенным координатам."</div>
 	<div id="infookno" style="width: 700px; display: none;" data-nosnippet>
 		<img src="css/favicons/favicon-32x32.png" style="position: absolute;"></img>
@@ -1016,7 +712,7 @@ LocationsOnOff();
 	</div>
 <div id="sidebar">
 <div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель" data-nosnippet/></div>
-<div id="one" style="font-family: LemonMilkRus; position: relative; bottom: 210px; left: 10px;" data-nosnippet>
+<div id="one" data-nosnippet>
 <ul class="accordion-menu" style="border-radius: 7px; border: 1px solid #3c3c3c; box-shadow: 0 0 5px #bbb;">
 <li>
 	<div class="dropdownlink"><i class="fa fa-home" aria-hidden="true" style="left: 15px;"></i> Основное
@@ -1025,15 +721,15 @@ LocationsOnOff();
 	<ul class="submenuItems">
 		<div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
 		<div class="text" id="text1">Локации</div>
-		<div class="text" id="text6">Сокровища</div>
-		<div class="text" id="text7">Журналы</div>
-		<div class="text" id="text23">Пупсы</div>
-		<div class="text" id="text24">Тайники с крышками</div>
+		<div class="text" id="text2">Сокровища</div>
+		<div class="text" id="text3">Журналы</div>
+		<div class="text" id="text4">Пупсы</div>
+		<div class="text" id="text5">Тайники с крышками</div>
 		<label class="switch" id="switch1"><input type="checkbox" onchange="LocationsOnOff()" id="LocationsButton" checked="checked" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch6"><input type="checkbox" onchange="TreasureOnOff()" id="TreasureButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch7"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch23"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
-		<label class="switch" id="switch24"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="switch2"><input type="checkbox" onchange="TreasureOnOff()" id="TreasureButton" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="switch3"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
+		<label class="switch" id="switch4"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
+		<label class="switch" id="switch5"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#treasure"><input type="image" src="css/images/url.png" alt="ОК" id="url1_1" width="12" height="12" title="Скопировать ссылку"></div>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#magazine"><input type="image" src="css/images/url.png" alt="ОК" id="url1_2" width="12" height="12" title="Скопировать ссылку"></div>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#bobblehead"><input type="image" src="css/images/url.png" alt="ОК" id="url1_3" width="12" height="12" title="Скопировать ссылку"></div>
@@ -1085,7 +781,7 @@ LocationsOnOff();
 		<label class="switch" id="re_switch5"><input type="checkbox" onchange="RECampOnOff()" id="RECampButton" autocomplete="off"><span class="slider"></span></label>
 		<label class="switch" id="re_switch6"><input type="checkbox" onchange="REMiningOnOff()" id="REMiningButton" autocomplete="off"><span class="slider"></span></label>
 		
-		<div class="buttoninfo"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
+		<div class="re_info"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
 (Откроется в новой вкладке)" style="padding: 0;"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
 		</div>
 		<div class="b_url" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_1" width="12" height="12" title="Скопировать ссылку"></div>
@@ -1176,95 +872,24 @@ LocationsOnOff();
 	</ul>
 </li>
 <li>
-    <div class="dropdownlink"><i class="fa fa-industry" aria-hidden="true"></i> Месторождения (для экстракторов)
-      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-    </div>
-    <ul class="submenuItems">
-		<div style="height: 197px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
-			<div class="text" id="text8">Медь</div>
-			<div class="text" id="text9">Хлам</div>
-			<div class="text" id="text10">Уголь</div>
-			<div class="text" id="text11">Бетон</div>
-			<div class="text" id="text12">Масло</div>
-			<div class="text" id="text13">Золото</div>
-			<div class="text" id="text14">Железо</div>
-			<div class="text" id="text15">Свинец</div>
-			<div class="text" id="text16">Серебро</div>
-			<div class="text" id="text17">Кислота</div>
-			<div class="text" id="text18">Удобрение</div>
-			<div class="text" id="text19">Алюминий</div>
-			<div class="text" id="text20">Кристаллы</div>
-			<div class="text" id="text21">Черный титан</div>
-			<div class="text" id="text22">Ядерный материал</div>
-			​<label class="switch" id="switch8"><input type="checkbox" onchange="MedyOnOff()" id="MedyButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch9"><input type="checkbox" onchange="HlamOnOff()" id="HlamButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch10"><input type="checkbox" onchange="UgolyOnOff()" id="UgolyButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch11"><input type="checkbox" onchange="BetonOnOff()" id="BetonButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch12"><input type="checkbox" onchange="MasloOnOff()" id="MasloButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch13"><input type="checkbox" onchange="ZolotoOnOff()" id="ZolotoButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch14"><input type="checkbox" onchange="JelezoOnOff()" id="JelezoButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch15"><input type="checkbox" onchange="SvinecOnOff()" id="SvinecButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch16"><input type="checkbox" onchange="SerebroOnOff()" id="SerebroButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch17"><input type="checkbox" onchange="KislotaOnOff()" id="KislotaButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch18"><input type="checkbox" onchange="UdobrenieOnOff()" id="UdobrenieButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch19"><input type="checkbox" onchange="AluminiyOnOff()" id="AluminiyButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch20"><input type="checkbox" onchange="KristalliOnOff()" id="KristalliButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch21"><input type="checkbox" onchange="ChorniyTitanOnOff()" id="ChorniyTitanButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="switch22"><input type="checkbox" onchange="YaderniyMaterialOnOff()" id="YaderniyMaterialButton" autocomplete="off"><span class="slider"></span></label>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#medy"><input type="image" src="css/images/url.png" id="url3_1" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#hlam"><input type="image" src="css/images/url.png" id="url3_2" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#ugoly"><input type="image" src="css/images/url.png" id="url3_3" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#beton"><input type="image" src="css/images/url.png" id="url3_4" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#maslo"><input type="image" src="css/images/url.png" id="url3_5" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#zoloto"><input type="image" src="css/images/url.png" id="url3_6" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#jelezo"><input type="image" src="css/images/url.png" id="url3_7" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#svinec"><input type="image" src="css/images/url.png" id="url3_8" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#serebro"><input type="image" src="css/images/url.png" id="url3_9" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#kislota"><input type="image" src="css/images/url.png" id="url3_10" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#udobrenie"><input type="image" src="css/images/url.png" id="url3_11" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#aluminiy"><input type="image" src="css/images/url.png" id="url3_12" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#kristalli"><input type="image" src="css/images/url.png" id="url3_13" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#chorniytitan"><input type="image" src="css/images/url.png" id="url3_14" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#yaderniymaterial"><input type="image" src="css/images/url.png" id="url3_15" width="12" height="12" title="Скопировать ссылку"></div>
+	<div class="dropdownlink"><i class="fa fa-industry" aria-hidden="true"></i> Месторождения (для экстракторов)
+		<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	</div>
+	<ul class="submenuItems">
+		<div style="height: 190px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+			<div id="de_l"></div>
+			<div id="de_r"></div>
 		</div>
 	</ul>
 </li>
 <li>
-    <div class="dropdownlink"><i class="fas fa-gem" aria-hidden="true" style="left: 15px;"></i> Рудные жилы
-      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-    </div>
-    <ul class="submenuItems">
+	<div class="dropdownlink"><i class="fas fa-gem" aria-hidden="true" style="left: 15px;"></i> Рудные жилы
+		<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	</div>
+	<ul class="submenuItems">
 		<div style="position: relative; height: 147px; width: 408px; font-family: LemonMilkRus; font-size: 10pt;">
-			<div id="box_v">
-				<div class="vein_text">Алюминиевая жила</div>
-				<div class="vein_text">Железная жила</div>
-				<div class="vein_text">Жила кристаллов</div>
-				<div class="vein_text">Жила черного титана</div>
-				<div class="vein_text">Жила ультрацита</div>
-				<div class="vein_text">Золотая жила</div>
-			</div>
-			<div id="box_v_b">
-				<label class="switch switch2"><input type="checkbox" onchange="Vein1OnOff()" id="Vein1Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein2OnOff()" id="Vein2Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein3OnOff()" id="Vein3Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein4OnOff()" id="Vein4Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein5OnOff()" id="Vein5Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein6OnOff()" id="Vein6Button" autocomplete="off"><span class="slider"></span></label>	
-			</div>
-			<div id="box_v2">
-				<div class="vein_text">Медная жила</div>
-				<div class="vein_text">Свинцовая жила</div>
-				<div class="vein_text">Серебряная жила</div>
-				<div class="vein_text">Угольная жила</div>
-				<div class="vein_text">Урановая жила</div>
-			</div>
-			<div id="box_v2_b">
-				<label class="switch switch2"><input type="checkbox" onchange="Vein7OnOff()" id="Vein7Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein8OnOff()" id="Vein8Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein9OnOff()" id="Vein9Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein10OnOff()" id="Vein10Button" autocomplete="off"><span class="slider"></span></label>	
-				<label class="switch switch2"><input type="checkbox" onchange="Vein11OnOff()" id="Vein11Button" autocomplete="off"><span class="slider"></span></label>	
-			</div>
+			<div id="ve_l"></div>
+			<div id="ve_r"></div>
 		</div>
 	</ul>
 </li>
@@ -1274,127 +899,8 @@ LocationsOnOff();
 	</div>
 	<ul class="submenuItems">
 		<div style="position: relative; height: 280px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
-			<div class="plants_text" id="plants_text1">Гриб</div>
-			<div class="plants_text" id="plants_text2">Арбуз</div>
-			<div class="plants_text" id="plants_text3">Астра</div>
-			<div class="plants_text" id="plants_text4">Тошка</div>
-			<div class="plants_text" id="plants_text5">Тыква (Тип 1)</div>
-			<div class="plants_text" id="plants_text6">Тыква (Тип 2)</div>
-			<div class="plants_text" id="plants_text7">Клюква</div>
-			<div class="plants_text" id="plants_text8">Морковь</div>
-			<div class="plants_text" id="plants_text9">Ежевика</div>
-			<div class="plants_text" id="plants_text10">Кукуруза</div>
-			<div class="plants_text" id="plants_text11">Лихоцвет</div>
-			<div class="plants_text" id="plants_text12">Илофасоль</div>
-			<div class="plants_text" id="plants_text13">Кроволист</div>
-			<div class="plants_text" id="plants_text14">Мозгогриб</div>
-			<div class="plants_text" id="plants_text15">Мутафрукт</div>
-			<div class="plants_text" id="plants_text16">Пеплоцвет</div>
-			<div class="plants_text" id="plants_text17">Смоляника</div>
-			<div class="plants_text" id="plants_text18">Хвостолом</div>
-			<div class="plants_text" id="plants_text19">Бритвозлак</div>
-			<div class="plants_text" id="plants_text20">Грязноцвет</div>
-			<div class="plants_text" id="plants_text21">Рододендрон</div>
-			<div class="plants_text" id="plants_text22">Чертополох</div>
-			<div class="plants_text" id="plants_text23">Ночной ползун</div>
-			<div class="plants_text" id="plants_text24">Нутряной гриб</div>
-			<div class="plants_text" id="plants_text25">Огненный гриб</div>
-			<div class="plants_text" id="plants_text26">Яйцо молерота</div>
-			<div class="plants_text" id="plants_text27">Пепельная роза</div>
-			<div class="plants_text" id="plants_text28">Ягода-хлопушка</div>
-			<div class="plants_text" id="plants_text29">Корень женьшеня</div>
-			<div class="plants_text" id="plants_text30">Светящийся гриб</div>	
-			<div class="plants_text" id="plants_text31">Цветок душителя</div>
-			<div class="plants_text" id="plants_text32">Светящаяся смола</div>
-			<div class="plants_text" id="plants_text33">Зараженная клюква</div>
-			<div class="plants_text" id="plants_text34">Папоротник-мутант</div>
-			<div class="plants_text" id="plants_text35">Обесцвеченный кизил</div>	
-			<div class="plants_text" id="plants_text36">Цветок дикой тошки</div>
-			<div class="plants_text" id="plants_text37">Цветок дикой тыквы</div>
-			<div class="plants_text" id="plants_text38">Цветок дикого арбуза</div>
-			<div class="plants_text" id="plants_text39">Цветок дикой моркови</div>
-			<div class="plants_text" id="plants_text40">Гигантский хищнолист</div>
-			<label class="switch" id="plants_switch1"><input type="checkbox" onchange="GribOnOff()" id="GribButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch2"><input type="checkbox" onchange="ArbuzOnOff()" id="ArbuzButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch3"><input type="checkbox" onchange="AstraOnOff()" id="AstraButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch4"><input type="checkbox" onchange="ToshkaOnOff()" id="ToshkaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch5"><input type="checkbox" onchange="TyikvaOnOff()" id="TyikvaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch6"><input type="checkbox" onchange="Tyikva2OnOff()" id="Tyikva2Button" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch7"><input type="checkbox" onchange="KlukvaOnOff()" id="KlukvaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch8"><input type="checkbox" onchange="MorkovyOnOff()" id="MorkovyButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch9"><input type="checkbox" onchange="EjevikaOnOff()" id="EjevikaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch10"><input type="checkbox" onchange="KukuruzaOnOff()" id="KukuruzaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch11"><input type="checkbox" onchange="LihocvetOnOff()" id="LihocvetButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch12"><input type="checkbox" onchange="IlofasolyOnOff()" id="IlofasolyButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch13"><input type="checkbox" onchange="KrovolistOnOff()" id="KrovolistButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch14"><input type="checkbox" onchange="MozgogribOnOff()" id="MozgogribButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch15"><input type="checkbox" onchange="MutafruktOnOff()" id="MutafruktButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch16"><input type="checkbox" onchange="PeplocvetOnOff()" id="PeplocvetButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch17"><input type="checkbox" onchange="SmolyanikaOnOff()" id="SmolyanikaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch18"><input type="checkbox" onchange="HvostolomOnOff()" id="HvostolomButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch19"><input type="checkbox" onchange="BritvozlakOnOff()" id="BritvozlakButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch20"><input type="checkbox" onchange="GryaznocvetOnOff()" id="GryaznocvetButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch1_2"><input type="checkbox" onchange="RododendronOnOff()" id="RododendronButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch2_2"><input type="checkbox" onchange="ChertopolohOnOff()" id="ChertopolohButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch3_2"><input type="checkbox" onchange="NochnoyPolzunOnOff()" id="NochnoyPolzunButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch4_2"><input type="checkbox" onchange="NutryanoyGribOnOff()" id="NutryanoyGribButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch5_2"><input type="checkbox" onchange="OgnenniyGribOnOff()" id="OgnenniyGribButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch6_2"><input type="checkbox" onchange="YaycoMolerotaOnOff()" id="YaycoMolerotaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch7_2"><input type="checkbox" onchange="PepelynayaRozaOnOff()" id="PepelynayaRozaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch8_2"><input type="checkbox" onchange="YagodaHlopushkaOnOff()" id="YagodaHlopushkaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch9_2"><input type="checkbox" onchange="KorenyJenyshenyaOnOff()" id="KorenyJenyshenyaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch10_2"><input type="checkbox" onchange="SvetGribOnOff()" id="SvetGribButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch11_2"><input type="checkbox" onchange="CvetokDushitelyaOnOff()" id="CvetokDushitelyaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch12_2"><input type="checkbox" onchange="SvetSmolaOnOff()" id="SvetSmolaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch13_2"><input type="checkbox" onchange="ZarajKlukvaOnOff()" id="ZarajKlukvaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch14_2"><input type="checkbox" onchange="PaporotnikOnOff()" id="PaporotnikButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch15_2"><input type="checkbox" onchange="KizilOnOff()" id="KizilButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch16_2"><input type="checkbox" onchange="CvetokToshkiOnOff()" id="CvetokToshkiButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch17_2"><input type="checkbox" onchange="CvetokTyikvyiOnOff()" id="CvetokTyikvyiButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch18_2"><input type="checkbox" onchange="CvetokArbuzaOnOff()" id="CvetokArbuzaButton" autocomplete="off"><span class="slider"></span></label>	
-			<label class="switch" id="plants_switch19_2"><input type="checkbox" onchange="CvetokMorkoviOnOff()" id="CvetokMorkoviButton" autocomplete="off"><span class="slider"></span></label>
-			<label class="switch" id="plants_switch20_2"><input type="checkbox" onchange="HischnolistOnOff()" id="HischnolistButton" autocomplete="off"><span class="slider"></span></label>			
-			<div class="b_url" data-clipboard-text="https://f76map.ru#grib"><input type="image" src="css/images/url.png" id="url4_1" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#arbuz"><input type="image" src="css/images/url.png" id="url4_2" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#astra"><input type="image" src="css/images/url.png" id="url4_3" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#toshka"><input type="image" src="css/images/url.png" id="url4_4" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#tyikva"><input type="image" src="css/images/url.png" id="url4_5" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#tyikva2"><input type="image" src="css/images/url.png" id="url4_6" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#klukva"><input type="image" src="css/images/url.png" id="url4_7" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#morkovy"><input type="image" src="css/images/url.png" id="url4_8" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#ejevika"><input type="image" src="css/images/url.png" id="url4_9" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#kukuruza"><input type="image" src="css/images/url.png" id="url4_10" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#lihocvet"><input type="image" src="css/images/url.png" id="url4_11" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#ilofasoly"><input type="image" src="css/images/url.png" id="url4_12" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#krovolist"><input type="image" src="css/images/url.png" id="url4_13" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#mozgogrib"><input type="image" src="css/images/url.png" id="url4_14" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#mutafrukt"><input type="image" src="css/images/url.png" id="url4_15" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#peplocvet"><input type="image" src="css/images/url.png" id="url4_16" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#smolyanika"><input type="image" src="css/images/url.png" id="url4_17" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#hvostolom"><input type="image" src="css/images/url.png" id="url4_18" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#britvozlak"><input type="image" src="css/images/url.png" id="url4_19" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#gryaznocvet"><input type="image" src="css/images/url.png" id="url4_20" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#rododendron"><input type="image" src="css/images/url.png" id="url4_2_1" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#chertopoloh"><input type="image" src="css/images/url.png" id="url4_2_2" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#nochnoypolzun"><input type="image" src="css/images/url.png" id="url4_2_3" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#nutryanoygrib"><input type="image" src="css/images/url.png" id="url4_2_4" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#ognenniygrib"><input type="image" src="css/images/url.png" id="url4_2_5" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#yaycomolerota"><input type="image" src="css/images/url.png" id="url4_2_6" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#pepelynayaroza"><input type="image" src="css/images/url.png" id="url4_2_7" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#yagodahlopushka"><input type="image" src="css/images/url.png" id="url4_2_8" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#korenyjenyshenya"><input type="image" src="css/images/url.png" id="url4_2_9" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#svetgrib"><input type="image" src="css/images/url.png" id="url4_2_10" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru##cvetokdushitelya"><input type="image" src="css/images/url.png" id="url4_2_11" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#svetsmola"><input type="image" src="css/images/url.png" id="url4_2_12" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#zarajklukva"><input type="image" src="css/images/url.png" id="url4_2_13" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#paporotnik"><input type="image" src="css/images/url.png" id="url4_2_14" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#kizil"><input type="image" src="css/images/url.png" id="url4_2_15" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetoktoshki"><input type="image" src="css/images/url.png" id="url4_2_16" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetoktyikvyi"><input type="image" src="css/images/url.png" id="url4_2_17" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetokarbuza"><input type="image" src="css/images/url.png" id="url4_2_18" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#cvetokmorkovi"><input type="image" src="css/images/url.png" id="url4_2_19" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="b_url" data-clipboard-text="https://f76map.ru#hischnolist"><input type="image" src="css/images/url.png" id="url4_2_20" width="12" height="12" title="Скопировать ссылку"></div>
-			<div class="emptybox"></div>
+			<div id="pl_l"></div>
+			<div id="pl_r"></div>
 		</div>
 	</ul>
 </li>
@@ -1426,16 +932,11 @@ LocationsOnOff();
 </div>
 	<div id="allcheckbox"><button onclick="AllCheckboxOff()" class="allcheckboxbut" title="Отключить все иконки и маркеры">Отключить все</button></div>
 	<div id="allcheckbox2"><button onclick="AllCheckboxOff2()" class="allcheckboxbut" title="Отключить все иконки (кроме локаций) и маркеры">Отключить все<br>кроме локаций</button></div>
-	<div id="lkm_pkm">
-		<div id="lkm_pkm_text"><u>ПКМ</u> на карте - поставить маркер</div>
-	</div>
+	<div id="pkm"><u>ПКМ</u> на карте - поставить маркер</div>
 	<div id="changemap">
-		<div id="changemaptext1">Стандартная карта</div>
-		<div id="changemaptext2">Военная карта </div>
-		<div id="changemaptext3">Стандартная + регионы</div>
-		<div class="map"><input type="button" id="b4" onclick="but4()" value="1" style="font-family: 'Arial'"/></div>
-		<div class="map"><input type="button" id="b5" onclick="but5()" value="2" style="font-family: 'Arial'"/></div>
-		<div class="map"><input type="button" id="b6" onclick="but6()" value="3" style="font-family: 'Arial'"/></div>
+		<div><input type="button" class="image_map selected_map" id="b4" value="1"/>Стандартная карта</div>
+		<div><input type="button" class="image_map" id="b5" value="2"/>Военная карта</div>
+		<div><input type="button" class="image_map" id="b6" value="3"/>Стандартная + регионы</div>
 	</div>
 	<div class="mapinfo"><a class="fancybox" id="mapinfoid" href="#infookno"><img src="css/images/mapinfo.png" style="width: 78px;" alt=""/></a></div>
 	<div id="discord_f76hub"><a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank" title="Русскоязычный сервер дискорд по игре Fallout 76
@@ -1478,8 +979,132 @@ LocationsOnOff();
 		<img src="css/images/marker-icon.png" style="position: absolute; top: 120px; left: 610px; height: 35px; filter:  drop-shadow(0px 0px 3px #d3d3d3) drop-shadow(0px 0px 3px #d3d3d3) drop-shadow(0px 0px 3px #d3d3d3);"></img>
 	</div>
 </div>
-<script>$('#coords_fullbox').draggable({containment: "body", cancel: '#coords_fullbox2'});</script>
-<script>$('.fancybox').fancybox();</script>
-<script type="application/javascript">setTimeout(urlhash, 1000);</script>
+<script>
+$('.image_map').click(function(){
+	$('.image_map').removeClass('selected_map');
+	$(this).addClass('selected_map');
+	map.removeLayer(image);
+	if ($('.selected_map').val() == 1) {image = L.imageOverlay('css/images/map1.jpg', bounds).addTo(map);};
+	if ($('.selected_map').val() == 2) {image = L.imageOverlay('css/images/map2.jpg', bounds).addTo(map);};
+	if ($('.selected_map').val() == 3) {image = L.imageOverlay('css/images/map3.jpg', bounds).addTo(map);};
+});
+let veins = [
+['Алюминиевая жила','#vein1','Vein1'],
+['Железная жила','#vein2','Vein2'],
+['Жила кристаллов','#vein3','Vein3'],
+['Жила черного титана','#vein4','Vein4'],
+['Жила ультрацита','#vein5','Vein5'],
+['Золотая жила','#vein6','Vein6'],
+['Медная жила','#vein7','Vein7'],
+['Свинцовая жила','#vein8','Vein8'],
+['Серебряная жила','#vein9','Vein9'],
+['Угольная жила','#vein10','Vein10'],
+['Урановая жила','#vein11','Vein11']
+];
+$.each(veins, function (i) {
+	if (i<6) {
+		$('<div>', {class: 'vein', id: 've_'+[i+1]}).appendTo('#ve_l');
+		$('<div class="b_url" style="float: left; padding-right: 5px;" data-clipboard-text="https://f76map.ru'+veins[i][1]+'"><input type="image" src="css/images/url.png" width="12" height="12" title="Скопировать ссылку"></div>').appendTo('#ve_'+[i+1]);
+		$('<div>', {class: 've_t', text: veins[i][0]}).css('float', 'left').appendTo('#ve_'+[i+1]);
+		$('<label class="switch ve_b" style="float: right; position: relative;"><input type="checkbox" onchange="'+veins[i][2]+'OnOff()" id="'+veins[i][2]+'Button" autocomplete="off"><span class="slider"></span></label>').appendTo('#ve_'+[i+1]);
+	} else {
+		$('<div>', {class: 'vein', id: 've_'+[i+1]}).appendTo('#ve_r');
+		$('<div class="b_url" style="float: left; padding-right: 5px;" data-clipboard-text="https://f76map.ru'+veins[i][1]+'"><input type="image" src="css/images/url.png" width="12" height="12" title="Скопировать ссылку"></div>').appendTo('#ve_'+[i+1]);
+		$('<div>', {class: 've_t', text: veins[i][0]}).css('float', 'left').appendTo('#ve_'+[i+1]);
+		$('<label class="switch ve_b" style="float: right; position: relative;"><input type="checkbox" onchange="'+veins[i][2]+'OnOff()" id="'+veins[i][2]+'Button" autocomplete="off"><span class="slider"></span></label>').appendTo('#ve_'+[i+1]);
+	}
+});
+let deposits = [
+['Медь','#medy','Medy'],
+['Хлам','#hlam','Hlam'],
+['Уголь','#ugoly','Ugoly'],
+['Бетон','#beton','Beton'],
+['Масло','#maslo','Maslo'],
+['Золото','#zoloto','Zoloto'],
+['Железо','#jelezo','Jelezo'],
+['Свинец','#svinec','Svinec'],
+['Серебро','#serebro','Serebro'],
+['Кислота','#kislota','Kislota'],
+['Удобрение','#udobrenie','Udobrenie'],
+['Алюминий','#aluminiy','Aluminiy'],
+['Кристаллы','#kristalli','Kristalli'],
+['Черный титан','#chorniytitan','ChorniyTitan'],
+['Ядерный материал','#yaderniymaterial','YaderniyMaterial']
+];
+$.each(deposits, function (i) {
+	if (i<8) {
+		$('<div>', {class: 'deposit', id: 'de_'+[i+1]}).appendTo('#de_l');
+		$('<div class="b_url" style="float: left; padding-right: 10px;" data-clipboard-text="https://f76map.ru'+deposits[i][1]+'"><input type="image" src="css/images/url.png" width="12" height="12" title="Скопировать ссылку"></div>').appendTo('#de_'+[i+1]);
+		$('<div>', {class: 'de_t', text: deposits[i][0]}).css('float', 'left').appendTo('#de_'+[i+1]);
+		$('<label class="switch de_b" style="float: right; position: relative;"><input type="checkbox" onchange="'+deposits[i][2]+'OnOff()" id="'+deposits[i][2]+'Button" autocomplete="off"><span class="slider"></span></label>').appendTo('#de_'+[i+1]);
+	} else {
+		$('<div>', {class: 'deposit', id: 'de_'+[i+1]}).appendTo('#de_r');
+		$('<div class="b_url" style="float: left; padding-right: 10px;" data-clipboard-text="https://f76map.ru'+deposits[i][1]+'"><input type="image" src="css/images/url.png" width="12" height="12" title="Скопировать ссылку"></div>').appendTo('#de_'+[i+1]);
+		$('<div>', {class: 'de_t', text: deposits[i][0]}).css('float', 'left').appendTo('#de_'+[i+1]);
+		$('<label class="switch de_b" style="float: right; position: relative;"><input type="checkbox" onchange="'+deposits[i][2]+'OnOff()" id="'+deposits[i][2]+'Button" autocomplete="off"><span class="slider"></span></label>').appendTo('#de_'+[i+1]);
+	}
+});
+let plants = [
+	['Гриб','#grib','Grib'],
+	['Арбуз','#arbuz','Arbuz'],
+	['Астра','#astra','Astra'],
+	['Тошка','#toshka','Toshka'],
+	['Тыква (Тип 1)','#tyikva','Tyikva'],
+	['Тыква (Тип 2)','#tyikva2','Tyikva2'],
+	['Клюква','#klukva','Klukva'],
+	['Морковь','#morkovy','Morkovy'],
+	['Ежевика','#ejevika','Ejevika'],
+	['Кукуруза','#kukuruza','Kukuruza'],
+	['Лихоцвет','#lihocvet','Lihocvet'],
+	['Илофасоль','#ilofasoly','Ilofasoly'],
+	['Кроволист','#krovolist','Krovolist'],
+	['Мозгогриб','#mozgogrib','Mozgogrib'],
+	['Мутафрукт','#mutafrukt','Mutafrukt'],
+	['Пеплоцвет','#peplocvet','Peplocvet'],
+	['Смоляника','#smolyanika','Smolyanika'],
+	['Хвостолом','#hvostolom','Hvostolom'],
+	['Бритвозлак','#britvozlak','Britvozlak'],
+	['Грязноцвет','#gryaznocvet','Gryaznocvet'],
+	['Рододендрон','#rododendron','Rododendron'],
+	['Чертополох','#chertopoloh','Chertopoloh'],
+	['Ночной ползун','#nochnoypolzun','NochnoyPolzun'],
+	['Нутряной гриб','#nutryanoygrib','NutryanoyGrib'],
+	['Огненный гриб','#ognenniygrib','OgnenniyGrib'],
+	['Яйцо молерота','#yaycomolerota','YaycoMolerota'],
+	['Пепельная роза','#pepelynayaroza','PepelynayaRoza'],
+	['Ягода-хлопушка','#yagodahlopushka','YagodaHlopushka'],
+	['Корень женьшеня','#korenyjenyshenya','KorenyJenyshenya'],
+	['Светящийся гриб','#svetgrib','SvetGrib'],
+	['Цветок душителя','#cvetokdushitelya','CvetokDushitelya'],
+	['Светящаяся смола','#svetsmola','SvetSmola'],
+	['Зараженная клюква','#zarajklukva','ZarajKlukva'],
+	['Папоротник-мутант','#paporotnik','Paporotnik'],
+	['Обесцвеченный кизил','#kizil','Kizil'],
+	['Цветок дикой тошки','#cvetoktoshki','CvetokToshki'],
+	['Цветок дикой тыквы','#cvetoktyikvyi','CvetokTyikvyi'],
+	['Цветок дикого арбуза','#cvetokarbuza','CvetokArbuza'],
+	['Цветок дикой моркови','#cvetokmorkovi','CvetokMorkovi'],
+	['Гигантский хищнолист','#hischnolist','Hischnolist']
+];
+$.each(plants, function (i) {
+	if (i<20) {
+		$('<div>', {class: 'plant', id: 'pl_'+[i+1]}).appendTo('#pl_l');
+		$('<div class="b_url" style="float: left; padding-right: 5px;" data-clipboard-text="https://f76map.ru'+plants[i][1]+'"><input type="image" src="css/images/url.png" width="12" height="12" title="Скопировать ссылку"></div>').appendTo('#pl_'+[i+1]);
+		$('<div>', {class: 'pl_t', text: plants[i][0]}).css('float', 'left').appendTo('#pl_'+[i+1]);
+		$('<label class="switch pl_b" style="float: right; position: relative;"><input type="checkbox" onchange="'+plants[i][2]+'OnOff()" id="'+plants[i][2]+'Button" autocomplete="off"><span class="slider"></span></label>').appendTo('#pl_'+[i+1]);
+	} else {
+		$('<div>', {class: 'plant', id: 'pl_'+[i+1]}).appendTo('#pl_r');
+		$('<div class="b_url" style="float: left; padding-right: 5px;" data-clipboard-text="https://f76map.ru'+plants[i][1]+'"><input type="image" src="css/images/url.png" width="12" height="12" title="Скопировать ссылку"></div>').appendTo('#pl_'+[i+1]);
+		$('<div>', {class: 'pl_t', text: plants[i][0]}).css('float', 'left').appendTo('#pl_'+[i+1]);
+		$('<label class="switch pl_b" style="float: right; position: relative;"><input type="checkbox" onchange="'+plants[i][2]+'OnOff()" id="'+plants[i][2]+'Button" autocomplete="off"><span class="slider"></span></label>').appendTo('#pl_'+[i+1]);
+	}
+});
+</script>
+<script>
+$('#coords_fullbox').draggable({containment: "body", cancel: '#coords_fullbox2'});
+$('.fancybox').fancybox();
+LocationsOnOff();
+setTimeout(urlhash, 1000);
+</script>
 </body>
 </html>
