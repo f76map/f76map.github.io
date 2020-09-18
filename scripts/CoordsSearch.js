@@ -1,7 +1,8 @@
 let manymarkersicons = L.layerGroup().addTo(map);
 function MarkersSet() {
 	manymarkersicons.clearLayers();
-	let mm = eval("[" + document.getElementById('t01').value + "]");
+	let mm_0 = document.getElementById('t01').value.replace(/\s+/g, '');
+	let mm = eval("[" + mm_0 + "]");
 	for (let i = 0; i < mm.length; i++) {
 		if ($("input[name=coords_icon]:checked").val() == 1) {
 			new L.circleMarker([mm[i][0],mm[i][1]], {pane: "top", color: "#ffff00"})
