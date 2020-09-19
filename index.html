@@ -711,225 +711,227 @@
 		<p>Если Вам очень помогла данная карта или какой-то материал который я выкладывал в дискорде, то Вы можете поблагодарить монеткой (кнопка в правом нижнем углу) =).</noindex>
 	</div>
 <div id="sidebar">
-<div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель" data-nosnippet/></div>
-<div id="one" data-nosnippet>
-<ul class="accordion-menu" style="border-radius: 7px; border: 1px solid #3c3c3c; box-shadow: 0 0 5px #bbb;">
-<li>
-	<div class="dropdownlink"><i class="fa fa-home" aria-hidden="true" style="left: 15px;"></i> Основное
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	<div id="sidebarbutton"><input type="button" id="sb0" onclick="f_sb0()" value="►" title="Показать/скрыть панель" data-nosnippet/></div>
+	<div id="one" data-nosnippet>
+		<ul class="accordion-menu" style="border-radius: 7px; border: 1px solid #3c3c3c; box-shadow: 0 0 5px #bbb;">
+		<li>
+			<div class="dropdownlink"><i class="fa fa-home" aria-hidden="true" style="left: 15px;"></i> Основное
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+					<div class="text" id="text1">Локации</div>
+					<div class="text" id="text2">Сокровища</div>
+					<div class="text" id="text3">Журналы</div>
+					<div class="text" id="text4">Пупсы</div>
+					<div class="text" id="text5">Тайники с крышками</div>
+					<label class="switch" id="switch1"><input type="checkbox" onchange="LocationsOnOff()" id="LocationsButton" checked="checked" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="switch2"><input type="checkbox" onchange="TreasureOnOff()" id="TreasureButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="switch3"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="switch4"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
+					<label class="switch" id="switch5"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#treasure"><input type="image" src="css/images/url.png" alt="ОК" id="url1_1" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#magazine"><input type="image" src="css/images/url.png" alt="ОК" id="url1_2" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#bobblehead"><input type="image" src="css/images/url.png" alt="ОК" id="url1_3" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#capstash"><input type="image" src="css/images/url.png" alt="ОК" id="url1_4" width="12" height="12" title="Скопировать ссылку"></div>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fa fa-hammer" aria-hidden="true" style="left: 15px;"></i> Верстаки
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="height: 125px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+					<div class="text" id="wb_text1">Оружейный верстак</div>
+					<div class="text" id="wb_text2">Верстак для брони</div>
+					<div class="text" id="wb_text3">Ремонтный верстак</div>
+					<div class="text" id="wb_text4">Химлаборатория</div>
+					<div class="text" id="wb_text5">Пункт обслуживания силовой брони</div>
+					<label class="switch" id="wb_switch1"><input type="checkbox" onchange="Wb1OnOff()" id="Wb1Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="wb_switch2"><input type="checkbox" onchange="Wb2OnOff()" id="Wb2Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="wb_switch3"><input type="checkbox" onchange="Wb3OnOff()" id="Wb3Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="wb_switch4"><input type="checkbox" onchange="Wb4OnOff()" id="Wb4Button" autocomplete="off"><span class="slider"></span></label>	
+					<label class="switch" id="wb_switch5"><input type="checkbox" onchange="Wb5OnOff()" id="Wb5Button" autocomplete="off"><span class="slider"></span></label>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#workbench1"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_1" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#workbench2"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_2" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#workbench3"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_3" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#workbench4"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_4" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#workbench5"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_5" width="12" height="12" title="Скопировать ссылку"></div>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fa fa-random" aria-hidden="true"></i> Случайные встречи
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+					<div class="text" id="re_text1">Assault</div>
+					<div class="text" id="re_text2">Object</div>
+					<div class="text" id="re_text3">Scene</div>
+					<div class="text" id="re_text4">Travel</div>
+					<div class="text" id="re_text5">Camp</div>
+					<div class="text" id="re_text6">Mining</div>
+					
+					<label class="switch" id="re_switch1"><input type="checkbox" onchange="REAssaultOnOff()" id="REAssaultButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="re_switch2"><input type="checkbox" onchange="REObjectOnOff()" id="REObjectButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="re_switch3"><input type="checkbox" onchange="RESceneOnOff()" id="RESceneButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="re_switch4"><input type="checkbox" onchange="RETravelOnOff()" id="RETravelButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="re_switch5"><input type="checkbox" onchange="RECampOnOff()" id="RECampButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="re_switch6"><input type="checkbox" onchange="REMiningOnOff()" id="REMiningButton" autocomplete="off"><span class="slider"></span></label>
+					
+					<div class="re_info"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
+		(Откроется в новой вкладке)" style="padding: 0;"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
+					</div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_1" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_2" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_3" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_4" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#camp"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_5" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#mining"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_6" width="12" height="12" title="Скопировать ссылку"></div>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fa fa-pastafarianism" aria-hidden="true" style="left: 14px;"></i> Монстры и животные
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="height: 280px; position: relative; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
+					<div class="text" id="strangemobs_text">Места спавна флэтвудского монстра<br>и молерота (спавнятся ночью)</div>
+					<label class="switch" id="strangemobs_switch"><input type="checkbox" onchange="StrangeMobsOnOff()" id="StrangeMobsButton" autocomplete="off"><span class="slider"></span></label>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#strangemobs"><input type="image" src="css/images/url.png" alt="ОК" id="url5" width="12" height="12" title="Скопировать ссылку"></div>
+					
+					<div class="text" id="animals1_text"><u>Возможные места спавна животных (шанс)</u></div>
+					<div class="text" id="animals1_1_text">Бобер</div>
+					<div class="text" id="animals1_2_text">Кошка</div>
+					<div class="text" id="animals1_3_text">Курица</div>
+					<div class="text" id="animals1_4_text">Светлячок</div>
+					<div class="text" id="animals1_5_text">Лисица</div>
+					<div class="text" id="animals1_6_text">Опоссум</div>
+					<div class="text" id="animals1_7_text">Кролик</div>
+					<div class="text" id="animals1_8_text">Лягушка</div>
+					<div class="text" id="animals1_9_text">Рад-олень</div>
+					<div class="text" id="animals1_10_text">Белка</div>
+					<label class="switch" id="animals1_1_switch"><input type="checkbox" onchange="Animals1_1OnOff()" id="Animals1_1Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_2_switch"><input type="checkbox" onchange="Animals1_2OnOff()" id="Animals1_2Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_3_switch"><input type="checkbox" onchange="Animals1_3OnOff()" id="Animals1_3Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_4_switch"><input type="checkbox" onchange="Animals1_4OnOff()" id="Animals1_4Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_5_switch"><input type="checkbox" onchange="Animals1_5OnOff()" id="Animals1_5Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_6_switch"><input type="checkbox" onchange="Animals1_6OnOff()" id="Animals1_6Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_7_switch"><input type="checkbox" onchange="Animals1_7OnOff()" id="Animals1_7Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_8_switch"><input type="checkbox" onchange="Animals1_8OnOff()" id="Animals1_8Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_9_switch"><input type="checkbox" onchange="Animals1_9OnOff()" id="Animals1_9Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals1_10_switch"><input type="checkbox" onchange="Animals1_10OnOff()" id="Animals1_10Button" autocomplete="off"><span class="slider"></span></label>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_1"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_1_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_2"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_2_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_3"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_3_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_4"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_4_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_5"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_5_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_6"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_6_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_7"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_7_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_8"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_8_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_9"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_9_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_10"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_10_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="text" id="animals2_text"><u>Места спавна животных</u></div>
+					<div class="text" id="animals2_1_text">Бобер</div>
+					<div class="text" id="animals2_2_text">Брамин</div>
+					<div class="text" id="animals2_3_text">Кошка</div>
+					<div class="text" id="animals2_4_text">Курица</div>
+					<div class="text" id="animals2_5_text">Светлячок</div>
+					<div class="text" id="animals2_6_text">Лисица</div>
+					<div class="text" id="animals2_7_text">Опоссум</div>
+					<div class="text" id="animals2_8_text">Кролик</div>
+					<div class="text" id="animals2_9_text">Лягушка</div>
+					<div class="text" id="animals2_10_text">Рад-олень</div>
+					<div class="text" id="animals2_11_text">Белка</div>
+					<label class="switch" id="animals2_1_switch"><input type="checkbox" onchange="Animals2_1OnOff()" id="Animals2_1Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_2_switch"><input type="checkbox" onchange="Animals2_2OnOff()" id="Animals2_2Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_3_switch"><input type="checkbox" onchange="Animals2_3OnOff()" id="Animals2_3Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_4_switch"><input type="checkbox" onchange="Animals2_4OnOff()" id="Animals2_4Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_5_switch"><input type="checkbox" onchange="Animals2_5OnOff()" id="Animals2_5Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_6_switch"><input type="checkbox" onchange="Animals2_6OnOff()" id="Animals2_6Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_7_switch"><input type="checkbox" onchange="Animals2_7OnOff()" id="Animals2_7Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_8_switch"><input type="checkbox" onchange="Animals2_8OnOff()" id="Animals2_8Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_9_switch"><input type="checkbox" onchange="Animals2_9OnOff()" id="Animals2_9Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_10_switch"><input type="checkbox" onchange="Animals2_10OnOff()" id="Animals2_10Button" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="animals2_11_switch"><input type="checkbox" onchange="Animals2_11OnOff()" id="Animals2_11Button" autocomplete="off"><span class="slider"></span></label>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_1"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_1_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_2"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_2_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_3"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_3_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_4"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_4_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_5"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_5_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_6"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_6_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_7"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_7_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_8"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_8_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_9"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_9_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_10"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_10_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_11"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_11_url" width="12" height="12" title="Скопировать ссылку"></div>
+					<div style="position: absolute; height: 5px; width: 100%; top: 347px;"></div>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fa fa-industry" aria-hidden="true"></i> Месторождения (для экстракторов)
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="height: 190px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+					<div id="de_l"></div>
+					<div id="de_r"></div>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fas fa-gem" aria-hidden="true" style="left: 15px;"></i> Рудные жилы
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="position: relative; height: 147px; width: 408px; font-family: LemonMilkRus; font-size: 10pt;">
+					<div id="ve_l"></div>
+					<div id="ve_r"></div>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fas fa-seedling" aria-hidden="true"></i> Растения
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="position: relative; height: 280px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
+					<div id="pl_l"></div>
+					<div id="pl_r"></div>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fas fa-cog" aria-hidden="true"></i> Хлам (без загружаемых локаций)
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="position: relative; height: 280px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
+					<div id="box_h"></div>
+					<div id="box_h_b"></div>
+					<div id="box_h_s" style="position: absolute; left: 5px; width: 12px;"></div>
+					<script src="scripts/Objects/Hlam.js"></script>
+				</div>
+			</ul>
+		</li>
+		<li>
+			<div class="dropdownlink"><i class="fa fa-asterisk" aria-hidden="true"></i> Разное
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</div>
+			<ul class="submenuItems">
+				<div style="height: 30px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+					<div class="misc_text">Портативный обед</div>
+					<label class="switch" id="misk_switch"><input type="checkbox" onchange="PortADinerOnOff()" id="PortADinerButton" autocomplete="off"><span class="slider"></span></label>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#portadiner"><input type="image" src="css/images/url.png" id="url_m_1" width="12" height="12" title="Скопировать ссылку"></div>
+				</div>
+			</ul>
+		</li>
+		</ul>
 	</div>
-	<ul class="submenuItems">
-		<div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
-		<div class="text" id="text1">Локации</div>
-		<div class="text" id="text2">Сокровища</div>
-		<div class="text" id="text3">Журналы</div>
-		<div class="text" id="text4">Пупсы</div>
-		<div class="text" id="text5">Тайники с крышками</div>
-		<label class="switch" id="switch1"><input type="checkbox" onchange="LocationsOnOff()" id="LocationsButton" checked="checked" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch2"><input type="checkbox" onchange="TreasureOnOff()" id="TreasureButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch3"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="switch4"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
-		<label class="switch" id="switch5"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#treasure"><input type="image" src="css/images/url.png" alt="ОК" id="url1_1" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#magazine"><input type="image" src="css/images/url.png" alt="ОК" id="url1_2" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#bobblehead"><input type="image" src="css/images/url.png" alt="ОК" id="url1_3" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#capstash"><input type="image" src="css/images/url.png" alt="ОК" id="url1_4" width="12" height="12" title="Скопировать ссылку"></div>
-		</div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fa fa-hammer" aria-hidden="true" style="left: 15px;"></i> Верстаки
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-		<div style="height: 125px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
-		<div class="text" id="wb_text1">Оружейный верстак</div>
-		<div class="text" id="wb_text2">Верстак для брони</div>
-		<div class="text" id="wb_text3">Ремонтный верстак</div>
-		<div class="text" id="wb_text4">Химлаборатория</div>
-		<div class="text" id="wb_text5">Пункт обслуживания силовой брони</div>
-		<label class="switch" id="wb_switch1"><input type="checkbox" onchange="Wb1OnOff()" id="Wb1Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="wb_switch2"><input type="checkbox" onchange="Wb2OnOff()" id="Wb2Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="wb_switch3"><input type="checkbox" onchange="Wb3OnOff()" id="Wb3Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="wb_switch4"><input type="checkbox" onchange="Wb4OnOff()" id="Wb4Button" autocomplete="off"><span class="slider"></span></label>	
-		<label class="switch" id="wb_switch5"><input type="checkbox" onchange="Wb5OnOff()" id="Wb5Button" autocomplete="off"><span class="slider"></span></label>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench1"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_1" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench2"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_2" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench3"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_3" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench4"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_4" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#workbench5"><input type="image" src="css/images/url.png" alt="ОК" id="wb_url_5" width="12" height="12" title="Скопировать ссылку"></div>
-		</div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fa fa-random" aria-hidden="true"></i> Случайные встречи
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-		<div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
-		<div class="text" id="re_text1">Assault</div>
-		<div class="text" id="re_text2">Object</div>
-		<div class="text" id="re_text3">Scene</div>
-		<div class="text" id="re_text4">Travel</div>
-		<div class="text" id="re_text5">Camp</div>
-		<div class="text" id="re_text6">Mining</div>
-		
-		<label class="switch" id="re_switch1"><input type="checkbox" onchange="REAssaultOnOff()" id="REAssaultButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="re_switch2"><input type="checkbox" onchange="REObjectOnOff()" id="REObjectButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="re_switch3"><input type="checkbox" onchange="RESceneOnOff()" id="RESceneButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="re_switch4"><input type="checkbox" onchange="RETravelOnOff()" id="RETravelButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="re_switch5"><input type="checkbox" onchange="RECampOnOff()" id="RECampButton" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="re_switch6"><input type="checkbox" onchange="REMiningOnOff()" id="REMiningButton" autocomplete="off"><span class="slider"></span></label>
-		
-		<div class="re_info"><a href="random_encounters.png" target="_blank" title="Классификация случайных встреч
-(Откроется в новой вкладке)" style="padding: 0;"><img src="css/images/icon_info.png" width="34" height="34" alt="Классификация случайных встреч"></a>
-		</div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#assault"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_1" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#object"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_2" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#scene"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_3" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#travel"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_4" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#camp"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_5" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#mining"><input type="image" src="css/images/url.png" alt="ОК" id="re_url_6" width="12" height="12" title="Скопировать ссылку"></div>
-		</div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fa fa-pastafarianism" aria-hidden="true" style="left: 14px;"></i> Монстры и животные
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-	<div style="height: 280px; position: relative; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
-		<div class="text" id="strangemobs_text">Места спавна флэтвудского монстра<br>и молерота (спавнятся ночью)</div>
-		<label class="switch" id="strangemobs_switch"><input type="checkbox" onchange="StrangeMobsOnOff()" id="StrangeMobsButton" autocomplete="off"><span class="slider"></span></label>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#strangemobs"><input type="image" src="css/images/url.png" alt="ОК" id="url5" width="12" height="12" title="Скопировать ссылку"></div>
-		
-		<div class="text" id="animals1_text"><u>Возможные места спавна животных (шанс)</u></div>
-		<div class="text" id="animals1_1_text">Бобер</div>
-		<div class="text" id="animals1_2_text">Кошка</div>
-		<div class="text" id="animals1_3_text">Курица</div>
-		<div class="text" id="animals1_4_text">Светлячок</div>
-		<div class="text" id="animals1_5_text">Лисица</div>
-		<div class="text" id="animals1_6_text">Опоссум</div>
-		<div class="text" id="animals1_7_text">Кролик</div>
-		<div class="text" id="animals1_8_text">Лягушка</div>
-		<div class="text" id="animals1_9_text">Рад-олень</div>
-		<div class="text" id="animals1_10_text">Белка</div>
-		<label class="switch" id="animals1_1_switch"><input type="checkbox" onchange="Animals1_1OnOff()" id="Animals1_1Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_2_switch"><input type="checkbox" onchange="Animals1_2OnOff()" id="Animals1_2Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_3_switch"><input type="checkbox" onchange="Animals1_3OnOff()" id="Animals1_3Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_4_switch"><input type="checkbox" onchange="Animals1_4OnOff()" id="Animals1_4Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_5_switch"><input type="checkbox" onchange="Animals1_5OnOff()" id="Animals1_5Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_6_switch"><input type="checkbox" onchange="Animals1_6OnOff()" id="Animals1_6Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_7_switch"><input type="checkbox" onchange="Animals1_7OnOff()" id="Animals1_7Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_8_switch"><input type="checkbox" onchange="Animals1_8OnOff()" id="Animals1_8Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_9_switch"><input type="checkbox" onchange="Animals1_9OnOff()" id="Animals1_9Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals1_10_switch"><input type="checkbox" onchange="Animals1_10OnOff()" id="Animals1_10Button" autocomplete="off"><span class="slider"></span></label>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_1"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_1_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_2"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_2_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_3"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_3_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_4"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_4_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_5"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_5_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_6"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_6_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_7"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_7_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_8"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_8_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_9"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_9_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals1_10"><input type="image" src="css/images/url.png" alt="ОК" id="animals1_10_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="text" id="animals2_text"><u>Места спавна животных</u></div>
-		<div class="text" id="animals2_1_text">Бобер</div>
-		<div class="text" id="animals2_2_text">Брамин</div>
-		<div class="text" id="animals2_3_text">Кошка</div>
-		<div class="text" id="animals2_4_text">Курица</div>
-		<div class="text" id="animals2_5_text">Светлячок</div>
-		<div class="text" id="animals2_6_text">Лисица</div>
-		<div class="text" id="animals2_7_text">Опоссум</div>
-		<div class="text" id="animals2_8_text">Кролик</div>
-		<div class="text" id="animals2_9_text">Лягушка</div>
-		<div class="text" id="animals2_10_text">Рад-олень</div>
-		<div class="text" id="animals2_11_text">Белка</div>
-		<label class="switch" id="animals2_1_switch"><input type="checkbox" onchange="Animals2_1OnOff()" id="Animals2_1Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_2_switch"><input type="checkbox" onchange="Animals2_2OnOff()" id="Animals2_2Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_3_switch"><input type="checkbox" onchange="Animals2_3OnOff()" id="Animals2_3Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_4_switch"><input type="checkbox" onchange="Animals2_4OnOff()" id="Animals2_4Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_5_switch"><input type="checkbox" onchange="Animals2_5OnOff()" id="Animals2_5Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_6_switch"><input type="checkbox" onchange="Animals2_6OnOff()" id="Animals2_6Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_7_switch"><input type="checkbox" onchange="Animals2_7OnOff()" id="Animals2_7Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_8_switch"><input type="checkbox" onchange="Animals2_8OnOff()" id="Animals2_8Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_9_switch"><input type="checkbox" onchange="Animals2_9OnOff()" id="Animals2_9Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_10_switch"><input type="checkbox" onchange="Animals2_10OnOff()" id="Animals2_10Button" autocomplete="off"><span class="slider"></span></label>
-		<label class="switch" id="animals2_11_switch"><input type="checkbox" onchange="Animals2_11OnOff()" id="Animals2_11Button" autocomplete="off"><span class="slider"></span></label>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_1"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_1_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_2"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_2_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_3"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_3_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_4"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_4_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_5"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_5_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_6"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_6_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_7"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_7_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_8"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_8_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_9"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_9_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_10"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_10_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#animals2_11"><input type="image" src="css/images/url.png" alt="ОК" id="animals2_11_url" width="12" height="12" title="Скопировать ссылку"></div>
-		<div style="position: absolute; height: 5px; width: 100%; top: 347px;"></div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fa fa-industry" aria-hidden="true"></i> Месторождения (для экстракторов)
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-		<div style="height: 190px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
-			<div id="de_l"></div>
-			<div id="de_r"></div>
-		</div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fas fa-gem" aria-hidden="true" style="left: 15px;"></i> Рудные жилы
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-		<div style="position: relative; height: 147px; width: 408px; font-family: LemonMilkRus; font-size: 10pt;">
-			<div id="ve_l"></div>
-			<div id="ve_r"></div>
-		</div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fas fa-seedling" aria-hidden="true"></i> Растения
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-		<div style="position: relative; height: 280px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
-			<div id="pl_l"></div>
-			<div id="pl_r"></div>
-		</div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fas fa-cog" aria-hidden="true"></i> Хлам (без загружаемых локаций)
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-		<div style="position: relative; height: 280px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
-			<div id="box_h"></div>
-			<div id="box_h_b"></div>
-			<div id="box_h_s" style="position: absolute; left: 5px; width: 12px;"></div>
-			<script src="scripts/Objects/Hlam.js"></script>
-		</div>
-	</ul>
-</li>
-<li>
-	<div class="dropdownlink"><i class="fa fa-asterisk" aria-hidden="true"></i> Разное
-		<i class="fa fa-chevron-down" aria-hidden="true"></i>
-	</div>
-	<ul class="submenuItems">
-	<div style="height: 30px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
-		<div class="misc_text">Портативный обед</div>
-		<label class="switch" id="misk_switch"><input type="checkbox" onchange="PortADinerOnOff()" id="PortADinerButton" autocomplete="off"><span class="slider"></span></label>
-		<div class="b_url" data-clipboard-text="https://f76map.ru#portadiner"><input type="image" src="css/images/url.png" id="url_m_1" width="12" height="12" title="Скопировать ссылку"></div>
-	</ul>
-</li>
-</ul>
-</div>
 	<div id="allcheckbox"><button onclick="AllCheckboxOff()" class="allcheckboxbut" title="Отключить все иконки и маркеры">Отключить все</button></div>
 	<div id="allcheckbox2"><button onclick="AllCheckboxOff2()" class="allcheckboxbut" title="Отключить все иконки (кроме локаций) и маркеры">Отключить все<br>кроме локаций</button></div>
 	<div id="pkm"><u>ПКМ</u> на карте - поставить маркер</div>
@@ -942,7 +944,6 @@
 	<div id="discord_f76hub"><a href="https://discord.gg/jCbWbJQ" rel="nofollow" target="_blank" title="Русскоязычный сервер дискорд по игре Fallout 76
 (Откроется в новой вкладке)"><img src="css/images/discord_f76hub.png" id="f76hub" onclick="f_f76hub()"/></a></div>
 	<button id="coords_box" onclick="coords_box_show()" title="Включить панель поиска по координатам"><i class="fas fa-map-marked-alt" style="position: absolute; top: 7px; left: 15px;"></i>Включить панель поиска по координатам</button>
-</div>
 </div>
 <div id="donat" style="width: 500px;display: none;" data-nosnippet>
 	<h3 style="text-align: center">Тут можно поблагодарить чеканной монетой =)</h3>
