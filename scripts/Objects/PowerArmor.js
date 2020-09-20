@@ -15,7 +15,7 @@ function FusionCoreOnOff() {
 	if (document.getElementById('FusionCoreButton').checked) {
 		for (let i = 0; i < all_fc.length; i++){
 			if (all_fc[i][2] == 50) {
-				new L.Marker([all_fc[i][0], all_fc[i][1]], {pane: "top", icon: icon_fusioncore}).bindPopup("Ядерный блок (Заряд 50%)").bindTooltip("Ядерный блок (50%)", {direction: 'top'}).addTo(fusioncoreicons);
+				new L.Marker([all_fc[i][0], all_fc[i][1]], {pane: "top", icon: icon_fusioncore}).bindPopup("Ядерный блок (Заряд 50%)").bindTooltip("Ядерный блок (Заряд 50%)", {direction: 'top'}).addTo(fusioncoreicons);
 			}
 			else {
 				new L.Marker([all_fc[i][0], all_fc[i][1]], {pane: "top", icon: icon_fusioncore}).bindPopup("Ядерный блок").bindTooltip("Ядерный блок", {direction: 'top'}).addTo(fusioncoreicons);
