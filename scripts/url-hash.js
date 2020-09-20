@@ -5,6 +5,8 @@ function urlhash() {
 			['#magazine','Magazine'],
 			['#bobblehead','Bobblehead'],
 			['#capstash','CapStash'],
+			['#fusioncore','FusionCore'],
+			['#powerarmor','PowerArmor'],
 			
 			['#workbench1','Wb1'],
 			['#workbench2','Wb2'],
