@@ -114,3 +114,7 @@
 	var icon_capstash2 = L.icon({iconUrl: 'css/images/icon_capstash2.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	var icon_capstash3 = L.icon({iconUrl: 'css/images/icon_capstash3.png',	iconSize: [25, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	
+	var icon_powerarmor1 = L.icon({iconUrl: 'css/images/icon_powerarmor1.png',	iconSize: [31, 25],	iconAnchor: [15, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+	var icon_powerarmor2 = L.icon({iconUrl: 'css/images/icon_powerarmor2.png',	iconSize: [31, 25],	iconAnchor: [15, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+	var icon_fusioncore = L.icon({iconUrl: 'css/images/icon_fusioncore.png',	iconSize: [18, 25],	iconAnchor: [9, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+	
