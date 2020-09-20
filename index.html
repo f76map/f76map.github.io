@@ -311,19 +311,27 @@
 		#text1 {top: 10px; left: 30px;} /*Локации*/
 		#text2 {top: 33px; left: 30px;} /*Сокровища*/
 		#text3 {top: 56px; left: 30px;} /*Журналы*/
-		#text4 {top: 10px; left: 210px;} /*Пупсы*/
-		#text5 {top: 33px; left: 210px;} /*Тайники с крышками*/
+		#text4 {top: 10px; left: 215px;} /*Пупсы*/
+		#text5 {top: 33px; left: 215px;} /*Тайники с крышками*/
+		#text6 {top: 79px; left: 30px;} /*Силовая броня*/
+		#text7 {top: 79px; left: 215px;} /*Ядерный блок*/
 		
-		#switch1 {top: 6px; left: 120px;}
-		#switch2 {top: 29px; left: 120px;}
-		#switch3 {top: 52px; left: 120px;}
+		#switch1 {top: 6px; left: 145px;}
+		#switch2 {top: 29px; left: 145px;}
+		#switch3 {top: 52px; left: 145px;}
 		#switch4 {top: 6px; left: 368px;}
 		#switch5 {top: 29px; left: 368px;}
+		#switch6 {top: 75px; left: 145px;}
+		#switch7 {top: 75px; left: 368px;}
 		
 		#url1_1 {position: absolute; top: 33px; left: 10px;}
 		#url1_2 {position: absolute; top: 56px; left: 10px;}
-		#url1_3 {position: absolute; top: 10px; left: 190px;}
-		#url1_4 {position: absolute; top: 33px; left: 190px;}
+		#url1_3 {position: absolute; top: 10px; left: 195px;}
+		#url1_4 {position: absolute; top: 33px; left: 195px;}
+		#url1_5 {position: absolute; top: 79px; left: 10px;}
+		#url1_6 {position: absolute; top: 79px; left: 195px;}
+		
+		
 /*Верстаки*/
 		#wb_text1 {top: 10px; left: 30px;} /*Оружейный верстак*/
 		#wb_text2 {top: 33px; left: 30px;} /*Верстак для брони*/
@@ -571,6 +579,12 @@
 	}
 	function AllCheckboxOff2(){
 	$('input[type="checkbox"]:checked:not(#LocationsButton)').prop('checked',false);
+	bobbleheadicons.clearLayers();
+	treasureicons.clearLayers();
+	capstashicons.clearLayers();
+	magazineicons.clearLayers();
+	fusioncoreicons.clearLayers();
+	powerarmoricons.clearLayers();
 	wb1icons.clearLayers(); wb2icons.clearLayers(); wb3icons.clearLayers(); wb4icons.clearLayers(); wb5icons.clearLayers();
 	reassaulticons.clearLayers(); reobjecticons.clearLayers(); resceneicons.clearLayers(); retravelicons.clearLayers(); recampicons.clearLayers(); reminingicons.clearLayers();
 	strangemobsicons.clearLayers();
@@ -591,10 +605,6 @@
 	ugolyicons.clearLayers();
 	zolotoicons.clearLayers();
 	yaderniymaterialicons.clearLayers();
-	treasureicons.clearLayers();
-	magazineicons.clearLayers();
-	bobbleheadicons.clearLayers();
-	capstashicons.clearLayers();
 	gribicons.clearLayers();
 	arbuzicons.clearLayers();
 	astraicons.clearLayers();
@@ -689,6 +699,7 @@
 <script src="scripts/Objects/Magazine.js"></script>
 <script src="scripts/Objects/Bobblehead.js"></script>
 <script src="scripts/Objects/CapStash.js"></script>
+<script src="scripts/Objects/PowerArmor.js"></script>
 <script src="scripts/Objects/Workbenches.js"></script>
 <script src="scripts/Objects/RandomEncounters.js"></script>
 <script src="scripts/Objects/StrangeMobs.js"></script>
@@ -719,21 +730,31 @@
 				<i class="fa fa-chevron-down" aria-hidden="true"></i>
 			</div>
 			<ul class="submenuItems">
-				<div style="height: 77px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
+				<div style="height: 102px;position: relative; font-family: LemonMilkRus; font-size: 10pt;">
 					<div class="text" id="text1">Локации</div>
 					<div class="text" id="text2">Сокровища</div>
 					<div class="text" id="text3">Журналы</div>
 					<div class="text" id="text4">Пупсы</div>
 					<div class="text" id="text5">Тайники с крышками</div>
+					<div class="text" id="text6">Силовая броня</div>
+					<div class="text" id="text7">Ядерный блок</div>
+					
 					<label class="switch" id="switch1"><input type="checkbox" onchange="LocationsOnOff()" id="LocationsButton" checked="checked" autocomplete="off"><span class="slider"></span></label>
 					<label class="switch" id="switch2"><input type="checkbox" onchange="TreasureOnOff()" id="TreasureButton" autocomplete="off"><span class="slider"></span></label>
 					<label class="switch" id="switch3"><input type="checkbox" onchange="MagazineOnOff()" id="MagazineButton" autocomplete="off"><span class="slider"></span></label>
 					<label class="switch" id="switch4"><input type="checkbox" onchange="BobbleheadOnOff()" id="BobbleheadButton" autocomplete="off"><span class="slider"></span></label>	
 					<label class="switch" id="switch5"><input type="checkbox" onchange="CapStashOnOff()" id="CapStashButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="switch6"><input type="checkbox" onchange="PowerArmorOnOff()" id="PowerArmorButton" autocomplete="off"><span class="slider"></span></label>
+					<label class="switch" id="switch7"><input type="checkbox" onchange="FusionCoreOnOff()" id="FusionCoreButton" autocomplete="off"><span class="slider"></span></label>
+					
+					
 					<div class="b_url" data-clipboard-text="https://f76map.ru#treasure"><input type="image" src="css/images/url.png" alt="ОК" id="url1_1" width="12" height="12" title="Скопировать ссылку"></div>
 					<div class="b_url" data-clipboard-text="https://f76map.ru#magazine"><input type="image" src="css/images/url.png" alt="ОК" id="url1_2" width="12" height="12" title="Скопировать ссылку"></div>
 					<div class="b_url" data-clipboard-text="https://f76map.ru#bobblehead"><input type="image" src="css/images/url.png" alt="ОК" id="url1_3" width="12" height="12" title="Скопировать ссылку"></div>
 					<div class="b_url" data-clipboard-text="https://f76map.ru#capstash"><input type="image" src="css/images/url.png" alt="ОК" id="url1_4" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#powerarmor"><input type="image" src="css/images/url.png" alt="ОК" id="url1_5" width="12" height="12" title="Скопировать ссылку"></div>
+					<div class="b_url" data-clipboard-text="https://f76map.ru#fusioncore"><input type="image" src="css/images/url.png" alt="ОК" id="url1_6" width="12" height="12" title="Скопировать ссылку"></div>
+					
 				</div>
 			</ul>
 		</li>
