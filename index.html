@@ -512,21 +512,23 @@
 	var allmarkers = L.layerGroup().addTo(map);
 	var markers = []
 	function createMarker(coords, op) {
-		var id
-		if (markers.length < 1) id = 0
-		else id = markers[markers.length - 1]._id + 1
-		var popupContent =
-		"X: " + coords[1] + "<br>Y: "  + coords[0] +
-		"<br><button id='popupbutton' onclick='clearMarker(" + id + ")'>удалить</button>";
-		var myMarker = L.marker(coords, {
-			draggable: false,
-			pane: "top"
-		}).addTo(allmarkers);
-		myMarker._id = id
-		if (op == 1){var myPopup = myMarker.bindPopup(popupContent).openPopup();}
-		else {var myPopup = myMarker.bindPopup(popupContent);}
-		map.addLayer(myMarker)
-		markers.push(myMarker)
+		if (coords[0]<=290000 && coords[0]>=-290000 && coords[1]<=290000 && coords[1]>=-290000){
+			var id
+			if (markers.length < 1) id = 0
+			else id = markers[markers.length - 1]._id + 1
+			var popupContent =
+			"X: " + coords[1] + "<br>Y: "  + coords[0] +
+			"<br><button id='popupbutton' onclick='clearMarker(" + id + ")'>удалить</button>";
+			var myMarker = L.marker(coords, {
+				draggable: false,
+				pane: "top"
+			}).addTo(allmarkers);
+			myMarker._id = id
+			if (op == 1){var myPopup = myMarker.bindPopup(popupContent).openPopup();}
+			else {var myPopup = myMarker.bindPopup(popupContent);}
+			map.addLayer(myMarker)
+			markers.push(myMarker)
+		}
 	}
 	function clearMarker(id) {
 		console.log(markers)
