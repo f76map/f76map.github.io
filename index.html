@@ -460,10 +460,12 @@
 		.plant {height: 20px; line-height: 20px; padding-bottom: 3px;}
 		.pl_t {position: relative; height: 13px; padding-right: 5px; font-size: 9pt; font-family: LemonMilkRus;}
 /*Хлам*/
+		#hlam_filter_select {position: absolute; top: 10px; left: 10px; height: 30px; width: 370px; text-align: center; font-family: LemonMilkRus; font-size: 10pt;}
+		
 		.hlam_text {position: relative; height: 13px; margin-top: 10px; font-size: 9pt;}
-		#box_h {position: absolute; width: 325px; height: 100%; top: 2px; left: 65px;}
-		#box_h_b {position: absolute; width: 36px; height: 100%; top: 2px; left: 20px;}
-		.b_url_hlam {position: relative; top: 3px; height: 15px; margin-top: 8px;}
+		#box_h {position: absolute; width: 325px; height: 100%; top: 42px; left: 65px;}
+		#box_h_b {position: absolute; width: 36px; height: 100%; top: 42px; left: 20px;}
+		.b_url_hlam {position: relative; top: 43px; height: 15px; margin-top: 8px;}
 		#hlam_t_273, #hlam_t_274, #hlam_t_275, #hlam_t_276, #hlam_t_277, #hlam_t_278, #hlam_t_279, #hlam_t_280, #hlam_t_281 {font-size: 8pt;}
 		.switch2 {position: relative; top: 3px; margin-top: 3px;}
 		.emptybox2 {position: relative; height: 10px; width: 100%;}
@@ -650,6 +652,7 @@
 	HlamOff();
 	vein1icons.clearLayers(); vein2icons.clearLayers(); vein3icons.clearLayers(); vein4icons.clearLayers(); vein5icons.clearLayers(); vein6icons.clearLayers(); vein7icons.clearLayers(); vein8icons.clearLayers(); vein9icons.clearLayers(); vein10icons.clearLayers(); vein11icons.clearLayers();
 	portadinericons.clearLayers();
+	hlam_filter_select.selectedIndex = 0;
 	}
 	var clipboard = new Clipboard('.b_url');
 	clipboard.on('success', function(e) {
@@ -934,6 +937,7 @@
 			</div>
 			<ul class="submenuItems">
 				<div style="position: relative; height: 280px; width: 408px; font-family: LemonMilkRus; font-size: 10pt; overflow-y: scroll;">
+					<select id="hlam_filter_select" autocomplete="off" onchange="select_hlam(value)"></select>
 					<div id="box_h"></div>
 					<div id="box_h_b"></div>
 					<div id="box_h_s" style="position: absolute; left: 5px; width: 12px;"></div>
