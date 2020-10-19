@@ -947,3 +947,19 @@ function HlamOff() {
 		Func();
 	}
 };
+
+let hlam_filter = ['[ не выбрано ]','Алюминий','Антисептик','Асбест','Бетон','Болт','Дерево','Защитные волокна','Золото','Керамика','Кислота','Клей','Кожа','Кость','Кристалл','Масло','Медь','Оптическое волокно','Пластмасса','Пробка','Проводка','Пружина','Резина','Свинец','Серебро','Сталь','Стекло','Стекловолокно','Текстиль','Удобрение','Ультрацит','Черный титан','Шестеренки','Ядерный материал'];
+$.each(hlam_filter, function (a) {
+	$('<option style="font-family: Arial; font-size: 12pt;">'+hlam_filter[a]+'</option>').appendTo('#hlam_filter_select');
+});
+	
+function select_hlam(b){
+	let c = 1;
+	$.each(hlam, function (d) {
+		if(hlam[d][3].length != 0) {
+			if($.inArray(b, hlam[d][2]) != -1) {window['Hlam'+[c]+'Button'].checked = 1; window['Hlam'+[c]+'OnOff']();}
+			else {window['Hlam'+[c]+'Button'].checked = 0; window['hlam'+[c]+'icons'].clearLayers();}
+			c++;
+		}
+	});
+}
