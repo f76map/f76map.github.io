@@ -957,8 +957,9 @@ function select_hlam(b){
 	let c = 1;
 	$.each(hlam, function (d) {
 		if(hlam[d][3].length != 0) {
+			window['Hlam'+[c]+'Button'].checked = 0;
+			window['hlam'+[c]+'icons'].clearLayers();
 			if($.inArray(b, hlam[d][2]) != -1) {window['Hlam'+[c]+'Button'].checked = 1; window['Hlam'+[c]+'OnOff']();}
-			else {window['Hlam'+[c]+'Button'].checked = 0; window['hlam'+[c]+'icons'].clearLayers();}
 			c++;
 		}
 	});
