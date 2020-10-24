@@ -476,7 +476,7 @@
 		.fancybox-custom .fancybox-skin {box-shadow: 0 0 50px #222;}
 		.b_url_i {width: 15px; height: 15px;}
 		.b_url2 {position: relative; top: 1px; display: inline-block; margin-right: 8px;}
-		#popupbutton {
+		.popupbutton {
 			font-family: RobotoCondensed-Regular;
 			font-size: 14px;
 			line-height: 14px;
@@ -489,7 +489,8 @@
 			position: relative;
 			left: 2px;
 		}
-		#popupbutton:hover {border: 2px solid red;}
+		#popupbuttondel:hover {border: 2px solid red;}
+		#popupbuttonlink:hover {border: 2px solid rgb(255, 200, 0);}
 </style>
 </head>
 <body>
@@ -519,7 +520,8 @@
 			else id = markers[markers.length - 1]._id + 1
 			var popupContent =
 			"X: " + coords[1] + "<br>Y: "  + coords[0] +
-			"<br><button id='popupbutton' onclick='clearMarker(" + id + ")'>удалить</button>";
+			"<br><button class='popupbutton b_url' id='popupbuttonlink' data-clipboard-text='https://f76map.ru#y="+coords[0]+"&x="+coords[1]+"' title='Скопировать ссылку'>ссылка</button>" +
+			"<br><button class='popupbutton b_url' id='popupbuttondel' onclick='clearMarker(" + id + ")' title='Удалить маркер'>удалить</button>";
 			var myMarker = L.marker(coords, {
 				draggable: false,
 				pane: "top"
