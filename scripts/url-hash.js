@@ -133,7 +133,7 @@ function urlhash() {
 				return hash_coords;
 			}, {});
 			if (hash_coords.y<=290000 && hash_coords.y>=-290000 && hash_coords.x<=290000 && hash_coords.x>=-290000) {
-				createMarker([hash_coords.y, hash_coords.x],[0]);
+				createMarker([hash_coords.y, hash_coords.x],[1]);
 				map.flyTo([hash_coords.y, hash_coords.x], -7);
 			}
 		}
