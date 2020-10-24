@@ -124,6 +124,20 @@ function urlhash() {
 			if(window.location.hash == '#hlam_'+[i]) {window['Hlam'+[i]+'Button'].checked = 1;window['Hlam'+[i]+'OnOff']();}
 			if(window.location.hash == '#hlam_'+[i]+'_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); document.getElementById('sidebar').style.display = 'none'; donat0.style.display = 'none'; window['Hlam'+[i]+'Button'].checked = 1;window['Hlam'+[i]+'OnOff']();}
 		}
+		
+		let hash = window.location.hash.substr(1);
+		if (/y=[0-9\-]*&x=[0-9\-]*/.test(hash) == true) {
+			let hash_coords = hash.split('&').reduce(function (hash_coords, item) {
+				let parts = item.split('=');
+				hash_coords[parts[0]] = parts[1];
+				return hash_coords;
+			}, {});
+			if (hash_coords.y<=290000 && hash_coords.y>=-290000 && hash_coords.x<=290000 && hash_coords.x>=-290000) {
+				createMarker([hash_coords.y, hash_coords.x],[0]);
+				map.flyTo([hash_coords.y, hash_coords.x], -7);
+			}
+		}
+		
 		history.pushState("", document.title, window.location.pathname + window.location.search);
 	}
 }
