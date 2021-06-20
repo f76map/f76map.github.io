@@ -76,7 +76,7 @@
 	var icon76 = L.icon({iconUrl: 'css/images/icon76.png',	iconSize: [28, 27],	iconAnchor: [13, 14],	popupAnchor: [0, -14],	tooltipAnchor: [0, -14]});
 	var icon77 = L.icon({iconUrl: 'css/images/icon77.png',	iconSize: [32, 25],	iconAnchor: [15, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	var icon78 = L.icon({iconUrl: 'css/images/icon78.png',	iconSize: [32, 30],	iconAnchor: [16, 16],	popupAnchor: [0, -16],	tooltipAnchor: [0, -16]});
-	var icon79 = L.icon({iconUrl: 'css/images/icon79.png',	iconSize: [28, 27],	iconAnchor: [13, 14],	popupAnchor: [0, -14],	tooltipAnchor: [0, -14]});
+	var icon79 = L.icon({iconUrl: 'css/images/icon79.png',	iconSize: [26, 25],	iconAnchor: [12, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	
 	var icon_random1 = L.icon({iconUrl: 'css/images/icon_random1.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
 	var icon_random2 = L.icon({iconUrl: 'css/images/icon_random2.png',	iconSize: [21, 21],	iconAnchor: [10, 10],	popupAnchor: [0, -10],	tooltipAnchor: [0, -10]});
@@ -118,4 +118,9 @@
 	var icon_powerarmor1 = L.icon({iconUrl: 'css/images/icon_powerarmor1.png',	iconSize: [31, 25],	iconAnchor: [15, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	var icon_powerarmor2 = L.icon({iconUrl: 'css/images/icon_powerarmor2.png',	iconSize: [31, 25],	iconAnchor: [15, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
 	var icon_fusioncore = L.icon({iconUrl: 'css/images/icon_fusioncore.png',	iconSize: [18, 25],	iconAnchor: [9, 13],	popupAnchor: [0, -13],	tooltipAnchor: [0, -13]});
+	
+	var icon_safe0 = L.icon({iconUrl: 'css/images/safe_0.png',	iconSize: [17, 22],	iconAnchor: [8, 11],	popupAnchor: [0, -11],	tooltipAnchor: [0, -11]});
+	var icon_safe1 = L.icon({iconUrl: 'css/images/safe_1.png',	iconSize: [17, 22],	iconAnchor: [8, 11],	popupAnchor: [0, -11],	tooltipAnchor: [0, -11]});
+	var icon_safe2 = L.icon({iconUrl: 'css/images/safe_2.png',	iconSize: [17, 22],	iconAnchor: [8, 11],	popupAnchor: [0, -11],	tooltipAnchor: [0, -11]});
+	var icon_safe3 = L.icon({iconUrl: 'css/images/safe_3.png',	iconSize: [17, 22],	iconAnchor: [8, 11],	popupAnchor: [0, -11],	tooltipAnchor: [0, -11]});
 	
