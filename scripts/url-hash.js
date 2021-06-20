@@ -119,7 +119,7 @@ function urlhash() {
 			if(window.location.hash == h_list[i][0]) {window[h_list[i][1]+'Button'].checked = 1; window[h_list[i][1]+'OnOff']();}
 			if(window.location.hash == h_list[i][0]+'_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); document.getElementById('sidebar').style.display = 'none'; donat0.style.display = 'none'; window[h_list[i][1]+'Button'].checked = 1; window[h_list[i][1]+'OnOff']();}
 		}
-		for (let i=1; i <= 384; i++) {if(window.location.hash == '#'+[i]) {m[i].openPopup(); map.flyTo(m[i].getLatLng(), -7);}}
+		for (let i=1; i <= 386; i++) {if(window.location.hash == '#'+[i]) {m[i].openPopup(); map.flyTo(m[i].getLatLng(), -7);}}
 		for (let i=1; i <= 609; i++) {
 			if(window.location.hash == '#hlam_'+[i]) {window['Hlam'+[i]+'Button'].checked = 1;window['Hlam'+[i]+'OnOff']();}
 			if(window.location.hash == '#hlam_'+[i]+'_0') {allicons.clearLayers();LocationsButton.checked = 0; map.removeControl( controlSearch ); map.removeControl(map.zoomControl); document.getElementById('sidebar').style.display = 'none'; donat0.style.display = 'none'; window['Hlam'+[i]+'Button'].checked = 1;window['Hlam'+[i]+'OnOff']();}
