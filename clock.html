@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Platypus clock</title>
+ <style>
+		html, body {width: 100%; height: 100%; margin: 0;}
+		#main {position: absolute; top: calc(50% - 345px); left: calc(50% - 318px); padding: 10px;}
+		/* #main {border: 3px solid black;} */
+		#strelka1 {position: absolute; top: 148px; left: 303px; transform-origin: 13px 215px; z-index: 100;}
+		#strelka2 {position: absolute; top: 201px; left: 301px; transform-origin: 15px 162px;}
+		#text {text-align: center; height: 50px; font-size: 28pt;}
+</style>
+</head>
+<body>
+	<div id="main">
+		<div id="text"></div>
+		<img src="platypus_clock/clock.png">
+		<div id="strelka1"><img src="platypus_clock/str1.png"></div>
+		<div id="strelka2"><img src="platypus_clock/str2.png"></div>
+	</div>
+	<script>
+		let date = new Date();
+		function ust_strelki() {
+			date = new Date();
+			strelka1.style.transform = "rotate("+date.getMinutes()*6+"deg)";
+			strelka2.style.transform = "rotate("+[date.getHours()*30+date.getMinutes()*0.5]+"deg)";
+			
+			let aa;
+			let a = date.getMinutes().toString().slice(-1);
+			let a2 = date.getMinutes();
+			if (a == 1) {
+				if (a2 == 11) {
+					aa = "минУТЬ"
+				}
+				else {
+					aa = "минУТЯ"
+				}
+			}
+			else if (a == 2 || a == 3 || a == 4) {
+				if (a2 == 12 || a2 == 13 || a2 == 14) {
+					aa = "минУТЬ"
+				}
+				else {
+					aa = "минУТИ"
+				}
+			}
+			else {
+				aa = "минУТЬ"
+			}
+			
+			let bb;
+			let b = date.getHours().toString().slice(-1);
+			let b2 = date.getHours();
+			if (b == 1) {
+				if (b2 == 11) {
+					bb = "чОсов"
+				}
+				else {
+					bb = "чОс"
+				}
+			}
+			else if (b == 2 || b == 3 || b == 4) {
+				if (b2 == 12 || b2 == 13 || b2 == 14){
+					bb = "чОсов"
+				}
+				else {
+					bb = "чОса"
+				}
+			}
+			else {
+				bb = "чОсов"
+			}
+			
+			let text1 = "Сейчас "+date.getHours()+" "+bb+" и "+date.getMinutes()+" "+aa;
+			text.innerHTML = text1;
+		}
+		ust_strelki();
+		setInterval(ust_strelki, 10000);
+	</script>
+</body>
+</html>
